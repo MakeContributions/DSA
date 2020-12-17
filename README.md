@@ -1,2 +1,2 @@
-# Data-Structures-n-Algorithm
+# Data Structures and Algorithm
 DSA contributions
