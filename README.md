@@ -4,9 +4,10 @@ Data structure and Algorithm (DSA)
 ## Contribution Guidelines
 ### 1. Folders or files naming
 The folder or file should have the below conditions:
-- A new file should add to the **index(README.md)**.
 - The name should be in lower case.
 - The word should be separate with a **dash(-)**.
+- When have new topic should create a new folder and index for that topic.
+- A new file should add to the **index(README.md)**.
 - It can only contain **dash(-)** it cannot have other specific characters.
 
 For example:
