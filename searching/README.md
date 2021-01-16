@@ -4,6 +4,7 @@
 
 1. linear-search.cpp
 2. binary-search.cpp
+3. jump-search.cpp
 
 ### python
 
