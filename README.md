@@ -6,8 +6,8 @@ Data structure and Algorithm (DSA)
 The folder or file should have the below conditions:
 - The name should be in lower case.
 - The word should be separate with a **dash(-)**.
-- When have new topic should create a new folder and index for that topic.
-- A new file should add to the **index(README.md)**.
+- When have new topic should create a new folder and index for it.
+- A new file should add to the **index(README.md)** using [relative links](https://compugoddess.com/relative-vs-absolute-links/)
 - It can only contain **dash(-)** it cannot have other specific characters.
 
 For example:
