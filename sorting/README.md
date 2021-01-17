@@ -2,10 +2,10 @@
 
 ### c-or-cpp
 
-1. bubble-sort.cpp
+1. [Bubble Sort](c-or-cpp/bubble-sort.cpp)
 
 ### python
 
-1. bubble-sort.py
+1. [Bubble Sort](python/bubble-sort.py)
 
 
