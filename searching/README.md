@@ -1,13 +1,13 @@
 # Searching algorithms
 
-### c-or-cpp
+### C or C++
 
-1. linear-search.cpp
-2. binary-search.cpp
-3. jump-search.cpp
+1. [Linear Search](c-or-cpp/linear-search.cpp)
+2. [Binary Search](c-or-cpp/binary-search.cpp)
+3. [Jump Search](c-or-cpp/jump-search.cpp)
 
-### python
+### Python
 
-1. linear-search.py
-2. binary-search.py
+1. [Linear Search](python/linear-search.py)
+2. [Binary Search](python/binary-search.py)
 
