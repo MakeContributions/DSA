@@ -1,11 +1,13 @@
 # Sorting algorithms
 
-### c-or-cpp
+### C or C++
 
-1. bubble-sort.cpp
+1. [Bubble Sort](c-or-cpp/bubble-sort.cpp)
+2. [Insertion Sort](c-or-cpp/insertion-sort.cpp)
+3. [Selection Sort](c-or-cpp/selection-sort.cpp)
 
-### python
+### Python
 
-1. bubble-sort.py
+1. [Bubble Sort](python/bubble-sort.py)
 
 

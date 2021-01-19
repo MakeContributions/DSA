@@ -1,5 +1,5 @@
 # String operations
 
-### c-or-cpp
+### C or C++
 
-1. palindrome check (palindrome.c)
+1. [Palindrome Check](c-or-cpp/palindrome.c)
