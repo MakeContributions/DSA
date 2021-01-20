@@ -10,4 +10,7 @@
 
 1. [Bubble Sort](python/bubble-sort.py)
 
+### JavaScript
+
+1. [Bubble Sort](js/bubble-sort.js)
 
