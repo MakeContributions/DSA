@@ -7,3 +7,7 @@
 ### C#
 Please use [.Net Finddle](https://dotnetfiddle.net/)
 1. [Palindrome Check](csharp/palindrome.cs)
+
+### JavaScript
+
+1. [Palindrome Check](js/palindrome.js)
