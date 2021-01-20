@@ -6,6 +6,11 @@
 2. [Insertion Sort](c-or-cpp/insertion-sort.cpp)
 3. [Selection Sort](c-or-cpp/selection-sort.cpp)
 
+### C#
+1. [Bubble Sort](csharp/bubble-sort.cs)
+2. [Insertion Sort](csharp/insertion-sort.cs)
+3. [Selection Sort](csharp/selection-sort.cs)
+
 ### Python
 
 1. [Bubble Sort](python/bubble-sort.py)
