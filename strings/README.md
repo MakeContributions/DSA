@@ -5,7 +5,8 @@
 1. [Palindrome Check](c-or-cpp/palindrome.c)
 
 ### C#
-Please use [.Net Finddle](https://dotnetfiddle.net/)
+You could use any online IDE (for an example [.net Finddle](https://dotnetfiddle.net/)) to test them.
+
 1. [Palindrome Check](csharp/palindrome.cs)
 
 ### JavaScript
