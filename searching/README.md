@@ -11,3 +11,9 @@
 1. [Linear Search](python/linear-search.py)
 2. [Binary Search](python/binary-search.py)
 
+### Java
+
+1. [Linear Search](java/linear-search.java)
+
+
+
