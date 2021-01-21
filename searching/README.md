@@ -15,3 +15,8 @@
 
 1. [Linear Search](js/linear-search.js)
 
+### Java
+
+1. [Linear Search](java/linear-search.java)
+
+
