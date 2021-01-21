@@ -11,9 +11,12 @@
 1. [Linear Search](python/linear-search.py)
 2. [Binary Search](python/binary-search.py)
 
+### JavaScript
+
+1. [Linear Search](js/linear-search.js)
+
 ### Java
 
 1. [Linear Search](java/linear-search.java)
-
 
 
