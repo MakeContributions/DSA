@@ -14,6 +14,8 @@
 ### Python
 
 1. [Bubble Sort](python/bubble-sort.py)
+2. [Insertion Sort](python/insertion-sort.py)
+2. [Selection Sort](python/selection-sort.py)
 
 ### JavaScript
 
