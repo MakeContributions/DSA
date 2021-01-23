@@ -14,11 +14,11 @@
 ### JavaScript
 
 1. [Linear Search](js/linear-search.js)
-2. [Binary Search](js/binary-search.js)
 
 ### Java
 
 1. [Linear Search](java/linear-search.java)
 2. [Binary Search](java/binary-search.java)
+3. [Jump Search](java/jump-search.java)
 
 
