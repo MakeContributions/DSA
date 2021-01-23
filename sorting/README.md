@@ -17,6 +17,12 @@
 2. [Insertion Sort](python/insertion-sort.py)
 2. [Selection Sort](python/selection-sort.py)
 
+### Java
+
+1. [Bubble Sort](java/bubble-sort.java)
+2. [Insertion Sort](java/insertion-sort.java)
+3. [Selection Sort](java/selection-sort.java)
+
 ### JavaScript
 
 1. [Bubble Sort](js/bubble-sort.js)
