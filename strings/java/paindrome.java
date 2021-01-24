@@ -1,4 +1,4 @@
-public class GFG { 
+public class Algorithm { 
   
     // Function that returns true if 
     // str is a palindrome 
