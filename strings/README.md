@@ -12,3 +12,7 @@ You could use any online IDE (for an example [.net Finddle](https://dotnetfiddle
 ### JavaScript
 
 1. [Palindrome Check](js/palindrome.js)
+
+### Java
+
+1. [Palindrome Check](java/palindrome.java)
