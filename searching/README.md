@@ -10,6 +10,7 @@
 
 1. [Linear Search](python/linear-search.py)
 2. [Binary Search](python/binary-search.py)
+3. [Jump Search](python/jump-search.py) 
 
 ### JavaScript
 
