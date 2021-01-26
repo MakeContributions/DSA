@@ -3,6 +3,7 @@
 ### C or C++
 
 1. [Palindrome Check](c-or-cpp/palindrome.c)
+2. [All subsequences](c-or-cpp/sequence.cpp)
 
 ### C#
 You could use any online IDE (for an example [.net Finddle](https://dotnetfiddle.net/)) to test them.
@@ -16,3 +17,4 @@ You could use any online IDE (for an example [.net Finddle](https://dotnetfiddle
 ### Java
 
 1. [Palindrome Check](java/palindrome.java)
+2. [All subsequences](java/sequence.java)
