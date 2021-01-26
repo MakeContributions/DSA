@@ -28,12 +28,22 @@ def jump_search(arr: list, x: int) -> int:
         return prev
     return -1
 
+def check_sort(test: list) -> bool:
+    """checks whether the given list is sorted or not."""
+    if sorted(test) == test:
+        return True
+    else:
+        return False
+
 
 if __name__ == "__main__":
     arr = [0, 1, 2, 8, 13, 17, 19, 25, 31, 32, 42]
     target = 25
-    res = jump_search(arr, target)
-    if res == -1:
-        print("Number not found!")
+    if check_sort(arr):
+        res = jump_search(arr, target)
+        if res == -1:
+            print("Number not found!")
+        else:
+            print(f"Number {target} is at index {res}")
     else:
-        print(f"Number {target} is at index {res}")
+        print("Given list is not sorted!")
