@@ -15,6 +15,7 @@
 ### JavaScript
 
 1. [Linear Search](js/linear-search.js)
+2. [Binary Search](js/binary-search.js)
 
 ### Java
 
