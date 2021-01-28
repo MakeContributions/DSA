@@ -1,13 +1,16 @@
-let sort = [12,6,3,88,1,4,8];
-
-for(let i = 0; i<sort.length; i++){
-    let key = sort[i];
-    let j = i-1;
-    //comparing keys with other elements
-    while(key<sort[j] && j>=0){
-        sort[j+1]=sort[j];
-        j--;
+function insertionSort(array) {
+    // start with index 1 because only one element is already sorted
+    for(let i=1; i<array.length ; i++) {
+        let key = array[i];
+        let j = i - 1;
+        // decrement j until array[j] is not less or equal to key
+        while(j >= 0 && array[j] > key) {
+            array[j+1] = array[j];
+            j--;
+        }
+        array[j+1] = key;
     }
-    sort[j+1]=key;
+    return array;
 }
-console.log(sort)
+
+console.log(insertionSort([4,5,6,7,8,10,1,2,3,4])) // output : [1,2,3,4,4,5,6,7,8,10]
