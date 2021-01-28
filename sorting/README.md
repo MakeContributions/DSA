@@ -24,6 +24,7 @@
 1. [Bubble Sort](java/bubble-sort.java)
 2. [Insertion Sort](java/insertion-sort.java)
 3. [Selection Sort](java/selection-sort.java)
+4. [Merge Sort](java/merge-sort.java)
 
 ### JavaScript
 
