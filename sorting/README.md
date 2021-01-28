@@ -5,8 +5,10 @@
 1. [Bubble Sort](c-or-cpp/bubble-sort.cpp)
 2. [Insertion Sort](c-or-cpp/insertion-sort.cpp)
 3. [Selection Sort](c-or-cpp/selection-sort.cpp)
+4. [Merge Sort](c-or-cpp/merge-sort.c)
 
 ### C#
+
 1. [Bubble Sort](csharp/bubble-sort.cs)
 2. [Insertion Sort](csharp/insertion-sort.cs)
 3. [Selection Sort](csharp/selection-sort.cs)
