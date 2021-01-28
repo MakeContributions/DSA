@@ -26,4 +26,6 @@
 ### JavaScript
 
 1. [Bubble Sort](js/bubble-sort.js)
+2. [Insertion Sort](js/insertion-sort.js)
+3. [Selection Sort](js/selection-sort.js)
 
