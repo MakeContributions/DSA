@@ -13,11 +13,11 @@ int main()
     printf("Enter the elements of the array:\n");
     for (int i = 0; i < n; i++)
         scanf("%d", &a[i]);
-    printf( "Given array is: ");
+    printf("Given array is: ");
     for (int i = 0; i < n; i++)
         printf("%d ", a[i]);
     mergeSort(a, 0, n - 1);
-    printf( "\nSorted array is: ");
+    printf("\nSorted array is: ");
     for (int i = 0; i < n; i++)
         printf("%d ", a[i]);
     return 0;
@@ -30,7 +30,7 @@ void merging(int a[], int l, int m, int r)
 {
     int n1 = m - l + 1;
     int n2 = r - m;
-    int Left[n1], Right[n2];        // Creating temporary arrays
+    int Left[n1], Right[n2]; // Creating temporary arrays
 
     // Copy data to temp arrays Left[] and Right[]
     for (int i = 0; i < n1; i++)
@@ -55,7 +55,7 @@ void merging(int a[], int l, int m, int r)
     }
 
     // Copy the remaining elements of
-	// Left[], if there are any
+    // Left[], if there are any
     while (p < n1)
     {
         a[k] = Left[p];
@@ -64,7 +64,7 @@ void merging(int a[], int l, int m, int r)
     }
 
     // Copy the remaining elements of
-	// Right[], if there are any
+    // Right[], if there are any
     while (q < n2)
     {
         a[k] = Right[q];
@@ -73,10 +73,9 @@ void merging(int a[], int l, int m, int r)
     }
 }
 
-
 // l is for left index and r is
 // right index of the sub-array
-// of arr to be sorted 
+// of arr to be sorted
 void mergeSort(int a[], int l, int r)
 {
     if (l < r)
