@@ -28,5 +28,7 @@ DSA
 ### 2. Naming Convention
 The programming should keep the naming convention rule of each programming language
 
+### Other topic
+- [First-time contribution](CONTRIBUTING.md)
 ## License
 [MIT](./LICENSE)
