@@ -8,5 +8,5 @@ ehthumbs.db
 Thumbs.db
 
 # binary files
-.out
-.class
+*.out
+*.class
