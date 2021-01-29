@@ -1,4 +1,4 @@
-# OS generated files 
+# OS generated files
 .DS_Store
 .DS_Store?
 ._*
@@ -6,3 +6,7 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# binary files
+.out
+.class
