@@ -17,7 +17,8 @@
 
 1. [Bubble Sort](python/bubble-sort.py)
 2. [Insertion Sort](python/insertion-sort.py)
-2. [Selection Sort](python/selection-sort.py)
+3. [Selection Sort](python/selection-sort.py)
+4. [Quick Sort](python/quick-sort.py)
 
 ### Java
 
