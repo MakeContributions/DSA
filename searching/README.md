@@ -15,7 +15,8 @@
 ### JavaScript
 
 1. [Linear Search](js/linear-search.js)
-2. [Binary Search](js/binary-search.js)
+2. [Binary Search ( Iterative )](js/binary-search.js)
+3. [Binary Search ( Recursive )](js/binary-search-recursive.js)
 
 ### Java
 

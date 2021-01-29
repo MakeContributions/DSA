@@ -6,7 +6,7 @@
 2. [Insertion Sort](c-or-cpp/insertion-sort.cpp)
 3. [Selection Sort](c-or-cpp/selection-sort.cpp)
 4. [Merge Sort](c-or-cpp/merge-sort.c)
-3. [Quick Sort](c-or-cpp/quick-sort.cpp)
+5. [Quick Sort](c-or-cpp/quick-sort.cpp)
 
 ### C#
 
@@ -18,15 +18,19 @@
 
 1. [Bubble Sort](python/bubble-sort.py)
 2. [Insertion Sort](python/insertion-sort.py)
-2. [Selection Sort](python/selection-sort.py)
+3. [Selection Sort](python/selection-sort.py)
+4. [Quick Sort](python/quick-sort.py)
 
 ### Java
 
 1. [Bubble Sort](java/bubble-sort.java)
 2. [Insertion Sort](java/insertion-sort.java)
 3. [Selection Sort](java/selection-sort.java)
+4. [Merge Sort](java/merge-sort.java)
 
 ### JavaScript
 
 1. [Bubble Sort](js/bubble-sort.js)
+2. [Insertion Sort](js/insertion-sort.js)
+3. [Selection Sort](js/selection-sort.js)
 
