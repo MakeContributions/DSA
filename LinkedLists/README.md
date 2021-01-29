@@ -1,4 +1,4 @@
-# Data structures
+# Linked Lists
 
 ### c or c++
 
