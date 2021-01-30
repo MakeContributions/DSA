@@ -9,7 +9,7 @@ int main()
     cout<<"Enter the length of array"<<endl;
 	int n;
 	cin>>n;
-	int a[n];
+	int *a = new int(n);
 	// Getting elements of array
 	cout<<"Enter the elements of array"<<endl;
 	for (int i = 0; i < n; i++)
@@ -21,6 +21,7 @@ int main()
     cout << "\nSorted array: \n";
     for (int i = 0; i < n; i++)
         cout << a[i] << " ";
+    delete (a);
     return 0;
 }
 
