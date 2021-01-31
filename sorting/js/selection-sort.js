@@ -1,15 +1,25 @@
-let sort = [12,6,3,88,1,4,8]
+function selectionSort(array) {
 
-for(let i=0; i<sort.length; i++){
-    for(let j=0; j<sort.length; j++){
-        // comparing array elements
-        if(sort[j]>sort[i]){
-            //swaping elements
-            let temp = sort[i];
-            sort[i]=sort[j];
-            sort[j]= temp;
+    // loop through all elements except last in array
+    for(let i=0;i<array.length - 1;i++) {
+        let min_index = i;
+
+        // find minimum element index in unsorted array
+        for(let j=i+1;j<array.length;j++) {
+            if(array[j] < array[i]) {
+                min_index = j;
+            }
+
+            // swap with element at minimum index
+            let temp = array[min_index];
+            array[min_index] = array[i];
+            array[i] = temp;
         }
     }
+
+    // return sorted array
+    return array;
 }
 
-console.log(sort)
+// test
+console.log(selectionSort([9,8,7,6,5,4,3,2,1,0]))
