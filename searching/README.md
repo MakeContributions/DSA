@@ -10,10 +10,13 @@
 
 1. [Linear Search](python/linear-search.py)
 2. [Binary Search](python/binary-search.py)
+3. [Jump Search](python/jump-search.py) 
 
 ### JavaScript
 
 1. [Linear Search](js/linear-search.js)
+2. [Binary Search ( Iterative )](js/binary-search.js)
+3. [Binary Search ( Recursive )](js/binary-search-recursive.js)
 
 ### Java
 
