@@ -26,19 +26,23 @@ public class SinglyLinkedList<T> {
     }
 
     T removeAtHead() {
+        // check for underflow
         if(this.head == null) {
             System.out.println("Underflow");
             System.exit(1);
         }
+        // store data for return
         T data = this.head.data;
         this.head = this.head.next;
         return data;
     }
 
     void printList() {
+        // if head is null then list is empty 
         if(this.head == null) {
             System.out.println("List is Empty");
         } else {
+            // take itr same as head reference and loop through it until it became null
             Node<T> itr = this.head;
             while(itr != null) {
                 System.out.print(itr.data + " ");
