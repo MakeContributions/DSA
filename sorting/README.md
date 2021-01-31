@@ -7,6 +7,7 @@
 3. [Selection Sort](c-or-cpp/selection-sort.cpp)
 4. [Merge Sort](c-or-cpp/merge-sort.c)
 5. [Quick Sort](c-or-cpp/quick-sort.cpp)
+6. [Heap Sort](c-or-cpp/heap-sort.cpp)
 
 ### C#
 
