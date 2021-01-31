@@ -6,6 +6,7 @@
 2. [Insertion Sort](c-or-cpp/insertion-sort.cpp)
 3. [Selection Sort](c-or-cpp/selection-sort.cpp)
 4. [Merge Sort](c-or-cpp/merge-sort.c)
+5. [Quick Sort](c-or-cpp/quick-sort.cpp)
 
 ### C#
 
