@@ -18,3 +18,16 @@ You could use any online IDE (for an example [.net Finddle](https://dotnetfiddle
 
 1. [Palindrome Check](java/palindrome.java)
 2. [All subsequences](java/sequence.java)
+
+# String algorithms
+  
+### C or C++
+
+1. [KMP String Searching](c-or-cpp/kmp.cpp)
+2. [Rabin Karp String Searching](c-or-cpp/rabin-karp.cpp)
+
+### Java
+
+1. [KMP String Searching](java/kmp.cpp)
+2. [Rabin Karp String Searching](java/rabin-karp.cpp)
+
