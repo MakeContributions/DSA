@@ -2,7 +2,7 @@
   
 void computeLPSArray(char* pat, int M, int* lps); 
   
-// Prints occurrences of txt[] in pat[] 
+// Prints occurrences of pat[] int txt[]
 void KMPSearch(char* pat, char* txt) 
 { 
     int M = strlen(pat); 
@@ -17,6 +17,7 @@ void KMPSearch(char* pat, char* txt)
   
     int i = 0; // index for txt[] 
     int j = 0; // index for pat[] 
+    bool f = 1;//flag to indicate pattern not found
     while (i < N) { 
         if (pat[j] == txt[i]) { 
             j++; 
@@ -24,7 +25,8 @@ void KMPSearch(char* pat, char* txt)
         } 
   
         if (j == M) { 
-            printf("Found pattern at index %d ", i - j); 
+            printf("Found pattern at index %d\n", i - j); 
+            f=0;
             j = lps[j - 1]; 
         } 
   
@@ -38,6 +40,8 @@ void KMPSearch(char* pat, char* txt)
                 i = i + 1; 
         } 
     } 
+  if(f)
+    printf("Pattern is not found");
 } 
   
 // Fills lps[] for given patttern pat[0..M-1] 
