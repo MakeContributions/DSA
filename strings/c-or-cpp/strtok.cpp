@@ -1,19 +1,3 @@
-/* -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
-
-* File Name : strtok.cpp
-
-* Purpose :
-
-* Creation Date : 26-01-2021
-
-* Last Modified : Fri Feb  5 18:41:14 2021
-
-* Created By : Kumar Karan
-
-* Problem Description :
-
-_._._._._._._._._._._._._._._._._._._._._.*/
-
 #include <iostream>
 #include <string>
 #include <chrono>
