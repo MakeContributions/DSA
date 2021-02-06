@@ -10,6 +10,7 @@
 6. [Heap Sort](c-or-cpp/heap-sort.cpp)
 7. [Counting Sort](c-or-cpp/counting-sort.cpp)
 8. [Bucket Sort](c-or-cpp/bucket-sort.cpp)
+9. [Shell Sort](c-or-cpp/shell-sort.cpp)
 
 
 ### C#
