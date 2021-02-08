@@ -11,6 +11,7 @@
 7. [Counting Sort](c-or-cpp/counting-sort.cpp)
 8. [Bucket Sort](c-or-cpp/bucket-sort.cpp)
 9. [Shell Sort](c-or-cpp/shell-sort.cpp)
+10.[Comb Sort](c-or-cpp/comb-sort.cpp)
 
 
 ### C#
