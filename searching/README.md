@@ -23,5 +23,3 @@
 1. [Linear Search](java/linear-search.java)
 2. [Binary Search](java/binary-search.java)
 3. [Jump Search](java/jump-search.java)
-
-
