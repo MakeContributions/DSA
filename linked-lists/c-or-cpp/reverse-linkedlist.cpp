@@ -66,7 +66,7 @@ int32_t main()
     push(&head, 10);
 
     cout << "Linked list before reversing ->" << endl;
-    Node *newhead = reverseList(head);
+    head = reverseList(head);
 
     cout << "Linked list after reversing ->" << endl;
     printlist(head);
