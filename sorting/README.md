@@ -10,8 +10,10 @@
 6. [Heap Sort](c-or-cpp/heap-sort.cpp)
 7. [Counting Sort](c-or-cpp/counting-sort.cpp)
 8. [Bucket Sort](c-or-cpp/bucket-sort.cpp)
-9. [Radix Sort](c-or-cpp/radix-sort.cpp)
+9.  [Radix Sort](c-or-cpp/radix-sort.cpp)
 10. [Shell Sort](c-or-cpp/shell-sort.cpp)
+11. [Comb Sort](c-or-cpp/comb-sort.cpp)
+
 
 
 ### C#
