@@ -48,23 +48,26 @@ Node *reverseList(Node *A)
     return current;
 }
 
-void solve()
+void printlist(Node *head)
+{
+    while (head != NULL)
+    {
+        cout << head->data << " ";
+        head = head->next;
+    }
+    cout << endl;
+}
+
+int32_t main()
 {
     Node *head = NULL;
     push(&head, 5);
     push(&head, 7);
     push(&head, 10);
-    reverseList(head);
-}
 
-int32_t main()
-{
-    // ios_base::sync_with_stdio(false);cin.tie(NULL);
-    int tt;
-    tt = 1;
-    cin >> tt;
-    for (int t = 1; t <= tt; t++)
-    {
-        solve();
-    }
+    cout << "Linked list before reversing ->" << endl;
+    Node *newhead = reverseList(head);
+
+    cout << "Linked list after reversing ->" << endl;
+    printlist(head);
 }
