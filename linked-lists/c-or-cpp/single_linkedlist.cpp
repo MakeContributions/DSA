@@ -141,7 +141,7 @@ public:
         _length = _count;
     }
 
-    int _size(){return _length;}
+    int _size(){calcSize(); return _length;}
 };
 int main()
 {
