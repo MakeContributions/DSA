@@ -1,17 +1,7 @@
-# Linked Lists
+# Graphs
 
 ### C or C++
 
-1. [Singly Linked List](c-or-cpp/singly.cpp)
+1. [Kruskal Algorithm](c-or-cpp/kruskal-algorithm.cpp)
 
-2. [Doubly Linked List](c-or-cpp/doubly.cpp)
 
-3. [Circular Linked List](c-or-cpp/circular.cpp)
-
-### Java
-
-1. [Singly Linked List](java/singly.cpp)
-
-### Java
-
-1. [Singly Linked List](js/singly.cpp)
