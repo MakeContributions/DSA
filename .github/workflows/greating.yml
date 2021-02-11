@@ -1,0 +1,23 @@
+on:
+  push:
+  issues:
+    types: [ opened ]
+  issue_comment:
+    types: [ created ]
+  pull_request_target:
+    types: [ opened ]
+  pull_request_review_comment:
+    types: [ created ]
+
+jobs:
+
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: TawfikYasser/gh-actions-ty/src/welcome@main 
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: '<h1>It''s great having you contribute to this project</h1> Thank you for raising an <strong>Issue</strong>, Welcome to <strong>DSA</strong>'
+          pr-message: '<h1>It''s great having you contribute to this project</h1> Thank you for opening a <strong>Pull Request</strong>, Welcome to <strong>DSA</strong>'
+          footer: 'We will review everything and get back to you, Please checkout our <a href="https://github.com/MakeContributions/DSA/blob/main/CONTRIBUTING.md">CONTRIBUTING RULES</a> and <a href="https://github.com/MakeContributions/DSA/blob/main/CODE_OF_CONDUCT.md">CODE OF CONDUCT</a>, Thanks :smiley:'
