@@ -14,7 +14,7 @@ struct node *current = NULL ;
 
 //Function to Print the Linked List
 void printList(){
-    printf("\n Item in the Linked List are :  ");
+    printf("\nItem in the Linked List are :  ");
     // Intialize the ptr(pointer) with head location .
     struct node *ptr = head ;
     // While Loop until we encounter a Node which is NULL .
@@ -41,7 +41,11 @@ void insertBeg(int data){
 //Deletion at the Beginning of the Linked List
 
 struct node* deleteBeg(){
-
+  //Case of Underflow (Deletion when list is empty)
+   if(head == NULL) {
+    printf("List is Empty , deletion not possible") ;
+    return NULL ;
+   }
   //Store head location in a temporary Node .
   struct node *temp = head ;
 
@@ -52,7 +56,8 @@ struct node* deleteBeg(){
   return temp ;
 
 }
-void main(){
+int main(){
+    deleteBeg();    //Case of Underflow 
     insertBeg(10);  //Insert 10 at Beginning
     insertBeg(20);  //Insert 20 at Beginning
     insertBeg(30);  //Insert 30 at Beginning
@@ -62,4 +67,5 @@ void main(){
     printList();    // Prints : 60 50 40 40 20 10
     deleteBeg();    //Delete First Element
     printList();    // Prints : 50 40 30 20 10
+    return 0 ;
 }
