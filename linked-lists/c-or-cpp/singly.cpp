@@ -34,6 +34,27 @@ class SinglyLinkedList {
             // change head point to new node
             this->head = temp;
         }
+    
+        void insertAtEnd(T data){
+
+            Node<T> *newNode = new Node<T>(data);
+
+            // if head is not pointing to anything then simply point to new node
+            if(this->head == nullptr) {
+                this->head = newNode;
+                return;
+            }
+
+            // if list is not empty, then traverse to the last node using `temp`, then put the address of the new node in the temp->next
+            // and finally, make the next of newNode = NULL
+            Node<T> *temp = new Node<T>();
+            temp = head;
+            while(temp->next != NULL){
+                temp = temp->next;
+            }
+            temp->next = newNode;
+            newNode->next= NULL;
+        }
 
         T removeAtHead() {
             // if list is empty we can't remove node
@@ -73,6 +94,7 @@ int main() {
     l.insertAtHead(1);
     l.insertAtHead(2);
     l.insertAtHead(3);
+    l.insertAtEnd(5);
     l.removeAtHead();
     l.printList();
     return 0;
