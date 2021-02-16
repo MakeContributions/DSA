@@ -8,6 +8,7 @@ class Node {
 
         Node(T data)
             : data(data) , next(nullptr) {};
+        Node(){}
 };
 
 template <typename T>
