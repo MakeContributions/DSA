@@ -74,6 +74,36 @@ class SinglyLinkedList {
             delete temp_ptr;
             return data;
         }
+    
+        T removeAtEnd(){
+            // if list is empty we can't remove node
+            if(this->head == nullptr) {
+                std::cout<<"List is Empty"<<std::endl;
+                exit(1);
+            }
+            
+            Node<T> *temp = new Node<T>();
+            Node<T> *prev = new Node<T>();
+            temp = head;
+            prev = head;
+            //traverse the linked list till end
+            while(temp->next != NULL){
+                prev = temp;
+                temp = temp->next;
+            }
+            T data;
+            //check if there is only one node in the list
+            if(temp == head){
+                head = NULL;
+            }else{
+                //make last noe points to null
+                data = this->prev->data;
+                prev->next = NULL;
+            }
+            //free memory
+            delete temp;
+            return data;
+        }
 
         void printList() const {
             if(this->head == nullptr) {
@@ -97,6 +127,7 @@ int main() {
     l.insertAtHead(3);
     l.insertAtEnd(5);
     l.removeAtHead();
+    l.removeAtEnd();
     l.printList();
     return 0;
 }
