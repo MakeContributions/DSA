@@ -1,3 +1,6 @@
+// Algorithm Type: Divide & Conquer
+// Time Complexity: O(n*log(n))
+
 #include <iostream>
 #include <iterator>
 #include <fstream>

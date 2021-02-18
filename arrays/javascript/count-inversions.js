@@ -1,3 +1,6 @@
+// Algorithm Type: Divide & Conquer
+// Time Complexity: O(n*log(n))
+
 function count_split_inv(arr, left, right) {
   let split_inv, lidx, ridx;
   split_inv = ridx = lidx = 0;

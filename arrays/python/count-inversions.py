@@ -1,3 +1,8 @@
+"""
+Algorithm Type: Divide & Conquer
+Time Complexity: O(n*log(n))
+"""
+
 def count_split_inv(arr, left, right):
   split_inv = ridx = lidx = 0
   size = len(arr)
