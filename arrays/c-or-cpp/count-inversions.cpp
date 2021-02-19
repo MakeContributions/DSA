@@ -49,9 +49,7 @@ long long int count_inversions(vector<int> &vec) {
 }
 
 int main() {
-  ifstream is("inp.txt");
-  istream_iterator<int> start(is), end;
-  vector<int> v(start, end);
+  vector<int> v{8, 2, 1, 5, 7, 3, 9, 2, 0, 1};
   cout << count_inversions(v) << endl;
   return 0;
 }
