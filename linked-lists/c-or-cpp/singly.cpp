@@ -97,7 +97,7 @@ class SinglyLinkedList {
                 head = NULL;
             }else{
                 //make last noe points to null
-                data = this->prev->data;
+                data = prev->data;
                 prev->next = NULL;
             }
             //free memory
