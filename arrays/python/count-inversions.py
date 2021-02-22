@@ -38,8 +38,5 @@ def count_inversions(arr):
 
   return l_inv + r_inv + split_inv
 
-with open("inp.txt") as f:
-  lines = f.readlines()
-  numbers = [int(line) for line in lines]
-
+numbers = [8, 2, 1, 5, 7, 3, 9, 2, 0, 1]
 print(count_inversions(numbers))
