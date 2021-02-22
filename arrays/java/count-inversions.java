@@ -49,12 +49,7 @@ public class inversions {
 
   public static void main(String[] args) {
     try {
-      Scanner s = new Scanner(new File("inp.txt"));
-      int[] arr = new int[100000];
-      int i = 0;
-      while (s.hasNextInt()) {
-        arr[i++] = s.nextInt();
-      }
+      int[] arr = {8, 2, 1, 5, 7, 3, 9, 2, 0, 1};
       System.out.println(count_inversions(arr));
     } catch (Exception e) {
       System.out.println("Err... ");
