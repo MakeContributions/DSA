@@ -43,10 +43,6 @@ function count_inversions(arr) {
   return left_inv + right_inv + split_inv;
 }
 
-let fs = require("fs");
-var arr = fs.readFileSync("inp.txt", "utf8").split("\n");
-for (i in arr) {
-  arr[i] = parseInt(arr[i]);
-}
+var arr = [8, 2, 1, 5, 7, 3, 9, 2, 0, 1];
 
 console.log(count_inversions(arr));
