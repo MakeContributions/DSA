@@ -9,7 +9,6 @@
 5. [String Tokeniser](c-or-cpp/string-tokeniser.cpp)
 
 ### C#
-You could use any online IDE (for an example [.net Finddle](https://dotnetfiddle.net/)) to test them.
 
 1. [Palindrome Check](csharp/palindrome.cs)
 
