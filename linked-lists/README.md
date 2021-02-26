@@ -12,6 +12,7 @@
 2. [Doubly Linked List](c-or-cpp/doubly.cpp)
 
 3. [Circular Linked List](c-or-cpp/circular.cpp)
+4. [Insertion Linked List](c-or-cpp/all-possible-insertion.cpp)
 
 ### Java
 
