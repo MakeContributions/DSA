@@ -1,5 +1,13 @@
 /*Circular linked list implementation in C Programming
-has been used to solve this problem*/
+has been used to solve this problem
+
+Problem :
+People are standing in a circle waiting to be executed. 
+Counting begins at a specified point in the circle and proceeds around 
+the circle in a specified direction. The problem is to find the person standing at which position
+survives at the end, who is then deemed to be the winner.
+
+*/
 #include <stdio.h>
 #include <stdlib.h>
 struct Node{
@@ -32,6 +40,10 @@ void display(struct Node *p){ //displaying nodes
 }
 void josephus(int k, struct Node *first){ //josephus implementation
     struct Node *trail;
+    if (k==1){
+       printf("The Winner is the person standing at= %d",last->data); 
+    }
+    else{
     while(first->next!=first){
         int count=1;
         while(count!=k){
@@ -40,12 +52,14 @@ void josephus(int k, struct Node *first){ //josephus implementation
         count++;
         }
       trail->next=first->next;
+      free(first);
       first=trail->next;
     }
     printf("The Winner is the person standing at= %d",first->data);
+    }
 }
 int main() {
-    int n,a[100],k;
+   int n,a[100],k;
    printf("Enter the number of people in the circle : ");
    scanf("%d",&n);
    printf("Enter their positions in the circle: ");
