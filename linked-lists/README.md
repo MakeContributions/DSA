@@ -12,6 +12,9 @@
 2. [Doubly Linked List](c-or-cpp/doubly.cpp)
 
 3. [Circular Linked List](c-or-cpp/circular.cpp)
+4. [Insertion Linked List](c-or-cpp/all-possible-insertion.cpp)
+
+4. [Josephus Problem Using Circular Linked List](c-or-cpp/josephus-problem.c)
 
 ### Java
 

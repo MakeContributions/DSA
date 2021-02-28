@@ -3,7 +3,8 @@
 ### C or C++
 
 1. [Counting Inversions](c-or-cpp/count-inversions.cpp)
-2. [Left Rotation of Array](c-or-cpp/left-rotation.cpp)
+2. [Dutch Flag Algo](c-or-cpp/dutch-flag-algo.cpp)
+3. [Left Rotation of Array](c-or-cpp/left-rotation.cpp)
 
 ### Python
 
