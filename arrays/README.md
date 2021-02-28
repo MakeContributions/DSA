@@ -3,6 +3,7 @@
 ### C or C++
 
 1. [Counting Inversions](c-or-cpp/count-inversions.cpp)
+2. [Left Rotation of Array](c-or-cpp/left-rotation.cpp)
 
 ### Python
 
