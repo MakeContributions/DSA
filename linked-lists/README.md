@@ -14,6 +14,8 @@
 3. [Circular Linked List](c-or-cpp/circular.cpp)
 4. [Insertion Linked List](c-or-cpp/all-possible-insertion.cpp)
 
+4. [Josephus Problem Using Circular Linked List](c-or-cpp/josephus-problem.c)
+
 ### Java
 
 1. [Singly Linked List](java/singly.cpp)
