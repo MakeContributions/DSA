@@ -23,3 +23,8 @@
 1. [Linear Search](java/linear-search.java)
 2. [Binary Search](java/binary-search.java)
 3. [Jump Search](java/jump-search.java)
+
+### Golang
+
+1. [Linear Search](go/linear-search.go)
+2. [Binary Search](go/binary-search.go)
