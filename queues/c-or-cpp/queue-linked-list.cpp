@@ -23,6 +23,7 @@ public:
     QueueLL() //Empty constructor to initialize front and rear to NULL because in the start the queue will be empty
     {
         front = rear = NULL;
+        _length = 0 ;
     }
 
     // Function `Enqueue` to add new item to the queue from the rear side (End)
@@ -90,9 +91,11 @@ int main()
     qll.print();
     cout<<endl;
     qll.peek();
+    cout<<"Queue size = "<<qll._size()<<endl;
     qll.dequeue();
     qll.print();
     cout<<endl;
     qll.peek();
+    cout<<"Queue size = "<<qll._size()<<endl;
     return 0;
 }
