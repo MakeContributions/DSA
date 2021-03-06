@@ -40,6 +40,7 @@ public:
             rear->next = newNode;
             rear = newNode;
         }
+        _length++;
     }
  
     // Function `Dequeue` to remove an item from the queue from the front side (Start)
@@ -48,6 +49,7 @@ public:
         Node *temp = front;
         front = front->next;
         delete temp; //Free the memory
+        _length--;
     }
 
     // Function `Peek` to return the first item in the queue
@@ -73,31 +75,8 @@ public:
             }
         }
     }
-
-
-    // Function to calculate the size of the queue (The actual elments in the queue)
-    void calcSize()
-    {
-
-        if(front == NULL && rear == NULL) // Empty queue
-        {
-            _length = 0;
-        }
-        else
-        {
-            int _count;
-            Node *temp = front;
-            while(temp!= NULL)
-            {
-                temp = temp->next;
-                _count++;
-            }
-            _length = _count;
-        }
-    }
     int _size()
     {
-        calcSize();
         return _length;
     }
 };
