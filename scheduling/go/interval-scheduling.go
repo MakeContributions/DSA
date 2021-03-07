@@ -1,3 +1,10 @@
+/*
+	Input: Start and finish time of n jobs
+	Output: Schedule with maximum number of non overlapping jobs
+	The Strategy: At each step choose the job with earliest finish time
+	Algorithm Type: Greedy
+	Time Complexity: O(n*log(n))
+*/
 package main
 
 import (
@@ -7,7 +14,6 @@ import (
 
 func getOptSchedule(jobs [][]int) []int {
 	var optSchedule []int
-	// sortedJobs := make([][]int, 0)
 	sortedJobs := append([][]int(nil), jobs...)
 	sort.SliceStable(sortedJobs, func(i, j int) bool {
 		return sortedJobs[i][2] < sortedJobs[j][2]
