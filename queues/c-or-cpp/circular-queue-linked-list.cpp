@@ -15,11 +15,11 @@ class QueueLL
 private:
     Node *front;
     Node *rear;
-    int _length;
+    int length;
 public:
     QueueLL()
     {
-        front = rear = NULL; _length = 0;
+        front = rear = NULL; length = 0;
     }
     //Function to add new element in the queue
     void enqueue(int value)
@@ -38,7 +38,7 @@ public:
             rear = newNode;
             rear->next = front;
         }
-      _length++;
+      length++;
     }
     //Function to remove element from the queue
     void dequeue()
@@ -54,7 +54,9 @@ public:
             rear->next = front;
             delete temp;
         }
-      _length--;
+      length--;
+        if(length < 0 )
+            length = 0;
     }
   //Function returns the first element in the queue
     void peek()
@@ -85,7 +87,7 @@ public:
     }
     int _size()
     {
-        return _length;
+        return length;
     }
 };
 int main()
@@ -96,12 +98,12 @@ int main()
     qll.enqueue(-2);
     qll.print();
     cout<<endl;
-    cout<<"Queue size = "<<qll._size();
+    cout<<"Queue size = "<<qll._size()<<endl;
     qll.peek();
     qll.dequeue();
     qll.print();
     cout<<endl;
-    cout<<"Queue size = "<<qll._size();
+    cout<<"Queue size = "<<qll._size()<<endl;
     qll.peek();
     return 0;
 }
