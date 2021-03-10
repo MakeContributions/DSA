@@ -13,6 +13,7 @@
 9.  [Radix Sort](c-or-cpp/radix-sort.cpp)
 10. [Shell Sort](c-or-cpp/shell-sort.cpp)
 11. [Comb Sort](c-or-cpp/comb-sort.cpp)
+12. [3 Way Quick Sort](c-or-cpp/3way_quick_sort.cpp)
 
 
 
@@ -43,3 +44,6 @@
 2. [Insertion Sort](js/insertion-sort.js)
 3. [Selection Sort](js/selection-sort.js)
 
+### Golang
+1. [Insertion Sort](go/insertion-sort.go)
+2. [Quick Sort](go/quick-sort.go)

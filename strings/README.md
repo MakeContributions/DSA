@@ -22,3 +22,7 @@
 2. [All subsequences](java/sequence.java)
 3. [KMP String Searching](java/kmp.cpp)
 4. [Rabin Karp String Searching](java/rabin-karp.cpp)
+
+### Python
+
+1. [Palindrome Check](python/palindrome.py)
