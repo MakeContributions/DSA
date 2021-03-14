@@ -1,2 +1,2 @@
-# remove the target variable from the cargo
+# remove the path 'target' (for cargo builds) from git
 target/
