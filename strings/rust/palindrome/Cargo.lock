@@ -2,4 +2,4 @@
 # It is not intended for manual editing.
 [[package]]
 name = "palindrome"
-version = "0.1.0"
+version = "1.0.0"
