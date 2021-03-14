@@ -1,0 +1,2 @@
+# remove the target variable from the cargo
+target/
