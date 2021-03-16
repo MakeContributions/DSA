@@ -26,3 +26,8 @@
 ### Python
 
 1. [Palindrome Check](python/palindrome.py)
+
+### Rust
+
+1. [Palindrome Check](rust/palindrome/README.md)
+
