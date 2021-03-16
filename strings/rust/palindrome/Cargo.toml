@@ -1,0 +1,9 @@
+[package]
+name = "palindrome"
+version = "1.0.0"
+authors = ["Goutham Krishna K V <gauthamkrishna9991@live.com>"]
+edition = "2018"
+
+# Dependencies
+
+[dependencies]
