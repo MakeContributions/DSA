@@ -50,9 +50,9 @@ class LinkedList:
 # Code execution starts here 
 if __name__=='__main__':
     l=LinkedList()
-    l.insertAtHead(1);
-    l.insertAtHead('xyz');
-    l.insertAtHead(1.1);
-    l.removeAtHead();
+    l.insertAtHead(1)
+    l.insertAtHead('xyz')
+    l.insertAtHead(1.1)
+    l.removeAtHead()
     l.printList()
 
