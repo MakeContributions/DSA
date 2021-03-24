@@ -1,4 +1,4 @@
-# A simple Python program to create a singly linked list 
+# A simple Python program to create a  linked list 
   
 # Node class 
 class Node:
