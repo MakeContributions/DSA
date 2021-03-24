@@ -19,4 +19,3 @@
 
 ### Python
 1. [Singly Linked List](Python/singly.py)
-2. [Doubly Linked List](Python/doubly.py)
