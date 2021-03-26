@@ -7,6 +7,7 @@
 3. [KMP String Searching](c-or-cpp/kmp.cpp)
 4. [Rabin Karp String Searching](c-or-cpp/rabin-karp.cpp)
 5. [String Tokeniser](c-or-cpp/string-tokeniser.cpp)
+6. [String Reversal](c-or-cpp/string-reverse.cpp)
 
 ### C#
 
