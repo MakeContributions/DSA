@@ -47,3 +47,5 @@
 ### Golang
 1. [Insertion Sort](go/insertion-sort.go)
 2. [Quick Sort](go/quick-sort.go)
+3. [Bubble Sort](go/bubble-sort.go)
+
