@@ -32,3 +32,7 @@
 
 1. [Palindrome Check](rust/palindrome/README.md)
 
+### Haskell
+
+1. [Palin Check](haskell/palindrome.hs)
+
