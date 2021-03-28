@@ -37,6 +37,7 @@
 3. [Selection Sort](java/selection-sort.java)
 4. [Merge Sort](java/merge-sort.java)
 5. [Quick Sort](java/quick-sort.java)
+6. [Counting Sort](java/counting-sort.java)
 
 ### JavaScript
 
