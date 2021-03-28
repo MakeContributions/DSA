@@ -1,5 +1,5 @@
 #include<stdio.h>
-//declare functions
+//declare permutation and swap functions
 void permutation(char *,int,int);
 void swap(char *,char *);
 main()
@@ -20,6 +20,7 @@ void permutation(char *str,int s,int e)
     if(s==e)
     {
         count++;
+	    //Printing the string permutation's 
         printf("%d(%s)\n",count,str);
     }
     else
