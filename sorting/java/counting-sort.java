@@ -44,7 +44,7 @@ public class CountingSort {
      * Main method for testing
      * @param args
      */
-    public void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         CountingSort count = new CountingSort();
 
         int[] test = {1,9,8,7,6,5,4,3,2,12,546,23,123,5768,689,45,6342,0,76,856,34,412,12,32,353,46,568,456,234,3456,467,345345,345,345,};
@@ -57,6 +57,18 @@ public class CountingSort {
             }
         }
 
-        System.out.println("It's ok!");
+        printArray(test);
+    }
+
+    /**
+     * Print an array
+     * @param arr
+     */
+    public static void printArray(int[] arr){
+
+        System.out.println("Sorted array: ");
+        for(int i = 0; i < arr.length; i++){
+           System.out.println(" " + i);
+        }
     }
 }
