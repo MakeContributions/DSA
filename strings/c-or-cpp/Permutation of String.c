@@ -1,16 +1,17 @@
 #include<stdio.h>
+#include<string.h>
 //declare permutation and swap functions
 void permutation(char *,int,int);
 void swap(char *,char *);
-main()
+int main()
 {
-    char s[10];
+    char s[100];
 	//taking string
     printf("enter string");
     scanf("%s",&s);
 	//calling permutation
     permutation(&s,0,strlen(s)-1);
-    getch();
+return 0;
 }
 void permutation(char *str,int s,int e)
 {   //declare variables
