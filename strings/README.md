@@ -34,5 +34,6 @@
 
 ### Haskell
 
-1. [Palin Check](haskell/palindrome.hs)
+1. [Palindrome Check](haskell/palindrome.hs)
+2. [All subsequences](haskell/sequence.hs)
 
