@@ -1,6 +1,9 @@
- #include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
+// program to generate all permutation of the given string
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
 //declare permutation and swap functions
 void permutation(char *,int,int);
 void swap(char *,char *);
@@ -10,7 +13,7 @@ int main()
     // dynamically creating string length
     s=(char*)malloc(sizeof(char)*1000);
     // getting string
-    gets(s);
+    fgets(s,1000,stdin);
     // changing size to the length of string+1 to store null at end 
     s=realloc(s,strlen(s)+1);
 	//calling permutation
