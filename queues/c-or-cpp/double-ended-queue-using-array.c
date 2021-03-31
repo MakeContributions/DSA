@@ -187,7 +187,6 @@ Output:
 5 had been deleted
 3 had been deleted
 Time complexity:O(n)
-Space Complexity:
 
 */
 
