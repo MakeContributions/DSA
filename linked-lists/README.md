@@ -12,6 +12,7 @@
 ### Java
 
 1. [Singly Linked List](java/singly.java)
+2. [Doubly Linked List](java/doubly.java)
 
 ### JavaScript
 
