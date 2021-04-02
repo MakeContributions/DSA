@@ -11,8 +11,13 @@
 
 ### Java
 
-1. [Singly Linked List](java/singly.cpp)
+1. [Singly Linked List](java/singly.java)
+2. [Doubly Linked List](java/doubly.java)
 
-### Java
+### JavaScript
 
-1. [Singly Linked List](js/singly.cpp)
+1. [Singly Linked List](js/singly.js)
+
+### Python
+1. [Singly Linked List](Python/singly.py)
+2. [Doubly Linked List](Python/doubly.py)

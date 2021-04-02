@@ -7,6 +7,8 @@
 3. [KMP String Searching](c-or-cpp/kmp.cpp)
 4. [Rabin Karp String Searching](c-or-cpp/rabin-karp.cpp)
 5. [String Tokeniser](c-or-cpp/string-tokeniser.cpp)
+6. [String Reversal](c-or-cpp/string-reverse.cpp)
+7. [Permutation of String](c-or-cpp/Permutation-of-String.c)
 
 ### C#
 
@@ -30,4 +32,9 @@
 ### Rust
 
 1. [Palindrome Check](rust/palindrome/README.md)
+
+### Haskell
+
+1. [Palindrome Check](haskell/palindrome.hs)
+2. [All subsequences](haskell/sequence.hs)
 

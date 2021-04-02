@@ -37,6 +37,7 @@
 3. [Selection Sort](java/selection-sort.java)
 4. [Merge Sort](java/merge-sort.java)
 5. [Quick Sort](java/quick-sort.java)
+6. [Counting Sort](java/counting-sort.java)
 
 ### JavaScript
 
@@ -47,3 +48,5 @@
 ### Golang
 1. [Insertion Sort](go/insertion-sort.go)
 2. [Quick Sort](go/quick-sort.go)
+3. [Bubble Sort](go/bubble-sort.go)
+
