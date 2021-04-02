@@ -5,6 +5,7 @@
 1. [Linear Search](c-or-cpp/linear-search.cpp)
 2. [Binary Search](c-or-cpp/binary-search.cpp)
 3. [Jump Search](c-or-cpp/jump-search.cpp)
+4. [Interpolation Search](c-or-cpp/interpolation-search.cpp)
 
 ### Python
 
