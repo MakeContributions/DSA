@@ -6,3 +6,7 @@
 
 ### Golang
 1. [Interval Scheduling](go/interval-scheduling.go)
+
+### Java
+
+1. [Multi-Level Queue Scheduling](java/multi-level-queue-scheduling.java)
