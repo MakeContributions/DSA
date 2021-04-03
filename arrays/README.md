@@ -6,6 +6,7 @@
 2. [Dutch Flag Algo](c-or-cpp/dutch-flag-algo.cpp)
 3. [Left Rotation of Array](c-or-cpp/left-rotation.cpp)
 4. [Shift Negatives in Array](c-or-cpp/shift-negatives.cpp)
+5. [Maximum Subarray Sum](c-or-cpp/max-subarray-sum.cpp)
 
 ### Python
 
@@ -18,4 +19,3 @@
 ### Java
 
 1. [Counting Inversions](java/count-inversions.java)
-
