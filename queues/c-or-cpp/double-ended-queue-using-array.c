@@ -13,6 +13,17 @@ struct deque
     int *arr;
 
 };
+// clear function for different platforms ( currently only windows and unix based os are supported )
+void clear_screen()
+{
+    #ifdef _WIN32
+        system("cls");
+    #elif __unix__
+        system("clear");
+    #else
+        printf("clear screen not supported\n");
+    #endif
+}
 //create deque function mainly give memory to the non-primitive variable deque
 struct deque* create_dequeue(int cap)
 {
@@ -24,7 +35,7 @@ struct deque* create_dequeue(int cap)
  array->front=-1;
  array->rear=-1;
 // dynamically giving memory
- array->arr=malloc(sizeof(int)*cap);
+ array->arr=(int*)malloc(sizeof(int)*cap);
  return(array);
 }
 // insertion front just insert data from front of queue
@@ -150,7 +161,7 @@ int main()
     scanf("%d",&cap);
     array=create_dequeue(cap);
     while(1)
-    { system("cls");
+    { clear_screen();
         switch(menu())
         {
         case 1:
