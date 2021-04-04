@@ -14,7 +14,7 @@ int main()
     s=(char*)malloc(sizeof(char)*1000);
     // getting string
     fgets(s,1000,stdin);
-    // changing size to the length of string+1 to store null at end 
+    // changing size to the length of string+1 to store null at end
     s=realloc(s,strlen(s)+1);
 	//calling permutation
     permutation(s,0,strlen(s)-1);
@@ -55,11 +55,13 @@ void swap(char *a,char *b)
     *b=temp;
 	//swapping done
 }
-// Example:
-//Input: abc
-//Output: 1(abc)
-//        2(acb)
-//        3(bac)
-//        4(bca)
-//        5(cba)
-//        6(cab)
+/* Example:
+  Input: abc
+  Output: 1(abc)
+          2(acb)
+          3(bac)
+          4(bca)
+          5(cba)
+          6(cab)
+Time Complexity: O(n*n!)
+*/
