@@ -4,3 +4,4 @@
 
 1. [Kruskal Algorithm](c-or-cpp/kruskal-algorithm.cpp)
 2. [Bellman Ford Algorithm](c-or-cpp/bellman-ford.cpp)
+3. [Prim's Algorithm](c-or-cpp/prim's-algorithm)
