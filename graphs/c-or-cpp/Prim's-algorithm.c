@@ -214,6 +214,6 @@ enter the node no of v2 and weight 3
 2
 Output: Cost: 4
 
-Time Complexity:O(ElogV)
+Time Complexity:O(V^2)
 
 */
