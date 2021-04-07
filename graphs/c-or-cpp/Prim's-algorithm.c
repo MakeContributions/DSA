@@ -1,4 +1,5 @@
-// This is Prim's algorithm to find the lowest cost to traverse it all vertex of a graph or MST(Minimal Spanning Tree)
+/*                                                               Prim's Algorithm                                               
+             This is Prim's algorithm to find the lowest cost to traverse it all vertex of a graph or MST(Minimal Spanning Tree)                                              */
 #include<stdio.h>
 #include<stdlib.h>
 // node type structure
@@ -150,7 +151,7 @@ void change(int n,struct node **Start,int Key,int PI)
       }
     }
 }
-//the main logic
+//the main logic to find lowest cost traverse
 void Prims(struct node **Start,struct Graph *G)
 { int e1,i,n,w;
     struct node *temp;
@@ -192,7 +193,8 @@ int main()
     Prims(&Start,G);
     return 0;
 }
-/*Input:
+/*
+Input:
 enter vertex and edges 3
 6
 Enter the no. of nodes connected to V1 2
@@ -211,5 +213,7 @@ enter the node no of v2 and weight 1
 enter the node no of v2 and weight 3
 2
 Output: Cost: 4
+
+Time Complexity:O(ElogV)
 
 */
