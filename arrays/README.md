@@ -7,6 +7,7 @@
 3. [Left Rotation of Array](c-or-cpp/left-rotation.cpp)
 4. [Shift Negatives in Array](c-or-cpp/shift-negatives.cpp)
 5. [Maximum Subarray Sum](c-or-cpp/max-subarray-sum.cpp)
+6. [Unique Elements in an Array](c-or-cpp/unique-elements-in-an-array.c)
 
 ### Python
 
