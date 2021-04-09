@@ -19,3 +19,4 @@
 ### Java
 
 1. [Counting Inversions](java/count-inversions.java)
+2. [Kadane's Algoritm](java/Kadanes_Algorithm.java)
