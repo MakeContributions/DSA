@@ -11,7 +11,7 @@ jobs:
       - uses: actions/setup-go@v2
       - run: go version
       - run: pwd
-      - run: shopt -s globstar && ls -la **/*.py
+      - run: shopt -s globstar && ls -la **/*.go
       - uses: golangci/golangci-lint-action@v2
         with:
           # Required: the version of golangci-lint is required and must be
