@@ -18,7 +18,7 @@ int main()
 		for (int j= 0; j< n-1; j++)
 		{    //comparing adjecent elements of array
 			if (arr[j]>arr[j+1])
-			{   // swaping array elements
+			{   // swapping array elements
 				temp = arr[j];
 				arr[j] = arr[j+1];
 				arr[j+1] = temp;
