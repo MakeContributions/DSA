@@ -10,12 +10,4 @@ jobs:
     - uses: actions/checkout@v2
     - uses: actions/setup-python@v2
     - run: pip install cpplint
-    #- run: cpplint --filter=-legal,-whitespace --recursive .
-    - run: cpplint --filter=+build       --recursive . || true
-    - run: cpplint --filter=+legal       --recursive . || true
-    - run: cpplint --filter=+readability --recursive . || true
-    - run: cpplint --filter=+runtime     --recursive . || true
-    - run: cpplint --filter=+whitespace  --recursive . || true
-    - run: cpplint --counting=total      --recursive . || true
-    - run: cpplint --counting=toplevel   --recursive . || true
-    - run: cpplint --counting=detailed   --recursive . || true
+    - run: cpplint --counting=detailed --filter=-build/namespaces,-legal,readability,-runtime,-whitespace --recursive .
