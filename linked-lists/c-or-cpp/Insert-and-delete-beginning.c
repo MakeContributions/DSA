@@ -34,7 +34,7 @@ void insertBeg(int data){
  link->data = data ;
  //Point the link's pointer to the current head
  link->next = head ;
- //Update the Head to the node we want to insert at the beggining
+ //Update the Head to the node we want to insert at the begining
  head = link ;
 }
 
