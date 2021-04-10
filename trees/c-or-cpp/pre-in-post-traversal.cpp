@@ -68,9 +68,9 @@ int main(){
                    post-order:  4,5,2,7,3,1
     
     */
-   pre_order(root); cout<<endl;
-   in_order(root); cout<<endl;
-   post_order(root); cout<<endl;
+   cout<<"pre-order : "; pre_order(root); cout<<endl;
+   cout<<"in-order : "; in_order(root); cout<<endl;
+   cout<<"post-order : "; post_order(root); cout<<endl;
 
     return 0;
 }
