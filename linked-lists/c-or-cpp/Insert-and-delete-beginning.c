@@ -15,7 +15,7 @@ struct node *current = NULL ;
 //Function to Print the Linked List
 void printList(){
     printf("\nItem in the Linked List are :  ");
-    // Intialize the ptr(pointer) with head location .
+    // Initialize the ptr(pointer) with head location .
     struct node *ptr = head ;
     // While Loop until we encounter a Node which is NULL .
     // NULL ,  signifies we are the end of the list .
