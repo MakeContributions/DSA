@@ -10,10 +10,12 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-go@v2
       - run: go version
+      - run: pwd
+      - run: shopt -s globstar && ls -la **/*.py
       - uses: golangci/golangci-lint-action@v2
         with:
           # Required: the version of golangci-lint is required and must be
           # specified without patch version: we always use the latest patch version.
           # https://github.com/golangci/golangci-lint/releases
           version: v1.39
- 
+          working-directory: sorting/go
