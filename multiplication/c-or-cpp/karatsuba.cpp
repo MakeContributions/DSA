@@ -1,6 +1,6 @@
+#include <math.h>
 #include <iostream>
 #include <string>
-#include <math.h>
 using namespace std;
 
 int equalize_strings(string &x, string &y) {
