@@ -2,4 +2,4 @@
 
 ### C or C++
 
-1. [Balanced Paranthesis](c-or-cpp/balanced-paranthesis.cpp)
+1. [Balanced Parenthesis](c-or-cpp/balanced-parenthesis.cpp)
