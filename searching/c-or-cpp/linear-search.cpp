@@ -19,9 +19,9 @@ int main()
     
      cout<<array[i]<<" ";
      cout<<"\n";
-    cout<<"please enter the number which you want to find in the inputed array \n";
+    cout<<"please enter the number which you want to find in the inputted array \n";
     cin>>key;
-    cout<<"the inputed no is at position \n";
+    cout<<"the inputted no is at position \n";
     for(i=0;i<n;++i)
     {
       

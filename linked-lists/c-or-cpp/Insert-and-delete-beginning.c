@@ -15,7 +15,7 @@ struct node *current = NULL ;
 //Function to Print the Linked List
 void printList(){
     printf("\nItem in the Linked List are :  ");
-    // Intialize the ptr(pointer) with head location .
+    // Initialize the ptr(pointer) with head location .
     struct node *ptr = head ;
     // While Loop until we encounter a Node which is NULL .
     // NULL ,  signifies we are the end of the list .
@@ -34,7 +34,7 @@ void insertBeg(int data){
  link->data = data ;
  //Point the link's pointer to the current head
  link->next = head ;
- //Update the Head to the node we want to insert at the beggining
+ //Update the Head to the node we want to insert at the begining
  head = link ;
 }
 

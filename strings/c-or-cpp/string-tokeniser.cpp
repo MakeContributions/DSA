@@ -24,7 +24,7 @@ char* mystrtok(char* s, char d)
     // Start extracting string and
     // store it in array
     for (; input[i] != '\0'; i++) {
-        // If delimeter is not reached
+        // If delimiter is not reached
         // then add the current character
         // to result[i]
         if (input[i] != d)

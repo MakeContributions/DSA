@@ -1,5 +1,5 @@
 // Java program for implement Quick Sort
-//Note: Rightmost element in the array is choosen as pivot
+//Note: Rightmost element in the array is chosen as pivot
 class QuickSortBack
 {
 	private int[] arr;

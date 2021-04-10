@@ -11,7 +11,7 @@ The directory tree has the following convention of `category/language/problem`, 
 
 A unit `problem` must conform to the following specifications:
 - The name should be in lowercase. (**Eg.** `palindrome/`, `binary-search.cpp` etc.).
-- Each word must be seperated by a **dash** or a **hyphen** (`-`).
+- Each word must be separated by a **dash** or a **hyphen** (`-`).
 
 **If you have a problem that belongs to a new *topic* or *category* than one which are present:**
 1. Create a new folder and an index for it inside (a readme, `README.md` file).
