@@ -15,8 +15,7 @@ def insertion_sort(arr):
 	>>> arr
 	[-12, 1, 3, 7, 12, 22, 100]
 	"""
-	length = len(arr)
-	for j in range(1, length):
+	for j in range(1, len(arr)):
 		key = arr[j]
 		#insert the key into the sorted sequence arr[1, ... , j - 1]
 		i = j - 1
@@ -26,7 +25,7 @@ def insertion_sort(arr):
 		arr[i + 1] = key
 
 
-if __name__ = "__main__":
+if __name__ == "__main__":
 	insertion_sort(arr)
 	print("Sorted array: ")
 	for ele in arr:
