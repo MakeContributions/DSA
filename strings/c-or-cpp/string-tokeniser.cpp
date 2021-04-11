@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <chrono>
+#include <chrono>  // NOLINT [build/c++11]
 
 using namespace std;
 

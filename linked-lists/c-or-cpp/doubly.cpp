@@ -1,36 +1,36 @@
+#include <bits/stdc++.h>
 #include <iostream>
-#include<bits/stdc++.h>
 using namespace std;
 struct Node {
-   int data;
-   struct Node *prev;
-   struct Node *next;
+Â  Â int data;
+Â  Â struct Node *prev;
+Â  Â struct Node *next;
 };
 struct Node* head = NULL;
 void insert(int newdata) {
-   struct Node* newnode = (struct Node*) malloc(sizeof(struct Node));
-   newnode->data = newdata;
-   newnode->prev = NULL;
-   newnode->next = head;
-   if(head != NULL)
-   head->prev = newnode ;
-   head = newnode;
+Â  Â struct Node* newnode = (struct Node*) malloc(sizeof(struct Node));
+Â  Â newnode->data = newdata;
+Â  Â newnode->prev = NULL;
+Â  Â newnode->next = head;
+Â  Â if(head != NULL)
+Â  Â head->prev = newnode ;
+Â  Â head = newnode;
 }
 void display() {
-   struct Node* ptr;
-   ptr = head;
-   while(ptr != NULL) {
-      cout<< ptr->data <<" ";
-      ptr = ptr->next;
-   }
+Â  Â struct Node* ptr;
+Â  Â ptr = head;
+Â  Â while(ptr != NULL) {
+Â  Â  Â  cout<< ptr->data <<" ";
+Â  Â  Â  ptr = ptr->next;
+Â  Â }
 }
 int main() {
-   insert(3);
-   insert(1);
-   insert(7);
-   insert(2);
-   insert(9);
-   cout<<"The doubly linked list is: ";
-   display();
-   return 0;
+Â  Â insert(3);
+Â  Â insert(1);
+Â  Â insert(7);
+Â  Â insert(2);
+Â  Â insert(9);
+Â  Â cout<<"The doubly linked list is: ";
+Â  Â display();
+Â  Â return 0;
 }
