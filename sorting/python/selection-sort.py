@@ -5,6 +5,7 @@ of the list. Repeat for each sub-array.
 O(n^2) time complexity. 
 '''
 from string import ascii_letters
+
 arrays = (
 	[12, 3, 7, 22, -12, 100, 1],
 	[10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0],
