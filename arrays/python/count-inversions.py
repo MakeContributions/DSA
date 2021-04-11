@@ -12,7 +12,7 @@ def count_split_inv(arr, left, right):
   rsize = len(right)
   for i in range(size):
     if lidx != lsize and ridx != rsize:
-      if right[ridx] <= left[lidx]:
+      if right[ridx] < left[lidx]:
         arr[i] = right[ridx]
         ridx += 1
         split_inv += lsize - lidx
@@ -35,11 +35,11 @@ def count_inversions(arr) -> int:
   >>> numbers
   [8, 2, 1, 5, 7, 3, 9, 2, 0, 1]
   >>> count_inversions(numbers)
-  30
+  28
   >>> numbers  # numbers has been sorted!!
   [0, 1, 1, 2, 2, 3, 5, 7, 8, 9]
-  >>> count_inversions(numbers)  # This should be 0, not 2.
-  2
+  >>> count_inversions(numbers)
+  0
   """
   size = len(arr)
   if size == 1:
