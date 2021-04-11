@@ -1,4 +1,13 @@
 def equalize_strings(x, y):
+  """
+  >>> def eq_str(x, y):
+  ...   max_len = max(len(x), len(y))
+  ...   return x.zfill(max_len), y.zfill(max_len), max_len
+  >>>
+  >>> all(equalize_strings(x, y) == eq_str(x, y) for x, y
+  ...   in (('x' * i, 'y' * (i // 2)) for i in range(10)))
+  True
+  """
   n = len(x)
   m = len(y)
   zeros = abs(n - m) * '0'
@@ -9,6 +18,11 @@ def equalize_strings(x, y):
   return x, y, len(x)
 
 def sum(x, y):
+  """
+  >>> all(sum(str(x), str(y)) == str(x + y) for x, y
+  ...   in ((0, 0), (0, 1), (1, 1234567890), (543210, 9876543)))
+  True
+  """
   x, y, size = equalize_strings(x, y)
   carry = 0
   result = ''
@@ -26,6 +40,14 @@ def sum(x, y):
   return result
 
 def subtract(x, y):
+  """
+  >>> subtract("0", "0")
+  '0'
+  >>> subtract("1", "0")
+  '1'
+  >>> subtract("0", "1")  # This should be -1!!
+  '1'
+  """
   x, y, size = equalize_strings(x, y)
   carry = 0
   result = ""
@@ -51,6 +73,11 @@ def subtract(x, y):
   return result
 
 def kmul(x ,y):
+  """
+  >>> all(kmul(str(x), str(y)) == str(x * y) for x, y
+  ...   in ((0, 0), (0, 1), (1, 1234567890), (543210, 9876543)))
+  True
+  """
   x, y, size = equalize_strings(x, y)
   if size == 1:
     return str(int(x) * int(y))
@@ -70,6 +97,7 @@ def kmul(x ,y):
   result = result.lstrip('0')
   return result
 
-x = "134231412"
-y = "141324"
-print(kmul(x, y))
+if __name__ == "__main__":
+  x = "134231412"
+  y = "141324"
+  print(kmul(x, y))
