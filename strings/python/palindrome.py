@@ -22,13 +22,9 @@ def is_palindrome(s: str):
 
 # main program
 if __name__ == "__main__":
-    # string 1
-    s1 = "abba"
-    # string 2
-    s2 = "abbcccbba"
-    # string 3
-    s3 = "abbccbbba"
-    # call is_palindrome (internally calls palindrome) for each string
-    is_palindrome(s1)
-    is_palindrome(s2)
-    is_palindrome(s3)
+    string_1 = "abba"
+    string_2 = "abbcccbba"
+    string_3 = "abbccbbba"
+    is_palindrome(string_1)
+    is_palindrome(string_2)
+    is_palindrome(string_3)
