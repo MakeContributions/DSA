@@ -6,25 +6,28 @@ card among the previous j - 1 cards.
 
 O(n^2) runtime (the deck is sorted in descending order).
 """
+arr = [12, 3, 7, 22, -12, 100, 1]
 
-def insertionSort(A):
-	N = len(A)
 
-	for j in range(1, N):
-		key = A[j]
-		#insert the key into the sorted sequence A[1, ... , j - 1]
+def insertion_sort(arr):
+	"""
+	>>> insertion_sort(arr)
+	>>> arr
+	[-12, 1, 3, 7, 12, 22, 100]
+	"""
+	length = len(arr)
+	for j in range(1, length):
+		key = arr[j]
+		#insert the key into the sorted sequence arr[1, ... , j - 1]
 		i = j - 1
-		while i >= 0 and A[i] > key:
-			A[i + 1] = A[i]
+		while i >= 0 and arr[i] > key:
+			arr[i + 1] = arr[i]
 			i -= 1
+		arr[i + 1] = key
 
-		A[i + 1] = key
 
-
-A = [12, 3, 7, 22, -12, 100, 1]
-insertionSort(A)
-
-print("Sorted array: ")
-for ele in A:
-	print("\t" + str(ele))
-
+if __name__ = "__main__":
+	insertion_sort(arr)
+	print("Sorted array: ")
+	for ele in arr:
+		print(f"\t{ele}")
