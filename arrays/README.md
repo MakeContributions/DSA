@@ -20,3 +20,4 @@
 
 1. [Counting Inversions](java/count-inversions.java)
 2. [Kadane's Algorithm](java/Kadanes_Algorithm.java)
+2. [Left Rotation of Array](java/left_rotation.java)
