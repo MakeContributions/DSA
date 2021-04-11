@@ -1,7 +1,7 @@
 public class CountingSort {
 
     /**
-     * Public method to use the counting sort algortithm
+     * Public method to use the counting sort algorithm
      * @param arr - the array in input
      */
     public void sort(int[] arr){

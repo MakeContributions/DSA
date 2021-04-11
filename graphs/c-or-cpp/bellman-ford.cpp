@@ -77,7 +77,7 @@ int main()
 	vector<int>dist;
 	bool neg = bellman_ford(graph,V,s,dist);
 
-	//if no negative weigth cycle is found...
+	//if no negative weigt cycle is found...
 	if(neg)
 	{
 		cout<<"vertex		Dist from Source\n";

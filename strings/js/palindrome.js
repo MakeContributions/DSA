@@ -1,7 +1,7 @@
 // JavaScript Palindrome Checker: Checks whether a word is the same in reverse. Ignores punctuation, capitalization & spaces.
 
 function isPalindrome(str) {
-    // First convert the string into proper alpha-numeric word
+    // First convert the string into proper alphanumeric word
     let properStr = str
         .replace(/[_\W]/g, "")
         .toLowerCase();

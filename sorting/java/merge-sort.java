@@ -9,7 +9,7 @@ class MergeSortApp
 		arr = new int[]{12,54,222,54622,10,169,30}; //Array to sort
 	}
 
-    //Funtion to display/Print Array
+    //Function to display/Print Array
 	public void printArray()
 	{
 	for (int i=0;i<arr.length;i++)
