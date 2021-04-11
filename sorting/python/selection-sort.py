@@ -17,7 +17,7 @@ arrays = (
 
 def selection_sort(arr):
 	"""
-	>>> all(selection_sort(arr) == sorted(arr) for arr in arrays)
+	>>> all(selection_sort(arr) or arr == sorted(arr) for arr in arrays)
 	True
 	"""
 	for i in range(len(arr) - 1, 0, -1):
