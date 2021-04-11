@@ -49,7 +49,8 @@ def add(x, y):
 def absolute_difference(x, y):
   """
   >>> all(absolute_difference(str(x), str(y)) == str(abs(x - y)) for x, y
-  ...   in ((0, 0), (0, 1), (1, 1234567890), (543210, 9876543)))
+  ...   in ((0, 0), (0, 1), (1, 0), (1, 1234567890), (543210, 9876543)))
+  True
   >>> absolute_difference("1", "0")
   '1'
   """
