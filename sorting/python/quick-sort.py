@@ -6,7 +6,7 @@ def quicksort(arr):
     >>> quicksort(arr)
     [-23, 0, 1, 1, 2, 6, 7, 10, 23, 53, 53, 235, 256]
     >>> from string import ascii_letters
-    >>> quicksort(reversed(ascii_letters)) == list(ascii_letters)
+    >>> quicksort(list(reversed(ascii_letters))) == list(ascii_letters)
     True
     """
     length = len(arr)
