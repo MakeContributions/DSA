@@ -1,34 +1,40 @@
-# A simple Python program to create a  linked list 
-  
-# Node class 
 class Node:
-   def __init__(self, data):
-      self.data = data
-      self.next = None
-      self.prev = None
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+        self.prev = None
 
-class doubly_linked_list:
+    def __repr__(self):
+        return f"Node({self.data})"
 
-   def __init__(self):
-      self.head = None
 
-# Adding data elements		
-   def push(self, NewVal):
-      NewNode = Node(NewVal)
-      NewNode.next = self.head
-      if self.head is not None:
-         self.head.prev = NewNode
-      self.head = NewNode
+class DoublyLinkedList:
+    def __init__(self):
+        self.head = None
 
-# Print the Doubly Linked list		
-   def listprint(self, node):
-      while (node is not None):
-         print(node.data),
-         last = node
-         node = node.next
+    def __iter__(self):
+        node = self.head
+        while node:
+            yield node.data
+            node = node.next
 
-dllist = doubly_linked_list()
-dllist.push(12)
-dllist.push(8)
-dllist.push(62)
-dllist.listprint(dllist.head)
+    def __repr__(self):
+        return f"DoublyLinkedList({', '.join(str(node) for node in self)})"
+
+    # Adding data elements is like pushing onto a stack
+    def push(self, data):
+        node = Node(data)
+        node.next = self.head
+        if self.head:
+            self.head.prev = node
+        self.head = node
+
+
+if __name__ == "__main__":
+    dllist = DoublyLinkedList()
+    for i in 12, 8, 62:
+        dllist.push(i)
+    print(dllist)        # DoublyLinkedList(62, 8, 12)
+    print(list(dllist))                  # [62, 8, 12]
+    print(list(reversed(list(dllist))))  # [12, 8, 62]
+    print(sorted(dllist))                # [8, 12, 62]
