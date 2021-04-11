@@ -32,5 +32,5 @@ if __name__ == "__main__":
 	for arr in arrays:
 		selection_sort(arr)
 		print("Sorted array: ")
-		for ele in arr:
+		for ele in arr:  # type: ignore
 			print(f"\t{ele}")
