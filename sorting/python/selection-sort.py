@@ -4,34 +4,33 @@ of the list. Repeat for each sub-array.
 
 O(n^2) time complexity. 
 '''
-def selectionSort(A):
-	N = len(A)
+from string import ascii_letters
 
-	for i in range(N - 1, 0, -1):
+arrays = (
+	[12, 3, 7, 22, -12, 100, 1],
+	[10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0],
+	[4, 1, 3, 9, 7],
+	[0, -1.5, 1.5, 1.3, -1.3, -1.01, 1.01],
+	list(reversed(ascii_letters)),
+)
+
+
+def selection_sort(arr):
+	"""
+	>>> all(selection_sort(arr) or arr == sorted(arr) for arr in arrays)
+	True
+	"""
+	for i in range(len(arr) - 1, 0, -1):
 		k = 0
-
 		for j in range(1, i + 1):
-			if A[j] > A[k]:
+			if arr[j] > arr[k]:
 				k = j
-		swap(A, k, i)
+		arr[i], arr[k] = arr[k], arr[i]  # swap
 
 
-def swap(A, k, i):
-	"""
-	Helper function for swapping elements of the array. 
-	"""
-	tmp = A[k] 
-	A[k] = A[i]
-	A[i] = tmp
-
-
-# A = [12, 3, 7, 22, -12, 100, 1]
-# A = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-# A = [4, 1, 3, 9, 7]
-A = [5, 4, 3, 2, 1]
-
-selectionSort(A)
-
-print("Sorted array: ")
-for ele in A:
-	print("\t" + str(ele))
+if __name__ == "__main__":
+	for arr in arrays:
+		selection_sort(arr)
+		print("Sorted array: ")
+		for ele in arr:  # type: ignore
+			print(f"\t{ele}")
