@@ -1,6 +1,6 @@
 
 
-public class stack {
+ class stack {
     public int Max;
     public int Top;
     public int[] stack;
@@ -76,3 +76,18 @@ public class stack {
     }
 
 }
+class Main {
+
+    public static void main(String[] args){
+    	max = 1000;
+        stack object = new stack(max);
+        object.push(1);
+        object.push(2);
+        object.push(3);
+        object.pop();
+        object.top();
+        object.PrintStack();
+    }
+}
+
+

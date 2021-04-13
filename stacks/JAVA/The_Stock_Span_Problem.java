@@ -11,7 +11,7 @@ import java.util.Stack ;
  * the current day is less than or equal to its price on the given day.
  * For example, if an array of 7 days prices is given as {100, 80, 60, 70, 60, 75, 85}, then the span values for corresponding 7 days are {1, 1, 1, 2, 1, 4, 6}
  */
-public class The_Stock_Span_Problem extends stack{
+class The_Stock_Span_Problem extends stack{
 
     public The_Stock_Span_Problem(int Max) {
         super(Max);
@@ -78,5 +78,18 @@ public class The_Stock_Span_Problem extends stack{
             sta.clear();
         }
         printArray(span);
+    }
+}
+
+class Main {
+
+    //to test the span stock problem
+    public static void main(String[] args){
+        int[] price = { 10, 4, 5, 90, 120, 80 };
+        int n = price.length;
+        int[] span = new int[n];
+
+        The_Stock_Span_Problem prob = new The_Stock_Span_Problem(1000);
+        prob.alternate_approach(price,n,span);
     }
 }

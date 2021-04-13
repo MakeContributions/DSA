@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.Stack;
 import java.util.Vector;
 
-public class Balanced_Paranthesis {
+class Balanced_Paranthesis {
 
     public void problem(String input_string){
 
@@ -58,3 +58,12 @@ public class Balanced_Paranthesis {
         }
     }
 }
+
+class Main {
+
+    public static void main(String[] args){
+        Balanced_Paranthesis bal = new Balanced_Paranthesis();
+        bal.problem("((()))");
+    }
+}
+
