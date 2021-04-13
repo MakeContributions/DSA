@@ -24,9 +24,9 @@ class DoublyLinkedList:
         >>> dll.push(88)
         >>> tuple(dll)
         (88,)
-        >>> dll.push(88, 89)
+        >>> dll.push(89)
         >>> tuple(dll)
-        (88, 89)
+        (89, 88)
         """
         node = self.head
         while node:
@@ -41,9 +41,9 @@ class DoublyLinkedList:
         >>> dll.push(99)
         >>> dll.push(100)
         >>> repr(dll)
-        'DoublyLinkedList(99, 100)'
+        'DoublyLinkedList(100, 99)'
         >>> str(dll)
-        'DoublyLinkedList(99, 100)'
+        'DoublyLinkedList(100, 99)'
         """
         return f"DoublyLinkedList({', '.join(str(node) for node in self)})"
 
