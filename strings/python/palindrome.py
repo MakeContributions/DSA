@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Palindrome Check Function on Python 3
+# Palindrome Check Function using Python 3
 
 # The Palindrome Algorithm
 # this takes in a string and returns a boolean equal to the result of
