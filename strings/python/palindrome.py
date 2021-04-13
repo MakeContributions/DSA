@@ -3,8 +3,20 @@
 
 # The Palindrome Algorithm
 # this takes in a string and returns a boolean equal to the result of
-# whether the program is a palindrome or not.
+# whether the string is a palindrome or not.
+string_1 = "abba"
+string_2 = "abbcccbba"
+string_3 = "abbccbbba"
+
 def palindrome(s: str) -> bool:
+    """
+    >>> palindrome(string_1)
+    True
+    >>> palindrome(string_2)
+    True
+    >>> palindrome(string_3)
+    False
+    """
     # Reverse string using idiomatic python
     reversed_string = s[::-1]
     # return the answer, by comparing string and its reverse
@@ -22,9 +34,6 @@ def is_palindrome(s: str):
 
 # main program
 if __name__ == "__main__":
-    string_1 = "abba"
-    string_2 = "abbcccbba"
-    string_3 = "abbccbbba"
     is_palindrome(string_1)
     is_palindrome(string_2)
     is_palindrome(string_3)
