@@ -52,7 +52,7 @@ public class The_Stock_Span_Problem extends stack{
     }
 
     /**
-     * This is a different approach which has sightly high time complexity than the above done approach
+     * This is a different approach that has slightly higher time complexity than the approach used above
      * Both the methods are awesome and star struck but...xD
      */
     public void alternate_approach(int[] price,int n,int[] span){
