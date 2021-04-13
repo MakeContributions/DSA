@@ -24,7 +24,7 @@ def get_opt_schedule(jobs):
   Return the job_id's in the optimal jobs
   https://en.wikipedia.org/wiki/Interval_scheduling#Greedy_polynomial_solution
 
-  >>> get_opt_schedule(jobs)  # Result shows four batches but which jobs in each batch?
+  >>> get_opt_schedule(jobs)
   [5, 4, 1, 7]
   """  
   opt_schedule = []
