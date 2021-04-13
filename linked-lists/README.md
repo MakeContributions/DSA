@@ -14,6 +14,7 @@
 1. [Singly Linked List](java/singly.java)
 2. [Doubly Linked List](java/doubly.java)
 2. [Circular Linked List](java/circular.java)
+2. [Reverse Linked List](java/reverse.java)
 
 ### JavaScript
 
