@@ -18,7 +18,7 @@ public class The_Stock_Span_Problem extends stack{
     }
 
     /**
-     * this problem is being solved with stack abstact data type.
+     * this problem is being solved with stack abstract data type.
      */
     public void problem(int[] price,int n,int[] span){
         stack st = new stack(Max);
