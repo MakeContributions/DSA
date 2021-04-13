@@ -1,9 +1,13 @@
 #include<stdio.h>
 
 int main(){
-    int a[7];
+    int a[1000];
+    int size;
+    printf("Enter size of the array: ");
+    scanf("%d", &size);
     
-    for(int k=0; k<7; k++){
+    printf("Enter elements of the array: ");
+    for(int k=0; k<size; k++){
         scanf("%d", &a[k]);
     }
     int flag;
@@ -13,12 +17,10 @@ int main(){
         
         for(int j=0; j<=7; j++){
 
-            if(i != j){
+            if(i != j && a[i] == a[j]){
             
-                if(a[i] == a[j]){
-                    flag++;
-                    
-                }
+                flag++;
+                  
             }
             
             
@@ -26,7 +28,7 @@ int main(){
             
         }
         if(flag == 0){
-            printf("%d", a[i]);
+            printf("Unique elements of the array are %d", a[i]);
         }
     }
 }
