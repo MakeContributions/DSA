@@ -8,4 +8,4 @@
 
 ### Java
 
-1. [Pre, In & Post Order Traversals](java/pre_in_post_traversal)
+1. [Pre, In & Post Order Traversals](java/pre_in_post_traversal.java)
