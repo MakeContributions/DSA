@@ -95,6 +95,15 @@ The programming should keep the naming convention rule of each programming langu
   <img src="https://contrib.rocks/image?repo=MakeContributions/DSA" />
 </a>
 
+### Reviewers
+|Programing Language| Users         |
+|-------------------|---------------|
+| C or C++          |@Arsenic-ATG, @UG-SEP  |
+| Java              |@TawfikYasser, @cyberwizard1001          |
+| C#                | @ming-tsai            |
+| Go                |@atin                  |
+| Python            | @Arsenic-ATG, @atin, @sridhar-5, @cyberwizard1001 |
+| JavaScript        | @paulsonjpaul         |
 ## Open Graph
 <img src="https://opengraph.github.com/3b128f0e88464a82a37f2daefd7d594c6f41a3c22b3bf94c0c030135039b5dd7/MakeContributions/DSA" />
 
