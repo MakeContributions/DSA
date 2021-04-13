@@ -7,7 +7,7 @@ class Node:
     def __repr__(self):
         """
         >>> Node(77)
-        77
+        Node(77)
         """
         return f"Node({self.data})"
 
@@ -23,7 +23,10 @@ class DoublyLinkedList:
         []
         >>> dll.push(88)
         >>> tuple(dll)
-        (88)
+        (88,)
+        >>> dll.push(88, 89)
+        >>> tuple(dll)
+        (88, 89)
         """
         node = self.head
         while node:
@@ -34,13 +37,13 @@ class DoublyLinkedList:
         """
         >>> dll = DoublyLinkedList()
         >>> repr(dll)
-        DoublyLinkedList()
+        'DoublyLinkedList()'
         >>> dll.push(99)
         >>> dll.push(100)
         >>> repr(dll)
-        DoublyLinkedList(99, 100)
+        'DoublyLinkedList(99, 100)'
         >>> str(dll)
-        DoublyLinkedList(99, 100)
+        'DoublyLinkedList(99, 100)'
         """
         return f"DoublyLinkedList({', '.join(str(node) for node in self)})"
 
