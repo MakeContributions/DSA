@@ -96,7 +96,7 @@ The programming should keep the naming convention rule of each programming langu
 </a>
 
 ### Reviewers
-|Programing Language| Users         |
+|Programming Language| Users         |
 |-------------------|---------------|
 | C or C++          |@Arsenic-ATG, @UG-SEP  |
 | Java              |@TawfikYasser, @cyberwizard1001          |
