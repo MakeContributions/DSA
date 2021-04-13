@@ -5,6 +5,10 @@ class Node:
         self.prev = None
 
     def __repr__(self):
+        """
+        >>> Node(77)
+        77
+        """
         return f"Node({self.data})"
 
 
@@ -13,12 +17,31 @@ class DoublyLinkedList:
         self.head = None
 
     def __iter__(self):
+        """
+        >>> dll = DoublyLinkedList()
+        >>> list(dll)
+        []
+        >>> dll.push(88)
+        >>> tuple(dll)
+        (88)
+        """
         node = self.head
         while node:
             yield node.data
             node = node.next
 
     def __repr__(self):
+        """
+        >>> dll = DoublyLinkedList()
+        >>> repr(dll)
+        DoublyLinkedList()
+        >>> dll.push(99)
+        >>> dll.push(100)
+        >>> repr(dll)
+        DoublyLinkedList(99, 100)
+        >>> str(dll)
+        DoublyLinkedList(99, 100)
+        """
         return f"DoublyLinkedList({', '.join(str(node) for node in self)})"
 
     # Adding data elements is like pushing onto a stack
