@@ -1,58 +1,90 @@
-# A simple Python program to create a singly linked list 
-  
-# Node class 
-class Node: 
-  
-    # Function to initialise the node object 
-    def __init__(self, data): 
-        self.data = data  # Assign data 
-        self.next = None  # Initialize next as null 
-  
-  
-# Linked List class contains a Node object 
-class LinkedList: 
-  
-    # Function to initialize head 
-    def __init__(self): 
+# Create a singly linked list
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+    def __repr__(self):
+        """
+        >>> Node(77)
+        Node(77)
+        """
+        return f"Node({self.data})"
+
+
+class LinkedList:
+    def __init__(self):
         self.head = None
 
-    
-    # Function to insert a new node at the beginning 
-    def insertAtHead(self, new_data): 
-    
-        # 1 & 2: Allocate the Node & 
-        #        Put in the data 
-        new_node = Node(new_data) 
-            
-        # 3. Make next of new Node as head 
-        new_node.next = self.head 
-            
-        # 4. Move the head to point to new Node  
-        self.head = new_node 
-    def removeAtHead(self):
-        temp = self.head 
- 
-        # If head node itself holds the key to be deleted 
-        if (temp is not None): 
-            self.head = temp.next
-            temp = None
-            return
-        else:
-            return('underflow')
-    def printList(self): 
-        temp = self.head 
-        while(temp): 
-            print (temp.data)
-            temp = temp.next
+    def __iter__(self):
+        """
+        >>> ll = LinkedList()
+        >>> list(ll)
+        []
+        >>> ll.push(88)
+        >>> tuple(ll)
+        (88,)
+        >>> ll.push(89)
+        >>> tuple(ll)
+        (89, 88)
+        """
+        node = self.head
+        while node:
+            yield node.data  # `yield node` would also be possible
+            node = node.next
 
-  
-  
-# Code execution starts here 
-if __name__=='__main__':
-    l=LinkedList()
-    l.insertAtHead(1)
-    l.insertAtHead('xyz')
-    l.insertAtHead(1.1)
-    l.removeAtHead()
-    l.printList()
+    def __len__(self):
+        return len(tuple(iter(self)))
 
+    def __repr__(self):
+        """
+        >>> ll = LinkedList()
+        >>> repr(ll)
+        'LinkedList()'
+        >>> ll.push(99)
+        >>> ll.push(100)
+        >>> repr(ll)
+        'LinkedList(100, 99)'
+        >>> str(ll)
+        'LinkedList(100, 99)'
+        """
+        return f"LinkedList({', '.join(str(node) for node in self)})"
+
+    def push(self, data):
+        node = Node(data)
+        node.next = self.head
+        self.head = node
+
+    def pop(self):
+        """
+        >>> ll = LinkedList()
+        >>> len(ll)
+        0
+        >>> ll.push("push/pop")
+        >>> len(ll)
+        1
+        >>> ll.pop()
+        'push/pop'
+        >>> len(ll)
+        0
+        >>> ll.pop()
+        Traceback (most recent call last):
+            ...
+        IndexError: pop from empty LinkedList
+        """
+        node = self.head
+        if not node:
+            raise IndexError("pop from empty LinkedList")
+        self.head = node.next
+        return node.data
+
+
+if __name__ == '__main__':
+    ll = LinkedList()
+    ll.push(1)
+    ll.push('xyz')
+    ll.push(1.1)
+    ll.pop()
+    print(ll)
+    print(list(ll))
