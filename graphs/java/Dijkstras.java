@@ -70,11 +70,11 @@ class Dijkstras
 
 			Input:
 			__________
-			Please Enter the number of nodes N. Vertices will be [0,N-1]
+			Please enter the number of nodes N. Vertices will be [0,N-1]
 			6
 			Please Enter the number of Edges
 			9
-			Please Enter each edge in the sequence <starting node> <destination node> <weigth>
+			Please enter each edge in the sequence <starting node> <destination node> <weight>
 			0 1 1
 			0 2 5
 			1 2 2
@@ -84,7 +84,7 @@ class Dijkstras
 			3 5 1
 			3 4 3
 			4 5 2
-			Please Enter Source Vertex
+			Please enter source vertex
 			0
 
 			Output:
@@ -99,15 +99,15 @@ class Dijkstras
 		 */
 
 		List<List<AdjListNode>> adj_list = new ArrayList<List<AdjListNode>>();
-		System.out.println("Please Enter the number of nodes N. Vertices will be [0,N-1]");
+		System.out.println("Please enter the number of nodes N. Vertices will be [0,N-1]");
 		Scanner sc = new Scanner(System.in);
 		int v = sc.nextInt();
 		for(int i=0;i<v;++i)
 			adj_list.add(new ArrayList<AdjListNode>());
 		
-		System.out.println("Please Enter the number of Edges");
+		System.out.println("Please enter the number of edges");
 		int e = sc.nextInt();
-		System.out.println("Please Enter each edge in the sequence <starting node> <destination node> <weigth>");
+		System.out.println("Please enter each edge in the sequence <starting node> <destination node> <weight>");
 		// Sample Data: 0 2 5 (edge from 0 to 2 with weight 5)
 		for(int i=0;i<e;++i)
 		{
@@ -117,7 +117,7 @@ class Dijkstras
 		       	adj_list.get(startnode).add(new AdjListNode(destnode,weight));
 		}
 		int source;
-		System.out.println("Please Enter Source Vertex");
+		System.out.println("Please enter source vertex");
 		source = sc.nextInt();
 		Dijkstras d = new Dijkstras();
 		int[] distances  = d.dijkstras(adj_list, source);  //source vertex is taken as 0
