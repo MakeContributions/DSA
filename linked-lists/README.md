@@ -14,7 +14,8 @@
 1. [Singly Linked List](java/singly.java)
 2. [Doubly Linked List](java/doubly.java)
 3. [Circular Linked List](java/circular.java)
-4. [Clone Linked List with Random Pointer](java/clone-linkedlist-with-rnd-pointer.java)
+4. [Reverse Linked List](java/reverse.java)
+5. [Clone Linked List with Random Pointer](java/clone-linkedlist-with-rnd-pointer.java)
 
 ### JavaScript
 
