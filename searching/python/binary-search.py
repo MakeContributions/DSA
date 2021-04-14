@@ -1,6 +1,5 @@
 from collections import namedtuple
 
-
 TestData = namedtuple("TestData", "array target expected")
 
 test_data = (
