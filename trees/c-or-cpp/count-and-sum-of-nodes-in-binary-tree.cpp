@@ -42,14 +42,11 @@ int CountNodes(Node *root)
     if (root == NULL)
         return 0;
 
-    //Recursive Case
     return CountNodes(root->left) + CountNodes(root->right) + 1;
 }
 
 /* Sum of Nodes Nodes 
-
     Left subtree Sum + Right Subtree Sum + Node Value
-
 */
 
 int SumNodes(Node *root)
@@ -58,7 +55,6 @@ int SumNodes(Node *root)
     if (root == NULL)
         return 0;
 
-    //Recursive Case
     return SumNodes(root->left) + SumNodes(root->right) + root->data;
 }
 
