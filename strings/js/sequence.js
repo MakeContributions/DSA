@@ -18,7 +18,6 @@ subsequence('aaa');
 console.log('aaa', list);
 list = [];
 
-
 subsequence('hello');
 console.log('hello', list);
 
