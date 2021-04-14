@@ -1,21 +1,28 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int main(){
-    int a[1000];
+    
     int size;
     /* take the size of the array from user as input */
     printf("Enter size of the array: ");
     scanf("%d", &size);
+    
+    /* dynamically create an array of the reqruired size */
+    int *a = (int*)malloc(sizeof(int)*size);
+    
     if(size<0){
         size = size*(-1);
     }
+    
     /* enter the elements to the array */
     printf("Enter elements of the array: ");
     for(int k=0; k<size; k++){
         scanf("%d", &a[k]);
     }
-    int flag;
-
+    
+    int flag;    
+    printf("Unique elements of the array are : ");
     for(int i=0; i<size; i++){
         flag = 0;
         
@@ -26,13 +33,10 @@ int main(){
                 flag++;
                   
             }
-            
-            
-            
-            
+   
         }
         if(flag == 0){
-            printf("Unique elements of the array are %d", a[i]);
+            printf("%d ", a[i]);
         }
     }
 }
