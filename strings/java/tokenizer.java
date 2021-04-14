@@ -22,7 +22,7 @@ public class tokenizer{
 			char pos = str.charAt(i);
 
 			if(!charIsDelimiter(pos, delimiters)) {
-                //if the caracter is not a delimiter add it into the current token
+                //if the character is not a delimiter add it into the current token
 				token += pos;
 			}else {
                 //avoid an empty token before adding to the list
@@ -73,7 +73,7 @@ public class tokenizer{
         tokenize(str, delimiters)
         str is a text
         delimiters is a list of char which is by default white space : ' '
-        exemple: 
+        example: 
             tokenize("hello world") = tokenize("hello world", ' ') = [ 'hello', 'world' ]
             tokenize("hello world", ' ', 'l') = [ 'he', 'o', 'wor', 'd' ]
 
