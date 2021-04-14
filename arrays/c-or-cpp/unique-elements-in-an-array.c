@@ -12,10 +12,10 @@ int main(){
     }
     int flag;
 
-    for(int i=0; i<7; i++){
+    for(int i=0; i<size; i++){
         flag = 0;
         
-        for(int j=0; j<=7; j++){
+        for(int j=0; j<=size; j++){
 
             if(i != j && a[i] == a[j]){
             
