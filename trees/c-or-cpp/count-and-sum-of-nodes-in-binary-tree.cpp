@@ -1,3 +1,11 @@
+/*
+Problem
+
+Count the Number of Nodes in the Binarry Tree, 
+and do find the sum of all nodes in a binary tree.
+
+*/
+
 #include <iostream>
 
 using namespace std;
@@ -17,18 +25,6 @@ public:
         right = NULL;
     }
 };
-
-/*                       
-                    1
-                   / \
-                  2   3
-                 / \   \
-                4   5   7    
-        
-        Expected Output in this case
-            Count: 7
-            Sum : 28
-    */
 
 /* Counting Nodes Algorithm
 
@@ -72,6 +68,39 @@ int main()
     //Counting nodes
     cout << "Number of Nodes : " << CountNodes(root) << endl;
 
+    /*                       
+                    1
+                   / \
+                  2   3
+                 / \   \
+                4   5   7    
+        
+        Expected Output 
+    Step 1 - First find the Left subtree Count recursively 
+    Step 2 - Seconly Find  Right Subtree count Recursively
+    Step 3 = Add one for current node
+    You can see here that there are total of 7 nodes in the tree.
+            Count: 7 Nodes
+            
+    */
+
     //Sum of Nodes
     cout << "Sum of Nodes : " << SumNodes(root);
+
+    /*                       
+                    1
+                   / \
+                  2   3
+                 / \   \
+                4   5   7    
+        
+        Expected Output 
+        Similarly as Counted
+    Step 1 - First find the Left subtree Sum  recursively 
+    Step 2 - Seconly Find  Right Subtree Sum Recursively
+    Step 3 = Add the Current Node Value
+    You can see here that total sum is 28
+            Sum: 28
+            
+    */
 }
