@@ -3,9 +3,13 @@
 int main(){
     int a[1000];
     int size;
+    /* take the size of the array from user as input */
     printf("Enter size of the array: ");
     scanf("%d", &size);
-    
+    if(size<0){
+        size = size*(-1);
+    }
+    /* enter the elements to the array */
     printf("Enter elements of the array: ");
     for(int k=0; k<size; k++){
         scanf("%d", &a[k]);
