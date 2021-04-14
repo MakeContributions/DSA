@@ -44,8 +44,9 @@ public class pre_in_post_traversal{
 
         System.out.print("pre order: ");
         preOrder(root);
-
-        System.out.print("\n\nin order: ");
+        
+        System.out.println("\n");
+        System.out.print("in order: ");
         inOrder(root);
 
         System.out.print("\n\npost order: ");
