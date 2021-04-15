@@ -1,7 +1,7 @@
 /*  Program to find the total numbers of words in a sentence  */
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 //Function which calculate and return total numbers of words
 int count_words(char *sen)
@@ -33,6 +33,7 @@ the last index no. contain null and null is not alphabet so we not need to treat
     }
     return word;
 }
+
 //driver code
 int main()
 {
@@ -44,7 +45,7 @@ int main()
     if(sen==NULL)
     {
     fprintf(stderr, "malloc() failed to allocate memory\n");
-    // returing 1 to tell that the program didn't run successfully 
+    // returning 1 to tell that the program didn't run successfully 
     return 1;
     }
     printf("Enter a sentence: ");
@@ -57,6 +58,7 @@ int main()
     //printing the total words
     printf("Total number of words: %d",res);
 }
+
 /*
 Test case 1:
 Input: Enter a sentence:         DSA    is    a Important            Topic
