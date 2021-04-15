@@ -36,14 +36,15 @@ void LinkedList<T>::popfront(){
 	if(_head == nullptr) return;
 	if(_head->next == nullptr){
 		_head = nullptr;
+		#delete _head;
 		--size;
 		return;
 	}
 	node* oldhead = _head;
 	_head = _head->next;
+	#delete oldhead;
 	oldhead = nullptr;
 	size--;
-
 }
 
 template <typename T>
@@ -60,7 +61,6 @@ void LinkedList<T>::pushfront(const T& data){
 		_head = n;
 	}
 	size++;
-
 }
 
 
@@ -83,7 +83,6 @@ void LinkedList<T>::merge(const LinkedList<T>& other) {
 		//this will continue until there is no more node in the other list
 		l1.popfront();
 	}
-
 }
 
 int main(){
