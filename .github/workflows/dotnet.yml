@@ -17,15 +17,9 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.x
-    - name: Go to directory
-      run: |
-        cd algorithms/CSharp
-        ls
     - name: Restore dependencies
-      run: |
-        ls
-        dotnet restore
+      run: dotnet restore algorithms/CSharp
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build algorithms/CSharp --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test algorithms/CSharp --no-build --verbosity normal
