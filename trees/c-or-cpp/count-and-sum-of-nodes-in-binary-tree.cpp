@@ -6,6 +6,14 @@ and to find the sum of all nodes in a binary tree.
 
 */
 
+/*-------------------------
+
+Recursive Solution
+Time Complexity: O(n)
+
+
+---------------------*/
+
 #include <iostream>
 using namespace std;
 
