@@ -1,0 +1,29 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "Data structure and Algorithm (DSA) contributions on JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakeContributions/DSA.git"
+  },
+  "keywords": [
+    "DSA",
+    "JavaScript"
+  ],
+  "author": "MakeContributions",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MakeContributions/DSA/issues"
+  },
+  "homepage": "https://github.com/MakeContributions/DSA#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}
