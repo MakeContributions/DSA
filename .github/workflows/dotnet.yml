@@ -22,7 +22,9 @@ jobs:
         cd algorithms/CSharp
         ls
     - name: Restore dependencies
-      run: dotnet restore
+      run: |
+        ls
+        dotnet restore
     - name: Build
       run: dotnet build --no-restore
     - name: Test
