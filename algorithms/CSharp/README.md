@@ -1,5 +1,5 @@
 # C#
-For running the `.cs` file please usisng [.Net Finddle](https://dotnetfiddle.net/)
+For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/)
 
 ## Strings
 - [Palindrome](src/Strings/palindrome.cs)
