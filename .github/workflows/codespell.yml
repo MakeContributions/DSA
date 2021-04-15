@@ -2,8 +2,10 @@ name: codespell
 on:
   push:
     branches: [ main ]
+    paths: '**.py'
   pull_request:
     branches: [ main ]
+    paths: '**.py'
 jobs:
   codespell:
     runs-on: ubuntu-latest
