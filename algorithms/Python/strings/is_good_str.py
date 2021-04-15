@@ -13,15 +13,14 @@ def is_good_str(s: str) -> bool:
     >>> is_good_str("bcdaeiou??")
     False
     """
-    s = list(s.lower())
-    for i, char in enumerate(s):
+    c_or_v = ""
+    for char in s.lower():
         if char in constants:
-            s[i] = "c"
-        elif char in vowels:
-            s[i] = "v"
-    s = "".join(s)
-    return not "c" * 4 in s.replace("?", "c") and (
-        not "v" * 6 in s.replace("?", "v")
+            c_or_v += "c"
+        else:
+            c_or_v += "v" if char in vowels else char
+    return not "c" * 4 in c_or_v.replace("?", "c") and (
+        not "v" * 6 in c_or_v.replace("?", "v")
     )
     
 
