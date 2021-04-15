@@ -1,4 +1,4 @@
 # JS (JavaScript)
 
 ## Arrays
-- [Counting Inversions](./src/arrays/count-inversions.js)
+- [Counting Inversions](./src/arrays/counting-inversions.js)
