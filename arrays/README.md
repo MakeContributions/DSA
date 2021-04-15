@@ -1,6 +1,5 @@
 
-[C-CPP.zip](https://github.com/MannyP31/DSA/files/6319513/C-CPP.zip)
-[evenodd.zip](https://github.com/MannyP31/DSA/files/6319516/evenodd.zip)
+
 # Algorithms related to arrays
 
 ### C or C++
@@ -31,3 +30,4 @@
 1. [Counting Inversions](java/count-inversions.java)
 2. [Kadane's Algorithm](java/Kadanes_Algorithm.java)
 2. [Left Rotation of Array](java/left_rotation.java)
+3. [Finding unique digits of large no.](java/UniqueDigitsOfLargeNumber.java)
