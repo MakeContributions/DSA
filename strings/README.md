@@ -18,6 +18,7 @@
 ### JavaScript
 
 1. [Palindrome Check](js/palindrome.js)
+2. [All subsequences](js/sequence.js)
 
 ### Java
 
