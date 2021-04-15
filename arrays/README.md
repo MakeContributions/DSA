@@ -11,6 +11,12 @@
 4. [Shift Negatives in Array](c-or-cpp/shift-negatives.cpp)
 5. [Maximum Subarray Sum](c-or-cpp/max-subarray-sum.cpp)
 6. [Unique Elements in an Array](c-or-cpp/unique-elements-in-an-array.c)
+7. [Sorting arrays](c-or-cpp/Array.cpp)
+8. [division of no.s](c-or-cpp/division.cpp)
+9. [Finding large no.](c-or-cpp/largeno.cpp)
+10.[Variable declaration](c-or-cpp/vdec.cpp)
+11.[Data before and after sorting](c-or-cpp/Tint.cpp)
+12.[even and odd no.](c-or-cpp/evenodd.c)
 
 ### Python
 
