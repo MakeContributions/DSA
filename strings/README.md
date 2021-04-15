@@ -9,6 +9,12 @@
 5. [String Tokeniser](c-or-cpp/string-tokeniser.cpp)
 6. [String Reversal](c-or-cpp/string-reverse.cpp)
 7. [Permutation of String](c-or-cpp/Permutation-of-String.c)
+8. [Count Words](c-or-cpp/count-words.c)
+
+### C#
+
+1. [Palindrome Check](csharp/palindrome.cs)
+
 ### JavaScript
 
 1. [Palindrome Check](js/palindrome.js)
