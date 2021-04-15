@@ -15,14 +15,6 @@
 11. [Comb Sort](c-or-cpp/comb-sort.cpp)
 12. [3 Way Quick Sort](c-or-cpp/3way_quick_sort.cpp)
 
-
-
-### C#
-
-1. [Bubble Sort](csharp/bubble-sort.cs)
-2. [Insertion Sort](csharp/insertion-sort.cs)
-3. [Selection Sort](csharp/selection-sort.cs)
-
 ### Python
 
 1. [Bubble Sort](python/bubble-sort.py)
