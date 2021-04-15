@@ -1,3 +1,6 @@
+
+[C-CPP.zip](https://github.com/MannyP31/DSA/files/6319513/C-CPP.zip)
+[evenodd.zip](https://github.com/MannyP31/DSA/files/6319516/evenodd.zip)
 # Algorithms related to arrays
 
 ### C or C++
