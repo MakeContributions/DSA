@@ -1,6 +1,6 @@
 # Python
 
-## Arrays/
+## Arrays
 1. [Count Inversions](arrays/count_inversions.py)
 
 ## Linked Lists
