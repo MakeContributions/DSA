@@ -98,13 +98,13 @@ Example:
         
     Expected Output:
     Step 1 - First find the Left subtree Count recursively 
-    Step 2 - Seconly Find  Right Subtree count Recursively
+    Step 2 - Secondly Find  Right Subtree count Recursively
     Step 3 = Add one for current node
     You can see here that there are total of 7 nodes in the tree.
         
     Similarly as Count node you can find sum of nodes data
     Step 1 - First find the Left subtree Sum  recursively 
-    Step 2 - Seconly Find  Right Subtree Sum Recursively
+    Step 2 - Secondly Find  Right Subtree Sum Recursively
     Step 3 = Add the Current Node Value
     You can see here that total sum is 28
 */
