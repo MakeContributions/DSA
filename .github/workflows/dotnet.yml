@@ -18,7 +18,9 @@ jobs:
       with:
         dotnet-version: 3.1.x
     - name: Go to directory
-      run: cd algorithms/CSharp
+      run: |
+        cd algorithms/CSharp
+        ls
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
