@@ -9,6 +9,7 @@
 5. [String Tokeniser](c-or-cpp/string-tokeniser.cpp)
 6. [String Reversal](c-or-cpp/string-reverse.cpp)
 7. [Permutation of String](c-or-cpp/Permutation-of-String.c)
+8. [Count Words](c-or-cpp/count-words.c)
 
 ### C#
 
@@ -24,6 +25,7 @@
 2. [All subsequences](java/sequence.java)
 3. [KMP String Searching](java/kmp.cpp)
 4. [Rabin Karp String Searching](java/rabin-karp.cpp)
+5. [String Tokenizer](java/tokenizer.java)
 
 ### Python
 
