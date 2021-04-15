@@ -1,4 +1,4 @@
-name: lint_python
+name: python
 on:
   push:
     branches: [ main ]
@@ -7,7 +7,7 @@ on:
     branches: [ main ]
     paths: '**.py'
 jobs:
-  lint_python:
+  python:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
