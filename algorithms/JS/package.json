@@ -2,9 +2,14 @@
   "name": "algorithms",
   "version": "1.0.0",
   "description": "Data structure and Algorithm (DSA) contributions on JS",
-  "main": "index.js",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "jest"
+    "build": "node src/index.js",
+    "test": "jest",
+    "lint": "eslint src/"
   },
   "repository": {
     "type": "git",
@@ -21,9 +26,12 @@
   },
   "homepage": "https://github.com/MakeContributions/DSA#readme",
   "dependencies": {
-    "jest": "^26.6.3"
+    "jest": "^26.6.3",
+    "rewire": "^5.0.0"
   },
   "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-google": "^0.14.0",
     "prettier": "2.2.1"
   }
 }
