@@ -1,0 +1,27 @@
+name: .NET
+
+on:
+  push:
+    branches: [ main ]
+    paths: '**/**.cs'
+  pull_request:
+    branches: [ main ]
+    paths: '**/**.cs'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.x
+    - name: Restore dependencies
+      run: dotnet restore algorithms/CSharp
+    - name: Build
+      run: dotnet build algorithms/CSharp --no-restore
+    - name: Test
+      run: dotnet test algorithms/CSharp --no-build --verbosity normal
