@@ -9,7 +9,6 @@ class LinkedList{
 		void popfront();
 		void display();
 		void merge(const LinkedList<T>& list2) ;
-
 	private:
 		struct node{
 			T data;
@@ -28,10 +27,8 @@ T& LinkedList<T>::front(){
 
 template <typename T>
 void LinkedList<T>::popfront(){
-	/*
-		sets the head pointer to nullptr
-		and the next node as the new head
-	*/
+	//sets the head pointer to nullptr and the next node as the new head
+	
 	//if there is no node then do nothing
 	if(_head == nullptr) return;
 	if(_head->next == nullptr){
@@ -50,12 +47,9 @@ void LinkedList<T>::popfront(){
 template <typename T>
 void LinkedList<T>::pushfront(const T& data){
 	node* n = new node(data);
-
 	/*if the list is empty pointer the head pointer to 
 	 newly created node */
-	if(_head == nullptr){
-		_head = n;
-	}
+	if(_head == nullptr){ _head = n; }
 	else{
 		n->next = _head;
 		_head = n;
@@ -100,5 +94,4 @@ int main(){
 	l1.display();
 	std::cout << "####################" << std::endl;
 	l2.display();
-	
 }
