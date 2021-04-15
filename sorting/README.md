@@ -31,10 +31,10 @@
 4. [Merge Sort](java/merge-sort.java)
 5. [Quick Sort](java/quick-sort.java)
 6. [Counting Sort](java/counting-sort.java)
-7. [Bubble Sort algo](java/BubbleSort.java)
-8. [Heap Sort Algo](java/HeapSort.java)
-9. [Insertion Sort algo](java/InsertionSort.java)
-10.[Selection Sort algo](java/SelectionSort.java)
+7.  [Bubble Sort algo](java/BubbleSort.java)
+8.  [Heap Sort Algo](java/HeapSort.java)
+9.  [Insertion Sort algo](java/InsertionSort.java)
+10. [Selection Sort algo](java/SelectionSort.java)
 ### JavaScript
 
 1. [Bubble Sort](js/bubble-sort.js)
