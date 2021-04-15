@@ -35,7 +35,6 @@
 8. [Heap Sort Algo](java/HeapSort.java)
 9. [Insertion Sort algo](java/InsertionSort.java)
 10.[Selection Sort algo](java/SelectionSort.java)
-11. 
 ### JavaScript
 
 1. [Bubble Sort](js/bubble-sort.js)
