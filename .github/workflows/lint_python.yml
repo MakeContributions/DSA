@@ -2,8 +2,10 @@ name: lint_python
 on:
   push:
     branches: [ main ]
+    paths: '**.py'
   pull_request:
     branches: [ main ]
+    paths: '**.py'
 jobs:
   lint_python:
     runs-on: ubuntu-latest
