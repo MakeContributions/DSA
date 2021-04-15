@@ -8,7 +8,7 @@ class LinkedList{
 		T& front();	
 		void popfront();
 		void display();
-		void merge(const LinkedList<T>& merge) ;
+		void merge(const LinkedList<T>& other);
 		LinkedList<T>& operator=(const LinkedList<T>& other);
 
 	private:
