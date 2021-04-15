@@ -7,8 +7,6 @@
 int count_words(char *sen)
 {
     int i=0,check=1,word=0;
-    //dynamically allocating memory
-    realloc(sen,strlen(sen)+1);
     //until i is less then length of sen variable the loop will run
     while(strlen(sen)>i)
     {
@@ -42,6 +40,13 @@ int main()
     char *sen,res;
     // dynamically locating the address in sen variable
     sen=(char*)malloc(sizeof(char)*1000);
+    //checking whether the sen variable contain null 
+    if(sen==NULL)
+    {
+    fprintf(stderr, "malloc() failed to allocate memory\n");
+    // returing 1 to tell that the program didn't run successfully 
+    return 1;
+    }
     printf("Enter a sentence: ");
     //taking input
     fgets(sen,1000,stdin);
