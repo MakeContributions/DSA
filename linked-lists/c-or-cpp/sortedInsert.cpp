@@ -7,9 +7,12 @@ class LinkedList{
 		void push(const T& data);
 		void display();
 		void sortedInsert(const bool& reverse = false);
+		void pushfront(const T& data);
 
 	private:
 		bool reverse_;
+		bool sortInsertInit_ = false;
+		void sortedInsertALGO();
 		struct node{
 			T data;
 			node* next;
@@ -29,15 +32,28 @@ void LinkedList<T>::sortedInsert(const bool& reverse){
 	*/
 	
 	if(this->head_ != nullptr){
-		std::cout << "Can only be used when the list is empty" << std::endl;	
+		std::cout << "Can only be called before pushing any element to the list" << std::endl;	
 		return;
 	}
 
 	reverse_ = reverse;
+	sortInsertInit_ = true;
+}
+
+
+template <typename T>
+void LinkedList<T>::pushfront(const T& data){
+	node* n = new node(data);
+	n->next = head_;
+	head_ = n;
 }
 
 template <typename T>
 void LinkedList<T>::push(const T& data){
+	if(!sortInsertInit_){
+		std::cout << "Initialize sortInsert before calling push" << std::endl;
+		return;
+	}
 	node* n = new node(data);
 	/*if the list is empty pointer the head pointer to 
 	 newly created node */
@@ -85,8 +101,8 @@ void LinkedList<T>::display(){
 
 int main(){
 	LinkedList<int> l1, l2;
-	l1.sortedInsert(true);
 	srand(time(0));
+	l1.sortedInsert(false);
 	for(int i=0; i<10; i++){
 			int t = rand()%100+1;
 			l1.push(t);
