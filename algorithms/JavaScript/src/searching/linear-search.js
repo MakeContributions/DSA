@@ -1,9 +1,11 @@
-// Linear Search JavaScript Version: searches for a specific item in an array and returns the index of the item.
+// Linear Search JavaScript Version: searches for a
+// specific item in an array and returns the index of the item.
 
 function linearSearch(arr, x) {
   // Loop through the array
   for (let i = 0; i < arr.length; i++) {
-    // Checks if the item in the array = search item. If yes, return the index. If not, move to next item.
+    // Checks if the item in the array = search item.
+    // If yes, return the index. If not, move to next item.
     if (arr[i] === x) {
       return i;
     }
