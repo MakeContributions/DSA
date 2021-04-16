@@ -25,5 +25,6 @@
 4. [Selection Sort](sorting/selection_sort.py)
  
 ## Strings
-1. [Palindrome](strings/palindrome.py)
-2. [Word Count](strings/word_count.py)
+1. [Is Good Str](strings/is_good_str.py)
+2. [Palindrome](strings/palindrome.py)
+3. [Word Count](strings/word_count.py)
