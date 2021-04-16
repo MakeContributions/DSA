@@ -12,7 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: pwd
+      - run: cd ..
+      - run: pwd
       - run: ls
+      - run: go version
       - uses: actions/checkout@v2
       - name: golangci-lint
         uses: golangci/golangci-lint-action@v2
