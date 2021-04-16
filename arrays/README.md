@@ -30,4 +30,4 @@
 1. [Counting Inversions](java/count-inversions.java)
 2. [Kadane's Algorithm](java/Kadanes_Algorithm.java)
 2. [Left Rotation of Array](java/left_rotation.java)
-3. [Finding unique digits of large no.](java/UniqueDigitsOfLargeNumber.java)
+3. [Finding unique digits of large number](java/unique-digits-of-large-number.java)
