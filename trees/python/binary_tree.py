@@ -46,13 +46,8 @@ class BinaryTree(object):
         	if temp.rightchild!=None:
         		q1.append(temp.rightchild)
         return
-
-    def PrintTree(self,nlist):
-        for item in range(len(nlist)):
-            if (nlist[item] != None):
-                print(nlist[item].element,end=" ")
-            else:
-                print(-1)
+        
+                
 
 tree = BinaryTree(1)
 tree.root.left = Node(2)
