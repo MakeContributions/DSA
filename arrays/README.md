@@ -13,7 +13,7 @@
 7. [Sorting arrays](c-or-cpp/Array.cpp)
 8. [Division of no.](c-or-cpp/division.cpp)
 9. [Finding large no.](c-or-cpp/finding-large-number.cpp)
-10. [Variable declaration](c-or-cpp/vdec.cpp)
+10. [Variable declaration](c-or-cpp/variable-declaration.cpp)
 11. [Data before and after sorting](c-or-cpp/Tint.cpp)
 12. [Even and odd no. ](c-or-cpp/evenodd.c)
 
