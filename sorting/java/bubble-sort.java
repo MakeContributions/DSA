@@ -1,36 +1,27 @@
-// Java program for implementation of Bubble Sort 
-class BubbleSort 
-{ 
-    void bubbleSort(int arr[]) 
-    { 
-        int n = arr.length; 
-        for (int i = 0; i < n-1; i++) 
-            for (int j = 0; j < n-i-1; j++) 
-                if (arr[j] > arr[j+1]) 
-                { 
-                    // swap arr[j+1] and arr[j] 
-                    int temp = arr[j]; 
-                    arr[j] = arr[j+1]; 
-                    arr[j+1] = temp; 
-                } 
-    } 
-  
-    /* Prints the array */
-    void printArray(int arr[]) 
-    { 
-        int n = arr.length; 
-        for (int i=0; i<n; ++i) 
-            System.out.print(arr[i] + " "); 
-        System.out.println(); 
-    } 
-  
-    // Driver method to test above 
-    public static void main(String args[]) 
-    { 
-        BubbleSort ob = new BubbleSort(); 
-        int arr[] = {64, 34, 25, 12, 22, 11, 90}; 
-        ob.bubbleSort(arr); 
-        System.out.println("Sorted array"); 
-        ob.printArray(arr); 
-    } 
-} 
+
+import java.util.Arrays;
+
+public class BubbleSort {
+	static int temp = 0;
+	static int[] nums = { 13, 34, 12, 45, 56, 32, 20 };
+
+	public static void main(String[] args) {
+
+		System.out.println("Before Sorting : "+Arrays.toString(nums));
+		sort();
+
+	}
+  //create method sorting array
+	public static void sort() {
+		for (int i = 1; i < nums.length; i++) {
+			for (int j = 0; j < i; j++) {
+				if (nums[j] > nums[i]) {
+					temp = nums[j];
+					nums[j] = nums[i];
+					nums[i] = temp;
+				}
+			}
+		}
+		System.out.println(Arrays.toString(nums));
+	}
+}
