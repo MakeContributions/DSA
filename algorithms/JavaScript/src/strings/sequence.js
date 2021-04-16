@@ -1,25 +1,15 @@
-var list = [];
+let list = [];
 
 const subsequence = (input, output = '') => {
-    if (input === "") {
-        if (output !== '' && !list.includes(output)) list.push(output);
-        return;
-    }
+  if (input === '') {
+    if (output !== '' && !list.includes(output)) list.push(output);
+    return;
+  }
 
-    subsequence(input.substr(1), output + input.charAt(0));
-    subsequence(input.substr(1), output);
-}
+  subsequence(input.substr(1), output + input.charAt(0));
+  subsequence(input.substr(1), output);
+};
 
-subsequence('abc');
-console.log('abc', list);
-list = [];
-
-subsequence('aaa');
-console.log('aaa', list);
-list = [];
-
-subsequence('hello');
-console.log('hello', list);
 
 /*
     to run the file:
@@ -42,3 +32,15 @@ console.log('hello', list);
             'lo',    'l',    'o'
         ]
 */
+
+subsequence('abc');
+console.log('abc', list);
+list = [];
+
+subsequence('aaa');
+console.log('aaa', list);
+list = [];
+
+subsequence('hello');
+console.log('hello', list);
+
