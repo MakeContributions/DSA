@@ -35,11 +35,6 @@ void LinkedList<T>::push(const T& data){
 		head_ = n; 
 		return;
 	}
-
-	if(head_ != nullptr && sortInsertRev){
-		std::cerr << "Cannot push into list with change in order" << std::endl;	
-		return;
-	}
 	
 	node* current = head_;
 
@@ -81,7 +76,6 @@ void LinkedList<T>::display(){
 int main(){
 	LinkedList<int> l1, l2;
 	srand(time(0));
-	l1.push(5);
 	l1.sortInsertRev = true;
 	for(int i=0; i<10; i++){
 			int t = rand()%100+1;
