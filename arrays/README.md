@@ -15,7 +15,7 @@
 9. [Finding large no.](c-or-cpp/finding-large-number.cpp)
 10. [Variable declaration](c-or-cpp/variable-declaration.cpp)
 11. [Data before and after sorting](c-or-cpp/data-before-sort.cpp)
-12. [Even and odd no. ](c-or-cpp/evenodd.c)
+12. [Even and odd no. ](c-or-cpp/even-and-odd.c)
 
 ### Python
 
