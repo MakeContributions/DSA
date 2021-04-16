@@ -26,7 +26,7 @@ public class palindrome {
         return true; 
     } 
 
-    //new aproach with case sensitive
+    //new approach with case sensitive
     public static boolean isPalindrome(String str, boolean caseSensitive){
         // lowercase if not case sensitive
         if(!caseSensitive) str = str.toLowerCase();
