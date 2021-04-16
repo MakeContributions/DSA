@@ -18,4 +18,4 @@
  
 ## Strings
 1. [Palindrome](strings/palindrome.js)
-2. [Sequemce](strings/sequemce.js)
+2. [Sequence](strings/sequence.js)
