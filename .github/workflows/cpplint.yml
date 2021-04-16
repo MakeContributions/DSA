@@ -1,8 +1,15 @@
 # GitHub Action to run cpplint recursively on all pushes and pull requests
 # https://github.com/cpplint/GitHub-Action-for-cpplint
 
-name: cpplint
-on: [push, pull_request]
+name: C++
+on:
+  push:
+    branches: [ main ]
+    paths: '**/**.cpp'
+  pull_request:
+    branches: [ main ]
+    paths: '**/**.cpp'
+  
 jobs:
   cpplint:
     runs-on: ubuntu-latest
