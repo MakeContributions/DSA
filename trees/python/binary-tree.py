@@ -11,33 +11,33 @@ class BinaryTree(object):
     def __init__(self,root):
         self.root = Node(root)
 
-    def PreOrderTraversal(self,v):
-        if v!=None:
-            print(v.value,end=" ")
-            self.PreOrderTraversal(self,v.leftchild)
-            self.PreOrderTraversal(self,v.rightchild)
+    def PreOrderTraversal(self,nnode):
+        if nnode!=None:
+            print(nnode.value,end=" ")
+            self.PreOrderTraversal(self,nnode.leftchild)
+            self.PreOrderTraversal(self,nnode.rightchild)
 
         return
 
-    def InOrderTraversal(self,v):
-        if v!=None:
-            self.InOrderTraversal(self,v.leftchild)
-            print(v.value,end=" ")
-            self.InOrderTraversal(self,v.rightchild)
+    def InOrderTraversal(self,nnode):
+        if nnode!=None:
+            self.InOrderTraversal(self,nnode.leftchild)
+            print(nnode.value,end=" ")
+            self.InOrderTraversal(self,nnode.rightchild)
 
         return 
 
-    def PostOrderTraversal(self,v):
-        if v!=None:
-            self.PostOrderTraversal(self,v.leftchild)
-            self.PostOrderTraversal(self,v.rightchild)
-            print(v.value,end=" ")
+    def PostOrderTraversal(self,nnode):
+        if nnode!=None:
+            self.PostOrderTraversal(self,nnode.leftchild)
+            self.PostOrderTraversal(self,nnode.rightchild)
+            print(nnode.value,end=" ")
 
         return
 
-    def levelorderTraverse(self, v):
+    def levelorderTraverse(self, nnode):
         q1 = deque()
-        q1.append(v)
+        q1.append(nnode)
         while (len(q1)>0):
         	temp=q1.popleft()
         	print(temp.element,end=",")
