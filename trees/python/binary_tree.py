@@ -14,23 +14,23 @@ class BinaryTree(object):
     def pre_order_traversal(self,nnode):
         if nnode!=None:
             print(nnode.value,end=" ")
-            self.PreOrderTraversal(self,nnode.leftchild)
-            self.PreOrderTraversal(self,nnode.rightchild)
+            self.pre_order_traversal(self,nnode.leftchild)
+            self.pre_order_traversal(self,nnode.rightchild)
 
         return
 
     def in_order_traversal(self,nnode):
         if nnode!=None:
-            self.InOrderTraversal(self,nnode.leftchild)
+            self.in_order_traversal(self,nnode.leftchild)
             print(nnode.value,end=" ")
-            self.InOrderTraversal(self,nnode.rightchild)
+            self.in_order_traversal(self,nnode.rightchild)
 
         return 
 
     def post_order_traversal(self,nnode):
         if nnode!=None:
-            self.PostOrderTraversal(self,nnode.leftchild)
-            self.PostOrderTraversal(self,nnode.rightchild)
+            self.post_order_traversal(self,nnode.leftchild)
+            self.post_order_traversal(self,nnode.rightchild)
             print(nnode.value,end=" ")
 
         return
