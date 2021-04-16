@@ -1,4 +1,4 @@
-public class paindrome { 
+public class palindrome { 
   
     // Function that returns true if 
     // str is a palindrome 
