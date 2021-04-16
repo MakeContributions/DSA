@@ -17,14 +17,6 @@
 11. [Data before and after sorting](c-or-cpp/data-before-sort.cpp)
 12. [Even and odd no. ](c-or-cpp/even-and-odd.c)
 
-### Python
-
-1. [Counting Inversions](python/count-inversions.py)
-
-### JavaScript
-
-1. [Counting Inversions](js/count-inversions.js)
-
 ### Java
 
 1. [Counting Inversions](java/count-inversions.java)

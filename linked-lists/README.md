@@ -17,12 +17,3 @@
 3. [Circular Linked List](java/circular.java)
 4. [Reverse Linked List](java/reverse.java)
 5. [Clone Linked List with Random Pointer](java/clone-linkedlist-with-rnd-pointer.java)
-
-### JavaScript
-
-1. [Singly Linked List](js/singly.js)
-
-### Python
-
-1. [Singly Linked List](Python/singly.py)
-2. [Doubly Linked List](Python/doubly.py)

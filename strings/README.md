@@ -11,15 +11,6 @@
 7. [Permutation of String](c-or-cpp/Permutation-of-String.c)
 8. [Count Words](c-or-cpp/count-words.c)
 
-### C#
-
-1. [Palindrome Check](csharp/palindrome.cs)
-
-### JavaScript
-
-1. [Palindrome Check](js/palindrome.js)
-2. [All subsequences](js/sequence.js)
-
 ### Java
 
 1. [Palindrome Check](java/palindrome.java)
@@ -27,10 +18,6 @@
 3. [KMP String Searching](java/kmp.cpp)
 4. [Rabin Karp String Searching](java/rabin-karp.cpp)
 5. [String Tokenizer](java/tokenizer.java)
-
-### Python
-
-1. [Palindrome Check](python/palindrome.py)
 
 ### Rust
 
