@@ -1,4 +1,4 @@
-public class Algorithm { 
+public class paindrome { 
   
     // Function that returns true if 
     // str is a palindrome 
@@ -25,15 +25,32 @@ public class Algorithm {
         // Given string is a palindrome 
         return true; 
     } 
+
+    //new aproach with case sensitive
+    public static boolean isPalindrome(String str, boolean caseSensitive){
+        // lowercase if not case sensitive
+        if(!caseSensitive) str = str.toLowerCase();
+
+        for(int i = 0; i < str.length() / 2; i++)
+            if(str.charAt(i) != str.charAt(str.length() - 1 - i))
+                return false;
+
+        return true;
+    }
   
     // Driver code 
     public static void main(String[] args) 
     { 
-        String str = "geeks"; 
+        String str = "Dad"; 
   
         if (isPalindrome(str)) 
-            System.out.print("Yes"); 
+            System.out.println("Yes"); 
         else
-            System.out.print("No"); 
+            System.out.println("No"); 
+  
+        if (isPalindrome(str, false)) 
+            System.out.println("Yes"); 
+        else
+            System.out.println("No"); 
     } 
 } 
