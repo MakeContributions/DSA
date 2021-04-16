@@ -10,7 +10,7 @@
 4. [Shift Negatives in Array](c-or-cpp/shift-negatives.cpp)
 5. [Maximum Subarray Sum](c-or-cpp/max-subarray-sum.cpp)
 6. [Unique Elements in an Array](c-or-cpp/unique-elements-in-an-array.c)
-7. [Sorting arrays](c-or-cpp/Array.cpp)
+7. [Sorting arrays](c-or-cpp/array.cpp)
 8. [Division of no.](c-or-cpp/division.cpp)
 9. [Finding large no.](c-or-cpp/finding-large-number.cpp)
 10. [Variable declaration](c-or-cpp/variable-declaration.cpp)
