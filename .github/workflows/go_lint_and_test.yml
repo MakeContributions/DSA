@@ -1,21 +1,16 @@
 name: golangci-lint
-on:
-  push:
-    branches: [ main ]
-    paths: '**.go'
-  pull_request:
-    branches: [ main ]
-    paths: '**.go'
+on: [push, pull_request]
+#  push:
+#    branches: [ main ]
+#    paths: '**.go'
+#  pull_request:
+#    branches: [ main ]
+#    paths: '**.go'
 jobs:
   golangci:
     name: lint
     runs-on: ubuntu-latest
     steps:
-      - run: pwd
-      - run: cd ..
-      - run: pwd
-      - run: ls
-      - run: go version
       - uses: actions/checkout@v2
       - name: golangci-lint
         uses: golangci/golangci-lint-action@v2
