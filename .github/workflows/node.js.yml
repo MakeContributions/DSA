@@ -29,7 +29,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: |
-        cd $env.PATH_PREFIX
+        cd ${{ env.PATH_PREFIX }}
         npm ci
-    - run: npm run build --if-present --prefix $env.PATH_PREFIX
-    - run: npm lint --prefix $env.PATH_PREFIX 
+    - run: npm run build --if-present --prefix ${{ env.PATH_PREFIX }}
+    - run: npm lint --prefix ${{ env.PATH_PREFIX }}
