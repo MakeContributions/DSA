@@ -14,23 +14,23 @@ class BinaryTree(object):
     def pre_order_traversal(self,nnode):
         if nnode!=None:
             print(nnode.value,end=" ")
-            self.pre_order_traversal(self,nnode.leftchild)
-            self.pre_order_traversal(self,nnode.rightchild)
+            self.pre_order_traversal(nnode.leftchild)
+            self.pre_order_traversal(nnode.rightchild)
 
         return
 
     def in_order_traversal(self,nnode):
         if nnode!=None:
-            self.in_order_traversal(self,nnode.leftchild)
+            self.in_order_traversal(nnode.leftchild)
             print(nnode.value,end=" ")
-            self.in_order_traversal(self,nnode.rightchild)
+            self.in_order_traversal(nnode.rightchild)
 
         return 
 
     def post_order_traversal(self,nnode):
         if nnode!=None:
-            self.post_order_traversal(self,nnode.leftchild)
-            self.post_order_traversal(self,nnode.rightchild)
+            self.post_order_traversal(nnode.leftchild)
+            self.post_order_traversal(nnode.rightchild)
             print(nnode.value,end=" ")
 
         return
@@ -40,7 +40,7 @@ class BinaryTree(object):
         q1.append(nnode)
         while (len(q1)>0):
         	temp=q1.popleft()
-        	print(temp.element,end=",")
+        	print(temp.value,end=",")
         	if temp.leftchild!=None:
         		q1.append(temp.leftchild)
         	if temp.rightchild!=None:
@@ -55,9 +55,13 @@ tree.root.right = Node(3)
 
 
 tree.pre_order_traversal(tree.root)
+print()
 tree.in_order_traversal(tree.root)
+print()
 tree.post_order_traversal(tree.root)
+print()
 tree.level_order_traversal(tree.root)
+print()
 
 
 
