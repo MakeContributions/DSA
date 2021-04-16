@@ -5,10 +5,10 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ enhancement/js-test ]
+    branches: [ main ]
     paths: '**/**.js'
   pull_request:
-    branches: [ enhancement/js-test ]
+    branches: [ main ]
     paths: '**/**.js'
 env:
   PATH_PREFIX: 'algorithms/JavaScript'
