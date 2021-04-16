@@ -1,43 +1,50 @@
-// Java program for implementation of Selection Sort 
-class SelectionSort 
-{ 
-    void sort(int arr[]) 
-    { 
-        int n = arr.length; 
-  
-        // One by one move boundary of unsorted subarray 
-        for (int i = 0; i < n-1; i++) 
-        { 
-            // Find the minimum element in unsorted array 
-            int min_idx = i; 
-            for (int j = i+1; j < n; j++) 
-                if (arr[j] < arr[min_idx]) 
-                    min_idx = j; 
-  
-            // Swap the found minimum element with the first 
-            // element 
-            int temp = arr[min_idx]; 
-            arr[min_idx] = arr[i]; 
-            arr[i] = temp; 
-        } 
-    } 
-  
-    // Prints the array 
-    void printArray(int arr[]) 
-    { 
-        int n = arr.length; 
-        for (int i=0; i<n; ++i) 
-            System.out.print(arr[i]+" "); 
-        System.out.println(); 
-    } 
-  
-    // Driver code to test above 
-    public static void main(String args[]) 
-    { 
-        SelectionSort ob = new SelectionSort(); 
-        int arr[] = {64,25,12,22,11}; 
-        ob.sort(arr); 
-        System.out.println("Sorted array"); 
-        ob.printArray(arr); 
-    } 
-} 
+class Selection
+{
+
+    int minIndex(int Array[] , int start, int end)
+    {
+        int minIndex = start;
+
+        for (int i = start+1; i < end; i++) 
+        {
+            if ( Array[i] < Array[minIndex] ) 
+            {
+                minIndex = i;    
+            }    
+        }
+        return minIndex;
+    }
+     int[] sorting(int Array[],int length)
+    {
+        for (int i = 0; i < length-1; i++) 
+        {
+                int minI = minIndex(Array, i, length);
+                int temp = Array[minI];
+                Array[minI] = Array[i];
+                Array[i] = temp;
+            }
+        return Array;
+    }
+}
+
+/**
+ * SelectionSort
+ */
+public class SelectionSort {
+
+    public static void main(String[] args) {
+        
+        int Array[] = {1,2,3,4,5,6,7,8,9};
+
+        Selection s1 = new Selection();
+        long startTime = System.nanoTime();
+        int sortedArray[] = s1.sorting(Array, 9);
+        long endTime = System.nanoTime();
+
+        for (int i = 0; i < 9; i++) {
+            System.out.println(sortedArray[i]);
+        }
+        System.out.println("Total Time in Neno Second: "+ (endTime-startTime));
+
+    }
+}
