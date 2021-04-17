@@ -4,7 +4,7 @@ Criteria:
 1: If a string contain 3 more than three constant or more than 5 vowels continuously than it is a bad string else good
 2: '?' can  be replaced by any alphabets means it can be both constant and vowel
 */
-#include<iostream>
+#include <iostream>
 #include <string>
 using namespace std;
 
