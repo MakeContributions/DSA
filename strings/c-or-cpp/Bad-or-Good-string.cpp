@@ -96,4 +96,10 @@ int main()
 	    cout<<1<<endl;
 	}
 	return 0;
+
 }
+/*
+Input: Enter string: aeiou??
+Output: 0(bad string)
+
+Time complexity: O(N)
