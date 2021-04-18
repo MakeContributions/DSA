@@ -9,20 +9,3 @@
 5. [Insertion Linked List](c-or-cpp/all-possible-insertion.cpp)
 6. [Josephus Problem Using Circular Linked List](c-or-cpp/josephus-problem.c)
 7. [Merge Two Singly linked List](c-or-cpp/merge.cpp)
-
-### Java
-
-1. [Singly Linked List](java/singly.java)
-2. [Doubly Linked List](java/doubly.java)
-3. [Circular Linked List](java/circular.java)
-4. [Reverse Linked List](java/reverse.java)
-5. [Clone Linked List with Random Pointer](java/clone-linkedlist-with-rnd-pointer.java)
-
-### JavaScript
-
-1. [Singly Linked List](js/singly.js)
-
-### Python
-
-1. [Singly Linked List](Python/singly.py)
-2. [Doubly Linked List](Python/doubly.py)

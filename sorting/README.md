@@ -14,29 +14,3 @@
 10. [Shell Sort](c-or-cpp/shell-sort.cpp)
 11. [Comb Sort](c-or-cpp/comb-sort.cpp)
 12. [3 Way Quick Sort](c-or-cpp/3way_quick_sort.cpp)
-
-### Python
-
-1. [Bubble Sort](python/bubble-sort.py)
-2. [Insertion Sort](python/insertion-sort.py)
-3. [Selection Sort](python/selection-sort.py)
-4. [Quick Sort](python/quick-sort.py)
-
-### Java
-
-
-1. [Bubble Sort](java/bubble-sort.java)
-2. [Insertion Sort](java/insertion-sort.java)
-3. [Selection Sort](java/selection-sort.java)
-4. [Merge Sort](java/merge-sort.java)
-5. [Quick Sort](java/quick-sort.java)
-6. [Counting Sort](java/counting-sort.java)
-7.  [Bubble Sort algo](java/bubble-sort.java)
-8.  [Heap Sort Algo](java/heap-sort.java)
-9.  [Insertion Sort algo](java/insertion-sort.java)
-10. [Selection Sort algo](java/selection-sort.java)
-### JavaScript
-
-1. [Bubble Sort](js/bubble-sort.js)
-2. [Insertion Sort](js/insertion-sort.js)
-3. [Selection Sort](js/selection-sort.js)

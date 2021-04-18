@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-// Variable declaration:
+// Variable declaration
 extern int a,b;
 extern int c;
 extern float f;
 
 int main(){
-	 //Variable defination:
+	 //Variable definition
 	 int a,b;
 	 int c;
 	 float f;

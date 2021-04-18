@@ -1,0 +1,35 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "Data structure and Algorithm (DSA) contributions",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "build": "node src/index.js",
+    "test": "echo 'Doesn't have test'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-google": "^0.14.0",
+    "prettier": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakeContributions/DSA.git"
+  },
+  "keywords": [
+    "DSA",
+    "Algorithm",
+    "JavaScript"
+  ],
+  "author": "Make Contributions",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MakeContributions/DSA/issues"
+  },
+  "homepage": "https://github.com/MakeContributions/DSA#readme"
+}
