@@ -6,7 +6,7 @@ Data structure and Algorithm (DSA)
 
 ### 1. Contribution Specifications
 
-The problem being contributed must either be a simple **file** (**Eg.** [`kruskal-algorithm.cpp`](https://github.com/MakeContributions/DSA/blob/main/graphs/c-or-cpp/kruskal-algorithm.cpp), [`linear-search.java`](https://github.com/MakeContributions/DSA/blob/main/searching/java/linear-search.java)) or a more complex **directory** ([`palindrome/`](https://github.com/MakeContributions/DSA/tree/main/strings/rust/palindrome)). This is a unit `problem`.
+The problem being contributed must either be a simple **file** (**Eg.** [`kruskal-algorithm.cpp`](./algorithms/CPlusPlus/Graphs/kruskal-algorithm.cpp), [`linear-search.java`](./algorithms/Java/searching/linear-search.java)) or a more complex **directory** ([`palindrome/`](./algorithms/Rust/strings/palindrome)). This is a unit `problem`.
 
 The directory tree has the following convention of `category/language/problem`, where `category` is the topic or category of the problem being contributed (**Eg.** `strings`, `sorting`, `linked-lists` etc.), `language` represents the language code of the problem (**Eg.** `c-or-cpp` for C/C++, `python` for Python, `java` for Java etc.), and `problem` is a conforming name to the problem (**Eg.** `linear-search.cpp`, `palindrome`, `queue-linked-list.cpp` etc.)
 
