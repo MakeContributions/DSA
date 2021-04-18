@@ -15,8 +15,4 @@
 
 1. [Palindrome Check](rust/palindrome/README.md)
 
-### Haskell
-
-1. [Palindrome Check](haskell/palindrome.hs)
-2. [All subsequences](haskell/sequence.hs)
 
