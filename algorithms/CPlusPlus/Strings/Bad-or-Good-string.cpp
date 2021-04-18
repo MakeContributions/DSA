@@ -101,4 +101,6 @@ int main()
 /*
 Input: Enter string: aeiou??
 Output: 0(bad string)
+
 Time complexity: O(N)
+*/
