@@ -7,11 +7,11 @@ on: [push, pull_request]
 #    branches: [ main ]
 #    paths: '**.go'
 jobs:
-  golangci:
+  Go:
     name: lint
     runs-on: ubuntu-latest
     steps:
-      - run: go list -mod=readonly -e -json -compiled=true -test=true -export=true -deps=true -find=false -- ./...
+      - run: go list -e -json -compiled=true -test=true -export=true -deps=true -find=false -- ./...
       - uses: actions/checkout@v2
       - name: golangci-lint
         uses: golangci/golangci-lint-action@v2
