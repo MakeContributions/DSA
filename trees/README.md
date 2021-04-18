@@ -7,7 +7,3 @@
 3. [Build Binary Tree using Pre,In & Post Order](c-or-cpp/build-binary-tree.cpp)
 4. [Count and find the Sum of nodes in a Binary Tree](c-or-cpp/count-and-sum-of-nodes-in-binary-tree.cpp)
 
-### Java
-
-1. [Pre, In & Post Order Traversals](java/pre_in_post_traversal.java)
- 

@@ -11,14 +11,6 @@
 7. [Permutation of String](c-or-cpp/Permutation-of-String.c)
 8. [Count Words](c-or-cpp/count-words.c)
 
-### Java
-
-1. [Palindrome Check](java/palindrome.java)
-2. [All subsequences](java/sequence.java)
-3. [KMP String Searching](java/kmp.cpp)
-4. [Rabin Karp String Searching](java/rabin-karp.cpp)
-5. [String Tokenizer](java/tokenizer.java)
-
 ### Rust
 
 1. [Palindrome Check](rust/palindrome/README.md)
