@@ -10,9 +10,3 @@
 6. [String Reversal](c-or-cpp/string-reverse.cpp)
 7. [Permutation of String](c-or-cpp/Permutation-of-String.c)
 8. [Count Words](c-or-cpp/count-words.c)
-
-### Rust
-
-1. [Palindrome Check](rust/palindrome/README.md)
-
-
