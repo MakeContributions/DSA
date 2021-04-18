@@ -14,9 +14,3 @@
 10. [Shell Sort](c-or-cpp/shell-sort.cpp)
 11. [Comb Sort](c-or-cpp/comb-sort.cpp)
 12. [3 Way Quick Sort](c-or-cpp/3way_quick_sort.cpp)
-
-### Golang
-1. [Insertion Sort](go/insertion-sort.go)
-2. [Quick Sort](go/quick-sort.go)
-3. [Bubble Sort](go/bubble-sort.go)
-

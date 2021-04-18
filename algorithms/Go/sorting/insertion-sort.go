@@ -7,7 +7,7 @@
 * O(n^2) runtime (the deck is sorted in descending order).
  */
 
-package main
+package sorting
 
 import (
 	"fmt"
@@ -26,7 +26,7 @@ func insertionSort(arr []int) {
 	}
 }
 
-func main() {
+func RunInsertionSort() {
 	arr := []int{10, 1, 6, 256, 2, 53, 235, 53, 1, 7, 23}
 	fmt.Println("Unsorted Array:", arr)
 	insertionSort(arr)
