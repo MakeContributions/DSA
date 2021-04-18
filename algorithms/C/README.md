@@ -7,8 +7,8 @@
 - [Prim's Algorithm](graphs/Prim's-algorithm.c)
 
 ## Linked Lists
-- [Insert and Delete at Beginning](linked-list/Insert-and-delete-beginning.c)
-- [Josephus Problem](linked-list/josephus-problem.c)
+- [Insert and Delete at Beginning](linked-lists/Insert-and-delete-beginning.c)
+- [Josephus Problem](linked-lists/josephus-problem.c)
 
 ## Queues
 - [Double Ended Queue using array](queues/double-ended-queue-using-array.c)
@@ -19,4 +19,4 @@
 ## Strings
 - [Count Words](strings/count-words.c)
 - [Palindrome](strings/palindrome.c)
-- [Permutation of String](string/Permutations-of-String.c)
+- [Permutation of String](string/Permutation-of-String.c)
