@@ -1,4 +1,4 @@
-package main
+package searching
 
 import (
 	"fmt"
@@ -6,13 +6,8 @@ import (
 	"time"
 )
 
-func main() {
-	rand.Seed(time.Now().UnixNano())
-	var (
-		arr  = rand.Perm(20)
-		elem = rand.Intn(30)
-		n    = len(arr)
-	)
+func linearSearch(arr []int, elem int) {
+	n := len(arr)
 
 	fmt.Printf("Array: %v\nElement: %v\n", arr, elem)
 
@@ -23,4 +18,11 @@ func main() {
 		}
 	}
 	fmt.Printf("Element not found!")
+}
+
+func RunLinearSearch() {
+	rand.Seed(time.Now().UnixNano())
+	arr := rand.Perm(20)
+	elem := rand.Intn(30)
+	linearSearch(arr, elem)
 }

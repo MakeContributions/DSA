@@ -5,7 +5,7 @@
 	Algorithm Type: Greedy
 	Time Complexity: O(n*log(n))
 */
-package main
+package scheduling
 
 import (
 	"fmt"
@@ -29,7 +29,7 @@ func getOptSchedule(jobs [][]int) []int {
 	return optSchedule
 }
 
-func main() {
+func RunIntervalScheduling() {
 	jobs := [][]int{
 		{0, 2, 8}, // [job_id, start_time, finish_time]
 		{1, 6, 10},

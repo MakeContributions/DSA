@@ -1,12 +1,12 @@
-/* 
-    Quick Sort is a divide and conquer algorithm.
-    First we choose a pivot and split the array in two parts, one containing all elements less than or equal to the pivot and other contains the rest (the pivot element is in neither of them)
-    Then we recursively sort the two arrays and finally concatenate them to get the sorted array.
-    Average Time Complexity: O(n*log(n))
-    For details explanation and proof of correctness check this -> https://cs.pomona.edu/classes/cs140/pdf/l09-quicksort-proof.pdf
+/*
+   Quick Sort is a divide and conquer algorithm.
+   First we choose a pivot and split the array in two parts, one containing all elements less than or equal to the pivot and other contains the rest (the pivot element is in neither of them)
+   Then we recursively sort the two arrays and finally concatenate them to get the sorted array.
+   Average Time Complexity: O(n*log(n))
+   For details explanation and proof of correctness check this -> https://cs.pomona.edu/classes/cs140/pdf/l09-quicksort-proof.pdf
 */
 
-package main
+package sorting
 
 import (
 	"fmt"
@@ -37,7 +37,7 @@ func quickSort(arr []int) []int {
 	return sortedArr
 }
 
-func main() {
+func RunQuickSort() {
 	arr := []int{10, 1, 6, 256, 2, 53, 235, 53, 1, 7, 23}
 	fmt.Printf("Unsorted Array: %v\nSorted Array: %v", arr, quickSort(arr))
 }

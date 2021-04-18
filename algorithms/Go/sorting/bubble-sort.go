@@ -1,11 +1,11 @@
-/* 
-    Bubble sort is a recursive algorithm based on swapping 2 values closest to each other: k and k+1
-    We start by checking the first two values of the array, and we swap them if the first value is bigger than the second one.
-    Then we recursively swap the second value with the third, if needed and so on until the array is sorted.
-    Average Time Complexity: O(n^2))
+/*
+   Bubble sort is a recursive algorithm based on swapping 2 values closest to each other: k and k+1
+   We start by checking the first two values of the array, and we swap them if the first value is bigger than the second one.
+   Then we recursively swap the second value with the third, if needed and so on until the array is sorted.
+   Average Time Complexity: O(n^2))
 */
 
-package main
+package sorting
 
 import (
 	"fmt"
@@ -21,7 +21,7 @@ func bubbleSort(sliceInt []int, n int) {
 	}
 }
 
-func main() {
+func RunBubbleSort() {
 	sliceInt := []int{1, 2, -1, 0, 534, -100, 9, 53, 203}
 	bubbleSort(sliceInt, len(sliceInt))
 	fmt.Println(sliceInt)
