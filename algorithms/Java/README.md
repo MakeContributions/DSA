@@ -1,17 +1,17 @@
 # Python
 
 ## Arrays
-1. [Count Inversions](arrays/count-inversions.java)
-2. [Kadanes Algorithm](arrays/Kadanes_Algorithm.java)
-3. [Left Rotation](arrays/left_rotation.java)
+1. [Counting Inversions](arrays/counting-inversions.java)
+2. [Kadanes Algorithm](arrays/kadanes-algorithm.java)
+3. [Left Rotation](arrays/left-rotation.java)
 4. [Unique Digits of Large Number](arrays/unique-digits-of-large-number.java)
 
 ## Graphs
-1. [Dijkstras](graphs/Dijkstras.java)
+1. [Dijkstras](graphs/dijkstras.java)
 
 ## Linked Lists
 1. [Circular](linked-lists/circular.java)
-2. [Clone Linked List](linked-lists/clone-linkedlist-with-rnd-pointer.java)
+2. [Clone Linked List](linked-lists/clone-linkedlist.java)
 3. [Doubly](linked-lists/doubly.java)
 4. [Reverse](linked-lists/reverse.java)
 5. [Singly](linked-lists/singly.java)
@@ -39,7 +39,7 @@
 7. [Selection Sort](sorting/selection-sort.java)
 
 ## Stacks
-1. [Balanced Paranthesis](stacks/balanced-paranthesis.java)
+1. [Balanced Parenthesis](stacks/balanced-paranthesis.java)
 2. [Stack](stacks/stack.java)
 3. [The Stock Span Problem](stacks/the-stock-span-problem.java)
 
@@ -52,4 +52,4 @@
 6. [Tokenizer](strings/tokenizer.java)
 
 ## Trees
-1. [Pre in Post Traversal](trees/pre_in_post_traversal.java)
+1. [Pre in Post Traversal](trees/pre-in-post-traversal.java)

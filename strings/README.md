@@ -28,4 +28,3 @@
 
 1. [Palindrome Check](haskell/palindrome.hs)
 2. [All subsequences](haskell/sequence.hs)
-

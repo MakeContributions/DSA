@@ -15,20 +15,6 @@
 11. [Comb Sort](c-or-cpp/comb-sort.cpp)
 12. [3 Way Quick Sort](c-or-cpp/3way_quick_sort.cpp)
 
-### Java
-
-
-1. [Bubble Sort](java/bubble-sort.java)
-2. [Insertion Sort](java/insertion-sort.java)
-3. [Selection Sort](java/selection-sort.java)
-4. [Merge Sort](java/merge-sort.java)
-5. [Quick Sort](java/quick-sort.java)
-6. [Counting Sort](java/counting-sort.java)
-7.  [Bubble Sort algo](java/bubble-sort.java)
-8.  [Heap Sort Algo](java/heap-sort.java)
-9.  [Insertion Sort algo](java/insertion-sort.java)
-10. [Selection Sort algo](java/selection-sort.java)
-
 ### Golang
 1. [Insertion Sort](go/insertion-sort.go)
 2. [Quick Sort](go/quick-sort.go)
