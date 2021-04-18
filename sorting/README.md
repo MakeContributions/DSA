@@ -40,9 +40,3 @@
 1. [Bubble Sort](js/bubble-sort.js)
 2. [Insertion Sort](js/insertion-sort.js)
 3. [Selection Sort](js/selection-sort.js)
-
-### Golang
-1. [Insertion Sort](go/insertion-sort.go)
-2. [Quick Sort](go/quick-sort.go)
-3. [Bubble Sort](go/bubble-sort.go)
-

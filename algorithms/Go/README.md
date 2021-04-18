@@ -1,13 +1,13 @@
-# Python
+# Go
 
 ## Scheduling
-1. [Interval Scheduling](scheduling/interval_scheduling.go)
+1. [Interval Scheduling](scheduling/interval-scheduling.go)
 
 ## Searching
-1. [Binary Search](searching/binary_search.go)
-2. [Linear Search](searching/linear_search.go)
+1. [Binary Search](searching/binary-search.go)
+2. [Linear Search](searching/linear-search.go)
 
 ## Sorting
-1. [Bubble Sort](sorting/bubble_sort.go)
-2. [Insertion Sort](sorting/insertion_sort.go)
+1. [Bubble Sort](sorting/bubble-sort.go)
+2. [Insertion Sort](sorting/insertion-sort.go)
 3. [Quicksort](sorting/quicksort.go)
