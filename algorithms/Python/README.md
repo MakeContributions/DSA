@@ -1,7 +1,7 @@
 # Python
 
 ## Arrays
-1. [Count Inversions](arrays/count_inversions.py)
+1. [Count Inversions](arrays/counting_inversions.py)
 
 ## Linked Lists
 1. [Doubly](linked_lists/doubly.py)

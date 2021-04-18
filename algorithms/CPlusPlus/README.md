@@ -1,7 +1,7 @@
 # C++
 
 ## Arrays
-1. [Count Inversions](Arrays/count_inversions.cpp)
+1. [Counting Inversions](Arrays/counting-inversions.cpp)
 2. [Dutch Flag Algorithm](Arrays/dutch-flag-algo.cpp)
 3. [Left Rotation](Arrays/left-rotation.cpp)
 4. [Max Subarray Sum](Arrays/max-subarray-sum.cpp)
@@ -27,6 +27,7 @@
 2. [Jump Search](Searching/jump-search.cpp)
 3. [Binary Search](Searching/binary-search.cpp)
 4. [Finding squareroot using Binary search](Searching/sqrt-monotonic-binary-search.cpp)
+3. [KMP String Searching](Searching/kmp.cpp)
 
 ## Stacks
 1. [Balancing Parenthesis](Stacks/balanced-parenthesis.cpp)
@@ -36,7 +37,7 @@
 2. [Insertion Sort](Sorting/insertion-sort.cpp)
 3. [Quicksort](Sorting/quick-sort.cpp)
 4. [Selection Sort](Sorting/selection-sort.cpp)
-5. [3 way Quick Sort](Sorting/3way_quick_sort.cpp)
+5. [3 way Quick Sort](Sorting/3way-quick-sort.cpp)
 6. [Bucket Sort](Sorting/bucket-sort.cpp)
 7. [Comb Sort](Sorting/comb-sort.cpp)
 8. [Counting Sort](Sorting/counting-sort.cpp)
