@@ -39,7 +39,7 @@
 7. [Selection Sort](sorting/selection-sort.java)
 
 ## Stacks
-1. [Balanced Paranthesis](stacks/balanced-paranthesis.java)
+1. [Balanced Parenthesis](stacks/balanced-paranthesis.java)
 2. [Stack](stacks/stack.java)
 3. [The Stock Span Problem](stacks/the-stock-span-problem.java)
 

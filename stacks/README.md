@@ -6,6 +6,6 @@
 
 ### Java 
 
-1. [Stack Implementation](Java/stack.java)
-2. [Balanced Parenthesis](Java/Balanced_Paranthesis.java)
-3. [Stock Span Problem](Java/The_Stock_Span_Problem.java)
+1. [Stack Implementation](java/stack.java)
+2. [Balanced Parenthesis](java/balanced-paranthesis.java)
+3. [Stock Span Problem](java/the-stock-span-problem.java)
