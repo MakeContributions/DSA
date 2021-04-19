@@ -34,5 +34,5 @@ A palindrome is a word, phrase, number or sequence of words that reads the same 
 * [A coursera video explaining the palindrome Algorithm](https://www.coursera.org/lecture/program-code/palindrome-algorithm-1-zzQqs) 
 
 ## Others
-
+[Wikipedia](https://en.wikipedia.org/wiki/Palindrome)
 Any other information is always welcome and should be included in this section.
