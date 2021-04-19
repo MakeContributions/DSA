@@ -30,7 +30,6 @@ A palindrome is a word, phrase, number or sequence of words that reads the same 
 - [Rust](../../../algorithms/Rust/strings/palindrome/src/main.rs)
 
 ## Video URL
-* https://en.wikipedia.org/wiki/Palindrome
 * [A coursera video explaining the palindrome Algorithm](https://www.coursera.org/lecture/program-code/palindrome-algorithm-1-zzQqs) 
 
 ## Others
