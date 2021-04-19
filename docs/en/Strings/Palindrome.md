@@ -3,7 +3,7 @@ A palindrome is a word, phrase, number or sequence of words that reads the same 
 
 ## Steps
 1. Clean the string by removing all punctuation and whitespace and converting all letters to lowercase.
-2. Reverse string.
+2. Reverse the clean string.
 3. If the clean string is the same as the reversed string then we have a palindrome.
 
 ## Example
@@ -12,7 +12,7 @@ A palindrome is a word, phrase, number or sequence of words that reads the same 
 - Civic
 - Level
 - Madam
-- Radir
+- Radar
 
 ### Multiple Word Palindromes
 - Don't nod.
