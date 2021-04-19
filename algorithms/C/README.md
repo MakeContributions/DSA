@@ -21,3 +21,8 @@
 - [Count Words](strings/count-words.c)
 - [Palindrome](strings/palindrome.c)
 - [Permutation of String](string/Permutation-of-String.c)
+
+ ## Tree
+- [Height Of Tree](tree/HeightOfTree.c)
+- [Max Element Of Tree](tree/MaxElementOfTree.c)
+- [Min Element Of Tree](tree/MinElementOfTree.c)
