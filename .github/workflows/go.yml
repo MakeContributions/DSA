@@ -4,7 +4,7 @@ on:
     branches: [ main ]
     paths: '**.go'
 jobs:
-  golangci-lint:
+  Go:
     name: runner / golangci-lint
     runs-on: ubuntu-latest
     steps:
