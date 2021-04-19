@@ -53,6 +53,7 @@ int main()
     //calling insertion sort to sort the array
     insertion_sort(arr,size);
     return 0;
+ 
 }
 /*
 Input: Enter Size: 5
