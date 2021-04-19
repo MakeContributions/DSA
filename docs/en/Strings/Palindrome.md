@@ -2,10 +2,9 @@
 A palindrome is a word, phrase, number or sequence of words that reads the same backward as forward. Punctuation and spaces between the words or lettering is allowed.
 
 ## Steps
-### Step 1
-Reverse string.
-### Step 2
-Compare the reversed string to the original string, if they are equal this mean that string is palindrome.
+1. Clean the string by removing all punctuation and whitespace and converting all letters to lowercase.
+2. Reverse string.
+3. If the clean string is the same as the reversed string then we have a palindrome.
 
 ## Example
 
@@ -13,11 +12,13 @@ Compare the reversed string to the original string, if they are equal this mean 
 - Civic
 - Level
 - Madam
+- Radir
 
 ### Multiple Word Palindromes
 - Don't nod.
 - I did, did I?
 - My gym
+- A man, a plan, a canal - Panama
 
 ## Implementation
 - [C](../../../algorithms/C/strings/palindrome.c)
@@ -28,8 +29,9 @@ Compare the reversed string to the original string, if they are equal this mean 
 - [Python](../../../algorithms/Python/strings/palindrome.py)
 - [Rust](../../../algorithms/Rust/strings/palindrome/src/main.rs)
 
-## Video URL
-[A coursera video explaining the palindrome Algorithm](https://www.coursera.org/lecture/program-code/palindrome-algorithm-1-zzQqs) 
+## URLs
+* https://en.wikipedia.org/wiki/Palindrome
+* [A coursera video explaining the palindrome Algorithm](https://www.coursera.org/lecture/program-code/palindrome-algorithm-1-zzQqs) 
 
 ## Others
 
