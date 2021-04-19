@@ -34,4 +34,3 @@ A palindrome is a word, phrase, number or sequence of words that reads the same 
 
 ## Others
 [Wikipedia](https://en.wikipedia.org/wiki/Palindrome)
-Any other information is always welcome and should be included in this section.
