@@ -14,4 +14,4 @@ jobs:
         uses: reviewdog/action-golangci-lint@v1
         with:
           workdir: algorithms/Go
-          # golangci_lint_flags: "--enable-all --exclude-use-default=false"
+          golangci_lint_flags: "--enable-all --exclude-use-default=false"
