@@ -16,6 +16,7 @@
 
 ## Sorting
 - [Merge Sort](sorting/merge-sort.c)
+- [Insertion Sort](sorting/insertion-sort.c)
 
 ## Strings
 - [Count Words](strings/count-words.c)
