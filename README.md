@@ -11,7 +11,7 @@ Data structure and Algorithm (DSA)
 
 The problem being contributed must either be a simple **file** (**Eg.** [`kruskal-algorithm.cpp`](./algorithms/CPlusPlus/Graphs/kruskal-algorithm.cpp), [`linear-search.java`](./algorithms/Java/searching/linear-search.java)) or a more complex **directory** ([`palindrome/`](./algorithms/Rust/strings/palindrome)). This is a unit `problem`.
 
-The directory tree has the following convention of `category/language/problem`, where `category` is the topic or category of the problem being contributed (**Eg.** `strings`, `sorting`, `linked-lists` etc.), `language` represents the language code of the problem (**Eg.** `c-or-cpp` for C/C++, `python` for Python, `java` for Java etc.), and `problem` is a conforming name to the problem (**Eg.** `linear-search.cpp`, `palindrome`, `queue-linked-list.cpp` etc.)
+The directory tree has the following convention of `algorithms/{language}/{category}/{problem}`, where `{language}` represents the language code of the problem (**Eg.** `CPlusPlus` for C++, `CSharp` for C# etc.), `{category}` is the topic or category of the problem being contributed (**Eg.** `strings`, `sorting`, `linked-lists` etc.), and `{problem}` is a conforming name to the problem (**Eg.** `linear-search.cpp`, `palindrome`, `queue-linked-list.cpp` etc.)
 
 A unit `problem` must conform to the following specifications:
 
