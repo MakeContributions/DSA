@@ -1,27 +1,17 @@
 name: Go
 on:
-  push:
-    branches: [ main ]
-    paths: '**.go'
   pull_request:
     branches: [ main ]
     paths: '**.go'
 jobs:
   Go:
-    name: Go
+    name: runner / golangci-lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: go list -e -json -compiled=true -test=true -export=true -deps=true -find=false -- ./...
+      - name: Check out code into the Go module directory
+        uses: actions/checkout@v1
       - name: golangci-lint
-        uses: golangci/golangci-lint-action@v2
+        uses: reviewdog/action-golangci-lint@v1
         with:
-          version: latest
-          
-          # args: ./...
-          # Optional: working directory, useful for monorepos
-          # working-directory: algorithms/Go
-          
-          # Optional: show only new issues if it's a pull request. The default value is `false`.
-          # only-new-issues: true
-      - run: go test $(go list ./...)
+          workdir: algorithms/Go
+          golangci_lint_flags: "--enable-all --exclude-use-default=false"
