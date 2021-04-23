@@ -23,6 +23,5 @@
 - [Permutation of String](string/Permutation-of-String.c)
 
  ## Tree
-- [Height Of Tree](tree/HeightOfTree.c)
-- [Max Element Of Tree](tree/MaxElementOfTree.c)
-- [Min Element Of Tree](tree/MinElementOfTree.c)
+- [Height Of Tree](tree/height-of-a-tree.c)
+- [Max and Min Element Of Tree](tree/min-and-max-of-tree.c)
