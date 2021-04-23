@@ -16,6 +16,7 @@ target = 25
 def jump_search(arr: list, x: int) -> int:
     """
     >>> jump_search(arr, target) == (arr.index(target) if target in arr else -1)
+    True
     """
     n = len(arr)
     step = int(math.floor(math.sqrt(n)))
