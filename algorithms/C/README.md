@@ -25,6 +25,6 @@
 
 ## Searching
 
-* [Binary Search](searching/Binary-search.c)
+- [Binary Search](searching/Binary-search.c)
 
   
