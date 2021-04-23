@@ -57,3 +57,5 @@
 3. [Level Order Traversal](Trees/level-order-traversal.cpp)
 4. [Depth first Traversal](Trees/pre-in-post-traversal.cpp)
 
+# Maths
+1. [Kaprekar Number](Maths/Kaprekar-number.cpp)
