@@ -1,5 +1,5 @@
 # Algorithms
-## Sortings
+## Sorting
 - [Merge Sort](./Sorting/Merge-Sort.md)
 
 ## Strings
