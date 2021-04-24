@@ -17,8 +17,8 @@ int binary_search(int *arr,int size,int to_search)
     //until start is less than or equal to end run the loop
     while(start<=end)
     {
-       //every time assign (start+end)/2(middle element of the current array) in mid
-       mid=(start+end)/2;
+       //every time assign start+((end-start)/2)(middle element of the current array) in mid
+       mid=start+((end-start)/2);
        // if the data found in middle of the array then return the index
        if(arr[mid]==to_search)
             return mid;
