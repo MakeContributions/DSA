@@ -19,10 +19,7 @@ Sorted array is
 - [C](../../../algorithms/C/sorting/merge-sort.c)
 
 ## Video URL
-* [Youtube Video about Merge Sort](https://www.youtube.com/watch?v=jlHkDBEumP0) 
+[Youtube Video about Merge Sort](https://www.youtube.com/watch?v=jlHkDBEumP0) 
 
 ## Others
 [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort)
-
-## Author
-* Java: [@TawfikYasser](https://github.com/TawfikYasser)
