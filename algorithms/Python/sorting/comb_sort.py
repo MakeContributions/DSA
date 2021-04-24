@@ -1,3 +1,10 @@
+'''
+Comb sort is a comparison based sorting algorithm and is an improved from of bubble sort. 
+
+Best case time complexity Θ(n log n)
+Worst case time complexity O(n^2)
+'''
+
 arr = [12, 3, 7, 22, -12, 100, 1]
 
 
