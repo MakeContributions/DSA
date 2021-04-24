@@ -10,8 +10,14 @@ Space Complexity: O(1)
 
 import math
 
+arr = [0, 1, 2, 8, 13, 17, 19, 25, 31, 32, 42]
+target = 25
 
 def jump_search(arr: list, x: int) -> int:
+    """
+    >>> jump_search(arr, target) == (arr.index(target) if target in arr else -1)
+    True
+    """
     n = len(arr)
     step = int(math.floor(math.sqrt(n)))
     prev = 0
@@ -37,8 +43,6 @@ def check_sort(test: list) -> bool:
 
 
 if __name__ == "__main__":
-    arr = [0, 1, 2, 8, 13, 17, 19, 25, 31, 32, 42]
-    target = 25
     if check_sort(arr):
         res = jump_search(arr, target)
         if res == -1:
