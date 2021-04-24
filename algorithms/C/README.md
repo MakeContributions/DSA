@@ -22,3 +22,8 @@
 - [Count Words](strings/count-words.c)
 - [Palindrome](strings/palindrome.c)
 - [Permutation of String](string/Permutation-of-String.c)
+
+## Searching
+- [Binary Search](searching/Binary-search.c)
+
+  
