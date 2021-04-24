@@ -1,4 +1,4 @@
-// program to find the minimum and maximum (using recursion) element in a binary search tree.
+// program to find the minimum and maximum element in a binary search tree (using recursion) 
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -92,10 +92,10 @@ int main(int argc, char const *argv[]){
     printf("\nMax element of the tree is %d",findMax(p0));
     return 0;
 }
-/* ------------output----------------
+/*
 Output: 
-Now the min element in the tree is -1
-Now the max element in the tree is 18
+Min element of the tree is -1
+Max element of the tree is 18
 
 Time complexity: O(n)
 
