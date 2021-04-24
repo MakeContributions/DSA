@@ -1,4 +1,6 @@
 # Algorithms
+## Sortings
+- [Merge Sort](./Sorting/Merge-Sort.md)
 
 ## Strings
 - [Palindrome](./Strings/Palindrome.md)
