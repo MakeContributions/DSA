@@ -16,6 +16,7 @@
 
 ## Sorting
 - [Merge Sort](sorting/merge-sort.c)
+- [Insertion Sort](sorting/insertion-sort.c)
 
 ## Strings
 - [Count Words](strings/count-words.c)
@@ -25,3 +26,9 @@
  ## Tree
 - [Height Of Tree](tree/height-of-a-tree.c)
 - [Max and Min Element Of Tree](tree/min-and-max-of-tree.c)
+
+## Searching
+- [Binary Search](searching/Binary-search.c)
+
+  
+
