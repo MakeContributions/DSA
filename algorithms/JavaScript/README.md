@@ -15,6 +15,7 @@
 1. [Bubble Sort](src/sorting/bubble-sort.js)
 2. [Insertion Sort](src/sorting/insertion-sort.js)
 3. [Selection Sort](src/sorting/selection-sort.js)
+4. [Merge Sort](src/sorting/merge-sort.js)
  
 ## Strings
 1. [Palindrome](src/strings/palindrome.js)
