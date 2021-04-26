@@ -15,6 +15,7 @@
 - [Double Ended Queue using array](queues/double-ended-queue-using-array.c)
 
 ## Sorting
+- [Bubble Sort](sorting/bubble-sort.c)
 - [Merge Sort](sorting/merge-sort.c)
 - [Insertion Sort](sorting/insertion-sort.c)
 
