@@ -1,4 +1,4 @@
-# Python
+# Java
 
 ## Arrays
 
@@ -45,6 +45,7 @@
 5. [Merge Sort](sorting/merge-sort.java)
 6. [Quick Sort](sorting/quick-sort.java)
 7. [Selection Sort](sorting/selection-sort.java)
+8. [Shell Sort](sorting/shell-sort.java)
 
 ## Stacks
 
