@@ -1,6 +1,10 @@
+//    Java implementation for folding a linked list
 public static class Node {
     int data;
     Node next;
+    public Node(int data){
+        this.data = data;
+    }
 }
 
 public static class LinkedList {
@@ -16,8 +20,7 @@ public static class LinkedList {
     }
 
     public void addFirst(int val) {
-        Node temp = new Node();
-        temp.data = val;
+        Node temp = new Node(val);
         temp.next = head;
         head = temp;
         if (size == 0) {
@@ -27,8 +30,7 @@ public static class LinkedList {
     }
 
     void addLast(int val) {
-        Node temp = new Node();
-        temp.data = val;
+        Node temp = new Node(val);
         temp.next = null;
         if (size == 0) {
             head = tail = temp;
@@ -73,11 +75,17 @@ public static void main(String[] args) throws Exception {
     for (int i = 1; i <= n; i++) {
         ll.addLast(i);
     }
-    // LinkedList --> [1,2,3,4,5,6] for  n = 6
+    // LinkedList --> [1,2,3,4,5,6] for n = 6
 
-    System.out.print("Linked List before folding --> ");
+    System.out.print("Linked List before folding --> "); 
     ll.display();
     ll.fold();
-    System.out.print("Linked List after folding --> ");
+    System.out.print("Linked List after folding --> "); 
     ll.display();
 }
+
+/*
+    Output:-
+    Linked List before folding --> 1 2 3 4 5 6 
+    Linked List after folding --> 1 6 2 5 3 4
+*/
