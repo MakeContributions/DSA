@@ -25,7 +25,7 @@ void ismaj(int arr[],int n,int exp_maj){ // checks the if the candidate element 
 }
 
 
-int majelement(int arr[],int n){ // majority element function
+int majelement(int arr[],int n){ // majority element function to find the candidate majority element 
 
      int ans_index=0; // setting ans_index initially as the first element
      int count =1; // setting count of first element as 1
