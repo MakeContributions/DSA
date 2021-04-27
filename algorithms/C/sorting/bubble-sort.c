@@ -4,8 +4,6 @@
 
 void swap(int *value1, int *value2);
 
-
-//time complexity: O(n^2)
 void bubble_sort(int array[], int array_size)
 {
     for(int i = 0; i < array_size; i++)
@@ -52,3 +50,11 @@ int main()
     printf("]\n");
     return 0;
 }
+
+/*
+ * Input the size of the array: 5 
+ * Input 5 integers: [ 28, 17, 2, 5, 43 ]
+ * Output: Sorted array: [ 2, 5, 17, 28, 43 ]
+ *
+ * Time complexity: O(n^2)
+ */
