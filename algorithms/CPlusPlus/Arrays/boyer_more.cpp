@@ -1,22 +1,16 @@
-//majorty element of an array 
+//majority element of an array 
 // element with frequency > (n/2) {n: size of array}
 //time complexity : O(n) || space complexity : O(1)
 
-
 #include<iostream>
-
-
 
 using namespace std;
 
-
-void ismaj(int arr[],int n,int exp_maj){
+void ismaj(int arr[],int n,int exp_maj){ // checks the if the candidate element is actually the majority element or not
 
     int i=0;
-    int len = n;
-
     int count =0;
-    for(i=0;i<len;i++){
+    for(i=0;i<n;i++){
         if(arr[i]==arr[exp_maj]){
             count++;
         }
@@ -31,7 +25,7 @@ void ismaj(int arr[],int n,int exp_maj){
 }
 
 
-int majelement(int arr[],int n){ // maj element function
+int majelement(int arr[],int n){ // majority element function
 
      int len = n;
      int i=0;
