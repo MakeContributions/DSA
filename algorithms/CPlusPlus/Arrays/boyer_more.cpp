@@ -27,13 +27,10 @@ void ismaj(int arr[],int n,int exp_maj){ // checks the if the candidate element 
 
 int majelement(int arr[],int n){ // majority element function
 
-     int len = n;
-     int i=0;
-
      int ans_index=0; // setting ans_index initially as the first element
      int count =1; // setting count of first element as 1
 
-    for(i=0;i<len;i++){
+    for(int i=0;i<n;i++){
         if(arr[i]==arr[ans_index]){
             count++;
         }
