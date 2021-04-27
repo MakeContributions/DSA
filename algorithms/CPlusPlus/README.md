@@ -3,6 +3,7 @@
 ## Arrays
 1. [Counting Inversions](Arrays/counting-inversions.cpp)
 2. [Dutch Flag Algorithm](Arrays/dutch-flag-algo.cpp)
+3. [Boyer–Moore Voting Algorithm](Arrays/boyer_more.cpp)
 3. [Left Rotation](Arrays/left-rotation.cpp)
 4. [Max Subarray Sum](Arrays/max-subarray-sum.cpp)
 5. [Shift Negatives](Arrays/shift-negatives.cpp)
