@@ -1,7 +1,7 @@
-//majority element in array (defined as element present > size/2)
-//approach : moore's voting algorithm
-//Time Complexity: O(n). 
-//Auxiliary Space: O(1)
+// majority element in array (defined as element present > size/2)
+// approach : moore's voting algorithm
+// Time Complexity: O(n). 
+// Auxiliary Space: O(1)
  
 function candelem(arr, size) // finds candidiate element from the array
 {
@@ -52,5 +52,3 @@ var arr = [ 5, 3, 1,5, 5, 2 ]; // array to find majority element
 var size = a.length;
 
 Majority(a, size);
-
-
