@@ -49,9 +49,18 @@ int majelement(int arr[],int n){ // majority element function to find the candid
 
 
 int main(){ // main function begins here
-    int arr[5] = {2,2,2,5,6};
+    int size;
+    cout<<"enter the size of the array : ";
+    cin>>size;
 
-    int result = majelement(arr,5);
-    ismaj(arr,5,result);
+    int *arr = new int[size];
+
+    for(int i=0;i<size;i++){
+        cout<<"enter "<<i<<" th element of array : ";
+        cin>>arr[i];
+    }
+
+    int result = majelement(arr,size);
+    ismaj(arr,size,result);
     return 0;
 }
