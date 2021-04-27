@@ -25,5 +25,4 @@ function mergeSort(array) {
   return merge(mergeSort(left), mergeSort(array));
 }
 // testing
-array = [4, 8, 7, 2, 11, 1, 3];
-console.log(mergeSort(array));
+console.log(mergeSort([4, 8, 7, 2, 11, 1, 3]));
