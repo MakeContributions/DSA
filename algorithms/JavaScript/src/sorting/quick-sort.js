@@ -6,7 +6,7 @@ function swap(items, leftIndex, rightIndex) {
 
 function partition(items, left, right) {
   const pivot = items[Math.floor((right + left) / 2)]; // middle element
-  const i = left; // left pointer
+  let i = left; // left pointer
   const j = right; // right pointer
   while (i <= j) {
     while (items[i] < pivot) {
