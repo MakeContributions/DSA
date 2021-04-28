@@ -49,7 +49,7 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    //find the number of jumps to take everytime
+    //find the number of jumps to take every time
     jump=(int)sqrt(n-1);
     printf("Enter the number to search: ");
     //taking the data to search
