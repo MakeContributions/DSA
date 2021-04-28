@@ -17,6 +17,7 @@
 1. [Binary Search](searching/binary_search.py)
 2. [Jump Search](searching/jump_search.py)
 3. [Linear Search](searching/linear_search.py)
+4. [Ternary Search](searching/ternary_search.py)
  
 ## Sorting
 1. [Bubble Sort](sorting/bubble_sort.py)
