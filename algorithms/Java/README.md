@@ -18,6 +18,7 @@
 3. [Doubly](linked-lists/doubly.java)
 4. [Reverse](linked-lists/reverse.java)
 5. [Singly](linked-lists/singly.java)
+6. [Fold Linked List](linked-lists/fold-linked-list.java)
 
 ## Queues
 
