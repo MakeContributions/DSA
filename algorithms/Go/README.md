@@ -1,5 +1,8 @@
 # Go
 
+## Arrays
+1. [Maximum subarray sum (Kadane's Algorithm)](arrays/kadane_algorithm.go)
+
 ## Scheduling
 1. [Interval Scheduling](scheduling/interval-scheduling.go)
 
