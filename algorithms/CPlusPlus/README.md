@@ -16,11 +16,12 @@
 1. [Karatsuba](Multiplication/karatsuba.cpp)
  
 ## Linked Lists
-1. [All possible insertions](Linked-Lists/all-possible-insertions.cpp)
+1. [All possible insertions](Linked-Lists/all-possible-insertion.cpp)
 2. [Singly linked lists](Linked-Lists/singly.cpp)
 3. [doubley linked lists](Linked-Lists/doubly.cpp)
 4. [Circular linked lists](Linked-Lists/circular.cpp)
 5. [Reversing a linked lists](Linked-Lists/reverse.cpp)
+5. [Merging two sorted linked lists](Linked-Lists/merge.cpp)
 
 ## Searching
 1. [Linear Search](Searching/linear-search.cpp)
