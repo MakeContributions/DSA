@@ -25,15 +25,15 @@ int Ternary_search(int *arr,int l,int r,int to_search)
     }
     // if data is less than Mid index data then search in before index number of current
     else if(arr[Mid1]>to_search)
-        {
-            Mid2=Mid1-1;
-            Mid1=l;
-        }
+    {
+      Mid2=Mid1-1;
+      Mid1=l;
+    }
     // if data is less than Mid index data then search in after index number of current
     else if(arr[Mid2]<to_search)
     {
-        Mid1=Mid2+1;
-        Mid2=r;
+      Mid1=Mid2+1;
+      Mid2=r;
     }
     // recursive calling the function
     return Ternary_search(arr,Mid1,Mid2,to_search);
@@ -45,6 +45,9 @@ int main()
     printf("Enter size: ");
     // taking input
     scanf("%d",&n);
+    // if the size entered is negative then make it positive one
+    if(n<0)
+      n=n*-1;
     // dynamically allocating array
     arr=(int*)malloc(sizeof(int)*n);
     for(i=0;i<n;i++)
