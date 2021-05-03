@@ -45,8 +45,11 @@ int main()
     cout<<"Enter size: ";
     // taking input
     cin>>n;
+    // if size is negative then make it positive one
+    if(n<0)
+       n=n*-1;
     // dynamically allocating array
-    arr=new int[n];
+    arr=(int*)malloc(sizeof(int)*n);
     for(i=0;i<n;i++)
     {
         cin>>arr[i];
