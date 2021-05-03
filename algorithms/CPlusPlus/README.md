@@ -29,6 +29,7 @@
 3. [Binary Search](Searching/binary-search.cpp)
 4. [Finding squareroot using Binary search](Searching/sqrt-monotonic-binary-search.cpp)
 3. [KMP String Searching](Searching/kmp.cpp)
+4. [Ternary Search](Searching/Ternary-search.cpp)
 
 ## Stacks
 1. [Balancing Parenthesis](Stacks/balanced-parenthesis.cpp)
