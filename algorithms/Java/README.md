@@ -53,6 +53,8 @@
 1. [Balanced Parenthesis](stacks/balanced-paranthesis.java)
 2. [Stack](stacks/stack.java)
 3. [The Stock Span Problem](stacks/the-stock-span-problem.java)
+4. [Celebrity Problem](stacks/celebrity-problem.java)
+5. [Sliding Window Maximum](stacks/sliding-window-maximum.java)
 
 ## Strings
 
