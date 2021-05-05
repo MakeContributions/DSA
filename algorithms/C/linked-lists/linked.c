@@ -261,7 +261,7 @@ int ifsorted(struct node *p)
     return 1;
 }
 
-//deleting duplicate elemnts in sorted linked list
+//deleting duplicate elements in sorted linked list
 void delete_duplicate(struct node *p)
 {
     struct node *q = p->next;
@@ -405,7 +405,7 @@ int merge(struct node *p, struct node *q)
         last->next = q;
 }
 
-//checking wheather linked list contains a loop
+//checking whether linked list contains a loop
 int if_loop(struct node *f)
 {
     struct node *p, *q;
@@ -423,9 +423,9 @@ int if_loop(struct node *f)
         return 0;
 }
 
-//checking the lenght of loop in linked List
+//checking the length of loop in linked List
 
-int looplenght(struct node *q)
+int looplength(struct node *q)
 {
     struct node *temp = q;
     int rev = 1;
@@ -449,7 +449,7 @@ int if_loop_2(struct node *f)
             q = q->next;
     } while (p && q && p != q);
     if (p == q)
-        return looplenght(p);
+        return looplength(p);
     return 0;
 }
 
