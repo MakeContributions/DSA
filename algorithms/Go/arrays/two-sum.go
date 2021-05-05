@@ -11,12 +11,6 @@
 
 package arrays
 
-import (
-	"fmt"
-	"math/rand"
-	"time"
-)
-
 
 /*
 	Using Brute Force : For every element check for another element if it exist in the array such that sum of
@@ -53,22 +47,4 @@ func twoSumEfficient(arr []int, target int) []int {
 		m[arr[i]] = i
 	}
 	return nil
-}
-
-func RunTwoSum() {
-
-	rand.Seed(time.Now().UnixNano())
-	arr := []int{2,7,11,15,1,13,18}
-	elem := rand.Intn(30)
-	fmt.Println("Target = ", elem)
-
-	// Using Brute Force
-	t := time.Now()
-	fmt.Println("Indexes: ", twoSum(arr, elem))
-	fmt.Println("Time Takes (in microseconds): ", time.Since(t).Microseconds())
-
-	// Using Efficient Solution (map)
-	t = time.Now()
-	fmt.Println("Indexes: ", twoSumEfficient(arr, elem))
-	fmt.Print("Time Takes (in microseconds): ", time.Since(t).Microseconds())
 }

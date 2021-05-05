@@ -21,28 +21,25 @@
 package arrays
 
 import (
-	"fmt"
 	"math"
 )
 
-// To find the maximum subarray sum
+// To find the maximum subarray sum.
 func maximumSubarraySum(nums []int) int {
-
 	maximumSum := nums[0]
 	currentSum := maximumSum
 
 	for i := 1; i < len(nums); i++ {
 
-		currentSum = int(math.Max(float64(nums[i]), float64(nums[i] + currentSum)))
+		currentSum = int(math.Max(float64(nums[i]), float64(nums[i]+currentSum)))
 		maximumSum = int(math.Max(float64(maximumSum), float64(currentSum)))
 	}
 
 	return maximumSum
 }
 
-func RunMaximumSubarraySum() {
+func RunMaximumSubarraySum() int {
 
-	sampleArray := []int{-2,1,-3,4,-1,2,1,-5,4}
-	fmt.Println(maximumSubarraySum(sampleArray))
+	sampleArray := []int{-2, 1, -3, 4, -1, 2, 1, -5, 4}
+	return maximumSubarraySum(sampleArray)
 }
-
