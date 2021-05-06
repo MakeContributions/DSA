@@ -1,4 +1,5 @@
 /*
+	Package arrays maximumSubarraySum problem
 	Input: An array of integers
 	Output: Subarray with maximum sum
 	The Strategy: Keep track of the previous encounter sum and the current element.
@@ -28,18 +29,10 @@ import (
 func maximumSubarraySum(nums []int) int {
 	maximumSum := nums[0]
 	currentSum := maximumSum
-
 	for i := 1; i < len(nums); i++ {
-
 		currentSum = int(math.Max(float64(nums[i]), float64(nums[i]+currentSum)))
 		maximumSum = int(math.Max(float64(maximumSum), float64(currentSum)))
 	}
 
 	return maximumSum
-}
-
-func RunMaximumSubarraySum() int {
-
-	sampleArray := []int{-2, 1, -3, 4, -1, 2, 1, -5, 4}
-	return maximumSubarraySum(sampleArray)
 }
