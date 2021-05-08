@@ -1,62 +1,58 @@
 // Heap Sort in C
   
-  #include <stdio.h>
-  
-  // Function to swap the the position of two elements
-  void swap(int *a, int *b) {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-  }
-  
-  void heapify(int arr[], int n, int i) {
-    // Find largest among root, left child and right child
-    int largest = i;
-    int left = 2 * i + 1;
-    int right = 2 * i + 2;
-  
-    if (left < n && arr[left] > arr[largest])
-      largest = left;
-  
-    if (right < n && arr[right] > arr[largest])
-      largest = right;
-  
-    // Swap and continue heapifying if root is not largest
-    if (largest != i) {
-      swap(&arr[i], &arr[largest]);
-      heapify(arr, n, largest);
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int heap[10], no, i, j, c, root, temp;
+ 
+    printf("\n Enter no of elements :");
+    scanf("%d", &no);
+    printf("\n Enter the nos : ");
+    for (i = 0; i < no; i++)
+       scanf("%d", &heap[i]);
+    for (i = 1; i < no; i++)
+    {
+        c = i;
+        do
+        {
+            root = (c - 1) / 2;             
+            if (heap[root] < heap[c])   /* to create MAX heap array */
+            {
+                temp = heap[root];
+                heap[root] = heap[c];
+                heap[c] = temp;
+            }
+            c = root;
+        } while (c != 0);
     }
-  }
-  
-  // Main function to do heap sort
-  void heapSort(int arr[], int n) {
-    // Build max heap
-    for (int i = n / 2 - 1; i >= 0; i--)
-      heapify(arr, n, i);
-  
-    // Heap sort
-    for (int i = n - 1; i >= 0; i--) {
-      swap(&arr[0], &arr[i]);
-  
-      // Heapify root element to get highest element at root again
-      heapify(arr, i, 0);
-    }
-  }
-  
-  // Print an array
-  void printArray(int arr[], int n) {
-    for (int i = 0; i < n; ++i)
-      printf("%d ", arr[i]);
-    printf("\n");
-  }
-  
-  // Driver code
-  int main() {
-    int arr[] = {1, 12, 9, 5, 6, 10};
-    int n = sizeof(arr) / sizeof(arr[0]);
-  
-    heapSort(arr, n);
-  
-    printf("Sorted array is \n");
-    printArray(arr, n);
-  }
+ 
+    printf("\n Heap array : ");
+    for (i = 0; i < no; i++)
+        printf("%d\t ", heap[i]);
+    for (j = no - 1; j >= 0; j--)
+    {
+        temp = heap[0];
+        heap[0] = heap[j];    /* swap max element with rightmost leaf element */
+        heap[j] = temp;
+        root = 0;
+        do 
+        {
+            c = 2 * root + 1;    /* left node of root element */
+            if ((heap[c] < heap[c + 1]) && c < j-1)
+                c++;
+            if (heap[root]<heap[c] && c<j)    /* again rearrange to max heap array */
+            {
+                temp = heap[root];
+                heap[root] = heap[c];
+                heap[c] = temp;
+            }
+            root = c;
+        } while (c < j);
+    } 
+    printf("\n The sorted array is : ");
+    for (i = 0; i < no; i++)
+       printf("\t %d", heap[i]);
+    printf("\n Complexity : \n Best case = Avg case = Worst case = O(n logn) \n");
+    getch();
+}
