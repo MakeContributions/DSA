@@ -53,6 +53,20 @@ void main()
     printf("\n The sorted array is : ");
     for (i = 0; i < no; i++)
        printf("\t %d", heap[i]);
-    printf("\n Complexity : \n Best case = Avg case = Worst case = O(n logn) \n");
+    printf("\n Time Complexity : \n Best case = Avg case = Worst case = O(n logn) \n");
     getch();
 }
+
+  /* Test Case:-
+  Enter no of elements :5
+  Enter the nos:
+  10
+  23
+  2
+  1
+  90
+  
+  Heap array :   90    23   2   1   10
+  The sorted array is : 1   2   10  23   90
+  Time Complexity:
+  Best case = Avg case = Worst case = O(n logn) */
