@@ -18,6 +18,7 @@
 - [Bubble Sort](sorting/bubble-sort.c)
 - [Merge Sort](sorting/merge-sort.c)
 - [Insertion Sort](sorting/insertion-sort.c)
+- [Heap Sort](sorting/heap-sort.c)
 
 ## Strings
 - [Count Words](strings/count-words.c)
