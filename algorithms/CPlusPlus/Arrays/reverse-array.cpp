@@ -1,4 +1,6 @@
 //Description : This program reverses array elements using two pointer method.
+//Time Complexity : O(n), where n is the array size
+//Auxiliary Space : O(1)
 #include<bits/stdc++.h>
 using namespace std ;
 void reverse_array(int *arr, int n){
