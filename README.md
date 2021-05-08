@@ -12,7 +12,7 @@ Data structure and Algorithm (DSA)
 
 ## Explanations
 - [English](./docs/en)
-- [中文台灣](./docs/zh-tw)
+- [繁體中文](./docs/zh-tw)
 
 ## Contribution Guidelines
 
