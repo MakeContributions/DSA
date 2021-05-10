@@ -1,29 +1,24 @@
-/* Program to search data in given array using linear search */
-#include<stdio.h>
-int main()
+#include <stdio.h>
+ int search(int arr[], int n, int x)
 {
-    int len;
-    printf("Enter the lenght of array");
-    scanf("%d",&len); //scanning the legth of array
+    int i;
+    for (i = 0; i < n; i++)
+        if (arr[i] == x)
+            return i;
+    return -1;
 }
-int arr[len];  //created an array of size 'len'.
-printf("Enter the element of array:\n");
-for(int i=0;i<len;i++)
+ 
+// Driver code
+int main(void)
 {
-    scanf("%d",&arr[i]);  //storing all elments in array
-}
-int search;
-printf("Enter the element to be searched:");
-scanf("%d",&search);    //scan the searching element
-
-//now we will compare searching value to all elements of array
- for(int i=0;i<len;i++)
-{   /*comparing element*/
-    if(arr[i]==search)
-        printf("Element foung and the index of elelent is %d",i);
-    // freq++;
-    else
-    {
-        printf("Element not found");
-    }
+    int arr[] = { 2, 3, 4, 10, 40 };
+    int x = 10;
+    int n = sizeof(arr) / sizeof(arr[0]);
+   
+    // Function call
+    int result = search(arr, n, x);
+    (result == -1)
+        ? printf("Element is not present in array")
+        : printf("Element is present at index %d", result);
+    return 0;
 }
