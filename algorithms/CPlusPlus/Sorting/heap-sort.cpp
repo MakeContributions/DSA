@@ -53,7 +53,7 @@ int main()
 	cout<<"\nEnter the number of data element to be sorted: ";
 	cin>>n;
 	n++;
-	int arr[n];
+	int* arr = new int[n];
 	for(i = 1; i < n; i++)
 	{
 		cout<<"Enter element "<<i<<": ";
