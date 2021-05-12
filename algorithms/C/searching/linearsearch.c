@@ -51,7 +51,7 @@ int linearSearch(int a[], int query, int size)
 /*
 Case 1:
 Input: Enter size: 10
-       1,2,3,4,5,6,7,8,9,10
+       1,2,3,4,5,6,7,8,50,10
        Enter the data to search: 11
 Output: Data not Found
 
