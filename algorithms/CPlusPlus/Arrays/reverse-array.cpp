@@ -3,10 +3,10 @@
 //Auxiliary Space : O(1)
 #include<bits/stdc++.h>
 using namespace std ;
-void reverse_array(int *arr, int n){
+void reverse_array(vector<int> arr){
 // Here we will use two pointer approach
 int low = 0 ;     //First pointer at the beginning of the array
-int high = n-1;  //Second pointer at the end of the array
+int high = arr.size()-1;  //Second pointer at the end of the array
 
 while(low < high){
   //Swapping array items at the low and high index
@@ -15,17 +15,19 @@ while(low < high){
   high--; //Decrementing the high pointer
 }
 
-  for(int i = 0; i < n ; i++){
+  for(int i = 0; i < arr.size() ; i++){
   cout<<arr[i]<<" ";
   }
 }
 int main(){
   int n ; //Size of the array
   cin>>n;
-  int arr[n]; //Array of size n
-  for(int i = 0 ; i < n ; i++){ //Take input from the user
-   cin>>arr[i];
+  int item ;
+  std::vector<int> arr ;
+  while(n--){
+  cin>>item;
+  arr.push_back(item); 
   }
-  reverse_array(arr,n) ; //Function call
+  reverse_array(arr) ; //Function call
   return 0;
 }
