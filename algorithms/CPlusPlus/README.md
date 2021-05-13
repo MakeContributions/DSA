@@ -57,6 +57,7 @@
 2. [Counting and finding sum of all the nodes in BST](Trees/count-and-sum-of-nodes-in-binary-tree.cpp)
 3. [Level Order Traversal](Trees/level-order-traversal.cpp)
 4. [Depth first Traversal](Trees/pre-in-post-traversal.cpp)
+5. [Binary Search Tree](Trees/binary-search-tree.cpp)
 
 # Maths
 1. [Kaprekar Number](Maths/Kaprekar-number.cpp)
