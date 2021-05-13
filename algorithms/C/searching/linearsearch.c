@@ -7,6 +7,7 @@ int linearSearch(int a[], int query, int size);
 int main()
 {
    int *data,i,temp,searchQuery,size;
+   printf("Enter size:");
    scanf("%d",&size);
    data=(int*)malloc(sizeof(int)*size);
 
@@ -24,7 +25,7 @@ int main()
 
    //condition for displaying result
    if ( temp != -1)
-      printf("Found value and the index is :%d", temp);
+      printf("Value found at index no:%d", temp);
    else
       printf("Value not found");
 
