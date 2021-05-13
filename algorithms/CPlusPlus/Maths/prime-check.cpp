@@ -16,14 +16,14 @@ bool isPrime(int num) {
    if((num%(i-1) == 0) || (num%(i+1) == 0)) 
     return false ;    
 } 
-    return true;
+ return true;
 }
 int main(){
-int num ;
-cin>>num ; //Taking input from user
-string result = isPrime(num)?"Prime":"Not Prime" ;   //Evaluating string based on result from isPrime function
-cout<<result; //Printing result
-//Ex : num = 11 , result will print "Prime"
-//Time Complexity :O(sqrt(num))
-return 0;
+ int num ;
+ cin>>num ; //Taking input from user
+ string result = isPrime(num)?"Prime":"Not Prime" ;   //Evaluating string based on result from isPrime function
+ cout<<result; //Printing result
+ //Ex : num = 11 , result will print "Prime"
+ //Time Complexity :O(sqrt(num))
+ return 0;
 }
