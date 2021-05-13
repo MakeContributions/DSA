@@ -1,32 +1,32 @@
 // linear search
 #include <stdio.h>
-#define SIZE 100  //change according to question
-
+#include <stdlib.h>
 //function prototype
 int linearSearch(int a[], int query, int size);
 
 int main()
 {
-   int data[ SIZE ], i, temp;
-   int searchQuery; //value to search in the array
+   int *data,i,temp,searchQuery,size;
+   scanf("%d",&size);
+   data=(int*)malloc(sizeof(int)*size);
 
    //generate some data
-   for (i = 0; i < SIZE; ++i)
+   for (i = 0; i < size; ++i)
    {
-      data[ i ] = 2 * i;
+      scanf("%d",&data[i]);
    }
 
    printf("Enter integer to search for: ");
    scanf("%d", &searchQuery);
 
    //finding searchQuery in array data
-   temp = linearSearch(data, searchQuery, SIZE);
+   temp = linearSearch(data, searchQuery, size);
 
    //condition for displaying result
    if ( temp != -1)
-      printf("Found value in element %d.", temp);
+      printf("Found value and the index is :%d", temp);
    else
-      printf("Value not found.");
+      printf("Value not found");
 
    return 0;
 }
