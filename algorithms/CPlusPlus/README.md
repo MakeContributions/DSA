@@ -62,3 +62,4 @@
 
 # Maths
 1. [Kaprekar Number](Maths/Kaprekar-number.cpp)
+2. [Prime Number](Maths/prime-check.cpp)
