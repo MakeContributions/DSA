@@ -10,7 +10,7 @@ bool isPrime(int num) {
         return false; //Multiples of prime numbers are not prime
     for (int i = 6; i * i <= num; i += 5) {
         //If number is a composite  number then it must have one multiple greater(or equal) 
-        //to sqrt(num) and one mutiple less(or equal) to sqrt(num).
+        //to sqrt(num) and one multiple less(or equal) to sqrt(num).
         //If the num doesn't satisfy the above conditions then the number is said to be a prime number
         //Also prime number appear in the form of 6n-1 and 6n+1 where n is a natural number
         if ((num % (i - 1) == 0) || (num % (i + 1) == 0))
