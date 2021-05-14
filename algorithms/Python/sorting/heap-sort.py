@@ -44,14 +44,13 @@ print('Sorted list: ', end='')
 print(alist)
 print('Time complexity : Best case = Avg case = Worst case = O(n logn)')
 
-'''
-Runtime Test Cases:-
-Test case 1.
-Enter the list of numbers: -1
-Sorted list: [-1]
-Time complexity : Best case = Avg case = Worst case = O(n logn)
-Test case 2.
-Enter the list of numbers: 10  5  0  -3  -1
-Sorted list: [-3  -1  0  5  10]
-Time complexity : Best case = Avg case = Worst case = O(n logn)
-'''
+
+# Runtime Test Cases:-
+# Test case 1.
+# Enter the list of numbers: -1
+# Sorted list: [-1]
+# Time complexity : Best case = Avg case = Worst case = O(n logn)
+# Test case 2.
+# Enter the list of numbers: 10  5  0  -3  -1
+# Sorted list: [-3  -1  0  5  10]
+# Time complexity : Best case = Avg case = Worst case = O(n logn)
