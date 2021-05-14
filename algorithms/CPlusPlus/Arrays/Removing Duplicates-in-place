@@ -1,0 +1,20 @@
+//no driver code
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        if (nums.size() < 0)
+            return 0; //Corner-case
+        int i,j;
+        for(i=0,j=i+1;j<nums.size();) // we need two pointers for comparison of elements
+        {
+            if(nums[i] == nums[j])
+                j++; //If the elements are same we move the second pointer
+            else
+            {
+                nums[i+1] = nums[j]; // if the elements are different we bring the unique element in place of the repeating one and increament the first pointer
+                i++;
+            }
+        }
+         return i+1;
+    }
+};
