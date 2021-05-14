@@ -25,6 +25,7 @@
 3. [Insertion Sort](sorting/insertion_sort.py)
 4. [Quicksort](sorting/quicksort.py)
 5. [Selection Sort](sorting/selection_sort.py)
+6. [Heap Sort](sorting/heap-sort.py)
  
 ## Strings
 1. [Is Good Str](strings/is_good_str.py)
