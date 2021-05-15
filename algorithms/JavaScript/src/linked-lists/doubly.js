@@ -145,7 +145,15 @@ function DoubleLinkedList() {
 
 
 const newDoubleLinkedList = new DoubleLinkedList();
+newDoubleLinkedList.append(1);
 newDoubleLinkedList.append(5);
 newDoubleLinkedList.append(3);
 newDoubleLinkedList.append(20);
+newDoubleLinkedList.insert(1, 9);
+newDoubleLinkedList.removeAt(2);
+
+console.log(newDoubleLinkedList.toArray());
 console.log(newDoubleLinkedList.toString());
+
+newDoubleLinkedList.delete(20);
+console.log('After delete 20: '+newDoubleLinkedList.toString());
