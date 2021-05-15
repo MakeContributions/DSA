@@ -5,6 +5,8 @@
 
 ## Linked Lists
 1. [Singly](lsrc/inked_lists/singly.js)
+1. [Doubly](lsrc/inked_lists/doubly.js)
+
  
 ## Searching
 1. [Binary Search Recursive](src/searching/binary-search-recursive.js)
