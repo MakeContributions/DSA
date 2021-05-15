@@ -68,3 +68,4 @@
 ## Trees
 
 1. [Pre in Post Traversal](trees/pre-in-post-traversal.java)
+2. [Left View of a Tree](trees/left-view.java)
