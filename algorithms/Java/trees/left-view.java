@@ -112,7 +112,7 @@ class Main {
 
 class Tree {
     ArrayList<Integer> al;
-    //Iterative Approch
+    //Iterative Approach
     ArrayList<Integer> leftViewIterative(Node root) {
         al = new ArrayList<Integer>();
         if(root==null) return al;
