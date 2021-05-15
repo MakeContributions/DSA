@@ -26,3 +26,4 @@ func RunBubbleSort() {
 	bubbleSort(sliceInt, len(sliceInt))
 	fmt.Println(sliceInt)
 }
+

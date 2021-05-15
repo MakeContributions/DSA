@@ -13,9 +13,9 @@ class GFG {
 		int t=sc.nextInt();  //number of test cases
 		while(t-->0){
 		    int N=sc.nextInt();
-		    int pages[]=new int[n];
+		    int pages[]=new int[N];
 		    
-		    for(int i=0;i<n;i++){
+		    for(int i=0;i<N;i++){
 		        pages[i]=sc.nextInt();
 		    }
 		    int M=sc.nextInt();

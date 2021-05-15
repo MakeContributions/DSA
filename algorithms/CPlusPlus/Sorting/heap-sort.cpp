@@ -1,66 +1,88 @@
-#include <iostream>
-using namespace std;
-void heapify(int a[], int n, int i);
-void heapSort(int a[], int n);
+/* Heap sort in c++ */
 
-// Driver code
+#include <iostream>
+ 
+using namespace std;
+ 
+// A function to heapify the array.
+void MaxHeapify(int a[], int i, int n)
+{
+	int j, temp;
+	temp = a[i];
+	j = 2*i;
+ 
+ 	while (j <= n)
+	{
+		if (j < n && a[j+1] > a[j])
+		j = j+1;
+		// Break if parent value is already greater than child value.
+		if (temp > a[j])
+			break;
+		// Switching value with the parent node if temp < a[j].
+		else if (temp <= a[j])
+		{
+			a[j/2] = a[j];
+			j = 2*j;
+		}
+	}
+	a[j/2] = temp;
+	return;
+}
+void HeapSort(int a[], int n)
+{
+	int i, temp;
+	for (i = n; i >= 2; i--)
+	{
+		// Storing maximum value at the end.
+		temp = a[i];
+		a[i] = a[1];
+		a[1] = temp;
+		// Building max heap of remaining element.
+		MaxHeapify(a, 1, i - 1);
+	}
+}
+void Build_MaxHeap(int a[], int n)
+{
+	int i;
+	for(i = n/2; i >= 1; i--)
+		MaxHeapify(a, i, n);
+}
 int main()
 {
-    cout << "Enter the length of array" << endl;
-    int n;
-    cin >> n;
-    int *a = new int(n);
-    // Getting elements of array
-    cout << "Enter the elements of array" << endl;
-    for (int i = 0; i < n; i++)
-        cin >> a[i];
-    cout << "Original array:\n";
-    for (int i = 0; i < n; i++)
-        cout << a[i] << " ";
-    heapSort(a, n);
-    cout << "\nSorted array:\n";
-    for (int i = 0; i < n; i++)
-        cout << a[i] << " ";
-    delete (a);
-    return 0;
+	int n, i;
+	cout<<"\nEnter the number of data element to be sorted: ";
+	cin>>n;
+	n++;
+	int* arr = new int[n];
+	for(i = 1; i < n; i++)
+	{
+		cout<<"Enter element "<<i<<": ";
+		cin>>arr[i];
+	}
+	// Building max heap.
+	Build_MaxHeap(arr, n-1);
+	HeapSort(arr, n-1);
+ 
+	// Printing the sorted data.
+	cout<<"\nSorted Data ";
+ 
+	for (i = 1; i < n; i++)
+		cout<<"->"<<arr[i];
+    cout<<"\nTime Complexity: Best case = Avg case = Worst case = O(n logn)";
+ 
+	return 0;
 }
 
-// To heapify a subtree rooted with node i which is an index in a[]
-void heapify(int a[], int n, int i)
-{
-    int largest = i;   // Initialize largest as root
-    int l = 2 * i + 1; 
-    int r = 2 * i + 2; 
+/* Runtime test case:-
 
-    // If left child is larger than root
-    if (l < n && a[l] > a[largest])
-        largest = l;
+Enter the number of data elements to be sorted: 7
+Enter element 1: 10
+Enter element 2: 8
+Enter element 3: 12
+Enter element 4: 1
+Enter element 5: 2
+Enter element 6: 0
+Enter element 7: 15
 
-    // If right child is larger than largest so far
-    if (r < n && a[r] > a[largest])
-        largest = r;
-
-    // If largest is not root
-    if (largest != i)
-    {
-        swap(a[i], a[largest]);
-        // Recursively heapify the affected sub-tree
-        heapify(a, n, largest);
-    }
-}
-
-
-void heapSort(int a[], int n)
-{
-    // Build heap (rearrange array)
-    for (int i = n / 2 - 1; i >= 0; i--)
-        heapify(a, n, i);
-    // One by one extract an element from heap
-    for (int i = n - 1; i > 0; i--)
-    {
-        // Move current root to end
-        swap(a[0], a[i]);
-        // call max heapify on the reduced heap
-        heapify(a, i, 0);
-    }
-}
+Sorted Data ->0->1->2->8->10->12->15
+Time Complexity: Best case = Avg case = Worst case = O(n logn) */

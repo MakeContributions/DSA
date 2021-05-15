@@ -17,12 +17,14 @@
 1. [Binary Search](searching/binary_search.py)
 2. [Jump Search](searching/jump_search.py)
 3. [Linear Search](searching/linear_search.py)
+4. [Ternary Search](searching/ternary_search.py)
  
 ## Sorting
 1. [Bubble Sort](sorting/bubble_sort.py)
-2. [Insertion Sort](sorting/insertion_sort.py)
-3. [Quicksort](sorting/quicksort.py)
-4. [Selection Sort](sorting/selection_sort.py)
+2. [Comb Sort](sorting/comb_sort.py)
+3. [Insertion Sort](sorting/insertion_sort.py)
+4. [Quicksort](sorting/quicksort.py)
+5. [Selection Sort](sorting/selection_sort.py)
  
 ## Strings
 1. [Is Good Str](strings/is_good_str.py)

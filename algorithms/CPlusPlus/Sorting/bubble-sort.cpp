@@ -13,8 +13,10 @@ int main()
 	{    //array elements input
 		cin>>arr[i];
 	}
+	bool swap;
 	for (int i = 0; i < n; i++)
 	{
+		swap = false;
 		for (int j= 0; j< n-1; j++)
 		{    //comparing adjecent elements of array
 			if (arr[j]>arr[j+1])
@@ -22,8 +24,13 @@ int main()
 				temp = arr[j];
 				arr[j] = arr[j+1];
 				arr[j+1] = temp;
+				swap = true;
 			}
 		}
+
+		// break if no swap takes place in inner loop
+		// it means the array is sorted 
+		if(!swap){ break; }
 	}
 	for (int i = 0; i < n; ++i)
 	{

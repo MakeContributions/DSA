@@ -1,6 +1,6 @@
 # Algorithm Name
 
-Write a short description of algorithm like:
+Write a short description of the algorithm like:
 1. Time Complexity 
 2. Space Complexity
 3. Applications
@@ -8,17 +8,15 @@ Write a short description of algorithm like:
 5. etc...
 
 ## Steps
-
-Describe the algorithm in clear, simple and understandable steps.
+Describe the algorithm in clear, simple, and understandable steps.
 
 ## Example
-
-Trace the algorithm with a sample input data.
+Trace the algorithm with sample input data.
 
 ## Implementation
 
 Links to their implementation in programming languages.
-NOTE: The link should be within the other repos of this organization only.
+NOTE: The link should be within the algorithms folder only.
 
 ## Video URL
 
