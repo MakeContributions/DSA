@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 /**
  * In normal inserion sort there will be i comparision 
@@ -17,7 +18,7 @@
  * Time Complexity of binary insertion sort: O(n^2)
  */
 
-int binary_search(int arr[], int item, int left, int right){
+int binary_search(std::vector<int>& arr, int item, int left, int right){
 	/**
 	 * Binary Search Algorithm
 	 *
@@ -37,7 +38,7 @@ int binary_search(int arr[], int item, int left, int right){
 	else { return left; }
 }
 
-void insertion_sort(int arr[], int size){
+void insertion_sort(std::vector<int>& arr, int size){
 	/*
 	 * Insertion Sort Algorithm
 	 *
@@ -65,16 +66,12 @@ int main(){
 	int N;
 	std::cout << "Enter total number of elements: ";
 	std::cin >> N;
-	int arr[N];
+	std::vector<int> arr(N);
 	
 	std::cout << "Enter the elements: " << std::endl;
-	for(int i=0; i<N; i++){ 
-		std::cin >> arr[i];	
-	}	
+	for(auto& i: arr){ std::cin >> i; }
 	//-------------------------------------------------
 	
 	insertion_sort(arr, N);
-	for(int i=0; i<N; i++){ 
-		std::cout << arr[i] << " " ; 
-	}
+	for(const auto& i: arr){ std::cout << i << " "; }
 } 
