@@ -146,7 +146,7 @@ class Tree {
     }
     void leftViewUtil(Node node, int lvl){
         if(node==null) return;
-        //first occurance of the level will get added
+        //first occurrence of the level will get added
         if(maxlvl<lvl){
             al.add(node.data);
             //make the max level to curr level
