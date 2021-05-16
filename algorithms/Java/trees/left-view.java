@@ -15,7 +15,7 @@ class Node{
         right=null;
     }
 }
-
+//Main Class
 class Main {
     
     static Node buildTree(String str){
@@ -86,29 +86,29 @@ class Main {
     }
     
 	public static void main (String[] args) throws IOException{
-	        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	        //number of testcases.
-	        int t=Integer.parseInt(br.readLine());
-    
-	        while(t > 0){
-                //Input a string for tree
-	            String s = br.readLine();
-    	    	Node root = buildTree(s);
-        	    Tree g = new Tree();
-                //calculate in left view of tree by calling function
-    			ArrayList<Integer> result1 = g.leftViewIterative(root);
-                ArrayList<Integer> result2 = g.leftViewRecursive(root);
-                //print the result
-                System.out.println("Iterative Solution:");
-    			for(int value : result1){
-    			    System.out.print(value + " ");
-    			}
-    			System.out.println("Recursive Solution:");
-                for(int value : result2){
-    			    System.out.print(value + " ");
-    			}
-                System.out.println();
-                t--;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        //number of testcases.
+        int t=Integer.parseInt(br.readLine());
+
+        while(t > 0){
+            //Input a string for tree
+            String s = br.readLine();
+            Node root = buildTree(s);
+            Tree g = new Tree();
+            //calculate in left view of tree by calling function
+            ArrayList<Integer> result1 = g.leftViewIterative(root);
+            ArrayList<Integer> result2 = g.leftViewRecursive(root);
+            //print the result
+            System.out.println("Iterative Solution:");
+            for(int value : result1){
+                System.out.print(value + " ");
+            }
+            System.out.println("Recursive Solution:");
+            for(int value : result2){
+                System.out.print(value + " ");
+            }
+            System.out.println();
+            t--;
         }
     }
 }
