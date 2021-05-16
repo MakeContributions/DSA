@@ -1,6 +1,7 @@
 # Heap sort in python
 from typing import Callable
 
+test_arr = [10, 1, 6, 256, 2, 53, 235, 53, 1, 7, 0, -23, 23]
 
 def heap_data(nums, index, heap_size):
     largest_num = index
@@ -26,13 +27,9 @@ def heap_sort(nums):
     return nums
 
 
-user_input = input("Enter the list of numbers separated by a comma:\n").strip()
-nums = [int(item) for item in user_input.split(',')]
-print('Sorted list is: ')
-heap_sort(nums)
-print(nums)
-print('Time complexity : Best case = Avg case = Worst case = O(n logn)')
-
+if __name__ == "__main__":
+    print("Sorted Array:", heap_sort(test_arr))
+    
 
 # Runtime Test Cases:-
 # Test case 1.
