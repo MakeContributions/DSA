@@ -9,3 +9,6 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 
 ## Strings
 - [Palindrome](src/Strings/palindrome.cs)
+
+## Search
+- [Binary Search](src/Search/binary-search.cs)
