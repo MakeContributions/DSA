@@ -1,47 +1,35 @@
 # Heap sort in python
+from typing import Callable
 
-def heapsort(alist):
-    build_max_heap(alist)
-    for i in range(len(alist) - 1, 0, -1):
-        alist[0], alist[i] = alist[i], alist[0]
-        max_heapify(alist, index=0, size=i)
+def heap_data(nums, index, heap_size):
+    largest_num = index
+    left_index = 2 * index + 1
+    right_index = 2 * index + 2
+    if left_index < heap_size and nums[left_index] > nums[largest_num]:
+        largest_num = left_index
 
-def parent(i):
-    return (i - 1)//2
-
-def left(i):
-    return 2*i + 1
-
-def right(i):
-    return 2*i + 2
-
-def build_max_heap(alist):
-    length = len(alist)
-    start = parent(length - 1)
-    while start >= 0:
-        max_heapify(alist, index=start, size=length)
-        start = start - 1
-
-def max_heapify(alist, index, size):
-    l = left(index)
-    r = right(index)
-    if (l < size and alist[l] > alist[index]):
-        largest = l
-    else:
-        largest = index
-    if (r < size and alist[r] > alist[largest]):
-        largest = r
-    if (largest != index):
-        alist[largest], alist[index] = alist[index], alist[largest]
-        max_heapify(alist, largest, size)
+    if right_index < heap_size and nums[right_index] > nums[largest_num]:
+        largest_num = right_index
+    if largest_num != index:
+        nums[largest_num], nums[index] = nums[index], nums[largest_num]
+        heap_data(nums, largest_num, heap_size)
+        
+        
+def heap_sort(nums):
+    n = len(nums)
+    for i in range(n // 2 - 1, -1, -1):
+        heap_data(nums, i, n)
+    for i in range(n - 1, 0, -1):
+        nums[0], nums[i] = nums[i], nums[0]
+        heap_data(nums, 0, i)
+    return nums
 
 
-alist = input('Enter the list of numbers: ').split()
-alist = [x for x in alist] 
-alist = list(map(int, alist))
-heapsort(alist)
-print('Sorted list: ', end='')
-print(alist)
+user_input = input("Enter the list of numbers separated by a comma:\n").strip()
+nums = [int(item) for item in user_input.split(',')]
+print('Sorted list is: ')
+heap_sort(nums)
+print(nums)
 print('Time complexity : Best case = Avg case = Worst case = O(n logn)')
 
 
