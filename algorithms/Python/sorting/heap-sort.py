@@ -1,6 +1,7 @@
 # Heap sort in python
 from typing import Callable
 
+
 def heap_data(nums, index, heap_size):
     largest_num = index
     left_index = 2 * index + 1
