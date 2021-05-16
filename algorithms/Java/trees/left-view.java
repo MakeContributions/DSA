@@ -74,8 +74,8 @@ class Main {
         
         return root;
     }
-    static void printInorder(Node root)
-    {
+    static void printInorder(Node root) {
+        //Print inorder of tree.
         if(root == null)
             return;
             
@@ -87,15 +87,18 @@ class Main {
     
 	public static void main (String[] args) throws IOException{
 	        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	        
+	        //number of testcases.
 	        int t=Integer.parseInt(br.readLine());
     
 	        while(t > 0){
+                //Input a string for tree
 	            String s = br.readLine();
     	    	Node root = buildTree(s);
         	    Tree g = new Tree();
+                //calculate in left view of tree by calling function
     			ArrayList<Integer> result1 = g.leftViewIterative(root);
                 ArrayList<Integer> result2 = g.leftViewRecursive(root);
+                //print the result
                 System.out.println("Iterative Solution:");
     			for(int value : result1){
     			    System.out.print(value + " ");
@@ -116,12 +119,15 @@ class Tree {
     ArrayList<Integer> leftViewIterative(Node root) {
         al = new ArrayList<Integer>();
         if(root==null) return al;
+        //create a queue to store the node of treees
         Queue<Node> q = new LinkedList<>();
         q.add(root);
         while(!q.isEmpty()){
             int n = q.size();
+            //loop through available nodes in queue.
             for(int i=1;i<=n;i++){
                 Node temp = q.poll();
+                //add first node from queue as it would be left most node
                 if(i==1) al.add(temp.data);
                 if(temp.left!=null) q.add(temp.left);
                 if(temp.right!=null) q.add(temp.right);
@@ -134,15 +140,19 @@ class Tree {
     int maxlvl=0;
     ArrayList<Integer> leftViewRecursive(Node root) {
         al = new ArrayList<Integer>();
+        //start from root of the tree
         leftViewUtil(root, 1);
         return al;
     }
     void leftViewUtil(Node node, int lvl){
         if(node==null) return;
+        //first occurance of the level will get added
         if(maxlvl<lvl){
             al.add(node.data);
+            //make the max level to curr level
             maxlvl = lvl;
         }
+        //increment the level of tree to get left most of next level
         leftViewUtil(node.left, lvl+1);
         leftViewUtil(node.right, lvl+1);
     }
