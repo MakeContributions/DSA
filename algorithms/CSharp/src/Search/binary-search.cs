@@ -7,9 +7,24 @@ namespace Algorithms.Search
 {
    public class BinarySearch
     {
-        //Prerequisite: Array must be sorted
+        public static void Main()
+        {
+            var sortedArray = new int[] { 2, 4, 7, 9, 23 };
+            var item = 9;
+
+            var resultIndex = Search(sortedArray, item);
+            if (resultIndex != -1)
+            {
+                Console.WriteLine($"item {item} found at index {resultIndex} into array");
+            }
+            else
+            {
+                Console.WriteLine($"item {item} not found into array");
+            }
+        }
+
+        ///Prerequisite: Array must be sorted
         //Returns index of item if it is present in sorted array, else return -1
-        
         public static int Search(int[] sortedArr, int item)
         {
             var arrLength = sortedArr.Length;
