@@ -17,10 +17,10 @@ def remove_duplicate(string):
             pass
         else:
             index = ord(letter)-ord('a')
-            if index==0:
-                alphabet = "1"+alphabet[1:]
+            if index == 0:
+                alphabet = "1" + alphabet[1:]
             else:
-                alphabet = alphabet[0:index]+"1"+alphabet[index+1:]
+                alphabet = alphabet[0:index] + "1" + alphabet[index+1:]
             ans_string += letter
     return ans_string
 
