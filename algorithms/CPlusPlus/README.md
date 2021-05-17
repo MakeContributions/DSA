@@ -48,6 +48,7 @@
 9. [heap Sort](Sorting/heap-sort.cpp)
 10. [Radix Sort](Sorting/radix-sort.cpp)
 11. [Shell Sort](Sorting/shell-sort.cpp)
+12. [Binary Insertion Sort](Sorting/binary-insertion-sort.cpp)
  
 ## Strings
 1. [Rabin-Karp pattern search algo](Strings/rabin-karp.cpp)
