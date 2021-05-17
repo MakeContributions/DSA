@@ -5,7 +5,7 @@
 using namespace std;
 void PrimeSieve(int n) {
     vector <int> sieve(n + 1);              //Create a vector array of size n+1
-    fill(sieve.begin(), sieve.end(), 1);    //Fill the array with 1s, which means all numbers are intially assumed to be prime.
+    fill(sieve.begin(), sieve.end(), 1);    //Fill the array with 1s, which means all numbers are initially assumed to be prime.
     sieve[0] = 0;                           //Exception:Zero is not a Prime
     sieve[1] = 0;                           //Exception:One  is not a Prime
     for (int i = 2; i * i <= n; i++) { 
