@@ -2,6 +2,9 @@
 
 ## Arrays
 1. [Count Inversions](arrays/counting_inversions.py)
+2. [Majority Element](arrays/majority_element.py)
+3. [Rotate Array](arrays/rotate_array.py)
+4. [Missing Number](arrays/missing_number.py)
 
 ## Linked Lists
 1. [Doubly](linked_lists/doubly.py)
