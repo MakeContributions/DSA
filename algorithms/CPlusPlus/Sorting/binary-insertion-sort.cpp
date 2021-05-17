@@ -2,15 +2,15 @@
 #include <vector>
 
 /**
- * In normal inserion sort there will be i comparision 
+ * In normal insertion sort there will be "i" comparisons
  * for every i'th iteration. 
  * 	Minimum comparison : 1
- * 	Maximum: O(i) for every i'th iteration
+ * 	Maximum comparison : O(i) for every i'th iteration
  *
- * In binary insertion sort there will be only log(i) comparision
+ * In binary insertion sort there will be only log(i) comparisons
  * for every i'th iteration
- * 	Minimum comparision: 1
- * 	Maximum comparision: O(log(i)) for every i'th iteration
+ * 	Minimum comparison: 1
+ * 	Maximum comparison: O(log(i)) for every i'th iteration
  *  
  * Still the total time complexity of the algorithm remains the same
  * because of the swap in each iteration
