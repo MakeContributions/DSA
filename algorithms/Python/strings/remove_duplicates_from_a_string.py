@@ -7,7 +7,7 @@ Time Complexity: O(n)
 Space Complexity: O(26) (constant)
 """
 
-string = "bbaaccdefabafaz"
+string = "bbaaccdefabafaz"  # Constraint: only smallcase letters are there
 
 def remove_duplicate(string):
     alphabet = "0" * 26 # instead of going for classic use of sets, dictionaries we can use string containing bits. Either way is fine.
