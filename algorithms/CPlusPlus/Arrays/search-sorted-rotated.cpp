@@ -10,7 +10,7 @@ int search_array(vector <int> arr, int item) {
             return mid;
         } 
         else if (arr[mid] > arr[low]) {                         //Here we check whether left half of the array is sorted or not .
-            if ((arr[low] <= item) && (item<arr[mid])) {        // If left half is sorted then we check whether item is greather than the lower index 
+            if ((arr[low] <= item) && (item<arr[mid])) {        // If left half is sorted then we check whether item is greater than the lower index 
                 high = mid - 1;                                 //If  item is greater than the lower index then we ignore the right half of the array
             }                     
             else {                                             //If item is less than the lower index then we ignore the left half and start our search
