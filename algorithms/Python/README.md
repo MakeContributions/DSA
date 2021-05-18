@@ -34,3 +34,5 @@
 1. [Is Good Str](strings/is_good_str.py)
 2. [Palindrome](strings/palindrome.py)
 3. [Word Count](strings/word_count.py)
+4. [Remove Duplicates from a String](strings/remove_duplicates_from_a_string.py)
+5. [First Non Repeating Character](strings/first_non_repeating_character.py)
