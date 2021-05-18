@@ -20,11 +20,12 @@ void PrimeSieve(int n) {
             cout << i << " ";
         }
     }
-    return;                               //Time complexity : O(n*log(log(n))), Auxiliary Space: O(1)
+    return;                              
 }
 int main() {
     int n;
     cin >> n;
     PrimeSieve(n); //Call the function
-    return 0;
+    return 0;     //Time complexity : O(n*log(log(n))), Auxiliary Space: O(1)
+    //Example : n=10 , Output: 2 3 5 7   
 }
