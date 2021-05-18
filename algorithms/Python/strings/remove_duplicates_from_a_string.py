@@ -13,7 +13,10 @@ def remove_duplicate(string):
     alphabet = "0" * 26 # instead of going for classic use of sets, dictionaries we can use string containing bits. Either way is fine.
     ans_string = ""
     for letter in string:
-        if alphabet[ord(letter)-ord('a')] == "1":
+        index = ord(letter)-ord('a')
+        if index < 0 or index > 25:
+            return ("Invalid")
+        if alphabet[index] == "1":
             pass
         else:
             index = ord(letter)-ord('a')
