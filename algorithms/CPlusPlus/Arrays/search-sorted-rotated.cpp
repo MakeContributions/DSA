@@ -5,7 +5,7 @@ int search_array(vector <int> arr, int item) {
     int low = 0;
     int high = arr.size() - 1;
     while (low <= high) {
-        int mid = (low + high) / 2;                             //Calculating middle index
+        int mid = low + (high-low)/2;                            //Calculating middle index
         if (arr[mid] == item) {                                 //If the element at middle index is equal to the item then we return the middle index
             return mid;
         } 
