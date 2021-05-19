@@ -92,7 +92,7 @@ bool perfect_recursive(TreeNode* cur, int depth, int level = 0){
          * A Recursive strategy to check if a tree is perfect or not
          *
          * A binary tree is perfect if when all the inner node's
-         * has two childs and the all the leaf node's are at the
+         * has two children and the all the leaf node's are at the
          * same level.
          *
          * @params: `cur`  node of the tree
@@ -138,7 +138,7 @@ bool perfect(TreeNode* cur){
          * the tree we can find whether the tree is perfect or not
          *
          * A binary tree is perfect if when all the inner node's
-         * has two childs and the all the leaf node's are at the
+         * has two children and the all the leaf node's are at the
          * same level.
          */
 
