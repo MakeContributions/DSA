@@ -8,6 +8,7 @@
 5. [Shift Negatives](Arrays/shift-negatives.cpp)
 6. [Boyer–Moore Voting Algorithm](Arrays/boyer_more.cpp)
 7. [Reverse Array](Arrays/reverse-array.cpp)
+8. [Sorted-Rotated Search Array](Arrays/search-sorted-rotated.cpp)
 
 ## Graphs
 1. [Bellman Ford Algorithm](Graphs/bellmam-ford.cpp)
