@@ -19,7 +19,6 @@ struct Node {
  * Print out the values of the treenodes using an in-order traversal
  * (left subtree - root - right subtree) without using additional memory
  * node values are printed with a space between the values of each 2 nodes
- * time complexity: O(n), space complexity O(1)
  **/
 
 void print_morris(Node* root) {
@@ -66,6 +65,7 @@ int main() {
      *              9    6
      * 
      * expected output: 5 8 9 10 6
+     * time complexity: O(n), space complexity O(1)
      **/
 
     print_morris(my_root);
