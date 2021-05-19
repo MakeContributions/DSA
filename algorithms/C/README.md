@@ -23,7 +23,7 @@
 ## Strings
 - [Count Words](strings/count-words.c)
 - [Palindrome](strings/palindrome.c)
-- [Permutation of String](string/Permutation-of-String.c)
+- [Permutation of String](strings/Permutation-of-String.c)
 
  ## Tree
 - [Height Of Tree](tree/height-of-a-tree.c)
