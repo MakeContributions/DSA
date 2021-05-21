@@ -1,9 +1,11 @@
 /** 
  * Conduct a morris in-order traversal of a binary tree,
  * printing out the value at each node according to 
- * the traversal
+ * the traversal using user defined inputs.
+ * Node.val can take any number except -1
  **/
 # include <iostream>
+# include <vector>
 using namespace std;
 
 // Basic tree definition
@@ -48,12 +50,34 @@ void print_morris(Node* root) {
     }
 }
 
+Node* build_tree(vector<int>& nodes, Node* root, int i, int n) {
+    if (i < n) {
+        if (nodes[i] == -1) return NULL;
+        Node* temp = new Node(nodes[i]);
+        root = temp;
+
+        root->left = build_tree(nodes, root->left, 2 * i + 1, n);
+        root->right = build_tree(nodes, root->right, 2 * i + 2, n);
+    }
+    return root;
+}
+
 int main() {
-    Node* my_root = new Node(8);
-    my_root->left = new Node(5);
-    my_root->right = new Node(10);
-    my_root->right->left = new Node(9);
-    my_root->right->right = new Node(6);
+    vector<int> nodes;
+    int numNodes;
+
+    cout << "Enter the number of nodes: ";
+    cin >> numNodes;
+    if (!numNodes) { cout << "\n"; return 0; }
+
+    for (int i = 0; i < numNodes; i++) {
+        cout << "Enter the value for node followed by ENTER (-1 for no node) " << i + 1 << ": ";
+        int nodeVal;
+        cin >> nodeVal;
+        nodes.push_back(nodeVal);
+    }
+
+    Node* my_root = build_tree(nodes, my_root, 0, nodes.size());
 
     /**
      * Test for the morris traversal:
@@ -64,6 +88,7 @@ int main() {
      *               /  \
      *              9    6
      * 
+     * for input:7, 8 5 10 -1 -1 9 6
      * expected output: 5 8 9 10 6
      * time complexity: O(n), space complexity O(1)
      **/
