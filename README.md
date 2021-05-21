@@ -111,13 +111,7 @@ The programming should keep the naming convention rule of each programming langu
 
 - [First-time contribution](CONTRIBUTING.md)
 
-## Contributors
-
-<a href="https://github.com/MakeContributions/DSA/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=MakeContributions/DSA" />
-</a>
-
-### Reviewers
+## Reviewers
 
 | Programming Language | Users                                             |
 | -------------------- | ------------------------------------------------- |
@@ -127,6 +121,12 @@ The programming should keep the naming convention rule of each programming langu
 | Go                   | @atin                                             |
 | Python               | @Arsenic-ATG, @atin, @sridhar-5, @cyberwizard1001 |
 | JavaScript           | @paulsonjpaul                                     |
+
+## Contributors
+
+<a href="https://github.com/MakeContributions/DSA/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MakeContributions/DSA" />
+</a>
 
 ## Open Graph
 
