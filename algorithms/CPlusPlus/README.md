@@ -64,6 +64,7 @@
 4. [Depth first Traversal](Trees/pre-in-post-traversal.cpp)
 5. [Binary Search Tree](Trees/binary-search-tree.cpp)
 6. [In order morris traversal](Trees/in-order-morris-traversal.cpp)
+7. [In order Predecessor and Successor](Trees/in-order-predecessor-and-successor.cpp)
 
 # Maths
 1. [Kaprekar Number](Maths/Kaprekar-number.cpp)
