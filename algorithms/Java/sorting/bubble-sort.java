@@ -1,27 +1,40 @@
+import  java.util.Scanner;
+public class sorting {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-import java.util.Arrays;
+        boolean sorted = true; 
 
-public class BubbleSort {
-	static int temp = 0;
-	static int[] nums = { 13, 34, 12, 45, 56, 32, 20 };
+        System.out.println("Enter the size of array: ");
+        int n=sc.nextInt();
 
-	public static void main(String[] args) {
+        int a[]=new int[n];
 
-		System.out.println("Before Sorting : "+Arrays.toString(nums));
-		sort();
+        System.out.println("Enter the elements of array : "); 
+        for (int i=0;i<n;i++)
+        {
+            a[i]=sc.nextInt();
+        }
 
-	}
-  //create method sorting array
-	public static void sort() {
-		for (int i = 1; i < nums.length; i++) {
-			for (int j = 0; j < i; j++) {
-				if (nums[j] > nums[i]) {
-					temp = nums[j];
-					nums[j] = nums[i];
-					nums[i] = temp;
-				}
-			}
-		}
-		System.out.println(Arrays.toString(nums));
-	}
+        for (int i=0;i<n-1;i++)
+        {
+            for(int j = 0; j < n - 1 - i; j++)
+            {
+                if(a[j+1]<a[j])
+                {
+                    int temp=a[j+1];
+                    a[j+1]=a[j];
+                    a[j]=temp;
+                    sorted =false;
+                }
+            }
+            if(sorted)break;
+        }
+
+        System.out.println("Array after sorting :");
+        for (int item:a)
+        {
+            System.out.print(item+" ");
+        }
+    }
 }
