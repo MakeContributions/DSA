@@ -50,6 +50,7 @@
 10. [Radix Sort](Sorting/radix-sort.cpp)
 11. [Shell Sort](Sorting/shell-sort.cpp)
 12. [Binary Insertion Sort](Sorting/binary-insertion-sort.cpp)
+13. [Merge Sort](Sorting/merge-sort.cpp)
  
 ## Strings
 1. [Rabin-Karp pattern search algo](Strings/rabin-karp.cpp)
