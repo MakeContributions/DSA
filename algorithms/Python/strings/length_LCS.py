@@ -1,5 +1,5 @@
 class Solution:
-    def longestCommonSubsequence(self, text1: str, text2: str) -> int:
+    def longest_common_subsequence(self, text1: str, text2: str) -> int:
         n,m = len(text1),len(text2)
         
         grid=[[0] * (m+1) for z in range(n+1)]
@@ -17,4 +17,4 @@ class Solution:
     
 if __name__=='__main__':
     instance = Solution()
-    print(instance.longestCommonSubsequence("abcdefg","aceg"))
+    print(instance.longest_common_subsequence("abcdefg","aceg"))
