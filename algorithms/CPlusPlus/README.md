@@ -65,6 +65,7 @@
 5. [Binary Search Tree](Trees/binary-search-tree.cpp)
 6. [In order morris traversal](Trees/in-order-morris-traversal.cpp)
 7. [In order Predecessor and Successor](Trees/in-order-predecessor-and-successor.cpp)
+8. [Avl Tree](Trees/avl.cpp)
 
 # Maths
 1. [Kaprekar Number](Maths/Kaprekar-number.cpp)
