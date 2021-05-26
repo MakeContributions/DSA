@@ -160,7 +160,10 @@ int main(){
 			     10
 	
 	Output: 1 2 3 4 5 6 7 8 9 10
-	Here the balance factor of the root node is 9                          
+	Here the balance factor of the root node is 9    
+	
+	Average case Time complexity for insert and remove: O(log(n))
+	Worst cose Time complexity for insert and remove: O(n)
 
 	AVL Tree
 	   4
@@ -173,7 +176,8 @@ int main(){
 
 	Output: 4 2 1 3 8 6 5 7 9 10
 	Here the balance factor of the root node is 1
-
+	
+	Average and worst case time complexity for insert and remove: O(log(n))
 	*/
 
 	print(root);
