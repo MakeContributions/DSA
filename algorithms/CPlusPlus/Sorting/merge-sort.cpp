@@ -1,5 +1,6 @@
 //Description : Merge Sort Algorithm
 #include<bits/stdc++.h>
+using namespace std;
 
 void merging(int arr[], int l, int h, int m) {
     int N1 = m - l + 1;                 //Left Array Size     
@@ -53,6 +54,12 @@ int main() {
         cout << arr[i] << " ";
     }
     return 0;
+   //Ex :Input : arr= { 1,0,13,7,6,2,16 };
+   //    Output  
+   //    Array Before Sorting 
+   //    1 0 13 7 6 2 16
+   //    Array After Sorting
+   //    0 1 2 6 7 13 16
    //Time Complexity :O(nlogn)
    //Auxiliary Space :O(n)
    //where n is the array size
