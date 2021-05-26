@@ -1,3 +1,8 @@
+/*
+ * Avl tree's are self-balancing binary search tree such that
+ * the balance factor of each node will be -1 or 0 or 1.
+ */
+
 #include <iostream>
 
 struct TreeNode{
@@ -8,36 +13,28 @@ struct TreeNode{
 };
  
 int height(TreeNode* node){
-	/**
-	 * Return the height of the node
-	 */
+	 //Return the height of the node
 
 	if(node == nullptr){ return -1; }
 	return node->height;
 }
 
 void updateheight(TreeNode*& node){
-	/**
-	 * Update the height of the node
-	 */
+	 //Update the height of the node
 
 	if(node == nullptr){ return; }
 	node->height = 1 + std::max(height(node->left), height(node->right));
 }
 
-int balance_factor(TreeNode* node){
-	/**
-	 * Find the balance factor of the given node
-	 */
+int balance_factor(TreeNode* node){	
+	 //Find the balance factor of the given node
 
 	if(node != nullptr){ return height(node->right) - height(node->left); }
 	return 0;
 }
 
 void leftrotation(TreeNode*& node){
-	/**
-	 * Rotate the sub-tree rooted with the node to left
-	 */
+	//Rotate the sub-tree rooted with the node to left
 
 	if(node == nullptr){ return; }
 
@@ -53,9 +50,7 @@ void leftrotation(TreeNode*& node){
 }
 
 void rightrotation(TreeNode*& node){
-	/**
-	 * Rotate the sub-tree rooted with the node to right
-	 */
+	 //Rotate the sub-tree rooted with the node to right
 
 	if(node == nullptr){ return; }
 
@@ -82,9 +77,7 @@ void right_leftrotation(TreeNode*& node){
 }
 
 void left_rightrotation(TreeNode*& node){
-	/**
-	 * Rotate the sub-tree rooted with the node to the left and then right  
-	 */
+	 //Rotate the sub-tree rooted with the node to the left and then right  
 
 	if(node == nullptr){ return; }
 	
@@ -93,11 +86,11 @@ void left_rightrotation(TreeNode*& node){
 }
 
 void insert(TreeNode*& root, const int& data){
-	/**
+	/*
 	 * Create and insert the node in the appropriate place of the tree
 	 * Update the height of every node in the tree
 	 * Check the balance factor of the node and do the appropriate rotation
-	 * to make the tree balanced
+	 * To make the tree balanced
 	 */
 
 	if(root == nullptr) { 
