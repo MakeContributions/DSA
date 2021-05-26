@@ -66,9 +66,7 @@ void rightrotation(TreeNode*& node){
 }
 
 void right_leftrotation(TreeNode*& node){
-	/**
-	 * Rotate the sub-tree rooted with the node to the right and then left
-	 */
+	 //Rotate the sub-tree rooted with the node to the right and then left
 
 	if(node == nullptr){ return; }
 	
@@ -176,7 +174,7 @@ int main(){
 
 	Output: 4 2 1 3 8 6 5 7 9 10
 	Here the balance factor of the root node is 1
-	
+
 	Average and worst case time complexity for insert and remove: O(log(n))
 	*/
 
