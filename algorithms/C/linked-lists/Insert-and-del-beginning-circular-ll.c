@@ -1,6 +1,6 @@
 
 //Circular Linked List
-//insertion and Deletion at the begining of the Linked List
+//insertion and Deletion at the beginning of the Linked List
 #include<stdio.h>
 #include<stdlib.h>
 
