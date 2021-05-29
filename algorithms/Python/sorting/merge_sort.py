@@ -30,8 +30,5 @@ def merge_sort(list):
     return list
 ##### main ###
 if __name__ == '__main__':
-    print("Enter the list: ")
-    arr = [int(i) for i in input().split()] # Entered list will be in string format, so using list comprehensions, we are converting into a integer list
-    arr = merge_sort(arr) 
-    for i in arr:
-        print(i,end=" ")
+    arr = [10, 1, 6, 256, 2, 53, 235, 53, 1, 7, 0, -23, 23]
+    print("Sorted Array:", merge_sort(arr))
