@@ -32,6 +32,11 @@ def radix_sort(arr, simulation=False):
         position *= 10
     return arr
 
+arr = [142, 34, 6, 17, 113, 2, 261, 72]
+
+if __name__ == "__main__":
+    print("Sorted Array:", radix_sort(arr))
+    
 # Runtime Test Cases:-
 # Test case 1.
 # Enter the list of numbers: 12 7 56 42
