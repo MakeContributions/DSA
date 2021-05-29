@@ -39,7 +39,7 @@
 6. [Longest Common Subsequence](strings/longest_common_subsequence.py)
 
 ## Dynamic Programming
-1. [Print Fibonacci Series Upto N-th Term](dynamic_programming/fibonacci_series.py)
-2. [Sum Upto N-th Term Of Fibonacci Series](dynamic_programming/fibonacci_series_sum.py )
+1. [Print Fibonacci Series Up To N-th Term](dynamic_programming/fibonacci_series.py)
+2. [Sum Up To N-th Term Of Fibonacci Series](dynamic_programming/fibonacci_series_sum.py )
 3. [N-th Term Of Fibonacci Series](dynamic_programming/fibonacci_series_nth_term.py)
 
