@@ -1,8 +1,14 @@
 # Find the nth term of fibonacci series using dynamic approach
 # Fibonacci series starts from 0th term
 
+"""
+Output:
 
-key = int(input("Enter the term: "))
+The term 10 of the fibonacci series is:  55
+
+"""
+
+key = 10
 
 if key < 0:
     print("Please enter a valid term.")

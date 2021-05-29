@@ -1,8 +1,14 @@
-# Find the sum upto nth term of fibonacci series using dynamic approach
+# Find the sum up to nth term of fibonacci series using dynamic approach
 # Fibonacci series starts from 0th term
 
+"""
+Output:
 
-key = int(input("Enter the term: "))
+Sum up to term 10 of fibonacci series is:  143
+
+"""
+
+key = 10
 
 if key < 0:
     print("Please enter a valid term.")
@@ -11,11 +17,11 @@ if key < 0:
 d = {0: 0, 1: 1}
 
 if key == 0:
-    print(f"Sum upto term {key} of fibonacci series: ", 0)
+    print(f"Sum up to term {key} of fibonacci series: ", 0)
     exit()
 
 if key == 1:
-    print(f"Sum upto term {key} of fibonacci series: ", 1)
+    print(f"Sum up to term {key} of fibonacci series: ", 1)
     exit()
 
 sum = 1
@@ -33,4 +39,4 @@ def fibo(n):
 
 fibo(key)
 
-print(f"Sum upto term {key} of fibonacci series is: ", sum)
+print(f"Sum up to term {key} of fibonacci series is: ", sum)

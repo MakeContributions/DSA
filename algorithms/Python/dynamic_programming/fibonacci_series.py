@@ -1,19 +1,23 @@
-# Print the fibonacci series upto term n using dynamic approach
+# Print the fibonacci series up to term n using dynamic approach
 # Fibonacci series starts from 0th term
 
+"""
+Output:
 
-key = int(input("Enter the term: "))
+The fibonacci series up to term 20:  0  1    1   2   3   5   8   13      21      34      55  
+   89      144     233     377     610     987     1597    2584    4181    6765
+
+"""
+
+key = 20
 
 if key < 0:
     print("Please enter a valid term.")
     exit()
 
-d = {}
+d = {0: 0, 1: 1}
 
-print(f"The fibonacci series upto term {key}: ", end=" ")
-
-d[0] = 0
-d[1] = 1
+print(f"The fibonacci series up to term {key}: ", end=" ")
 
 if key == 0:
     print(0)
