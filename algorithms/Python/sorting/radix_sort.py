@@ -1,6 +1,8 @@
-##Radix Sort
-##Complexity: O(nk + n). 
-#n is the size of input list and k is the digit length of the number.
+"""
+Radix Sort
+Time Complexity: O(nk + n). 
+n is the size of input list and k is the digit length of the number.
+"""
 
 def radix_sort(arr, simulation=False):
     position = 1
@@ -29,3 +31,12 @@ def radix_sort(arr, simulation=False):
 
         position *= 10
     return arr
+
+# Runtime Test Cases:-
+# Test case 1.
+# Enter the list of numbers: 12 7 56 42
+# Sorted list: [7 12 42 56]
+# Test case 2.
+# Enter the list of numbers: 142 34 6 17 113 2 261 72 
+# Sorted list: [2 6 17 34 72 113 142 261]
+# For radix sort, Best = Worst = Average Time Complexity is O(nk+n).
