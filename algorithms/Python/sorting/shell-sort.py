@@ -21,3 +21,13 @@ list = [19,2,31,45,30,11,121,27]
 
 shellSort(list)
 print(list)
+
+
+
+#Time Complexity
+
+#Worst Case Complexity: less than or equal to O(n2) Worst case complexity for shell sort is always less than or equal to O(n2) . ...
+
+#Best Case Complexity: O(n*log n) ...
+
+#Average Case Complexity: O(n*log n)#
