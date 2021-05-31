@@ -19,6 +19,15 @@ struct node *tail = NULL ;
 
 //Function to Print the Linked List
 void printList(){
+	
+  if(head == NULL)
+  {
+      printf("\nList is empty");
+      return;
+  }
+  else{
+  
+
     printf("\nItem in the Linked List are :  ");
     // Initialize the ptr(pointer) with head location .
     struct node *ptr = head ;
@@ -26,6 +35,8 @@ void printList(){
        printf("%d ",ptr->data) ;  //Print the value of the Node
        ptr = ptr->next ;         //Increment the ptr 
     }while(ptr!=head);           //// While Loop until we encounter a Node pointer ptr not pointing to the same location as head .
+    
+    }
 }
 
 //Insertion at the Beginning of the Circular Linked List
@@ -64,17 +75,32 @@ void deleteBeg(){
   //NO Deletion when list is empty
    if(head == NULL) {
     printf("List is Empty , deletion not possible") ;
+    return;
    }
-  //Store head location in a temporary Node pointer.
-  struct node *temp = head ;
-
-  //Update the current Header
-  head = head->next ;
-  //Update the tail pointer to point to new head Node
-  tail->next=head;
+   //when both the head and the tail pointer points to the same location
+   //i.e there is only one node left in the list
+   else if(head == tail)
+  {
+      free(head);
+      free(tail);
+      head = NULL;
+      tail=NULL;
+      return;
+  }
+  else{
   
-  //Deleting the Node
-  free(temp);
+
+	  //Store head location in a temporary Node pointer.
+	  struct node *temp = head ;
+
+	  //Update the current Header
+	  head = head->next ;
+	  //Update the tail pointer to point to new head Node
+	  tail->next=head;
+	  
+	  //Deleting the Node
+	  free(temp);
+  }
 }
 int main(){
     
