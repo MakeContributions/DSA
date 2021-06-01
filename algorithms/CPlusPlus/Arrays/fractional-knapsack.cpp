@@ -4,7 +4,7 @@
 // Algorithm Type: Divide & Conquer
 // Time Complexity: O(n*log(n))
 #include <bits/stdc++.h>
-                                                                                                  using namespace std;
+using namespace std;
 class Item
 {
 public:
