@@ -47,6 +47,7 @@ void insertBeg(int data){
  struct node *new_node = (struct node*) malloc(sizeof(struct node)) ;
  if(new_node==NULL){
      printf("Cannot create the Node");
+     return;
  }
  else{
      
@@ -82,7 +83,6 @@ void deleteBeg(){
    else if(head == tail)
   {
       free(head);
-      free(tail);
       head = NULL;
       tail=NULL;
       return;
