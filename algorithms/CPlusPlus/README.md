@@ -9,6 +9,7 @@
 6. [Boyer–Moore Voting Algorithm](Arrays/boyer_more.cpp)
 7. [Reverse Array](Arrays/reverse-array.cpp)
 8. [Sorted-Rotated Search Array](Arrays/search-sorted-rotated.cpp)
+9. [Fractional Knapsack](Arrays/fractional-knapsack.cpp)
 
 ## Graphs
 1. [Bellman Ford Algorithm](Graphs/bellmam-ford.cpp)
