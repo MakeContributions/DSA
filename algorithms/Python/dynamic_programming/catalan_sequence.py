@@ -9,6 +9,16 @@ The first 10 terms of Catalan sequence are :
 
 
 def catalan(n):
+    """
+    >>> catalan(2)
+    2
+    >>> catalan(5)
+    42
+    >>> catalan(-1)
+    Traceback (most recent call last):
+        ...
+    IndexError: list assignment index out of range
+    """
     # Base Case
     if n == 0 or n == 1:
         return 1
