@@ -26,6 +26,7 @@
 2. [Jump Search](searching/jump_search.py)
 3. [Linear Search](searching/linear_search.py)
 4. [Ternary Search](searching/ternary_search.py)
+5. [Interpolation Search](searching/interpolation_search.py)
 
 ## Sorting
 
