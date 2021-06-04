@@ -11,18 +11,22 @@ def interpolation_search(array, x):
             min = 0
             max = len(array) - 1
             while min <= max:
-                p = int(min + (x-array[min])*(max-min) / (array[max]-array[min]))
-                if array[p] == x:
-                    return p
-                elif x < array[p]:
-                    max = p - 1
-                    continue
-                elif x > array[p]:
-                    min = p + 1
-                    continue
+                if array[min] == array[max] == x:
+                    return min, max
+                elif array[min] == array[max] != x:
+                    return False
+                else:
+                    p = int(min + (x-array[min])*(max-min) / (array[max]-array[min]))
+                    if array[p] == x:
+                        return p
+                    elif x < array[p]:
+                        max = p - 1
+                        continue
+                    elif x > array[p]:
+                        min = p + 1
+                        continue
         else:
             return False # if x is not in array return false
-
     else:
         raise Exception('Please make sure x is an integer and array is a list.')
 
