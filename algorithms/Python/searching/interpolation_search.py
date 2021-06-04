@@ -12,7 +12,7 @@ def interpolation_search(array, x):
             max = len(array) - 1
             while min <= max:
                 if array[min] == array[max] == x:
-                    return min, max
+                    return min
                 elif array[min] == array[max] != x:
                     return False
                 else:
@@ -35,6 +35,8 @@ if __name__ == '__main__':
     tests = [
     ([1,4,7,10,13,16], 13),
     ([1,4,7,10,13,16], 11),
+    ([1,1,1,1,1,1], 1),
+    ([0,0,0,1,1,1,1,1,1,2,3,4,5], 1),
     ([24], 24),
     ([], 24)
     ]
