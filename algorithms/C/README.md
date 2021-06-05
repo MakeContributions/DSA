@@ -34,3 +34,4 @@
 - [Binary Search](searching/Binary-search.c)
 - [Jump Search](searching/Jump-search.c)
 - [Ternary Search](searching/Ternary-search.c)
+- [Interpolation Search](searching/Interpolation-search.c)
