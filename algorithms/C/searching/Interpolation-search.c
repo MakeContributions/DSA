@@ -8,7 +8,7 @@ Interpolation search: Used to search data in a sequence stored array
 #include <stdlib.h>
  // Function to search data in a given array
 int interpolation_search(int * arr, int low, int high, int to_search) {
-  if (low <= high && to_search >= arr[low] && to_search <= arr[high]) {
+  if (low <= high && to_search >= arr[low]) {
         if(arr[high]==arr[low]&&to_search==arr[high]&&arr[low]==to_search)
         return high;
     // formula to find index
