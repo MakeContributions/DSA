@@ -53,4 +53,4 @@
 1. [Print Fibonacci Series Up To N-th Term](dynamic_programming/fibonacci_series.py)
 2. [Sum Up To N-th Term Of Fibonacci Series](dynamic_programming/fibonacci_series_sum.py)
 3. [N-th Term Of Fibonacci Series](dynamic_programming/fibonacci_series_nth_term.py)
-4. [Catlan Sequence](dynamic_programming/cataln_sequence.py)
+4. [Catalan Sequence](dynamic_programming/catalan_sequence.py)
