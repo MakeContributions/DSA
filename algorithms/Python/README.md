@@ -29,7 +29,10 @@
 4. [Quicksort](sorting/quicksort.py)
 5. [Selection Sort](sorting/selection_sort.py)
 6. [Heap Sort](sorting/heap-sort.py)
- 
+7. [Radix Sort](sorting/radix-sort.py)
+8. [Shell Sort](sorting/shell-sort.py)
+9. [Merge sort](sorting/merge_sort.py)
+
 ## Strings
 1. [Is Good Str](strings/is_good_str.py)
 2. [Palindrome](strings/palindrome.py)
