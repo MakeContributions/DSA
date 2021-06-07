@@ -38,6 +38,7 @@
 6. [Heap Sort](sorting/heap-sort.py)
 7. [Radix Sort](sorting/radix-sort.py)
 8. [Shell Sort](sorting/shell-sort.py)
+9. [Merge sort](sorting/merge_sort.py)
 
 ## Strings
 
