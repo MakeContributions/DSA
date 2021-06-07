@@ -9,19 +9,20 @@
 ## Linked Lists
 1. [Doubly](linked_lists/doubly.py)
 2. [Singly](linked_lists/singly.py)
- 
+
 ## Multiplication
 1. [Karatsuba](multiplication/karatsuba.py)
- 
+
 ## Scheduling
 1. [Interval Scheduling](scheduling/interval_scheduling.py)
- 
+
 ## Searching
 1. [Binary Search](searching/binary_search.py)
 2. [Jump Search](searching/jump_search.py)
 3. [Linear Search](searching/linear_search.py)
 4. [Ternary Search](searching/ternary_search.py)
- 
+5. [Interpolation Search](searching/interpolation_search.py)
+
 ## Sorting
 1. [Bubble Sort](sorting/bubble_sort.py)
 2. [Comb Sort](sorting/comb_sort.py)
@@ -40,3 +41,8 @@
 4. [Remove Duplicates from a String](strings/remove_duplicates_from_a_string.py)
 5. [First Non Repeating Character](strings/first_non_repeating_character.py)
 6. [Longest Common Subsequence](strings/longest_common_subsequence.py)
+
+## Dynamic Programming
+1. [Print Fibonacci Series Up To N-th Term](dynamic_programming/fibonacci_series.py)
+2. [Sum Up To N-th Term Of Fibonacci Series](dynamic_programming/fibonacci_series_sum.py )
+3. [N-th Term Of Fibonacci Series](dynamic_programming/fibonacci_series_nth_term.py)
