@@ -57,6 +57,7 @@
 2. [All subsequence of a string (Recursion) ](Strings/sequence.cpp)
 3. [String reversal](Strings/string-reverse.cpp)
 4. [String tokanisation](Strings/string-tokeniser.cpp)
+5. [Anagram check](Strings/anagram.cpp)
 
 ## Trees
 1. [Creating Binary Tree](Trees/build-binary-tree.cpp)
