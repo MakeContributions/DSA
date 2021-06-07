@@ -20,6 +20,9 @@
 5. [Singly](linked-lists/singly.java)
 6. [Fold Linked List](linked-lists/fold-linked-list.java)
 
+## Maths
+1. [Factorial](Maths/factorial_using_big_integer.java)
+
 ## Queues
 
 1. [Circular Queue using Linked List](queues/circular-queue-linked-list.java)
