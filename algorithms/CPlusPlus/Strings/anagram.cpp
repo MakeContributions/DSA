@@ -8,10 +8,10 @@ using namespace std;
 
 bool isAnagram(string s1, string s2) {
     int temp[256] = { 0 };
-    for (int i = 0; i < s1.length(); i++) {         //Idea : Here we are using characters of the string as indexex.
+    for (int i = 0; i < s1.length(); i++) {         //Idea : Here we are using characters of the string as indexes.
         temp[s1[i]]++;                              //Each character(except same) will have different position allocated in the temp array      
         temp[s2[i]]--;                              //Here, characters of first string are incrementing the count at s1[i] position and characters
-                                                    //of second string are decrementing the count at s2[i]
+                                                    //of second string are decrementing the count at s2[i] position
     }
     for (int i = 0; i < 256; i++) {
         if (temp[i] > 0) {                         //If we found any index in temp array with value greater than 0 then the
