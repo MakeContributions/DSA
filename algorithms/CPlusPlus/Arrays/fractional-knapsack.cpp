@@ -4,7 +4,7 @@
 // Algorithm Type: Divide & Conquer
 // Time Complexity: O(n*log(n))
 #include <bits/stdc++.h>
-                                                                                                  using namespace std;
+using namespace std;
 class Item
 {
 public:
@@ -54,10 +54,22 @@ double fractionalKnapsack(int W, Item arr[], int n)
 }
 int main()
 {
-    int W = 50;                                    //    Weight of knapsack
-    Item arr[] = {{60, 10}, {100, 20}, {120, 30}}; //    {Value-Weight}pairs
+    int W; //    Weight of knapsack
+    cout << "Enter the weight(W) of the knapsack" << endl;
+    cin >> W;
+    int n;
+    cout << "Enter the total number(n) of {Value-Weight}pairs" << endl;
+    cin >> n;
+    Item arr[n];
 
-    int n = sizeof(arr) / sizeof(arr[0]); // size of item array
+    for (int i = 0; i < n; i++)
+    {
+
+        cout << "Enter value for pair " << i + 1 << endl;
+        cin >> arr[i].value;
+        cout << "Enter weight for pair " << i + 1 << endl;
+        cin >> arr[i].weight;
+    }
 
     // Function call
     cout << "Maximum value we can obtain = " << fractionalKnapsack(W, arr, n);
