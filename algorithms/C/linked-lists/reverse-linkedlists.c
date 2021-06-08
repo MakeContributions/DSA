@@ -13,39 +13,62 @@ struct node
     struct node *next;
 };
 
-//Head pointer of the linked-list
-struct node* head;
+/*Function to create a linked-list of given size with passed head pointer.
+    head          - pointer to the first node of the linked-list
+    size          - number of nodes in the linked-list
+    Return value  - Returns a pointer, pointing to the head node of the linked-list
+*/
+struct node* createList(struct node* head,int size)
+{
+    struct node* prev = NULL;
 
-
-//Function to create the list of given size
-void createList(int size){   
-    
-    head = (struct node*)malloc(sizeof(struct node));
-   
-    int new_data;
-
-    //Getting values to enter into linked-list
-    printf("Enter the value: ");
-    scanf("%d",&new_data);
-
-    head->data = new_data;
-    head->next = NULL;
-    struct node* temp = head;
-
-    for(int i=1;i<size;i++){
-        struct node* new_node = (struct node*)malloc(sizeof(struct node));
-        printf("Enter the value: ");
-        scanf("%d",&new_data);
-        temp->next = new_node;
-        new_node->data =  new_data;
-        new_node->next = NULL;        
-        temp = new_node;
+    //To store value (user-input)
+    int a;
+    for(int i=1;i<=size;i++){
+        //If head node
+        if(i==1){
+            head = (struct node*)malloc(sizeof(struct node));     //Allocating memory
+            if(head!=NULL){
+                printf("\nEnter a value: ");
+                scanf("%d",&a);
+                head->data = a;
+                head->next = NULL;
+                prev = head;
+            }
+            //If memory cannot be allocated
+            else{
+                printf("\nCannot allocate memory!");
+                return head;
+            }
+        }
+        else{
+            struct node* current = NULL;
+            current = (struct node*)malloc(sizeof(struct node));
+            if(current!=NULL){
+                printf("\nEnter a value: ");
+                scanf("%d",&a);
+                current->data = a;
+                current->next = NULL;
+                prev->next = current;
+                prev = current;
+            }
+            //If memory cannot be allocated
+            else{
+                printf("\nCannot allocate memory!");
+                return head;
+            }
+        }        
     }
+   printf("\n");
+   return head;
 }
 
 
-//Function to reverse the linked-list
-void reverseList(){
+/*Function to reverse a linked-list.
+    head         - pointer, pointing to the head of the linked-list that we need to reverse
+    Return value - pointer, pointing to the head of the reversed linked-list
+*/
+struct node* reverseList(struct node* head){
     /*We will need three pointers 
         previous : to keep track of the node previous to present node
         present  : to keep track of the present node
@@ -71,41 +94,55 @@ void reverseList(){
       All other nodes will also be reversed.
     */
     head = previous;
+    return head;
 }
 
-
-//Function to display the linked-list
-void display()
+//Function to display a linked-list from the passed head pointer
+void display(struct node* head)
 {
-   struct node* temp = head;
-
-   while(temp!=NULL){
-       printf("%d -> ",temp->data);
-       temp = temp->next;
-   }
-
-   printf("\n");
+    struct node *temp = head;
+    while(temp!=NULL)
+    {
+        printf("%d -> ",temp->data);
+        temp=temp->next;
+    }
+    printf("\n\n");
 }
 
 //Driver function
 int main()
-{
-    int n;
+{   
+    //Our linked-list
+    struct node* list = NULL;
+    int n = 0;
 
     //Getting the size of the linked-list
-    printf("Enter the number of nodes: ");
-    scanf("%d",&n);
+    while(n<1){
+        printf("\nEnter the number of nodes: ");
+        scanf("%d",&n);
+        if(n<1) printf("\n\tSize cannot be less than 1. Enter a valid input!\n\n");
+    }
+    
     printf("\n");
 
     //Creating the linked-list of given size (n)
-    createList(n);
-    printf("\nOriginal Linked-list: ");
-    display();
+    list = createList(list,n);
 
-    //Reversing the linked-list
-    reverseList();
-    printf("\nReversed Linked-List: ");
-    display();
+    //Making sure the linked-list is created.
+    if(list!=NULL){
+        //Original list
+        printf("\nOriginal Linked-list: ");
+        display(list);
+
+        //Reversing the linked-list
+        list =  reverseList(list);
+        printf("\nReversed Linked-List: ");
+        display(list);
+    }
+  
+    printf("\n");   
     
+    //De-allocating memory
+    free(list);
     return 0;
 }
