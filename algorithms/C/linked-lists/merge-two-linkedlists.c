@@ -11,120 +11,162 @@ struct node
 {
     int data;
     struct node *next;
-}*la,*lb;                         
-//We have two linked-lists: la (List A) and lb (List B)
+};
 
-
-//Function to create List A of given size
-void lista(int size)
+/*Function to create a linked-list of given size with passed head pointer.
+    head          - pointer to the first node of the linked-list
+    size          - number of nodes in the linked-list
+    Return value  - Returns a pointer, pointing to the head node of the linked-list
+*/
+struct node* createList(struct node* head,int size)
 {
-    int a,i;
-    struct node *temp,*newnode;
+    struct node* prev = NULL;
 
-    //Head node of List A
-    la=(struct node*)malloc(sizeof(struct node));
-
-    //Getting values to enter into List A
-    printf("\nEnter the value for A: ");
-    scanf("%d",&a);
-    la->data=a;
-    la->next=NULL;
-    temp=la;
-    for(i=1; i<size; i++)
-    {
-        newnode=(struct node*)malloc(sizeof(struct node));
-        printf("Enter the value for A: ");
-        scanf("%d",&a);
-        newnode->data=a;
-        newnode->next=NULL;
-        temp->next=newnode;
-        temp=newnode;
+    //To store value (user-input)
+    int a;
+    for(int i=1;i<=size;i++){
+        //If head node
+        if(i==1){
+            head = (struct node*)malloc(sizeof(struct node));     //Allocating memory
+            if(head!=NULL){
+                printf("\nEnter a value: ");
+                scanf("%d",&a);
+                head->data = a;
+                head->next = NULL;
+                prev = head;
+            }
+            //If memory cannot be allocated
+            else{
+                printf("\nCannot allocate memory!");
+                return head;
+            }
+        }
+        else{
+            struct node* current = NULL;
+            current = (struct node*)malloc(sizeof(struct node));
+            if(current!=NULL){
+                printf("\nEnter a value: ");
+                scanf("%d",&a);
+                current->data = a;
+                current->next = NULL;
+                prev->next = current;
+                prev = current;
+            }
+            //If memory cannot be allocated
+            else{
+                printf("\nCannot allocate memory!");
+                return head;
+            }
+        }        
     }
-    printf("\n");
+   printf("\n");
+   return head;
 }
 
-//Function to create List B of given size
-void listb(int size)
-{
-    int b,i;
-    struct node *temp,*newnode;
 
-    //Head node of List B
-    lb=(struct node*)malloc(sizeof(struct node));
-    
-    //Getting values to enter into List B
-    printf("\nEnter the value for B: ");
-    scanf("%d",&b);
-    lb->data=b;
-    lb->next=NULL;
-    temp=lb;
-    for(i=1; i<size; i++)
-    {
-        newnode=(struct node*)malloc(sizeof(struct node));
-        printf("Enter the value for B: ");
-        scanf("%d",&b);
-        newnode->data=b;
-        newnode->next=NULL;
-        temp->next=newnode;
-        temp=newnode;
-    }
-    printf("\n");
-}
-
-//Function to display the Merged Linked-lists
-void display()
+//Function to display a linked-list from the passed head pointer
+void display(struct node* head)
 {
-    struct node *temp=la;
+    struct node *temp = head;
     while(temp!=NULL)
     {
         printf("%d -> ",temp->data);
         temp=temp->next;
     }
-    printf("\n");
+    printf("\n\n");
 }
 
-/*Function to merge the two linked-lists:
-        List A -> List B
- */
-void merge()
-{
-    struct node *temp=la;
 
-    //Making the last node of List A , to point to the head node of List B
-    while(temp->next!=NULL)
-    {
-        temp=temp->next;
+/*Function to merge linked-lists of given order.
+    a_list  - head pointer of List A
+    b_list  - head pointer of List B
+    first   - number specifying the order of merging
+        if first==1:
+            Order of merging will be List A -> List B
+        if first==2:
+            Order of merging will be List B -> List A
+    Return value - Returns a pointer, pointing to the head node of the merged linked-list
+*/
+struct node* merge(struct node* a_list,struct node* b_list,int first)
+{   
+    struct node* temp1;
+    struct node* temp2;
+
+    if(first==1){
+        temp1 = a_list;
+        temp2 = b_list;
     }
-    temp->next=lb;
+    else{
+        temp1 = b_list;
+        temp2 = a_list;
+    } 
+
+    while(temp1->next!=NULL)
+    {
+        temp1=temp1->next;
+    }
+    temp1->next=temp2;
+
+    return (first==1)?a_list:b_list;
 }
 
 
 //Driver function
 int main()
 {
-    int sizeOfListA;
-    int sizeOfListB;
+    //Our two linked-lists
+    struct node* lista = NULL;
+    struct node* listb = NULL;
 
-    //Getting the size of List A
-    printf("Enter the size of List A: ");
-    scanf("%d",&sizeOfListA);
+    int sizeOfListA = 0;
+    int sizeOfListB = 0;
 
-    //Creating List A of given size
-    lista(sizeOfListA);
+    //Getting the sizes of the linked-list
+    while(sizeOfListA<1 || sizeOfListB<1){
+        printf("\nEnter the size of List A: ");
+        scanf("%d",&sizeOfListA);
 
-    //Getting the size of List B
-    printf("\nEnter the size of List B: ");
-    scanf("%d",&sizeOfListB);
+        printf("Enter the size of List B: ");
+        scanf("%d",&sizeOfListB);
+        if(sizeOfListA<1 || sizeOfListB<1)  printf("\n\tSize cannot be less than 1. Enter a valid size!\n\n");
+    }
 
-    //Creating List B of given size
-    listb(sizeOfListB);
+    //Displaying List A
+    printf("\nFor List A: ");
+    lista = createList(lista,sizeOfListA);
+    printf("\nList A: \n");
+    display(lista);
 
-    //Merging List A and List B
-    merge();
+    //Displaying List B
+    printf("\nFor List B: ");
+    listb = createList(listb,sizeOfListB);
+    printf("\nList B: \n");
+    display(listb);
 
-    //Displaying the merged list
-    printf("\nAfter merging List A and List B:\n\n");
-    display();
+    //Checking whether both the linked-lists are not NULL
+    if(lista!=NULL && listb!=NULL){
+        //Getting the order of merging
+        int option;
+        
+        while(option!=1 && option!=2){
+             printf("\nOptions for Merging:\n\n\t1. List A -> List B (Enter 1)\n\t2. List B -> List A (Enter 2)\n");
+             printf("\nEnter the option: ");
+             scanf("%d",&option);
+             if(option!=1 && option!=2) printf("\n\tInvalid option!\n");
+        }
+        
+        //Merging the two linked-lists
+        struct node* output = merge(lista,listb,option);
+        printf("\nAfter Merging:\n\n");
+        display(output);        
+        
+    }
 
+    printf("\n");
+    
+    //De-allocating the memory
+    free(lista);
+    free(listb);
+    
     return 0;
 }
