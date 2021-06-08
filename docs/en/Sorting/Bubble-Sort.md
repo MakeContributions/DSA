@@ -6,8 +6,8 @@ Bubble Sort also known as Sinking Sort is the simplest sorting algorithm. It swa
 
 1. Compares the first element with the next element.
 2. If the first element is larger than the next element then the elements are swapped.
-3. Step 2 is peformed untill the selected number is put to its correct position then the next element is compared.
-4. Multiple passes are made untill the sorting is completed.
+3. Step 2 is performed until the selected number is put to its correct position then the next element is compared.
+4. Multiple passes are made until the sorting is completed.
 
 ## Example
 
