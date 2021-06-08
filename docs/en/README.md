@@ -1,5 +1,6 @@
 # Algorithms
 ## Sorting
+- [Bubble Sort](./Sorting/Bubble-Sort.md)
 - [Merge Sort](./Sorting/Merge-Sort.md)
 
 ## Strings
