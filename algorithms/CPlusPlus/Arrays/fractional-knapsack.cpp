@@ -5,17 +5,9 @@
 // Time Complexity: O(n*log(n))
 #include <bits/stdc++.h>
 using namespace std;
-class Item
+struct Item
 {
-public:
     int value, weight;
-
-    // Constructor
-    Item(int value, int weight)
-    {
-        this->value = value;
-        this->weight = weight;
-    }
 };
 bool comp(Item a, Item b)
 {
@@ -25,10 +17,10 @@ bool comp(Item a, Item b)
 }
 
 //Function to get the maximum total value in the knapsack.
-double fractionalKnapsack(int W, Item arr[], int n)
+double fractionalKnapsack(int W, vector<Item> &arr, int n)
 {
 
-    sort(arr, arr + n, comp);
+    sort(arr.begin(), arr.end(), comp);
 
     int curWeight = 0;
     double finalvalue = 0.0;
@@ -60,7 +52,7 @@ int main()
     int n;
     cout << "Enter the total number(n) of {Value-Weight}pairs" << endl;
     cin >> n;
-    Item arr[n];
+    vector<Item> arr(n);
 
     for (int i = 0; i < n; i++)
     {
