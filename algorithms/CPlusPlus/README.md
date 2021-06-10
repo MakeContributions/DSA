@@ -18,7 +18,7 @@
 
 ## Multiplication
 1. [Karatsuba](Multiplication/karatsuba.cpp)
- 
+
 ## Linked Lists
 1. [All possible insertions](Linked-Lists/all-possible-insertion.cpp)
 2. [Singly linked lists](Linked-Lists/singly.cpp)
@@ -37,7 +37,8 @@
 
 ## Stacks
 1. [Balancing Parenthesis](Stacks/balanced-parenthesis.cpp)
- 
+2. [Stack using Array](Stacks/stack-using-array.cpp)
+
 ## Sorting
 1. [Bubble Sort](Sorting/bubble-sort.cpp)
 2. [Insertion Sort](Sorting/insertion-sort.cpp)
@@ -52,7 +53,7 @@
 11. [Shell Sort](Sorting/shell-sort.cpp)
 12. [Binary Insertion Sort](Sorting/binary-insertion-sort.cpp)
 13. [Merge Sort](Sorting/merge-sort.cpp)
- 
+
 ## Strings
 1. [Rabin-Karp pattern search algo](Strings/rabin-karp.cpp)
 2. [All subsequence of a string (Recursion) ](Strings/sequence.cpp)
