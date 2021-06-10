@@ -15,7 +15,6 @@
 1. [Bellman Ford Algorithm](Graphs/bellmam-ford.cpp)
 2. [kruskal Algorithm](Graphs/kruskal-algorithm.cpp)
 
-
 ## Multiplication
 1. [Karatsuba](Multiplication/karatsuba.cpp)
 
