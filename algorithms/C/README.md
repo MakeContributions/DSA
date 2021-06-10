@@ -11,6 +11,8 @@
 - [Insert and Delete at Beginning](linked-lists/Insert-and-delete-beginning.c)
 - [Josephus Problem](linked-lists/josephus-problem.c)
 - [Circular Linked List](linked-lists/Insert-and-del-beginning-circular-ll.c)
+- [Merge two Linked Lists](linked-lists/merge-two-linkedlists.c)
+- [Reverse a Linked List](linked-lists/reverse-linkedlists.c)
 
 ## Queues
 - [Double Ended Queue using array](queues/double-ended-queue-using-array.c)
