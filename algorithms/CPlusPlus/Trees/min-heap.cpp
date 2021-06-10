@@ -7,7 +7,6 @@
 */
 
 #include <iostream>
-#include <stdexcept>
 
 class Heap{
 	public:
@@ -58,7 +57,7 @@ void Heap::growArray(){
 	// Doubling the capacity
 	capacity *= 2;
 	// delete the items inorder to avoid any memory leak
-	delete items;
+	delete[] items;
 	// set items to point to new_Array
 	items = new_Array;
 }
