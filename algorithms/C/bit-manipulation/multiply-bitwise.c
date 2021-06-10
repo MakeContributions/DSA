@@ -1,4 +1,4 @@
-// Shift and add algo for multiplication wihtout using multiplication operator 
+// Shift and add algo for multiplication without using multiplication operator 
 
 #include <stdio.h>
 #include <stdlib.h>
