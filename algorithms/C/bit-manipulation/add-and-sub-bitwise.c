@@ -47,4 +47,4 @@ int sub(int a, int b)
     d = add((~b),1);
     s = add(a,d);
     return s;
-} // subtraction is addition in disguise (just flib the subtracting term and that's what this function does.) 
+} // subtraction is addition in disguise (just flip the subtracting term and that's what this function does.) 
