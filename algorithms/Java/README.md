@@ -6,6 +6,7 @@
 2. [Kadanes Algorithm](arrays/kadanes-algorithm.java)
 3. [Left Rotation](arrays/left-rotation.java)
 4. [Unique Digits of Large Number](arrays/unique-digits-of-large-number.java)
+5. [Majority Element](arrays/majority-element.java)
 
 ## Graphs
 
