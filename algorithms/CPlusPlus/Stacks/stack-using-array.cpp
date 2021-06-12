@@ -21,7 +21,7 @@ public:
     }
     ~Stack()
     {
-        delete arr;
+        delete []arr;
     }
     void push(int);
     void pop();
