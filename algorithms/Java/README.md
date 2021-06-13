@@ -7,6 +7,7 @@
 3. [Left Rotation](arrays/left-rotation.java)
 4. [Unique Digits of Large Number](arrays/unique-digits-of-large-number.java)
 5. [Majority Element](arrays/majority-element.java)
+6. [Longest Common Subsequence](arrays/longest-common-subsequence.java)
 
 ## Graphs
 
@@ -22,6 +23,7 @@
 6. [Fold Linked List](linked-lists/fold-linked-list.java)
 
 ## Maths
+
 1. [Factorial](Maths/factorial_using_big_integer.java)
 
 ## Queues
