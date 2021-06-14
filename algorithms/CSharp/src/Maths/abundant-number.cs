@@ -1,4 +1,4 @@
-﻿/* Program to check whether a number is abundant or not */
+/* Program to check whether a number is abundant or not */
 using System;
 
 namespace abundant_number
@@ -40,3 +40,9 @@ namespace abundant_number
 
     }
 }
+/*
+Input: Enter a number: 54
+Output: 54 is an abundant number
+Time complexity: O(N/2) where is the num given by user
+Space complexity: O(1)
+*/
