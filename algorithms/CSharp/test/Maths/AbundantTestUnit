@@ -1,0 +1,15 @@
+using NUnit.Framework;
+namespace Abundant.Test
+{
+    [TestFixture]
+    public class Testcase
+    {
+        [TestCase(54, true)]
+        [TestCase(5, false)]
+        public void PassNumber_ShouldGetExpectedResult(int num,bool expected)
+        {
+            var result = Abundant.Number.Abundant.IsAbudant(num);
+            Assert.AreEqual(expected, result);
+        }
+    }
+}
