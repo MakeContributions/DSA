@@ -9,7 +9,7 @@ assignees: ''
 
 ## Information about Algorithm
 <!--
-i.e: What the given algorithm do and i.e. Type of algoritm array,stack
+i.e: What the given algorithm do and i.e. Type of algorithm array,stack
 -->
 (Type here)
 ### Have you read the [Contributing.md](https://github.com/MakeContributions/DSA/blob/main/CONTRIBUTING.md) and [Code of conduct](https://github.com/MakeContributions/DSA/blob/main/CODE_OF_CONDUCT.md)
