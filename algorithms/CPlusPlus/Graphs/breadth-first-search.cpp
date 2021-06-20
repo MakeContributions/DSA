@@ -79,17 +79,25 @@ void Graph::BFS(int s)
 int main()
 {
     // Create a graph given in the above diagram
-    Graph g(4);
-    g.addEdge(0, 1);
-    g.addEdge(0, 2);
-    g.addEdge(1, 2);
-    g.addEdge(2, 0);
-    g.addEdge(2, 3);
-    g.addEdge(3, 3);
- 
+
+    int edges;
+    cout << "Enter number of edges: ";
+    cin >> edges;
+    Graph g(edges);
+
+    for(int i = 0; i < edges; i++) {
+        int u, v;
+        cout << "Enter a edge: ";
+        cin >> u >> v;
+        g.addEdge(u, v);
+    }
+
     cout << "Following is Breadth First Traversal "
          << "(starting from vertex 2) \n";
     g.BFS(2);
  
     return 0;
 }
+
+//Time complexity: O(n), where n is the number of vertices in graph
+//Space complexity: O(n), where n is the number of vertices in graph
