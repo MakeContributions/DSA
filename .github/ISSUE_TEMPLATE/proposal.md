@@ -1,7 +1,7 @@
 ---
 name: Proposal
 about: Wanted to add Algorithm. This issue best for you...
-title: '[Algorithm name] in [language]'
+title: '<!--Algorithm name]--> in <!--[language-->'
 labels: Proposal
 assignees: ''
 
