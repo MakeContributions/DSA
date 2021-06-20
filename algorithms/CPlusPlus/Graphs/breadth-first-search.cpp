@@ -87,13 +87,13 @@ int main()
 
     for(int i = 0; i < edges; i++) {
         int u, v;
-        cout << "Enter a edge: ";
+        cout << "Enter an edge: ";
         cin >> u >> v;
         g.addEdge(u, v);
     }
 
     cout << "Following is Breadth First Traversal "
-         << "(starting from vertex 2) \n";
+         << "(starting from vertex 0) \n";
     g.BFS(0);
  
     return 0;
