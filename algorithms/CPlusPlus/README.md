@@ -14,6 +14,7 @@
 ## Graphs
 1. [Bellman Ford Algorithm](Graphs/bellmam-ford.cpp)
 2. [kruskal Algorithm](Graphs/kruskal-algorithm.cpp)
+3. [Breadth First Search](Graphs/breadth-first-search.cpp)
 
 ## Multiplication
 1. [Karatsuba](Multiplication/karatsuba.cpp)
