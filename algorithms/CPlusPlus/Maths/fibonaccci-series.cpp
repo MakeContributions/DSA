@@ -5,8 +5,13 @@
 using namespace std;
 
 /**
- * Fibonacci Series in C++: In case of fibonacci series, next number is the sum of previous two numbers for example 0,
- * 1, 1, 2, 3, 5, 8, 13, 21 etc. The first two numbers of fibonacci series are 0 and 1.
+ *   The Fibonacci Sequence is the series of numbers:
+ *
+ *   0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+ *
+ *   The next number is found by adding up the two numbers before it:, next number is the sum of previous two numbers
+ *   for example 0,
+ *   1, 1, 2, 3, 5, 8, 13, 21 etc. The first two numbers of fibonacci series are 0 and 1.
  *
  * */
 
@@ -30,7 +35,6 @@ public:
     }
 
     void printFibonacci_R(int n) {
-        static int n1 = 0, n2 = 1, n3;
         if (n > 0) {
             n3 = n1 + n2;
             n1 = n2;
@@ -40,20 +44,18 @@ public:
         }
     };
 
-
+private:
+    int n1 {0} ;
+    int n2 {1} ;
+    int n3  ;
+    
 };
 
-
-/**
- * Fibonacci Series in C++: In case of fibonacci series, next number is the sum of previous two numbers for example 0,
- * 1, 1, 2, 3, 5, 8, 13, 21 etc. The first two numbers of fibonacci series are 0 and 1.
- *
- * */
 
 int main() {
     Fibonaccci f;
     // f.print_fibonaccci_no_R();
-    f.printFibonacci_R(3);
+    f.printFibonacci_R(8);
     return 0;
 }
 
