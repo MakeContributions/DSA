@@ -9,6 +9,7 @@
 5. [Majority Element](arrays/majority-element.java)
 6. [Longest Consecutive Subsequence](arrays/longest-consecutive-subsequence.java)
 7. [K-th Element of Two Sorted Arrays](arrays/kth-element-2sorted-array.java)
+8. [Trapping Rain Water](arrays/trapping-rain-water.java)
 
 ## Graphs
 
