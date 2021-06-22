@@ -8,6 +8,7 @@
 4. [Unique Digits of Large Number](arrays/unique-digits-of-large-number.java)
 5. [Majority Element](arrays/majority-element.java)
 6. [Longest Consecutive Subsequence](arrays/longest-consecutive-subsequence.java)
+7. [K-th Element of Two Sorted Arrays](arrays/kth-element-2sorted-array.java)
 
 ## Graphs
 
