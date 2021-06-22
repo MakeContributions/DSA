@@ -32,8 +32,10 @@ Hence, sorted array is obtained. <br>
 
 ## Implementation
 
-Links to their implementation in programming languages.
-NOTE: The link should be within the algorithms folder only.
+- [Java](../../../algorithms/Java/sorting/selection-sort.java)
+- [C++](../../../algorithms/CPlusPlus/Sorting/selection-sort.cpp)
+- [JavaScript](../../../algorithms/JavaScript/src/sorting/selection-sort.js)
+- [Python](../../../algorithms/Python/sorting/selection_sort.py)
 
 ## Video URL
 
