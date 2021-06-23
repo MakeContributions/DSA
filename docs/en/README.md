@@ -2,6 +2,7 @@
 ## Sorting
 - [Bubble Sort](./Sorting/Bubble-Sort.md)
 - [Merge Sort](./Sorting/Merge-Sort.md)
+- [Selection Sort](./Sorting/Selection-Sort.md)
 
 ## Strings
 - [Palindrome](./Strings/Palindrome.md)
