@@ -75,4 +75,4 @@ Return the sorted array.
 
 ## Video URL
 
-<a href="https://www.youtube.com/watch?v=GUDLRan2DWM&list=PL2_aWCzGMAwKedT2KfDMB9YA5DgASZb3U&index=2">Selection Sort</a>
+[Selection Sort](https://www.youtube.com/watch?v=GUDLRan2DWM&list=PL2_aWCzGMAwKedT2KfDMB9YA5DgASZb3U&index=2)
