@@ -3,22 +3,21 @@
 using namespace std;
 
 class Fibonacci {
-/**
- *   The Fibonacci Sequence is the series of numbers:
- *
- *   0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
- *
- *   The next number is found by adding up the two numbers before it:, next number is the sum of previous two numbers
- *   for example 0,
- *   1, 1, 2, 3, 5, 8, 13, 21 etc. 
- *   The first two numbers of fibonacci series are 0 and 1.
- *   Time complexity: O(n)
- *
- * */
+    /**
+     *   The Fibonacci Sequence is the series of numbers:
+     *
+     *   0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+     *
+     *   The next number is found by adding up the two numbers before it:, next number is the sum of previous two numbers
+     *   for example 0,
+     *   1, 1, 2, 3, 5, 8, 13, 21 etc. 
+     *   The first two numbers of fibonacci series are 0 and 1.
+     *   Time complexity: O(n)
+     * */
 public:
     /*
-        Example 1: the number of elements is introduced by the user via command prompt.
-    */
+     *   Example 1: the number of elements is introduced by the user via command prompt.
+     */
     void print_fibonacci_no_R() {
         int num1 = 0, num2 = 1, num3, i, number;
         cout << "Enter the number of elements: ";
@@ -36,8 +35,8 @@ public:
     }
 
     /*
-    Example 2: the number of elements is introduced by the user via function input parameter.
-    */
+     *   Example 2: the number of elements is introduced by the user via function input parameter.
+     */
     void printFibonacci_R(int n) {
         if (n > 2) { // n finishes at 2 because 0 and 1 are already printed
             if (n1 == 0) cout << n1 << " " << n2 << " "; //printing 0 and 1
