@@ -2,7 +2,8 @@
 
 using namespace std;
 
-class Fibonacci {
+class Fibonacci 
+{
     /**
      *   The Fibonacci Sequence is the series of numbers:
      *
@@ -18,7 +19,8 @@ public:
     /*
      *   Example 1: the number of elements is introduced by the user via command prompt.
      */
-    void print_fibonacci_no_R() {
+    void print_fibonacci_no_R() 
+    {
         int num1 = 0, num2 = 1, num3, i, number;
         cout << "Enter the number of elements: ";
         cin >> number;
@@ -37,7 +39,8 @@ public:
     /*
      *   Example 2: the number of elements is introduced by the user via function input parameter.
      */
-    void printFibonacci_R(int n) {
+    void printFibonacci_R(int n) 
+    {
         if (n > 2) { // n finishes at 2 because 0 and 1 are already printed
             if (n1 == 0) cout << n1 << " " << n2 << " "; //printing 0 and 1
             n3 = n1 + n2;
