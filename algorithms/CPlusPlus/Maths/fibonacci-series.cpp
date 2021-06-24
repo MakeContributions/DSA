@@ -36,7 +36,7 @@ public:
     }
 
     /*
-    Example 2: the number of elements is introduced by the user via command promnt.
+    Example 2: the number of elements is introduced by the user via command prompt.
     */
     void printFibonacci_R(int n) {
         if (n > 2) { // n finishes at 2 because 0 and 1 are already printed
@@ -63,7 +63,6 @@ int main() {
     f.printFibonacci_R(8);
     return 0;
 }
-
 
 
 
