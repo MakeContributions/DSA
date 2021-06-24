@@ -32,7 +32,7 @@ Element to search: **20**
 
 Procedure:
 
-Middle element:**30** and element is less than 30 then search between start to middle -1 index
+Middle element:**30** and element is less then 30 so search between start to middle -1 index
 
 Middle element: **20** and yes the middle element is the key to found so return the index=**1**
 
