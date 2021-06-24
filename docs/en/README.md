@@ -7,5 +7,9 @@
 ## Strings
 - [Palindrome](./Strings/Palindrome.md)
 
+## Searching 
+
+- [Binary Search](./Searching/Binary-Search.MD)
+
 ## Others
 [How to add new algorithm documentation?](./CONTRIBUTING.md)
