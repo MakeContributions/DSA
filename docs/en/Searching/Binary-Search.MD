@@ -11,18 +11,12 @@
 ## Steps
 
 1. Find the middle element of the array
-
 2. Check whether the key is equal to middle element if yes then return the index and exit the program
-
 3. If the 2 step didn't run then test whether the element is less than the middle element if yes then run the step: 1 between the start to middle-1 index 
-
 4. If the 3 step didn't run then test whether the element is high than the middle element if yes then run the step: 1 between the middle+1 to last index.
-
 5. Run the loop till the starting index is less than end index
-
 6. If the loop over and data not found then return -1 that means data doesn't exist
-
-   **Note:** The array should be sorted in ascending to descending order
+> **Note:** The array should be sorted in ascending to descending order
 
 ## Example
 
@@ -41,19 +35,12 @@ Output: **1**
 ## Implementation
 
 - [C](https://github.com/MakeContributions/DSA/blob/main/algorithms/C/searching/Binary-search.c)
-
 - [C++](https://github.com/MakeContributions/DSA/blob/main/algorithms/CPlusPlus/Searching/binary-search.cpp)
-
 - [CSharp](https://github.com/MakeContributions/DSA/blob/main/algorithms/CSharp/src/Search/binary-search.cs)
-
 - [Go](https://github.com/MakeContributions/DSA/blob/main/algorithms/Go/searching/binary-search.go)
-
 - [Java](https://github.com/MakeContributions/DSA/blob/main/algorithms/Java/searching/binary-search.java)
-
 - [JavaScript](https://github.com/MakeContributions/DSA/blob/main/algorithms/JavaScript/src/searching/binary-search.js)
-
 - [JavaScript](https://github.com/MakeContributions/DSA/blob/main/algorithms/JavaScript/src/searching/binary-search-recursive.js)
-
 - [Python](https://github.com/MakeContributions/DSA/blob/main/algorithms/Python/searching/binary_search.py)
 
 ## Video URL
