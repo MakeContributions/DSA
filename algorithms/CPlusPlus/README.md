@@ -26,6 +26,7 @@
 4. [Circular linked lists](Linked-Lists/circular.cpp)
 5. [Reversing a linked lists](Linked-Lists/reverse.cpp)
 5. [Merging two sorted linked lists](Linked-Lists/merge.cpp)
+6. [Reorder List](Linked-Lists/Reorder-List.cpp)
 
 ## Searching
 1. [Linear Search](Searching/linear-search.cpp)
