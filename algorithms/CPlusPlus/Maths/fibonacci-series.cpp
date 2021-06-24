@@ -17,7 +17,7 @@ class Fibonacci {
  * */
 public:
     /*
-        Example 1: the number of elements is introduced by the user via command promnt.
+        Example 1: the number of elements is introduced by the user via command prompt.
     */
     void print_fibonacci_no_R() {
         int num1 = 0, num2 = 1, num3, i, number;
@@ -63,7 +63,6 @@ int main() {
     f.printFibonacci_R(8);
     return 0;
 }
-
 
 
 
