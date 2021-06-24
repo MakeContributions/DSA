@@ -40,21 +40,21 @@ Output: **1**
 
 ## Implementation
 
-[Binary Search in C](https://github.com/MakeContributions/DSA/blob/main/algorithms/C/searching/Binary-search.c)
+- [C](https://github.com/MakeContributions/DSA/blob/main/algorithms/C/searching/Binary-search.c)
 
-[Binary Search in CPlusPlus](https://github.com/MakeContributions/DSA/blob/main/algorithms/CPlusPlus/Searching/binary-search.cpp)
+- [C++](https://github.com/MakeContributions/DSA/blob/main/algorithms/CPlusPlus/Searching/binary-search.cpp)
 
-[Binary Search in CSharp](https://github.com/MakeContributions/DSA/blob/main/algorithms/CSharp/src/Search/binary-search.cs)
+- [CSharp](https://github.com/MakeContributions/DSA/blob/main/algorithms/CSharp/src/Search/binary-search.cs)
 
-[Binary Search in Go](https://github.com/MakeContributions/DSA/blob/main/algorithms/Go/searching/binary-search.go)
+- [Go](https://github.com/MakeContributions/DSA/blob/main/algorithms/Go/searching/binary-search.go)
 
-[Binary Search in java](https://github.com/MakeContributions/DSA/blob/main/algorithms/Java/searching/binary-search.java)
+- [Java](https://github.com/MakeContributions/DSA/blob/main/algorithms/Java/searching/binary-search.java)
 
-[Binary Search in JavaScript](https://github.com/MakeContributions/DSA/blob/main/algorithms/JavaScript/src/searching/binary-search.js)
+- [JavaScript](https://github.com/MakeContributions/DSA/blob/main/algorithms/JavaScript/src/searching/binary-search.js)
 
-[Binary Search Recursive in JavaScript](https://github.com/MakeContributions/DSA/blob/main/algorithms/JavaScript/src/searching/binary-search-recursive.js)
+- [JavaScript](https://github.com/MakeContributions/DSA/blob/main/algorithms/JavaScript/src/searching/binary-search-recursive.js)
 
-[Binary Search in Python](https://github.com/MakeContributions/DSA/blob/main/algorithms/Python/searching/binary_search.py)
+- [Python](https://github.com/MakeContributions/DSA/blob/main/algorithms/Python/searching/binary_search.py)
 
 ## Video URL
 
