@@ -1,7 +1,6 @@
 /* Program to reorder a LinkedList in the below given way
 For example: Given 1->2->3->4->5 its reorder is 1->5->2->4->3. */
 #include <iostream>
-#include <stdlib.h>
 using namespace std;
 // Linked list Node
 struct Node
