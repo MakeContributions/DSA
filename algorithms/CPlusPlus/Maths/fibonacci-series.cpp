@@ -41,7 +41,8 @@ public:
      */
     void printFibonacci_R(int n) 
     {
-        if (n > 2) { // n finishes at 2 because 0 and 1 are already printed
+        if (n > 2)
+        { // n finishes at 2 because 0 and 1 are already printed
             if (n1 == 0) cout << n1 << " " << n2 << " "; //printing 0 and 1
             n3 = n1 + n2;
             n1 = n2;
@@ -59,7 +60,8 @@ private:
 };
 
 
-int main() {
+int main()
+{
     Fibonacci f;
     f.print_fibonacci_no_R();
     f.printFibonacci_R(8);
