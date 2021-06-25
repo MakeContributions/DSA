@@ -27,7 +27,8 @@ struct Node* newNode(int data)
 // Function to printList
 void printList(struct Node* Node)
 {
-    while (Node != NULL) {
+    while (Node != NULL)
+    {
         printf("%d ", Node->data);
         Node = Node->next;
     }
@@ -37,7 +38,8 @@ void printList(struct Node* Node)
 void freeList(struct Node* head)
 {
     struct Node* temp;
-    while (head != NULL) {
+    while (head != NULL)
+    {
 
         temp = head;
         head = head->next;
@@ -74,11 +76,11 @@ void reorderList(Node* head)
     if(head->next!=NULL&&head!=NULL)
     {
     while(fast!=NULL&&fast->next!=NULL)
-    {
+      {
         prev=slow;
         fast=fast->next->next;
         slow=slow->next;
-    }
+      }
     /* now prev is pointing the middle node of list and fast is pointing the last Node of the list,
        split the list into two parts and new head will point the 2 part */
     prev->next=NULL;
@@ -105,9 +107,9 @@ while(slow)
     t=t->next->next;
     }
     if(new_head!=NULL)
-    {
+      {
       prev->next=new_head;
-    }
+      }
     }
 }
 /*
