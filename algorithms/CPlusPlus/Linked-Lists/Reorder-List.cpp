@@ -108,7 +108,7 @@ while(slow)
     }
     if(new_head!=NULL)
       {
-      prev->next=new_head;
+        prev->next=new_head;
       }
     }
 }
