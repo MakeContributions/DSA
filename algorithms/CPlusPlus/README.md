@@ -16,6 +16,7 @@
 
 1. [Bellman Ford Algorithm](Graphs/bellmam-ford.cpp)
 2. [kruskal Algorithm](Graphs/kruskal-algorithm.cpp)
+3. [Breadth First Search](Graphs/breadth-first-search.cpp)
 
 ## Multiplication
 
@@ -29,6 +30,7 @@
 4. [Circular linked lists](Linked-Lists/circular.cpp)
 5. [Reversing a linked lists](Linked-Lists/reverse.cpp)
 6. [Merging two sorted linked lists](Linked-Lists/merge.cpp)
+6. [Reorder List](Linked-Lists/Reorder-List.cpp)
 
 ## Searching
 
@@ -38,6 +40,8 @@
 4. [Finding squareroot using Binary search](Searching/sqrt-monotonic-binary-search.cpp)
 5. [KMP String Searching](Searching/kmp.cpp)
 6. [Ternary Search](Searching/Ternary-search.cpp)
+7. [Interpolation Search](Searching/interpolation-search.cpp)
+8. [Exponential Search](Searching/exponential-search.cpp)
 
 ## Stacks
 
@@ -89,3 +93,4 @@
 1. [Kaprekar Number](Maths/Kaprekar-number.cpp)
 2. [Prime Number](Maths/prime-check.cpp)
 3. [Prime Sieve](Maths/prime-sieve.cpp)
+4. [Fibonacci Series](Maths/fibonaccci-series.cpp)

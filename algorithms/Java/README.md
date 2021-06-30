@@ -6,6 +6,10 @@
 2. [Kadanes Algorithm](arrays/kadanes-algorithm.java)
 3. [Left Rotation](arrays/left-rotation.java)
 4. [Unique Digits of Large Number](arrays/unique-digits-of-large-number.java)
+5. [Majority Element](arrays/majority-element.java)
+6. [Longest Consecutive Subsequence](arrays/longest-consecutive-subsequence.java)
+7. [K-th Element of Two Sorted Arrays](arrays/kth-element-2sorted-array.java)
+8. [Trapping Rain Water](arrays/trapping-rain-water.java)
 
 ## Graphs
 
@@ -21,6 +25,7 @@
 6. [Fold Linked List](linked-lists/fold-linked-list.java)
 
 ## Maths
+
 1. [Factorial](Maths/factorial_using_big_integer.java)
 
 ## Queues
