@@ -49,7 +49,7 @@
 
 2. [Reversing Stack](Stacks/reverse-stack.cpp)
 
-2. [Stack using Array](Stacks/stack-using-array.cpp)
+3. [Stack using Array](Stacks/stack-using-array.cpp)
 
 
 ## Sorting
