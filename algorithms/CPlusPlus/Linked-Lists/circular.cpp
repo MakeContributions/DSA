@@ -14,7 +14,7 @@ struct Node {
 Node * insertion(int newdata, Node * head) {  //Insertion at the end of linked list
     Node * newnode = new Node(newdata);       //Creating a new node with value newdata
     Node * ptr = head;
-    if (head == NULL) {                       //If the list was intially empty then return the newnode as the new head 
+    if (head == NULL) {                       //If the list was initially empty then return the newnode as the new head 
         newnode -> next = newnode;
         return newnode;
     }
