@@ -72,6 +72,14 @@ void print(struct node* root){
 	}
 }
 
+void deallocate(struct node** root){
+	if(*root != NULL){
+		deallocate(&(*root)->left);
+		deallocate(&(*root)->right);
+		free(*root);
+		*root = NULL;
+	}
+}
 
 int main(){
 	struct node* root = NULL;
@@ -110,5 +118,6 @@ int main(){
 			BST is Perfect
 			4 19 22 37 42 51 55
 	*/
+	deallocate(&root);
 	return 0;
 }
