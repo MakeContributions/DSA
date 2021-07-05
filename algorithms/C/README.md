@@ -37,6 +37,7 @@
 - [Height Of Tree](tree/height-of-a-tree.c)
 - [Max and Min Element Of Tree](tree/min-and-max-of-tree.c)
 - [Binary Search Tree](tree/binary-search-tree.c)
+- [Avl Tree](tree/avl-tree.c)
 
 ## Searching
 - [Binary Search](searching/Binary-search.c)
