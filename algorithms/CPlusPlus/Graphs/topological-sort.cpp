@@ -90,7 +90,7 @@ int main(){
 
     Graph g(4);
     int flag=0;
-    vector<int>visited(4,0);                //stack to keep track of topolgocila sort,visited vector to keep track of nodes visited and rec stack to detect cycle
+    vector<int>visited(4,0);                //stack to keep track of topological sort,visited vector to keep track of nodes visited and rec stack to detect cycle
     vector<int>rec(4,0);
     stack<int>s;
     // g.addEdge(0, 1);
