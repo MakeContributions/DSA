@@ -17,6 +17,7 @@
 1. [Bellman Ford Algorithm](Graphs/bellmam-ford.cpp)
 2. [kruskal Algorithm](Graphs/kruskal-algorithm.cpp)
 3. [Breadth First Search](Graphs/breadth-first-search.cpp)
+4. [Topological sort](Graphs/topological-sort.cpp)
 
 ## Multiplication
 
