@@ -19,7 +19,7 @@ class Graph {
       n = 0;
     }
 
-  Graph(int s) { //intialise edgelist as vector of nodes
+  Graph(int s) { //initialize edgelist as vector of nodes
     n = s;
     EdgeList = new vector < int > [n];
   }
