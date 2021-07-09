@@ -25,8 +25,6 @@ class Graph {
   }
   void addEdge(int src, int dest) { //add edges
 
-    
-
     EdgeList[src].push_back(dest);
 
   }
@@ -54,10 +52,10 @@ class Graph {
   void TopSort(int v, vector < int > & visited, stack < int > & s) { //Topological sorted elements added in stack
 
     visited[v] = 1;
-    vector<int>::iterator it;
-    for (it=EdgeList[v].begin();it!=EdgeList[v].end();it++) {
+    vector < int > ::iterator it;
+    for (it = EdgeList[v].begin(); it != EdgeList[v].end(); it++) {
 
-      if (!visited[*it]) TopSort(*it, visited, s); //visit graph in order(depth first) for topological
+      if (!visited[ * it]) TopSort( * it, visited, s); //visit graph in order(depth first) for topological
 
     }
 
@@ -65,7 +63,6 @@ class Graph {
 
   }
 
-  
 };
 
 int main() {
@@ -85,14 +82,12 @@ int main() {
 
       cout << "\nEnter dest\n";
       cin >> dest;
-      g.addEdge(i,dest);
+      g.addEdge(i, dest);
 
       cout << "Enter 1 to add edge from node " << i << ",0 to exit" << "\n";
       cin >> k;
     }
   }
-
- 
 
   for (int i = 0; i < n; i++) {
     if (g.Cycle(i, visited, rec)) { //check for cycle
@@ -111,28 +106,21 @@ int main() {
     for (int i = 0; i < n; i++) {
       if (!visited[i]) g.TopSort(i, visited, s);
     }
-    cout << "\nOne topological sorted order-";
+    cout << "\nOne topological sorted order: ";
     while (!s.empty()) { //print stack contents
 
-      cout << s.top();
+      cout << s.top() << " ";
       s.pop();
     }
   }
 
-
-
   return 0;
 }
-
-
 
 /*
 
 Time Complexity-O(V+E)
-
 Space Complexity-O(V)
-
-
 
 Enter no. of nodes
 6
@@ -178,5 +166,5 @@ Enter dest
 2
 Enter 1 to add edge from node 5,0 to exit
 0
-One Topological sorted order-5 4 2 3 1 0
+One Topological sorted order: 5 4 2 3 1 0
 */
