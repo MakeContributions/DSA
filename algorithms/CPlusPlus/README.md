@@ -67,6 +67,7 @@
 11. [Shell Sort](Sorting/shell-sort.cpp)
 12. [Binary Insertion Sort](Sorting/binary-insertion-sort.cpp)
 13. [Merge Sort](Sorting/merge-sort.cpp)
+14. [Wave Sort](Sorting/wave-sort.cpp)
 
 ## Strings
 
