@@ -1,10 +1,20 @@
+/*
+Min-Heap is a binary tree structure such that every node in the tree will be
+lesser or equal to the child node. It is used when you need quick access to
+the smallest number in the array.
+
+Time complexity to build the heap: O(n)
+Time complexity to remove min: O(log(n))
+Time complexity to remove all elements: O(n*log(n))
+*/
+
 #include <stdio.h>
 
 #include <stdlib.h>
 
 struct HEAP {
   int * items, size, capacity;
-}* heap, * heap_max;
+}* heap;
 
 void swap(int * a, int * b) {
   int temp = * b;
@@ -26,7 +36,7 @@ void allocate(struct HEAP ** heap) {
 
 void heapify_up(struct HEAP ** heap, int size) {
   if (size > 1) {
-    if (( * heap) -> items[size / 2] < ( * heap) -> items[size]) {
+    if (( * heap) -> items[size / 2] > ( * heap) -> items[size]) {
       swap( & ( * heap) -> items[size / 2], & ( * heap) -> items[size]);
       heapify_up(heap, size / 2);
     }
@@ -47,7 +57,7 @@ int child(struct HEAP * heap, int index) {
 
   if (right > heap -> size) {
     return left;
-  } else if (heap -> items[left] >= heap -> items[right]) {
+  } else if (heap -> items[left] <= heap -> items[right]) {
     return left;
   }
   return right;
@@ -56,14 +66,14 @@ int child(struct HEAP * heap, int index) {
 void heapify_down(struct HEAP ** heap, int index) {
   int childindex = child( * heap, index);
   if (index * 2 <= ( * heap) -> size) {
-    if (( * heap) -> items[index] < ( * heap) -> items[childindex]) {
+    if (( * heap) -> items[index] > ( * heap) -> items[childindex]) {
       swap( & ( * heap) -> items[index], & ( * heap) -> items[childindex]);
       heapify_down(heap, childindex);
     }
   }
 }
 
-void removemax(struct HEAP ** heap) {
+void removemin(struct HEAP ** heap) {
   swap( & ( * heap) -> items[1], & ( * heap) -> items[( * heap) -> size--]);
   heapify_down(heap, 1);
 }
@@ -90,16 +100,16 @@ int main(void) {
   insert( & heap, 45);
   insert( & heap, 18);
 
-  // Before removemax
+  // Before removemin
   print(heap);
 
-  removemax( & heap);
+  removemin( & heap);
 
-  // After removemax
+  // After removemin
   print(heap);
   /*
-  	(before removemax)Output: 45 22 18 4 10 2
-  	(after removemax)Output: 22 10 18 4 2
+  	(before removemin)Output:2 10 4 22 45 18
+  	(after removemin)Output: 4 10 18 22 45
   */
 
   deallocate( & heap);
