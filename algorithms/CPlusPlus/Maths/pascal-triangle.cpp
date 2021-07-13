@@ -7,7 +7,7 @@ int main()
 {
     while(true)
     {
-        cout << "Demonstrating Pascal's triangle (iterations upto power n)" << endl;
+        cout << "Demonstrating Pascal's triangle (iterations up to power n)" << endl;
         char choice;
         cout << "Do you wish to continue? (Y/y or N/n): ";
         cin >> choice;
