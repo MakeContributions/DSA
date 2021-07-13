@@ -7,20 +7,20 @@ int main()
 {
     while(true)
     {
-        cout << "Demonstrating Pascal's triangle (iterations upto power 10)" << endl;
+        cout << "Demonstrating Pascal's triangle (iterations upto power n)" << endl;
         char choice;
         cout << "Do you wish to continue? (Y/y or N/n): ";
         cin >> choice;
         if(choice == 'Y' || choice == 'y')
         {
-            cout << "Enter the desired number: ";
+            cout << "Enter the desired number till which you want to continue: ";
             int n;
             cin >> n;
-            for(int i=0;i<10;i++)
+            for(int i=0;i<n;i++)
             {
-                for(int j=0;j<10;j++)
+                for(int j=0;j<n;j++)
                 {
-                    cout << pow(n,i);
+                    cout << pow(11,i);
                     break;
                 }
                 cout << endl;
