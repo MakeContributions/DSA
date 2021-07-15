@@ -12,6 +12,11 @@
 8. [Sorted-Rotated Search Array](Arrays/search-sorted-rotated.cpp)
 9. [Fractional Knapsack](Arrays/fractional-knapsack.cpp)
 
+## Dynamic-Programming
+
+1. [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
+
+
 ## Graphs
 
 1. [Bellman Ford Algorithm](Graphs/bellmam-ford.cpp)
