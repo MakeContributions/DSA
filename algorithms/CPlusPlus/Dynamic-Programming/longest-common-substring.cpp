@@ -1,6 +1,11 @@
-// s1: abcde
-// s2:abfce
-// output: 2(ab)
+//Given two strings ‘s1’ and ‘s2’, find the length of the longest common substring.
+//NOTE: A substring is a contiguous part of string.
+// Input : X = “abcdxyz”, y = “xyzabcd” 
+// Output : 4 
+// Explanation: The longest common substring is “abcd” and is of length 4.
+
+//Program using Dynamic Programming
+//TIME COMPLEXITY: O(m*n) 
 #include <iostream>
 using namespace std;
 int longestCommonSubstring(string s1,string s2,int n,int m)
@@ -14,12 +19,12 @@ int longestCommonSubstring(string s1,string s2,int n,int m)
       if(i==0 || j==0) // if length of any of the string is 0 then the length of longest common substring will be 0 
       T[i][j]=0;
       else
-      if(s1[i-1]==s2[j-1]) // if charachters are equal, add 1 and update the ans according to max length
+      if(s1[i-1]==s2[j-1]) // if characters are equal, add 1 and update the answer according to maximum length
       {
         T[i][j]=1+T[i-1][j-1];
         ans=max(ans,T[i][j]);
       }
-      else//if characters are not equal, make the curr val in thr array as 0
+      else//if characters are not equal, make the current value in the array as 0
       T[i][j]=0;
     }
   }
@@ -37,3 +42,7 @@ int main()
   cout<<"Length of longest common substring: "<<longestCommonSubstring(s1,s2,n,m);
   return 0;
 }
+
+// s1: abcde
+// s2:abfce
+// output: 2(ab)
