@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Algorithms.Search
 {
@@ -13,18 +11,26 @@ namespace Algorithms.Search
             int indexOfSearchNumber = Search(numbers, searchNumber);
 
             if (indexOfSearchNumber == -1)
+            {
                 Console.WriteLine("The number you are searching for does not exist in this list.");
+            }
             else
+            {
                 Console.WriteLine("The number you are searching for is at index: " + indexOfSearchNumber);
+            }
         }
         public static int Search(int[] numbers, int searchNumber)
         {
+            int indexOfSearchNumber = -1;
+
             for(int index = 0; index < numbers.Length; index++)
             {
                 if (numbers[index] == searchNumber)
-                    return index;
+                {
+                    indexOfSearchNumber = index;
+                }
             }
-            return -1; 
+            return indexOfSearchNumber; 
         }
     }
 }
