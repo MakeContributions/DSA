@@ -34,9 +34,10 @@
 2. [Singly linked lists](Linked-Lists/singly.cpp)
 3. [doubley linked lists](Linked-Lists/doubly.cpp)
 4. [Circular linked lists](Linked-Lists/circular.cpp)
-5. [Reversing a linked lists](Linked-Lists/reverse.cpp)
-6. [Merging two sorted linked lists](Linked-Lists/merge.cpp)
-6. [Reorder List](Linked-Lists/Reorder-List.cpp)
+5. [Removing Elements of given value](Linked-Lists/remove-specific-elements.cpp)
+6. [Reversing a linked lists](Linked-Lists/reverse.cpp)
+7. [Merging two sorted linked lists](Linked-Lists/merge.cpp)
+8. [Reorder List](Linked-Lists/Reorder-List.cpp)
 
 ## Searching
 
