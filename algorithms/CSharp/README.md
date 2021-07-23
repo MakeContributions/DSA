@@ -12,6 +12,7 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 
 ## Search
 - [Binary Search](src/Search/binary-search.cs)
+- [Linear Search](src/Search/linear-search.cs)
 
 ## Maths
 - [Abundant Number](src/Maths/abundant-number.cs)
