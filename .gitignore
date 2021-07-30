@@ -12,7 +12,3 @@ Thumbs.db
 *.class
 *.idea
 
-### Rust
-Cargo.lock
-# Rust compiled output
-target
