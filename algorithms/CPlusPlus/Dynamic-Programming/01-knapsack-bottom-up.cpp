@@ -15,9 +15,11 @@ int knapsack(int wait[], int price[], int n, int capacity)
     if (dp[n][capacity] != -1)
         return dp[n][capacity];
 
-    // two case here:
-    //case 1: include (if wait of the element is less than the bag capacity).
-    //case 2: else not include
+    /*
+    * two case here:
+    * case 1: include (if wait of the element is less than the bag capacity).
+    * case 2: else not include
+    */
     if (wait[n - 1] <= capacity)
     {
         return dp[n][capacity] = max(price[n - 1] + knapsack(wait, price, n - 1, capacity - wait[n - 1]),
