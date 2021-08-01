@@ -15,7 +15,7 @@
 ## Dynamic-Programming
 
 1. [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
-
+2. [0/1 Knapsack](Dynamic-Programming/01-knapsack-bottom-up.cpp)
 
 ## Graphs
 
@@ -57,7 +57,6 @@
 2. [Reversing Stack](Stacks/reverse-stack.cpp)
 
 3. [Stack using Array](Stacks/stack-using-array.cpp)
-
 
 ## Sorting
 
@@ -104,4 +103,5 @@
 4. [Fibonacci Series](Maths/fibonaccci-series.cpp)
 
 # Recursion
+
 1. [Tower of Hanoi](Recursion/towerofHanoi.cpp)
