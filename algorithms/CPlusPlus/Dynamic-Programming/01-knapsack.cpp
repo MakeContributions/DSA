@@ -1,11 +1,8 @@
 // 0/1 knapsack (Bottom Up or memorization) Dynamic Programming
-
 #include <bits/stdc++.h>
 using namespace std;
 
-int dp[101][1001]; // table for storing the results of every sub-problem.
-
-int knapsack(int wait[], int price[], int n, int capacity)
+int knapsack(int wait[], int price[], int n, int capacity, vector<vector<int>> dp)
 {
     // base condition - when the bag capacity is 0 and wait[] and price[] size is 0.
     if (n == 0 || capacity == 0)
@@ -15,52 +12,66 @@ int knapsack(int wait[], int price[], int n, int capacity)
     if (dp[n][capacity] != -1)
         return dp[n][capacity];
 
-    // two case here:
-    //case 1: include (if wait of the element is less than the bag capacity).
-    //case 2: else not include
+    /*
+    * two case here:
+    * case 1: include (if wait of the element is less than the bag capacity).
+    * case 2: else not include
+    */
     if (wait[n - 1] <= capacity)
     {
-        return dp[n][capacity] = max(price[n - 1] + knapsack(wait, price, n - 1, capacity - wait[n - 1]),
-                                     knapsack(wait, price, n - 1, capacity));
+        dp[n][capacity] = max(price[n - 1] + knapsack(wait, price, n - 1, capacity - wait[n - 1], dp),
+                              knapsack(wait, price, n - 1, capacity, dp));
     }
     else
     {
-        return dp[n][capacity] = knapsack(wait, price, n - 1, capacity);
+        dp[n][capacity] = knapsack(wait, price, n - 1, capacity, dp);
     }
+
+    return dp[n][capacity];
 }
 
 int main()
 {
-    // at first initialize the dp table with -1
-    memset(dp, -1, sizeof(dp));
+    // dp table initialized with -1
+    vector<vector<int>> dp(1001, vector<int>(1001, -1));
 
     int n;
+    cout << "Enter the no. of items" << endl;
     cin >> n;
+
     int wait[n];
-    // input the wait array
+    cout << "Enter the Wait of every items" << endl;
     for (int i = 0; i < n; i++)
         cin >> wait[i];
+
     int price[n];
-    // input the price array
+    cout << "Enter the Price of every items" << endl;
     for (int i = 0; i < n; i++)
         cin >> price[i];
-    // input bag capacity
+
+    cout << "Enter the Capacity of Knapsack" << endl;
     int capacity;
     cin >> capacity;
 
-    int max_profit = knapsack(wait, price, n, capacity);
-    cout << max_profit;
+    // knapsack function return the maximum profit
+    int max_profit = knapsack(wait, price, n, capacity, dp);
+    cout << "Maximum Profit = " << max_profit << endl;
 
     return 0;
 }
 
 /*
+Complexity Analysis:
+    Time:  O(n*capacity)
+    Space: O(n*capacity)
+The use of 2D vector data structure for storing results of intermediate states
+
 Test case 1:
     input:
-        4         -> No. of element
-        1 3 4 5   -> wait[]
-        1 4 5 7   -> price[]
-        7         -> capacity of bag
+        3           -> No. of items
+        10 20 30    -> wait[]
+        60 100 120  -> price[]
+        50          -> capacity of knapsack
     output:
-        9         -> maximum profit
+        220         -> maximum profit
 */
