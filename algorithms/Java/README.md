@@ -72,6 +72,7 @@
 4. [Sequence](strings/sequence.java)
 5. [Split String](strings/SplitString.java)
 6. [Tokenizer](strings/tokenizer.java)
+7. [Anagram](strings/anagram.java)
 
 ## Trees
 

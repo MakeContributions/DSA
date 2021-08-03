@@ -16,6 +16,7 @@
 
 1. [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
 2. [Longest Common Substring](Dynamic-Programming/longest-common-substring.cpp)
+3. [0/1-knapsack](Dynamic-Programming/01-knapsack-bottom-up.cpp)
 
 ## Graphs
 
@@ -34,9 +35,10 @@
 2. [Singly linked lists](Linked-Lists/singly.cpp)
 3. [doubley linked lists](Linked-Lists/doubly.cpp)
 4. [Circular linked lists](Linked-Lists/circular.cpp)
-5. [Reversing a linked lists](Linked-Lists/reverse.cpp)
-6. [Merging two sorted linked lists](Linked-Lists/merge.cpp)
-6. [Reorder List](Linked-Lists/Reorder-List.cpp)
+5. [Removing Elements of given value](Linked-Lists/remove-specific-elements.cpp)
+6. [Reversing a linked lists](Linked-Lists/reverse.cpp)
+7. [Merging two sorted linked lists](Linked-Lists/merge.cpp)
+8. [Reorder List](Linked-Lists/Reorder-List.cpp)
 
 ## Searching
 
@@ -101,3 +103,6 @@
 2. [Prime Number](Maths/prime-check.cpp)
 3. [Prime Sieve](Maths/prime-sieve.cpp)
 4. [Fibonacci Series](Maths/fibonaccci-series.cpp)
+
+# Recursion
+1. [Tower of Hanoi](Recursion/towerofHanoi.cpp)
