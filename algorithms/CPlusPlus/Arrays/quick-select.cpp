@@ -9,10 +9,10 @@ using namespace std;
 // It considers the last element as pivot
 // and moves all smaller element to left of
 // it and greater elements to right
-int partition(int arr[], int l, int r)
+int partition(int arr[], int left, int right)
 {
-    int x = arr[r], i = l;
-    for (int j = l; j <= r - 1; j++)
+    int x = arr[right], i = left;
+    for (int j = left; j <= right - 1; j++)
     {
         if (arr[j] <= x)
         {
@@ -21,7 +21,7 @@ int partition(int arr[], int l, int r)
         }
     }
 
-    swap(arr[i], arr[r]);
+    swap(arr[i], arr[right]);
     return i;
 }
 
@@ -29,30 +29,30 @@ int partition(int arr[], int l, int r)
 // element in arr[l..r] using QuickSort
 // based method. ASSUMPTION: ALL ELEMENTS
 // IN ARR[] ARE DISTINCT
-int kthSmallest(int arr[], int l, int r, int k)
+int kthSmallest(int arr[], int left, int right, int k)
 {
     // If k is smaller than number of
     // elements in array
-    if (k > 0 && k <= r - l + 1)
+    if (k > 0 && k <= right - left + 1)
     {
 
         // Partition the array around last
         // element and get position of pivot
         // element in sorted array
-        int index = partition(arr, l, r);
+        int index = partition(arr, left, right);
 
         // If position is same as k
-        if (index - l == k - 1)
+        if (index - left == k - 1)
             return arr[index];
 
         // If position is more, recur
         // for left subarray
-        if (index - l > k - 1)
-            return kthSmallest(arr, l, index - 1, k);
+        if (index - left > k - 1)
+            return kthSmallest(arr, left, index - 1, k);
 
         // Else recur for right subarray
-        return kthSmallest(arr, index + 1, r,
-                           k - index + l - 1);
+        return kthSmallest(arr, index + 1, right,
+                           k - index + left - 1);
     }
 
     // If k is more than number of
@@ -63,10 +63,21 @@ int kthSmallest(int arr[], int l, int r, int k)
 // Driver program to test above methods
 int main()
 {
-    int arr[] = {7, 6, 10, 8, 3, 1, 5, 2};
-    int n = sizeof(arr) / sizeof(arr[0]);
-    int k = 3;
+    int size;
+    cout << "Enter the size" << endl;
+    cin >> size;
+
+    int arr[size];
+    cout << "Enter the array" << endl;
+    for (int i = 0; i < size; i++)
+    {
+        cin >> arr[i];
+    }
+
+    int k;
+    cout << "Enter the value of k (must be less than size)" << endl;
+    cin >> k;
     cout << "K-th smallest element is "
-         << kthSmallest(arr, 0, n - 1, k);
+         << kthSmallest(arr, 0, size - 1, k);
     return 0;
 }
