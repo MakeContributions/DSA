@@ -11,6 +11,7 @@
 7. [Reverse Array](Arrays/reverse-array.cpp)
 8. [Sorted-Rotated Search Array](Arrays/search-sorted-rotated.cpp)
 9. [Fractional Knapsack](Arrays/fractional-knapsack.cpp)
+10. [Quick Selection](Arrays/quick-select.cpp)
 
 ## Dynamic-Programming
 
