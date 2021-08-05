@@ -16,8 +16,8 @@
 ## Dynamic-Programming
 
 1. [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
-2. [0/1-knapsack](Dynamic-Programming/01-knapsack-bottom-up.cpp)
-
+2. [Longest Common Substring](Dynamic-Programming/longest-common-substring.cpp)
+3. [0/1-knapsack](Dynamic-Programming/01-knapsack-bottom-up.cpp)
 
 ## Graphs
 
