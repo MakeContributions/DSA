@@ -4,7 +4,7 @@
 using namespace std;
 
 // Function for matrix chain multiplication
-int matrixChainMulti(int arr[], int i, int j, vector<vector<int>> dp)
+int matrixChainMulti(vector<int> &arr, const int i, const int j, vector<vector<int>> &dp)
 {
     if (i >= j)
         return 0;
@@ -29,10 +29,10 @@ int main()
     vector<vector<int>> dp(1001, vector<int>(1001, -1));
 
     int n;
-    cout << "Enter the array size" << endl;
+    cout << "Enter the array size." << endl;
     cin >> n;
-    int arr[n];
-    cout << "Enter all the array elements" << endl;
+    vector<int> arr(n);
+    cout << "Enter all the array elements." << endl;
     for (int i = 0; i < n; i++)
         cin >> arr[i];
 
@@ -41,14 +41,14 @@ int main()
 }
 
 /*
- * Time Complexity: O(N3)
- * Auxiliary Space: O(N2)
+ * Time Complexity: O(N^3)
+ * Auxiliary Space: O(N^2)
 
  * Input:
- *  N = 4
+ *  n = 4
  *  arr = {10, 30, 5, 60}
  *  Output: 4500
- * Explaination: The matrices have dimensions 
+ * Explanation: The matrices have dimensions 
  * 10*30, 30*5, 5*60. Say the matrices are A, B 
  * and C. Out of all possible combinations,the
  * most efficient way is (A*B)*C. The 
