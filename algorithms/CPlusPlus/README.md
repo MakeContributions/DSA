@@ -11,12 +11,14 @@
 7. [Reverse Array](Arrays/reverse-array.cpp)
 8. [Sorted-Rotated Search Array](Arrays/search-sorted-rotated.cpp)
 9. [Fractional Knapsack](Arrays/fractional-knapsack.cpp)
+10. [Quick Selection](Arrays/quick-select.cpp)
 
 ## Dynamic-Programming
 
 1. [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
-2. [0/1-knapsack](Dynamic-Programming/01-knapsack-bottom-up.cpp)
-3. [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
+2. [Longest Common Substring](Dynamic-Programming/longest-common-substring.cpp)
+3. [0/1-knapsack](Dynamic-Programming/01-knapsack-bottom-up.cpp)
+4. [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
 
 ## Graphs
 
