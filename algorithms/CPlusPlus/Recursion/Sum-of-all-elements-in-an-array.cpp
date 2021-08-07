@@ -5,10 +5,10 @@
 
 using namespace std;
 
-int findSum(int A[], int n) {
+int findSum(int A[], int size) {
     if (n <= 0)
         return 0;
-    return (findSum(A, n-1) + A[n-1]);
+    return (findSum(A, size-1) + A[size-1]);
 }
 
 int main() {
