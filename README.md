@@ -14,6 +14,7 @@ Data structure and Algorithm (DSA)
 ## Explanations
 - [English](./docs/en)
 - [繁體中文](./docs/zh-tw)
+- [日本語](./docs/ja)
 
 ## Contribution Guidelines
 
