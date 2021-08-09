@@ -122,7 +122,7 @@ The programming should keep the naming convention rule of each programming langu
 | C#                   | @ming-tsai                                        |
 | Go                   | @atin                                             |
 | Python               | @Arsenic-ATG, @atin, @sridhar-5, @cyberwizard1001 |
-| JavaScript           | @paulsonjpaul                                     |
+| JavaScript           | @ming-tsai                                        |
 
 ## Contributors
 
