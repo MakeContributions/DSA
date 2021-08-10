@@ -1,28 +1,20 @@
-version: 1
-labels:
-  - label: "documentation"
-    files:
-      - "*.md"
-  - label: "enhancement"
-    files:
-      - "*.yml"
-      - "*.yaml"
-  - label: "C"
-    files:
-      - "*.c"
-  - label: "C#"
-    files:
-      - "*.cs"
-  - label: "C++"
-    files:
-      - "*.cpp"
-  - label: "Go"
-    files:
-      - "*.go"
-  - label: "Java"
-    files:
-      - "*.java"
-  - label: "Python"
-    files:
-      - "*.py"
+documentation: *.md
+
+enhancement:
+  - "*.yml"
+  - "*.yaml"
+
+C: *.c
+
+C++: *.c
+
+Go: *.go
+
+Java: *.java
+
+Python: *.py
+
+JavaScript: *.js
+
+C#: *.cs
   
