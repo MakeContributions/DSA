@@ -1,20 +1,28 @@
-documentation: *.md
+documentation:
+  - '*.md'
 
 enhancement:
-  - "*.yml"
-  - "*.yaml"
+  - '*.yml'
+  - '*.yaml'
 
-C: *.c
+C:
+  - '*.c'
 
-C++: *.c
+C++:
+  - '*.c'
 
-Go: *.go
+Go:
+  - '*.go'
 
-Java: *.java
+Java:
+  - '*.java'
 
-Python: *.py
+Python:
+  - '*.py'
 
-JavaScript: *.js
+JavaScript:
+  - '*.js'
 
-C#: *.cs
+C#:
+  - '*.cs'
   
