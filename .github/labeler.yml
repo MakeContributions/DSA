@@ -1,28 +1,28 @@
 documentation:
-  - '*.md'
+  - '**/*.md'
 
 enhancement:
-  - '*.yml'
-  - '*.yaml'
+  - '**/*.yml'
+  - '**/*.yaml'
 
 C:
-  - '*.c'
+  - '**/*.c'
 
 C++:
-  - '*.c'
+  - '**/*.c'
 
 Go:
-  - '*.go'
+  - '**/*.go'
 
 Java:
-  - '*.java'
+  - '**/*.java'
 
 Python:
-  - '*.py'
+  - '**/*.py'
 
 JavaScript:
-  - '*.js'
+  - '**/*.js'
 
 C#:
-  - '*.cs'
+  - '**/*.cs'
   
