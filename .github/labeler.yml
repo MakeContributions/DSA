@@ -1,0 +1,28 @@
+documentation:
+  - '**/*.md'
+
+enhancement:
+  - '**/*.yml'
+  - '**/*.yaml'
+
+C:
+  - '**/*.c'
+
+C++:
+  - '**/*.cpp'
+
+Go:
+  - '**/*.go'
+
+Java:
+  - '**/*.java'
+
+Python:
+  - '**/*.py'
+
+JavaScript:
+  - '**/*.js'
+
+C#:
+  - '**/*.cs'
+  
