@@ -16,6 +16,10 @@
 
 1. [Karatsuba](multiplication/karatsuba.py)
 
+## Recursion
+
+1. [Factorial](recursion/factorial.py)
+
 ## Scheduling
 
 1. [Interval Scheduling](scheduling/interval_scheduling.py)

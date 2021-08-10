@@ -108,3 +108,4 @@
 # Recursion
 
 1. [Tower of Hanoi](Recursion/towerofHanoi.cpp)
+2. [Factorial](Recursion/factorial.cpp)
