@@ -1,4 +1,4 @@
-# C++
+﻿# C++
 
 ## Arrays
 
@@ -12,6 +12,11 @@
 8. [Sorted-Rotated Search Array](Arrays/search-sorted-rotated.cpp)
 9. [Fractional Knapsack](Arrays/fractional-knapsack.cpp)
 10. [Quick Selection](Arrays/quick-select.cpp)
+
+##Digit Dynamic Programming 
+
+1.[Digitdp Problem 1](Digit Dynamic Programming/Digit-dp.cpp)
+2.[Digitdp Problem 2](Digit Dynamic Programming/Digit-dp-2.cpp)
 
 ## Dynamic-Programming
 
