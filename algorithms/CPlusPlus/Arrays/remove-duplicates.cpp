@@ -1,9 +1,10 @@
-/*CPP program to remove the duplicates elements from the array in place
-  without using any extra space with o(1) extra memory 
-  Its impossible to resize the array in c++,(The only way possible is to allocate 
-  a new array copy the required values and delete the first one. and the requirement of given problem
-  was not to use any extra space so we are just displaying array upto which last element
-  is stored(virtually) after removing those duplicate elements.
+/*CPP program to remove the duplicate elements from the array in place
+  without using any extra space.
+  
+Sample Example:
+Input array size: 6
+Input array: 1 1 2 3 4 4
+output : 1 2 3 4
 */
 
 #include <bits/stdc++.h>
