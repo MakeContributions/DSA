@@ -1,6 +1,7 @@
 /*CPP program to remove the duplicate elements from the array in place
   without using any extra space.
   
+  The time complexity of the algorithm is: O(n)
 Sample Example:
 Input array size: 6
 Input array: 1 1 2 3 4 4
