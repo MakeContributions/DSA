@@ -5,9 +5,9 @@
 - [Unique Elements in an array](arrays/unique-elements-in-an-array.c)
 
 ## Bit Manipulation
-- [Add and Subtract](bit-manipulation/add-and-sub-bitwise)
-- [Multiply](bit-manipulation/multiply-bitwise)
-- [divide](bit-manipulation/divide-bitwise)
+- [Add and Subtract](bit-manipulation/add-and-sub-bitwise.c)
+- [Multiply](bit-manipulation/multiply-bitwise.c)
+- [divide](bit-manipulation/divide-bitwise.c)
 
 ## Graphs
 - [Prim's Algorithm](graphs/Prim's-algorithm.c)
