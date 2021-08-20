@@ -31,6 +31,7 @@
 3. [Linear Search](searching/linear_search.py)
 4. [Ternary Search](searching/ternary_search.py)
 5. [Interpolation Search](searching/interpolation_search.py)
+6. [Binary Search Tree](searching/BinarySearchTree.py)
 
 ## Sorting
 
