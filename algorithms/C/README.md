@@ -7,7 +7,7 @@
 ## Bit Manipulation
 - [Add and Subtract](bit-manipulation/add-and-sub-bitwise.c)
 - [Multiply](bit-manipulation/multiply-bitwise.c)
-- [divide](bit-manipulation/divide-bitwise.c)
+- [Divide bitwise](bit-manipulation/divide-bitwise.c)
 
 ## Graphs
 - [Prim's Algorithm](graphs/Prim's-algorithm.c)
