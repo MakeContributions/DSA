@@ -18,12 +18,12 @@
 
 1. [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
 2. [Longest Common Substring](Dynamic-Programming/longest-common-substring.cpp)
-3. [0/1-knapsack](Dynamic-Programming/01-knapsack-bottom-up.cpp)
+3. [0/1-knapsack](Dynamic-Programming/01-knapsack.cpp)
 4. [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
 
 ## Graphs
 
-1. [Bellman Ford Algorithm](Graphs/bellmam-ford.cpp)
+1. [Bellman Ford Algorithm](Graphs/bellman-ford.cpp)
 2. [kruskal Algorithm](Graphs/kruskal-algorithm.cpp)
 3. [Breadth First Search](Graphs/breadth-first-search.cpp)
 4. [Topological sort](Graphs/topological-sort.cpp)

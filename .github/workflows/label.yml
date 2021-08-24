@@ -6,7 +6,10 @@
 # https://github.com/actions/labeler
 
 name: Labeler
-on: [pull_request]
+on:
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ main ]
 
 jobs:
   label:
@@ -20,3 +23,4 @@ jobs:
     - uses: actions/labeler@v2
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        configuration-path: '.github/workflows/labeler.yml'
