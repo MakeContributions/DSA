@@ -25,7 +25,7 @@ int findMergeNode(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2)
     }
     
     temp=head2;
-    for(int i=0;temp!=NULL;i++)//finding the lenght of second linked list
+    for(int i=0;temp!=NULL;i++)//finding the length of second linked list
     {
         m++;
         temp=temp->next;
