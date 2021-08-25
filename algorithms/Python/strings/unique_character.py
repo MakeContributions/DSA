@@ -16,7 +16,7 @@ def is_unique(s: str) -> bool:
     
     
     arr = [False for _ in range(128)] #creating hashtable with False input
-    for character in s:        #iterate throught the string
+    for character in s:        #iterate throughout the string
         char_value = ord(character)
         if arr[char_value]:
             return False
