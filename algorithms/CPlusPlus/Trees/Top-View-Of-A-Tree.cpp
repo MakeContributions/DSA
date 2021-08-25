@@ -10,7 +10,7 @@ struct Node
     struct Node *left;
     struct Node *right;
 
-    Node(int val){
+    Node(int val) {
         data = val;
         left = NULL;
         right = NULL;
@@ -25,45 +25,45 @@ struct Node
 
 //Function which prints out the top view of the tree
 
-void topView(struct Node * root) 
+void topView(struct Node * root)
 {
-    if(root==NULL)
+    if (root == NULL)
         return;
-    
-    queue<pair<struct Node*,int>>q;
-    map<int,int> mp;
+
+    queue<pair<struct Node*, int>>q;
+    map<int, int> mp;
     int d;
-    q.push({root,0});
-    Node *temp=NULL;
-    
-    while(!q.empty())
+    q.push({root, 0});
+    Node *temp = NULL;
+
+    while (!q.empty())
     {
-        temp=q.front().first;
-        d=q.front().second;
-        
-        
-        if (mp.find(d)==mp.end())
-         {
+        temp = q.front().first;
+        d = q.front().second;
+
+
+        if (mp.find(d) == mp.end())
+        {
             //cout << temp->data <<" ";
             mp[d] = temp->data;
         }
-        
-        if(temp->left)
+
+        if (temp->left)
         {
-            q.push({temp->left,d-1});       //every node left to its predecessor is tagged a number less than one
-            
+            q.push({temp->left, d - 1});    //every node left to its predecessor is tagged a number less than one
+
         }
-        if(temp->right)
+        if (temp->right)
         {
-            q.push({temp->right,d+1});    //every node right to its predecessor is tagged a number greater than one
-            
+            q.push({temp->right, d + 1}); //every node right to its predecessor is tagged a number greater than one
+
         }
         q.pop();
     }
-    for(auto i=mp.begin();i!=mp.end();i++)
-        cout<<i->second<<" ";
-    
-        
+    for (auto i = mp.begin(); i != mp.end(); i++)
+        cout << i->second << " ";
+
+
 
 }
 
@@ -77,17 +77,17 @@ int main()
     root->left->right = new Node(5);
     root->right->right = new Node(7);
 
-    /*                       
+    /*
                     1
                    / \
                   2   3
                  / \   \
-                4   5   7    
+                4   5   7
         Expected-> 4 2 1 3 7
-    
-    */
-   cout<<"The top view of the tree is : "<<endl;
-   topView(root);
 
-   return 0;
+    */
+    cout << "The top view of the tree is : " << endl;
+    topView(root);
+
+    return 0;
 }

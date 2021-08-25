@@ -26,7 +26,7 @@ void push(struct Node** head_ref, int new_data)
 bool detectLoop(struct Node* h)
 {
     unordered_set<Node*> s;
-    while (h != NULL) 
+    while (h != NULL)
     {
         // If this node is already present
         // in hashmap it means there is a cycle
