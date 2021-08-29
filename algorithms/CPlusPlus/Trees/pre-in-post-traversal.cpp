@@ -151,7 +151,7 @@ int main(){
                    postorder : 4 5 2 7 3 1 
     
     */
-    // Tree Traversal using recusive calls
+    // Tree Traversal using recursive calls
    cout<<"From Recursive calls : "; cout<<endl;
    cout<<"pre-order : "; pre_order(root); cout<<endl;
    cout<<"in-order : "; in_order(root); cout<<endl;
