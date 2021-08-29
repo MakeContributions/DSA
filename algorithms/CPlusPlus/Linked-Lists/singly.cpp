@@ -15,10 +15,11 @@ template <typename T>
 class SinglyLinkedList {
     private:
         Node<T>* head;
+        Node<T>* tail;
 
     public:
         SinglyLinkedList()
-            : head(nullptr){}
+            : head(nullptr),tail(nullptr){}
 
         void insertAtHead(T data) {
             Node<T> *temp = new Node<T>(data);
@@ -43,18 +44,15 @@ class SinglyLinkedList {
             // if head is not pointing to anything then simply point to new node
             if(this->head == nullptr) {
                 this->head = newNode;
+                this->tail = newNode;
                 return;
             }
 
-            // if list is not empty, then traverse to the last node using `temp`, then put the address of the new node in the temp->next
-            // and finally, make the next of newNode = NULL
-            Node<T> *temp = new Node<T>();
-            temp = head;
-            while(temp->next != NULL){
-                temp = temp->next;
-            }
-            temp->next = newNode;
+            // if list is not empty, then put the address of the new node in the tail->next
+            // and finally, make the next of newNode = NULL and tail will be pointing the the newNode as now it is in the last position.
+            tail->next = newNode;
             newNode->next= NULL;
+            tail=newNode;
         }
 
         T removeAtHead() {
