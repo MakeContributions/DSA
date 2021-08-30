@@ -184,7 +184,7 @@ void leaf_nodes(TreeNode* root) //Print all leafnode in BST
        leaf_nodes(root->right); 
 } 
 
-void f_min(TreeNode* root) //Find Minimum element from root
+TreeNode* f_min(TreeNode* root) //Find Minimum element from root
 { 
     /**
      * Print the minimum value of the tree
@@ -195,16 +195,17 @@ void f_min(TreeNode* root) //Find Minimum element from root
     if(root==NULL)
     {
         std::cout<<"No value present in the tree"<< std::endl;
+        return NULL;
     }
-   TreeNode* p=root; 
-   while(p->left!=NULL) 
-   { 
-       p=p->left; 
-   } 
-   std::cout<<"Minimum Value Present in the tree is : "<<p->data<< std::endl;
+    TreeNode* p=root; 
+    while(p->left!=NULL) 
+    { 
+        p=p->left; 
+    } 
+    return p;
 } 
 
-void f_max(TreeNode* root) //Find Maximum element from root
+TreeNode* f_max(TreeNode* root) //Find Maximum element from root
 { 
     /**
      * Print the maximum value of the tree
@@ -215,15 +216,59 @@ void f_max(TreeNode* root) //Find Maximum element from root
     if(root==NULL)
     {
         std::cout<<"No value present in the tree"<< std::endl;
+        return NULL;
     }
-   TreeNode* p=root; 
-   while(p->right!=NULL) 
-   { 
-       p=p->right; 
-   }
-
-   std::cout<<"Maximum Value Present in the tree is : "<<p->data<< std::endl;
+    TreeNode* p=root; 
+    while(p->right!=NULL) 
+    { 
+        p=p->right; 
+    }
+    return p;
 } 
+
+TreeNode* bstdelete(TreeNode* root, int x) 
+{ 
+    TreeNode* m; 
+    if(root==NULL) 
+    { 
+        std::cout<<"NOT FOUND!!"; 
+        return root; 
+    } 
+    if(x < root->data) 
+    { 
+        root->left=bstdelete(root->left,x); 
+        return root; 
+    } 
+    if(x>root->data) 
+    { 
+        root->right=bstdelete(root->right,x); 
+        return root; 
+    } 
+    if(root->left==NULL && root->right==NULL) 
+    { 
+        m=root; 
+        delete m; 
+        return (NULL); 
+    } 
+    else if(root->left==NULL) 
+    { 
+        m=root; 
+        root=root->right; 
+        delete m; 
+        return (root); 
+    } 
+    else if(root->right==NULL) 
+    { 
+        m=root; 
+        root=root->left; 
+        delete m; 
+        return (root); 
+    } 
+    m=f_min(root->right); 
+    root->data=m->data; 
+    root->right=bstdelete(root->right, m->data); 
+    return (root); 
+}
 
 
 void print(TreeNode* root){
@@ -283,11 +328,26 @@ int main(){
     std::cout << "Leaf Nodes present in the binary tree are : ";
     leaf_nodes(root);
     std::cout<< std::endl;
-    f_max(root);
-    f_min(root);
     
+    n = f_max(root);
+    if(f_max(root)!=NULL)
+    {
+        std::cout<<"Maximum Value Present in the tree is : "<<n->data<< std::endl;
+    }
+
+    n=f_min(root);
+    if(f_max(root)!=NULL)
+    {
+        std::cout<<"Minimum Value Present in the tree is : "<<n->data<< std::endl;
+    }
+
+    root = bstdelete(root, 19);
+    std::cout<<"Binary search Tree after Deletion is : "<<std::endl;;
+    print(root);
+
     /* 
     Tree structure
+
             37
            /  \
           19  51
@@ -304,6 +364,17 @@ int main(){
      Leaf Nodes present in the binary tree are : 2 11 20 42 55 
      Maximum Value Present in the tree is : 55
      Minimum Value Present in the tree is : 2
+     Binary search Tree after Deletion is : 
+     2 4 11 20 22 37 42 51 55 
+    
+     Tree structure after deletion
+            37
+           /  \
+          11  51
+         / \   / \
+        4  22 42 55
+       /   /   
+      2   20
     
     */
 
