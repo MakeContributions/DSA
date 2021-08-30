@@ -336,7 +336,7 @@ int main(){
     }
 
     n=f_min(root);
-    if(f_max(root)!=NULL)
+    if(n)
     {
         std::cout<<"Minimum Value Present in the tree is : "<<n->data<< std::endl;
     }
