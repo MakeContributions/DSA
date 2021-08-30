@@ -330,7 +330,7 @@ int main(){
     std::cout<< std::endl;
     
     n = f_max(root);
-    if(f_max(root)!=NULL)
+    if(n)
     {
         std::cout<<"Maximum Value Present in the tree is : "<<n->data<< std::endl;
     }
