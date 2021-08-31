@@ -36,8 +36,8 @@ func fibonacci_using_constant_space(n int) int{
 
 func run_fibonacci(){
 	n := 10
-	recursionValue = fibonacci_using_recursion(n)
-	nonrecursionValue = fibonacci_using_constant_space(n)
+	recursionValue := fibonacci_using_recursion(n)
+	nonrecursionValue := fibonacci_using_constant_space(n)
 	fmt.Printf("Recursion value: %d\n", recursionValue)
 	fmt.Printf("Non-recursion value: %d\n", nonrecursionValue)
 }

@@ -42,6 +42,8 @@
 6. [Reversing a linked lists](Linked-Lists/reverse.cpp)
 7. [Merging two sorted linked lists](Linked-Lists/merge.cpp)
 8. [Reorder List](Linked-Lists/Reorder-List.cpp)
+9. [Detecting cycle in a singly linked list](Linked-Lists/Cycle-Detection.cpp)
+10. [Find Merge Point of two singly linked list](Linked-Lists/Find-Merge-Point.cpp)
 
 ## Searching
 
@@ -98,6 +100,8 @@
 7. [In order Predecessor and Successor](Trees/in-order-predecessor-and-successor.cpp)
 8. [Avl Tree](Trees/avl.cpp)
 9. [Min Heap](Trees/min-heap.cpp)
+10. [Finding the height of a given tree](Trees/Height-Of-Tree.cpp)
+11. [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
 
 # Maths
 
