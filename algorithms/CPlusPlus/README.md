@@ -114,3 +114,4 @@
 
 1. [Tower of Hanoi](Recursion/towerofHanoi.cpp)
 2. [Factorial](Recursion/factorial.cpp)
+3. [Permutation](Recursion/permutation.cpp)
