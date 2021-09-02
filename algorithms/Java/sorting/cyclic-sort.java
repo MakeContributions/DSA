@@ -1,29 +1,71 @@
 package CyclicSort;
 import java.util.Arrays;
 
-// when given nos. range from 1 - n then use cyclic sort..
-public class CyclicSort {
-    public static void main(String[] args) {
-        int[] arr ={4,2,5,3,1};
-        sort(arr);
-        System.out.println(Arrays.toString(arr));
-    }
-    static void sort(int[] arr){
-        int i =0;
-        while(i<arr.length){
-            int correctLoc = arr[i] - 1;// because array starting from 1 to n  that's why we -1 to make it 0 to n
-            if(arr[i] != arr[correctLoc]){
-                swap(arr,i,correctLoc);
-            }
-            else{
-                i++;
-            }
-        }
+public class cyclic-sort {
+    public static void main(String[] args)
+    {
+        int[] array1 = {4,5,2,3};
+        int[] array2 = {2, 1, 5, 2, 9, 1, 2, 3, 3, 4, 4, 5, 6, 7, 8};
+
+        cyclic sorter = new cyclic();
+        sorter.cycleSort(array1);
+        sorter.cycleSort(array2);
+
+
+        System.out.println(Arrays.toString(array1));
+        System.out.println(Arrays.toString(array2));
     }
 
-   static void swap(int[]arr,int first, int second) {
-        int temp = arr[first];
-       arr[first] = arr[second];
-       arr[second] = temp;
+
+    void cycleSort(int[] array)
+    {
+        // step 1: loop from the beginning of the array to the second to last item
+        for (int currentIndex = 0; currentIndex < array.length - 1; currentIndex++)
+        {
+            // step 2: save the value of the item at the currentIndex
+            int item = array[currentIndex];
+            // step 3: save a copy of the current index
+            int currentIndexCopy = currentIndex;
+
+            // step 4: loop through all indexes that proceed the currentIndex
+            for (int i = currentIndex + 1; i < array.length; i++)
+                if (array[i] < item)
+                    currentIndexCopy++;
+
+            // step 5: if currentIndexCopy has not changed, the item at the currentIndex is already in the correct position
+            if (currentIndexCopy == currentIndex)
+                continue;
+
+            // step 6: skip duplicates
+            while (item == array[currentIndexCopy])
+                currentIndexCopy++;
+
+            // step 7: swap
+            int temp = array[currentIndexCopy];
+            array[currentIndexCopy] = item;
+            item = temp;
+
+            // step 8: repeat steps 4, 6 and 7 above as long as we can find values to swap
+            while (currentIndexCopy != currentIndex)
+            {
+
+                // step 9: save a copy of the currentIndex
+                currentIndexCopy = currentIndex;
+
+                // step 10: repeat step 4
+                for (int i = currentIndex + 1; i < array.length; i++)
+                    if (array[i] < item)
+                        currentIndexCopy++;
+
+                // step 10: repeat step 6
+                while (item == array[currentIndexCopy])
+                    currentIndexCopy++;
+
+                // step 10: repeat step 7
+                temp = array[currentIndexCopy];
+                array[currentIndexCopy] = item;
+                item = temp;
+            }
+        }
     }
 }
