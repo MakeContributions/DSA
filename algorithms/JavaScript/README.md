@@ -4,8 +4,8 @@
 1. [Counting Inversions](src/arrays/counting-inversions.js)
 
 ## Linked Lists
-1. [Singly](lsrc/inked_lists/singly.js)
-1. [Doubly](lsrc/inked_lists/doubly.js)
+1. [Singly](src/linked-lists/singly.js)
+1. [Doubly](src/linked-lists/doubly.js)
 
  
 ## Searching
