@@ -8,10 +8,12 @@ namespace Algorithms.Graph
     {
         class Graph
         {
+            private int _vertex;
+            private bool _isCycle;
             private List<List<int>> _adjacencyList;
             private List<int> _parent;
             private List<int> _visited;
-            private int _vertex;
+            private List<int> _traversal;
 
             public const int WHITE = 0;
             public const int BROWN = 1;
@@ -20,6 +22,7 @@ namespace Algorithms.Graph
             public Graph(int vertex)
             {
                 _vertex = vertex;
+                _traversal = new List<int>();
                 _adjacencyList = new List<List<int>>(vertex + 1);
 
                 for (int i = 0; i <= vertex; i++)
@@ -33,18 +36,20 @@ namespace Algorithms.Graph
                 _adjacencyList[start].Add(end);
             }
 
-            public void DFS(int source)
+            public List<int> DFS(int source)
             {
                 _parent = Enumerable.Repeat(-1, _vertex + 1).ToList();
                 _visited = Enumerable.Repeat(WHITE, _vertex + 1).ToList();
+                _traversal.Clear();
 
                 DFSRecursive(source);
+                return _traversal;
             }
 
             private void DFSRecursive(int source)
             {
                 _visited[source] = BROWN;
-                Console.Write($"{source} ");
+                _traversal.Add(source);
 
                 foreach (int destination in _adjacencyList[source])
                 {
@@ -60,7 +65,7 @@ namespace Algorithms.Graph
         }
 
 
-        public static void DFS(int vertex, int src, List<Tuple<int, int>> edges)
+        public static List<int> DFS(int vertex, int src, List<Tuple<int, int>> edges)
         {
             Graph graph = new Graph(vertex);
             foreach(var edge in edges)
@@ -69,7 +74,7 @@ namespace Algorithms.Graph
                 graph.AddEdge(edge.Item2, edge.Item1);
             }
 
-            graph.DFS(src);
+            return graph.DFS(src);
         }
 
         public static void Main()
@@ -81,7 +86,11 @@ namespace Algorithms.Graph
             edges.Add(new Tuple<int, int>(4, 2));
             edges.Add(new Tuple<int, int>(1, 5));
 
-            DFS(5, 3, edges);
+            List<int> traversal = DFS(5, 3, edges);
+            foreach(int v in traversal)
+            {
+                Console.Write($"{v} ");
+            }
         }
     }
 }
