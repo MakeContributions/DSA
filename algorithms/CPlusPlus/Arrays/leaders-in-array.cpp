@@ -8,26 +8,28 @@ using namespace std;
 
 void findLeader(int a[], int len)
 {
-	int rmax=a[len-1];
-	cout<<rmax;            // The rightmost element is always a leader
-    cout<<endl;
-	for(int i=len-2;i>=0;i--)
+	int rmax = a[len - 1];
+	cout << rmax; // The rightmost element is always a leader
+	cout << endl;
+	for (int i = len - 2; i >= 0; i--)
 	{
-		if (rmax<a[i])
-		{		
-			rmax=a[i];
-			cout<<rmax;
-            cout<<endl;
+		if (rmax < a[i])
+		{
+			rmax = a[i];
+			cout << rmax;
+			cout << endl;
 		}
 	}
 }
 int main()
 {
-	int n; cin>>n;            // Take the size of the array as input from the user
-    int a[n];
-    for(int i=0;i<n;i++){
-        cin>>a[i];            // Take the elements of the array as input from the user
-    }
+	int n;
+	cin >> n; // Take the size of the array as input from the user
+	int a[n];
+	for (int i = 0; i < n; i++)
+	{
+		cin >> a[i]; // Take the elements of the array as input from the user
+	}
 	findLeader(a, n);
 	return 0;
 }
