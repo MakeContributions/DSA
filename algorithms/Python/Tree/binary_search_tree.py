@@ -2,11 +2,11 @@
 # Binary Tree Data Structure
 #     Data is stored in hierarchical form where a parent node can have at most 2 child nodes
 #                 A
-#             ___|___
+#      
 #            B       C
-#         ___|___
+#         
 #        D       E
-#      /  \       \
+#      
 #     F    G       H
 #         Here, A is "ROOT NODE" and B, C are "CHILD NODE"
 #            (B-D-F-G), (B-E-H) is a sub-tree
