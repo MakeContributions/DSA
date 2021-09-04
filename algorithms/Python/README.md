@@ -63,4 +63,4 @@
 
 ## Tree
 
-1. [Binary Search Tree](binary_search_tree.py)
+1. [Binary Search Tree](Tree/binary_search_tree.py)
