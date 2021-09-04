@@ -1,54 +1,50 @@
-"""
-Binary Tree Data Structure
-    Data is stored in hierarchical form where a parent node can have at most 2 child nodes
-                A
-             ___|___
-            B       C
-         ___|___
-        D       E
-      /  \       \
-     F    G       H
-         Here, A is "ROOT NODE" and B, C are "CHILD NODE"
-            (B-D-F-G), (B-E-H) is a sub-tree
-            B is 'ROOT NODE' for D, E & D is 'ROOT NODE' for F, G & E is root node for H
-            Those nodes [C, F, G, H] who do not have any child node are "LEAF NODE"
 
-    Rules for Binary Search Tree:
-        > All nodes are unique
-        > Right sub-tree > Left sub-tree ===== Left sub-tree < Right sub-tree
-            [Value(B<A AND C>A), Value(D<B AND E>B), Value(F<D AND G>D), Value(H>E)]
-        > One parent node can not have more than 2 child nodes
-        > Elements are not duplicated
-    Searching in Binary Tree:
-        Suppose we want to search E in the Tree:
-            > At Root Node(A) :: IF A>E THEN element would be at Left sub-Tree
-            > At Left sub-Tree(B) :: IF B<E THEN element would be at Right of the sub-tree
-
-Significance of BST:
-    With every iteration, search space is reduced by 1/2 (half)
-        Let no of nodes in a tree (n) be 8 then:
-            n = 8   [8->4->2->1]    {Search completed in 3 iterations}
-            3 compared to 8 is log(2)8 = 2
-        Search Complexity : O(log n)
-        Insertion Complexity : O(log n)
-
-
-Types of BST:
-    Breadth First Search
-
-
-    Depth First Search
-        order here means base node
-        > In Order Traversal : first visit left sub-tree >> root node >> right sub-tree [F-D-G-B-H-E-A-C]
-                            {Root node in between left and right tree}
-        > Pre Order Traversal : root node >> left sub-tree >> right sub-tree [A-B-D-F-G-E-H-C]
-                            {Root node before left and right tree}
-        > Post Order Traversal : left sub-tree >> right sub-tree >> root node [F-G-D-H-E-B-C-A]
-                            {Root node after left and right tree}
-
-
-
-"""
+# Binary Tree Data Structure
+#     Data is stored in hierarchical form where a parent node can have at most 2 child nodes
+#                 A
+#             ___|___
+#            B       C
+#         ___|___
+#        D       E
+#      /  \       \
+#     F    G       H
+#         Here, A is "ROOT NODE" and B, C are "CHILD NODE"
+#            (B-D-F-G), (B-E-H) is a sub-tree
+#            B is 'ROOT NODE' for D, E & D is 'ROOT NODE' for F, G & E is root node for H
+#            Those nodes [C, F, G, H] who do not have any child node are "LEAF NODE"
+#
+#    Rules for Binary Search Tree:
+#        > All nodes are unique
+#        > Right sub-tree > Left sub-tree ===== Left sub-tree < Right sub-tree
+#            [Value(B<A AND C>A), Value(D<B AND E>B), Value(F<D AND G>D), Value(H>E)]
+#        > One parent node can not have more than 2 child nodes
+#        > Elements are not duplicated
+#    Searching in Binary Tree:
+#        Suppose we want to search E in the Tree:
+#            > At Root Node(A) :: IF A>E THEN element would be at Left sub-Tree
+#            > At Left sub-Tree(B) :: IF B<E THEN element would be at Right of the sub-tree
+#
+# Significance of BST:
+#     With every iteration, search space is reduced by 1/2 (half)
+#         Let no of nodes in a tree (n) be 8 then:
+#             n = 8   [8->4->2->1]    {Search completed in 3 iterations}
+#             3 compared to 8 is log(2)8 = 2
+#         Search Complexity : O(log n)
+#         Insertion Complexity : O(log n)
+#
+#
+# Types of BST:
+#     Breadth First Search
+#
+#
+#     Depth First Search
+#         order here means base node
+#         > In Order Traversal : first visit left sub-tree >> root node >> right sub-tree [F-D-G-B-H-E-A-C]
+#                             {Root node in between left and right tree}
+#         > Pre Order Traversal : root node >> left sub-tree >> right sub-tree [A-B-D-F-G-E-H-C]
+#                             {Root node before left and right tree}
+#         > Post Order Traversal : left sub-tree >> right sub-tree >> root node [F-G-D-H-E-B-C-A]
+#                             {Root node after left and right tree}
 
 
 class Node:
