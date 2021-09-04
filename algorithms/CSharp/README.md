@@ -16,3 +16,6 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 
 ## Maths
 - [Abundant Number](src/Maths/abundant-number.cs)
+
+## Recusrsion
+- [Factorial](src/Recursion/factorial.cs)

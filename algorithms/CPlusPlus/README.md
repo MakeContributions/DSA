@@ -13,6 +13,7 @@
 9. [Fractional Knapsack](Arrays/fractional-knapsack.cpp)
 10. [Quick Selection](Arrays/quick-select.cpp)
 11. [Remove Duplicates](Arrays/remove-duplicates.cpp)
+12. [Leaders In The Array](Arrays/leaders-in-array.cpp)
 
 ## Dynamic-Programming
 
