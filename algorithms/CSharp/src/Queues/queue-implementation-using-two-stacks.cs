@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Algorithms.Queues
 {
-    class QueueImplementationUsingTwoStacks
+    public class QueueImplementationUsingTwoStacks
     {
         public class MyQueue<T>
         {
@@ -64,6 +63,11 @@ namespace Algorithms.Queues
             public bool Empty()
             {
                 return _stack1.Count == 0 && _stack2.Count == 0;
+            }
+
+            public int Count()
+            {
+                return _stack1.Count + _stack2.Count;
             }
         }
 
