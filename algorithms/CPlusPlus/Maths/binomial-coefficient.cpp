@@ -2,7 +2,7 @@
 // Description: Given two parameters n and r, find the value of the Binomial Coefficient i.e. C(n, r)
 // Method: Change r to n-r if r is greater than n-r and store it in a variable. Run a loop from 0 to r-1 and in every iteration update result to be (ans*(n-i))/(i+1). Hence, the result will be ((n/1)*((n-1)/2)*…*((n-r+1)/r!) i.e. nCr.
 // Time Complexity: O(r)
-// SPace Complexity: O(1)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
