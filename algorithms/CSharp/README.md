@@ -19,3 +19,6 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 
 ## Recusrsion
 - [Factorial](src/Recursion/factorial.cs)
+
+## Graph
+- [Depth First Search](src/Graph/depth-first-search.cs)
