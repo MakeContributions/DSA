@@ -17,5 +17,8 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 ## Maths
 - [Abundant Number](src/Maths/abundant-number.cs)
 
-## Recusrsion
+## Recursion
 - [Factorial](src/Recursion/factorial.cs)
+
+## Queues
+- [Queue Implementation Using Two Stacks](src/Queues/queue-implementation-using-two-stacks.cs)
