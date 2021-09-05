@@ -64,3 +64,7 @@
 ## Tree
 
 1. [Binary Search Tree](Tree/binary_search_tree.py)
+
+## Graph
+
+1. [Simple Graph](Graph/graph.py)
