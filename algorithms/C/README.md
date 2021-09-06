@@ -9,6 +9,7 @@
 - [Multiply](bit-manipulation/multiply-bitwise.c)
 - [Divide bitwise](bit-manipulation/divide-bitwise.c)
 
+
 ## Graphs
 - [Prim's Algorithm](graphs/Prim's-algorithm.c)
 
