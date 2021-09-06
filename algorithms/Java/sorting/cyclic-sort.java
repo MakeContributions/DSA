@@ -1,15 +1,14 @@
-package CyclicSort;
+
 import java.util.Arrays;
 
-public class cyclic-sort {
+public class cyclicSort {
     public static void main(String[] args)
     {
         int[] array1 = {4,5,2,3};
         int[] array2 = {2, 1, 5, 2, 9, 1, 2, 3, 3, 4, 4, 5, 6, 7, 8};
 
-        cyclic sorter = new cyclic();
-        sorter.cycleSort(array1);
-        sorter.cycleSort(array2);
+        Sort(array1);
+        Sort(array2);
 
 
         System.out.println(Arrays.toString(array1));
@@ -17,7 +16,7 @@ public class cyclic-sort {
     }
 
 
-    void cycleSort(int[] array)
+    static void Sort(int[] array)
     {
         // step 1: loop from the beginning of the array to the second to last item
         for (int currentIndex = 0; currentIndex < array.length - 1; currentIndex++)
