@@ -5,6 +5,8 @@ FibArray = [0, 1]
 def fibonacci(n):
     if n<0:
         print("Incorrect input")
+    if n == 0:
+        return 0
     elif n<= len(FibArray):
         return FibArray[n-1]
     else:
