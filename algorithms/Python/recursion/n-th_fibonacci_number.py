@@ -1,7 +1,7 @@
 # Function for nth fibonacci number - Using recursion
 # Taking 1st two fibonacci numbers as 0 and 1
  
-FibArray = [0, 1]
+FibArray = [1]
 def fibonacci(n):
     if n<0:
         print("Incorrect input")
