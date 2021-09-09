@@ -16,3 +16,12 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 
 ## Maths
 - [Abundant Number](src/Maths/abundant-number.cs)
+
+## Queues
+- [Queue Implementation Using Two Stacks](src/Queues/queue-implementation-using-two-stacks.cs)
+
+## Recusrsion
+- [Factorial](src/Recursion/factorial.cs)
+
+## Graph
+- [Depth First Search](src/Graph/depth-first-search.cs)

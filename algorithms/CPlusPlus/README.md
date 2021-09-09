@@ -13,6 +13,7 @@
 9. [Fractional Knapsack](Arrays/fractional-knapsack.cpp)
 10. [Quick Selection](Arrays/quick-select.cpp)
 11. [Remove Duplicates](Arrays/remove-duplicates.cpp)
+12. [Leaders In The Array](Arrays/leaders-in-array.cpp)
 
 ## Dynamic-Programming
 
@@ -44,6 +45,7 @@
 8. [Reorder List](Linked-Lists/Reorder-List.cpp)
 9. [Detecting cycle in a singly linked list](Linked-Lists/Cycle-Detection.cpp)
 10. [Find Merge Point of two singly linked list](Linked-Lists/Find-Merge-Point.cpp)
+11. [Segregate Even Odd Nodes of linked list](Linked-Lists/segregate-even-odd-nodes-of-linked-list.cpp)
 
 ## Searching
 
@@ -80,6 +82,7 @@
 12. [Binary Insertion Sort](Sorting/binary-insertion-sort.cpp)
 13. [Merge Sort](Sorting/merge-sort.cpp)
 14. [Wave Sort](Sorting/wave-sort.cpp)
+15. [Cycle Sort](Sorting/cycle-sort.cpp)
 
 ## Strings
 

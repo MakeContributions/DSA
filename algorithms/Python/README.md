@@ -19,6 +19,7 @@
 ## Recursion
 
 1. [Factorial](recursion/factorial.py)
+2. [n-th Fibonacci number](recursion/n-th_fibonacci_number.py)
 
 ## Scheduling
 
