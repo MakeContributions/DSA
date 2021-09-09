@@ -39,15 +39,14 @@ func singleNumberWithConstantSpace(nums [] int) int{
 	return result
 }
 
-/*
-	I only tested the Bit-manipulation apprach but the other should be working fine
-	Feel free to add more test cases
-*/
 func runSingleNumber(){
 	input1 := []int{2,2,1}
 	input2 := []int{4,1,2,1,2}
 
 	fmt.Printf("The Single Number for input 1 is %d\n",singleNumberWithConstantSpace(input1))
 	fmt.Printf("The Single Number for input 2 is %d\n",singleNumberWithConstantSpace(input2))
+
+	fmt.Printf("The Single Number for input 1 is %d\n",singleNumberWithHashTable(input1))
+	fmt.Printf("The Single Number for input 2 is %d\n",singleNumberWithHashTable(input2))
 
 }
