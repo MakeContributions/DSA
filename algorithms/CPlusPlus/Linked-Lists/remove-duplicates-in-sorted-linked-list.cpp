@@ -1,4 +1,4 @@
-//Program to Remove Duplicates in Sorted Singly linkedlist
+//Program to Remove Duplicates in Sorted Singly linkedlist 
 
 
 //                                                            Algorithm: 
@@ -63,5 +63,5 @@ int main()
 /*
 Input: 10 11 11 13 13 15
 Output: 10 11 13 15
-Time complexity: O(n)
+Time Complexity: O(n) where n is the number of nodes in the given linked list.
 */
