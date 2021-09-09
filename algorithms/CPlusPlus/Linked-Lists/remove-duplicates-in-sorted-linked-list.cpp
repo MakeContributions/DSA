@@ -1,9 +1,15 @@
-/*
-Traverse the list from the head (or start) node. 
-While traversing, compare each node with its next node. 
-If the data of the next node is the same as the current node then delete the next node. 
-Before we delete a node, we need to store the next pointer of the node 
-*/
+//Program to Remove Duplicates in Sorted Singly linkedlist
+
+
+//                                                            Algorithm: 
+
+//Traverse the list from the head (or start) node. 
+//While traversing, compare each node with its next node. 
+//If the data of the next node is the same as the current node then delete the next node. 
+//Before we delete a node, we need to store the next pointer of the node 
+
+
+//Implementation: 
 #include <bits/stdc++.h> 
 using namespace std; 
 
@@ -54,3 +60,8 @@ int main()
 	printlist(head);
 	return 0;
 }
+/*
+Input: 10 11 11 13 13 15
+Output: 10 11 13 15
+Time complexity: O(n)
+*/
