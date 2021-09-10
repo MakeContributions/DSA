@@ -105,7 +105,5 @@
 
 # Recursion
 1. [Tower of Hanoi](Recursion/towerofHanoi.cpp)
-2. [GCD/HCF of two numbers](Recursion/GCD-of-two-numbers.cpp)
-3. [Sum of all elements of an array](Recursion/Sum-of-all-elements-in-an-array.cpp)
-4. [Decimal number to Binary conversion](Recursion/decimal-to-binary-conversion.cpp)
-5. [Sum of digits of a decimal integer](Recursion/sum-of-digits-of-an-integer.cpp)
+2. [Factorial](Recursion/factorial.cpp)
+3. [Permutation](Recursion/permutation.cpp)
