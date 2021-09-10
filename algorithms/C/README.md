@@ -5,9 +5,10 @@
 - [Unique Elements in an array](arrays/unique-elements-in-an-array.c)
 
 ## Bit Manipulation
-- [Add and Subtract](bit-manipulation/add-and-sub-bitwise)
-- [Multiply](bit-manipulation/multiply-bitwise)
-- [divide](bit-manipulation/divide-bitwise)
+- [Add and Subtract](bit-manipulation/add-and-sub-bitwise.c)
+- [Multiply](bit-manipulation/multiply-bitwise.c)
+- [Divide bitwise](bit-manipulation/divide-bitwise.c)
+
 
 ## Graphs
 - [Prim's Algorithm](graphs/Prim's-algorithm.c)
@@ -27,6 +28,7 @@
 - [Merge Sort](sorting/merge-sort.c)
 - [Insertion Sort](sorting/insertion-sort.c)
 - [Heap Sort](sorting/heap-sort.c)
+- [Selection Sort](sorting/selection-sort.c)
 
 ## Strings
 - [Count Words](strings/count-words.c)

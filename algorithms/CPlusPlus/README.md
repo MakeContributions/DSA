@@ -11,15 +11,20 @@
 7. [Reverse Array](Arrays/reverse-array.cpp)
 8. [Sorted-Rotated Search Array](Arrays/search-sorted-rotated.cpp)
 9. [Fractional Knapsack](Arrays/fractional-knapsack.cpp)
+10. [Quick Selection](Arrays/quick-select.cpp)
+11. [Remove Duplicates](Arrays/remove-duplicates.cpp)
+12. [Leaders In The Array](Arrays/leaders-in-array.cpp)
 
 ## Dynamic-Programming
 
 1. [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
-
+2. [Longest Common Substring](Dynamic-Programming/longest-common-substring.cpp)
+3. [0/1-knapsack](Dynamic-Programming/01-knapsack.cpp)
+4. [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
 
 ## Graphs
 
-1. [Bellman Ford Algorithm](Graphs/bellmam-ford.cpp)
+1. [Bellman Ford Algorithm](Graphs/bellman-ford.cpp)
 2. [kruskal Algorithm](Graphs/kruskal-algorithm.cpp)
 3. [Breadth First Search](Graphs/breadth-first-search.cpp)
 4. [Topological sort](Graphs/topological-sort.cpp)
@@ -38,6 +43,10 @@
 6. [Reversing a linked lists](Linked-Lists/reverse.cpp)
 7. [Merging two sorted linked lists](Linked-Lists/merge.cpp)
 8. [Reorder List](Linked-Lists/Reorder-List.cpp)
+9. [Detecting cycle in a singly linked list](Linked-Lists/Cycle-Detection.cpp)
+10. [Find Merge Point of two singly linked list](Linked-Lists/Find-Merge-Point.cpp)
+11. [Segregate Even Odd Nodes of linked list](Linked-Lists/segregate-even-odd-nodes-of-linked-list.cpp)
+12. [Remove Duplicate in Sorted linked list](Linked-Lists/remove-duplicates-in-sorted-linked-list.cpp)
 
 ## Searching
 
@@ -58,7 +67,6 @@
 
 3. [Stack using Array](Stacks/stack-using-array.cpp)
 
-
 ## Sorting
 
 1. [Bubble Sort](Sorting/bubble-sort.cpp)
@@ -75,6 +83,7 @@
 12. [Binary Insertion Sort](Sorting/binary-insertion-sort.cpp)
 13. [Merge Sort](Sorting/merge-sort.cpp)
 14. [Wave Sort](Sorting/wave-sort.cpp)
+15. [Cycle Sort](Sorting/cycle-sort.cpp)
 
 ## Strings
 
@@ -95,6 +104,8 @@
 7. [In order Predecessor and Successor](Trees/in-order-predecessor-and-successor.cpp)
 8. [Avl Tree](Trees/avl.cpp)
 9. [Min Heap](Trees/min-heap.cpp)
+10. [Finding the height of a given tree](Trees/Height-Of-Tree.cpp)
+11. [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
 
 # Maths
 
@@ -104,6 +115,7 @@
 4. [Fibonacci Series](Maths/fibonaccci-series.cpp)
 
 # Recursion
+
 1. [Tower of Hanoi](Recursion/towerofHanoi.cpp)
 2. [Factorial](Recursion/factorial.cpp)
 3. [Permutation](Recursion/permutation.cpp)

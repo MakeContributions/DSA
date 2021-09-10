@@ -16,6 +16,11 @@
 
 1. [Karatsuba](multiplication/karatsuba.py)
 
+## Recursion
+
+1. [Factorial](recursion/factorial.py)
+2. [n-th Fibonacci number](recursion/n-th_fibonacci_number.py)
+
 ## Scheduling
 
 1. [Interval Scheduling](scheduling/interval_scheduling.py)
@@ -36,7 +41,7 @@
 4. [Quicksort](sorting/quicksort.py)
 5. [Selection Sort](sorting/selection_sort.py)
 6. [Heap Sort](sorting/heap-sort.py)
-7. [Radix Sort](sorting/radix-sort.py)
+7. [Radix Sort](sorting/radix_sort.py)
 8. [Shell Sort](sorting/shell-sort.py)
 9. [Merge sort](sorting/merge_sort.py)
 
@@ -55,3 +60,4 @@
 2. [Sum Up To N-th Term Of Fibonacci Series](dynamic_programming/fibonacci_series_sum.py)
 3. [N-th Term Of Fibonacci Series](dynamic_programming/fibonacci_series_nth_term.py)
 4. [Catalan Sequence](dynamic_programming/catalan_sequence.py)
+5. [0/1 Knapsack Problem](dynamic_programming/knapsack.py)

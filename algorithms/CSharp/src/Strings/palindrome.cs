@@ -24,5 +24,5 @@ namespace Algorithms.Strings
             string reverse = new string(Enumerable.Range(1, source.Length).Select(i => source[source.Length - i]).ToArray());
             return reverse == source;
         }
-    }
+    } 
 }

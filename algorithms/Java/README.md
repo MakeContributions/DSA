@@ -55,6 +55,7 @@
 6. [Quick Sort](sorting/quick-sort.java)
 7. [Selection Sort](sorting/selection-sort.java)
 8. [Shell Sort](sorting/shell-sort.java)
+9. [Cyclic Sort](sorting/cyclic-sort.java)
 
 ## Stacks
 
@@ -72,6 +73,7 @@
 4. [Sequence](strings/sequence.java)
 5. [Split String](strings/SplitString.java)
 6. [Tokenizer](strings/tokenizer.java)
+7. [Anagram](strings/anagram.java)
 
 ## Trees
 
