@@ -1,5 +1,6 @@
 // Program to convert Decimal to Binary
-// Executable link: https://ide.geeksforgeeks.org/8oiG0di9QE
+// Negative numbers are expressed here as Signed magnitude representation
+// Executable link: https://ide.geeksforgeeks.org/Cubhhp1jIl
 
 #include <iostream>
 
@@ -17,6 +18,9 @@ unsigned long long decimalToBinary (int decimal_number) {
 
 int main() {
     int numb = 5;
-    cout << "Binary of " << numb << " is " << decimalToBinary(numb);
+    int signed_bit = 0;
+    if(numb < 0)
+        signed_bit = 1;
+    cout << "Binary of " << numb << " is " << signed_bit << decimalToBinary(numb);
     return 0;
 }
