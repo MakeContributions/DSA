@@ -45,6 +45,8 @@
 8. [Reorder List](Linked-Lists/Reorder-List.cpp)
 9. [Detecting cycle in a singly linked list](Linked-Lists/Cycle-Detection.cpp)
 10. [Find Merge Point of two singly linked list](Linked-Lists/Find-Merge-Point.cpp)
+11. [Segregate Even Odd Nodes of linked list](Linked-Lists/segregate-even-odd-nodes-of-linked-list.cpp)
+12. [Remove Duplicate in Sorted linked list](Linked-Lists/remove-duplicates-in-sorted-linked-list.cpp)
 
 ## Searching
 
