@@ -20,6 +20,7 @@
 
 1. [Factorial](recursion/factorial.py)
 2. [n-th Fibonacci number](recursion/n-th_fibonacci_number.py)
+3. [Recursive Insertion Sort](recursion/recursive_insertion_sort.py)
 
 ## Scheduling
 
