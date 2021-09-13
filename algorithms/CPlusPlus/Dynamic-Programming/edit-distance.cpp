@@ -13,6 +13,7 @@
 //TIME COMPLEXITY: O(m*n) 
 
 #include <iostream>
+#include <vector>
 using namespace std;
  
 // Utility function to find the minimum of three numbers
