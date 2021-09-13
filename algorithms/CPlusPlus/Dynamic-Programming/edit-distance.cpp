@@ -20,7 +20,7 @@ int min(int x, int y, int z) { return min(min(x, y), z); }
  
 int editDistDP(string s1, string s2, int m, int n)
 {
-    int dp[m + 1][n + 1];
+    vector<vector<int>> dp(m + 1, vector<int>(n + 1));
  
     for (int i = 0; i <= m; i++) {
         for (int j = 0; j <= n; j++) {
