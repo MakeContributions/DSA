@@ -26,8 +26,14 @@ class SinglyLinkedList {
             : head(nullptr),tail(nullptr){}
 
         ~SinglyLinkedList(){
-            delete head;
-            delete tail;
+            Node<T> *itr = this->head;
+            // iterate through list until itr reach to nullptr and print data
+            while(itr != nullptr) {
+                // creating temporary pointer to delete memory
+                Node<T> *temp_ptr = itr;
+                itr = itr->next;
+                delete temp_ptr;
+            }
 
             // std::cout << "Destructor called\n";
         }
