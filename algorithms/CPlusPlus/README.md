@@ -106,6 +106,7 @@
 9. [Min Heap](Trees/min-heap.cpp)
 10. [Finding the height of a given tree](Trees/Height-Of-Tree.cpp)
 11. [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
+12. [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
 
 # Maths
 
