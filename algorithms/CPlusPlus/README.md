@@ -14,6 +14,7 @@
 10. [Quick Selection](Arrays/quick-select.cpp)
 11. [Remove Duplicates](Arrays/remove-duplicates.cpp)
 12. [Leaders In The Array](Arrays/leaders-in-array.cpp)
+13. [Maximum Difference](Arrays/maximum-difference.cpp)
 
 ## Dynamic-Programming
 
