@@ -21,6 +21,7 @@
 2. [Longest Common Substring](Dynamic-Programming/longest-common-substring.cpp)
 3. [0/1-knapsack](Dynamic-Programming/01-knapsack.cpp)
 4. [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
+5. [Edit Distance](Dynamic-Programming/edit-distance.cpp)
 
 ## Graphs
 
@@ -106,6 +107,7 @@
 9. [Min Heap](Trees/min-heap.cpp)
 10. [Finding the height of a given tree](Trees/Height-Of-Tree.cpp)
 11. [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
+12. [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
 
 # Maths
 
