@@ -3,26 +3,34 @@
 
 using dType = int;
 
-template <typename T>
-class Node {
-    public:
-        T data;
-        Node *next;
-
-        Node(T data)
-            : data(data) , next(nullptr) {};
-        Node(){}
-};
 
 template <typename T>
 class SinglyLinkedList {
     private:
+        template <typename N>
+        class Node {
+            public:
+                T data;
+                Node *next;
+
+                Node(T data)
+                    : data(data) , next(nullptr) {};
+                Node(){}
+        };
+
         Node<T>* head;
         Node<T>* tail;
 
     public:
         SinglyLinkedList()
             : head(nullptr),tail(nullptr){}
+
+        ~SinglyLinkedList(){
+            delete head;
+            delete tail;
+
+            // std::cout << "Destructor called\n";
+        }
 
         void insertAtHead(T data) {
             Node<T> *temp = new Node<T>(data);
@@ -79,8 +87,7 @@ class SinglyLinkedList {
             if (this->head == nullptr)
                 throw std::runtime_error("List is Empty.");
             // if list is singleton it just becomes nullptr
-            if (this->head->next == nullptr)
-            {
+            if(this->head->next == nullptr) {
                 T data = this->tail->data;
 
                 Node<T>* temp_ptr = this->tail;
@@ -114,10 +121,14 @@ class SinglyLinkedList {
         }
 
         T front() {
+            if(this->head == nullptr)
+                throw std::runtime_error("Empty List.");
             return this->head->data;
         }
 
         T back() {
+            if(this->head == nullptr)
+                throw std::runtime_error("Empty List.");
             return this->tail->data;
         }
 
@@ -150,34 +161,35 @@ void menu() {
     SinglyLinkedList<dType> list {};
     while (true) {
         std::cout << "\nWhat would you like to do?\n";
-        std::cout << "1. Push (B)ack an element\n";
-        std::cout << "2. Push (F)ront an element\n";
-        std::cout << "3. (D)isplay the linked list\n";
-        std::cout << "4. Get (f)ront\n";
-        std::cout << "5. Get (b)ack\n";
-        std::cout << "6. Pop f(R)ont\n";
-        std::cout << "7. Pop b(A)ck\n";
-        std::cout << "8. (q)uit\n";
-        char ch {};
+        std::cout << "1. Push back an element\n";
+        std::cout << "2. Push front an element\n";
+        std::cout << "3. Display the linked list\n";
+        std::cout << "4. Get front\n";
+        std::cout << "5. Get back\n";
+        std::cout << "6. Pop front\n";
+        std::cout << "7. Pop back\n";
+        std::cout << "8. Quit\n";
+        std::cout << "Enter corresponding number to your choice: ";
+        int ch {};
         std::cin >> ch;
 
         try {
             switch (ch) {
-                case 'B': insert_element(list, false);
+                case 1: insert_element(list, false);
                           break;
-                case 'F': insert_element(list, true);
+                case 2: insert_element(list, true);
                           break;
-                case 'D': list.printList();
+                case 3: list.printList();
                           break;
-                case 'f': std::cout << list.front() << "\n";
+                case 4: std::cout << list.front() << "\n";
                           break;
-                case 'b': std::cout << list.back() << "\n";
+                case 5: std::cout << list.back() << "\n";
                           break;
-                case 'R': list.removeAtHead();
+                case 6: list.removeAtHead();
                           break;
-                case 'A': list.removeAtEnd();
+                case 7: list.removeAtEnd();
                           break;
-                case 'q': return;
+                case 8: return;
                 default: std::cout << "That's an invalid option. Please try again.\n";
             }
         }
