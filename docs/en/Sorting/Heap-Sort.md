@@ -1,11 +1,11 @@
 # Heap Sort
 
-##Steps
+## Steps
 
-##Example
+## Example
 
-##Implementation
+## Implementation
 
-##Video URL
+## Video URL
 
-##Others
+## Others
