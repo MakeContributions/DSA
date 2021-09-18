@@ -1,3 +1,5 @@
+#ifndef HUFFMAN_H
+#define HUFFMAN_H
 #include <string>
 using namespace std;
 
@@ -31,3 +33,4 @@ int compresstoBinaryFile(string modifiedSourceFilePath, Node * alphabetRoot);
 // decompresses the binary file into text file
 void decompressBinaryFile(string binarySourceFilePath, string textDistnationFilePath,int linesNum, Node * alphabetRoot);
 
+#endif /* HUFFMAN_H */
