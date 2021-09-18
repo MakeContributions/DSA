@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Algorithms.Sorts
 {
-    class CountingSort
+    public class CountingSort
     {
         public static List<int> Sort(List<int> numbers)
         {
-            int maxNumber = 0, minNumber = 999999999;
+            int maxNumber = 0, minNumber = 0;
             foreach(int number in numbers)
             {
                 maxNumber = number > maxNumber ? number : maxNumber;
@@ -17,19 +17,7 @@ namespace Algorithms.Sorts
             }
 
             int[] mx = Enumerable.Repeat(0, maxNumber + 1).ToArray();
-            int[] mn;
-
-            if(minNumber < 0)
-            {
-                mn = Enumerable.Repeat(0, minNumber * -1 + 1).ToArray();
-            }
-
-            else
-            {
-                // this won't be used, declaring as a dummy
-                // otherwise we will get compilation error
-                mn = new int[1];
-            }
+            int[] mn = Enumerable.Repeat(0, minNumber * -1 + 1).ToArray();
 
             foreach(int number in numbers)
             {
