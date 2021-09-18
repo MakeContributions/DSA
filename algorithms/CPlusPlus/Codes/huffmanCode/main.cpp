@@ -1,4 +1,4 @@
-#include "huffman.h"
+#include "./huffman.h"
 
 
 int main() {

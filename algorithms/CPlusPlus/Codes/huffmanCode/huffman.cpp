@@ -1,13 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <string>
-#include <fstream>
-#include <sstream>
-#include <iterator>
-#include <algorithm>
-#include <map>
-#include <bitset>
-#include <regex>
+#include<bits/stdc++.h>
 
 using namespace std;
 
