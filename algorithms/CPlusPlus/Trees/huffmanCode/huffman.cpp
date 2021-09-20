@@ -1,4 +1,17 @@
-#include<bits/stdc++.h>
+// this will requrire one to change the the source directory in the build system
+#include "algorithms/CPlusPlus/Trees/huffmanCode/huffman.h"
+
+#include <iostream>
+#include <vector>
+#include <string>
+#include <fstream>
+#include <sstream>
+#include <iterator>
+#include <algorithm>
+#include <map>
+#include <bitset>
+#include <utility>
+#include <regex>    // NOLINT (build/c++11)
 
 using namespace std;
 

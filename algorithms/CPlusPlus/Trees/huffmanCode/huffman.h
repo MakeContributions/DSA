@@ -1,7 +1,7 @@
-#ifndef ALGORITHMS_CPLUSPLUS_CODES_HUFFMANCODE_HUFFMAN_H_
-#define ALGORITHMS_CPLUSPLUS_CODES_HUFFMANCODE_HUFFMAN_H_
+#ifndef ALGORITHMS_CPLUSPLUS_TREES_HUFFMANCODE_HUFFMAN_H_
+#define ALGORITHMS_CPLUSPLUS_TREES_HUFFMANCODE_HUFFMAN_H_
 
-#include<bits/stdc++.h>
+#include <string>
 
 using namespace std;
 
@@ -35,4 +35,4 @@ int compresstoBinaryFile(string modifiedSourceFilePath, Node * alphabetRoot);
 // decompresses the binary file into text file
 void decompressBinaryFile(string binarySourceFilePath, string textDistnationFilePath,int linesNum, Node * alphabetRoot);
 
-#endif // ALGORITHMS_CPLUSPLUS_CODES_HUFFMANCODE_HUFFMAN_H_
+#endif // ALGORITHMS_CPLUSPLUS_TREES_HUFFMANCODE_HUFFMAN_H_
