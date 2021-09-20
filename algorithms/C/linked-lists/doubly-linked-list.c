@@ -1,3 +1,11 @@
+/*
+A doubly linked list is a linked data structure that consists of 
+a set of sequentially linked records called nodes. 
+Each node contains three fields: two link fields 
+(references to the previous and to the next node in the sequence of nodes) 
+and one data field.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -128,6 +136,18 @@ int main(){
 	print(list);
 
 	delete(list);
-
+	
+	/*
+	
+	Time Complexity
+	---------------
+	push_front: O(1)
+	push_back: O(1)
+	pop_front: O(1)
+	pop_back: O(1)
+	delete: O(N)
+	
+	*/
+	
 	return 0;
 }
