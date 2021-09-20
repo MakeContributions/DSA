@@ -2,7 +2,7 @@
 
 1. **Time Complexity:** O(log(n)) due to heapify(logn) and CreateandBuildHeap is O(n).
 2. **Space Complexity:** O(1).
-3. **Applications:** Finding the order in statistics, dealing with priority queues in Prim's algorithm and Huffman enconding or data compression.
+3. **Applications:** Finding the order in statistics, dealing with priority queues in Prim's algorithm and Huffman encoding or data compression.
 4. **Founder's Name:** John William Joseph Williams
 
 ## Steps
