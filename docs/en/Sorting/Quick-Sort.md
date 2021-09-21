@@ -2,7 +2,7 @@
 
 1. **Time Complexity:** O(n^2) occurs when the picked pivot is always an extreme (smallest or largest) element.
 2. **Space Complexity:** O(n).
-3. **Applications:** Commercial computing, search for information, operations research, event-driven simulation, numerical computatations, combinatorial search.
+3. **Applications:** Commercial computing, search for information, operations research, event-driven simulation, numerical computations, combinatorial search.
 4. **Founder's Name:** Tony Hoare
 
 ## Steps
