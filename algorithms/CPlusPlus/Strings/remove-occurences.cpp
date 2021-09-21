@@ -7,13 +7,16 @@ Description: A C++ program to remove occurence of characters of 2nd string from 
 #include <iostream>
 using namespace std;
 
-string removeChars(string s1, string s2) {
+string removeChars(string s1, string s2)
+{
 
     string out;
     //checking if the character of 2nd string is present in the 1st string
     //if not present, appending the character in the output string
-    for (char c: s1) {
-        if (s2.find(c) == string::npos) {
+    for (char c : s1)
+    {
+        if (s2.find(c) == string::npos)
+        {
             out += c;
         }
     }
@@ -21,7 +24,8 @@ string removeChars(string s1, string s2) {
 }
 
 //main starts
-int main() {
+int main()
+{
     string s1, s2;
     cout << "Enter string 1: \n";
     getline(cin, s1);
