@@ -6,37 +6,41 @@
 4. **Founder's Name:** Tony Hoare
 
 ## Steps
-<!--
-1. Create and build a max heap.
-2. Remove the root element and put at the end of the list. Put the last item of the tree at the vacant place.
-3. Reduce the size of the heap by 1.
-4. Heapify the root element again so that we have the highest element at root.
-5. Repeat this process until all the elements are sorted.
--->
+
+1. Consider the last element of the list as pivot.
+2. Define two variables i and j. Set i and j to first and last elements of the list.
+3. Increment i until list[i] > pivot then stop.
+4. Decrement j until list[j] < pivot then stop.
+5. If i < j then exchange list[i] and list[j].
+6. Repeat steps 3,4 and 5 until i > j.
+7. Exchange the pivot element with list[j] element.
+
 ## Example
-<!--
-**Given array : [4, 10, 3, 5, 1]**
 
-**1. Create a heap:** [4, 10, 3, 5, 1]
+**Given array : [10, 80, 30, 90, 40, 50, 70]**
 
-**2. Build a max heap:** [10, 5, 3, 4, 1]
+**Pivot (last element) : 70**
 
-**3. Remove the node:** [1, 5, 3, 4, 10]
+**1. 10 < 70 then i++ and swap(list[i],list[j]):** [10, 80, 30, 90, 40, 50, 70]
 
-**4. Build a max heap:** [5, 4, 3, 1, 10]
+**2. 80 < 70, then no actions needed:** [10, 80, 30, 90, 40, 50, 70]
 
-**5. Remove the node:** [1, 4, 3, 5, 10]
+**3. 30 < 70 then i++ and swap(list[i],list[j]):** [10, 30, 80, 90, 40, 50, 70]
 
-**6. Build a max heap:** [4, 1, 3, 5, 10]
+**4. 90 < 70, then no actions needed:** [10, 30, 80, 90, 40, 50, 70]
 
-**7. Remove the node:** [3, 1, 4, 5, 10]
+**5. 40 < 70 then i++ and swap(list[i],list[j]):** [10, 30, 40, 90, 80, 50, 70]
 
-**8. Already max heap:** [3, 1, 4, 5, 10]
+**6.  50 < 70 then i++ and swap(list[i],list[j]):** [10, 30, 40, 50, 80, 90, 70]
 
-**9. Remove the node:** [1, 3, 4, 5, 10]
+**7. Swap list[i+1] and pivot:** [10, 30, 40, 50, 70, 90, 80]
 
-**10. Sorted Array:** [1, 3, 4, 5, 10]
--->
+**8. Quick sort the left part of the pivot:** [10, 30, 40, 50]
+
+**8. Quick sort the right part of the pivot:** [70, 80, 90]
+
+**10. Sorted Array:** [10, 30, 40, 50, 70, 80, 90]
+
 
 ## Implementation
 
