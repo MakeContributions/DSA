@@ -37,7 +37,7 @@
 
 **8. Quick sort the left part of the pivot:** [10, 30, 40, 50]
 
-**8. Quick sort the right part of the pivot:** [70, 80, 90]
+**9. Quick sort the right part of the pivot:** [70, 80, 90]
 
 **10. Sorted Array:** [10, 30, 40, 50, 70, 80, 90]
 
