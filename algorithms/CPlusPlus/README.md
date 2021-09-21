@@ -93,6 +93,8 @@
 3. [String reversal](Strings/string-reverse.cpp)
 4. [String tokanisation](Strings/string-tokeniser.cpp)
 5. [Anagram check](Strings/anagram.cpp)
+6. [Print-first-letter-of-every-word](algorithms/CPlusPlus/Strings/print-alphabets.cpp)
+7. [Delete-alternate-characters](algorithms/CPlusPlus/Strings/delete-alternate-characters.cpp)
 
 ## Trees
 
