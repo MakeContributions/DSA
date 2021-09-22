@@ -93,6 +93,7 @@
 3. [String reversal](Strings/string-reverse.cpp)
 4. [String tokanisation](Strings/string-tokeniser.cpp)
 5. [Anagram check](Strings/anagram.cpp)
+6. [Remove occurences from string](algorithms/CPlusPlus/Strings/remove-occurences.cpp)
 
 ## Trees
 
