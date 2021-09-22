@@ -15,6 +15,7 @@
 11. [Remove Duplicates](Arrays/remove-duplicates.cpp)
 12. [Leaders In The Array](Arrays/leaders-in-array.cpp)
 13. [Elements appear thrice In The Array](Arrays/Elements_appears_thrice.cpp)
+14. [Maximum Difference](Arrays/maximum-difference.cpp)
 
 ## Dynamic-Programming
 
@@ -94,6 +95,7 @@
 3. [String reversal](Strings/string-reverse.cpp)
 4. [String tokanisation](Strings/string-tokeniser.cpp)
 5. [Anagram check](Strings/anagram.cpp)
+6. [Remove occurrences from string](algorithms/CPlusPlus/Strings/remove-occurrences.cpp)
 
 ## Trees
 
