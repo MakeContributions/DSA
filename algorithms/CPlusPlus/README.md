@@ -14,6 +14,7 @@
 10. [Quick Selection](Arrays/quick-select.cpp)
 11. [Remove Duplicates](Arrays/remove-duplicates.cpp)
 12. [Leaders In The Array](Arrays/leaders-in-array.cpp)
+13. [Elements appear thrice In The Array](Arrays/Elements_appears_thrice.cpp)
 
 ## Dynamic-Programming
 
