@@ -117,7 +117,7 @@ The programming should keep the naming convention rule of each programming langu
 
 | Programming Language | Users                                             |
 | -------------------- | ------------------------------------------------- |
-| C or C++             | @Arsenic-ATG, @UG-SEP, @aayushjain7               |
+| C or C++             | @Arsenic-ATG, @UG-SEP, @aayushjain7, @Ashborn-SM  |
 | Java                 | @TawfikYasser, @cyberwizard1001, @aayushjain7     |
 | C#                   | @ming-tsai                                        |
 | Go                   | @atin                                             |

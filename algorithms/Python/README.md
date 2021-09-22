@@ -54,6 +54,7 @@
 4. [Remove Duplicates from a String](strings/remove_duplicates_from_a_string.py)
 5. [First Non Repeating Character](strings/first_non_repeating_character.py)
 6. [Longest Common Subsequence](strings/longest_common_subsequence.py)
+7. [Unique Character](strings/unique_character.py)
 
 ## Dynamic Programming
 
