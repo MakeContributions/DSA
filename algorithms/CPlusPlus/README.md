@@ -63,9 +63,7 @@
 ## Stacks
 
 1. [Balancing Parenthesis](Stacks/balanced-parenthesis.cpp)
-
 2. [Reversing Stack](Stacks/reverse-stack.cpp)
-
 3. [Stack using Array](Stacks/stack-using-array.cpp)
 
 ## Sorting
@@ -93,8 +91,10 @@
 3. [String reversal](Strings/string-reverse.cpp)
 4. [String tokanisation](Strings/string-tokeniser.cpp)
 5. [Anagram check](Strings/anagram.cpp)
-6. [Delete alternate characters in string](algorithms/CPlusPlus/Strings/delete-alternate-characters.cpp)
-7. [First letter of every word](algorithms/CPlusPlus/Strings/print-alphabets.cpp)
+6. [Delete alternate characters in string](Strings/delete-alternate-characters.cpp)
+7. [First letter of every word](Strings/print-alphabets.cpp)
+8. [Remove occurrences from string](Strings/remove-occurrences.cpp)
+
 
 ## Trees
 
