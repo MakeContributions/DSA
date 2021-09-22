@@ -6,7 +6,7 @@ using namespace std;
 
 int maximumDifference(int a[], int n) {
 	int minVal = a[0];							//Initialized minimum value with the first element of the array.
-	int maxDiff = a[1] - a[0];					//Initialized maximum difference with the differnce between first and second value
+	int maxDiff = a[1] - a[0];					//Initialized maximum difference with the difference between first and second value
 	for (int j = 1; j < n; ++j) {
 		maxDiff = max(maxDiff, a[j] - minVal);  
 		minVal = min(minVal, a[j]);
