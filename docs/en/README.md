@@ -7,6 +7,7 @@
 - [Selection Sort](./Sorting/Selection-Sort.md)
 - [Insertion Sort](./Sorting/Insertion-Sort.md)
 - [Heap Sort](./Sorting/Heap-Sort.md)
+- [Quick Sort](./Sorting/Quick-Sort.md)
 
 ## Strings
 
