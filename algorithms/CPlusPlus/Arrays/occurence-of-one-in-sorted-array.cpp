@@ -26,7 +26,7 @@ using namespace std;
                 return mid;
             }
             //updating the high to mid-1
-            //beacuse the element at mid-1 index is not zero
+            //because the element at mid-1 index is not zero
             else if (a[mid]==1){
                 high=mid-1;
             }
