@@ -55,6 +55,7 @@
 6. [Quick Sort](sorting/quick-sort.java)
 7. [Selection Sort](sorting/selection-sort.java)
 8. [Shell Sort](sorting/shell-sort.java)
+9. [Cyclic Sort](sorting/cyclic-sort.java)
 
 ## Stacks
 

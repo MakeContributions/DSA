@@ -6,6 +6,7 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 1. [Bubble Sort](src/Sorts/bubble-sort.cs)
 2. [Insertion Sort](src/Sorts/insertion-sort.cs)
 3. [Selection Sort](src/Sorts/selection-sort.cs)
+4. [Counting Sort](src/Sorts/counting-sort.cs)
 
 ## Strings
 - [Palindrome](src/Strings/palindrome.cs)
@@ -16,3 +17,12 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 
 ## Maths
 - [Abundant Number](src/Maths/abundant-number.cs)
+
+## Queues
+- [Queue Implementation Using Two Stacks](src/Queues/queue-implementation-using-two-stacks.cs)
+
+## Recursion
+- [Factorial](src/Recursion/factorial.cs)
+
+## Graph
+- [Depth First Search](src/Graph/depth-first-search.cs)
