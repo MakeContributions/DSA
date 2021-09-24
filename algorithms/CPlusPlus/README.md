@@ -16,6 +16,7 @@
 12. [Leaders In The Array](Arrays/leaders-in-array.cpp)
 13. [Elements appear thrice In The Array](Arrays/Elements_appears_thrice.cpp)
 14. [Maximum Difference](Arrays/maximum-difference.cpp)
+15. [Occurrence of one in sorted array](algorithms/CPlusPlus/Arrays/occurence-of-one-in-sorted-array.cpp)
 
 ## Dynamic-Programming
 
