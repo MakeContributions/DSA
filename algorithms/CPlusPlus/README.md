@@ -96,6 +96,8 @@
 4. [String tokanisation](Strings/string-tokeniser.cpp)
 5. [Anagram check](Strings/anagram.cpp)
 6. [Remove occurrences from string](algorithms/CPlusPlus/Strings/remove-occurrences.cpp)
+7. [Delete alternate characters in a string](algorithms/CPlusPlus/Strings/delete-alternate-characters.cpp)
+8. [Print first letter of every word](algorithms/CPlusPlus/Strings/print-first-letter.cpp)
 
 ## Trees
 
