@@ -14,6 +14,8 @@
 10. [Quick Selection](Arrays/quick-select.cpp)
 11. [Remove Duplicates](Arrays/remove-duplicates.cpp)
 12. [Leaders In The Array](Arrays/leaders-in-array.cpp)
+13. [Elements appear thrice In The Array](Arrays/Elements_appears_thrice.cpp)
+14. [Maximum Difference](Arrays/maximum-difference.cpp)
 
 ## Dynamic-Programming
 
@@ -21,6 +23,7 @@
 2. [Longest Common Substring](Dynamic-Programming/longest-common-substring.cpp)
 3. [0/1-knapsack](Dynamic-Programming/01-knapsack.cpp)
 4. [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
+5. [Edit Distance](Dynamic-Programming/edit-distance.cpp)
 
 ## Graphs
 
@@ -45,6 +48,8 @@
 8. [Reorder List](Linked-Lists/Reorder-List.cpp)
 9. [Detecting cycle in a singly linked list](Linked-Lists/Cycle-Detection.cpp)
 10. [Find Merge Point of two singly linked list](Linked-Lists/Find-Merge-Point.cpp)
+11. [Segregate Even Odd Nodes of linked list](Linked-Lists/segregate-even-odd-nodes-of-linked-list.cpp)
+12. [Remove Duplicate in Sorted linked list](Linked-Lists/remove-duplicates-in-sorted-linked-list.cpp)
 
 ## Searching
 
@@ -81,6 +86,7 @@
 12. [Binary Insertion Sort](Sorting/binary-insertion-sort.cpp)
 13. [Merge Sort](Sorting/merge-sort.cpp)
 14. [Wave Sort](Sorting/wave-sort.cpp)
+15. [Cycle Sort](Sorting/cycle-sort.cpp)
 
 ## Strings
 
@@ -89,6 +95,7 @@
 3. [String reversal](Strings/string-reverse.cpp)
 4. [String tokanisation](Strings/string-tokeniser.cpp)
 5. [Anagram check](Strings/anagram.cpp)
+6. [Remove occurrences from string](algorithms/CPlusPlus/Strings/remove-occurrences.cpp)
 
 ## Trees
 
@@ -103,6 +110,7 @@
 9. [Min Heap](Trees/min-heap.cpp)
 10. [Finding the height of a given tree](Trees/Height-Of-Tree.cpp)
 11. [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
+12. [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
 
 # Maths
 
@@ -110,9 +118,14 @@
 2. [Prime Number](Maths/prime-check.cpp)
 3. [Prime Sieve](Maths/prime-sieve.cpp)
 4. [Fibonacci Series](Maths/fibonaccci-series.cpp)
+5. [Armstrong Number](Maths/armstrong.cpp)
 
 # Recursion
 
 1. [Tower of Hanoi](Recursion/towerofHanoi.cpp)
 2. [Factorial](Recursion/factorial.cpp)
 3. [Permutation](Recursion/permutation.cpp)
+4. [GCD/HCF of two numbers](Recursion/GCD-of-two-numbers.cpp)
+5. [Sum of all elements of an array](Recursion/Sum-of-all-elements-in-an-array.cpp)
+6. [Decimal number to Binary conversion](Recursion/decimal-to-binary-conversion.cpp)
+7. [Sum of digits of a decimal integer](Recursion/sum-of-digits-of-an-integer.cpp)

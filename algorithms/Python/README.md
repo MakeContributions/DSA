@@ -19,6 +19,8 @@
 ## Recursion
 
 1. [Factorial](recursion/factorial.py)
+2. [n-th Fibonacci number](recursion/n-th_fibonacci_number.py)
+3. [Recursive Insertion Sort](recursion/recursive_insertion_sort.py)
 
 ## Scheduling
 
@@ -52,6 +54,7 @@
 4. [Remove Duplicates from a String](strings/remove_duplicates_from_a_string.py)
 5. [First Non Repeating Character](strings/first_non_repeating_character.py)
 6. [Longest Common Subsequence](strings/longest_common_subsequence.py)
+7. [Unique Character](strings/unique_character.py)
 
 ## Dynamic Programming
 
@@ -68,3 +71,9 @@
 ## Graph
 
 1. [Simple Graph](Graph/graph.py)
+
+
+## Trees
+
+1. [Binary Tree](trees/binary_tree.py)
+
