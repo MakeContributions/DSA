@@ -28,9 +28,12 @@ int findBinCoeff(int n, int r)
 int main()
 {
 	int n;
+	cout << "Enter the value of n: ";
 	cin >> n;
 	int r;
+	cout << "Enter the value of r: ";
 	cin >> r;
+	cout << "The Binomial Coefficient is: "; 
 	cout << findBinCoeff(n, r) << endl;
 	return 0;
 }
