@@ -18,7 +18,7 @@ class LinkedList:
         node.next = self.head
         self.head = node
 
-     # Function to print the list from begining
+     # Function to print the list from beginning
     def printList(self):
         temp = self.head
         while temp:
