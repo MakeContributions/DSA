@@ -1,6 +1,9 @@
 # C#
 For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/)
 
+## Arrays
+1. [Single Number](src/Arrays/single-number.cs)
+
 ## Sorts
 
 1. [Bubble Sort](src/Sorts/bubble-sort.cs)
