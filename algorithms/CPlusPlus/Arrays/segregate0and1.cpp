@@ -22,10 +22,10 @@ void segregate0and1(int arr[], int n) {
     //for remaining indexes putting 1 in the array
     for(int j=0;j<n;j++){
       if(j<z){
-               arr[j]=0;
+        arr[j]=0;
       }
       else{
-               arr[j]=1;
+        arr[j]=1;
       }
     }       
 }
