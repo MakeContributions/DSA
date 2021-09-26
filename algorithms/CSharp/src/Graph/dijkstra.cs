@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Algorithms.Graph
 {
@@ -54,7 +53,7 @@ namespace Algorithms.Graph
                 {
                     int u = pq.Dequeue();
 
-                    if(visited[u] == true)
+                    if(visited[u] == true || !_edges.ContainsKey(u))
                     {
                         continue;
                     }
@@ -114,12 +113,12 @@ namespace Algorithms.Graph
 
         public static void Main()
         {
-            var result = RunDijkstra(5, false, 1, 5, new List<Tuple<int, int, int>> {
+            var result = RunDijkstra(5, true, 1, 5, new List<Tuple<int, int, int>> {
                 new Tuple<int, int, int>(1, 2, 2),
-                new Tuple<int, int, int>(2, 5, 5),
+                new Tuple<int, int, int>(2, 5, 8),
                 new Tuple<int, int, int>(2, 3, 4),
-                new Tuple<int, int, int>(1, 4, 1),
-                new Tuple<int, int, int>(4, 3, 3),
+                new Tuple<int, int, int>(4, 1, 1),
+                new Tuple<int, int, int>(3, 4, 3),
                 new Tuple<int, int, int>(3, 5, 1)
             });
 
