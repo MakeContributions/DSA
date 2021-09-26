@@ -11,6 +11,7 @@
 
 1. [Doubly](linked_lists/doubly.py)
 2. [Singly](linked_lists/singly.py)
+3. [Reverse List](linked_lists/reverse-linkedlist.py)
 
 ## Multiplication
 
