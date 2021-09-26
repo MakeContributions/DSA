@@ -7,6 +7,7 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 2. [Insertion Sort](src/Sorts/insertion-sort.cs)
 3. [Selection Sort](src/Sorts/selection-sort.cs)
 4. [Counting Sort](src/Sorts/counting-sort.cs)
+5. [Merge Sort](src/Sorts/merge-sort.cs)
 
 ## Strings
 - [Palindrome](src/Strings/palindrome.cs)

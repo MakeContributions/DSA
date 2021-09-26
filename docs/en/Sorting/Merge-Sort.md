@@ -24,6 +24,7 @@ Sorted array is
 - [C++](../../../algorithms/CPlusPlus/Sorting/merge-sort.cpp)
 - [JavaScript](../../../algorithms/JavaScript/src/sorting/merge-sort.js)
 - [Python](../../../algorithms/Python/sorting/merge_sort.py)
+- [C#](../../../algorithms/CSharp/src/Sorts/merge-sort.cs)
 
 ## Video URL
 
