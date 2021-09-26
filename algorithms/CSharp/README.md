@@ -28,3 +28,4 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 ## Graph
 - [Depth First Search](src/Graph/depth-first-search.cs)
 - [Kruskals Algorithm to Find Minimum Spanning Tree](src/Graph/kruskals-algorithm.cs)
+- [Dijkstras Algorithm to Find Shortest Path](src/Graph/dijkstra.cs)
