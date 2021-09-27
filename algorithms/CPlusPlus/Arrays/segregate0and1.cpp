@@ -1,9 +1,13 @@
 /*
 Description: A program to segregate the array of 0s and 1s
 
+<<<<<<< HEAD
 Approach: Counting the number of 0s present in the array and 
 saving it in variable z. For the first z indexes, putting 0 and 
 for the remaining indexes putting 1.
+=======
+Approach: Counting the number of 0s present in the array and saving it in variable z. For the first z indexes, putting 0 and for the remaining indexes putting 1.
+>>>>>>> 22b8d2c9561938a6597c9e466530684f3e68801a
 
 Time complexity: O(n)
 */
