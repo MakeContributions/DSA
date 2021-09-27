@@ -49,7 +49,6 @@ int main()
   for (int i = 0; i < n; i++)
   {
     cin >> v[i];
-    v.push_back(v[i]);
   }
   //calling the function
   segregate0and1(v, n);
