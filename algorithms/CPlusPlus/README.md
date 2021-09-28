@@ -123,7 +123,8 @@
 3. [Prime Sieve](Maths/prime-sieve.cpp)
 4. [Fibonacci Series](Maths/fibonaccci-series.cpp)
 5. [Armstrong Number](Maths/armstrong.cpp)
-6. [Reverse digit of a number](Maths/reverse-digits.cpp)
+6. [Palindrome](Maths/palindrome.cpp)
+7. [Reverse digit of a number](Maths/reverse-digits.cpp)
 
 # Recursion
 

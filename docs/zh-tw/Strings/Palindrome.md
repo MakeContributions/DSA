@@ -20,6 +20,7 @@
 
 ## 程式碼
 - [C](../../../algorithms/C/strings/palindrome.c)
+- [C++](../../../algorithms/CPlusPlus/Maths/palindrome.cpp)
 - [C#](../../../algorithms/CSharp/src/Strings/palindrome.cs)
 - [Haskell](../../../algorithms/Haskell/strings/palindrome.hs)
 - [Java](../../../algorithms/Java/strings/palindrome.java)
