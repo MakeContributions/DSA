@@ -29,11 +29,12 @@ int main()
 {
 	int n;
 	cout << "Enter the value of n: ";
-	cin >> n;
+	cin >> n; // Eg value of n: 6
 	int r;
 	cout << "Enter the value of r: ";
-	cin >> r;
-	cout << "The Binomial Coefficient is: "; 
-	cout << findBinCoeff(n, r) << endl;
+	cin >> r; // Eg value of r: 2
+	// C(6,2) = 6!/(4!*2!) = 15
+	cout << "The Binomial Coefficient is: ";
+	cout << findBinCoeff(n, r) << endl; //Eg output: 15
 	return 0;
 }
