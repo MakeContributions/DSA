@@ -32,16 +32,16 @@ class SinglyLinkedList {
     return data;
   }
 
-  insertAtEnd(data){
+  insertAtEnd(data) {
     const newNode = new Node(data);
-    if(!this.head){
+    if (!this.head) {
       this.head = newNode;
       return this;
     }
 
     let currentNode = this.head;
 
-    while(currentNode.next){
+    while (currentNode.next) {
       currentNode = currentNode.next;
     }
 
