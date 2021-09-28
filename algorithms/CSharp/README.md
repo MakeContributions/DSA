@@ -1,12 +1,16 @@
 # C#
 For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/)
 
+## Arrays
+1. [Single Number](src/Arrays/single-number.cs)
+
 ## Sorts
 
 1. [Bubble Sort](src/Sorts/bubble-sort.cs)
 2. [Insertion Sort](src/Sorts/insertion-sort.cs)
 3. [Selection Sort](src/Sorts/selection-sort.cs)
 4. [Counting Sort](src/Sorts/counting-sort.cs)
+5. [Merge Sort](src/Sorts/merge-sort.cs)
 
 ## Strings
 - [Palindrome](src/Strings/palindrome.cs)
@@ -27,3 +31,4 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 ## Graph
 - [Depth First Search](src/Graph/depth-first-search.cs)
 - [Kruskals Algorithm to Find Minimum Spanning Tree](src/Graph/kruskals-algorithm.cs)
+- [Dijkstras Algorithm to Find Shortest Path](src/Graph/dijkstra.cs)
