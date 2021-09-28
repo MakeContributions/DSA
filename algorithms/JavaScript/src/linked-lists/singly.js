@@ -32,6 +32,24 @@ class SinglyLinkedList {
     return data;
   }
 
+  insertAtEnd(data){
+    const newNode = new Node(data);
+    if(!this.head){
+      this.head = newNode;
+      return this;
+    }
+
+    let currentNode = this.head;
+
+    while(currentNode.next){
+      currentNode = currentNode.next;
+    }
+
+    currentNode.next = newNode;
+
+    return this;
+  }
+
   printList() {
     // if head is null then list is empty
     if (this.head == null) {
@@ -52,4 +70,6 @@ array.insertAtHead(1);
 array.insertAtHead('xyz');
 array.insertAtHead(1.1);
 array.removeAtHead();
+array.insertAtEnd(99);
 array.printList();
+
