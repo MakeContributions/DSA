@@ -68,3 +68,7 @@
 ## Trees
 
 1. [Binary Tree](trees/binary_tree.py)
+
+## Graphs
+
+1. [Simple Graph](graphs/graph.py)
