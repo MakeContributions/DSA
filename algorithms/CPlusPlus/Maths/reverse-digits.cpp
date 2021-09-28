@@ -10,28 +10,31 @@ Dividing the number by 10 at every iteration.
 #include <iostream>
 using namespace std;
 
-//function 
-long  reverse_digit(long  n) {
-	//result variable
-  long num=0;
-  while(n!=0) {
-    //storing the last digit of n in temp varaible
-    long temp=n%10;
-    //multiplying the num variable into 10 and adding temp value to it
-    num=num*10+temp;
-    //Dividing n by 10 at each iteration
-    n=n/10;
-  }
-  return num;
+//function
+long reverse_digit(long n)
+{
+    //result variable
+    long num = 0;
+    while (n != 0)
+    {
+        //storing the last digit of n in temp variable
+        long temp = n % 10;
+        //multiplying the num variable into 10 and adding temp value to it
+        num = num * 10 + temp;
+        //Dividing n by 10 at each iteration
+        n = n / 10;
+    }
+    return num;
 }
 
 //main starts
-int main() {
-  cout << "Enter a number\n";
-  long n;
-  cin>>n;
-  cout<<"Reverse number is: ";
-  cout<<reverse_digit(n);
+int main()
+{
+    cout << "Enter a number\n";
+    long n;
+    cin >> n;
+    cout << "Reverse number is: ";
+    cout << reverse_digit(n);
 }
 
 /*
