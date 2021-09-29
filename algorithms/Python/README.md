@@ -11,6 +11,7 @@
 
 1. [Doubly](linked_lists/doubly.py)
 2. [Singly](linked_lists/singly.py)
+3. [Reverse List](linked_lists/reverse-linkedlist.py)
 
 ## Multiplication
 
@@ -19,6 +20,8 @@
 ## Recursion
 
 1. [Factorial](recursion/factorial.py)
+2. [n-th Fibonacci number](recursion/n-th_fibonacci_number.py)
+3. [Recursive Insertion Sort](recursion/recursive_insertion_sort.py)
 
 ## Scheduling
 
@@ -52,6 +55,7 @@
 4. [Remove Duplicates from a String](strings/remove_duplicates_from_a_string.py)
 5. [First Non Repeating Character](strings/first_non_repeating_character.py)
 6. [Longest Common Subsequence](strings/longest_common_subsequence.py)
+7. [Unique Character](strings/unique_character.py)
 
 ## Dynamic Programming
 
@@ -60,3 +64,7 @@
 3. [N-th Term Of Fibonacci Series](dynamic_programming/fibonacci_series_nth_term.py)
 4. [Catalan Sequence](dynamic_programming/catalan_sequence.py)
 5. [0/1 Knapsack Problem](dynamic_programming/knapsack.py)
+
+## Trees
+
+1. [Binary Tree](trees/binary_tree.py)
