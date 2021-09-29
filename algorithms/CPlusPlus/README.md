@@ -122,6 +122,7 @@
 2. [Prime Number](Maths/prime-check.cpp)
 3. [Prime Sieve](Maths/prime-sieve.cpp)
 4. [Fibonacci Series](Maths/fibonaccci-series.cpp)
+5. [Binomial Coefficient](Maths/binomial-coefficient.cpp)
 5. [Armstrong Number](Maths/armstrong.cpp)
 6. [Palindrome](Maths/palindrome.cpp)
 7. [Reverse digit of a number](Maths/reverse-digits.cpp)
