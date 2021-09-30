@@ -68,3 +68,4 @@
 ## Trees
 
 1. [Binary Tree](trees/binary_tree.py)
+2. [Binary Search Tree](trees/binary-search-tree.py)
