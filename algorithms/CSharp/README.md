@@ -6,6 +6,7 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 
 ## Number Theory
 1. [Big Mod Algorithm](src/Number-Theory/big-mod.cs)
+2. [Sieve of Eratosthenes](src/Number-Theory/sieve-of-eratosthenes.cs)
 
 ## Sorts
 
