@@ -35,6 +35,7 @@ for(int i=0;i<n;i++){
   cin>>v[i];
 }
 cout<<"\nMissing number is: "<<missingNumber(v);
+return 0;
 }
 
 /*
