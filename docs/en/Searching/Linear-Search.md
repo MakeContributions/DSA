@@ -39,7 +39,7 @@ Element to search: **50**
 
 Procedure:
 Step 1: i = 0
-Step 2: Camparing A[i] and Element to search, if equal numbers return i, else i = i + 1.
+Step 2: Comparing A[i] and Element to search, if equal numbers return i, else i = i + 1.
         **comparing 10 and 50 ->False**, i = i + 1
 Step 3: **comparing 20 and 50 ->False**, i = i + 1
 Step 4: **comparing 30 and 50 ->False**, i = i + 1
