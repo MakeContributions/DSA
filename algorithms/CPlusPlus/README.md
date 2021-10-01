@@ -126,6 +126,8 @@
 5. [Armstrong Number](Maths/armstrong.cpp)
 6. [Palindrome](Maths/palindrome.cpp)
 7. [Reverse digit of a number](Maths/reverse-digits.cpp)
+8. [Missing number](Maths/missing-number.cpp)
+9. [Factorial of a number](Maths/factorial.cpp)
 
 # Recursion
 
