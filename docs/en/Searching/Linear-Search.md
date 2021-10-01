@@ -1,11 +1,10 @@
 # Linear Search
 
 **linear search**, also known as **Sequential search** is a method for finding an element within a list. A linear search sequentially checks each element of the list until it finds an element that matches the target value. If the algorithm reaches the end of the list, the search terminates unsuccessfully.
-1. Time Complexity  : O(n)
-2. Space Complexity : O(1)
-3. Applications     : practical when the list has only a few elements,
-                      when performing a single search in an un-ordered list.
-4. Founder's Name   : Anatole Beck and Donald J. Newman (1970)
+1. Time Complexity: O(n)
+2. Space Complexity: O(1)
+3. Applications: practical when the list has only a few elements when performing a single search in an unordered list.
+4. Founder's Name: Anatole Beck and Donald J. Newman (1970)
 Linear search is usually very **simple to implement**.
 
 ## Steps/Algorithm: 
@@ -23,14 +22,15 @@ Step 8: Exit
 ## Pseudocode
 
 **procedure linear_search (list, value)**
-
+```
+start procedure
    for each item in the list
       if match item == value
          return the item's location
       end if
    end for
-
 end procedure
+```
 
 ## Example
 Input A[]: **10,20,30,40,50,60,70,80**
