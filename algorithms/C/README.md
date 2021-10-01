@@ -21,6 +21,9 @@
 - [Reverse a Linked List](linked-lists/reverse-linkedlists.c)
 - [Doubly Linked List](linked-lists/doubly-linked-list.c)
 
+## Maths
+- [Palindrome Number](Maths/palindrome.c)
+
 ## Queues
 - [Double Ended Queue using array](queues/double-ended-queue-using-array.c)
 
