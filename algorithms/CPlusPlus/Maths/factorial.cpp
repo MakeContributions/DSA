@@ -29,6 +29,7 @@ int main() {
   long n;
   cin>>n;
   cout<<"factorial is: "<<factorial(n);
+  return 0;
 }
 
 /*
