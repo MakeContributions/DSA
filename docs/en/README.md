@@ -16,6 +16,7 @@
 ## Searching
 
 - [Binary Search](./Searching/Binary-Search.MD)
+- [Linear Search](./Searching/Linear-Search.md)
 
 ## Others
 
