@@ -61,7 +61,7 @@ Output: 2
 Example 2:
 Input: nums = [1,3,5,6], target = 2
 Output: 1
-(Since the target element is not present in the nums array, it will return the positon where the target element can be inserted)
+(Since the target element is not present in the nums array, it will return the position where the target element can be inserted)
 We can insert 2 at position 1 - [1,2,3,5,6]
 
 */
