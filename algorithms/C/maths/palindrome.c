@@ -1,3 +1,6 @@
+// This program is used to calculate palindrome number in C
+// a palindrome number is a number which is same on reversing that number
+
 #include <stdio.h>					//header 
 int main() {						//main function
 	int num, rev=0, r, s;			//define variables
@@ -17,3 +20,9 @@ int main() {						//main function
 	}
 	return 0; 						//returning main function
 }
+
+//	sample input	||	sample output
+//	    121 	||	Palindrome
+//	    438		||	Non-palindrome
+//	    787		||	Palindrome
+//	    975		||	Non-Palindrome
