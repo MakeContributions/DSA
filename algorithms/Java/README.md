@@ -74,6 +74,7 @@
 5. [Split String](strings/SplitString.java)
 6. [Tokenizer](strings/tokenizer.java)
 7. [Anagram](strings/anagram.java)
+8. [Longest Common Substring](strings/Longest_common_substring.java)
 
 ## Trees
 
