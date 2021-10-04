@@ -57,7 +57,6 @@ class SinglyLinkedList {
   // insert the new node;
   // data: value associated with new node.
   insertAfterByIndex(idx, data) {
-    
     let afterNode;
     let newNode;
 
