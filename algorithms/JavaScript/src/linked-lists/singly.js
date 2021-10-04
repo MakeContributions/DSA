@@ -10,7 +10,7 @@ class SinglyLinkedList {
     this.head = null;
   }
 
-  // Will return the element at that particular index in linklist starting 
+  // Will return the element at that particular index in linklist starting
   // from head.
   getByIndex(idx) {
     if (!this.head) {
@@ -53,15 +53,15 @@ class SinglyLinkedList {
     }
   }
 
-  // idx : index of the node after which you want to 
+  // idx : index of the node after which you want to
   // insert the new node;
   // data: value associated with new node.
   insertAfterByIndex(idx, data) {
-    let beforeNode;
+    
     let afterNode;
     let newNode;
 
-    beforeNode = this.getByIndex(idx);
+    const beforeNode = this.getByIndex(idx);
 
     if (beforeNode) {
       afterNode = beforeNode.next;
@@ -78,7 +78,7 @@ class SinglyLinkedList {
 
   // idx: index of the node which you want to remove from linklist.
   removeFromMiddle(idx) {
-    let beforeNode = this.getByIndex(idx - 1);
+    const beforeNode = this.getByIndex(idx - 1);
     let afterNode;
     let nodeToRemove;
 
