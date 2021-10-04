@@ -100,6 +100,7 @@
 6. [Remove occurrences from string](Strings/remove-occurrences.cpp)
 7. [Delete alternate characters in a string](Strings/delete-alternate-characters.cpp)
 8. [Print first letter of every word](Strings/print-first-letter.cpp)
+9. [Display longest name in a string array](Strings/longest-name.cpp)
 
 ## Trees
 
@@ -123,11 +124,11 @@
 3. [Prime Sieve](Maths/prime-sieve.cpp)
 4. [Fibonacci Series](Maths/fibonaccci-series.cpp)
 5. [Binomial Coefficient](Maths/binomial-coefficient.cpp)
-5. [Armstrong Number](Maths/armstrong.cpp)
-6. [Palindrome](Maths/palindrome.cpp)
-7. [Reverse digit of a number](Maths/reverse-digits.cpp)
-8. [Missing number](Maths/missing-number.cpp)
-9. [Factorial of a number](Maths/factorial.cpp)
+6. [Armstrong Number](Maths/armstrong.cpp)
+7. [Palindrome](Maths/palindrome.cpp)
+8. [Reverse digit of a number](Maths/reverse-digits.cpp)
+9. [Missing number](Maths/missing-number.cpp)
+10. [Factorial of a number](Maths/factorial.cpp)
 
 # Recursion
 
