@@ -1,5 +1,5 @@
 /*
-    Program to covert a infix expression to postfix expression a.k.a Inverted Polish Notation.
+    Program to convert a infix expression to postfix expression a.k.a Inverted Polish Notation.
     INFIX NOTATION :  An infix expression is an expression in which operators (+, -, *, /) are written between the two operands.
     POSTFIX NOTATION : The postfix operator also contains operator and operands. In the postfix expression, the operator is written after the operand.
 */
