@@ -20,7 +20,7 @@ int searchInsert(vector<int>& nums, int target) {
     int end=nums.size()-1;
     while(start<=end){
         //calculating mid element
-        int mid = (start+end)/2;
+        int mid = start + (end-start)/2;
         //if target found, return the index
         if(nums[mid]==target){
             return mid;
