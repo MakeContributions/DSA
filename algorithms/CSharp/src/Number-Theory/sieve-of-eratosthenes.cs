@@ -7,7 +7,7 @@ namespace Algorithms.NumberTheory
     public class SieveOfEratosthenes
     {
         // returns all the prime numbers from 1 to max
-        public static List<int> PrimeGenerator(int max)
+        public static List<int> GeneratePrimeNumbers(int max)
         {
             List<bool> isPrime = Enumerable.Repeat(true, max + 1).ToList();
 
@@ -39,7 +39,7 @@ namespace Algorithms.NumberTheory
 
         public static void Main()
         {
-            List<int> primeNumbers = PrimeGenerator(100);
+            List<int> primeNumbers = GeneratePrimeNumbers(100);
             Console.WriteLine(string.Join(", ", primeNumbers));
         }
     }
