@@ -101,6 +101,7 @@
 6. [Remove occurrences from string](Strings/remove-occurrences.cpp)
 7. [Delete alternate characters in a string](Strings/delete-alternate-characters.cpp)
 8. [Print first letter of every word](Strings/print-first-letter.cpp)
+9. [Display longest name in a string array](Strings/longest-name.cpp)
 
 ## Trees
 
