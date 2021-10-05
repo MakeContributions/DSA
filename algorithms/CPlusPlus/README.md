@@ -67,10 +67,9 @@
 ## Stacks
 
 1. [Balancing Parenthesis](Stacks/balanced-parenthesis.cpp)
-
 2. [Reversing Stack](Stacks/reverse-stack.cpp)
-
 3. [Stack using Array](Stacks/stack-using-array.cpp)
+4. [Infix to postfix expression conversion](Stacks/infix-to-postfix.cpp)
 
 ## Sorting
 
