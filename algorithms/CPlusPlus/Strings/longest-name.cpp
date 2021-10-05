@@ -35,6 +35,7 @@ int main() {
   //calculating size of the array
   int n = sizeof(names) / sizeof(names[0]);
   cout << "The longest string in the array is: " << longest(names, n);
+  return 0;
 }
 
 /*
