@@ -73,6 +73,7 @@ int main()
             id--; //changing to zero base
             int initial = v[id];
             f.update(id + 1, u - initial); //updating the delta
+            v[id] = u;
         }
         else
         {
