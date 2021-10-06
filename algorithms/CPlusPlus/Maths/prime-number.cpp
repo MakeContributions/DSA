@@ -23,9 +23,12 @@ int main() { //main function
   }
   return 0; // returning from main function
 }
+
 //	sample input   ||	sample output
 //	      1        ||        Nom-Prime
 //	      2        ||          Prime
 //            3        ||          Prime
 //	      4        ||        Non-Prime
 //	      5        || 	   Prime
+
+// time complexity of this program is O(n).
