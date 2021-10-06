@@ -1,10 +1,9 @@
-
 // This program is used to calculate palindrome number in C
 // a palindrome number is a number which is same on reversing that number
 
 #include <stdio.h>		//header
-int main ()  //main function
-{				
+int main ()				//main function
+{
   int num, rev = 0, r, s;	//define variables
   printf (" enter the number: ");
   scanf ("%d", &num);		// taking input
