@@ -7,6 +7,8 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 ## Number Theory
 1. [Big Mod Algorithm](src/Number-Theory/big-mod.cs)
 2. [Sieve of Eratosthenes](src/Number-Theory/sieve-of-eratosthenes.cs)
+3. [Bitwise Sieve of Eratosthenes](src/Number-Theory/bitwise-sieve-of-eratosthenes.cs)
+
 
 ## Sorts
 
@@ -36,3 +38,4 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 - [Depth First Search](src/Graph/depth-first-search.cs)
 - [Kruskals Algorithm to Find Minimum Spanning Tree](src/Graph/kruskals-algorithm.cs)
 - [Dijkstras Algorithm to Find Shortest Path](src/Graph/dijkstra.cs)
+- [Floyd Warshalls Algorithm to Find All Pair Shortest Path](src/Graph/floyd-warshall-algorithm.cs)
