@@ -18,8 +18,6 @@ class AWQ{
 	for (int i = 0; i < NO_OF_CHARS; i++)
 		badchar[i] = -1;
 
-	// Fill the actual value of last occurrence
-	// of a character (indices of table are ascii and values are index of occurence)
 	for (int i = 0; i < size; i++)
 		badchar[(int) str[i]] = i;
 	}
@@ -38,9 +36,7 @@ class AWQ{
 		for given pattern */
 	badCharHeuristic(pat, m, badchar);
 
-	int s = 0; // s is shift of the pattern with
-				// respect to text
-	//there are n-m+1 potential allignments
+	int s = 0;
 	while(s <= (n - m))
 	{
 		int j = m-1;
