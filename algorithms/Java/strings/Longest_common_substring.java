@@ -54,14 +54,14 @@ class GFG {
 		String Y = "abbabaabcabcd";
 		int m = X.length();
 		int n = Y.length();
-		System.out.println(LCSubStr(X.toCharArray(), Y.toCharArray(), m, n)); //Output: 5 -> (The common subtring is 'abaab')
+		System.out.println(LCSubStr(X.toCharArray(), Y.toCharArray(), m, n));
 		
 		// Test 2:
 		String X = "abcdefgh";
 		String Y = "abaabcfg";
 		int m = X.length();
 		int n = Y.length();
-		System.out.println(LCSubStr(X.toCharArray(), Y.toCharArray(), m, n)); //Output: 5 -> (The common subtring is 'abc')
+		System.out.println(LCSubStr(X.toCharArray(), Y.toCharArray(), m, n));
 	}
 }
 // Time Complexity -> O(m*n)
