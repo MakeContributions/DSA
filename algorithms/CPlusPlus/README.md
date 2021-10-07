@@ -131,6 +131,7 @@
 9. [Missing number](Maths/missing-number.cpp)
 10. [Factorial of a number](Maths/factorial.cpp)
 11. [Prime-number](Maths/prime-number.cpp)
+12. [Segmented Sieve](Maths/segmented-sieve-range.cpp)
 
 # Recursion
 
