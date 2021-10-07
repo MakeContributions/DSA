@@ -1,5 +1,5 @@
-//given two matrix of sizes n*m and n1*m1 
-//find multiplication of the two matrix and print it
+//given two matrices of sizes n*m and n1*m1 
+//find multiplication of the two matrices and print it
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -30,7 +30,7 @@ int main()
     }
     if(m!=n1)
     {
-        //cout<<"Multiplication of the matrices is not possible";
+        cout<<"Multiplication of the matrices is not possible";
     }
     else
     {
