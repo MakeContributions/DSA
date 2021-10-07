@@ -56,3 +56,10 @@ int main()
     cout<<mp.size();
     return 0;
 }
+//INPUT
+//5 3
+//1 2
+//2 3
+//4 5
+//OUTPUT
+//Total Number of Connected Components are - 2
