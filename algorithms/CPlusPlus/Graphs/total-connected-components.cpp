@@ -63,3 +63,7 @@ int main()
 //4 5
 //OUTPUT
 //Total Number of Connected Components are - 2
+//TIME COMPLEXITY OF THE PROGRAM
+//O(V+E)
+//where V is number of vertices
+//E is number of edges
