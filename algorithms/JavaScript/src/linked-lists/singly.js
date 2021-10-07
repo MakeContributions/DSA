@@ -152,6 +152,28 @@ class SinglyLinkedList {
     return returnNode;
   }
 
+  rotate() {
+    if (!this.head) {
+      return;
+    }
+
+    let currentNode = this.head;
+    let previousNode = null;
+    let tempNextRefNode;
+
+    while (currentNode) {
+      tempNextRefNode = currentNode.next;
+      currentNode.next = previousNode;
+
+      previousNode = currentNode;
+      currentNode = tempNextRefNode;
+    }
+
+    this.head = previousNode;
+
+    return this;
+  }
+
   printList() {
     // if head is null then list is empty
     if (this.head == null) {
