@@ -44,7 +44,8 @@
 2. [Jump Search](searching/jump-search.java)
 3. [Linear Search](searching/linear-search.java)
 4. [Allocate minimum number of pages](searching/allocate-min-pages.java)
-5. [Interpolation Search](searching/interpolation-search.java)
+5. [Exponential Search](searching/Exponential-search.java)
+6. [Interpolation Search](searching/interpolation-search.java)
 
 ## Sorting
 
