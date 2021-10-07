@@ -8,7 +8,7 @@ char* longest_common_subsequence(char *string1, char *string2);
 
 int main() 
 {
-    /* Example: Finding longest common subsequnce of folowing Strings
+    /* Example: Finding longest common subsequence of following Strings
         "Hello World! Ciao Mondo! Hei Maailma!" 
         and "Bonjour Le Monde! Hei Maailma! Ciao Mondo!" */
     
@@ -26,7 +26,7 @@ to the longest common subsequence */
 char* longest_common_subsequence(char *string1, char *string2)
 {
     int len_of_longest = 0; //length of the currently longest common subsequence
-    int index_in_current_subsequence = 0; //index for iteration throgh a common subsequence
+    int index_in_current_subsequence = 0; //index for iteration through a common subsequence
     char *pointer_to_longest; //pointer to the longest common subsequence inside string1
     char *original_string2 = string2; //copy of string2
 
