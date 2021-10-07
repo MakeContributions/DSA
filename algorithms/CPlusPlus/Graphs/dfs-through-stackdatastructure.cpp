@@ -38,3 +38,13 @@ int main()
     }
     return 0;
 }
+//INPUT
+//6 5
+//1 2 
+//2 6 
+//1 3 
+//3 4 
+//3 5 
+//OUTPUT
+//The dfs traversal is 
+//1 3 5 4 2 6 
