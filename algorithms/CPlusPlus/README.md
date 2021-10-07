@@ -117,7 +117,7 @@
 10. [Finding the height of a given tree](Trees/Height-Of-Tree.cpp)
 11. [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
 12. [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
-
+13. [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
 # Maths
 
 1. [Kaprekar Number](Maths/Kaprekar-number.cpp)
