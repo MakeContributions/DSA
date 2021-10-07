@@ -132,7 +132,6 @@
 10. [Factorial of a number](Maths/factorial.cpp)
 11. [Prime-number](Maths/prime-number.cpp)
 
-
 # Recursion
 
 1. [Tower of Hanoi](Recursion/towerofHanoi.cpp)
