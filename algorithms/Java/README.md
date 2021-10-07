@@ -44,6 +44,7 @@
 2. [Jump Search](searching/jump-search.java)
 3. [Linear Search](searching/linear-search.java)
 4. [Allocate minimum number of pages](searching/allocate-min-pages.java)
+5. [Interpolation Search](searching/interpolation-search.java)
 
 ## Sorting
 
@@ -75,6 +76,7 @@
 6. [Tokenizer](strings/tokenizer.java)
 7. [Anagram](strings/anagram.java)
 8. [Longest Common Substring](strings/Longest_common_substring.java)
+9. [Boyer Moore Search](strings/Boyer_Moore.java)
 
 ## Trees
 
