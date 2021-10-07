@@ -76,7 +76,8 @@
 5. [Split String](strings/SplitString.java)
 6. [Tokenizer](strings/tokenizer.java)
 7. [Anagram](strings/anagram.java)
-8. [Boyer Moore Search](strings/Boyer_Moore.java)
+8. [Longest Common Substring](strings/Longest_common_substring.java)
+9. [Boyer Moore Search](strings/Boyer_Moore.java)
 
 ## Trees
 
