@@ -32,3 +32,14 @@ int main()
     dfs(adj,v,1);
     return 0;
 }
+
+//INPUT
+//6 5
+//1 2
+//2 6
+//1 3
+//3 4
+//3 5
+//OUTPUT
+//The dfs traversal is 
+//1 2 6 3 4 5    
