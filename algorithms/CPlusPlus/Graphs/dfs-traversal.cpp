@@ -19,7 +19,7 @@ int main()
     int n,m;
     cin>>n>>m;//enter the number of vertices and number of edges
     vector<vector<int>>adj(n+1,vector<int>());
-    //create and adjacency list according to the edges given in input
+    //create an adjacency list according to the edges given in input
     for(int i=0;i<m;i++)
     {
         int u,v;
