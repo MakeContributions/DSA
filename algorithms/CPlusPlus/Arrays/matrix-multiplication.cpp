@@ -74,3 +74,5 @@ int main()
 //OUTPUT
 //6 11 
 //10 17 
+//TIME COMPLEXITY OF THE PROGRAM
+//O(n^3)
