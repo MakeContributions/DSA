@@ -18,6 +18,7 @@
 14. [Maximum Difference](Arrays/maximum-difference.cpp)
 15. [Occurrence of one in sorted array](Arrays/occurence-of-one-in-sorted-array.cpp)
 16. [Segregate 0s and 1s](Arrays/segregate-0-and-1.cpp)
+17. [Search insert position](Arrays/search-insert-position.cpp)
 
 ## Dynamic-Programming
 
@@ -67,10 +68,9 @@
 ## Stacks
 
 1. [Balancing Parenthesis](Stacks/balanced-parenthesis.cpp)
-
 2. [Reversing Stack](Stacks/reverse-stack.cpp)
-
 3. [Stack using Array](Stacks/stack-using-array.cpp)
+4. [Infix to postfix expression conversion](Stacks/infix-to-postfix.cpp)
 
 ## Sorting
 
@@ -100,6 +100,8 @@
 6. [Remove occurrences from string](Strings/remove-occurrences.cpp)
 7. [Delete alternate characters in a string](Strings/delete-alternate-characters.cpp)
 8. [Print first letter of every word](Strings/print-first-letter.cpp)
+9. [Display longest name in a string array](Strings/longest-name.cpp)
+10. [Boyer Moore pattern search](Strings/Boyer_Moore.cpp)
 
 ## Trees
 
@@ -123,11 +125,13 @@
 3. [Prime Sieve](Maths/prime-sieve.cpp)
 4. [Fibonacci Series](Maths/fibonaccci-series.cpp)
 5. [Binomial Coefficient](Maths/binomial-coefficient.cpp)
-5. [Armstrong Number](Maths/armstrong.cpp)
-6. [Palindrome](Maths/palindrome.cpp)
-7. [Reverse digit of a number](Maths/reverse-digits.cpp)
-8. [Missing number](Maths/missing-number.cpp)
-9. [Factorial of a number](Maths/factorial.cpp)
+6. [Armstrong Number](Maths/armstrong.cpp)
+7. [Palindrome](Maths/palindrome.cpp)
+8. [Reverse digit of a number](Maths/reverse-digits.cpp)
+9. [Missing number](Maths/missing-number.cpp)
+10. [Factorial of a number](Maths/factorial.cpp)
+11. [Prime-number](Maths/prime-number.cpp)
+
 
 # Recursion
 
