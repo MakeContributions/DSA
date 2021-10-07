@@ -43,3 +43,7 @@ int main()
 //OUTPUT
 //The dfs traversal is 
 //1 2 6 3 4 5    
+//TIME COMPLEXITY OF THE PROGRAM
+//O(V+E)
+//where V is number of vertices
+//and E is number of edges
