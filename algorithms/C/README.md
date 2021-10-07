@@ -22,6 +22,9 @@
 - [Doubly Linked List](linked-lists/doubly-linked-list.c)
 - [Glued-Linked-List](linked-lists/gl-threads.c)
 
+## Maths
+- [Palindrome Number](Maths/palindrome.c)
+
 ## Queues
 - [Double Ended Queue using array](queues/double-ended-queue-using-array.c)
 

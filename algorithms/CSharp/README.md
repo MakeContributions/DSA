@@ -35,6 +35,7 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 - [Factorial](src/Recursion/factorial.cs)
 
 ## Graph
+- [Breadth First Search](src/Graph/breadth-first-search.cs)
 - [Depth First Search](src/Graph/depth-first-search.cs)
 - [Kruskals Algorithm to Find Minimum Spanning Tree](src/Graph/kruskals-algorithm.cs)
 - [Dijkstras Algorithm to Find Shortest Path](src/Graph/dijkstra.cs)

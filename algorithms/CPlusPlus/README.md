@@ -68,10 +68,9 @@
 ## Stacks
 
 1. [Balancing Parenthesis](Stacks/balanced-parenthesis.cpp)
-
 2. [Reversing Stack](Stacks/reverse-stack.cpp)
-
 3. [Stack using Array](Stacks/stack-using-array.cpp)
+4. [Infix to postfix expression conversion](Stacks/infix-to-postfix.cpp)
 
 ## Sorting
 
@@ -102,6 +101,7 @@
 7. [Delete alternate characters in a string](Strings/delete-alternate-characters.cpp)
 8. [Print first letter of every word](Strings/print-first-letter.cpp)
 9. [Display longest name in a string array](Strings/longest-name.cpp)
+10. [Boyer Moore pattern search](Strings/Boyer_Moore.cpp)
 
 ## Trees
 
@@ -130,6 +130,7 @@
 8. [Reverse digit of a number](Maths/reverse-digits.cpp)
 9. [Missing number](Maths/missing-number.cpp)
 10. [Factorial of a number](Maths/factorial.cpp)
+11. [Prime-number](Maths/prime-number.cpp)
 
 # Recursion
 
