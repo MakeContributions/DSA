@@ -207,3 +207,7 @@ array.printList();
 array.removeFromEnd();
 
 array.printList();
+
+array.rotate();
+
+array.printList();
