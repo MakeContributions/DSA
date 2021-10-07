@@ -25,7 +25,7 @@ int main()
         if(!v[t])
         {
            v[t]=1;//mark the vertex as visited
-           cout<<t<<" ";//print the vetex you visited
+           cout<<t<<" ";//print the vertex you visited
         }   
         s.pop();
         for(int i=0;i<adj[t].size();i++)
@@ -51,4 +51,4 @@ int main()
 //TIME COMPLEXITY OF THE PROGRAM
 //O(V+E)
 //where V is number of vertices
-//E is number of edeges
+//E is number of edges
