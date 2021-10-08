@@ -145,3 +145,4 @@
 5. [Sum of all elements of an array](Recursion/Sum-of-all-elements-in-an-array.cpp)
 6. [Decimal number to Binary conversion](Recursion/decimal-to-binary-conversion.cpp)
 7. [Sum of digits of a decimal integer](Recursion/sum-of-digits-of-an-integer.cpp)
+8. [Prime Check](Recursion/prime.cpp)
