@@ -47,7 +47,7 @@
 
 1. [All possible insertions](Linked-Lists/all-possible-insertion.cpp)
 2. [Singly linked lists](Linked-Lists/singly.cpp)
-3. [doubley linked lists](Linked-Lists/doubly.cpp)
+3. [Doubley linked lists](Linked-Lists/doubly.cpp)
 4. [Circular linked lists](Linked-Lists/circular.cpp)
 5. [Removing Elements of given value](Linked-Lists/remove-specific-elements.cpp)
 6. [Reversing a linked lists](Linked-Lists/reverse.cpp)
@@ -86,7 +86,7 @@
 6. [Bucket Sort](Sorting/bucket-sort.cpp)
 7. [Comb Sort](Sorting/comb-sort.cpp)
 8. [Counting Sort](Sorting/counting-sort.cpp)
-9. [heap Sort](Sorting/heap-sort.cpp)
+9. [Heap Sort](Sorting/heap-sort.cpp)
 10. [Radix Sort](Sorting/radix-sort.cpp)
 11. [Shell Sort](Sorting/shell-sort.cpp)
 12. [Binary Insertion Sort](Sorting/binary-insertion-sort.cpp)
