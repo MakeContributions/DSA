@@ -4,14 +4,15 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 ## Arrays
 1. [Single Number](src/Arrays/single-number.cs)
 
+## Dynamic Programming
+1. [Longest Common Subsequence](src/Dynamic-Programming/longest-common-subsequence.cs)
+
 ## Number Theory
 1. [Big Mod Algorithm](src/Number-Theory/big-mod.cs)
 2. [Sieve of Eratosthenes](src/Number-Theory/sieve-of-eratosthenes.cs)
 3. [Bitwise Sieve of Eratosthenes](src/Number-Theory/bitwise-sieve-of-eratosthenes.cs)
 
-
 ## Sorts
-
 1. [Bubble Sort](src/Sorts/bubble-sort.cs)
 2. [Insertion Sort](src/Sorts/insertion-sort.cs)
 3. [Selection Sort](src/Sorts/selection-sort.cs)
