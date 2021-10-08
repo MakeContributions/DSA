@@ -118,6 +118,7 @@
 11. [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
 12. [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
 13. [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
+14. [Fenwick Tree](Trees/Fenwick_Tree.cpp)
 # Maths
 
 1. [Kaprekar Number](Maths/Kaprekar-number.cpp)
