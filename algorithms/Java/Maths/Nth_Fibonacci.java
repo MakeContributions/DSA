@@ -52,7 +52,7 @@ import java.math.*;
  *             A * (B * C) = (A * B) * C 
  *  
  * where A, B, C are operands of some data type, 
- * it simply indicates final result is independant of order of operations.
+ * it simply indicates final result is independent of order of operations.
  * 
  * BINARY EXPONENTIATION:
  *       
@@ -155,7 +155,7 @@ public class Nth_Fibonacci {
     /*for taking input.*/
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     
-    /*becasue of constraints ,I read the number in string since it does not fit in long as well.*/
+    /*because of constraints ,I read the number in string since it does not fit in long as well.*/
 		String s = br.readLine().trim();
     
     /*convert the string to bigInteger to be able to perform some arithmetic operations*/
