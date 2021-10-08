@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Algorithms.DynamicProgramming
 {
@@ -12,20 +9,20 @@ namespace Algorithms.DynamicProgramming
             int len1 = word1.Length, len2 = word2.Length;
             int[,] dp = new int[2, len2 + 1];
 
-            for(int i = 0; i < 2; i++)
+            for (int i = 0; i < 2; i++)
             {
-                for(int j = 0; j <= len2; j++)
+                for (int j = 0; j <= len2; j++)
                 {
                     dp[i, j] = 0;
                 }
             }
 
             int currentRow = 1;
-            for(int i = 1; i <= len1; i++)
+            for (int i = 1; i <= len1; i++)
             {
-                for(int j = 1; j <= len2; j++)
+                for (int j = 1; j <= len2; j++)
                 {
-                    if(word1[i - 1] == word2[j - 1])
+                    if (word1[i - 1] == word2[j - 1])
                     {
                         dp[currentRow, j] = 1 + dp[1 - currentRow, j - 1];
                     }
