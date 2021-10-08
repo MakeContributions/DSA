@@ -34,5 +34,5 @@ int main() {
     return 0;
 }
 
-//find value of x and y such that, ax + by = gcd(a,b).
-//Have lots of application in number theory like calculating inverse mod.
+//(a*b)mod m = 1,
+//as for example, for a = 3 and m = 11, 4 is the modulo inverse as (3 * 4)%11 = 1
