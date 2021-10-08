@@ -27,6 +27,7 @@
 ## Maths
 
 1. [Factorial](Maths/factorial_using_big_integer.java)
+2. [Nth-Fibonacci](Maths/Nth_Fibonacci.java)
 
 ## Queues
 
