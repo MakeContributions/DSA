@@ -4,5 +4,5 @@
 # Strings
 - [Palindrome Check](strings/palindrome/README.md)
 
-# Sortings
+# Sorting
 - [Merge Sort](sorting/merge-sort/README.md)
