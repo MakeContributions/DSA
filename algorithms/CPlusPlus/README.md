@@ -20,6 +20,7 @@
 16. [Segregate 0s and 1s](Arrays/segregate-0-and-1.cpp)
 17. [Search insert position](Arrays/search-insert-position.cpp)
 18. [Matrix Multiplication](Arrays/matrix-multiplication.cpp)
+19. [Smallest Possible Sum](Arrays/smallest-possible-sum.cpp)
 
 ## Dynamic-Programming
 
