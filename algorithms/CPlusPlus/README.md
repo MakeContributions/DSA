@@ -27,6 +27,7 @@
 3. [0/1-knapsack](Dynamic-Programming/01-knapsack.cpp)
 4. [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
 5. [Edit Distance](Dynamic-Programming/edit-distance.cpp)
+6. [Coin Change](Dynamic-Programming/coin-change-problem.cpp)
 
 ## Graphs
 

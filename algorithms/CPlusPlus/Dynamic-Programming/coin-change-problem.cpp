@@ -1,6 +1,7 @@
 /*
 Coin Change Problem
-You are given an infinite supply of coins of each of denominations D = {D0, D1, D2, D3, ...... Dn-1}. You need to figure out the total number of ways W, in which you can make a change for Value V using coins of denominations D.
+You are given an infinite supply of coins of each of denominations D = {D0, D1, D2, D3, ...... Dn-1}. 
+You need to figure out the total number of ways W, in which you can make a change for Value V using coins of denominations D.
 Note : Return 0, if change isn't possible.
 W can be pretty large so output the answer % mod(10^9 + 7)
 
@@ -12,7 +13,7 @@ Line 3 : Value V
 Output Format
 For each test case print the number of ways (W) % mod(10^9 +7) in new line.
 
-Constraints :
+Constraints:
 1 <= N <= 10
 1 <= V <= 5000
 
@@ -40,6 +41,7 @@ const int mod = (int)1e9 + 7;
 
 int main() {
 
+    cout<<"Enter the total number of coin denominations: ";
     int n;
     cin >> n;
     int *coins = new int[n];
@@ -49,6 +51,7 @@ int main() {
 
     sort(coins, coins + n);
 
+    cout<<"Enter the target value: ";
     int V;
     cin >> V;
 
@@ -62,7 +65,7 @@ int main() {
             dp[j] = (dp[j] + dp[j - coins[i]]) % mod;
         }
     }
-    cout << dp[V] << endl;
+    cout << "Total number of ways to make target value are: " << dp[V] << endl;
 
     return 0;
 }
