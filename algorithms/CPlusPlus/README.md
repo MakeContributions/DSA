@@ -134,7 +134,7 @@
 8. [Reverse digit of a number](Maths/reverse-digits.cpp)
 9. [Missing number](Maths/missing-number.cpp)
 10. [Factorial of a number](Maths/factorial.cpp)
-11. [Prime-number](Maths/recursive-prime.cpp)
+11. [Prime-number](Maths/prime-number.cpp)
 
 # Recursion
 
@@ -145,4 +145,4 @@
 5. [Sum of all elements of an array](Recursion/Sum-of-all-elements-in-an-array.cpp)
 6. [Decimal number to Binary conversion](Recursion/decimal-to-binary-conversion.cpp)
 7. [Sum of digits of a decimal integer](Recursion/sum-of-digits-of-an-integer.cpp)
-8. [Prime Check](Recursion/prime.cpp)
+8. [Prime Check](Recursion/recursive-prime.cpp)
