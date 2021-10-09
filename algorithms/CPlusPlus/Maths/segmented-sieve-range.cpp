@@ -39,9 +39,9 @@ void segmented_sieve_range(long int L, long int R){
 
         //current Prime
         long int cur = primes[i];
-        long int start = max(cur*cur, (L + cur -1)/cur*cur);
-        
-        for( ; start <= R ; start += cur){
+        long int product = cur*cur;
+
+        for(long int start = max(product, (L + cur -1)/product); start <= R ; start += cur){
             isPrime[start - L] = false;
         }
     }
@@ -65,9 +65,13 @@ int main()
     cin >> L >> R;
 
     segmented_sieve_range(L, R);
+
+    return 0;
 }
 
 /*
+Time Complexity - O((R−L+1)log(R) + √R)
+
 Input: 
 30 50
 Output:
