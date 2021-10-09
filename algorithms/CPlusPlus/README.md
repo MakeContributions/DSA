@@ -134,7 +134,7 @@
 8. [Reverse digit of a number](Maths/reverse-digits.cpp)
 9. [Missing number](Maths/missing-number.cpp)
 10. [Factorial of a number](Maths/factorial.cpp)
-11. [Prime-number](Maths/prime-number.cpp)
+11. [Prime-number](Maths/recursive-prime.cpp)
 
 # Recursion
 

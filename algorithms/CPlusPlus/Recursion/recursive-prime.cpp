@@ -38,6 +38,7 @@ bool primeCheck(int n, int i)
 // Main
 int main()
 {
+    cout << "Enter the number to check prime : " << endl;
     int n;
     cin >> n;
 
@@ -52,21 +53,20 @@ int main()
 
 /*
 Time Complexity : O(sqrt(n))
-*/
 
-/*
+
 Input
-5
+Enter the number to check prime : 5
 Output
 YES
 
 Input 
-10
+Enter the number to check prime : 10
 Output
 NO
 
 Input 
-33
+Enter the number to check prime : 33
 Output
 NO
 */
