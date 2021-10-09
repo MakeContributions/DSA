@@ -9,6 +9,7 @@ Output a single integer, maximum sum rectangle for each test case in a newline.
 Constraints
 1<=n,m<=100
 -10^5 <= mat[i][j] <= 10^5
+
 Sample Input
 4 5
 1 2 -1 -4 -20
@@ -29,6 +30,8 @@ for example between column 0 and 1, the row array will be,
    [4, -19, 14, -9]
    find max subarray sum.
 3) Do it for every pair of column and find the maximum of all. And that will be the final answer.
+
+Time Complexity: O(n*m*m)
 */
 
 #include <iostream>
