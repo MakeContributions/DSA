@@ -19,6 +19,7 @@
 15. [Occurrence of one in sorted array](Arrays/occurence-of-one-in-sorted-array.cpp)
 16. [Segregate 0s and 1s](Arrays/segregate-0-and-1.cpp)
 17. [Search insert position](Arrays/search-insert-position.cpp)
+18. [Matrix Multiplication](Arrays/matrix-multiplication.cpp)
 
 ## Dynamic-Programming
 
@@ -34,6 +35,9 @@
 2. [kruskal Algorithm](Graphs/kruskal-algorithm.cpp)
 3. [Breadth First Search](Graphs/breadth-first-search.cpp)
 4. [Topological sort](Graphs/topological-sort.cpp)
+5. [Dfs traversal with stack](Graphs/dfs-through-stackdatastructure.cpp)
+6. [Dfs traversal with recursion](Graphs/dfs-traversal.cpp)
+7. [Connected Components](Graphs/total-connected-components.cpp)
 
 ## Multiplication
 
@@ -117,7 +121,7 @@
 10. [Finding the height of a given tree](Trees/Height-Of-Tree.cpp)
 11. [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
 12. [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
-
+13. [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
 # Maths
 
 1. [Kaprekar Number](Maths/Kaprekar-number.cpp)
