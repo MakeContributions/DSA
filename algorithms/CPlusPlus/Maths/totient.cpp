@@ -1,7 +1,9 @@
 /*
 Program Description:
-Euler's totient function (also called the Phi function) counts the number of positive integers less than n that are coprime to n. That is, totient(n) is the number of m∈N such that 1≤m<n and gcd(m,n)=1.
+Euler's totient function (also called the Phi function) counts the number of positive integers less than n that 
+are coprime to n. That is, totient(n) is the number of m∈N such that 1≤m<n and gcd(m,n)=1.
 You are given an integer N and are supposed to find the value of Euler toient function for N.
+
 Constraints:
 1 <= N <= 10^9
 
@@ -49,9 +51,8 @@ int totient(int n) {
 int main() {
 
     int n;
+    cout << "Enter a number: ";
     cin >> n;
-    cout << totient(n) << "\n";
+    cout << "Number of coprime integers are: " << totient(n) << "\n";
     return 0;
 }
-
-//definition : Totient function provides number of positive integers that are less than the given number n and coprime with n.
