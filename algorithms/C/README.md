@@ -5,9 +5,10 @@
 - [Unique Elements in an array](arrays/unique-elements-in-an-array.c)
 
 ## Bit Manipulation
-- [Add and Subtract](bit-manipulation/add-and-sub-bitwise)
-- [Multiply](bit-manipulation/multiply-bitwise)
-- [divide](bit-manipulation/divide-bitwise)
+- [Add and Subtract](bit-manipulation/add-and-sub-bitwise.c)
+- [Multiply](bit-manipulation/multiply-bitwise.c)
+- [Divide bitwise](bit-manipulation/divide-bitwise.c)
+
 
 ## Graphs
 - [Prim's Algorithm](graphs/Prim's-algorithm.c)
@@ -18,6 +19,11 @@
 - [Circular Linked List](linked-lists/Insert-and-del-beginning-circular-ll.c)
 - [Merge two Linked Lists](linked-lists/merge-two-linkedlists.c)
 - [Reverse a Linked List](linked-lists/reverse-linkedlists.c)
+- [Doubly Linked List](linked-lists/doubly-linked-list.c)
+- [Glued-Linked-List](linked-lists/gl-threads.c)
+
+## Maths
+- [Palindrome Number](maths/palindrome.c)
 
 ## Queues
 - [Double Ended Queue using array](queues/double-ended-queue-using-array.c)
@@ -27,16 +33,20 @@
 - [Merge Sort](sorting/merge-sort.c)
 - [Insertion Sort](sorting/insertion-sort.c)
 - [Heap Sort](sorting/heap-sort.c)
+- [Selection Sort](sorting/selection-sort.c)
 
 ## Strings
 - [Count Words](strings/count-words.c)
 - [Palindrome](strings/palindrome.c)
 - [Permutation of String](strings/Permutation-of-String.c)
 
- ## Tree
+## Tree
 - [Height Of Tree](tree/height-of-a-tree.c)
 - [Max and Min Element Of Tree](tree/min-and-max-of-tree.c)
 - [Binary Search Tree](tree/binary-search-tree.c)
+- [Avl Tree](tree/avl-tree.c)
+- [Min Heap](tree/min-heap.c)
+- [Max Heap](tree/max-heap.c)
 
 ## Searching
 - [Binary Search](searching/Binary-search.c)

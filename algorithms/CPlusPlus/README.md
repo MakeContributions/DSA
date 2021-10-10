@@ -1,16 +1,31 @@
 # C++
 
 ## Arrays
+- [Counting Inversions](Arrays/counting-inversions.cpp)
+- [Dutch Flag Algorithm](Arrays/dutch-flag-algo.cpp)
+- [Left Rotation](Arrays/left-rotation.cpp)
+- [Max Subarray Sum](Arrays/max-subarray-sum.cpp)
+- [Shift Negatives](Arrays/shift-negatives.cpp)
+- [Boyer–Moore Voting Algorithm](Arrays/boyer_more.cpp)
+- [Reverse Array](Arrays/reverse-array.cpp)
+- [Sorted-Rotated Search Array](Arrays/search-sorted-rotated.cpp)
+- [Fractional Knapsack](Arrays/fractional-knapsack.cpp)
+- [Quick Selection](Arrays/quick-select.cpp)
+- [Remove Duplicates](Arrays/remove-duplicates.cpp)
+- [Leaders In The Array](Arrays/leaders-in-array.cpp)
+- [Elements appear thrice In The Array](Arrays/Elements_appears_thrice.cpp)
+- [Maximum Difference](Arrays/maximum-difference.cpp)
+- [Occurrence of one in sorted array](Arrays/occurence-of-one-in-sorted-array.cpp)
+- [Segregate 0s and 1s](Arrays/segregate-0-and-1.cpp)
+- [Search insert position](Arrays/search-insert-position.cpp)
+- [Matrix Multiplication](Arrays/matrix-multiplication.cpp)
 
-1. [Counting Inversions](Arrays/counting-inversions.cpp)
-2. [Dutch Flag Algorithm](Arrays/dutch-flag-algo.cpp)
-3. [Left Rotation](Arrays/left-rotation.cpp)
-4. [Max Subarray Sum](Arrays/max-subarray-sum.cpp)
-5. [Shift Negatives](Arrays/shift-negatives.cpp)
-6. [Boyer–Moore Voting Algorithm](Arrays/boyer_more.cpp)
-7. [Reverse Array](Arrays/reverse-array.cpp)
-8. [Sorted-Rotated Search Array](Arrays/search-sorted-rotated.cpp)
-9. [Fractional Knapsack](Arrays/fractional-knapsack.cpp)
+## Dynamic-Programming
+- [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
+- [Longest Common Substring](Dynamic-Programming/longest-common-substring.cpp)
+- [0/1-knapsack](Dynamic-Programming/01-knapsack.cpp)
+- [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
+- [Edit Distance](Dynamic-Programming/edit-distance.cpp)
 
 ## Dynamic-Programming
 
@@ -18,17 +33,27 @@
 
 
 ## Graphs
+<<<<<<< HEAD
 
 1. [Bellman Ford Algorithm](Graphs/bellmam-ford.cpp)
 2. [kruskal Algorithm](Graphs/kruskal-algorithm.cpp)
 3. [Breadth First Search](Graphs/breadth-first-search.cpp)
 4. [Topological sort](Graphs/topological-sort.cpp)
+=======
+- [Bellman Ford Algorithm](Graphs/bellman-ford.cpp)
+- [kruskal Algorithm](Graphs/kruskal-algorithm.cpp)
+- [Breadth First Search](Graphs/breadth-first-search.cpp)
+- [Topological sort](Graphs/topological-sort.cpp)
+- [Dfs traversal with stack](Graphs/dfs-through-stackdatastructure.cpp)
+- [Dfs traversal with recursion](Graphs/dfs-traversal.cpp)
+- [Connected Components](Graphs/total-connected-components.cpp)
+>>>>>>> e08d8536015c8ae6d4af33e9f0d170296affda0f
 
 ## Multiplication
-
-1. [Karatsuba](Multiplication/karatsuba.cpp)
+- [Karatsuba](Multiplication/karatsuba.cpp)
 
 ## Linked Lists
+<<<<<<< HEAD
 
 1. [All possible insertions](Linked-Lists/all-possible-insertion.cpp)
 2. [Singly linked lists](Linked-Lists/singly.cpp)
@@ -38,66 +63,99 @@
 6. [Reversing a linked lists](Linked-Lists/reverse.cpp)
 7. [Merging two sorted linked lists](Linked-Lists/merge.cpp)
 8. [Reorder List](Linked-Lists/Reorder-List.cpp)
+=======
+- [All possible insertions](Linked-Lists/all-possible-insertion.cpp)
+- [Singly linked lists](Linked-Lists/singly.cpp)
+- [doubley linked lists](Linked-Lists/doubly.cpp)
+- [Circular linked lists](Linked-Lists/circular.cpp)
+- [Removing Elements of given value](Linked-Lists/remove-specific-elements.cpp)
+- [Reversing a linked lists](Linked-Lists/reverse.cpp)
+- [Merging two sorted linked lists](Linked-Lists/merge.cpp)
+- [Reorder List](Linked-Lists/Reorder-List.cpp)
+- [Detecting cycle in a singly linked list](Linked-Lists/Cycle-Detection.cpp)
+- [Find Merge Point of two singly linked list](Linked-Lists/Find-Merge-Point.cpp)
+- [Segregate Even Odd Nodes of linked list](Linked-Lists/segregate-even-odd-nodes-of-linked-list.cpp)
+- [Remove Duplicate in Sorted linked list](Linked-Lists/remove-duplicates-in-sorted-linked-list.cpp)
+>>>>>>> e08d8536015c8ae6d4af33e9f0d170296affda0f
 
 ## Searching
-
-1. [Linear Search](Searching/linear-search.cpp)
-2. [Jump Search](Searching/jump-search.cpp)
-3. [Binary Search](Searching/binary-search.cpp)
-4. [Finding squareroot using Binary search](Searching/sqrt-monotonic-binary-search.cpp)
-5. [KMP String Searching](Searching/kmp.cpp)
-6. [Ternary Search](Searching/Ternary-search.cpp)
-7. [Interpolation Search](Searching/interpolation-search.cpp)
-8. [Exponential Search](Searching/exponential-search.cpp)
+- [Linear Search](Searching/linear-search.cpp)
+- [Jump Search](Searching/jump-search.cpp)
+- [Binary Search](Searching/binary-search.cpp)
+- [Finding squareroot using Binary search](Searching/sqrt-monotonic-binary-search.cpp)
+- [KMP String Searching](Searching/kmp.cpp)
+- [Ternary Search](Searching/Ternary-search.cpp)
+- [Interpolation Search](Searching/interpolation-search.cpp)
+- [Exponential Search](Searching/exponential-search.cpp)
 
 ## Stacks
-
-1. [Balancing Parenthesis](Stacks/balanced-parenthesis.cpp)
-
-2. [Reversing Stack](Stacks/reverse-stack.cpp)
-
-3. [Stack using Array](Stacks/stack-using-array.cpp)
-
+- [Balancing Parenthesis](Stacks/balanced-parenthesis.cpp)
+- [Reversing Stack](Stacks/reverse-stack.cpp)
+- [Stack using Array](Stacks/stack-using-array.cpp)
+- [Infix to postfix expression conversion](Stacks/infix-to-postfix.cpp)
 
 ## Sorting
-
-1. [Bubble Sort](Sorting/bubble-sort.cpp)
-2. [Insertion Sort](Sorting/insertion-sort.cpp)
-3. [Quicksort](Sorting/quick-sort.cpp)
-4. [Selection Sort](Sorting/selection-sort.cpp)
-5. [3 way Quick Sort](Sorting/3way-quick-sort.cpp)
-6. [Bucket Sort](Sorting/bucket-sort.cpp)
-7. [Comb Sort](Sorting/comb-sort.cpp)
-8. [Counting Sort](Sorting/counting-sort.cpp)
-9. [heap Sort](Sorting/heap-sort.cpp)
-10. [Radix Sort](Sorting/radix-sort.cpp)
-11. [Shell Sort](Sorting/shell-sort.cpp)
-12. [Binary Insertion Sort](Sorting/binary-insertion-sort.cpp)
-13. [Merge Sort](Sorting/merge-sort.cpp)
+- [Bubble Sort](Sorting/bubble-sort.cpp)
+- [Insertion Sort](Sorting/insertion-sort.cpp)
+- [Quicksort](Sorting/quick-sort.cpp)
+- [Selection Sort](Sorting/selection-sort.cpp)
+- [3 way Quick Sort](Sorting/3way-quick-sort.cpp)
+- [Bucket Sort](Sorting/bucket-sort.cpp)
+- [Comb Sort](Sorting/comb-sort.cpp)
+- [Counting Sort](Sorting/counting-sort.cpp)
+- [heap Sort](Sorting/heap-sort.cpp)
+- [Radix Sort](Sorting/radix-sort.cpp)
+- [Shell Sort](Sorting/shell-sort.cpp)
+- [Binary Insertion Sort](Sorting/binary-insertion-sort.cpp)
+- [Merge Sort](Sorting/merge-sort.cpp)
+- [Wave Sort](Sorting/wave-sort.cpp)
+- [Cycle Sort](Sorting/cycle-sort.cpp)
 
 ## Strings
-
-1. [Rabin-Karp pattern search algo](Strings/rabin-karp.cpp)
-2. [All subsequence of a string (Recursion) ](Strings/sequence.cpp)
-3. [String reversal](Strings/string-reverse.cpp)
-4. [String tokanisation](Strings/string-tokeniser.cpp)
-5. [Anagram check](Strings/anagram.cpp)
+- [Rabin-Karp pattern search algo](Strings/rabin-karp.cpp)
+- [All subsequence of a string (Recursion) ](Strings/sequence.cpp)
+- [String reversal](Strings/string-reverse.cpp)
+- [String tokanisation](Strings/string-tokeniser.cpp)
+- [Anagram check](Strings/anagram.cpp)
+- [Remove occurrences from string](Strings/remove-occurrences.cpp)
+- [Delete alternate characters in a string](Strings/delete-alternate-characters.cpp)
+- [Print first letter of every word](Strings/print-first-letter.cpp)
+- [Display longest name in a string array](Strings/longest-name.cpp)
+- [Boyer Moore pattern search](Strings/Boyer_Moore.cpp)
 
 ## Trees
-
-1. [Creating Binary Tree](Trees/build-binary-tree.cpp)
-2. [Counting and finding sum of all the nodes in BST](Trees/count-and-sum-of-nodes-in-binary-tree.cpp)
-3. [Level Order Traversal](Trees/level-order-traversal.cpp)
-4. [Depth first Traversal](Trees/pre-in-post-traversal.cpp)
-5. [Binary Search Tree](Trees/binary-search-tree.cpp)
-6. [In order morris traversal](Trees/in-order-morris-traversal.cpp)
-7. [In order Predecessor and Successor](Trees/in-order-predecessor-and-successor.cpp)
-8. [Avl Tree](Trees/avl.cpp)
-9. [Min Heap](Trees/min-heap.cpp)
+- [Creating Binary Tree](Trees/build-binary-tree.cpp)
+- [Counting and finding sum of all the nodes in BST](Trees/count-and-sum-of-nodes-in-binary-tree.cpp)
+- [Level Order Traversal](Trees/level-order-traversal.cpp)
+- [Depth first Traversal](Trees/pre-in-post-traversal.cpp)
+- [Binary Search Tree](Trees/binary-search-tree.cpp)
+- [In order morris traversal](Trees/in-order-morris-traversal.cpp)
+- [In order Predecessor and Successor](Trees/in-order-predecessor-and-successor.cpp)
+- [Avl Tree](Trees/avl.cpp)
+- [Min Heap](Trees/min-heap.cpp)
+- [Finding the height of a given tree](Trees/Height-Of-Tree.cpp)
+- [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
+- [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
+- [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
 
 # Maths
+- [Kaprekar Number](Maths/Kaprekar-number.cpp)
+- [Prime Number](Maths/prime-check.cpp)
+- [Prime Sieve](Maths/prime-sieve.cpp)
+- [Fibonacci Series](Maths/fibonaccci-series.cpp)
+- [Binomial Coefficient](Maths/binomial-coefficient.cpp)
+- [Armstrong Number](Maths/armstrong.cpp)
+- [Palindrome](Maths/palindrome.cpp)
+- [Reverse digit of a number](Maths/reverse-digits.cpp)
+- [Missing number](Maths/missing-number.cpp)
+- [Factorial of a number](Maths/factorial.cpp)
+- [Prime-number](Maths/prime-number.cpp)
 
-1. [Kaprekar Number](Maths/Kaprekar-number.cpp)
-2. [Prime Number](Maths/prime-check.cpp)
-3. [Prime Sieve](Maths/prime-sieve.cpp)
-4. [Fibonacci Series](Maths/fibonaccci-series.cpp)
+# Recursion
+- [Tower of Hanoi](Recursion/towerofHanoi.cpp)
+- [Factorial](Recursion/factorial.cpp)
+- [Permutation](Recursion/permutation.cpp)
+- [GCD/HCF of two numbers](Recursion/GCD-of-two-numbers.cpp)
+- [Sum of all elements of an array](Recursion/Sum-of-all-elements-in-an-array.cpp)
+- [Decimal number to Binary conversion](Recursion/decimal-to-binary-conversion.cpp)
+- [Sum of digits of a decimal integer](Recursion/sum-of-digits-of-an-integer.cpp)

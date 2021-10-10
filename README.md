@@ -5,6 +5,7 @@
 [![Python](https://github.com/MakeContributions/DSA/actions/workflows/python.yml/badge.svg)](https://github.com/MakeContributions/DSA/actions/workflows/python.yml)
 [![codespell](https://github.com/MakeContributions/DSA/actions/workflows/codespell.yml/badge.svg)](https://github.com/MakeContributions/DSA/actions/workflows/codespell.yml)
 [![CodeQL](https://github.com/MakeContributions/DSA/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/MakeContributions/DSA/actions/workflows/codeql-analysis.yml)
+[![Discord](https://img.shields.io/discord/863049619734790185?color=7389D8&logo=discord&logoColor=ffffff&label=&labelColor=6A7EC2)](https://discord.gg/ydWxdqbTyK)
 
 # Data Structures and Algorithm
 
@@ -13,6 +14,7 @@ Data structure and Algorithm (DSA)
 ## Explanations
 - [English](./docs/en)
 - [繁體中文](./docs/zh-tw)
+- [日本語](./docs/ja)
 
 ## Contribution Guidelines
 
@@ -115,12 +117,12 @@ The programming should keep the naming convention rule of each programming langu
 
 | Programming Language | Users                                             |
 | -------------------- | ------------------------------------------------- |
-| C or C++             | @Arsenic-ATG, @UG-SEP, @aayushjain7               |
+| C or C++             | @Arsenic-ATG, @UG-SEP, @aayushjain7, @Ashborn-SM  |
 | Java                 | @TawfikYasser, @cyberwizard1001, @aayushjain7     |
-| C#                   | @ming-tsai                                        |
+| C#                   | @ming-tsai, @Waqar-107                            |
 | Go                   | @atin                                             |
 | Python               | @Arsenic-ATG, @atin, @sridhar-5, @cyberwizard1001 |
-| JavaScript           | @paulsonjpaul                                     |
+| JavaScript           | @ming-tsai                                        |
 
 ## Contributors
 
