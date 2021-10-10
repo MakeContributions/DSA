@@ -4,7 +4,7 @@
 using namespace std;
 
 /*
-Trie is ds implementation of tree with one root and further 26 children at each layer and specfying if 
+Trie is ds implementation of tree with one root and further 26 children at each layer and specifying if 
 it is end of tree. Better then hashmap in cases where we need to find words with same prefix,collisions 
 etc and used for word search spell check.
 
