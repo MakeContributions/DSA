@@ -14,7 +14,6 @@ Time complexity: O(n) where n is the length of string
 */
 
 #include <iostream>
-#include <bits/stdc++.h>
 using namespace std;
 
 //function starts
