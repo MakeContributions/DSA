@@ -1,24 +1,24 @@
 //smallest possible sum in a given array of elements
 //time complexity : O(n) || space complexity : O(1)
-// n: size of array 
+// n: size of array
 
 #include <bits/stdc++.h>
 using namespace std;
 
-int smallest_possible_sum(vector<int> &arr,int n) //function to claculate smallest_possible_sum
+int smallest_possible_sum(vector<int> &arr,int n) //function to calculate smallest_possible_sum
 {
-  int ans=0;
+  int sum=0;
   //smallest_possible_sum would be sum of all negative numbers in the array if there are any
   // or else equal to the smallest element in the array(if all numbers are >=0)
   for(int i=0;i<n;i++)
   {
     if(arr[i]<0)
-    ans+= arr[i];
+    sum+= arr[i];
   }
 
-  if(ans!=0) //if ans is not equal to zero, there was atleast 1 negative number
+  if(sum!=0) //if ans is not equal to zero, there was at least 1 negative number
   {
-    return ans;
+    return sum;
   }
   else
   {
@@ -33,17 +33,17 @@ int smallest_possible_sum(vector<int> &arr,int n) //function to claculate smalle
 
 int main()
 {
-    int n;
+    int size;
     cout<<"Enter the size of array: ";
-    cin>>n;
+    cin>>size;
 
-    vector<int> arr(n); // for storing array of n elements
-    for(int i=0;i<n;i++)
+    vector<int> arr(size); // for storing array of n elements
+    for(int i=0;i<size;i++)
     cin>>arr[i];
 
-    int ans= smallest_possible_sum(arr,n);
+    int res= smallest_possible_sum(arr,size);
 
-    cout<<"The smallest possible sum is : "<<ans<<"\n";
+    cout<<"The smallest possible sum is : "<<res<<"\n";
 
     return 0;
 }
