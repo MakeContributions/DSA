@@ -151,3 +151,4 @@
 - [Reverse a string using recursion](Recursion/reverse-string.cpp)
 - [Find string length using recursion](Recursion/string-length.cpp)
 - [Sum of n natural numbers](Recursion/sum-of-n.cpp)
+- [Minimum and maximum element in array](Recursion/min-max-element-in-array.cpp)
