@@ -26,6 +26,8 @@
 - [0/1-knapsack](Dynamic-Programming/01-knapsack.cpp)
 - [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
 - [Edit Distance](Dynamic-Programming/edit-distance.cpp)
+- [Coin Change](Dynamic-Programming/coin-change-problem.cpp)
+
 
 ## Graphs
 - [Bellman Ford Algorithm](Graphs/bellman-ford.cpp)
@@ -134,3 +136,4 @@
 - [Sum of all elements of an array](Recursion/Sum-of-all-elements-in-an-array.cpp)
 - [Decimal number to Binary conversion](Recursion/decimal-to-binary-conversion.cpp)
 - [Sum of digits of a decimal integer](Recursion/sum-of-digits-of-an-integer.cpp)
+
