@@ -15,4 +15,5 @@ def fibonacci(n):
         return temp_fib
  
 # Driver Program
-print(fibonacci(100))
+n = int(input())
+print(fibonacci(n))
