@@ -114,6 +114,7 @@
 - [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
 - [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
 - [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
+- [Fenwick Tree](Trees/Fenwick_Tree.cpp)
 
 # Maths
 - [Kaprekar Number](Maths/Kaprekar-number.cpp)
