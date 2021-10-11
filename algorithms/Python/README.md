@@ -57,9 +57,7 @@
 - [0/1 Knapsack Problem](dynamic_programming/knapsack.py)
 
 ## Trees
-
-
-1. [Binary Tree](trees/binary_tree.py)
+- [Binary Tree](trees/binary_tree.py)
 
 ## Graphs
 
