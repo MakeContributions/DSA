@@ -4,7 +4,7 @@
 - [ ] My submission is formatted according to the guidelines in the [contributing guide](https://github.com/MakeContributions/DSA#contribution-guidelines)
 - [ ] My addition is on refer on the language README.md file
 - [ ] My addition does not have a spelling problem
-- [ ] My submission has a proper and user-friendly description about the algorithm
+- [ ] My submission has a proper and user-friendly description of the algorithm
 - [ ] My submission has the time complexity of the algorithm
 - [ ] My submission has sample input-output of the program
 - [ ] The description does not end with punctuation
