@@ -1,4 +1,4 @@
-/* Maximum contiguous subarray Sum of array brute to optimized all approches */
+/* Maximum contiguous subarray Sum of array brute to optimized all approaches */
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -11,6 +11,8 @@ using namespace std;
                   3 -2 
                  -2 
                   3
+
+ans=3
 */
 int max_subarray_sum_method_1(int arr[],int n)
 {
@@ -40,7 +42,7 @@ int max_subarray_sum_method_2(int arr[],int n)
         {  sum=0;
             for(int j=i;j<n;j++)
             {   
-                sum+=arr[j];//as we are just adding a element in our subarray so we can remove k loop , we are taking advantage of contiguos
+                sum+=arr[j];//as we are just adding an element in our subarray so we can remove the k loop.
                 maxi=max(maxi,sum);//and taking max of maxi and sum 
             }
         }
