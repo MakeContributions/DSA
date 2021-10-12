@@ -1,6 +1,12 @@
-<!--
-Please make sure to read the Contribution Guidelines:
--->
+
+<!-- To ensure your PR is dealt with swiftly please check the following: -->
+**PR Checklist:**
+- [ ] My submission is formatted according to the guidelines in the [contributing guide](https://github.com/MakeContributions/DSA#contribution-guidelines)
+- [ ] My addition is on refer on the language README.md file
+- [ ] My submission has a proper and user-friendly description about the algorithm
+- [ ] My submission has the time complexity of the algorithm
+- [ ] My submission has sample input-output of the program
+- [ ] The description does not end with punctuation
 
 <!-- PULL REQUEST TEMPLATE -->
 <!-- (Update "[ ]" to "[x]" to check a box) -->
