@@ -26,8 +26,8 @@
 - [0/1-knapsack](Dynamic-Programming/01-knapsack.cpp)
 - [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
 - [Edit Distance](Dynamic-Programming/edit-distance.cpp)
+- [Maximum sum rectangle](Dynamic-Programming/maximum-sum-rectangle.cpp)
 - [Coin Change](Dynamic-Programming/coin-change-problem.cpp)
-
 
 ## Graphs
 - [Bellman Ford Algorithm](Graphs/bellman-ford.cpp)
