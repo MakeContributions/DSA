@@ -46,3 +46,19 @@ int main()
 	movetoend(arr, n);
 	return 0;
 }
+
+/*
+
+Sample Input:
+
+	Enter the size
+	4
+	Enter the array
+	1 0 9 0
+	Array after moving all zeros to end is :
+	1 9 0 0
+
+**Time Complexity: O(n), n is the size of the array
+**Space Complexity: O(1)
+
+*/
