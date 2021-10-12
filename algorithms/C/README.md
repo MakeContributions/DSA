@@ -19,6 +19,11 @@
 - [Circular Linked List](linked-lists/Insert-and-del-beginning-circular-ll.c)
 - [Merge two Linked Lists](linked-lists/merge-two-linkedlists.c)
 - [Reverse a Linked List](linked-lists/reverse-linkedlists.c)
+- [Doubly Linked List](linked-lists/doubly-linked-list.c)
+- [Glued-Linked-List](linked-lists/gl-threads.c)
+
+## Maths
+- [Palindrome Number](maths/palindrome.c)
 
 ## Queues
 - [Double Ended Queue using array](queues/double-ended-queue-using-array.c)
