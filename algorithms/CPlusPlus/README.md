@@ -137,4 +137,4 @@
 - [Sum of all elements of an array](Recursion/Sum-of-all-elements-in-an-array.cpp)
 - [Decimal number to Binary conversion](Recursion/decimal-to-binary-conversion.cpp)
 - [Sum of digits of a decimal integer](Recursion/sum-of-digits-of-an-integer.cpp)
-
+- [Prime Check](Recursion/recursive-prime.cpp)
