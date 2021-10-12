@@ -1,4 +1,6 @@
-//smallest possible sum in a given array of elements
+//smallest-possible-sum
+//Given an array of n elements,the smallest possible value we can get by adding any elements from the given array
+
 //time complexity : O(n) || space complexity : O(1)
 // n: size of array
 
