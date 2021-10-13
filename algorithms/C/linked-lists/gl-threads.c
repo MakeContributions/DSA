@@ -31,8 +31,8 @@
  * @author [Ashborn-SM](https://github.com/Ashborn-SM)
  */
 
-#include <stdlib.h> // for IO operations
-#include <stdio.h> // for dynamic memory allocation
+#include <stdlib.h> // for dynamic memory allocation 
+#include <stdio.h> // for IO operations
 #include <string.h> // for string manipulation
 
 #define HEAD(list) (list->head)
@@ -186,47 +186,46 @@ person* allocate(){
  * @returns void
  */
 static void test(gldll* list){
-    if(HEAD(list) == NULL){
-        return;
-    }
+	if(HEAD(list) == NULL){
+		return;
+	}
 	char passed[10] = "[PASSED]:\0";
 	char failed[10] = "[FAILED]:\0";
 	char expected[9] = "EXPECTED\0";
 	char returned[9] = "RETURNED\0";
-	person* per = NULL;
-    per = (person*)((char*)HEAD(list)- list->offset);
-    if(strcmp(per->name, "rohit") == 0){
-        printf("%s: %s -> %s, %s -> %s\n", passed, expected, "rohit",
-        returned, per->name);
-    }
-    else{
-        printf("%s: %s -> %s, %s -> %s\n", failed, expected, "rohit",
-        returned, per->name);
-    }
-    if(per->age == 23){
-        printf("%s: %s -> %i, %s -> %i\n", passed, expected, 23,
-        returned, per->age);
-    }
-    else{
-        printf("%s: %s -> %i, %s -> %i\n", failed, expected, 23,
-        returned, per->age);
-    }
-    if(per->height == 174){
-        printf("%s: %s -> %i, %s -> %i\n", passed, expected, 174,
-        returned, per->height);
-    }
-    else{
-        printf("%s: %s -> %i, %s -> %i\n", failed, expected, 174,
-        returned, per->height);
-    }
-    if(per->weight == 67){
-        printf("%s: %s -> %i, %s -> %i\n", passed, expected, 67,
-        returned, per->weight);
-    }
-    else{
-        printf("%s: %s -> %i, %s -> %i\n", failed, expected, 67,
-        returned, per->weight);
-    }
+	person* per = (person*)((char*)HEAD(list)- list->offset);
+	if(strcmp(per->name, "rohit") == 0){
+		printf("%s: %s -> %s, %s -> %s\n", passed, expected, "rohit",
+		returned, per->name);
+	}
+	else{
+		printf("%s: %s -> %s, %s -> %s\n", failed, expected, "rohit",
+		returned, per->name);
+	}
+	if(per->age == 23){
+		printf("%s: %s -> %i, %s -> %i\n", passed, expected, 23,
+		returned, per->age);
+	}
+	else{
+		printf("%s: %s -> %i, %s -> %i\n", failed, expected, 23,
+		returned, per->age);
+	}
+	if(per->height == 174){
+		printf("%s: %s -> %i, %s -> %i\n", passed, expected, 174,
+		returned, per->height);
+	}
+	else{
+		printf("%s: %s -> %i, %s -> %i\n", failed, expected, 174,
+		returned, per->height);
+	}
+	if(per->weight == 67){
+		printf("%s: %s -> %i, %s -> %i\n", passed, expected, 67,
+		returned, per->weight);
+	}
+	else{
+		printf("%s: %s -> %i, %s -> %i\n", failed, expected, 67,
+		returned, per->weight);
+	}
 }
 
 /**
@@ -246,44 +245,44 @@ void destructor(gldll** list){
  * @returns 0 on exit
  */
 int main(){
-    gldll* list = malloc(sizeof(*list));
+	gldll* list = malloc(sizeof(*list));
 	if(list == NULL){
 		printf("Allocation Failure");
 		exit(0);
 	}
 
-    person* rahul = allocate();
-    person* rohit = allocate();
+	person* rahul = allocate();
+	person* rohit = allocate();
 
-    strcpy(rahul->name, "rahul");
-    strcpy(rohit->name, "rohit");
+	strcpy(rahul->name, "rahul");
+	strcpy(rohit->name, "rohit");
 
-    rahul->age = 19;
-    rohit->age = 23;
+	rahul->age = 19;
+	rohit->age = 23;
 
-    rahul->height = 170;
-    rohit->height = 174;
+	rahul->height = 170;
+	rohit->height = 174;
 
-    rahul->weight = 60;
-    rohit->weight = 67;
+	rahul->weight = 60;
+	rohit->weight = 67;
 
-    init_glthread_list(list, OFFSETOF(person, glnode));
+	init_glthread_list(list, OFFSETOF(person, glnode));
 
-    init_glthread_node(&(rahul->glnode));
-    init_glthread_node(&(rohit->glnode));
+	init_glthread_node(&(rahul->glnode));
+	init_glthread_node(&(rohit->glnode));
 
-    glthread_pushfront(list, &(rohit->glnode));
-    glthread_pushfront(list, &(rahul->glnode));
+	glthread_pushfront(list, &(rohit->glnode));
+	glthread_pushfront(list, &(rahul->glnode));
 
-    char** addresses = get_addresses(list);
-    for(int i=0; i<list->size; i++){
-        print((person*)addresses[i]);
-    }
+	char** addresses = get_addresses(list);
+	for(int i=0; i<list->size; i++){
+		print((person*)addresses[i]);
+	}
 
-    glthread_popfront(list);
+	glthread_popfront(list);
 
-    test(list);
+	test(list);
 
-    destructor(&list);
-    return 0;
+	destructor(&list);
+	return 0;
 }
