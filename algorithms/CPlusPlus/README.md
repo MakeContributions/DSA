@@ -19,6 +19,7 @@
 - [Segregate 0s and 1s](Arrays/segregate-0-and-1.cpp)
 - [Search insert position](Arrays/search-insert-position.cpp)
 - [Matrix Multiplication](Arrays/matrix-multiplication.cpp)
+- [Smallest Possible Sum](Arrays/smallest-possible-sum.cpp)
 
 ## Dynamic-Programming
 - [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
