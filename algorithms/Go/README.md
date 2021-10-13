@@ -1,11 +1,11 @@
 # Go
 
 ## Arrays
-
 - [Maximum subarray sum (Kadane's Algorithm)](arrays/maximum-subarray-sum.go)
 - [Two Sum](arrays/two-sum.go)
 - [Majority Element](arrays/majority_element.go)
 - [Contains Duplicate](arrays/contains_duplicate.go)
+- [Single Number](arrays/single-number.go)
 
 
 ## Scheduling
@@ -22,7 +22,6 @@
 - [Quicksort](sorting/quicksort.go)
 
 ## Recursion
-
 - [Fibonacci](recursion/fibonacci.go)
 
 ## String
