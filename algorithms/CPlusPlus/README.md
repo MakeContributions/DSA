@@ -23,6 +23,7 @@
 - [Smallest Possible Sum](Arrays/smallest-possible-sum.cpp)
 - [Move Zeros to End of The Array](Arrays/move-zeros-to-end-of-array.cpp)
 
+
 ## Dynamic-Programming
 
 - [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
@@ -158,3 +159,4 @@
 - [Sum of n natural numbers](Recursion/sum-of-n.cpp)
 - [Minimum and maximum element in array](Recursion/min-max-element-in-array.cpp)
 - [Prime Check](Recursion/recursive-prime.cpp)
+
