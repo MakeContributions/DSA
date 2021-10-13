@@ -7,15 +7,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int smallest_possible_sum(vector<int> &arr,int n) //function to calculate smallest_possible_sum
+int smallest_possible_sum(vector<int> &arr) //function to calculate smallest_possible_sum
 {
-  int sum=0;
+  int sum=0,n=arr.size();
   //smallest_possible_sum would be sum of all negative numbers in the array if there are any
   // or else equal to the smallest element in the array(if all numbers are >=0)
   for(int i=0;i<n;i++)
   {
     if(arr[i]<0)
-    sum+= arr[i];
+      sum+= arr[i];  
   }
 
   if(sum!=0) //if ans is not equal to zero, there was at least 1 negative number
@@ -24,11 +24,7 @@ int smallest_possible_sum(vector<int> &arr,int n) //function to calculate smalle
   }
   else
   {
-    int min_ele=INT_MAX;
-
-    for(int i=0;i<n;i++)
-    min_ele=min(min_ele,arr[i]);
-
+    int min_ele= *min_element(arr.begin(),arr.end());
     return min_ele;
   }
 }
@@ -41,9 +37,9 @@ int main()
 
     vector<int> arr(size); // for storing array of n elements
     for(int i=0;i<size;i++)
-    cin>>arr[i];
+      cin>>arr[i];
 
-    int res= smallest_possible_sum(arr,size);
+    int res= smallest_possible_sum(arr);
 
     cout<<"The smallest possible sum is : "<<res<<"\n";
 
