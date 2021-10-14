@@ -72,9 +72,9 @@ int main()
  {  cout<<"Enter "<<i<<"th elements of array"<<endl;
     cin>>arr[i];
  }
- int ans1=max_subarray_sum_method_1(arr,n);//this is brute force approch time complexity=O(n^3) || space complexity=O(1) ;
- int ans2=max_subarray_sum_method_2(arr,n);//this is optimized brute force approch time complexity=O(n^2) || space complexity=O(1) ;
- int ans3=max_subarray_sum_method_3(arr,n);//this is further optimized approch called "Kadane's Algorithm" time complexity=O(n)|| space complexity=O(1) ;
+ int ans1=max_subarray_sum_method_1(arr,n);//this is brute force approach time complexity=O(n^3) || space complexity=O(1) ;
+ int ans2=max_subarray_sum_method_2(arr,n);//this is optimized brute force approach time complexity=O(n^2) || space complexity=O(1) ;
+ int ans3=max_subarray_sum_method_3(arr,n);//this is further optimized approach called "Kadane's Algorithm" time complexity=O(n)|| space complexity=O(1) ;
  cout<<"max_subarray_sum:"<<ans1<<endl;
  cout<<"max_subarray_sum:"<<ans2<<endl;
  cout<<"max_subarray_sum:"<<ans3<<endl;//print any ans1,ans2,ans3;
