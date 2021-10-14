@@ -23,6 +23,7 @@
 
 ## Maths
 - [Factorial](Maths/factorial_using_big_integer.java)
+- [Catalan Numbers](Maths/catalan-numbers.java)
 
 ## Queues
 - [Circular Queue using Linked List](queues/circular-queue-linked-list.java)
@@ -31,7 +32,7 @@
 
 ## Scheduling
 - [Multi-Level Queue Scheduling](scheduling/multi-level-queue-scheduling.java)
-- [Rund Robin](scheduling/round-robin.java)
+- [Round Robin](scheduling/round-robin.java)
 
 ## Searching
 - [Binary Search](searching/binary-search.java)
