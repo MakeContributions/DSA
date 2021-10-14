@@ -9,7 +9,7 @@
 - [Longest Consecutive Subsequence](arrays/longest-consecutive-subsequence.java)
 - [K-th Element of Two Sorted Arrays](arrays/kth-element--orted-array.java)
 - [Trapping Rain Water](arrays/trapping-rain-water.java)
-- [ugly number](arrays/ugly-number.java)
+- [Ugly Number](arrays/ugly-number.java)
 
 ## Graphs
 - [Dijkstras](graphs/Dijkstras.java)
