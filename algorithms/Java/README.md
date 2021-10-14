@@ -74,3 +74,4 @@
 - [Left View of a Tree](trees/left-view.java)
 - [Right View of a Tree](trees/right-view.java)
 - [Zig-Zag Traversal of a Tree](trees/zig-zag-traversal.java)
+- [Min Heap](trees/MinHeap.java)
