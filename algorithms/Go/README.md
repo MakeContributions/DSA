@@ -7,6 +7,7 @@
 - [Contains Duplicate](arrays/contains_duplicate.go)
 - [Single Number](arrays/single-number.go)
 
+
 ## Scheduling
 - [Interval Scheduling](scheduling/interval-scheduling.go)
 
@@ -25,3 +26,4 @@
 
 ## String
 - [Palindrome Permutation](strings/palindrome-permutation.go)
+

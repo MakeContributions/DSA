@@ -20,6 +20,7 @@
 - [Segregate 0s and 1s](Arrays/segregate-0-and-1.cpp)
 - [Search insert position](Arrays/search-insert-position.cpp)
 - [Matrix Multiplication](Arrays/matrix-multiplication.cpp)
+- [Smallest Possible Sum](Arrays/smallest-possible-sum.cpp)
 
 ## Dynamic-Programming
 
@@ -28,6 +29,8 @@
 - [0/1-knapsack](Dynamic-Programming/01-knapsack.cpp)
 - [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
 - [Edit Distance](Dynamic-Programming/edit-distance.cpp)
+- [Maximum sum rectangle](Dynamic-Programming/maximum-sum-rectangle.cpp)
+- [Coin Change](Dynamic-Programming/coin-change-problem.cpp)
 
 ## Dynamic-Programming
 
@@ -126,6 +129,7 @@
 - [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
 - [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
 - [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
+- [Fenwick Tree](Trees/Fenwick_Tree.cpp)
 
 # Maths
 
@@ -150,7 +154,17 @@
 - [Sum of all elements of an array](Recursion/Sum-of-all-elements-in-an-array.cpp)
 - [Decimal number to Binary conversion](Recursion/decimal-to-binary-conversion.cpp)
 - [Sum of digits of a decimal integer](Recursion/sum-of-digits-of-an-integer.cpp)
+<<<<<<< HEAD
 
 ## Trie
 
 - [Trie searching](Trie/trie_search.cpp)
+=======
+- [Binary search using recursion](Recursion/binary-search.cpp)
+- [First uppercase letter in a string](Recursion/first-uppercase-letter.cpp)
+- [Reverse a string using recursion](Recursion/reverse-string.cpp)
+- [Find string length using recursion](Recursion/string-length.cpp)
+- [Sum of n natural numbers](Recursion/sum-of-n.cpp)
+- [Minimum and maximum element in array](Recursion/min-max-element-in-array.cpp)
+- [Prime Check](Recursion/recursive-prime.cpp)
+>>>>>>> 385027e60b4d75ca0f4b0457fbfdffa25395e6a7
