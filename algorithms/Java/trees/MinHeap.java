@@ -1,4 +1,4 @@
-*
+/*
 Min-Heap is a binary tree structure such that every node in the tree will be
 lesser or equal to the child node. It is used when you need quick access to
 the smallest number in the array.
