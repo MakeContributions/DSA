@@ -58,4 +58,11 @@
 
 ## Trees
 - [Binary Tree](trees/binary_tree.py)
+
+## Graphs
+- [Simple Graph](graphs/graph.py)
+
+## Trees
+- [Binary Tree](trees/binary_tree.py)
 - [Binary Search Tree](trees/binary-search-tree.py)
+
