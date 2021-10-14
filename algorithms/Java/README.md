@@ -27,6 +27,7 @@
 ## Queues
 - [Circular Queue using Linked List](queues/circular-queue-linked-list.java)
 - [Queue using Linked List](queues/queue-linked-list.java)
+- [Priority Queue using Array](queues/priority-queue-array.java)
 
 ## Scheduling
 - [Multi-Level Queue Scheduling](scheduling/multi-level-queue-scheduling.java)
