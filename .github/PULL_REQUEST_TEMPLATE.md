@@ -6,7 +6,7 @@
 - [ ] My addition does not have a spelling problem
 - [ ] My submission has a proper and user-friendly description of the algorithm
 - [ ] My submission has the time complexity of the algorithm
-- [ ] My submission has sample input-output of the program
+- [ ] My submission has sample input-output of the program (NOT FOR PYTHON)
 - [ ] The description does not end with punctuation
 
 <!-- PULL REQUEST TEMPLATE -->
