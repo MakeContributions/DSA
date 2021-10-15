@@ -129,7 +129,7 @@
 
 ## Trie
 
--[Trie for searching](Trie/trie_search.cpp)
+- [Trie for searching](Trie/trie_search.cpp)
 
 # Maths
 
