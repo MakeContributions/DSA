@@ -158,3 +158,6 @@
 - [Sum of n natural numbers](Recursion/sum-of-n.cpp)
 - [Minimum and maximum element in array](Recursion/min-max-element-in-array.cpp)
 - [Prime Check](Recursion/recursive-prime.cpp)
+- [Array sorted or not](Recursion\array-sorted-or-not.cpp)
+- [Product of two numbers](Recursion\product-of-numbers.cpp)
+- [Product of digits in a number](Recursion\product-of-digits.cpp)
