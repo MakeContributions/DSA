@@ -127,6 +127,10 @@
 - [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
 - [Fenwick Tree](Trees/Fenwick_Tree.cpp)
 
+## Trie
+
+-[Trie for searching](Trie/trie_search.cpp)
+
 # Maths
 
 - [Kaprekar Number](Maths/Kaprekar-number.cpp)
