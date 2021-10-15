@@ -140,6 +140,7 @@
 - [Missing number](Maths/missing-number.cpp)
 - [Factorial of a number](Maths/factorial.cpp)
 - [Prime-number](Maths/prime-number.cpp)
+- [Segmented Sieve](Maths/segmented-sieve-range.cpp)
 
 # Recursion
 
