@@ -126,6 +126,7 @@
 - [Missing number](Maths/missing-number.cpp)
 - [Factorial of a number](Maths/factorial.cpp)
 - [Prime-number](Maths/prime-number.cpp)
+- [Segmented Sieve](Maths/segmented-sieve-range.cpp)
 
 # Recursion
 - [Tower of Hanoi](Recursion/towerofHanoi.cpp)
@@ -135,3 +136,14 @@
 - [Sum of all elements of an array](Recursion/Sum-of-all-elements-in-an-array.cpp)
 - [Decimal number to Binary conversion](Recursion/decimal-to-binary-conversion.cpp)
 - [Sum of digits of a decimal integer](Recursion/sum-of-digits-of-an-integer.cpp)
+- [Binary search using recursion](Recursion/binary-search.cpp)
+- [First uppercase letter in a string](Recursion/first-uppercase-letter.cpp)
+- [Reverse a string using recursion](Recursion/reverse-string.cpp)
+- [Find string length using recursion](Recursion/string-length.cpp)
+- [Sum of n natural numbers](Recursion/sum-of-n.cpp)
+- [Minimum and maximum element in array](Recursion/min-max-element-in-array.cpp)
+- [Prime Check](Recursion/recursive-prime.cpp)
+- [Array sorted or not](Recursion\array-sorted-or-not.cpp)
+- [Product of two numbers](Recursion\product-of-numbers.cpp)
+- [Product of digits in a number](Recursion\product-of-digits.cpp)
+
