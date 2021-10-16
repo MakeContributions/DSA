@@ -54,3 +54,60 @@ class ugly_number {
         System.out.println("nth Ugly number is : "+ugly);
     }
 }
+
+
+
+/**
+ * Time Complexity : O(n)
+ * Auxiliary Space Complexity : O(n)
+ *
+ * Test Case 1 :
+ * Input : 5
+ * Output : 5
+ *
+ * Test Case 2 :
+ * Input : 11
+ * Output : 15
+ *
+ * Test Case 3 :
+ * Input : 6
+ * Output : 6
+ */
+
+/** Working for input : n = 5
+ * initialize
+ *    ugly[0] =  | 1 |
+ *    two =  three = five = 0;
+ *    nm2 = 2 , nm3 = 3 , nm5 = 5;
+ *
+ * First iteration
+ *    ugly[1] = Min(ugly[two]*nm2, ugly[three]*nm3, ugly[five]*nm5)
+ *             = Min(2, 3, 5)
+ *             = 2
+ *    ugly[] =  | 1 | 2 |
+ *    two = 1,  three = five = 0  (two got incremented )
+ *
+ * Second iteration
+ *     ugly[2] = Min(ugly[two]*nm2, ugly[three]*nm3, ugly[five]*nm5)
+ *              = Min(4, 3, 5)
+ *              = 3
+ *     ugly[] =  | 1 | 2 | 3 |
+ *     two = 1,  three =  1, five = 0  (three got incremented )
+ *
+ * Third iteration
+ *     ugly[3] = Min(ugly[two]*nm2, ugly[three]*nm3, ugly[five]*nm5)
+ *              = Min(4, 6, 5)
+ *              = 4
+ *     ugly[] =  | 1 | 2 | 3 |  4 |
+ *     two = 2,  three =  1, five = 0  (two got incremented )
+ *
+ * Fourth iteration
+ *     ugly[4] = Min(ugly[two]*nm2, ugly[three]*nm3, ugly[five]*nm5)
+ *               = Min(6, 6, 5)
+ *               = 5
+ *     ugly[] =  | 1 | 2 | 3 |  4 | 5 |
+ *     two = 2,  three =  1, five = 1  (five got incremented )
+ *
+ * Since five got incremented hence value of next becomes 5 and then it is retured
+ */
+
