@@ -46,6 +46,7 @@
 7. [Radix Sort](sorting/radix_sort.py)
 8. [Shell Sort](sorting/shell-sort.py)
 9. [Merge sort](sorting/merge_sort.py)
+10.[count-sort](sorting/count-sort.py)
 
 ## Strings
 
