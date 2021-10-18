@@ -9,7 +9,7 @@ Github : https://github.com/skmodi649
  * 1) Initialize i,j as n-1,0 where n is size of arr1
  * 2) Iterate through every element of arr1 and arr2 using two pointers i and j respectively
  *   while(i>=0 && j<m)
- *     if arr1[i] is more than the arr2[j]
+ *     if arr1[i] > arr2[j]
  *         swap arr1[i] and arr2[j]
  *     else
  *         decrement i
