@@ -140,6 +140,9 @@
 - [Missing number](Maths/missing-number.cpp)
 - [Factorial of a number](Maths/factorial.cpp)
 - [Prime-number](Maths/prime-number.cpp)
+- [Even number of digits](Maths/even-no-of-digits.cpp)
+- [Power of two](Maths/power-of-two.cpp)
+- [Small numbers](Maths/small-numbers.cpp)
 
 # Recursion
 
