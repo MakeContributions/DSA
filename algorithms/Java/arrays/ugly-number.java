@@ -108,6 +108,6 @@ class ugly_number {
  *     ugly[] =  | 1 | 2 | 3 |  4 | 5 |
  *     two = 2,  three =  1, five = 1  (five got incremented )
  *
- * Since five got incremented hence value of next becomes 5 and then it is retured
+ * Since five got incremented hence value of next becomes 5 and then it is returned
  */
 
