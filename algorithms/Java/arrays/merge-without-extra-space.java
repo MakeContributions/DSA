@@ -1,10 +1,22 @@
-// Program to merge two sorted arrays without any extra space in Java or with O(1) space
+// Program to merge two sorted arrays without any extra space in Java
+/*
+Author : Suraj Kumar Modi
+Github : https://github.com/skmodi649
+ */
 
-// Algorithm :
-/** while traversing the two sorted arrays parallelly 
-* if we encounter the jth second array element is greater 
-* than ith first array element, then jth element is to be swapped with ith element
-*/
+
+/** Algorithm :
+ * 1) Initialize i,j as n-1,0 where n is size of arr1
+ * 2) Iterate through every element of arr1 and arr2 using two pointers i and j respectively
+ *   while(i>=0 && j<m)
+ *     if arr1[i] is more than arr2[j]
+ *         swap arr1[i] and arr2[j]
+ *     else
+ *         decrement i
+ *         increment j
+ *
+ * 3) Sort both arr1 and arr2
+ */
 
 import java.util.*;
 
@@ -22,7 +34,7 @@ class MergingWithoutExtraSpace {
             for (int i = 0; i < n; i++) {
                 arr1[i] = sc.nextInt();
             }
-            System.out.println("Enter elements in tha arr2 : ");
+            System.out.println("Enter elements in the arr2 : ");
             for (int i = 0; i < m; i++) {
                 arr2[i] = sc.nextInt();
             }
@@ -79,3 +91,5 @@ class MergingWithoutExtraSpace {
  * Time Complexity : O((n+m)log(n+m))
  * Auxiliary Space Complexity : O(1)
  */
+
+
