@@ -163,3 +163,4 @@ console.log(newDoubleLinkedList.toString());
 
 newDoubleLinkedList.delete(20);
 console.log('After delete 20: ' + newDoubleLinkedList.toString());
+console.log(`Tail points to : ${newDoubleLinkedList.getTail().element}`);
