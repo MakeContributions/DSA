@@ -29,7 +29,7 @@ int findNumbers(vector<int> &nums)
         //countdigits() will return the number of digits present in the element
         int dc = countdigits(it);
         //if it is even, increment the count
-        if (dc % 2 == 0)
+        if ( ! (dc & 2) )
         {
             count++;
         }
