@@ -82,3 +82,6 @@
 
 ## Backtracking
 - [N Queen Problem](backtracking/nqueen.java)
+
+## Bit Manipulation
+- [Count Set Bits](bit-manipulation/count-set-bits.java)
