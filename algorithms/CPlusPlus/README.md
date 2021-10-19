@@ -20,7 +20,7 @@
 - [Segregate 0s and 1s](Arrays/segregate-0-and-1.cpp)
 - [Search insert position](Arrays/search-insert-position.cpp)
 - [Matrix Multiplication](Arrays/matrix-multiplication.cpp)
-- [Smallest Possible Sum](Arrays/smallest-possible-sum.cpp)
+- [Kadane's Algorithm](Arrays/Kadane's-Algorithm.cpp)
 
 ## Dynamic-Programming
 
@@ -29,8 +29,6 @@
 - [0/1-knapsack](Dynamic-Programming/01-knapsack.cpp)
 - [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
 - [Edit Distance](Dynamic-Programming/edit-distance.cpp)
-- [Maximum sum rectangle](Dynamic-Programming/maximum-sum-rectangle.cpp)
-- [Coin Change](Dynamic-Programming/coin-change-problem.cpp)
 
 ## Graphs
 
@@ -125,7 +123,6 @@
 - [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
 - [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
 - [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
-- [Fenwick Tree](Trees/Fenwick_Tree.cpp)
 
 # Maths
 
@@ -140,6 +137,10 @@
 - [Missing number](Maths/missing-number.cpp)
 - [Factorial of a number](Maths/factorial.cpp)
 - [Prime-number](Maths/prime-number.cpp)
+- [Even number of digits](Maths/even-no-of-digits.cpp)
+- [Power of two](Maths/power-of-two.cpp)
+- [Small numbers](Maths/small-numbers.cpp)
+- [Segmented Sieve](Maths/segmented-sieve-range.cpp)
 
 # Recursion
 
@@ -157,3 +158,6 @@
 - [Sum of n natural numbers](Recursion/sum-of-n.cpp)
 - [Minimum and maximum element in array](Recursion/min-max-element-in-array.cpp)
 - [Prime Check](Recursion/recursive-prime.cpp)
+- [Array sorted or not](Recursion\array-sorted-or-not.cpp)
+- [Product of two numbers](Recursion\product-of-numbers.cpp)
+- [Product of digits in a number](Recursion\product-of-digits.cpp)
