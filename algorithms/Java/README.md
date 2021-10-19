@@ -9,6 +9,7 @@
 - [Longest Consecutive Subsequence](arrays/longest-consecutive-subsequence.java)
 - [K-th Element of Two Sorted Arrays](arrays/kth-element--orted-array.java)
 - [Trapping Rain Water](arrays/trapping-rain-water.java)
+- [Ugly Number](arrays/ugly-number.java)
 
 ## Graphs
 - [Dijkstras](graphs/Dijkstras.java)
@@ -23,6 +24,7 @@
 
 ## Maths
 - [Factorial](Maths/factorial_using_big_integer.java)
+- [Catalan Numbers](Maths/catalan-numbers.java)
 
 ## Queues
 - [Circular Queue using Linked List](queues/circular-queue-linked-list.java)
@@ -31,7 +33,7 @@
 
 ## Scheduling
 - [Multi-Level Queue Scheduling](scheduling/multi-level-queue-scheduling.java)
-- [Rund Robin](scheduling/round-robin.java)
+- [Round Robin](scheduling/round-robin.java)
 
 ## Searching
 - [Binary Search](searching/binary-search.java)
@@ -75,3 +77,6 @@
 - [Left View of a Tree](trees/left-view.java)
 - [Right View of a Tree](trees/right-view.java)
 - [Zig-Zag Traversal of a Tree](trees/zig-zag-traversal.java)
+
+## Backtracking
+- [N Queen Problem](backtracking/nqueen.java)
