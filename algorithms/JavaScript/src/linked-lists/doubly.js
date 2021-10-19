@@ -68,7 +68,7 @@ function DoubleLinkedList() {
 
       current.next = current.next.next;
 
-      // if current.next is null, that means it 
+      // if current.next is null, that means it
       // is the last elem, so let's mark it as tail.
       if (!current.next) {
         tail = current;
