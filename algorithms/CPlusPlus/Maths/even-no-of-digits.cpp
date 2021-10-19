@@ -20,6 +20,21 @@ int countdigits(int n)
     //return the count
     return c;
 }
+//we can use common logarithms (base 10) to find the number of digits of an integer ( number of digits = log10(n) + 1 )
+//C/C++ provides us with a factory function ( defined in < cmath > header ) to compute common log of a number.
+//same function as above but with this approach
+
+/*
+int countdigits(int n)
+{
+	if(n < 0)
+		n = n * -1;
+	if(n)
+		return (int)log10((double)n) + 1;
+	else
+		return 1;
+}
+*/
 
 int findNumbers(vector<int> &nums)
 {
