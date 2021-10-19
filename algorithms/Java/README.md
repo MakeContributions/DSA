@@ -72,6 +72,7 @@
 - [Anagram](strings/anagram.java)
 - [Longest Common Substring](strings/Longest_common_substring.java)
 - [Boyer Moore Search](strings/Boyer_Moore.java)
+- [First Non Repeating Character](strings/first-non-repeating-char.java)
 
 ## Trees
 - [Pre in Post Traversal](trees/pre-in-post-traversal.java)
