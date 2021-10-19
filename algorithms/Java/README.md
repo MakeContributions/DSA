@@ -79,7 +79,7 @@
 - [Anagram](strings/anagram.java)
 - [Longest Common Substring](strings/Longest_common_substring.java)
 - [Boyer Moore Search](strings/Boyer_Moore.java)
-- [Reverse String](strings/reverseString.java)
+- [Reverse String](strings/reverse-string.java)
 
 ## Trees
 
