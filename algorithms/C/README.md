@@ -5,6 +5,7 @@
 - [Even and Odd](arrays/even-and-odd.c)
 - [Unique Elements in an array](arrays/unique-elements-in-an-array.c)
 - [Reverse an array](arrays/reverse-array.c)
+- [Maximum differnce](arrays/maximum-difference.c)
 
 ## Bit Manipulation
 
