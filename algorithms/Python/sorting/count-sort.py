@@ -27,16 +27,6 @@ ans = count_sort(a)
 print("Sorted array is ")
 print(ans)
 
-#INPUT/OUTPUT
-#Enter the size of list 5
-#6
-#7
-#-1
-#-2
-#0
-#Sorted array is 
-#[-2, -1, 0, 6, 7]
-
 #TIME COMPLEXITY
 #O(n+k) where n is the number of elements in input array and k is the range of input 
 
