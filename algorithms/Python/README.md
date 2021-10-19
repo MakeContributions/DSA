@@ -32,6 +32,7 @@
 ## Sorting
 - [Bubble Sort](sorting/bubble_sort.py)
 - [Comb Sort](sorting/comb_sort.py)
+- [Count Sort](sorting/count-sort.py)
 - [Insertion Sort](sorting/insertion_sort.py)
 - [Quicksort](sorting/quicksort.py)
 - [Selection Sort](sorting/selection_sort.py)
