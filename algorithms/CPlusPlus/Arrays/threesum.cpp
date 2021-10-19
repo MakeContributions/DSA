@@ -1,3 +1,7 @@
+//Description :c++ solution to find all the unique triplet without using any extra space.
+//using this method we will be able to find all the unique triplets 
+//Time Complexity : O(n), where n is the array size
+//Space Complexity : O(1),it will take only constant amount of time.
 #include<bits/stdc++.h>
 using namespace std;
 
