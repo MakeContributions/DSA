@@ -2,6 +2,12 @@
 //using this method we will be able to find all the unique triplets 
 //Time Complexity : O(n), where n is the array size
 //Space Complexity : O(1),it will take only constant amount of time.
+//sample 
+// input 1: arr[]=[-1,0,1,2,-1,4]
+//output 1:[[-1,0,1][-1,-1,2]]
+//input 2:arr[]=[]
+//output 2:[]
+
 #include<bits/stdc++.h>
 using namespace std;
 
