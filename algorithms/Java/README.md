@@ -26,6 +26,7 @@
 ## Maths
 - [Factorial](Maths/factorial_using_big_integer.java)
 - [Catalan Numbers](Maths/catalan-numbers.java)
+- [Nth Geek Onacci Number](Maths/nth-geek-onacci-number.java)
 
 ## Queues
 - [Circular Queue using Linked List](queues/circular-queue-linked-list.java)
