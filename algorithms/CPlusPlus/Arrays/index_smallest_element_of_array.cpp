@@ -1,4 +1,12 @@
 //index of smallest element of array
+/* Example :
+size of array =5
+Let array be ,arr[5]={9,4,1,5,8}
+here smallest element of array is 1 which is at index 2 of array 
+output = 2 that is index of smallest element of array.
+Time complexity = O(n)
+*/
+
 #include<iostream>
 using namespace std;
 int main()
