@@ -29,7 +29,8 @@ long long pow(long long a, long long n)
     {
         return p * p;
     }
-    // n is odd so taking out the one a results in n to be even now using the same previous info
+    /* n is odd so taking out the one a results in n to be even now using the same previous infomation
+    */
     else
     {
         return p * p * a;
@@ -38,7 +39,7 @@ long long pow(long long a, long long n)
 
 int main()
 {
-    long long a, n; // defining two intergers
+    long long a, n; // defining two integers
     cin >> a >> n;  // taking input from the user
 
     cout << pow(a, n); // printing the result by calling the function
