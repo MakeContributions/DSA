@@ -50,12 +50,12 @@ void merge_array(int arr1[],int arr2[],int n1,int n2)
 
 int main()
 {  
-    //declaring a arrayone and arraytwo, 
+    //declaring a array1 and array2, 
 	int arr1[100],arr2[100];
 	int n1,n2,i;
 	cout<<"Enter the element number of  you want in array 1 and array2"<<" ";
 	cin>>n1>>n2;
-	//taking user input for the array one element and array two element.
+	//taking user input for the array1 element and array2 element.
 	cout<<"enter the element of array1"<<" ";
 	for(i=0;i<n1;i++)
 	{
