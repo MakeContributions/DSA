@@ -39,14 +39,14 @@ vector<int>getPrimeFactors(int n) {
     if (n > 1)factors.push_back(n);
     return factors;
 }
-int totient(int n) {
+long long totient(int n) {
     vector<int>primefactors = getPrimeFactors(n);
-    int numerator = 1, denominator = 1;
+    long long numerator = 1, denominator = 1;
     for (auto p : primefactors) {
-        numerator *= (p - 1);
-        denominator *= p;
+        numerator *= (long long)(p - 1);
+        denominator *= (long long)p;
     }
-    return (n * numerator) / denominator;
+    return ((long long)n * numerator) / denominator;
 }
 int main() {
 
