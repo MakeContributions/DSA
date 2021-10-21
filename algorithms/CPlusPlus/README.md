@@ -20,7 +20,6 @@
 - [Search insert position](Arrays/search-insert-position.cpp)
 - [Matrix Multiplication](Arrays/matrix-multiplication.cpp)
 - [Kadane's Algorithm](Arrays/Kadane's-Algorithm.cpp)
-- [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
 - [merge two sorted array without using extraspace](Arrays/merge-two-sorted-array)
 ## Dynamic-Programming
 - [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
