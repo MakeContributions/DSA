@@ -29,13 +29,14 @@
 #include <vector>
 #include <algorithm>
 #include <iostream>
+#include <numeric>
 
 using namespace std;
 
 unsigned long long solution(const vector<unsigned long long>& arr){
     unsigned long long prev_gcd = arr[0];
     for (auto i : arr){
-        prev_gcd = __gcd(i, prev_gcd);       // finding gcd of the array.
+        prev_gcd = gcd(i, prev_gcd);       // finding gcd of the array.
     }
     return arr.size()*prev_gcd;
 }
