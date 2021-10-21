@@ -28,8 +28,9 @@ int main()
     printf("Enter n : "); // n is number of elements in the array
     scanf("%d", &n);
     int arr[n];
-    if(n==0){
+    if(n<2){
         printf("Invalid Input!!!");
+        return 0;
     }
     for (int i = 0; i < n; i++)
     {
