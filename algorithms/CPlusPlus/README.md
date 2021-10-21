@@ -21,6 +21,7 @@
 - [Search insert position](Arrays/search-insert-position.cpp)
 - [Matrix Multiplication](Arrays/matrix-multiplication.cpp)
 - [Smallest Possible Sum](Arrays/smallest-possible-sum.cpp)
+- [Index of Smallest element of Array](Arrays/index-of-smallest-element-of-array.cpp)
 
 ## Dynamic-Programming
 
