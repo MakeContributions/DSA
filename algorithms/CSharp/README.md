@@ -9,7 +9,6 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 2. [Sieve of Eratosthenes](src/Number-Theory/sieve-of-eratosthenes.cs)
 3. [Bitwise Sieve of Eratosthenes](src/Number-Theory/bitwise-sieve-of-eratosthenes.cs)
 
-
 ## Sorts
 
 1. [Bubble Sort](src/Sorts/bubble-sort.cs)
@@ -20,6 +19,7 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 
 ## Strings
 - [Palindrome](src/Strings/palindrome.cs)
+- [Trie](src/Strings/trie.cs)
 
 ## Search
 - [Binary Search](src/Search/binary-search.cs)
