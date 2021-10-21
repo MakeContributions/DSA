@@ -20,7 +20,7 @@
 - [Search insert position](Arrays/search-insert-position.cpp)
 - [Matrix Multiplication](Arrays/matrix-multiplication.cpp)
 - [Kadane's Algorithm](Arrays/Kadane's-Algorithm.cpp)
--[merge two sorted array without using extraspace](Array/mregetwosortedarray.cpp)
+-[merge two sorted array without using extraspace](Array/mergetwosortedarray.cpp)
 ## Dynamic-Programming
 - [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
 - [Longest Common Substring](Dynamic-Programming/longest-common-substring.cpp)
