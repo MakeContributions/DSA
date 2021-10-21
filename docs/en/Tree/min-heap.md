@@ -43,8 +43,9 @@
 
 
 ## Implementation 
-- [C](https://github.com/MakeContributions/DSA/blob/main/algorithms/C/tree/min-heap.c)
-- [C++](https://github.com/MakeContributions/DSA/blob/main/algorithms/CPlusPlus/Trees/min-heap.cpp)
+- [C](../../../algorithms/C/tree/min-heap.c)
+- [C++](../../../algorithms/CPlusPlus/Trees/min-heap.cpp)
+- [Java](../../../algorithms/Java/trees/MinHeap.java)
 ## Video URL
 [Youtube Video about Heaps](https://www.youtube.com/watch?v=t0Cq6tVNRBA) 
 
