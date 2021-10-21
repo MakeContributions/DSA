@@ -29,7 +29,7 @@ void merge_array(int arr1[],int arr2[],int n1,int n2)
 			arr1[i]=arr2[0];
 			arr2[0]=temp;
 		/*	swap(arr1[i],arr2[0]); this is stl function to swap the element*/
-		// after swapping the array element we need to sort the element of second array beacuse array is sorted.
+		// after swapping the array element we need to sort the element of second array because array is sorted.
 			int key,j;
 			for(int i=1;i<n2;i++)
 			{
@@ -50,12 +50,12 @@ void merge_array(int arr1[],int arr2[],int n1,int n2)
 
 int main()
 {  
-    //declaring a array1 and array2, 
+    //declaring a arrayone and arraytwo, 
 	int arr1[100],arr2[100];
 	int n1,n2,i;
 	cout<<"Enter the element number of  you want in array 1 and array2"<<" ";
 	cin>>n1>>n2;
-	//taking user input for the array one element and array2 element.
+	//taking user input for the array one element and array two element.
 	cout<<"enter the element of array1"<<" ";
 	for(i=0;i<n1;i++)
 	{
