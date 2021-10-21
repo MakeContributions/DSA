@@ -48,6 +48,7 @@
 - [First Non Repeating Character](strings/first_non_repeating_character.py)
 - [Longest Common Subsequence](strings/longest_common_subsequence.py)
 - [Unique Character](strings/unique_character.py)
+- [Add String](strings/add_string.py)
 
 ## Dynamic Programming
 - [Print Fibonacci Series Up To N-th Term](dynamic_programming/fibonacci_series.py)
@@ -56,6 +57,10 @@
 - [Catalan Sequence](dynamic_programming/catalan_sequence.py)
 - [0/1 Knapsack Problem](dynamic_programming/knapsack.py)
 
+## Graphs
+- [Simple Graph](graphs/graph.py)
+
 ## Trees
 - [Binary Tree](trees/binary_tree.py)
 - [Binary Search Tree](trees/binary-search-tree.py)
+
