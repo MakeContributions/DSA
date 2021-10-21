@@ -26,6 +26,7 @@
 ## Maths
 - [Factorial](Maths/factorial_using_big_integer.java)
 - [Catalan Numbers](Maths/catalan-numbers.java)
+- [Nth Geek Onacci Number](Maths/nth-geek-onacci-number.java)
 
 ## Queues
 - [Circular Queue using Linked List](queues/circular-queue-linked-list.java)
@@ -72,6 +73,7 @@
 - [Anagram](strings/anagram.java)
 - [Longest Common Substring](strings/Longest_common_substring.java)
 - [Boyer Moore Search](strings/Boyer_Moore.java)
+- [Reverse String](strings/reverse-string.java)
 - [First Non Repeating Character](strings/first-non-repeating-char.java)
 
 ## Trees
