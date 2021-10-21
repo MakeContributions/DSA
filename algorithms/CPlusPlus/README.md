@@ -23,6 +23,7 @@
 - [Smallest Possible Sum](Arrays/smallest-possible-sum.cpp)
 - [Move Zeros to End of The Array](Arrays/move-zeros-to-end-of-array.cpp)
 - [Kadane's Algorithm](Arrays/Kadane's-Algorithm.cpp)
+- [Index of Smallest Element of Array](Arrays/index-of-smallest-element-of-array.cpp)
 
 ## Dynamic-Programming
 
