@@ -82,6 +82,7 @@
 - [Right View of a Tree](trees/right-view.java)
 - [Zig-Zag Traversal of a Tree](trees/zig-zag-traversal.java)
 - [Min Heap](trees/MinHeap.java)
+- [Check Tree Traversal](trees/check-tree-traversal.java)
 
 ## Backtracking
 - [N Queen Problem](backtracking/nqueen.java)
