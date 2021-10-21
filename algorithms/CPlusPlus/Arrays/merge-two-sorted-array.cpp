@@ -50,7 +50,7 @@ void merge_array(int arr1[],int arr2[],int n1,int n2)
 
 int main()
 {  
-    //declearing a array1 and array2, 
+    //declaring a array1 and array2, 
 	int arr1[100],arr2[100];
 	int n1,n2,i;
 	cout<<"Enter the element number of  you want in array 1 and array2"<<" ";
