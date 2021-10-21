@@ -29,7 +29,7 @@ long long pow(long long a, long long n)
     {
         return p * p;
     }
-    /* n is odd so taking out the one a results in n to be even now using the same previous infomation
+    /* n is odd so taking out the one a results in n to be even now using the same previous information
     */
     else
     {
