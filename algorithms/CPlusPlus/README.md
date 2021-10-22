@@ -20,9 +20,11 @@
 - [Segregate 0s and 1s](Arrays/segregate-0-and-1.cpp)
 - [Search insert position](Arrays/search-insert-position.cpp)
 - [Matrix Multiplication](Arrays/matrix-multiplication.cpp)
+- [Smallest Sum Possible](Arrays/smallest-sum-possible.cpp)
 - [Smallest Possible Sum](Arrays/smallest-possible-sum.cpp)
 - [Move Zeros to End of The Array](Arrays/move-zeros-to-end-of-array.cpp)
 - [Kadane's Algorithm](Arrays/Kadane's-Algorithm.cpp)
+
 
 ## Dynamic-Programming
 
