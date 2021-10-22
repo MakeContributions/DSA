@@ -1,4 +1,3 @@
-
 function DoubleLinkedList() {
   const Node = function(element) {
     this.element = element;
@@ -17,7 +16,6 @@ function DoubleLinkedList() {
     node.prev = tail;
     tail.next = node;
     tail = node;
-
 
     length++;
   };
@@ -53,6 +51,7 @@ function DoubleLinkedList() {
     // look for out-of-bounds value
 
     if (position > -1 && position < length) {
+      let removedNode;
       let current = head;
       let index = 0;
 
@@ -60,14 +59,23 @@ function DoubleLinkedList() {
         current = current.next;
         index++;
       }
+      if (current.next) {
+        removedNode = current.next;
+      }
       if (current.next.next !== null) {
         current.next.next.prev = current;
       }
 
       current.next = current.next.next;
 
+      // if current.next is null, that means it
+      // is the last elem, so let's mark it as tail.
+      if (!current.next) {
+        tail = current;
+      }
+
       length--;
-      return current.element;
+      return removedNode.element;
     } else {
       return null;
     }
@@ -143,7 +151,6 @@ function DoubleLinkedList() {
   };
 }
 
-
 const newDoubleLinkedList = new DoubleLinkedList();
 newDoubleLinkedList.append(1);
 newDoubleLinkedList.append(5);
@@ -156,4 +163,5 @@ console.log(newDoubleLinkedList.toArray());
 console.log(newDoubleLinkedList.toString());
 
 newDoubleLinkedList.delete(20);
-console.log('After delete 20: '+newDoubleLinkedList.toString());
+console.log('After delete 20: ' + newDoubleLinkedList.toString());
+console.log(`Tail points to : ${newDoubleLinkedList.getTail().element}`);
