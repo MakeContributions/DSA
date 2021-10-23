@@ -22,7 +22,6 @@ using namespace std;
          if(nums.size()==2)
         {
              reverse(nums.begin(),nums.end());
-            
         }
         //case where the size of vector is greater the 2 start traversing from the right side 
 		// While going from right to left, if we find an index whose value is less than index at right
