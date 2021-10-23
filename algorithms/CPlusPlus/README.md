@@ -27,6 +27,7 @@
 - [Kadane's Algorithm](Arrays/Kadane's-Algorithm.cpp)
 - [Merge two sorted array without using extraspace](Arrays/merge-two-sorted-array.cpp)
 - [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
+- [Next greatest permutation of given number](Arrays/next-permutation.cpp)
 
 ## Dynamic-Programming
 
@@ -48,7 +49,7 @@
 
 ## Multiplication
 
-- [Karatsuba](Multiplication/karatsuba.cpp)
+- [Karat suba](Multiplication/karatsuba.cpp)
 
 ## Linked Lists
 
@@ -103,10 +104,10 @@
 
 ## Strings
 
-- [Rabin-Karp pattern search algo](Strings/rabin-karp.cpp)
+- [Rabin Karp pattern search algo](Strings/rabin-karp.cpp)
 - [All subsequence of a string (Recursion) ](Strings/sequence.cpp)
 - [String reversal](Strings/string-reverse.cpp)
-- [String tokanisation](Strings/string-tokeniser.cpp)
+- [String tokenizer](Strings/string-tokeniser.cpp)
 - [Anagram check](Strings/anagram.cpp)
 - [Remove occurrences from string](Strings/remove-occurrences.cpp)
 - [Delete alternate characters in a string](Strings/delete-alternate-characters.cpp)
