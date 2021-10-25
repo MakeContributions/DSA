@@ -34,6 +34,7 @@
 ## Queues
 
 - [Double Ended Queue using array](queues/double-ended-queue-using-array.c)
+- [Circular Queue using array](queues/circular-queue-using-array.c)
 
 ## Sorting
 
