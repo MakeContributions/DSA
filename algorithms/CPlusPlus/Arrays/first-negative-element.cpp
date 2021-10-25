@@ -32,7 +32,7 @@ void negativeelement(int arr[],int n,int k)
 }
 int main()
 {
-	//array Declartion
+	//array Declaration
 int arr[]={-8,2,3,-6,10};
 int n= sizeof(arr)/sizeof(arr[0]);
 int k=2; //Window size of k
