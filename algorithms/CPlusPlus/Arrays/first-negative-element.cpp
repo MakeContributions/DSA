@@ -36,7 +36,7 @@ int main()
 int arr[]={-8,2,3,-6,10};
 int n= sizeof(arr)/sizeof(arr[0]);
 int k=2; //Window size of k
-// funtion call
+// function call
 negativeelement(arr,n,k);
 return 0;
 } 
