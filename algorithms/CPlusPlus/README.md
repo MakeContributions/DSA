@@ -70,7 +70,7 @@
 - [Linear Search](Searching/linear-search.cpp)
 - [Jump Search](Searching/jump-search.cpp)
 - [Binary Search](Searching/binary-search.cpp)
-- [Finding Squareroot using Binary search](Searching/sqrt-monotonic-binary-search.cpp)
+- [Finding squareroot using Binary search](Searching/sqrt-monotonic-binary-search.cpp)
 - [KMP String Searching](Searching/kmp.cpp)
 - [Ternary Search](Searching/Ternary-search.cpp)
 - [Interpolation Search](Searching/interpolation-search.cpp)
