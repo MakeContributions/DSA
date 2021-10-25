@@ -21,7 +21,7 @@ string lcp(string s1, string s2)
         return ans;
     }
     //in 'm' variable, we are storing the smallest string's size from s1 and s2
-    //beacuse the prefix will always be at most the size of the smallest string
+    //because the prefix will always be at most the size of the smallest string
     int m = s1.size() < s2.size() ? s1.size() : s2.size();
     for (int i = 0; i < m; i++)
     {

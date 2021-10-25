@@ -19,7 +19,7 @@ int firstUniqChar(string s)
     }
     //the frequency of the non-repreating or unique character will be 1
     //1 indicates that it had appeared only once in the string
-    //since we want to search from the begining of the string
+    //since we want to search from the beginning of the string
     //use for loop from beginning of the string
     //to check if that character appeared for a single time
     //if yes, return the index
