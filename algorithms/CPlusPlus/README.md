@@ -27,7 +27,7 @@
 - [Kadane's Algorithm](Arrays/Kadane's-Algorithm.cpp)
 - [Merge two sorted array without using extraspace](Arrays/merge-two-sorted-array.cpp)
 - [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
-
+- [First negative element of every window of size k](Array/first-negative-element.cpp)
 ## Dynamic-Programming
 
 - [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
