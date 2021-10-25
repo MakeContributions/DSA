@@ -5,7 +5,7 @@
 - [Counting Inversions](Arrays/counting-inversions.cpp)
 - [Dutch Flag Algorithm](Arrays/dutch-flag-algo.cpp)
 - [Left Rotation](Arrays/left-rotation.cpp)
-- [Max Subarray Sum](Arrays/max-subarray-sum.cpp)
+- [Max Sub array Sum](Arrays/max-subarray-sum.cpp)
 - [Shift Negatives](Arrays/shift-negatives.cpp)
 - [Boyer–Moore Voting Algorithm](Arrays/boyer_more.cpp)
 - [Reverse Array](Arrays/reverse-array.cpp)
