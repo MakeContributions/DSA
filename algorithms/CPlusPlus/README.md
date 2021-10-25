@@ -54,7 +54,7 @@
 
 - [All possible insertions](Linked-Lists/all-possible-insertion.cpp)
 - [Singly linked lists](Linked-Lists/singly.cpp)
-- [doubley linked lists](Linked-Lists/doubly.cpp)
+- [Doubley linked lists](Linked-Lists/doubly.cpp)
 - [Circular linked lists](Linked-Lists/circular.cpp)
 - [Removing Elements of given value](Linked-Lists/remove-specific-elements.cpp)
 - [Reversing a linked lists](Linked-Lists/reverse.cpp)
@@ -70,7 +70,7 @@
 - [Linear Search](Searching/linear-search.cpp)
 - [Jump Search](Searching/jump-search.cpp)
 - [Binary Search](Searching/binary-search.cpp)
-- [Finding square root using Binary search](Searching/sqrt-monotonic-binary-search.cpp)
+- [Finding Squareroot using Binary search](Searching/sqrt-monotonic-binary-search.cpp)
 - [KMP String Searching](Searching/kmp.cpp)
 - [Ternary Search](Searching/Ternary-search.cpp)
 - [Interpolation Search](Searching/interpolation-search.cpp)
