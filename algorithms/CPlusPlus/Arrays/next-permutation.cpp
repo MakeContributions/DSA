@@ -44,7 +44,7 @@ using namespace std;
                 //return;
             }
             //Next thing that we can observe is the value at nums[change] is always replaced by the value
-          // which is greater than value at change index and occuring first while traversing from back.
+          // which is greater than value at change index and occurring first while traversing from back.
             for(k=nums.size()-1;k>change;k--)
             {
                 if(nums[k]-nums[change]>0)
@@ -54,7 +54,7 @@ using namespace std;
                 }
                 
             }
-          //After swaping we are just sort the values from change+1 index to n-1 index. 
+          //After swapping we are just sort the values from change+1 index to n-1 index. 
         reverse(nums.begin()+change+1,nums.end());
         return nums;
     }
