@@ -6,6 +6,10 @@
 - [Unique Elements in an array](arrays/unique-elements-in-an-array.c)
 - [Reverse an array](arrays/reverse-array.c)
 
+
+- [Maximum difference](arrays/maximum-difference.c)
+
+
 ## Bit Manipulation
 
 - [Add and Subtract](bit-manipulation/add-and-sub-bitwise.c)
@@ -33,6 +37,7 @@
 ## Queues
 
 - [Double Ended Queue using array](queues/double-ended-queue-using-array.c)
+- [Circular Queue using array](queues/circular-queue-using-array.c)
 
 ## Sorting
 
