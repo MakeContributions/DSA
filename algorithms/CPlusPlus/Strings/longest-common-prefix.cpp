@@ -42,8 +42,12 @@ string lcp(string s1, string s2)
 //main starts
 int main()
 {
-    string s1 = "flower";
-    string s2 = "flight";
+    string s1;
+    string s2;
+    cout << "Enter string-1 : \n";
+    getline(cin, s1);
+    cout << "Enter string-2: \n";
+    getline(cin, s2);
     cout << "Longest common prefix is: " << lcp(s1, s2);
     return 0;
 }

@@ -36,7 +36,9 @@ int firstUniqChar(string s)
 //main starts
 int main()
 {
-    string s = "lotus";
+    string s;
+    cout << "Enter a string: \n";
+    getline(cin, s);
     cout << firstUniqChar(s);
     return 0;
 }
