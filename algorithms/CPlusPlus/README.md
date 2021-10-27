@@ -25,9 +25,10 @@
 - [Index of Smallest element of Array](Arrays/index-of-smallest-element-of-array.cpp)
 - [Move Zeros to End of The Array](Arrays/move-zeros-to-end-of-array.cpp)
 - [Kadane's Algorithm](Arrays/Kadane's-Algorithm.cpp)
+- [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
 - [Merge two sorted array without using extraspace](Arrays/merge-two-sorted-array.cpp)
 - [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
-
+- [Next permutation](Arrays/next-permutation.cpp)
 ## Dynamic-Programming
 
 - [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
