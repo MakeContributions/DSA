@@ -1,6 +1,7 @@
 # C++
 
 ## Arrays
+
 - [Counting Inversions](Arrays/counting-inversions.cpp)
 - [Dutch Flag Algorithm](Arrays/dutch-flag-algo.cpp)
 - [Left Rotation](Arrays/left-rotation.cpp)
@@ -19,8 +20,16 @@
 - [Segregate 0s and 1s](Arrays/segregate-0-and-1.cpp)
 - [Search insert position](Arrays/search-insert-position.cpp)
 - [Matrix Multiplication](Arrays/matrix-multiplication.cpp)
+- [Smallest Sum Possible](Arrays/smallest-sum-possible.cpp)
+- [Smallest Possible Sum](Arrays/smallest-possible-sum.cpp)
+- [Index of Smallest element of Array](Arrays/index-of-smallest-element-of-array.cpp)
+- [Move Zeros to End of The Array](Arrays/move-zeros-to-end-of-array.cpp)
+- [Kadane's Algorithm](Arrays/Kadane's-Algorithm.cpp)
+- [Merge two sorted array without using extraspace](Arrays/merge-two-sorted-array.cpp)
+- [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
 
 ## Dynamic-Programming
+
 - [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
 - [Longest Common Substring](Dynamic-Programming/longest-common-substring.cpp)
 - [0/1-knapsack](Dynamic-Programming/01-knapsack.cpp)
@@ -28,6 +37,7 @@
 - [Edit Distance](Dynamic-Programming/edit-distance.cpp)
 
 ## Graphs
+
 - [Bellman Ford Algorithm](Graphs/bellman-ford.cpp)
 - [kruskal Algorithm](Graphs/kruskal-algorithm.cpp)
 - [Breadth First Search](Graphs/breadth-first-search.cpp)
@@ -37,9 +47,11 @@
 - [Connected Components](Graphs/total-connected-components.cpp)
 
 ## Multiplication
+
 - [Karatsuba](Multiplication/karatsuba.cpp)
 
 ## Linked Lists
+
 - [All possible insertions](Linked-Lists/all-possible-insertion.cpp)
 - [Singly linked lists](Linked-Lists/singly.cpp)
 - [doubley linked lists](Linked-Lists/doubly.cpp)
@@ -54,6 +66,7 @@
 - [Remove Duplicate in Sorted linked list](Linked-Lists/remove-duplicates-in-sorted-linked-list.cpp)
 
 ## Searching
+
 - [Linear Search](Searching/linear-search.cpp)
 - [Jump Search](Searching/jump-search.cpp)
 - [Binary Search](Searching/binary-search.cpp)
@@ -64,12 +77,14 @@
 - [Exponential Search](Searching/exponential-search.cpp)
 
 ## Stacks
+
 - [Balancing Parenthesis](Stacks/balanced-parenthesis.cpp)
 - [Reversing Stack](Stacks/reverse-stack.cpp)
 - [Stack using Array](Stacks/stack-using-array.cpp)
 - [Infix to postfix expression conversion](Stacks/infix-to-postfix.cpp)
 
 ## Sorting
+
 - [Bubble Sort](Sorting/bubble-sort.cpp)
 - [Insertion Sort](Sorting/insertion-sort.cpp)
 - [Quicksort](Sorting/quick-sort.cpp)
@@ -87,6 +102,7 @@
 - [Cycle Sort](Sorting/cycle-sort.cpp)
 
 ## Strings
+
 - [Rabin-Karp pattern search algo](Strings/rabin-karp.cpp)
 - [All subsequence of a string (Recursion) ](Strings/sequence.cpp)
 - [String reversal](Strings/string-reverse.cpp)
@@ -99,6 +115,7 @@
 - [Boyer Moore pattern search](Strings/Boyer_Moore.cpp)
 
 ## Trees
+
 - [Creating Binary Tree](Trees/build-binary-tree.cpp)
 - [Counting and finding sum of all the nodes in BST](Trees/count-and-sum-of-nodes-in-binary-tree.cpp)
 - [Level Order Traversal](Trees/level-order-traversal.cpp)
@@ -113,7 +130,12 @@
 - [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
 - [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
 
+## Trie
+
+- [Trie for searching](Trie/trie_search.cpp)
+
 # Maths
+
 - [Kaprekar Number](Maths/Kaprekar-number.cpp)
 - [Prime Number](Maths/prime-check.cpp)
 - [Prime Sieve](Maths/prime-sieve.cpp)
@@ -125,8 +147,14 @@
 - [Missing number](Maths/missing-number.cpp)
 - [Factorial of a number](Maths/factorial.cpp)
 - [Prime-number](Maths/prime-number.cpp)
+- [Totient-function](Maths/totient.cpp)
+- [Even number of digits](Maths/even-no-of-digits.cpp)
+- [Power of two](Maths/power-of-two.cpp)
+- [Small numbers](Maths/small-numbers.cpp)
+- [Segmented Sieve](Maths/segmented-sieve-range.cpp)
 
 # Recursion
+
 - [Tower of Hanoi](Recursion/towerofHanoi.cpp)
 - [Factorial](Recursion/factorial.cpp)
 - [Permutation](Recursion/permutation.cpp)
@@ -134,3 +162,13 @@
 - [Sum of all elements of an array](Recursion/Sum-of-all-elements-in-an-array.cpp)
 - [Decimal number to Binary conversion](Recursion/decimal-to-binary-conversion.cpp)
 - [Sum of digits of a decimal integer](Recursion/sum-of-digits-of-an-integer.cpp)
+- [Binary search using recursion](Recursion/binary-search.cpp)
+- [First uppercase letter in a string](Recursion/first-uppercase-letter.cpp)
+- [Reverse a string using recursion](Recursion/reverse-string.cpp)
+- [Find string length using recursion](Recursion/string-length.cpp)
+- [Sum of n natural numbers](Recursion/sum-of-n.cpp)
+- [Minimum and maximum element in array](Recursion/min-max-element-in-array.cpp)
+- [Prime Check](Recursion/recursive-prime.cpp)
+- [Array sorted or not](Recursion\array-sorted-or-not.cpp)
+- [Product of two numbers](Recursion\product-of-numbers.cpp)
+- [Product of digits in a number](Recursion\product-of-digits.cpp)

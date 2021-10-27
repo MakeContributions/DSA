@@ -1,19 +1,24 @@
 # C
 
 ## Arrays
+
 - [Even and Odd](arrays/even-and-odd.c)
 - [Unique Elements in an array](arrays/unique-elements-in-an-array.c)
+- [Reverse an array](arrays/reverse-array.c)
+- [Maximum difference](arrays/maximum-difference.c)
 
 ## Bit Manipulation
+
 - [Add and Subtract](bit-manipulation/add-and-sub-bitwise.c)
 - [Multiply](bit-manipulation/multiply-bitwise.c)
 - [Divide bitwise](bit-manipulation/divide-bitwise.c)
 
-
 ## Graphs
+
 - [Prim's Algorithm](graphs/Prim's-algorithm.c)
 
 ## Linked Lists
+
 - [Insert and Delete at Beginning](linked-lists/Insert-and-delete-beginning.c)
 - [Josephus Problem](linked-lists/josephus-problem.c)
 - [Circular Linked List](linked-lists/Insert-and-del-beginning-circular-ll.c)
@@ -23,12 +28,16 @@
 - [Glued-Linked-List](linked-lists/gl-threads.c)
 
 ## Maths
+
 - [Palindrome Number](maths/palindrome.c)
 
 ## Queues
+
 - [Double Ended Queue using array](queues/double-ended-queue-using-array.c)
+- [Circular Queue using array](queues/circular-queue-using-array.c)
 
 ## Sorting
+
 - [Bubble Sort](sorting/bubble-sort.c)
 - [Merge Sort](sorting/merge-sort.c)
 - [Insertion Sort](sorting/insertion-sort.c)
@@ -36,11 +45,14 @@
 - [Selection Sort](sorting/selection-sort.c)
 
 ## Strings
+
 - [Count Words](strings/count-words.c)
 - [Palindrome](strings/palindrome.c)
 - [Permutation of String](strings/Permutation-of-String.c)
+- [Longest Common Subsequence](strings/longest-common-subsequence.c)
 
 ## Tree
+
 - [Height Of Tree](tree/height-of-a-tree.c)
 - [Max and Min Element Of Tree](tree/min-and-max-of-tree.c)
 - [Binary Search Tree](tree/binary-search-tree.c)
@@ -49,6 +61,7 @@
 - [Max Heap](tree/max-heap.c)
 
 ## Searching
+
 - [Binary Search](searching/Binary-search.c)
 - [Jump Search](searching/Jump-search.c)
 - [Ternary Search](searching/Ternary-search.c)
