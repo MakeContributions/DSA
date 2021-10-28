@@ -3,20 +3,11 @@ using namespace std;
 
 
 struct MinHeapNode {
-
-
 	char data;
-
-
 	unsigned freq;
-
-
 	MinHeapNode *left, *right;
-
 	MinHeapNode(char data, unsigned freq)
-
 	{
-
 		left = right = NULL;
 		this->data = data;
 		this->freq = freq;
