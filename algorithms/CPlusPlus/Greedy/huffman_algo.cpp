@@ -34,11 +34,13 @@ struct compare {
 void printCodes(struct MinHeapNode* root, string str)
 {
 
-	if (!root)
+	if (!root){
 		return;
+	}
 
-	if (root->data != '$')
+	if (root->data != '$'){
 		cout << root->data << ": " << str << "\n";
+	}
 
 	printCodes(root->left, str + "0");
 	printCodes(root->right, str + "1");
