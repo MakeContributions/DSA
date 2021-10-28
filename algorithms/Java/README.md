@@ -1,6 +1,7 @@
 # Java
 
 ## Arrays
+
 - [Counting Inversions](arrays/counting-inversions.java)
 - [Kadanes Algorithm](arrays/kadanes-algorithm.java)
 - [Left Rotation](arrays/left-rotation.java)
@@ -13,9 +14,11 @@
 - [Merge Without Extra Space](arrays/merge-without-extra-space.java)
 
 ## Graphs
+
 - [Dijkstras](graphs/Dijkstras.java)
 
 ## Linked Lists
+
 - [Circular](linked-lists/circular.java)
 - [Clone Linked List](linked-lists/clone-linkedlist.java)
 - [Doubly](linked-lists/doubly.java)
@@ -24,20 +27,24 @@
 - [Fold Linked List](linked-lists/fold-linked-list.java)
 
 ## Maths
+
 - [Factorial](Maths/factorial_using_big_integer.java)
 - [Catalan Numbers](Maths/catalan-numbers.java)
 - [Nth Geek Onacci Number](Maths/nth-geek-onacci-number.java)
 
 ## Queues
+
 - [Circular Queue using Linked List](queues/circular-queue-linked-list.java)
 - [Queue using Linked List](queues/queue-linked-list.java)
 - [Priority Queue using Array](queues/priority-queue-array.java)
 
 ## Scheduling
+
 - [Multi-Level Queue Scheduling](scheduling/multi-level-queue-scheduling.java)
 - [Round Robin](scheduling/round-robin.java)
 
 ## Searching
+
 - [Binary Search](searching/binary-search.java)
 - [Jump Search](searching/jump-search.java)
 - [Linear Search](searching/linear-search.java)
@@ -46,6 +53,7 @@
 - [Interpolation Search](searching/interpolation-search.java)
 
 ## Sorting
+
 - [Bubble Sort](sorting/bubble-sort.java)
 - [Counting Sort](sorting/counting-sort.java)
 - [Heap Sort](sorting/heap-sort.java)
@@ -57,6 +65,7 @@
 - [Cyclic Sort](sorting/cyclic-sort.java)
 
 ## Stacks
+
 - [Balanced Parenthesis](stacks/balanced-paranthesis.java)
 - [Stack](stacks/stack.java)
 - [The Stock Span Problem](stacks/the-stock-span-problem.java)
@@ -64,6 +73,7 @@
 - [Sliding Window Maximum](stacks/sliding-window-maximum.java)
 
 ## Strings
+
 - [KMP](strings/kmp.java)
 - [Palindrome](strings/palindrome.java)
 - [Rabin Krap](strings/rabin-karp.java)
@@ -77,11 +87,13 @@
 - [First Non Repeating Character](strings/first-non-repeating-char.java)
 
 ## Trees
+
 - [Pre in Post Traversal](trees/pre-in-post-traversal.java)
 - [Left View of a Tree](trees/left-view.java)
 - [Right View of a Tree](trees/right-view.java)
 - [Zig-Zag Traversal of a Tree](trees/zig-zag-traversal.java)
 - [Min Heap](trees/MinHeap.java)
+- [Check Tree Traversal](trees/check-tree-traversal.java)
 
 ## Backtracking
 - [N Queen Problem](backtracking/nqueen.java)

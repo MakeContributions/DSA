@@ -20,10 +20,15 @@
 - [Segregate 0s and 1s](Arrays/segregate-0-and-1.cpp)
 - [Search insert position](Arrays/search-insert-position.cpp)
 - [Matrix Multiplication](Arrays/matrix-multiplication.cpp)
+- [Smallest Sum Possible](Arrays/smallest-sum-possible.cpp)
 - [Smallest Possible Sum](Arrays/smallest-possible-sum.cpp)
+- [Index of Smallest element of Array](Arrays/index-of-smallest-element-of-array.cpp)
 - [Move Zeros to End of The Array](Arrays/move-zeros-to-end-of-array.cpp)
 - [Kadane's Algorithm](Arrays/Kadane's-Algorithm.cpp)
-
+- [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
+- [Merge two sorted array without using extraspace](Arrays/merge-two-sorted-array.cpp)
+- [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
+- [Next permutation](Arrays/next-permutation.cpp)
 ## Dynamic-Programming
 
 - [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
@@ -126,6 +131,10 @@
 - [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
 - [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
 
+## Trie
+
+- [Trie for searching](Trie/trie_search.cpp)
+
 # Maths
 
 - [Kaprekar Number](Maths/Kaprekar-number.cpp)
@@ -139,6 +148,7 @@
 - [Missing number](Maths/missing-number.cpp)
 - [Factorial of a number](Maths/factorial.cpp)
 - [Prime-number](Maths/prime-number.cpp)
+- [Totient-function](Maths/totient.cpp)
 - [Even number of digits](Maths/even-no-of-digits.cpp)
 - [Power of two](Maths/power-of-two.cpp)
 - [Small numbers](Maths/small-numbers.cpp)
