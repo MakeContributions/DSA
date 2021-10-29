@@ -9,6 +9,12 @@
 // int getMin() retrieves the minimum element in the stack.
  
 
+// Java program to implement a stack that supports
+// getMinimum() in O(1) time and O(1) extra space.
+import java.util.*;
+
+// A user defined stack that supports getMin() in
+// addition to push() and pop()
 class MinStack {
     long min = 0;
     Stack<Long> stack = new Stack<>();
@@ -48,21 +54,30 @@ class MinStack {
     }
 }
 
-/**
- * Your MinStack object will be instantiated and called as such:
- * MinStack obj = new MinStack();
- * obj.push(val);
- * obj.pop();
- * int param_3 = obj.top();
- * int param_4 = obj.getMin();
- */
+// Driver Code
+public class Main
+{
+  public static void main(String[] args)
+  {
+    MinStack s = new MinStack();
+    s.push(3);
+    s.push(5);
+    System.out.println("Min element present is: "+ s.getMin());
+    s.push(2);
+    s.push(1);
+    System.out.println("Min element present is: "+ s.getMin());
+    s.pop();
+    System.out.println("Min element present is: "+ s.getMin());
+    s.pop();
+    System.out.println("Top element present is: " + s.top());
+  }
+}
 
 //TC: O(1)
 //SC: O(1)
-Input
-["MinStack","push","push","push","getMin","pop","top","getMin"]
-[[],[-2],[0],[-3],[],[],[],[]]
-
 Output
-[null,null,null,null,-3,null,0,-2]
+Min element present is: 3
+Min element present is: 1
+Min element present is: 2
+Top element present is: 5
 
