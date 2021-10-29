@@ -71,6 +71,7 @@
 - [The Stock Span Problem](stacks/the-stock-span-problem.java)
 - [Celebrity Problem](stacks/celebrity-problem.java)
 - [Sliding Window Maximum](stacks/sliding-window-maximum.java)
+- [Min Stack](stacks/Min-Stack.java)
 
 ## Strings
 
