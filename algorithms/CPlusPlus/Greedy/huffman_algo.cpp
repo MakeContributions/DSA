@@ -46,7 +46,6 @@ void printCodes(struct MinHeapNode* root, string str)
 	printCodes(root->right, str + "1");
 }
 
-
 void HuffmanCodes(char data[], int freq[], int size)
 {
 	struct MinHeapNode *left, *right, *top;
@@ -55,10 +54,13 @@ void HuffmanCodes(char data[], int freq[], int size)
 	priority_queue<MinHeapNode*, vector<MinHeapNode*>, compare> minHeap;
 
 	for (int i = 0; i < size; ++i)
+	{
 		minHeap.push(new MinHeapNode(data[i], freq[i]));
+	}
+		
 
-
-	while (minHeap.size() != 1) {
+	while (minHeap.size() != 1) 
+	{
 
 
 		left = minHeap.top();
@@ -78,7 +80,6 @@ void HuffmanCodes(char data[], int freq[], int size)
 
 	printCodes(minHeap.top(), "");
 }
-
 
 int main()
 {
