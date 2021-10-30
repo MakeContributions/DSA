@@ -46,6 +46,7 @@
 - [Dfs traversal with stack](Graphs/dfs-through-stackdatastructure.cpp)
 - [Dfs traversal with recursion](Graphs/dfs-traversal.cpp)
 - [Connected Components](Graphs/total-connected-components.cpp)
+- [Dijkstra's Algorithm](Graphs/dijkstra.cpp)
 
 ## Multiplication
 
