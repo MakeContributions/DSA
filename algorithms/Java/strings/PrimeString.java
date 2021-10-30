@@ -25,73 +25,76 @@
 //        else
 //        Output: Casual String
 //STEP 11:END
-
-
+//******************************************************************************************************************************************************
 package Hacktoberfest_MakeContributions_Solutions;
+
 import java.io.*;
 import java.util.*;
-public class PrimeString 
-{
 
-	public static void main(String[] args)
-	{
-		
-		
-		       Scanner sc=new Scanner(System.in);
-		        
-		        int ch,ch1;
-		        int O=0;
-		        int E=0;
-		        int diff,abs_diff;
-		       
-		         
-		        String S=sc.next();
-		        S=S.toLowerCase();
-		        int len=S.length();
-		       
-			     for(int i=0;i<len;i++)
-		        {
-		           if((i+1)%2==0)
-		           {
-		            ch=S.charAt(i);
-		            
-		            E=E+ch;
-		           
-		           }
-		            else
-		            {
-		               ch1=S.charAt(i);
-		              
-		               O=O+ch1;
-		                
-		            }
-		        }
-		        
-		        abs_diff=Math.abs(O-E);
-		        
-		        if((abs_diff%3==0) || (abs_diff%5==0) || (abs_diff%7==0))
-		        {
-		           System.out.println("Prime String");
-		        }
-		        else
-		        {
-		            System.out.println("Casual String");
-		        }
-		      
+public class PrimeString {
+//start of class
+	public static void main(String[] args) {
+//start of main function
+		Scanner sc = new Scanner(System.in);// Use of Scanner Class
 
+		int ch, ch1, diff, abs_diff;// Declaration of variables
+		// Initialize vairiables O and E with 0
+		int O = 0;
+		int E = 0;
 
-		   }
+		System.out.println("Enter a string:");
+		String S = sc.next();
+		// Convert the string to its lower case
+		S = S.toLowerCase();
+		// Calculate length of the entered string
+		int len = S.length();
+
+		// Use of for loop
+		for (int i = 0; i < len; i++) {
+			// Use of if else control structure to check for the even positions in the
+			// string
+			if ((i + 1) % 2 == 0) {
+				// Store the ascii value of the charachter at even position in the string in ch
+				ch = S.charAt(i);
+				// Summation of the ascii values of even positioned characters of the string and
+				// store in E
+				E = E + ch;
+
+			} else {
+				// Store the ascii value of the charachter at odd position in the string in ch
+				ch1 = S.charAt(i);
+				// Summation of the ascii values of odd positioned characters of the string and
+				// store in O
+				O = O + ch1;
+			}
 		}
+
+		// Calculate the absolute diffrenece of O and E
+		abs_diff = Math.abs(O - E);
+
+		// Use of if else control structure to check whether the absolute difference of
+		// O and E is divisible by odd prime numbers less than 9
+		if ((abs_diff % 3 == 0) || (abs_diff % 5 == 0) || (abs_diff % 7 == 0)) {
+			// If the condition is true than get the following output
+			System.out.println("Prime String");
+		} else {
+			// If the condition is false then get the following output
+			System.out.println("Casual String");
+		}
+
+	}// end of main function
+}// end of class
+
 //************************************************************************************************************
 //OUTPUT:
 //Sample Test 1:
+//Enter a string:
 //abbde
 //Prime String
 
 //Sample Test 2:
+//Enter a string:
 //abcd
 //Casual String
 
 //*************************************************************************************************************
-
-	
