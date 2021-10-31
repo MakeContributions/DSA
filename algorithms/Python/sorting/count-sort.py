@@ -18,11 +18,7 @@ def count_sort(a):
         a[i] = o[i]
  
     return a
-n=int(input("Enter the size of list"))
-a=[]
-for i in range(0,n):
-    x=int(input())
-    a.append(x)
+a=[-1,-2,6,5,10]
 ans = count_sort(a)
 print("Sorted array is ")
 print(ans)
