@@ -115,6 +115,8 @@
 - [Print first letter of every word](Strings/print-first-letter.cpp)
 - [Display longest name in a string array](Strings/longest-name.cpp)
 - [Boyer Moore pattern search](Strings/Boyer_Moore.cpp)
+- [Longest common prefix](Strings/longest-common-prefix.cpp)
+- [First unique character in the string](Strings/first-unique-character.cpp)
 
 ## Trees
 
