@@ -14,7 +14,7 @@ function DoubleLinkList() {
 
 // A DLL will only have
 // length, head and tail, all the other methods will be one level up.
-DoubleLinkList.prototype.append = function (val) {
+DoubleLinkList.prototype.append = function(val) {
   if (val) {
     // Create a new node by passing it the value which the user has passed.
     const newNode = new Node(val);
@@ -29,7 +29,7 @@ DoubleLinkList.prototype.append = function (val) {
       // then take the next pointer of tail and connect it to newNode
       this.tail.next = newNode;
 
-      //take the previous pointer of the newNode and connect it to tail.
+      // take the previous pointer of the newNode and connect it to tail.
       newNode.previous = this.tail;
 
       // Now we have connected the newNode to DLL, so lets
@@ -46,7 +46,7 @@ DoubleLinkList.prototype.append = function (val) {
 };
 
 // inserts a new node into dll at a particular position.
-DoubleLinkList.prototype.insertAt = function (val, position = 0) {
+DoubleLinkList.prototype.insertAt = function(val, position = 0) {
   if (!this.head && position !== 0) return null;
 
   const newNode = new Node(val);
@@ -111,7 +111,7 @@ DoubleLinkList.prototype.insertAt = function (val, position = 0) {
 };
 
 // Remove an element from a particular position in dll.
-DoubleLinkList.prototype.removeAt = function (position) {
+DoubleLinkList.prototype.removeAt = function(position) {
   if (position === null || position === undefined) return null;
   // checking if the dll is empty or the position is out of bounds.
   if (!this.head || position < 0 || position > this.length) return null;
@@ -157,7 +157,7 @@ DoubleLinkList.prototype.removeAt = function (position) {
   return currentNode;
 };
 
-DoubleLinkList.prototype.indexOf = function (elm) {
+DoubleLinkList.prototype.indexOf = function(elm) {
   if (!this.head) return null;
 
   let currentNode = this.head;
@@ -173,12 +173,12 @@ DoubleLinkList.prototype.indexOf = function (elm) {
   return null;
 };
 
-DoubleLinkList.prototype.delete = function (elm) {
+DoubleLinkList.prototype.delete = function(elm) {
   const idx = this.indexOf(elm);
   return this.removeAt(idx);
 };
 
-DoubleLinkList.prototype.toArray = function () {
+DoubleLinkList.prototype.toArray = function() {
   if (!this.head) return null;
 
   const arr = [];
@@ -191,7 +191,7 @@ DoubleLinkList.prototype.toArray = function () {
   return arr;
 };
 
-DoubleLinkList.prototype.toString = function () {
+DoubleLinkList.prototype.toString = function() {
   if (!this.head) return null;
 
   let currentNode = this.head;
@@ -205,19 +205,19 @@ DoubleLinkList.prototype.toString = function () {
   return returnString;
 };
 
-DoubleLinkList.prototype.isEmpty = function () {
+DoubleLinkList.prototype.isEmpty = function() {
   return this.length === 0;
 };
 
-DoubleLinkList.prototype.size = function () {
+DoubleLinkList.prototype.size = function() {
   return this.length;
 };
 
-DoubleLinkList.prototype.getHead = function () {
+DoubleLinkList.prototype.getHead = function() {
   return this.head;
 };
 
-DoubleLinkList.prototype.getTail = function () {
+DoubleLinkList.prototype.getTail = function() {
   return this.tail;
 };
 
