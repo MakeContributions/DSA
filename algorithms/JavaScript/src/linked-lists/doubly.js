@@ -222,18 +222,35 @@ DoubleLinkList.prototype.getTail = function() {
 };
 
 const dll = new DoubleLinkList();
+console.log('Initialized an instance of DLL');
 dll.append(1).append(2).append(3).append(4);
 
-dll.insertAt(23, 4);
+console.log(`Before insertAt : ${dll.toString()}`);
+dll.insertAt(23, 4)
 
+console.log(`After insertAt : ${dll.toString()}`);
+
+console.log(`Removing element at index 3`);
 dll.removeAt(3);
 
-dll.insertAt(45, 4);
+console.log(`After removing element at index 3 : ${dll.toString()}`);
 
-dll.toArray();
+dll.insertAt(45, 2);
 
-dll.toString();
+console.log(`After inserting 45 at index 2 : ${dll.toArray()}`);
 
-dll.delete(3);
+console.log(dll.toString());
 
-dll.toArray();
+console.log(dll.delete(3));
+
+console.log(`After deleting element at index 3 : ${dll.toArray()}`);
+
+console.log(`Is DLL empty : ${dll.isEmpty()}`);
+
+console.log('Head of dll is : ');
+
+console.log(dll.getHead());
+
+console.log('Tail of dll is : ');
+
+console.log(dll.getTail());
