@@ -226,11 +226,11 @@ console.log('Initialized an instance of DLL');
 dll.append(1).append(2).append(3).append(4);
 
 console.log(`Before insertAt : ${dll.toString()}`);
-dll.insertAt(23, 4)
+dll.insertAt(23, 4);
 
 console.log(`After insertAt : ${dll.toString()}`);
 
-console.log(`Removing element at index 3`);
+console.log('Removing element at index 3');
 dll.removeAt(3);
 
 console.log(`After removing element at index 3 : ${dll.toString()}`);
