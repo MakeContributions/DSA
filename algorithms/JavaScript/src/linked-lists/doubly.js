@@ -1,167 +1,256 @@
-function DoubleLinkedList() {
-  const Node = function(element) {
-    this.element = element;
-    this.next = null;
-    this.prev = null;
-  };
-
-  let length = 0;
-  const head = new Node('head');
-  let tail = head;
-
-  // Add new element
-  this.append = function(element) {
-    const node = new Node(element);
-
-    node.prev = tail;
-    tail.next = node;
-    tail = node;
-
-    length++;
-  };
-
-  // Add element
-  this.insert = function(position, element) {
-    // Check of out-of-bound values
-    if (position >= 0 && position <= length) {
-      const node = new Node(element);
-      let current = head;
-      let index = 0;
-
-      while (index < position) {
-        current = current.next;
-        index++;
-      }
-      node.next = current.next;
-      if (node.next !== null) {
-        node.next.prev = node;
-      }
-      node.prev = current;
-      current.next = node;
-
-      length++;
-      return true;
-    } else {
-      return null;
-    }
-  };
-
-  // Remove element at any position
-  this.removeAt = function(position) {
-    // look for out-of-bounds value
-
-    if (position > -1 && position < length) {
-      let removedNode;
-      let current = head;
-      let index = 0;
-
-      while (index < position) {
-        current = current.next;
-        index++;
-      }
-      if (current.next) {
-        removedNode = current.next;
-      }
-      if (current.next.next !== null) {
-        current.next.next.prev = current;
-      }
-
-      current.next = current.next.next;
-
-      // if current.next is null, that means it
-      // is the last elem, so let's mark it as tail.
-      if (!current.next) {
-        tail = current;
-      }
-
-      length--;
-      return removedNode.element;
-    } else {
-      return null;
-    }
-  };
-
-  // Get the indexOf item
-  this.indexOf = function(elm) {
-    let current = head;
-    let index = -1;
-
-    // If element found then return its position
-    while (current.next) {
-      if (elm === current.next.element) {
-        return ++index;
-      }
-
-      index++;
-      current = current.next;
-    }
-
-    // Else return -1
-    return -1;
-  };
-
-  // Delete an item from the list
-  this.delete = (elm) => {
-    return this.removeAt(this.indexOf(elm));
-  };
-
-  this.toString = function() {
-    let current = head.next;
-    let string = '';
-
-    while (current) {
-      string += current.element + ' ';
-      current = current.next;
-    }
-
-    return string;
-  };
-
-  // Convert list to array
-  this.toArray = function() {
-    const arr = [];
-    let current = head.next;
-
-    while (current) {
-      arr.push(current.element);
-      current = current.next;
-    }
-
-    return arr;
-  };
-
-  // Check if list is empty
-  this.isEmpty = function() {
-    return length === 0;
-  };
-
-  // Get the size of the list
-  this.size = function() {
-    return length;
-  };
-
-  // Get the head
-  this.getHead = function() {
-    return head.next;
-  };
-
-  // Get the tail
-  this.getTail = function() {
-    return tail;
-  };
+function Node(val) {
+  this.value = val;
+  this.next = null;
+  this.previous = null;
 }
 
-const newDoubleLinkedList = new DoubleLinkedList();
-newDoubleLinkedList.append(1);
-newDoubleLinkedList.append(5);
-newDoubleLinkedList.append(3);
-newDoubleLinkedList.append(20);
-newDoubleLinkedList.insert(1, 9);
-newDoubleLinkedList.removeAt(2);
+function DoubleLinkList() {
+  // Initially when we create an object of DoubleLinkList(DLL),
+  // we will want it to be an empty object
+  // i.e its length will be 0 and head and tail will be null.
+  this.length = 0;
+  this.head = this.tail = null;
+}
 
-console.log(newDoubleLinkedList.toArray());
-console.log(newDoubleLinkedList.toString());
+// A DLL will only have
+// length, head and tail, all the other methods will be one level up.
+DoubleLinkList.prototype.append = function(val) {
+  if (val) {
+    // Create a new node by passing it the value which the user has passed.
+    const newNode = new Node(val);
 
-newDoubleLinkedList.delete(20);
-console.log('After delete 20: ' + newDoubleLinkedList.toString());
-console.log(`Tail points to : ${newDoubleLinkedList.getTail().element}`);
+    // Check if the head is null, if it is
+    // that means this is the first entry, hence assign
+    // hence make the newNode as the head and tail.
+    if (!this.head) {
+      this.head = this.tail = newNode;
+    } else {
+      // elsepart: if the head and tail is not null
+      // then take the next pointer of tail and connect it to newNode
+      this.tail.next = newNode;
+
+      // take the previous pointer of the newNode and connect it to tail.
+      newNode.previous = this.tail;
+
+      // Now we have connected the newNode to DLL, so lets
+      // So let's make the newNode as the tail.
+      this.tail = newNode;
+    }
+
+    // finally increment the length of DLL.
+    this.length++;
+    return this;
+  }
+
+  return null;
+};
+
+// inserts a new node into dll at a particular position.
+DoubleLinkList.prototype.insertAt = function(val, position = 0) {
+  if (!this.head && position !== 0) return null;
+
+  const newNode = new Node(val);
+  let currentNode = this.head;
+
+  // Boolean flag to keep track of whether we are updating
+  // the dll or not, so that common code related to updation
+  // is not written more than once.
+  let isNodeInserted = false;
+
+  // If position is 0 and head is empty i.e dll is empty
+  // so we are assigning the newNode to head and tail
+  // else we are assigning the next of newNode to head,
+  // previous of head to newNode and eventually
+  // we are making the head as the newNode.
+  if (position === 0) {
+    if (!this.head) {
+      this.head = this.tail = newNode;
+    } else {
+      currentNode = this.head;
+      newNode.next = currentNode;
+      currentNode.previous = newNode;
+      this.head = newNode;
+      isNodeInserted = true;
+    }
+  }
+
+  // Check if the position is valid.
+  if (position > 0 && position <= this.length) {
+    let idx = 0;
+
+    // iterate to the node just before the position.
+    while (idx < position - 1) {
+      if (currentNode.next) {
+        currentNode = currentNode.next;
+      }
+      idx++;
+    }
+
+    newNode.previous = currentNode;
+    newNode.next = currentNode.next;
+    currentNode.next = newNode;
+
+    // If newNode.next exists, we are assigning its previous
+    // to newNode, else we are making the newNode as tail.
+    if (newNode.next) {
+      newNode.next.previous = newNode;
+    } else {
+      this.tail = newNode;
+    }
+    isNodeInserted = true;
+  }
+
+  // Common code if the insertion succeeds.
+  if (isNodeInserted) {
+    this.length++;
+  }
+
+  // Now this is very important we are returning the instance
+  // i.e the dll so that we can do something like method chaining.
+  return this;
+};
+
+// Remove an element from a particular position in dll.
+DoubleLinkList.prototype.removeAt = function(position) {
+  if (position === null || position === undefined) return null;
+  // checking if the dll is empty or the position is out of bounds.
+  if (!this.head || position < 0 || position > this.length) return null;
+
+  let currentNode = this.head;
+  let iteration = 0;
+
+  // iterating until we find the position.
+  while (iteration !== position) {
+    if (currentNode.next) {
+      currentNode = currentNode.next;
+    }
+    iteration++;
+  }
+
+  let previousNode = null;
+  let nextNode = null;
+
+  if (currentNode.previous) {
+    previousNode = currentNode.previous;
+  }
+
+  if (currentNode.next) {
+    nextNode = currentNode.next;
+  }
+
+  if (previousNode) {
+    previousNode.next = nextNode;
+
+    if (currentNode === this.tail) {
+      this.tail = previousNode;
+    }
+  }
+  if (nextNode) {
+    nextNode.previous = previousNode;
+
+    if (currentNode === this.head) {
+      this.head = nextNode;
+    }
+  }
+
+  this.length--;
+  return currentNode;
+};
+
+DoubleLinkList.prototype.indexOf = function(elm) {
+  if (!this.head) return null;
+
+  let currentNode = this.head;
+  let idx = 0;
+  while (currentNode) {
+    if (currentNode.value === elm) {
+      return idx;
+    }
+    idx++;
+    currentNode = currentNode.next;
+  }
+
+  return null;
+};
+
+DoubleLinkList.prototype.delete = function(elm) {
+  const idx = this.indexOf(elm);
+  return this.removeAt(idx);
+};
+
+DoubleLinkList.prototype.toArray = function() {
+  if (!this.head) return null;
+
+  const arr = [];
+  let currentNode = this.head;
+
+  while (currentNode) {
+    arr.push(currentNode.value);
+    currentNode = currentNode.next;
+  }
+  return arr;
+};
+
+DoubleLinkList.prototype.toString = function() {
+  if (!this.head) return null;
+
+  let currentNode = this.head;
+  let returnString = '';
+
+  while (currentNode) {
+    returnString += currentNode.value + ' ';
+    currentNode = currentNode.next;
+  }
+
+  return returnString;
+};
+
+DoubleLinkList.prototype.isEmpty = function() {
+  return this.length === 0;
+};
+
+DoubleLinkList.prototype.size = function() {
+  return this.length;
+};
+
+DoubleLinkList.prototype.getHead = function() {
+  return this.head;
+};
+
+DoubleLinkList.prototype.getTail = function() {
+  return this.tail;
+};
+
+const dll = new DoubleLinkList();
+console.log('Initialized an instance of DLL');
+dll.append(1).append(2).append(3).append(4);
+
+console.log(`Before insertAt : ${dll.toString()}`);
+dll.insertAt(23, 4);
+
+console.log(`After insertAt : ${dll.toString()}`);
+
+console.log('Removing element at index 3');
+dll.removeAt(3);
+
+console.log(`After removing element at index 3 : ${dll.toString()}`);
+
+dll.insertAt(45, 2);
+
+console.log(`After inserting 45 at index 2 : ${dll.toArray()}`);
+
+console.log(dll.toString());
+
+console.log(dll.delete(3));
+
+console.log(`After deleting element at index 3 : ${dll.toArray()}`);
+
+console.log(`Is DLL empty : ${dll.isEmpty()}`);
+
+console.log('Head of dll is : ');
+
+console.log(dll.getHead());
+
+console.log('Tail of dll is : ');
+
+console.log(dll.getTail());
