@@ -16,7 +16,10 @@ SAMPLE OUTPUT: 8
 
 #include<iostream>
 using namespace std;
-int max(int *arr, int k, int size) //function to find maximum element in an array
+
+//function to find max element in an array
+
+int max(int *arr, int k, int size) 
 {
     int i;
 for(i=1; i<size; i++)
@@ -29,7 +32,9 @@ for(i=1; i<size; i++)
 return k;
 }
 
-int min(int *arr, int k, int size) //function to find minimum element in an array
+//function to find min element in an array
+
+int min(int *arr, int k, int size) 
 {
     int i;
 for(i=1; i<size; i++)
@@ -42,12 +47,14 @@ for(i=1; i<size; i++)
 return k;
 }
 
-int avg(int *arr, int k, int size)  //function to find average of an array
+//function to find average of an array
+
+int avg(int *arr, int k, int size)  
 {
     int sum=0,avg;
     for(int i=0; i<size; i++)
     {
-     sum=sum+arr[i];        //finding sum of every element in an array
+     sum=sum+arr[i];  //finding sum of every element in an array
     }
      avg=sum/size;
      return avg;
@@ -59,7 +66,7 @@ int main()
     int k=0;
     cout<<"Enter the size of an array\n";
     cin>>size;
-    int *arr=new int[size];           //dynamic memory allocation 
+    int *arr=new int[size];   //dynamic memory allocation 
     cout<<"Enter elements in an array\n";
     for (int i = 0; i < size; i++)
     {
