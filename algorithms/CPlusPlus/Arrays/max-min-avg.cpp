@@ -14,6 +14,10 @@ SAMPLE OUTPUT: 8
 //Time complexity= O(n)
 //Space complexity= O(n)
 
+//DESCRIPTION
+//Problem related to find the maximum, minimum and average from the given array.
+
+
 #include<iostream>
 using namespace std;
 
