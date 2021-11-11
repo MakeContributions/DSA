@@ -5,16 +5,17 @@ Time complexity: O (m*n) where m is the number of rows and n refers to the numbe
 */
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
 //function starts
-void linearSearch(int arr[3][3], int target)
+void linearSearch(vector<vector<int>> arr, int target)
 {
     //for every row
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < arr.size(); i++)
     {
         //for every element in the row, i.e column
-        for (int j = 0; j < 3; j++)
+        for (int j = 0; j < arr[i].size(); j++)
         {
             //check if the element in the array is equal to the target
             if (arr[i][j] == target)
@@ -30,13 +31,13 @@ void linearSearch(int arr[3][3], int target)
 //main starts
 int main()
 {
-    int arr[3][3] = {
+    vector<vector<int>> arr = {
         {1, 2, 3},
         {4, 5, 6},
         {7, 8, 9}}; //array
 
-    int target = 9; //element need to be search
-    linearSearch(arr, target); //calling the function 
+    int target = 9;            //element need to be search
+    linearSearch(arr, target); //calling the function
 
     return 0;
 }

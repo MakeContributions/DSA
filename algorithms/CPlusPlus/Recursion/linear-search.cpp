@@ -5,10 +5,11 @@ Time Complexity: O(n) where n is the number of elements in the array
 */
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
 //function starts
-int linearSearch(int arr[], int i, int n, int target)
+int linearSearch(vector<int> arr, int i, int n, int target)
 {
     //base case
     if (i == n)
@@ -29,8 +30,8 @@ int linearSearch(int arr[], int i, int n, int target)
 //main starts
 int main()
 {
-    int arr[] = {1, 2, 3, 4, 5};
-    int n = sizeof(arr) / sizeof(arr[0]);
+    vector<int> arr = {1, 2, 3, 4, 5};
+    int n = arr.size();
     int target = 3;
     cout << linearSearch(arr, 0, n, target);
     return 0;
