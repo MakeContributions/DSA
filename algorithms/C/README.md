@@ -42,6 +42,10 @@
 - [Heap Sort](sorting/heap-sort.c)
 - [Selection Sort](sorting/selection-sort.c)
 
+## Stacks
+
+- [Stack Implementation using Array](stacks/stack-using-array.c)
+
 ## Strings
 
 - [Count Words](strings/count-words.c)
