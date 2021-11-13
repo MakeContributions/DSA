@@ -75,9 +75,9 @@ public class Main
 
 //TC: O(1)
 //SC: O(1)
-Output
-Min element present is: 3
-Min element present is: 1
-Min element present is: 2
-Top element present is: 5
+// Output
+// Min element present is: 3
+// Min element present is: 1
+// Min element present is: 2
+// Top element present is: 5
 
