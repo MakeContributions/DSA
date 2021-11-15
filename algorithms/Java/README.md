@@ -100,3 +100,16 @@
 
 ## Bit Manipulation
 - [Count Set Bits](bit-manipulation/count-set-bits.java)
+
+## Recursion
+- [Array sorted or not](recursion\ArraySorted.java)
+- [Sum of all the elements in the array](recursion\ArraySum.java)
+- [Binary search using recursion](recursion\BinarySearch.java)
+- [Factorial of a number](recursion\Factorial.java)
+- [First uppercase letter in a string](recursion\firstUppercaseLetter.java)
+- [Linear search using recursion](recursion\LinearSearch.java)
+- [Minimum and maximum element in the array](recursion\MinMax.java)
+- [Printing 1 to N and N to 1](recursion\PrintN.java)
+- [Print PI value in the string](recursion\printPi.java)
+- [Reverse the string](recursion\ReverseString.java)
+- [Find the length of the string](recursion\StringLength.java)
