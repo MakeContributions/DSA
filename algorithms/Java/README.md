@@ -96,20 +96,23 @@
 - [Check Tree Traversal](trees/check-tree-traversal.java)
 
 ## Backtracking
+
 - [N Queen Problem](backtracking/nqueen.java)
 
 ## Bit Manipulation
+
 - [Count Set Bits](bit-manipulation/count-set-bits.java)
 
 ## Recursion
-- [Array sorted or not](recursion/ArraySorted.java)
-- [Sum of all the elements in the array](recursion/ArraySum.java)
-- [Binary search using recursion](recursion/BinarySearch.java)
+
+- [Array sorted or not](recursion/array-sorted.java)
+- [Sum of all the elements in the array](recursion/array-sum.java)
+- [Binary search using recursion](recursion/binary-search.java)
 - [Factorial of a number](recursion/Factorial.java)
-- [First uppercase letter in a string](recursion/firstUppercaseLetter.java)
-- [Linear search using recursion](recursion/LinearSearch.java)
-- [Minimum and maximum element in the array](recursion/MinMax.java)
-- [Printing 1 to N and N to 1](recursion/PrintN.java)
-- [Print PI value in the string](recursion/printPi.java)
-- [Reverse the string](recursion/ReverseString.java)
-- [Find the length of the string](recursion/StringLength.java)
+- [First uppercase letter in a string](recursion/first-uppercase-letter.java)
+- [Linear search using recursion](recursion/linear-search.java)
+- [Minimum and maximum element in the array](recursion/min-max-in-array.java)
+- [Printing 1 to N and N to 1](recursion/print-n.java)
+- [Print PI value in the string](recursion/print-pi.java)
+- [Reverse the string](recursion/reverse-string.java)
+- [Find the length of the string](recursion/string-length.java)
