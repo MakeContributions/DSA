@@ -33,11 +33,11 @@ class Queue {
   }
 
   printQueue() {
-      let current = this.first;
-      while (current) {
-          console.log(current.value);
-          current = current.next;
-      }
+    let current = this.first;
+    while (current) {
+        console.log(current.value);
+        current = current.next;
+    }
   }
 }
 
@@ -47,8 +47,8 @@ queue.enqueue(2);
 queue.enqueue(3);
 queue.enqueue(4);
 
-  queue.printQueue();
+queue.printQueue();
 
-  queue.dequeue();
+queue.dequeue();
 
-  queue.printQueue();
+queue.printQueue();

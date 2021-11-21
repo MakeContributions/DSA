@@ -8,28 +8,28 @@ class Stack {
   push(value) {
     this.queue1.enqueue(value);
   }
-  
+
   pop() {
     if (!this.queue1.first) return null;
     while (this.queue1.size > 1) {
       this.queue2.enqueue(this.queue1.dequeue());
     }
-    let temp = this.queue1.dequeue();
+    const temp = this.queue1.dequeue();
     this.queue1 = this.queue2;
     this.queue2 = new Queue();
     return temp;
   }
 
   printStack() {
-      if(this.queue1.size === 0) return null;
-      let current = this.queue1.first;
-      while (current) {
-          console.log(current.value);
-          current = current.next;
-      }
+    if (this.queue1.size === 0) return null;
+    let current = this.queue1.first;
+    while (current) {
+        console.log(current.value);
+        current = current.next;
     }
+  }
 }
-  
+
 class Node {
   constructor(value) {
     this.value = value;
@@ -58,7 +58,7 @@ class Queue {
   
   dequeue() {
     if (!this.first) return null;
-      let temp = this.first;
+      const temp = this.first;
       this.first = this.first.next;
       this.size--;
       return temp.value;
