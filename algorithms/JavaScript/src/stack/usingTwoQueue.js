@@ -62,8 +62,8 @@ class Queue {
     this.first = this.first.next;
     this.size--;
     return temp.value;
-    }
   }
+}
 
 const stack = new Stack();
 stack.push(1);
