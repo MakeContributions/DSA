@@ -15,7 +15,7 @@ class Stack {
     console.log(this.items);
   }
 }
- 
+
 const stack = new Stack();
 stack.push(1);
 stack.push(2);

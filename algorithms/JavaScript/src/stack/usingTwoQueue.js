@@ -24,8 +24,8 @@ class Stack {
     if (this.queue1.size === 0) return null;
     let current = this.queue1.first;
     while (current) {
-        console.log(current.value);
-        current = current.next;
+      console.log(current.value);
+      current = current.next;
     }
   }
 }
@@ -36,14 +36,14 @@ class Node {
     this.next = null;
   }
 }
-  
+
 class Queue {
   constructor() {
     this.first = null;
     this.last = null;
     this.size = 0;
   }
-  
+
   enqueue(value) {
     const newNode = new Node(value);
     if (!this.first) {
@@ -55,7 +55,7 @@ class Queue {
     }
     this.size++;
   }
-  
+
   dequeue() {
     if (!this.first) return null;
       const temp = this.first;

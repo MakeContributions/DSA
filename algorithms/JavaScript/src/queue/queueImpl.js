@@ -35,8 +35,8 @@ class Queue {
   printQueue() {
     let current = this.first;
     while (current) {
-        console.log(current.value);
-        current = current.next;
+      console.log(current.value);
+      current = current.next;
     }
   }
 }
