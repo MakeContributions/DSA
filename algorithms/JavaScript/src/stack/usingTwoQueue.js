@@ -58,10 +58,10 @@ class Queue {
 
   dequeue() {
     if (!this.first) return null;
-      const temp = this.first;
-      this.first = this.first.next;
-      this.size--;
-      return temp.value;
+    const temp = this.first;
+    this.first = this.first.next;
+    this.size--;
+    return temp.value;
     }
   }
 
