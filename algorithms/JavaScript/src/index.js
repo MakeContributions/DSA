@@ -22,7 +22,7 @@ require('./strings/sequence');
 
 // Stack
 require('./stacks/stack');
-require('./stacks')
+require('./stacks/two-stack')
 
 // Queue
 require('./queues/queue');
