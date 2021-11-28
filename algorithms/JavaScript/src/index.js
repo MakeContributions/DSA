@@ -21,7 +21,8 @@ require('./strings/palindrome');
 require('./strings/sequence');
 
 // Stack
-require('./stack/stackImpl');
+require('./stacks/stack');
+require('./stacks')
 
 // Queue
-require('./queue/queueImpl');
+require('./queues/queue');

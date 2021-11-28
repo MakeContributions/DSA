@@ -23,9 +23,9 @@
 - [Palindrome](src/strings/palindrome.js)
 - [Sequence](src/strings/sequence.js)
 
-## Stack
-- [Stack Implementation](src/stack/stackImpl.js)
-- [Stack Using Two Queue](src/stack/usingTwoQueue.js)
+## Stacks
+- [Stacks](src/stacks/stack.js)
+- [Two Stack](src/stacks/two-stack.js)
 
-## Queue
-- [Queue Implementation](src/Queue/queueImpl.js)
+## Queues
+- [Queue](src/queues/queue.js)
