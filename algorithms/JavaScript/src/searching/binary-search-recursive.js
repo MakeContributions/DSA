@@ -3,7 +3,7 @@
 * Arguments to Function
 *  arr - array ( Sorted Only )
 * high - max index of array  (length of array - 1 )
-* item = Element to be searched 
+* item = Element to be searched
 * low - lower index of array (0).
 */
 
