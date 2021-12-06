@@ -27,7 +27,7 @@ struct Node *rear = NULL;
 
 void enqueue(int x)
 {
-    struct Node *temp = (struct Node *)malloc(sizeof(struct Node));
+    struct Node *temp = malloc(sizeof(*temp));
     temp->data = x;
     temp->next = NULL;
 
