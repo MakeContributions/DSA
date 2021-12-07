@@ -24,8 +24,9 @@ void DFSTraversal(int G[][5], int start, int n)
         visited[start] = 1;
         for (j = 1; j < n; j++)
         {
-            if (G[start][j] == 1 && visited[j] == 0)
+            if (G[start][j] == 1 && visited[j] == 0){
                 DFSTraversal(G, j, n);
+            }
         }
     }
 }
