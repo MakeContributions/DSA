@@ -16,6 +16,8 @@
 ## Graphs
 
 - [Prim's Algorithm](graphs/Prim's-algorithm.c)
+- [Breadth First Search](graphs/breadth-first-search.c)
+- [Depth First Search](graphs/depth-first-search.c)
 
 ## Linked Lists
 
