@@ -27,8 +27,7 @@ int wateringPlants(vector<int>& plants, int capacity) { //function block
             steps+=i+1; // coming back to the i th plant takes i+1 steps in forward direction.
         }
       }
-        return steps;
-
+        return steps; //returning the number of steps needed.
 }
 int main(){ //main function begins here
 	vector<int> a{2,2,3,3};
