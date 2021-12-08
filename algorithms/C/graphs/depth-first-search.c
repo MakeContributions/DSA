@@ -36,3 +36,8 @@ int main()
     DFSTraversal(G, start, n);
     return 0;
 }
+
+/*
+Output:
+0 1 2 4 3 
+*/
