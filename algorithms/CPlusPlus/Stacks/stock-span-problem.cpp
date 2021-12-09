@@ -48,9 +48,17 @@ void printArray(const int arr[],const int n)
 // Driver program to test above function
 int main()
 {
-    int price[] = { 10, 4, 5, 90, 120, 80 };
-    int n = sizeof(price) / sizeof(price[0]);
+    vector<int> price;
+    int n;
+    //Enter the size of price
+       cin>>n;
     int S[n];
+    for(int i=0;i<n;i++)
+     {
+         int x;
+         cin>>x;
+         price.push_back(x);
+     }
  
     // Fill the span values in array S[]
     calculateSpan(price, n, S);
