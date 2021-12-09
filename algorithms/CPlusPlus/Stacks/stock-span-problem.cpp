@@ -8,7 +8,7 @@ using namespace std;
  
 // A stack based efficient method to calculate
 // stock span values
-void calculateSpan(int price[], int n, int S[])
+void calculateSpan(const vector<int> price, const int n, int S[])
 {
     // Create a stack and push index of first
     // element to it
