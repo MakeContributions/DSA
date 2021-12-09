@@ -39,7 +39,7 @@ void calculateSpan(int price[], int n, int S[])
 }
  
 // A utility function to print elements of array
-void printArray(int arr[], int n)
+void printArray(const int arr[],const int n)
 {
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
