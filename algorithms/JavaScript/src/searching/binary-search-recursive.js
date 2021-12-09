@@ -29,14 +29,14 @@ function binaryRecursive(arr, high, item, low = 0) {
     // greater than middle element and so item too.
     // Make a recursive call to the left Half
 
-    return binaryRecursive(arr, low, mid - 1, item);
+    return binaryRecursive(arr, mid - 1, item, low);
   } else {
     // Item is greater than the middle Element
     // Ignore the Left Half ,as left half contains element less
     // than middle element and so item too .
     // Make recursive call to the right Half
 
-    return binaryRecursive(arr, mid + 1, high, item);
+    return binaryRecursive(arr, high, item, mid + 1);
   }
 }
 
