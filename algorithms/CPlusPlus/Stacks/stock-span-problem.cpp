@@ -51,7 +51,7 @@ int main()
     vector<int> price;
     int n;
     //Enter the size of price
-       cin>>n;
+    cin>>n;
     int S[n];
     for(int i=0;i<n;i++)
      {
