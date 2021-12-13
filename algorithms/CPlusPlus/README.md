@@ -86,6 +86,7 @@
 - [Reversing Stack](Stacks/reverse-stack.cpp)
 - [Stack using Array](Stacks/stack-using-array.cpp)
 - [Infix to postfix expression conversion](Stacks/infix-to-postfix.cpp)
+- [Stock Span Problem using Stacks](Stacks/stock-span-problem.cpp)
 
 ## Sorting
 
