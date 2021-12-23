@@ -10,9 +10,9 @@ function selectionSort(array) {
       }
     }
     // swap with element at minimum index
-      const temp = array[minIndex];
-      array[minIndex] = array[i];
-      array[i] = temp;
+    const temp = array[minIndex];
+    array[minIndex] = array[i];
+    array[i] = temp;
   }
 
   // return sorted array
