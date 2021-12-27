@@ -19,7 +19,7 @@ which stores at most nn elements.
 """
 
 
-def twoSum(nums, target) -> [int]:
+def twoSum(nums, target):
     dictionary = {}
     # using enumerate to iterate through the list keeping track of both index and element
     for i, val in enumerate(nums):
