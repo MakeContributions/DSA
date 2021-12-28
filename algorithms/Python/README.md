@@ -11,6 +11,9 @@
 - [Singly](linked_lists/singly.py)
 - [Reverse List](linked_lists/reverse-linkedlist.py)
 
+## Dictionaries
+- [Two Sum](dictionaries/two-sum.py)
+
 ## Multiplication
 - [Karatsuba](multiplication/karatsuba.py)
 
