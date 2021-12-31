@@ -1,0 +1,95 @@
+# Huffman coding is a lossless data compression algorithm.
+# The idea is to assign variable-length codes to input characters,
+# lengths of the assigned codes are based on the frequencies of corresponding
+# characters. The most frequent character gets the smallest code and the least
+# frequent character gets the largest code.
+# The variable-length codes assigned to input characters are Prefix Codes,
+# means the codes (bit sequences) are assigned in such a way that the code
+# assigned to one character is not the prefix of code assigned to any other
+# character. This is how Huffman Coding makes sure that there is no ambiguity
+# when decoding the generated bitstream.
+# Let us understand prefix codes with a counter example. Let there be four
+# characters a, b, c and d, and their corresponding variable length codes
+# be 00, 01, 0 and 1. This coding leads to ambiguity because code assigned
+# to c is the prefix of codes assigned to a and b. If the compressed bit stream is
+# 0001, the de-compressed output may be “cccd” or “ccb” or “acd” or “ab”.
+
+# A Huffman Tree Node
+class node:
+	def __init__(self, freq, symbol, left=None, right=None):
+		# frequency of symbol
+		self.freq = freq
+
+		# symbol name (character)
+		self.symbol = symbol
+
+		# node left of current node
+		self.left = left
+
+		# node right of current node
+		self.right = right
+
+		# tree direction (0/ 1)
+		self.huff = ''
+
+# utility function to print huffman
+# codes for all symbols in the newly
+# created Huffman tree
+
+
+def printNodes(node, val=''):
+	# huffman code for current node
+	newVal = val + str(node.huff)
+
+	# if node is not an edge node
+	# then traverse inside it
+	if(node.left):
+		printNodes(node.left, newVal)
+	if(node.right):
+		printNodes(node.right, newVal)
+
+		# if node is edge node then
+		# display its huffman code
+	if(not node.left and not node.right):
+		print(f"{node.symbol} -> {newVal}")
+
+
+# characters for huffman tree
+chars = ['a', 'b', 'c', 'd', 'e', 'f']
+
+# frequency of characters
+freq = [ 5, 9, 12, 13, 16, 45]
+
+# list containing unused nodes
+nodes = []
+
+# converting characters and frequencies
+# into huffman tree nodes
+for x in range(len(chars)):
+	nodes.append(node(freq[x], chars[x]))
+
+while len(nodes) > 1:
+	# sort all the nodes in ascending order
+	# based on theri frequency
+	nodes = sorted(nodes, key=lambda x: x.freq)
+
+	# pick 2 smallest nodes
+	left = nodes[0]
+	right = nodes[1]
+
+	# assign directional value to these nodes
+	left.huff = 0
+	right.huff = 1
+
+	# combine the 2 smallest nodes to create
+	# new node as their parent
+	newNode = node(left.freq+right.freq, left.symbol+right.symbol, left, right)
+
+	# remove the 2 nodes and add their
+	# parent as new node among others
+	nodes.remove(left)
+	nodes.remove(right)
+	nodes.append(newNode)
+
+# Huffman Tree is ready!
+printNodes(nodes[0])
