@@ -65,7 +65,6 @@ void peek()
 // Prints the stack
 void display()
 {
-    int i;
     printf("Displaying Stack....\n");
     for (int i = top; i >= 0; i--)
     {
