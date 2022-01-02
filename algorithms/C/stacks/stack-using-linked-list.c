@@ -64,8 +64,7 @@ void peek()
 // Prints The Stack
 void display()
 {
-    struct Stack *temp = (struct Stack *)malloc(sizeof(struct Stack));
-    temp = top;
+    struct Stack *temp = top;
     if (top == NULL)
     {
         printf("Stack is empty\n");
