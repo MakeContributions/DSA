@@ -37,7 +37,6 @@ void push()
 // Pop the top-element from the stack
 void pop()
 {
-    int item;
     if (top == -1)
     {
         printf("Stack underflow\n");
