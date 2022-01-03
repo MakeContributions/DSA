@@ -20,7 +20,7 @@
 
 import java.util.ArrayList;
 
-// Using auxillary array to find the random node in a given binary tree
+// Using auxiliary array to find the random node in a given binary tree
 class Node {
     int item;
     Node left, right;
@@ -104,6 +104,6 @@ class Tree {
  */
 
 /** Time Complexity : O(n)
- * Auxillary Space Complexity : O(1)
+ * Auxiliary Space Complexity : O(1)
  */
 
