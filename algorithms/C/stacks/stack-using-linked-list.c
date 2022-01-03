@@ -80,6 +80,25 @@ void display()
     printf("\n");
 }
 
+// Delete Entire Stack
+void deleteStack()
+{
+    struct Stack *temp = top;
+    if (top == NULL)
+    {
+        printf("Stack is empty\n");
+    }
+    else
+    {
+        while (temp != NULL)
+        {
+            top = top->next;
+            free(temp);
+            temp = top;
+        }
+    }
+}
+
 int main()
 {
     int opt;
@@ -91,7 +110,8 @@ int main()
         printf("2.Pop\n");
         printf("3.Peek\n");
         printf("4.Display\n");
-        printf("5.Exit\n");
+        printf("5.Delete Entire Stack\n");
+        printf("6.Exit\n");
 
         scanf("%d", &opt);
 
@@ -110,6 +130,9 @@ int main()
             display();
             break;
         case 5:
+            deleteStack();
+            break;
+        case 6:
             exit(0);
             break;
         default:
@@ -120,21 +143,14 @@ int main()
 }
 
 /*
+Output:
 which operation do you want to perform?
 1.Push
 2.Pop
 3.Peek
 4.Display
-5.Exit
-1
-Enter Element to be pushed
-12
-which operation do you want to perform?
-1.Push
-2.Pop
-3.Peek
-4.Display
-5.Exit
+5.Delete Entire Stack
+6.Exit
 1
 Enter Element to be pushed
 10
@@ -143,7 +159,18 @@ which operation do you want to perform?
 2.Pop
 3.Peek
 4.Display
-5.Exit
+5.Delete Entire Stack
+6.Exit
+1
+Enter Element to be pushed
+5
+which operation do you want to perform?
+1.Push
+2.Pop
+3.Peek
+4.Display
+5.Delete Entire Stack
+6.Exit
 1
 Enter Element to be pushed
 3
@@ -152,15 +179,17 @@ which operation do you want to perform?
 2.Pop
 3.Peek
 4.Display
-5.Exit
+5.Delete Entire Stack
+6.Exit
 4
-3 10 12 
+3 5 10 
 which operation do you want to perform?
 1.Push
 2.Pop
 3.Peek
 4.Display
-5.Exit
+5.Delete Entire Stack
+6.Exit
 2
 Popped Element is 3
 which operation do you want to perform?
@@ -168,14 +197,25 @@ which operation do you want to perform?
 2.Pop
 3.Peek
 4.Display
-5.Exit
-4
-10 12 
+5.Delete Entire Stack
+6.Exit
+5
 which operation do you want to perform?
 1.Push
 2.Pop
 3.Peek
 4.Display
-5.Exit
-5
+5.Delete Entire Stack
+6.Exit
+4
+Stack is empty
+
+which operation do you want to perform?
+1.Push
+2.Pop
+3.Peek
+4.Display
+5.Delete Entire Stack
+6.Exit
+6
 */
