@@ -104,6 +104,6 @@ class Tree {
  */
 
 /** Time Complexity : O(n)
- * Auxiliary Space Complexity : O(1)
+ * Auxillary Space Complexity : O(1)
  */
 
