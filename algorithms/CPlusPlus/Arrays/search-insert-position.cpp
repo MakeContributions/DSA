@@ -13,7 +13,7 @@ Time Complexity: O(log n)
 using namespace std;
 
 //function 
-int searchInsert(vector<int>& nums, int target) {
+int searchInsert1(vector<int>& nums, int target) {
     //starting index
     int start=0;
     //ending index
@@ -37,6 +37,29 @@ int searchInsert(vector<int>& nums, int target) {
         
 }
 
+// Applying Binary search by another method
+int searchInsert2(vector<int>& nums, int target) {
+    //starting index
+    int start=0;
+    //ending index
+    int end=nums.size()-1;
+    // checking that if the target is greater than the last element of the vector.
+    if(target > nums[end])  return end+1;
+    while(start<end){
+        //calculating mid element
+        int mid = start + (end-start)/2;
+        if(nums[mid]>=target){
+             end=mid;
+        }
+        else{
+            start=mid+1;
+       }
+    }
+    //loop will exit when start = end where element will be either present or can be inserted.
+    return end ;    // can return either start or end
+        
+}
+
 //main starts
 int main() {
     cout << "Enter number of elements in the array\n";
@@ -50,7 +73,8 @@ int main() {
     cout<<"Enter the target element\n";
     int target;
     cin>>target;
-    cout<<"The target element can be inserted at: "<<searchInsert(nums,target);
+    cout<<"The target element is present at or can be inserted at: "<<searchInsert1(nums,target) << endl;
+    cout<<"The target element is present at or can be inserted at: "<<searchInsert2(nums,target) << endl;
     return 0;
 }
 
