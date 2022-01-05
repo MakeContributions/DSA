@@ -69,3 +69,8 @@
 - [Jump Search](searching/Jump-search.c)
 - [Ternary Search](searching/Ternary-search.c)
 - [Interpolation Search](searching/Interpolation-search.c)
+
+## Stacks
+
+- [Stack using arrays](stacks/stack-using-arrays.c)
+- [Stack using Linked List](stacks/stack-using-linked-list.c)
