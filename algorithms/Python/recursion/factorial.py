@@ -1,19 +1,21 @@
-def FactorialNonRecursion(number):
+""" This is the update of factorial.py to provide standard of the clean codes."""
+
+def factorial_nonrecursion(number):
     """
-    >>> FactorialNonRecursion(3)
+    >>> factorial_nonrecursion(3)
     6
-    >>> FactorialNonRecursion(5)
+    >>> factorial_nonrecursion(5)
     120
-    >>> FactorialNonRecursion(0)
+    >>> factorial_nonrecursion(0)
     1
-    >>> FactorialNonRecursion(1)
+    >>> factorial_nonrecursion(1)
     1
     """
     if isinstance(number, float):
         raise ValueError("Non integer number is not allowed")
     if number < 0:
         raise ValueError("Negative number is not allowed") # Raise an error here
-    if number == 0 or number == 1:
+    if number in {0,1}:
         return 1
 
     result = 1
@@ -21,32 +23,33 @@ def FactorialNonRecursion(number):
         result = result * i
     return result
 
-def FactorialRecursion(number):
+def factorial_recursion(number):
     """
-    >>> FactorialRecursion(3)
+    >>> factorial_recursion(3)
     6
-    >>> FactorialRecursion(5)
+    >>> factorial_recursion(5)
     120
-    >>> FactorialRecursion(0)
+    >>> factorial_recursion(0)
     1
-    >>> FactorialRecursion(1)
+    >>> factorial_recursion(1)
     1
     """
     if isinstance(number, float) is True:
         raise ValueError("Non integer number is not allowed")
     if number < 0:
         raise ValueError("Negative number is not allowed")
-    if number == 0 or number == 1:
+    if number in {0,1}:
         return 1
 
-    return number * FactorialRecursion(number-1)
+    return number * factorial_recursion(number-1)
 
 def main():
-    testFactorial = FactorialNonRecursion(5)
-    print(testFactorial)
+    """ main function for factorial """
+    test_factorial = factorial_nonrecursion(5)
+    print(test_factorial)
 
-    testRecursion = FactorialRecursion(4)
-    print(testRecursion)
+    test_recursion = factorial_recursion(4)
+    print(test_recursion)
 
 if __name__ == "__main__":
     main()
