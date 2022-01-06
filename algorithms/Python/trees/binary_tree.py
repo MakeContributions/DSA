@@ -1,3 +1,5 @@
+# Author: github.com/Mo-Shakib
+
 """ The binary tree data structure implementation """
 
 class Node:
