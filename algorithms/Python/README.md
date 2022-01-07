@@ -66,5 +66,5 @@
 
 ## Trees
 - [Binary Tree](trees/binary_tree.py)
-- [Binary Search Tree](trees/binary-search-tree.py)
+- [Binary Search Tree](trees/binary_search_tree.py)
 
