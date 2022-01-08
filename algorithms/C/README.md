@@ -32,6 +32,7 @@
 ## Maths
 
 - [Palindrome Number](maths/palindrome.c)
+- [Fibonacci Series](maths/fibonacci-series.c)
 
 ## Queues
 
