@@ -17,9 +17,10 @@ bool isPowerOfTwo(const int n)
 }
 
 // Binary Method to check number is in power of two or not.
+// Time Complexity of this method is O(1)
 bool ispoweroftwo(const int n)
 {
-    // if number is in power of two it will return 0, otherwise it will return not zero.
+    // if number is in power of two it will give 0, otherwise it will not zero.
     return (n & (n - 1)) == 0;
 }
 
