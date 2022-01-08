@@ -1,27 +1,36 @@
 #include <iostream>
 using namespace std;
 
-//function starts
-bool isPowerOfTwo(const n)
+// function starts
+bool isPowerOfTwo(const int n)
 {
-    //declare a variable to know if n is a power of 2 or not
+    // declare a variable to know if n is a power of 2 or not
     long i = 1;
-    //at every iteration it will calcalute power of 2 starting from 1
+    // at every iteration it will calcalute power of 2 starting from 1
     while (i < n)
     {
         i = i * 2;
     }
-    //if n is the power of 2, i and n value will be same
-    //if they are same, it will return true, else it will return false
+    // if n is the power of 2, i and n value will be same
+    // if they are same, it will return true, else it will return false
     return i == n;
 }
 
-//main starts
+// Binary Method to check number is in power of two or not.
+bool ispoweroftwo(const int n)
+{
+    // if number is in power of two it will return 0, otherwise it will return not zero.
+    return (n & (n - 1)) == 0;
+}
+
+// main starts
 int main()
 {
     int n;
     cin >> n;
-    cout << isPowerOfTwo(n);
+    cout << isPowerOfTwo(n) << endl;
+    // Check using Binary Method
+    cout << ispoweroftwo(n) << endl;
     return 0;
 }
 
@@ -29,12 +38,12 @@ int main()
 Example 1:
 
 Input: n = 1
-Output:1 (true) 
+Output:1 (true)
 Explanation: 20 = 1
 Example 2:
 
 Input: n = 16
-Output:1 (true) 
+Output:1 (true)
 Explanation: 24 = 16
 Example 3:
 
