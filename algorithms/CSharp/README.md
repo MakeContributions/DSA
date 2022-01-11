@@ -29,6 +29,7 @@ For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/
 
 ## Maths
 - [Abundant Number](src/Maths/abundant-number.cs)
+- [Naismith's Rule](src/Maths/naismith-rule.cs)
 
 ## Queues
 - [Queue Implementation Using Two Stacks](src/Queues/queue-implementation-using-two-stacks.cs)
