@@ -21,7 +21,7 @@ bool isPowerOfTwo(const int n)
 bool ispoweroftwo(const int n)
 {
     // if number is in power of two it will give 0, otherwise it will not zero.
-    return (n & (n - 1)) == 0;
+    return n != 0 && (n & (n - 1)) == 0;
 }
 
 // main starts
