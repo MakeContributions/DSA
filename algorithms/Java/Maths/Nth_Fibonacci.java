@@ -100,15 +100,14 @@ import java.math.*;
 public class Nth_Fibonacci {
     
   static class Matrix {
-      
-			public long[][] matrix;
-      
-
-			public Matrix(int n) {
-
-				matrix=new long[n][n];
-			
-			}
+         /*data member*/  
+         public long[][] matrix;
+         
+	  
+	 /*Constructor*/
+         public Matrix(int n) {
+		matrix=new long[n][n];			
+	 }
 		   
       /**
        *  @param other Matrix 
@@ -117,61 +116,65 @@ public class Nth_Fibonacci {
        * this method performs matrix multiplication of this.matrix 
        * and other.matrix and returns the product matrix
        * */
-			public Matrix multiply(Matrix other,int mod) {
-				
-				Matrix product = new Matrix(matrix.length);
-		    
-		    for (int i = 0; i < matrix.length; i++) {
-		      for (int j = 0; j < matrix.length; j++) {
-		      	for (int k = 0; k < matrix.length; k++) {
-		      	    product.matrix[i][k] = (product.matrix[i][k] + matrix[i][j] * other.matrix[j][k])%mod;
-		        }
-		      }
+	public Matrix multiply(Matrix other,int mod) {
+
+	       Matrix product = new Matrix(matrix.length);
+
+	       for (int i = 0; i < matrix.length; i++) {
+		    for (int j = 0; j < matrix.length; j++) {
+		         for (int k = 0; k < matrix.length; k++) {
+			     product.matrix[i][k] = (product.matrix[i][k] + matrix[i][j] * other.matrix[j][k])%mod;
+			 }
 		    }
+	        }
 
-		    return product;
-			}
-	}
+	        return product;
+	 }
+	  
+      }
 
-  /*binary exponentiation using matrices*/
-	public static Matrix exponentiation(Matrix m,BigInteger n,int mod) {
+      /*binary exponentiation using matrices*/
+      public static Matrix exponentiation(Matrix m,BigInteger n,int mod) {
+
+	    Matrix expo = new Matrix(m.matrix.length);
+
+	    for (int i = 0; i < m.matrix.length; i++) expo.matrix[i][i]=1;
+
+	    while(n.compareTo(BigInteger.valueOf(0))>0) {
+
+		    if(n.remainder(BigInteger.valueOf(2)).compareTo(BigInteger.valueOf(1)) == 0) expo = expo.multiply(m,mod);
+
+		    m = m.multiply(m,mod);
+
+		    n = n.divide(BigInteger.valueOf(2));
+	    }
+
+	    return expo;
+     }
+
+     public static void main(String []args) throws IOException {
+    
+           /*for taking input.*/
+	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    
+           /*because of constraints ,I read the number in string since it does not fit in long as well.*/
+	   String s = br.readLine().trim();
+    
+           /*convert the string to bigInteger to be able to perform some arithmetic operations*/
+	   BigInteger n = new BigInteger(s);
+
 		
-		Matrix expo = new Matrix(m.matrix.length);
+           int mod = (int)1e9+7;
 
-    for (int i = 0; i < m.matrix.length; i++) expo.matrix[i][i]=1;
+	   Matrix A = new Matrix(2);
+           A.matrix[0][0] = 0;
+           A.matrix[0][1] = A.matrix[1][0] = A.matrix[1][1] = 1;
     
-    while(n.compareTo(BigInteger.valueOf(0))>0)
-    {
-      if(n.remainder(BigInteger.valueOf(2)).compareTo(BigInteger.valueOf(1)) == 0) expo = expo.multiply(m,mod);
-      m = m.multiply(m,mod);
-      n = n.divide(BigInteger.valueOf(2));
-		}
-		
-		return expo;
-	}
+           Matrix ans = exponentiation(A,n,mod);
 
-	public static void main(String []args) throws IOException {
+           int result = (int)(ans.matrix[0][1] % mod) ;
     
-    /*for taking input.*/
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    
-    /*because of constraints ,I read the number in string since it does not fit in long as well.*/
-		String s = br.readLine().trim();
-    
-    /*convert the string to bigInteger to be able to perform some arithmetic operations*/
-		BigInteger n = new BigInteger(s);
-
-		
-    int mod = (int)1e9+7;
-
-		Matrix A = new Matrix(2);
-    A.matrix[0][0] = 0;
-    A.matrix[0][1] = A.matrix[1][0] = A.matrix[1][1] = 1;
-    
-    Matrix ans = exponentiation(A,n,mod);
-
-    int result = (int)(ans.matrix[0][1] % mod) ;
-    
-    System.out.println(n + "-th Fibonacci number is : " + result);
-	}
+           System.out.println(n + "-th Fibonacci number is : " + result);
+   }
+	
 }
