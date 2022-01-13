@@ -45,7 +45,8 @@ Example 2:
 
 Input: n = 16
 Output:1 (true)
-Explanation: 24 = 16
+Explanation: 2^4 = 16
+
 Example 3:
 
 Input: n = 3
