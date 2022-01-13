@@ -40,7 +40,8 @@ Example 1:
 
 Input: n = 1
 Output:1 (true)
-Explanation: 20 = 1
+Explanation: 2^0 = 1
+
 Example 2:
 
 Input: n = 16
