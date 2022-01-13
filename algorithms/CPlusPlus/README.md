@@ -25,8 +25,10 @@
 - [Index of Smallest element of Array](Arrays/index-of-smallest-element-of-array.cpp)
 - [Move Zeros to End of The Array](Arrays/move-zeros-to-end-of-array.cpp)
 - [Kadane's Algorithm](Arrays/Kadane's-Algorithm.cpp)
+- [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
 - [Merge two sorted array without using extraspace](Arrays/merge-two-sorted-array.cpp)
 - [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
+- [Next permutation](Arrays/next-permutation.cpp)
 
 ## Dynamic-Programming
 
@@ -45,6 +47,7 @@
 - [Dfs traversal with stack](Graphs/dfs-through-stackdatastructure.cpp)
 - [Dfs traversal with recursion](Graphs/dfs-traversal.cpp)
 - [Connected Components](Graphs/total-connected-components.cpp)
+- [Dijkstra's Algorithm](Graphs/dijkstra.cpp)
 
 ## Multiplication
 
@@ -75,6 +78,7 @@
 - [Ternary Search](Searching/Ternary-search.cpp)
 - [Interpolation Search](Searching/interpolation-search.cpp)
 - [Exponential Search](Searching/exponential-search.cpp)
+- [Linear search in 2D array](Searching/linear-search-in-2d.cpp)
 
 ## Stacks
 
@@ -82,6 +86,7 @@
 - [Reversing Stack](Stacks/reverse-stack.cpp)
 - [Stack using Array](Stacks/stack-using-array.cpp)
 - [Infix to postfix expression conversion](Stacks/infix-to-postfix.cpp)
+- [Stock Span Problem using Stacks](Stacks/stock-span-problem.cpp)
 
 ## Sorting
 
@@ -113,6 +118,8 @@
 - [Print first letter of every word](Strings/print-first-letter.cpp)
 - [Display longest name in a string array](Strings/longest-name.cpp)
 - [Boyer Moore pattern search](Strings/Boyer_Moore.cpp)
+- [Longest common prefix](Strings/longest-common-prefix.cpp)
+- [First unique character in the string](Strings/first-unique-character.cpp)
 
 ## Trees
 
@@ -172,3 +179,4 @@
 - [Array sorted or not](Recursion\array-sorted-or-not.cpp)
 - [Product of two numbers](Recursion\product-of-numbers.cpp)
 - [Product of digits in a number](Recursion\product-of-digits.cpp)
+- [Linear search using recursion](Recursion/linear-search.cpp)

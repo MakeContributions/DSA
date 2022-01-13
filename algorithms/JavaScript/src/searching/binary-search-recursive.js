@@ -2,12 +2,12 @@
 /*
 * Arguments to Function
 *  arr - array ( Sorted Only )
-* low - lower index of array (0)
 * high - max index of array  (length of array - 1 )
-* item = Element to be searched .
+* item = Element to be searched
+* low - lower index of array (0).
 */
 
-function binaryRecursive(arr, low, high, item) {
+function binaryRecursive(arr, high, item, low = 0) {
   // Base Case for the termination of Recursion
 
   if (low > high) {
@@ -29,19 +29,19 @@ function binaryRecursive(arr, low, high, item) {
     // greater than middle element and so item too.
     // Make a recursive call to the left Half
 
-    return binaryRecursive(arr, low, mid - 1, item);
+    return binaryRecursive(arr, mid - 1, item, low);
   } else {
     // Item is greater than the middle Element
     // Ignore the Left Half ,as left half contains element less
     // than middle element and so item too .
     // Make recursive call to the right Half
 
-    return binaryRecursive(arr, mid + 1, high, item);
+    return binaryRecursive(arr, high, item, mid + 1);
   }
 }
 
 // returns 3 , Found at Index 3
-console.log(binaryRecursive([1, 3, 5, 7, 8, 9], 0, 5, 7));
+console.log(binaryRecursive([1, 3, 5, 7, 8, 9], 5, 7));
 
 // returns -1 , 10 is not present in array
-console.log(binaryRecursive([1, 3, 5, 7, 8, 9], 0, 5, 10));
+console.log(binaryRecursive([1, 3, 5, 7, 8, 9], 5, 10));

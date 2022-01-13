@@ -19,3 +19,10 @@ require('./sorting/selection-sort');
 // Strings
 require('./strings/palindrome');
 require('./strings/sequence');
+
+// Stack
+require('./stacks/stack');
+require('./stacks/two-stack')
+
+// Queue
+require('./queues/queue');

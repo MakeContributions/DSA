@@ -5,7 +5,7 @@
 
 function binarySearch(item, arr) {
   let first = 0; // left endpoint or index of first array element
-  let last = arr.length - 1; // right endpoint or index of lat array element .
+  let last = arr.length - 1; // right endpoint or index of last array element .
 
   while (first <= last) {
     const middle = Math.floor((first + last) / 2);
