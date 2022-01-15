@@ -17,20 +17,16 @@ void calculateSpan(const vector<int> price, const int priceSize,vector<int>& sto
 
     // Calculate span values for rest of the elements
     for (int priceIt = 1; priceIt < priceSize; priceIt++) {
-        // Pop elements from stack while stack is not
-        // empty and top of stack is smaller than
-        // price[priceSize]
-        while (!spanStack.empty() && price[spanStack.top()] < price[priceIt])
+        while (!spanStack.empty() && (price[spanStack.top()] < price[priceIt]) )
             spanStack.pop();
 
         // If stack becomes empty, then price[i] is
         // greater than all elements on left of it,
-        // i.e., price[0], price[1], ..price[i-1].  Else
+        // i.e., price[0], price[1], ..price[priceSize-1].  Else
         // price[priceSize] is greater than elements after
         // top of stack
         stockSpan.push_back( (spanStack.empty()) ? (priceIt + 1) : (priceIt - spanStack.top()) );
 
-        // Push this element to stack
         spanStack.push(priceIt);
     }
 }
@@ -42,6 +38,7 @@ void printArray(const vector<int>& arr,const int arrSize)
         cout << arr[arrIt] << " ";
 }
 
+//Return the price vector from user input
 vector<int> getPrice()
 {
     vector<int> price;
