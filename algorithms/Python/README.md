@@ -15,7 +15,7 @@
 - [Two Sum](dictionaries/two-sum.py)
 
 ## Multiplication
-- [Karatsuba](multiplication/karatsuba.py)
+- [Karatsuba](multiplication/karatsuba_algorithm.py)
 
 ## Recursion
 - [Factorial](recursion/factorial.py)
