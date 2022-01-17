@@ -56,10 +56,11 @@ vector<int> getPrice()
 // Driver program to test above function
 int main()
 {
+    vector<int> price = getPrice();
     vector<int> stockSpan;
-    calculateSpan(getPrice(), getPrice().size(), stockSpan);
+    calculateSpan(price, price.size(), stockSpan);
 
-    printArray(stockSpan, getPrice().size());
+    printArray(stockSpan, price.size());
 
     return 0;
 }
