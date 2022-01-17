@@ -30,6 +30,7 @@
 - [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
 - [Next permutation](Arrays/next-permutation.cpp)
 - [Maximum Minimum Average of numbers](max-min-avg.cpp)
+
 ## Dynamic-Programming
 
 - [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
@@ -78,6 +79,7 @@
 - [Ternary Search](Searching/Ternary-search.cpp)
 - [Interpolation Search](Searching/interpolation-search.cpp)
 - [Exponential Search](Searching/exponential-search.cpp)
+- [Linear search in 2D array](Searching/linear-search-in-2d.cpp)
 
 ## Stacks
 
@@ -85,6 +87,7 @@
 - [Reversing Stack](Stacks/reverse-stack.cpp)
 - [Stack using Array](Stacks/stack-using-array.cpp)
 - [Infix to postfix expression conversion](Stacks/infix-to-postfix.cpp)
+- [Stock Span Problem using Stacks](Stacks/stock-span-problem.cpp)
 
 ## Sorting
 
@@ -177,3 +180,4 @@
 - [Array sorted or not](Recursion\array-sorted-or-not.cpp)
 - [Product of two numbers](Recursion\product-of-numbers.cpp)
 - [Product of digits in a number](Recursion\product-of-digits.cpp)
+- [Linear search using recursion](Recursion/linear-search.cpp)

@@ -11,12 +11,15 @@
 - [Singly](linked_lists/singly.py)
 - [Reverse List](linked_lists/reverse-linkedlist.py)
 
+## Dictionaries
+- [Two Sum](dictionaries/two-sum.py)
+
 ## Multiplication
 - [Karatsuba](multiplication/karatsuba.py)
 
 ## Recursion
 - [Factorial](recursion/factorial.py)
-- [n-th Fibonacci number](recursion/n-th_fibonacci_number.py)
+- [n-th Fibonacci number](recursion/nth_fibonacci_number.py)
 - [Recursive Insertion Sort](recursion/recursive_insertion_sort.py)
 
 ## Scheduling
@@ -63,5 +66,5 @@
 
 ## Trees
 - [Binary Tree](trees/binary_tree.py)
-- [Binary Search Tree](trees/binary-search-tree.py)
+- [Binary Search Tree](trees/binary_search_tree.py)
 

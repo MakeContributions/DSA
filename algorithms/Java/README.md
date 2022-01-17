@@ -31,6 +31,7 @@
 - [Factorial](Maths/factorial_using_big_integer.java)
 - [Catalan Numbers](Maths/catalan-numbers.java)
 - [Nth Geek Onacci Number](Maths/nth-geek-onacci-number.java)
+- [Random Node in Linked List](Maths/algorithms_random_node.java)
 
 ## Queues
 
@@ -71,6 +72,7 @@
 - [The Stock Span Problem](stacks/the-stock-span-problem.java)
 - [Celebrity Problem](stacks/celebrity-problem.java)
 - [Sliding Window Maximum](stacks/sliding-window-maximum.java)
+- [Min Stack](stacks/Min-Stack.java)
 
 ## Strings
 
@@ -94,9 +96,26 @@
 - [Zig-Zag Traversal of a Tree](trees/zig-zag-traversal.java)
 - [Min Heap](trees/MinHeap.java)
 - [Check Tree Traversal](trees/check-tree-traversal.java)
+- [Random Node of a binary tree](tree-random-node.java)
 
 ## Backtracking
+
 - [N Queen Problem](backtracking/nqueen.java)
 
 ## Bit Manipulation
+
 - [Count Set Bits](bit-manipulation/count-set-bits.java)
+
+## Recursion
+
+- [Array sorted or not](recursion/array-sorted.java)
+- [Sum of all the elements in the array](recursion/array-sum.java)
+- [Binary search using recursion](recursion/binary-search.java)
+- [Factorial of a number](recursion/Factorial.java)
+- [First uppercase letter in a string](recursion/first-uppercase-letter.java)
+- [Linear search using recursion](recursion/linear-search.java)
+- [Minimum and maximum element in the array](recursion/min-max-in-array.java)
+- [Printing 1 to N and N to 1](recursion/print-n.java)
+- [Print PI value in the string](recursion/print-pi.java)
+- [Reverse the string](recursion/reverse-string.java)
+- [Find the length of the string](recursion/string-length.java)

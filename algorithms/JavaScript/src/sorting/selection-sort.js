@@ -8,12 +8,11 @@ function selectionSort(array) {
       if (array[j] < array[i]) {
         minIndex = j;
       }
-
-      // swap with element at minimum index
-      const temp = array[minIndex];
-      array[minIndex] = array[i];
-      array[i] = temp;
     }
+    // swap with element at minimum index
+    const temp = array[minIndex];
+    array[minIndex] = array[i];
+    array[i] = temp;
   }
 
   // return sorted array

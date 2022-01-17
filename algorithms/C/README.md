@@ -16,6 +16,8 @@
 ## Graphs
 
 - [Prim's Algorithm](graphs/Prim's-algorithm.c)
+- [Breadth First Search](graphs/breadth-first-search.c)
+- [Depth First Search](graphs/depth-first-search.c)
 
 ## Linked Lists
 
@@ -43,6 +45,7 @@
 - [Insertion Sort](sorting/insertion-sort.c)
 - [Heap Sort](sorting/heap-sort.c)
 - [Selection Sort](sorting/selection-sort.c)
+- [Quick Sort](sorting/quick-sort.c)
 
 ## Strings
 
@@ -66,3 +69,8 @@
 - [Jump Search](searching/Jump-search.c)
 - [Ternary Search](searching/Ternary-search.c)
 - [Interpolation Search](searching/Interpolation-search.c)
+
+## Stacks
+
+- [Stack using arrays](stacks/stack-using-arrays.c)
+- [Stack using Linked List](stacks/stack-using-linked-list.c)
