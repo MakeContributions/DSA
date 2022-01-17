@@ -29,7 +29,7 @@
 - [Merge two sorted array without using extraspace](Arrays/merge-two-sorted-array.cpp)
 - [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
 - [Next permutation](Arrays/next-permutation.cpp)
-- [Maximum Minimum Average of numbers](max-min-avg.cpp)
+- [Maximum Minimum Average of numbers](Arrays/max-min-avg.cpp)
 
 ## Dynamic-Programming
 
