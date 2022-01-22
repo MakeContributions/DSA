@@ -87,7 +87,7 @@
 - [Stack using Array](Stacks/stack-using-array.cpp)
 - [Infix to postfix expression conversion](Stacks/infix-to-postfix.cpp)
 - [Stock Span Problem using Stacks](Stacks/stock-span-problem.cpp)
-- [Prefix to Postfix expression conversion](algorithms/CPlusPlus/Stacks/prefix_to_postfix.cpp)
+- [Prefix to Postfix expression conversion](https://github.com/MakeContributions/DSA/blob/2fc8c0c25317cca01b4fa947b3c9654983cb6868/algorithms/CPlusPlus/Stacks/prefix_to_postfix.cpp)
 
 ## Sorting
 
