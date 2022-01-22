@@ -1,16 +1,16 @@
-/*Program to convert a prefix expression to postfix expression
-Prefix expression : An expression in which the operator appears before the operands. 
-Postfix expression : An expression in which the operator appears after the operands. 
+// Program to convert a prefix expression to postfix expression
+// Prefix expression : An expression in which the operator appears before the operands. 
+// Postfix expression : An expression in which the operator appears after the operands. 
 
 
 
-Alogorithm
-To convert prefix to postfix expression we follow steps given below:
-Step 1. If the symbol is an operand, push it to the stack
-Step 2. If symbol is an operator then pop top two elements from stack
-Step 3. Then push an expression by concatenating (+op1+op2+symbol)
-Step 4. At last return the top element of stack as postfix expression
-*/
+// Alogorithm
+// To convert prefix to postfix expression we follow steps given below:
+// Step 1. If the symbol is an operand, push it to the stack
+// Step 2. If symbol is an operator then pop top two elements from stack
+// Step 3. Then push an expression by concatenating (+op1+op2+symbol)
+// Step 4. At last return the top element of stack as postfix expression
+
 
 
 // CODE:
@@ -55,10 +55,10 @@ int main()
   cout<<"Prefix to Postfix expression is: "<<prefix_to_postfix(exp);
 }
 
-/*
-OUTPUT:
-Enter expresion: *-a/bc-/akl
-Prefix to Postfix expression is: abc/-ak/l-*
-*/
+
+// OUTPUT:
+// Enter expresion: *-a/bc-/akl
+// Prefix to Postfix expression is: abc/-ak/l-*
+
 
 
