@@ -22,7 +22,11 @@ require('./strings/sequence');
 
 // Stack
 require('./stacks/stack');
-require('./stacks/two-stack')
+require('./stacks/two-stack');
 
 // Queue
 require('./queues/queue');
+
+
+// Trees
+require('./trees/binary-search-tree');

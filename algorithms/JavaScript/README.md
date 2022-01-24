@@ -29,3 +29,6 @@
 
 ## Queues
 - [Queue](src/queues/queue.js)
+
+## Trees
+- [Binary Search Tree](src/trees/binary-search-tree.js)
