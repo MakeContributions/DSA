@@ -15,6 +15,7 @@ before by adding single character to the previous call.
 */
 
 #include <iostream>
+#include <string>
 using namespace std;
 int str_subsequences(string input, string output[])
 {
