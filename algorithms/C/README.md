@@ -39,6 +39,10 @@
 - [Double Ended Queue using array](queues/double-ended-queue-using-array.c)
 - [Circular Queue using array](queues/circular-queue-using-array.c)
 
+## Recursion
+
+- [Tower of Hanoi](recursion/tower-of-hanoi.c)
+
 ## Sorting
 
 - [Bubble Sort](sorting/bubble-sort.c)
