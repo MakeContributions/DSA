@@ -1,6 +1,7 @@
 // Target sum subsets is a program to print all subsets of an array (given by user) such that sum of all elements in subset equal to a target sum given by user
 
 // Algorithm Type: Backtracking
+// Time Complexity: O(2^N)
 
 import java.io.*;
 import java.util.*;
