@@ -16,6 +16,7 @@ struct Node {
     }
 };
 
+// Recursive statement to navigate binary tree
 int sumRightLeaves(Node* root) {
     queue<Node*> q;
     int rightSum = 0;
@@ -41,7 +42,7 @@ int sumRightLeaves(Node* root) {
                 q.push(q.front()->right);
             }
         }
-        if(q.front()->left)
+        if(q.front()->left) // Check down left side of tree
         {
             q.push(q.front()->left);
         }
@@ -67,7 +68,8 @@ int main()
 //                  / \   \
 //                 8   10  13
 //
-//          Sum of the right leaves 23
+//          Sample Output
+//          Sum of the right leaves: 23
 
 // Outputting sum of right leaves
     cout << "Sum of right leaves: " << sumRightLeaves(root);
