@@ -1,3 +1,7 @@
+// The sum of right leaves algorithms recursively goes through a binary tree to find all right leaves
+// Worst Case Time Complexity: O(n)
+// Average Time Complexity: O(n)
+
 #include <iostream>
 #include <queue>
 
