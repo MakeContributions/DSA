@@ -12,7 +12,7 @@ class FIFOqueue:
 
     def enqueue(self, n) -> None:
         """
-        adds n to the end of the queue
+        adds n to the end of the queue in O(1) time
 
         n: Any
         """
@@ -20,19 +20,19 @@ class FIFOqueue:
 
     def dequeue(self):
         """
-        removes the first element from the queue and returns it
+        removes the first element from the queue and returns it in O(1) time
         """
         return self.arr.pop(0)
     
     def front(self):
         """
-        returns the first element of the queue
+        returns the first element of the queue in O(1) time
         """
         return self.arr[0]
     
     def rear(self):
         """
-        returns the last element of the queue
+        returns the last element of the queue in O(1) time
         """
         return self.arr[-1]
 
