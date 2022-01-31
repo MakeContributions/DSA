@@ -50,4 +50,9 @@ int main() {
   though a max heap's requirement is that it needs the key at the root to be
   the maximum element among all the keys in the tree, and this must be true
   for all the nodes in the tree as well
+
+  Time Complexity
+  The time complexity for creating a max heap with priority queue is O(n),
+  removing an element from the top of the heap takes O(log n) time, therefore
+  the time complexity for this max heap algorithm is O(n * log n)
 */
