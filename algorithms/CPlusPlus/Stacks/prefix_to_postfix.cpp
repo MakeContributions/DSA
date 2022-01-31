@@ -27,8 +27,9 @@ string prefix_to_postfix(string prefix)
     // Iterating through the Prefix expression from right to left
     for(int i=l-1;i>=0;i--){
         // if the symbol is an operand, push it to the stack
-        if(prefix[i]>='a' && prefix[i]<='z'||prefix[i]>='A' && prefix[i]<='Z')
-        s.push(string(1,prefix[i]));
+        if(prefix[i]>='a' && prefix[i]<='z'||prefix[i]>='A' && prefix[i]<='Z'){
+            s.push(string(1,prefix[i]));
+        }
 
         // if symbol is an operator
         else
