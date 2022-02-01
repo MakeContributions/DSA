@@ -1,6 +1,6 @@
 # Nome do Algoritmo
 
-Escreve uma breve descrição de características do algoritmo assim como:
+Escrever uma breve descrição de características do algoritmo assim como:
 1. Complexidade de tempo
 2. Complexidade de espaço
 3. Aplicações
@@ -9,7 +9,7 @@ Escreve uma breve descrição de características do algoritmo assim como:
 
 ## Passos
 
-Descreve o algoritmo de forma clara, simples e de modo que os passo seja compreendidos por toda a gente.
+Descreve o algoritmo de forma clara, simples e de modo que os passos sejma compreendidos por toda a gente.
 
 ## Exemplos
 
@@ -26,4 +26,4 @@ Anexa o URL de um vídeo que explica o algoritmo, deve ser em português.
 
 ## Outros
 
-Qualquer informação é sempre bem-vinda e deve ser incluida nesta secção.
+Qualquer informação é sempre bem-vinda e deve ser incluída nesta secção.

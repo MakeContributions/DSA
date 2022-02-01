@@ -2,4 +2,4 @@
 
 ## Others
 
-[Como adicionar uma documentação para um algoritmo?](./CONTRIBUTING.md)
+[Como adicionar documentação para um algoritmo?](./CONTRIBUTING.md)
