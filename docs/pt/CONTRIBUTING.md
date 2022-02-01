@@ -9,7 +9,7 @@ Escrever uma breve descrição de características do algoritmo assim como:
 
 ## Passos
 
-Descreve o algoritmo de forma clara, simples e de modo que os passos sejma compreendidos por toda a gente.
+Descreve o algoritmo de forma clara, simples e de modo que os passos sejam compreendidos por toda a gente.
 
 ## Exemplos
 
