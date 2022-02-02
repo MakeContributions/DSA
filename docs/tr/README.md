@@ -2,7 +2,7 @@
 
 ## Dizme Algoritmaları
 
-- [Palindrome](./Strings/Palindrome.md)
+- [Palindrom](./Strings/Palindrom.md)
 
 ## Others
 
