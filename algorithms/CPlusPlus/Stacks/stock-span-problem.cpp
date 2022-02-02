@@ -4,67 +4,63 @@
 
 #include <bits/stdc++.h>
 using namespace std;
- 
+
 // A stack based efficient method to calculate
 // stock span values
-void calculateSpan(const vector<int> price, const int n,vector<int>& S)
+void calculateSpan(const vector<int> price, const int priceSize,vector<int>& stockSpan)
 {
-    // Create a stack and push index of first
-    // element to it
-    stack<int> st;
-    st.push(0);
- 
+    stack<int> spanStack;
+    spanStack.push(0);
+
     // Span value of first element is always 1
-    S.push_back(1);
- 
+    stockSpan.push_back(1);
+
     // Calculate span values for rest of the elements
-    for (int i = 1; i < n; i++) {
-        // Pop elements from stack while stack is not
-        // empty and top of stack is smaller than
-        // price[i]
-        while (!st.empty() && price[st.top()] < price[i])
-            st.pop();
- 
+    for (int priceIt = 1; priceIt < priceSize; priceIt++) {
+        while (!spanStack.empty() && (price[spanStack.top()] < price[priceIt]) )
+            spanStack.pop();
+
         // If stack becomes empty, then price[i] is
         // greater than all elements on left of it,
-        // i.e., price[0], price[1], ..price[i-1].  Else
-        // price[i] is greater than elements after
+        // i.e., price[0], price[1], ..price[priceSize-1].  Else
+        // price[priceSize] is greater than elements after
         // top of stack
-        int x = (st.empty()) ? (i + 1) : (i - st.top());
-        S.push_back(x);
- 
-        // Push this element to stack
-        st.push(i);
+        stockSpan.push_back( (spanStack.empty()) ? (priceIt + 1) : (priceIt - spanStack.top()) );
+
+        spanStack.push(priceIt);
     }
 }
- 
-// A utility function to print elements of array
-void printArray(const vector<int>& arr,const int n)
+
+//Print elements of array
+void printArray(const vector<int>& arr,const int arrSize)
 {
-    for (int i = 0; i < n; i++)
-        cout << arr[i] << " ";
+    for (int arrIt = 0; arrIt < arrSize; arrIt++)
+        cout << arr[arrIt] << " ";
 }
- 
+
+//Return the price vector from user input
+vector<int> getPrice()
+{
+    vector<int> price;
+    int priceSize;
+    cin>>priceSize;
+    for(int sizeIt = 0 ; sizeIt < priceSize ; sizeIt++)
+     {
+         int priceEntry;
+         cin>>priceEntry;
+         price.push_back(priceEntry);
+     }
+     return price;
+}
+
 // Driver program to test above function
 int main()
 {
-    vector<int> price;
-    int n;
-    //Enter the size of price
-    cin>>n;
-    vector<int> S;
-    for(int i=0;i<n;i++)
-     {
-         int x;
-         cin>>x;
-         price.push_back(x);
-     }
- 
-    // Fill the span values in array S[]
-    calculateSpan(price, n, S);
-    
-    // print the calculated span values
-    printArray(S, n);
- 
+    vector<int> price = getPrice();
+    vector<int> stockSpan;
+    calculateSpan(price, price.size(), stockSpan);
+
+    printArray(stockSpan, price.size());
+
     return 0;
 }

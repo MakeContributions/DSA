@@ -32,11 +32,16 @@
 ## Maths
 
 - [Palindrome Number](maths/palindrome.c)
+- [Fibonacci Series](maths/fibonacci-series.c)
 
 ## Queues
 
 - [Double Ended Queue using array](queues/double-ended-queue-using-array.c)
 - [Circular Queue using array](queues/circular-queue-using-array.c)
+
+## Recursion
+
+- [Tower of Hanoi](recursion/tower-of-hanoi.c)
 
 ## Sorting
 
@@ -46,6 +51,7 @@
 - [Heap Sort](sorting/heap-sort.c)
 - [Selection Sort](sorting/selection-sort.c)
 - [Quick Sort](sorting/quick-sort.c)
+- [Shell Sort](sorting/shell-sort.c)
 
 ## Strings
 
