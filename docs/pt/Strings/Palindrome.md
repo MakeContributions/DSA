@@ -38,5 +38,6 @@ Um palíndromo é uma palavra, frase, número ou sequência de palavras que são
 [Video no youtube a explicar o palíndromo](https://www.youtube.com/watch?v=j3yTHI8uSCg)
 
 ## Outros
+
 [Wikipédia](https://pt.wikipedia.org/wiki/Pal%C3%ADndromo)
 [Mais exemplos de palíndromos](https://www.todamateria.com.br/palindromo/)
