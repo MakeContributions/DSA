@@ -51,6 +51,7 @@
 - [Heap Sort](sorting/heap-sort.c)
 - [Selection Sort](sorting/selection-sort.c)
 - [Quick Sort](sorting/quick-sort.c)
+- [Shell Sort](sorting/shell-sort.c)
 
 ## Strings
 
