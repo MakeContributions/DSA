@@ -11,18 +11,18 @@ Algoritmanın kısa bir açıklamasını aşağıdaki gibi yazın:
 Algoritmayı açık, basit ve anlaşılır adımlarla tanımlayın.
 
 ## Örnek
-Trace the algorithm with sample input data.
+Algoritmayı örnek giriş verileriyle izleyin.
 
-## Implementation
+## Uygulama
 
-Links to their implementation in programming languages.
-NOTE: The link should be within the algorithms folder only.
+Programlama dillerindeki uygulamalarına bağlantıları ekleyin.
+NOT: Bağlantılar yalnızca algoritmalar klasöründe olmalıdır.
 
-## Video URL
+## Video Linkleri
 
-Attach a URL of a video that explains the algorithm. 
+Algoritmayı açıklayan bir videonun URL'sini ekleyin.
 
-## Others
+## Diğer
 
-Any other information is always welcome and should be included in this section.
+Diğer bilgileri bu kısımda verebilirsiniz.
 
