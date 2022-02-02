@@ -25,6 +25,7 @@ public class targetSumSubsets {
 
         // calling our function - printTargetSumSubsets
         printTargetSumSubsets(arr, 0, "", 0, tar);
+        scn.close();
     }
 
     // set is the subset, sum is the sum so far for that subset
@@ -37,10 +38,12 @@ public class targetSumSubsets {
         }
 
         // pick
-        printTargetSumSubsets(arr, idx + 1, set + arr[idx] + ", ", sum + arr[idx], tar);
+        printTargetSumSubsets(arr, idx + 1, set + arr[idx] + " ", sum + arr[idx], tar);
        
         //not pick
         printTargetSumSubsets(arr, idx + 1, set, sum, tar);    
     }
+
+    
 
 }
