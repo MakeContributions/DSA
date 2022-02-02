@@ -4,6 +4,6 @@
 
 - [Palindrom](./Strings/Palindrom.md)
 
-## Others
+## Diğer
 
 [Yeni algoritma dökümantasyonunu nasıl eklerim?](./CONTRIBUTING.md)
