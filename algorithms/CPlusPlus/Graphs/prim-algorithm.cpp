@@ -1,9 +1,12 @@
-#define MAXNUMVERTICES 25
+#include <limits.h>
+
 #include <iostream>
 #include <set>
 #include <vector>
 #include <map>
-#include <limits.h>
+
+#define MAXNUMVERTICES 25
+
 using namespace std;
 
 struct Edge
@@ -120,6 +123,7 @@ int main()
 
 /*
 Sample Input
+9
 1 2 5
 1 3 25
 1 4 30
