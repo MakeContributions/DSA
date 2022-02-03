@@ -132,6 +132,7 @@
 - [In order morris traversal](Trees/in-order-morris-traversal.cpp)
 - [In order Predecessor and Successor](Trees/in-order-predecessor-and-successor.cpp)
 - [Avl Tree](Trees/avl.cpp)
+- [Max Heap](Trees/max-heap.cpp)
 - [Min Heap](Trees/min-heap.cpp)
 - [Finding the height of a given tree](Trees/Height-Of-Tree.cpp)
 - [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
