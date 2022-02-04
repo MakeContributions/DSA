@@ -57,7 +57,7 @@ int main()
 
 
 // OUTPUT:
-// Enter expresion: *-a/bc-/akl
+// Enter expression: *-a/bc-/akl
 // Prefix to Postfix expression is: abc/-ak/l-*
 
 
