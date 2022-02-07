@@ -60,6 +60,7 @@
 - [N-th Term Of Fibonacci Series](dynamic_programming/fibonacci_series_nth_term.py)
 - [Catalan Sequence](dynamic_programming/catalan_sequence.py)
 - [0/1 Knapsack Problem](dynamic_programming/knapsack.py)
+- [Levenshtein distance](dynamic_programming/levenshtein_distance.py)
 
 ## Graphs
 - [Simple Graph](graphs/graph.py)
