@@ -1,3 +1,8 @@
+// Program to detect whether a graph contains a cycle. The vertices of the graph are
+// placed in disjoint sets. As each edge is iterated through, the subset of the two
+// vertices is determined. If the subsets are the same, then a cycle is found.
+// Otherwise, the algorithm will join the two subsets together and repeat the process
+// until each edge is iterated through or a cycle is found.
 #include <algorithm>
 #include <iostream>
 #include <unordered_set>
@@ -47,7 +52,7 @@ bool Graph::isCycle()
         unionSet(parent, x, y);
     }
     
-    delete parent;
+    delete[] parent;
     return false;
 }
 
@@ -65,6 +70,8 @@ int Graph::unionSet(int parent[], int x, int y)
     parent[x] = y;
 }
 
+// Sample test case
+// Time complexity is O(E) where E is the number of edges
 int main()
 {
     Graph graph;
