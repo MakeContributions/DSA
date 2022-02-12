@@ -78,6 +78,22 @@ class LinkedList:
             raise IndexError("pop from empty LinkedList")
         self.head = node.next
         return node.data
+    
+    def insertEnd(self, data):
+        '''
+        Insert node at the end of linked list
+        '''
+        node = Node(data)
+        if self.head is None:
+            self.head = node
+            return
+
+        # Linked list traversal
+        temp = self.head
+        while(temp.next is not None):
+            temp = temp.next
+
+        temp.next = node
 
 
 if __name__ == '__main__':
@@ -86,5 +102,6 @@ if __name__ == '__main__':
     ll.push('xyz')
     ll.push(1.1)
     ll.pop()
+    l1.insertEnd('END')
     print(ll)
     print(list(ll))
