@@ -133,6 +133,6 @@ if __name__ == '__main__':
     ll.pop()
     l1.insertEnd('END')
     print(ll)
-    l1.deleteData(1)
-    print(l1)
+    ll.deleteData(1)
+    print(ll)
     print(list(ll))
