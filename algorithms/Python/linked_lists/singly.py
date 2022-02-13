@@ -131,7 +131,7 @@ if __name__ == '__main__':
     ll.push('xyz')
     ll.push(1.1)
     ll.pop()
-    l1.insertEnd('END')
+    ll.insertEnd('END')
     print(ll)
     ll.deleteData(1)
     print(ll)
