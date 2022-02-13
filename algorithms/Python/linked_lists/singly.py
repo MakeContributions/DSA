@@ -113,7 +113,7 @@ class LinkedList:
 
         # search for data
         # previous node data is stored
-        while(tempe):
+        while(temp):
             if temp.data == data:
                 break
             prev = temp
@@ -133,6 +133,6 @@ if __name__ == '__main__':
     ll.pop()
     l1.insertEnd('END')
     print(ll)
-    l1.deleteData(1.1)
+    l1.deleteData(1)
     print(l1)
     print(list(ll))
