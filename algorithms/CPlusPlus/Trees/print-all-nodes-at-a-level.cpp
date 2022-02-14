@@ -37,7 +37,7 @@ void levelorder(Node* root, int k)
 	queue<Node*> q;
 	
 	q.push(root);
-	int count=0;  //for calcualting at which level we are.
+	int count=0;  //for calculating at which level we are.
 	
 	while(!q.empty())
 	{
