@@ -98,7 +98,7 @@ class LinkedList:
     
     def deleteData(self, data):
         '''
-        Delete first occurence of given data
+        Delete first occurrence of given data
         '''
         temp = self.head
         
