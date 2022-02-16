@@ -102,8 +102,9 @@ class LinkedList:
         '''
         temp = self.head
         
+        # raise exception if linked list is empty
         if temp is None:
-            return
+            raise Exception("Linked List is empty")
 
         # if head node is deleted
         if temp.data == data:
@@ -114,10 +115,16 @@ class LinkedList:
         # search for data
         # previous node data is stored
         while(temp):
+            found = False
             if temp.data == data:
+                found = True
                 break
             prev = temp
             temp = temp.next
+            
+        # raise exception if data not found
+        if not found:
+            raise Exception("Data not present")
 
         # delete the link
         prev.next = temp.next
