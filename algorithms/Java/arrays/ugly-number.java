@@ -12,7 +12,7 @@
 // Store the minimum value in variable next and array.
 // Return next.
 
-
+   
 import java.util.*;
 class ugly_number {
     /* Function to get the nth ugly number*/
