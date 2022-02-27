@@ -7,6 +7,7 @@
 - [Reverse an array](arrays/reverse-array.c)
 - [Maximum difference](arrays/maximum-difference.c)
 - [Largest Element](arrays/largestElement.c)
+- [Merging Two Arrays](arrays/mergingArray.c)
 
 ## Bit Manipulation
 
