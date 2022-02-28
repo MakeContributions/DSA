@@ -139,6 +139,7 @@
 - [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
 - [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
 - [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
+- [Sum of right leaves](Trees/sum-of-right-leaves.cpp)
 
 ## Trie
 
