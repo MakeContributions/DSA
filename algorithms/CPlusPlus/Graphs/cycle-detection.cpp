@@ -19,8 +19,8 @@ class Graph
     public:                                                                                
     void insertEdge(int from, int to);
     bool isCycle();
-    int findSet(int parent[], int i);
-    int unionSet(int parent[], int x, int y);                                          
+    int findSet(std::vector<int>& parent, int i);
+    void unionSet(std::vector<int>& parent, int x, int y);                                          
 };
 
 void Graph::insertEdge(int from, int to)
@@ -32,9 +32,8 @@ void Graph::insertEdge(int from, int to)
 
 bool Graph::isCycle()
 {
-    // Initialize parent array as disjoint sets
-    int* parent = new int[uniqueVertices.size()];
-    std::fill(parent, parent + uniqueVertices.size(), -1);
+    // Initialize parent vector as disjoint sets
+    std::vector<int> parent(uniqueVertices.size(), -1);
     
     // Iterate through all graph edges
     for (auto i : edgeList)
@@ -51,12 +50,11 @@ bool Graph::isCycle()
 
         unionSet(parent, x, y);
     }
-    
-    delete[] parent;
+
     return false;
 }
 
-int Graph::findSet(int parent[], int i)
+int Graph::findSet(std::vector<int>& parent, int i)
 {
     if (parent[i] == -1)
     {
@@ -65,7 +63,7 @@ int Graph::findSet(int parent[], int i)
     return findSet(parent, parent[i]);
 }
 
-int Graph::unionSet(int parent[], int x, int y)
+void Graph::unionSet(std::vector<int>& parent, int x, int y)
 {
     parent[x] = y;
 }
