@@ -1,4 +1,4 @@
-// The sum of right leaves algorithms recursively goes through a binary tree to find all right leaves
+// The sum of right leaves algorithm uses a queue to navigate through a binary tree
 // Worst Case Time Complexity: O(n)
 // Average Time Complexity: O(n)
 
@@ -20,7 +20,6 @@ struct Node {
     }
 };
 
-// Recursive statement to navigate binary tree
 int sumRightLeaves(Node* root) {
     queue<Node*> q;
     int rightSum = 0;
