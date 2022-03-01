@@ -50,6 +50,7 @@
 - [Dfs traversal with recursion](Graphs/dfs-traversal.cpp)
 - [Connected Components](Graphs/total-connected-components.cpp)
 - [Dijkstra's Algorithm](Graphs/dijkstra.cpp)
+- [Cycle Detection](Graphs/cycle-detection.cpp)
 
 ## Multiplication
 
