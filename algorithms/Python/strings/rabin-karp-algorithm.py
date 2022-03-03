@@ -2,8 +2,8 @@
 String pattern matching algorithm which performs efficiently for large text and patterns
 
 Algorithm: 
-Rabin Karp works on the concept of hashing. The if the substring of the given text 
-is same as the pattern then the corresponding hash value should also be same. Exploting this idea 
+Rabin Karp works on the concept of hashing. If the substring of the given text 
+is same as the pattern then the corresponding hash value should also be same. Exploiting this idea 
 and designing a hash function which can be computed in O(m) time for both pattern and initial window 
 of text. The subsequent  window each will require only O(1) time. And we slide the window n-m times 
 after the initial window. Therefore the overall complexity of calculating hash funtion for text is O(n-m+1)
@@ -29,7 +29,7 @@ def rabin_karp(T: str, P: str, q: int ,d: int = 256) -> None :
 
             q: int
                An appropriately chosen prime number based on length of input strings
-               The higher the prime number, the lower the collisiona nd spurious hits
+               The higher the prime number, the lower the collisions and spurious hits
                
             d: int, default value 256
                Denotes the no of unique character that is used for encoding
@@ -87,7 +87,7 @@ def rabin_karp(T: str, P: str, q: int ,d: int = 256) -> None :
         print("Pattern not found")
     else:
         for i in pos:
-            print("Pattern found at pos: {}".format(i))
+            print(f"Pattern found at pos: {i}")
 
 
 
