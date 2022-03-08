@@ -5,6 +5,7 @@
 - [Majority Element](arrays/majority_element.py)
 - [Rotate Array](arrays/rotate_array.py)
 - [Missing Number](arrays/missing_number.py)
+- [Remove duplicate items](arrays/remove_duplicates_list.py)
 
 ## Linked Lists
 - [Doubly](linked_lists/doubly.py)
