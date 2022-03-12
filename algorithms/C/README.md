@@ -6,6 +6,7 @@
 - [Unique Elements in an array](arrays/unique-elements-in-an-array.c)
 - [Reverse an array](arrays/reverse-array.c)
 - [Maximum difference](arrays/maximum-difference.c)
+- [Largest Element](arrays/largestElement.c)
 
 ## Bit Manipulation
 

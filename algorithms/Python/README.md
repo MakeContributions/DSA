@@ -5,6 +5,7 @@
 - [Majority Element](arrays/majority_element.py)
 - [Rotate Array](arrays/rotate_array.py)
 - [Missing Number](arrays/missing_number.py)
+- [Remove duplicate items](arrays/remove_duplicates_list.py)
 
 ## Linked Lists
 - [Doubly](linked_lists/doubly.py)
@@ -53,6 +54,7 @@
 - [Longest Common Subsequence](strings/longest_common_subsequence.py)
 - [Unique Character](strings/unique_character.py)
 - [Add String](strings/add_string.py)
+- [Rabin Karp algorithm](strings/rabin-karp-algorithm.py)
 
 ## Dynamic Programming
 - [Print Fibonacci Series Up To N-th Term](dynamic_programming/fibonacci_series.py)

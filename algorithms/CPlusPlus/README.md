@@ -38,6 +38,7 @@
 - [0/1-knapsack](Dynamic-Programming/01-knapsack.cpp)
 - [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
 - [Edit Distance](Dynamic-Programming/edit-distance.cpp)
+- [Fibonacci](Dynamic-Programming/fibonacci.cpp)
 
 ## Graphs
 
@@ -49,6 +50,7 @@
 - [Dfs traversal with recursion](Graphs/dfs-traversal.cpp)
 - [Connected Components](Graphs/total-connected-components.cpp)
 - [Dijkstra's Algorithm](Graphs/dijkstra.cpp)
+- [Cycle Detection](Graphs/cycle-detection.cpp)
 
 ## Multiplication
 
@@ -138,6 +140,7 @@
 - [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
 - [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
 - [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
+- [Sum of right leaves](Trees/sum-of-right-leaves.cpp)
 
 ## Trie
 
