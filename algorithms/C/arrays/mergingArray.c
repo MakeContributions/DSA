@@ -64,20 +64,19 @@ int main()
 }
 
 
-/******************************************************************************
-                              Output Sample
+/*
+OUTPUT
 
 Enter the size of the array I: 3
 Enter the 3 elements of array I: 
 Element [0]: 1
 Element [1]: 2
-Element [2]: 5
-Enter the size of the array II: 4
-Enter the 4 elements of array II: 
-Element [0]: 5
-Element [1]: 6
-Element [2]: 9
-Element [3]: 8
+Element [2]: 3
+Enter the size of the array II: 3
+Enter the 3 elements of array II: 
+Element [0]: 4
+Element [1]: 5
+Element [2]: 6
 Merged Array: 
-1 2 5 5 6 9 8 
-******************************************************************************/
+1 2 3 4 5 6
+*/
