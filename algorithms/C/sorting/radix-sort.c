@@ -13,7 +13,8 @@ int get_max( int arr[], int n){
 
 void count_sort(int arr[], int n, int digit){
     int count[10] = {0} ;
-    int sorted[n] ;
+    int *sorted ;
+    sorted = (int*)malloc(n * sizeof(int));
 
     for(int i=0; i<n; i++){
         count[(arr[i]/digit)%10]++ ;
@@ -52,16 +53,14 @@ int main() {
 
     printf("Before sorting : ") ;
     for(int i=0; i<n; i++){
-        printf("%d",arr[i] );
-        printf(" ") ;
+        printf("%d ",arr[i] );
     }
 
     radix_sort(arr, n) ;
 
     printf("\n\nAfter sorting : ") ;
     for(int i=0; i<n; i++){
-        printf("%d",arr[i] );
-        printf(" ") ;
+        printf("%d ",arr[i] );
     }
     return 0;
 }
