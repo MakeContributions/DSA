@@ -34,6 +34,7 @@
 
 - [Palindrome Number](maths/palindrome.c)
 - [Fibonacci Series](maths/fibonacci-series.c)
+- [Odd or Even Number](maths/odd-or-even-number.c)
 
 ## Queues
 
