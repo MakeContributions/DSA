@@ -38,7 +38,7 @@ int main()
     // Assingning the last element of I array to the temp variable
     temp = arrayOne[sizeOne];
 
-    // Size of array I is conveted as follows
+    // Size of array I is converted as follows
     sizeOne += sizeTwo;
 
     // Merging the array I and array II in array I
