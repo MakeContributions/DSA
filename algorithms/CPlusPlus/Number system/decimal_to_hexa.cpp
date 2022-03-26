@@ -2,22 +2,22 @@
 using namespace std;
 
 string decimal_to_hexa(int n){
-    int multipler=1;
-    while(multipler<=n)
-        multipler*=16;
-    multipler/=16;
+    int multiplier=1;
+    while(multiplier<=n)
+        multiplier*=16;
+    multiplier/=16;
     string num="";
     int d;
-    while(multipler>=1){
-        d=n/multipler;
+    while(multiplier>=1){
+        d=n/multiplier;
         if(d>9){
             char c='A'+(d-10);
             num= num + c;
         }
         else
         num=num + to_string(d);
-        n=n-(d*multipler);
-        multipler/=16;
+        n=n-(d*multiplier);
+        multiplier/=16;
     }
     return num;
 }
