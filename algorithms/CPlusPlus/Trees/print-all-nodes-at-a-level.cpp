@@ -48,12 +48,15 @@ void levelorder(Node* root, int k)
 		{
 			Node* temp=q.front();
 			q.pop();
-			if(count==k)  //if level is equal to the required level, then print its nodes
+			if(count==k) { //if level is equal to the required level, then print its nodes
 				cout<<temp->data<<" ";
-			if(temp->left!=NULL)
+			}
+			if(temp->left!=NULL){
 				q.push(temp->left);
-			if(temp->right!=NULL)
+			}
+			if(temp->right!=NULL){
 				q.push(temp->right);
+			}
 		}	
 	}
 }
