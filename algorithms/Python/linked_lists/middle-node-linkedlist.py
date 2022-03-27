@@ -20,6 +20,8 @@ class LinkedList:
     
     #Function returns data of middle node
     def middle_element(self):
+        if self.head is None:
+            return None
         slow = self.head
         fast = self.head
         while fast and fast.next:
