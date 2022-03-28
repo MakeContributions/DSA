@@ -11,6 +11,8 @@
 - [Doubly](linked_lists/doubly.py)
 - [Singly](linked_lists/singly.py)
 - [Reverse List](linked_lists/reverse-linkedlist.py)
+- [Middle Node](linked_lists/middle-node-linkedlist.py)
+
 
 ## Dictionaries
 - [Two Sum](dictionaries/two-sum.py)
