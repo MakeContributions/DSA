@@ -15,7 +15,7 @@ def path_cost(path):
         total_cost+=cost
     return total_cost , path[-1][0]
 # well sort queue items based on total path
-#if two items have the same total_cost then sort by node name (alphabeticaly)
+#if two items have the same total_cost then sort by node name (alphabetically)
 
 # uniform cost search
 def UCS(graph, start, goal):
