@@ -5,11 +5,14 @@
 - [Majority Element](arrays/majority_element.py)
 - [Rotate Array](arrays/rotate_array.py)
 - [Missing Number](arrays/missing_number.py)
+- [Remove duplicate items](arrays/remove_duplicates_list.py)
 
 ## Linked Lists
 - [Doubly](linked_lists/doubly.py)
 - [Singly](linked_lists/singly.py)
 - [Reverse List](linked_lists/reverse-linkedlist.py)
+- [Middle Node](linked_lists/middle-node-linkedlist.py)
+
 
 ## Dictionaries
 - [Two Sum](dictionaries/two-sum.py)
@@ -53,6 +56,7 @@
 - [Longest Common Subsequence](strings/longest_common_subsequence.py)
 - [Unique Character](strings/unique_character.py)
 - [Add String](strings/add_string.py)
+- [Rabin Karp algorithm](strings/rabin-karp-algorithm.py)
 
 ## Dynamic Programming
 - [Print Fibonacci Series Up To N-th Term](dynamic_programming/fibonacci_series.py)
@@ -60,6 +64,7 @@
 - [N-th Term Of Fibonacci Series](dynamic_programming/fibonacci_series_nth_term.py)
 - [Catalan Sequence](dynamic_programming/catalan_sequence.py)
 - [0/1 Knapsack Problem](dynamic_programming/knapsack.py)
+- [Levenshtein distance](dynamic_programming/levenshtein_distance.py)
 
 ## Graphs
 - [Simple Graph](graphs/graph.py)
@@ -68,3 +73,5 @@
 - [Binary Tree](trees/binary_tree.py)
 - [Binary Search Tree](trees/binary_search_tree.py)
 
+## Queues
+- [First in First out Queue](queues/fifo-queue.py)

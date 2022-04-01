@@ -6,6 +6,7 @@
 - [Unique Elements in an array](arrays/unique-elements-in-an-array.c)
 - [Reverse an array](arrays/reverse-array.c)
 - [Maximum difference](arrays/maximum-difference.c)
+- [Largest Element](arrays/largestElement.c)
 
 ## Bit Manipulation
 
@@ -33,6 +34,7 @@
 
 - [Palindrome Number](maths/palindrome.c)
 - [Fibonacci Series](maths/fibonacci-series.c)
+- [Odd or Even Number](maths/odd-or-even-number.c)
 
 ## Queues
 
@@ -51,6 +53,8 @@
 - [Heap Sort](sorting/heap-sort.c)
 - [Selection Sort](sorting/selection-sort.c)
 - [Quick Sort](sorting/quick-sort.c)
+- [Shell Sort](sorting/shell-sort.c)
+- [Radix Sort](sorting/radix-sort.c)
 
 ## Strings
 

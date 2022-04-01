@@ -1,4 +1,9 @@
 # アルゴリズム
+
+## ソート
+
+- [バブルソート](./Sorting/Bubble-Sort.md)
+
 ## 文字列
 - [回文](./Strings/Palindrome.md)
 

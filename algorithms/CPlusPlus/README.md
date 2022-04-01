@@ -38,6 +38,7 @@
 - [0/1-knapsack](Dynamic-Programming/01-knapsack.cpp)
 - [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
 - [Edit Distance](Dynamic-Programming/edit-distance.cpp)
+- [Fibonacci](Dynamic-Programming/fibonacci.cpp)
 
 ## Graphs
 
@@ -49,6 +50,7 @@
 - [Dfs traversal with recursion](Graphs/dfs-traversal.cpp)
 - [Connected Components](Graphs/total-connected-components.cpp)
 - [Dijkstra's Algorithm](Graphs/dijkstra.cpp)
+- [Cycle Detection](Graphs/cycle-detection.cpp)
 
 ## Multiplication
 
@@ -88,6 +90,7 @@
 - [Stack using Array](Stacks/stack-using-array.cpp)
 - [Infix to postfix expression conversion](Stacks/infix-to-postfix.cpp)
 - [Stock Span Problem using Stacks](Stacks/stock-span-problem.cpp)
+- [Prefix to Postfix expression conversion](Stacks/prefix_to_postfix.cpp)
 
 ## Sorting
 
@@ -138,6 +141,7 @@
 - [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
 - [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
 - [Print all nodes at level k](Trees/print-all-nodes-at-a-level.cpp)
+- [Sum of right leaves](Trees/sum-of-right-leaves.cpp)
 
 ## Trie
 
@@ -182,3 +186,14 @@
 - [Product of two numbers](Recursion\product-of-numbers.cpp)
 - [Product of digits in a number](Recursion\product-of-digits.cpp)
 - [Linear search using recursion](Recursion/linear-search.cpp)
+
+## Number System
+
+- [Binary Addition](Number-system/binary_addition.cpp)
+- [Binary to Decimal](Number-system/binary_to_decimal.cpp)
+- [Decimal To Binary](Number-system/decimal_to_binary.cpp)
+- [Decimal To Hexa-Decimal](Number-system/decimal_to_hexa.cpp)
+- [Hexa-Decimal To Decimal](Number-system/hexa_to_decimal.cpp)
+- [Decimal To Octal](Number-system/decimal_to_octal.cpp)
+- [Octal To Decimal](Number-system/octal_to_decimal.cpp)
+
