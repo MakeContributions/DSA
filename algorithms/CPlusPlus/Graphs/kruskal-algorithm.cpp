@@ -131,7 +131,7 @@ void KruskalMST(Graph* graph)
 
 // Helper function which takes in src, dest, weight, index, address of graph as an argument 
 // to update the value of graph for respective index
-void helperFunc(int s, int d, int w, int idx, Graph** graph){
+void updateGraph(int s, int d, int w, int idx, Graph** graph){
 	graph->edge[idx].src = s;
 	graph->edge[idx].dest = d;
 	graph->edge[idx].weight = w;
@@ -147,19 +147,19 @@ int main()
 	Graph* graph = createGraph(V, E);
 
 	// add edge 0-1
-	helperFunc(0, 1, 10, 0, &graph);
+	updateGraph(0, 1, 10, 0, &graph);
 
 	// add edge 0-2
-	helperFunc(0, 2, 6, 1, &graph);
+	updateGraph(0, 2, 6, 1, &graph);
 
 	// add edge 0-3
-	helperFunc(0, 3, 5, 2, &graph);
+	updateGraph(0, 3, 5, 2, &graph);
 
 	// add edge 1-3
-	helperFunc(1, 3, 15, 3, &graph);
+	updateGraph(1, 3, 15, 3, &graph);
 
 	// add edge 2-3
-	helperFunc(2, 3, 4, 4, &graph);
+	updateGraph(2, 3, 4, 4, &graph);
 
 
 
