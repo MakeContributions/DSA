@@ -27,7 +27,7 @@ namespace Algorithms.Search
             }
         }
 
-        public static List<int> GetLocalMinima(List<int> numbers)
+        public static List<int> FindMinimas(List<int> numbers)
         {
             var result = new List<int>();
 
