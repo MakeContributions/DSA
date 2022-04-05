@@ -62,7 +62,7 @@ namespace Algorithms.Search
             return result;
         }
 
-        public static List<int> GetLocalMaxima(List<int> numbers)
+        public static List<int> FindMaximas(List<int> numbers)
         {
             var result = new List<int>();
 
