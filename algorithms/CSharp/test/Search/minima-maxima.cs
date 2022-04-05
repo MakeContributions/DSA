@@ -9,7 +9,7 @@ namespace Algorithms.Tests.Search
     {
 
         [TestCase(new int[] { 3, 1, 2, 5, 6, 7, 4, 6, 9, 10 }, new int[] { 1, 4 })]
-        public void MinimaMaxima_GetListOfMinimas(int[] input, int[] result)
+        public void PassIntegerList_ShouldGetExpectedMinimas(int[] input, int[] result)
         {
             var expected1 = MinimaMaxima.GetLocalMinima(input.ToList());
             Assert.AreEqual(expected1, result);
