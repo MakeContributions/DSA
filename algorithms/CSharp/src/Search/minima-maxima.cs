@@ -39,16 +39,24 @@ namespace Algorithms.Search
             {
                 // Check first element
                 if (numbers[0] < numbers[1])
+                {
                     result.Add(numbers[0]);
+                }
 
                 //Loop middle elements
                 for (int i = 1; i < numbers.Count - 1; i++)
+                {
                     if (numbers[i - 1] >= numbers[i] && numbers[i] <= numbers[i + 1])
+                    {
                         result.Add(numbers[i]);
+                    }
+                }
 
                 //Check last elements
                 if (numbers[^1] < numbers[^2])
+                {
                     result.Add(numbers[^1]);
+                }
             }
 
             return result;
@@ -66,16 +74,24 @@ namespace Algorithms.Search
             {
                 // Check first element
                 if (numbers[0] > numbers[1])
+                {
                     result.Add(numbers[0]);
-
+                }
+                    
                 //Loop middle elements
                 for (int i = 1; i < numbers.Count - 1; i++)
+                {
                     if (numbers[i - 1] <= numbers[i] && numbers[i] >= numbers[i + 1])
+                    {
                         result.Add(numbers[i]);
+                    }
+                }
 
                 //Check last elements
                 if (numbers[^1] > numbers[^2])
+                {
                     result.Add(numbers[^1]);
+                }
             }
 
             return result;
