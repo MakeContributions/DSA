@@ -13,17 +13,17 @@ namespace Algorithms.Search
                 3,1,2,5,6,7,4,6,9,10
             };
 
-            var lmins = GetLocalMinima(numbers);
-            var lmaxs = GetLocalMaxima(numbers);
+            var minimas= FindMinimas(numbers);
+            var maximas= FindMaximas(numbers);
 
-            foreach (var n in lmins)
+            foreach (var minima in minimas)
             {
-                Console.WriteLine($"Local Minima: {n}");
+                Console.WriteLine($"Local Minima: {minima}");
             }
 
-            foreach (var n in lmaxs)
+            foreach (var maxima in maximas)
             {
-                Console.WriteLine($"Local Maxima: {n}");
+                Console.WriteLine($"Local Maxima: {maxima}");
             }
         }
 
