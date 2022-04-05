@@ -18,10 +18,14 @@ namespace Algorithms.Search
             var lmaxs = GetLocalMaxima(numbers);
 
             foreach (var n in lmins)
+            {
                 Console.WriteLine($"Local Minima: {n}");
+            }
 
             foreach (var n in lmaxs)
+            {
                 Console.WriteLine($"Local Maxima: {n}");
+            }
         }
 
         public static List<int> GetLocalMinima(List<int> numbers)
