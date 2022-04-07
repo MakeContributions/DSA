@@ -2,7 +2,7 @@
 
 Radix sort is a sorting algorithm that sorts the elements by first grouping the individual digits of the same place value. Then, sort the elements according to their increasing/decreasing order.
 
-Radix Sort's time complexity is O(nd), where n is the size of the array and d is the number of digits in the largest number.
+Radix Sort's time complexity is O(n * x), where n is the size of the array and 'x' is the number of digits in the largest number.
 
 ## Steps
 
