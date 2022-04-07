@@ -51,13 +51,12 @@ int max_subarray_sum_method_2(int arr[],int n)
 //most optimized version kadane's algo with one for loop
 int max_subarray_sum_method_3(int arr[],int n)
 {
-      int sum,maxi;//declaring variables
-      sum=0,maxi=arr[0];//initializing sum by 0 and maxi by 0th element;
+      int max_ending_here=0,maxi=arr[0];//initializing sum by 0 and maxi by 0th element;
         for(int i=0;i<n;i++)
         { 
-            sum+=arr[i];
-            maxi=max(sum,maxi);
-            if(sum<0) sum=0;
+            max_ending_here+=arr[i];
+            maxi=max(max_ending_here,maxi);
+            if(max_ending_here<0) max_ending_here=0;
         }
         return maxi;
 }
