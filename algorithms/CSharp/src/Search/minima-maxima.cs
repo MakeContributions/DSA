@@ -13,8 +13,8 @@ namespace Algorithms.Search
                 3,1,2,5,6,7,4,6,9,10
             };
 
-            var minimas= FindMinimas(numbers);
-            var maximas= FindMaximas(numbers);
+            var minimas = FindMinimas(numbers);
+            var maximas = FindMaximas(numbers);
 
             foreach (var minima in minimas)
             {
