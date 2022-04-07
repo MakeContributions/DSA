@@ -62,10 +62,9 @@ After third pass array looks like..
 
 ## Implementation
 
-- [C](https://gist.github.com/lettergram/39da091bfe634af655d8)
-- [C++](https://gist.github.com/kbendick/223ac295f6a4a9691579)
-- [Java](https://gist.github.com/rishi93/287d4808820f8f8263522ebaa79b0440)
-- [Python](https://gist.github.com/derka6391/d7f1bab7b3745eadb4a8ce7317a98e80)
+- [C](algorithms/C/sorting/radix-sort.c)
+- [C++](algorithms/CPlusPlus/Sorting/radix-sort.cpp)
+- [Python](algorithms/Python/sorting/radix_sort.py)
 
 ## Video URL
 
