@@ -140,6 +140,7 @@
 - [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
 - [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
 - [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
+- [Print all nodes at level k](Trees/print-all-nodes-at-a-level.cpp)
 - [Sum of right leaves](Trees/sum-of-right-leaves.cpp)
 
 ## Trie
@@ -185,3 +186,14 @@
 - [Product of two numbers](Recursion\product-of-numbers.cpp)
 - [Product of digits in a number](Recursion\product-of-digits.cpp)
 - [Linear search using recursion](Recursion/linear-search.cpp)
+
+## Number System
+
+- [Binary Addition](Number-system/binary_addition.cpp)
+- [Binary to Decimal](Number-system/binary_to_decimal.cpp)
+- [Decimal To Binary](Number-system/decimal_to_binary.cpp)
+- [Decimal To Hexa-Decimal](Number-system/decimal_to_hexa.cpp)
+- [Hexa-Decimal To Decimal](Number-system/hexa_to_decimal.cpp)
+- [Decimal To Octal](Number-system/decimal_to_octal.cpp)
+- [Octal To Decimal](Number-system/octal_to_decimal.cpp)
+
