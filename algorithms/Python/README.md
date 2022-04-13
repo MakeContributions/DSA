@@ -6,6 +6,7 @@
 - [Rotate Array](arrays/rotate_array.py)
 - [Missing Number](arrays/missing_number.py)
 - [Remove duplicate items](arrays/remove_duplicates_list.py)
+- [Dutch National Flag Algorithm](arrays/dutch_national_flag_algo.py)
 
 ## Linked Lists
 - [Doubly](linked_lists/doubly.py)
