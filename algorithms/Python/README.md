@@ -34,7 +34,7 @@
 - [Linear Search](searching/linear_search.py)
 - [Ternary Search](searching/ternary_search.py)
 - [Interpolation Search](searching/interpolation_search.py)
-- [uniform cost search](searching/Uniform_Cost_Search.py)
+- [uniform cost search](searching/uniform_cost_search.py)
 
 ## Sorting
 - [Bubble Sort](sorting/bubble_sort.py)
