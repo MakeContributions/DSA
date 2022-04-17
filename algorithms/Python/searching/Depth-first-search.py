@@ -6,12 +6,12 @@ graph={
     'C':['G','D'],
     'S':['G'],
 }
-#function of BFS
+#function of DFS
 def BFS(graph,start,goal):
     Visited=[]
     queue=[[start]]
     while queue:
-        path=queue.pop(0)
+        path=queue.pop()
         node=path[-1]
         if node in Visited:
             continue
