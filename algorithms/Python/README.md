@@ -36,7 +36,7 @@
 - [Ternary Search](searching/ternary_search.py)
 - [Interpolation Search](searching/interpolation_search.py)
 - [Uniform Cost Search](searching/uniform_cost_search.py)
-- [Breath First Search](searching/Breadth-First-Search.py)
+- [Breath First Search](searching/breadth-first-search.py)
 
 ## Sorting
 - [Bubble Sort](sorting/bubble_sort.py)
