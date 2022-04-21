@@ -9,8 +9,6 @@ namespace Algorithms.CSharp.Test.Strings
         [TestCase("World", "Wor..")]
         [TestCase("How Ya", "How...")]
         [TestCase("Doin", "Doi.")]
-
-
         public void PassString_ShouldGetExpectedResult(string text, string expected)
         {
             string result = Algorithms.Strings.TextHelper.Character_Limit(text, 3);
