@@ -27,7 +27,7 @@ namespace Algorithms.Strings
             }
 
             int num = Convert.ToInt32(input2);
-            Console.WriteLine(Character_Limit(input, num));
+            Console.WriteLine(CharacterLimit(input, num));
         }
 
         //Limits the the amount of characters shown in a string.
