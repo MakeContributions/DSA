@@ -12,7 +12,7 @@ namespace Algorithms.CSharp.Test.Strings
         public void PassString_ShouldGetExpectedResult(string text, string expected)
         {
             string result = Algorithms.Strings.TextHelper.Character_Limit(text, 3);
-            Assert.IsTrue(result == expected, "error");
+            Assert.AreEqual(expected, result);
         }
     }
 }
