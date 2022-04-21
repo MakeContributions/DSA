@@ -31,7 +31,7 @@ namespace Algorithms.Strings
         }
 
         //Limits the the amount of characters shown in a string.
-        public static string Character_Limit(string input, int num)
+        public static string CharacterLimit(string input, int num)
         {
             //converts a string to a character array
             char[] ch = input.ToCharArray();
