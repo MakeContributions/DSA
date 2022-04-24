@@ -53,7 +53,7 @@
 
 ## 動画のURL
 
-[Youtube Video about Bubble Sort](https://www.youtube.com/watch?v=Jdtq5uKz-w4&ab_channel=mycodeschool)
+[Youtube Video on Bubble Sort](https://www.youtube.com/watch?v=Jdtq5uKz-w4&ab_channel=mycodeschool)
 
 ## その他
 
