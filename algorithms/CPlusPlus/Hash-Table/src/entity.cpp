@@ -91,3 +91,5 @@ void entity::setNameNumber(string name_, int number_){
 	name = name_ ;
 	phoneNumber = number_ ;
 }
+
+
