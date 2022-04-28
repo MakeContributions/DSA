@@ -1,8 +1,8 @@
 // algorithm to generate first n numbers of fibonacci series
 
 function fibonacci(n) {
-  // Initialize array 'fibS' with the first two numbers of the fibonacci series
-  // [0, 1]
+  // Initialize array 'series'
+  // with the first two numbers of the fibonacci series [0, 1]
   const series = [0, 1];
   for (let i = 3; i <= n; i++) {
     // starting from the third number, and stopping at number n
@@ -20,4 +20,4 @@ function fibonacci(n) {
 }
 
 console.log(fibonacci(10));
-// ouput: [0, 1,  1,  2,  3, 5, 8, 13, 21, 34]
+// output: [0, 1,  1,  2,  3, 5, 8, 13, 21, 34]
