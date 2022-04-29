@@ -1,4 +1,5 @@
 // algorithm to generate first n numbers of fibonacci series
+// Time complexity: O(n)
 
 function fibonacci(n) {
   // Initialize array 'series'
