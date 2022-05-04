@@ -40,3 +40,7 @@
 ## Maths
 
 - [Fibonacci Series](src/maths/fibonacci-series.js)
+
+## Recursion
+
+- [Factorial](src/recursion/factorial.js)
