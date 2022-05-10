@@ -1,5 +1,5 @@
 # C#
-For running the `.cs` file please using [.Net Finddle](https://dotnetfiddle.net/)
+To run the `.cs` file, kindly use [.Net Finddle](https://dotnetfiddle.net/)
 
 ## Arrays
 - [Single Number](src/Arrays/single-number.cs)
