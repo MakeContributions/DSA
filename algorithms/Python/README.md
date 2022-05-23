@@ -71,6 +71,7 @@
 
 ## Graphs
 - [Simple Graph](graphs/graph.py)
+- [BFS-sequence](graphs/BFS-sequence)
 
 ## Trees
 - [Binary Tree](trees/binary_tree.py)
