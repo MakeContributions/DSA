@@ -2,13 +2,17 @@
 BFS graph using Adjecency List
 -----------------------------------------------------------------------------------------
 -In Breadth First Search Sequence of any graph all childs of a parent node 
- is visited first and the children of all these childs are stored in the VISITED array.
--Children of nodes in VISITED are visited one by one and stored in the VISITED as well.
--When all children of a node is visited that node is removed from the VISITED and 
- stored in QUEUE array.
--These steps are repeated till all nodes in VISITED are exhausted.
+ is visited first and the children of all these childs are stored in the QUEUE array and 
+ VISITED array.
+-Children of nodes in QUEUE are visited one by one and stored in the QUEUE and 
+ VISITED as well.
+-When all children of a node is visited that node is removed from the QUEUE.
+-These steps are repeated till all nodes in QUEUE are exhausted.
+-----------------------------------------------------------------------------------------
+-VISITED array is required to check if a node is already in BFS sequence or not.
+-QUEUE array is important for ensuring that all nodes and edges are visited.
 ------------------------------------------------------------------------------------------
-THE SEQUENCE OF NODES IN QUEUE ARRAY IS THE BFS-SEQUENCE
+The sequence of nodes printed in every recursion is the BFS-SEQUENCE
 ------------------------------------------------------------------------------------------
 """
 class Graph:
@@ -17,7 +21,7 @@ class Graph:
     # front and rear for accessing queue
     front=0
     rear=0
-    # stores Adjecency List as dictionary
+    # stores Adjecency List as dictionary for easy usage
     Adj_Dict={}
     def graph(Adj_Mtx): #converts Adj_MTX into Adj_Dict
         for i in Adj_Mtx:
