@@ -75,4 +75,11 @@ Display Graph
 BFS Sequence
 1 2 4 5 7 3 6 8 
 ----------------------------------
+TIME COMPLEXITY:
+----------------------------------
+-For Adjecency List Only!
+ O(V+E) where V and E are number
+ of vertices and egdes in graph 
+ respectively.
+----------------------------------
 '''
