@@ -58,3 +58,17 @@ print("Display Graph")
 Graph.ShowGraph()
 print("BFS Sequence")
 Graph.Display_BFS(1) #passing start node
+'''
+OUTPUT:-
+---------------------------------
+Display Graph
+1 -> [2, 4]
+2 -> [4, 5]
+4 -> [7, 5]
+5 -> [3, 1, 6]
+6 -> [8, 3]
+8 -> [7]
+BFS Sequence
+1 2 4 5 7 3 6 8 
+----------------------------------
+'''
