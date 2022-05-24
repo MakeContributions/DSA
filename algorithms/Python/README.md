@@ -71,7 +71,7 @@
 
 ## Graphs
 - [Simple Graph](graphs/graph.py)
-- [BFS-sequence](graphs/BFS-sequence)
+- [BFS SEQUENCE](https://github.com/NiviRocks/DSA/blob/main/algorithms/Python/graphs/bfs-sequence.py)
 
 ## Trees
 - [Binary Tree](trees/binary_tree.py)
