@@ -1,5 +1,15 @@
 """
 BFS graph using Adjecency List
+-----------------------------------------------------------------------------------------
+-In Breadth First Search Sequence of any graph all childs of a parent node 
+ is visited first and the children of all these childs are stored in the VISITED array.
+-Children of nodes in VISITED are visited one by one and stored in the VISITED as well.
+-When all children of a node is visited that node is removed from the VISITED and 
+ stored in QUEUE array.
+-These steps are repeated till all nodes in VISITED are exhausted.
+------------------------------------------------------------------------------------------
+THE SEQUENCE OF NODES IN QUEUE ARRAY IS THE BFS-SEQUENCE
+------------------------------------------------------------------------------------------
 """
 class Graph:
     queue=[] #keeps order of BFS tree
