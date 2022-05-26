@@ -1,8 +1,8 @@
 """
 BFS graph using Adjecency List
 -----------------------------------------------------------------------------------------
--In Breadth First Search Sequence of any graph all childs of a parent node 
- is visited first and the children of all these childs are stored in the QUEUE array and 
+-In Breadth First Search Sequence of any graph all children of a parent node 
+ is visited first and the children are stored in the QUEUE array and 
  VISITED array.
 -Children of nodes in QUEUE are visited one by one and stored in the QUEUE and 
  VISITED as well.
@@ -68,7 +68,7 @@ BFS Sequence
 ----------------------------------
 TIME COMPLEXITY:
 -O(V+E) where V and E are number
- of vertices and egdes in graph 
+ of vertices and edges in graph 
  respectively.
 -For Adjecency List Only!
 ----------------------------------
