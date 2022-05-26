@@ -15,11 +15,11 @@ BFS graph using Adjecency List
 The sequence of nodes printed in every recursion is the BFS-SEQUENCE
 ------------------------------------------------------------------------------------------
 """
-def ShowGraph(Adj_Dict) :  #displays graph
+def ShowGraph(Adj_Dict: Dict[int, list[int]])->None :  #displays graph
    for i in Adj_Dict:
        print(i,"->",Adj_Dict[i])
    return
-def Display_BFS(curr ,Adj_Dict): # displays BFS sequence
+def Display_BFS(curr:int ,Adj_Dict: Dict[int, list[int]]) -> None: # displays BFS sequence
    global rear
    global front
    print(curr,end=" ")
@@ -43,8 +43,8 @@ def Display_BFS(curr ,Adj_Dict): # displays BFS sequence
 
 #__main__
 #Dry Run
-queue=[]#: list[int]=[] #keeps order of BFS tree
-visited=[] #: list[int]=[] #keeps visited node 
+queue: list[int]=[]#: list[int]=[] #keeps order of BFS tree
+visited: list[int]=[] #: list[int]=[] #keeps visited node 
 # front and rear for accessing queue
 front=0
 rear=0
