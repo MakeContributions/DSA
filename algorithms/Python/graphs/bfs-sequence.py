@@ -15,46 +15,47 @@ BFS graph using Adjecency List
 The sequence of nodes printed in every recursion is the BFS-SEQUENCE
 ------------------------------------------------------------------------------------------
 """
-class Graph():
-    queue: list[int]=[] #keeps order of BFS tree
-    visited: list[int]=[] #keeps visited node 
-    # front and rear for accessing queue
-    front=0
-    rear=0
-    def ShowGraph(Adj_Dict: Dict[int,list[int]]) -> None:  #displays graph
-        for i in Adj_Dict:
-            print(i,"->",Adj_Dict[i])
-        return
-    def Display_BFS(curr :int ,Adj_Dict: Dict[int,list[int]])->None: # displays BFS sequence
-        print(curr,end=" ")
-        if curr in Adj_Dict :
-            if curr not in Graph.visited: 
-                Graph.visited.append(curr) 
-                Graph.queue.append(curr) 
-                Graph.rear+=1
-            for i in Adj_Dict[curr]: # iterate over all neighbours of curr
-                if i not in Graph.visited: 
-                    Graph.queue.append(i)
-                    Graph.visited.append(i)
-                    Graph.rear+=1            
-        Graph.queue[Graph.front]=-1 # all nodes adjecent to curr are visited
-        Graph.front+=1
-        if Graph.front==Graph.rear: # no new node to visit
-            return
-        else:
-            Graph.Display_BFS(Graph.queue[Graph.front],Adj_Dict) # go to next node
-        return
+def ShowGraph(Adj_Dict) :  #displays graph
+   for i in Adj_Dict:
+       print(i,"->",Adj_Dict[i])
+   return
+def Display_BFS(curr ,Adj_Dict): # displays BFS sequence
+   global rear
+   global front
+   print(curr,end=" ")
+   if curr in Adj_Dict :
+       if curr not in visited: 
+           visited.append(curr) 
+           queue.append(curr) 
+           rear+=1
+       for i in Adj_Dict[curr]: # iterate over all neighbours of curr
+           if i not in visited: 
+               queue.append(i)
+               visited.append(i)
+               rear+=1            
+   queue[front]=-1 # all nodes adjecent to curr are visited
+   front+=1
+   if front==rear: # no new node to visit
+       return
+   else:
+       Display_BFS(queue[front],Adj_Dict) # go to next node
+   return
 
 #__main__
 #Dry Run
+queue=[]#: list[int]=[] #keeps order of BFS tree
+visited=[] #: list[int]=[] #keeps visited node 
+# front and rear for accessing queue
+front=0
+rear=0
 #g is an adjecency list in form of dictionary
-g: Dict[int,list[int]]={1:[2,4],2:[4,5],4:[7,5],5:[1,3,6],6:[3,8],8:[7]} # this is directed graph
+g={1:[2,4],2:[4,5],4:[7,5],5:[1,3,6],6:[3,8],8:[7]} # this is directed graph
 # for undirected graph each edge has to be given twice
 # Eg:- edge from 1-2 input as {1:[2]}
 print("Display Graph")
-Graph.ShowGraph(g)
+ShowGraph(g)
 print("BFS Sequence")
-Graph.Display_BFS(1,g) #passing start node
+Display_BFS(1,g) #passing start node
 '''
 ---------------------------------
 OUTPUT:-
