@@ -15,7 +15,7 @@ BFS graph using Adjecency List
 The sequence of nodes printed in every recursion is the BFS-SEQUENCE
 ------------------------------------------------------------------------------------------
 """
-class Graph:
+class Graph():
     queue: list[int]=[] #keeps order of BFS tree
     visited: list[int]=[] #keeps visited node 
     # front and rear for accessing queue
