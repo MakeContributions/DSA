@@ -51,6 +51,7 @@ class Graph:
 g: Dict[int,list[int]]={1:[2,4],2:[4,5],4:[7,5],5:[1,3,6],6:[3,8],8:[7]} # this is directed graph
 # for undirected graph each edge has to be given twice
 # Eg:- edge from 1-2 input as {1:[2]}
+print("Display Graph")
 Graph.ShowGraph(g)
 print("BFS Sequence")
 Graph.Display_BFS(1,g) #passing start node
