@@ -16,15 +16,16 @@ The sequence of nodes printed in every recursion is the BFS-SEQUENCE
 ------------------------------------------------------------------------------------------
 """
 class Graph:
-    queue=[] #keeps order of BFS tree
-    visited=[] #keeps visited node 
+    queue: list[int]=[] #keeps order of BFS tree
+    visited: list[int]=[] #keeps visited node 
     # front and rear for accessing queue
     front=0
     rear=0
-    def ShowGraph(Adj_Dict): #displays graph
+    def ShowGraph(Adj_Dict: Dict[int,list[int]]) -> None:  #displays graph
         for i in Adj_Dict:
             print(i,"->",Adj_Dict[i])
-    def Display_BFS(curr,Adj_Dict): # displays BFS sequence
+        return
+    def Display_BFS(curr :int ,Adj_Dict: Dict[int,list[int]])->None: # displays BFS sequence
         print(curr,end=" ")
         if curr in Adj_Dict :
             if curr not in Graph.visited: 
@@ -47,7 +48,7 @@ class Graph:
 #__main__
 #Dry Run
 #g is an adjecency list in form of dictionary
-g={1:[2,4],2:[4,5],4:[7,5],5:[1,3,6],6:[3,8],8:[7]} # this is directed graph
+g: Dict[int,list[int]]={1:[2,4],2:[4,5],4:[7,5],5:[1,3,6],6:[3,8],8:[7]} # this is directed graph
 # for undirected graph each edge has to be given twice
 # Eg:- edge from 1-2 input as {1:[2]}
 Graph.ShowGraph(g)
