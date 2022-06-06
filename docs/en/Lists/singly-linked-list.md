@@ -74,10 +74,10 @@ Now, let us create the three-nod linked list as an example. One way to create th
 
 ## Implementation
 
-- [C++](https://github.com/MakeContributions/DSA/blob/main/algorithms/CPlusPlus/Linked-Lists/singly.cpp)
-- [Java](https://github.com/MakeContributions/DSA/blob/main/algorithms/Java/linked-lists/singly.java)
-- [JavaScript](https://github.com/MakeContributions/DSA/blob/main/algorithms/JavaScript/src/linked-lists/singly.js)
-- [Python](https://github.com/MakeContributions/DSA/blob/main/algorithms/Python/linked_lists/singly.py)
+- [C++](../../../algorithms/CPlusPlus/Linked-Lists/singly.cpp)
+- [Java](../../../algorithms/Java/linked-lists/singly.java)
+- [JavaScript](../../../algorithms/JavaScript/src/linked-lists/singly.js)
+- [Python](../../../algorithms/Python/linked_lists/singly.py)
 
 ## Video URL
 
@@ -86,4 +86,4 @@ Now, let us create the three-nod linked list as an example. One way to create th
 
 ## References
 
-"Adam Drozdek", "Data Structures and Algorithms in C++", "Fourth Edition".
+["Adam Drozdek", "Data Structures and Algorithms in C++", "Fourth Edition".](https://www.ebay.com/itm/Data-Structures-and-Algorithms-in-C-by-Adam-Drozdek-Fourth-Edition-/254763347609)
