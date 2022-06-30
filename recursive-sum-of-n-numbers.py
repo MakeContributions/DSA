@@ -4,7 +4,7 @@ def recsum(n):
     else:
         return(n+recsum(n-1))
 
-n= int(input("Enter a number: ")) 
+n= 15
 
 if n<0:
     print("Enter a positive integer")
