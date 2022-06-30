@@ -25,17 +25,17 @@ bool sieve[MAX];
 
     -> The prime numbers are: 2 3 5 7 11 13 17 19
 
-[APPROACH]: Sieve Of Eeratosthenes algorithm
+[APPROACH]: Sieve Of Eratosthenes algorithm
 
 [IDEA]:
 
-    -> We have to analyze numbers from 2 to n. Firstly, we write them down:
+    -> We have to analyze numbers from 2 to n. So, firstly, we write them down:
 
     2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 ... n
 
-    -> Next, we will do something which is called marking. To illustrate this, I will put "*" bellow numbers.
+    -> Next, we will do something which is called marking. To illustrate this, I will put "*" below the numbers.
 
-    -> Then we begin from 2 till n, and for every number, we mark all its multiples till n inclusive.
+    -> We begin from 2 till n, and for every number, we mark all its multiples till n inclusive.
 
     -> We are at 2, so we mark 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26 and all numbers 2 * k, with k > 1 and stop when 2 * k > n.
 
@@ -53,12 +53,12 @@ bool sieve[MAX];
 
 [TIME COMPLEXITY]:
 
-    For every i till sqrt(n) we perform n / i operations, where i is prime.
+    For every i till sqrt(n), we perform n / i operations, where i is prime.
 
     The ecuation is:
     sqrt(n) * (n/3 + n/4 + n/5 + n/6 + n/7 + ...)
     = sqrt(n) * n * (1/3 + 1/4 + 1/5 + 1/6 + 1/7 + ...)
-    The third factor, according to Euler grows the same as ln(ln(n))
+    The third factor, according to Euler, grows the same as ln(ln(n))
 
     So the time complexity is: O(sqrt(n) * n * ln(ln(n))).
 
@@ -84,8 +84,8 @@ void sieve_of_eratosthenes(unsigned long long n)
 
     /*
         In Sieve of Eratosthenes, we use a global array, and global variables are
-        automatically initialized with 0. We use that to our advantage instead of 
-        a for to set all memory spaces manually with 0.
+        automatically initialized with 0. So we use that to our advantage instead of 
+        manually setting all memory spaces with 0.
 
 
         We are doing marking like this:
@@ -94,7 +94,7 @@ void sieve_of_eratosthenes(unsigned long long n)
 
 
         Why? I know that using 1 for primes and 0 for not primes would have been more
-        intuitive but declaring an array in global scope, it got initialized with 0, so
+        intuitive, but declaring an array in global scope, it got initialized with 0, so
         it is just a waste to overwrite all memory spaces with 1.
 
     */
@@ -151,9 +151,8 @@ int main()
        which is the maximum limit accepted by your computer.
 
     -> To make this algorithm space-efficient, you can use a vector container from the STL library like
-       this vector <bool> vector_name. Before that, include vector library like #include <vector>. That container is not a regular one. It is a memory-optimization of template classes like vector <T>, which uses only n/8 bytes of memory. Many modern processors work faster with bytes because they can be accessed directly. vector <T> template class works directly with bits. But these things require knowledge about template classes, which are very powerful in C++.
+       this vector <bool> vector_name. Before that, include vector library like #include <vector>. That container is not a regular one. It is a memory-optimization of template classes like vector <T>, which uses only n/8 bytes of memory. Many modern processors work faster with bytes because they can be accessed directly. Template class vector <T> works directly with bits. But these things require knowledge about template classes, which are very powerful in C++.
 
-    -> This algorithm can be optimized even more using bits operations to achieve linear time.
+    -> This algorithm can be optimized using bits operations to achieve linear time.
        But ln(ln(n)) can be approximated to O(1).
-
 */
