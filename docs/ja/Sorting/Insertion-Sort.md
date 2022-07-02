@@ -1,10 +1,10 @@
-#　挿入ソート　
+# 挿入ソート　
 
 基本挿入法とも呼ばれる挿入ソートは、シンプルで実装が容易であり、最も安定しているソートアルゴリズムである。数値が正しい場所にない場合に、その数値を正しい位置に挿入する。平均、最悪計算量は共にO(n^2)である。
 
 挿入ソートを高速化したものとしてシェルソートがある。
 
-##　ステップ
+## ステップ
 
 1. 0番目の要素と1番目の要素を比較する。
 2. 0番目の要素が1番目の要素より大きい場合、要素を入れ替える。
@@ -13,7 +13,7 @@
 5. ２番目の要素が正しい位置に来るまで３.と４.を実行する。
 6. ソートが完了するまで３.から５.を何度も繰り返す。
 
-##　例
+## 例
 
 初期配列
 **1 4 3 9 5**
@@ -48,7 +48,7 @@
 **6回目**
 - ( 1 3 4 **5 9** ) → ( 1 3 4 **5 9** )
 
-##　実装
+## 実装
 
 - [C](../../../algorithms/C/sorting/insertion-sort.c)
 - [C++](../../../algorithms/CPlusPlus/Sorting/insertion-sort.cpp)
@@ -57,10 +57,10 @@
 - [Java](../../../algorithms/Java/sorting/insertion-sort.java)
 - [JavaScript](../../../algorithms/JavaScript/src/sorting/insertion-sort.js)
 
-##　動画のURL
+## 動画のURL
 
 [Youtube Video about Insertion Sort](https://www.youtube.com/watch?v=i-SKeOcBwko)
 
-##　その他
+## その他
 
 [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort)
