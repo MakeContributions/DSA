@@ -10,4 +10,3 @@ if n<0:
     print("Enter a positive integer")
 else:
     print("Sum =",recsum(n))
-    
