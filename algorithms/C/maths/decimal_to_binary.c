@@ -1,4 +1,7 @@
-// This program is used to convert decimal numbers to their binary equivalent
+/* This program is used to convert decimal numbers to their binary equivalent
+   Time Complexity : O(logn)
+   Auxiliary Space: O(1)
+*/
 
 #include <stdio.h>
 void decimal_to_binary(int number)
