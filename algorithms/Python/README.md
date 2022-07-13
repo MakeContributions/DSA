@@ -26,6 +26,7 @@
 - [n-th Fibonacci number](recursion/nth_fibonacci_number.py)
 - [Recursive Insertion Sort](recursion/recursive_insertion_sort.py)
 - [Recursive Sum of n numbers](recursion/recursive-sum-of-n-numbers.py)
+- [Depth First Search](recursion/depth-first-search.py)
 
 ## Scheduling
 - [Interval Scheduling](scheduling/interval_scheduling.py)
