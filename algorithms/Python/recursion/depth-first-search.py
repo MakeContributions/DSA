@@ -1,4 +1,4 @@
-# A dfs alorithm in Python
+# A dfs algorithm in Python
 # This is an algorithm for traversing a graph in depth first search manner
 # It is commonly used in tree/graph traversals
 # Time Complexity: O(V+E)
