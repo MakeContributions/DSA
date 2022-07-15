@@ -27,6 +27,7 @@
 - [Recursive Insertion Sort](recursion/recursive_insertion_sort.py)
 - [Recursive Sum of n numbers](recursion/recursive-sum-of-n-numbers.py)
 
+
 ## Scheduling
 - [Interval Scheduling](scheduling/interval_scheduling.py)
 
@@ -73,6 +74,7 @@
 ## Graphs
 - [Simple Graph](graphs/graph.py)
 - [BFS SEQUENCE](graphs/bfs-sequence.py)
+- [Depth First Search](graphs/depth-first-search.py)
 
 ## Trees
 - [Binary Tree](trees/binary_tree.py)
