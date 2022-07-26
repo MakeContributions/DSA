@@ -7,6 +7,9 @@ int binarySearch(int arr[], int l, int r, int x)
 {
     if (r >= l) {
         int mid = l + (r - l) / 2;
+        //We use (l + (r - l)) rather than using (l - r) to avoid arithmetic overflow. 
+        //Arithmetic overflow is the situation when the value of a variable increases
+        //beyond the maximum value of the memory location, and wraps around.
 
         // If the element is present at the middle itself
         if (arr[mid] == x)
