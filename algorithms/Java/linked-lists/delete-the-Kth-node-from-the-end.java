@@ -1,16 +1,6 @@
 /* Given a linked list consisting of N nodes and an integer K, your task is to delete the Kth node from the end of the linked 
  list */
 
-
-/* Given: 1->2->3->4->5->6
-K=3
-
-after deletion:
-1->2->3->5->6
-
-4 is the third last node from the end of linked list. */
-
-
 // Time Complexity: O(n).
 // Space complexity: O(1).
 
@@ -88,4 +78,10 @@ import java.util.*;
     } 
      } 
 
+/* Given: 1->2->3->4->5->6
+K=3
 
+after deletion:
+1->2->3->5->6
+
+4 is the third last node from the end of linked list. */
