@@ -40,6 +40,7 @@
 ## Maths
 
 - [Fibonacci Series](src/maths/fibonacci-series.js)
+- [Prime number](src/maths/prime.js)
 
 ## Recursion
 
