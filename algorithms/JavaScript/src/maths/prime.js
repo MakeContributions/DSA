@@ -13,3 +13,8 @@ function prime(num) {
 }
 
 //Time complexity: O(n). In the worst case, we have to loop through almost all digits before the number provided
+
+// sample inputs                expected answer
+console.log(prime(27))          //false
+console.log(prime(31))          //true
+console.log(prime(1051))        //true
