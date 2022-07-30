@@ -1,21 +1,36 @@
 """
 Function for nth fibonacci number - Using recursion
-Taking 1st two fibonacci numbers as 0 and 1
+Taking 1st fibonacci numbers as 0
 """
-
-FibArray = [1]
-def fibonacci(n_val):
-    """Fibonacci Number Main Function"""
-    if n_val < 0:
-        sol = "Incorrect input"
-    elif n_val == 0:
-        sol = 0
-    elif n_val <= len(FibArray):
-        sol = FibArray[n_val-1]
+def fibonacci(n):
+    if n == 0 or n == 1:
+        return n
     else:
-        temp_fib = fibonacci(n_val-1)+fibonacci(n_val-2)
-        FibArray.append(temp_fib)
-        sol = temp_fib
-    return sol
-# Driver Program
-print(fibonacci(100))
+        return fibonacci(n - 1) + fibonacci(n - 2)
+
+
+if __name__ == '__main__':
+    num = int(input("Enter the number of elements of Fibonacci series: "))
+    x = 0
+    if num <= 0:
+        print("Enter Positive number")
+    else:
+        print("Fibonacci Series: ")
+        for i in range(num):
+            print(fibonacci(x), end=" ")
+            x = x + 1
+
+"""
+OUTPUT:
+Enter the number of elements of Fibonacci series: 16
+Fibonacci Series: 
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 
+
+OUTPUT:
+Enter the number of elements of Fibonacci series: 0
+Enter Positive number
+
+OUTPUT:
+Enter the number of elements of Fibonacci series: -1
+Enter Positive number
+"""
