@@ -4,7 +4,7 @@
 
 int main() {
     // User explanation and examples
-    std::cout << "Please type a string, e.g.: 101, pop, asdfgfdsa, 123454321, obobo, nancyiycnan etc.\n";
+    std::cout << "Please type a string, e.g.: pop, civic, 123454321, rotor, obobo, nancyiycnan etc.\n";
 
     // Define a buffer variable
     std::string user_input;
