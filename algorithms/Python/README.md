@@ -21,6 +21,7 @@
 - [Factorial](recursion/factorial.py)
 - [n-th Fibonacci number](recursion/nth_fibonacci_number.py)
 - [Recursive Insertion Sort](recursion/recursive_insertion_sort.py)
+- [Fibonacci Series}(recursion/fibonacci_series.py)
 
 ## Scheduling
 - [Interval Scheduling](scheduling/interval_scheduling.py)
