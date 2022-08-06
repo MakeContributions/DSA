@@ -1,11 +1,4 @@
-/* Given a linked list consisting of N nodes and an integer K, your task is to delete the Kth node from the end of the linked 
- list */
 
-// Time Complexity: O(n).
-// Space complexity: O(1).
-
-import java.util.*;
-     import java.io.*;
 
     class LinkedList 
     { 
@@ -27,10 +20,14 @@ import java.util.*;
 
         head = new_node; 
     } 
+     //this function will delete the kth node in list
     void deleteNode(int position) 
     { 
+     
+       //if linked list is empty then return
         if (head == null) 
             return;  
+        
         Node temp = head; 
         if (position == 0) 
         { 
@@ -57,23 +54,20 @@ import java.util.*;
     } 
     public static void main(String[] args) 
     { 
-        Scanner sc = new Scanner(System.in);
-        int t= sc.nextInt();
-        while(t-- >0 ){
-            int n = sc.nextInt();
-            int k = sc.nextInt();
-        LinkedList llist = new LinkedList(); 
-        int p[]=new int[n];
-            for(int i=0;i<n;i++)
-            {
-                p[i] = sc.nextInt();
-            }
+      LinkedList k_List = new LinkedList();  
+        k_List.addNode(1);  
+        k_List.addNode(2);  
+        k_List.addNode(3);  
+        k_List.addNode(4);  
+        k_List.addNode(5);
+      k_List.addNode(6);
         for(int i=n-1;i>=0;i--)
             {
                 llist.push(p[i]); 
             }
-
+          //this will delete the kth node
         llist.deleteNode(k-1);  
+        //this will print the linked list after deleteion
         llist.printList(); }
     } 
      } 
