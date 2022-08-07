@@ -51,6 +51,7 @@
 - [Connected Components](Graphs/total-connected-components.cpp)
 - [Dijkstra's Algorithm](Graphs/dijkstra.cpp)
 - [Cycle Detection](Graphs/cycle-detection.cpp)
+- [Floyd Warshall](Graphs/floyd-warshall.cpp)
 
 ## Multiplication
 
