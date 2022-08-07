@@ -20,11 +20,11 @@
 
         head = new_node; 
     } 
-     //this function will delete the kth node in list
+    /* this function will delete the kth node in list */
     void deleteNode(int position) 
     { 
      
-       //if linked list is empty then return
+       /* if linked list is empty then return */
         if (head == null) 
             return;  
         
@@ -65,17 +65,18 @@
             {
                 llist.push(p[i]); 
             }
-          //this will delete the kth node
+          /* this will delete the kth node */
         llist.deleteNode(k-1);  
-        //this will print the linked list after deleteion
+        /* this will print the linked list after delete the kth node from end */
         llist.printList(); }
     } 
      } 
 
-/* Given: 1->2->3->4->5->6
-K=3
+/* Input:
+1->2->3->4->5->6
+3
 
-after deletion:
+Output:
 1->2->3->5->6
 
 4 is the third last node from the end of linked list. */
