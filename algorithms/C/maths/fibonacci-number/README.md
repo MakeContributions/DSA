@@ -1,8 +1,10 @@
 # Fibonacci Number
 Fibonacci numbers form a Fibonacci sequence where given any number (excluding first 2 terms) is a sum of its two preceding numbers. Usually, the sequence is either start with 0 and 1 or 1 and 1. Below is a Fibonacci sequnce starting from 0 and 1:
+
 $$
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, \dots
 $$
+
 The problem is to calculate the n-th term Fibonacci number given two starting numbers.
 
 ## Prerequisites
@@ -22,6 +24,7 @@ The problem is to calculate the n-th term Fibonacci number given two starting nu
   ```
 ## Note
 The sequence can be described by a recurrent function as below:
+
 $$
 \begin{align*}
   F(0) &= 0 \\
@@ -29,7 +32,8 @@ $$
   F(n) &= F(n-1) + F(n-2)
 \end{align*}
 $$
-- This provides a direct recursive implementation. The time complexity is $O(2^n)$. It can be improved through memomization.
+
+- This provides a direct recursive implementation. The time complexity is exponentiation. It can be improved through memomization.
 - It can done iteratively using 2 more states variables. The time complexity is $O(n)$.
 - There exists a clever logarithmic algorithm in computing n-term Fibonacci number. The computations can be in form of matrix multiplication, then we devise some form of Ancient Egyptian multiplication (i.e.: double and squaring) to improve the algorithm. [reference](https://rybczak.net/2015/11/01/calculation-of-fibonacci-numbers-in-logarithmic-number-of-steps/)
 - Lastly, there also exist a formula to approximate n-term Fibonacci number. [reference](https://fabiandablander.com/r/Fibonacci.html)
