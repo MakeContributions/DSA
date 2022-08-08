@@ -3,7 +3,9 @@
  * return n-th term fibonacci number.
  * The prefix highlights its algorithm used
  */
-#include <math.h> // sqrt, pow
+
+#include <math.h> // sqrt, pow used in binet_fib
+
 int recur_fib(int n){
 	if(n == 0 || n == 1)
 		return n;
@@ -23,14 +25,17 @@ int iter_fib(int n){
 	}
 	return res;
 }
+
 #define MAXSIZE 30
 int memomized_fib[MAXSIZE];
+
 void memomizing_fib(){
 	memomized_fib[0] = 0;
 	memomized_fib[1] = 1;
 	for(int i = 2; i < MAXSIZE; ++i)
 		memomized_fib[i] = memomized_fib[i-1]+memomized_fib[i-2];
-};
+}
+
 int memo_fib(int n){ // return memomized value if exists, or else compute it as usual
 	if(n < MAXSIZE && n >= 0)
 		return memomized_fib[n];
@@ -70,13 +75,14 @@ int log_fib_helper(int n, int a, int b, int p, int q){
 	else
 		return log_fib_helper(n-1, p*a + q*b, q*a+(p+q)*b, p, q);
 }
+
 int log_fib(int n){
 	return log_fib_helper(n,0,1,0,1);
 }
 
-int binet_fib(int n){
-	double golden_ratio = (1+sqrt(5))/2;
-	double conjugate_golden_ratio = 1-golden_ratio;
+int binet_fib(int n){ // closed form formula
+	const double golden_ratio = (1+sqrt(5))/2;
+	const double conjugate_golden_ratio = 1-golden_ratio;
 	double res = (pow(golden_ratio,n) - pow(conjugate_golden_ratio, n))/sqrt(5);
 	return round(res);
 }
