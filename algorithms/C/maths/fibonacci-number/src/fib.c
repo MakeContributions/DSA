@@ -3,6 +3,7 @@
  * return n-th term fibonacci number.
  * The prefix highlights its algorithm used
  */
+#include <math.h> // sqrt, pow
 int recur_fib(int n){
 	if(n == 0 || n == 1)
 		return n;
@@ -71,4 +72,11 @@ int log_fib_helper(int n, int a, int b, int p, int q){
 }
 int log_fib(int n){
 	return log_fib_helper(n,0,1,0,1);
+}
+
+int binet_fib(int n){
+	double golden_ratio = (1+sqrt(5))/2;
+	double conjugate_golden_ratio = 1-golden_ratio;
+	double res = (pow(golden_ratio,n) - pow(conjugate_golden_ratio, n))/sqrt(5);
+	return round(res);
 }

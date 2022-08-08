@@ -36,7 +36,7 @@ $$
 - This provides a direct recursive implementation. The time complexity is $O(2^n)$. It can be improved through memomization.
 - It can done iteratively using 2 more states variables. The time complexity is $O(n)$.
 - There exists a clever logarithmic algorithm $O(\log{n})$ in computing n-term Fibonacci number. The computations can be in form of matrix multiplication, then we can devise some form of Ancient Egyptian multiplication (i.e.: double and squaring) to improve the algorithm. [reference](https://rybczak.net/2015/11/01/calculation-of-fibonacci-numbers-in-logarithmic-number-of-steps/)
-- Lastly, there also exist a formula to approximate n-term Fibonacci number $O(1)$. [reference](https://fabiandablander.com/r/Fibonacci.html)
+- Lastly, there also exist a formula to approximate n-term Fibonacci number $O(1)$. [reference](https://mathworld.wolfram.com/BinetsFibonacciNumberFormula.html)
 
 The given implementations shall assume that the Fibonacci sequece is starting from 0 and 1. The reader may try to generalize it to certain extent as a practice.
 

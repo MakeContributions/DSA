@@ -10,6 +10,7 @@ int main(){
 		printf(" %d", iter_fib(i));
 		printf(" %d", memo_fib(i));
 		printf(" %d", log_fib(i));
+		printf(" %d", binet_fib(i));
 		printf(" %d\n", iter_log_fib(i));
 	}
 	int sum = 0;
