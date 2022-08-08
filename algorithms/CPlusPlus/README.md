@@ -109,6 +109,7 @@
 - [Merge Sort](Sorting/merge-sort.cpp)
 - [Wave Sort](Sorting/wave-sort.cpp)
 - [Cycle Sort](Sorting/cycle-sort.cpp)
+- [Bead Sort](Sorting/bead-sort.cpp)
 
 ## Strings
 
