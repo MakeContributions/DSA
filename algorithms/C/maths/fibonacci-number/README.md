@@ -41,6 +41,7 @@ $$
 The given implementation shall assume that the Fibonacci sequece is starting from 0 and 1. The reader may try to generalize it to certain extent as a practice.
 
 ## Test Cases & Output
-1. The code shohuld yield the same output as other other version.
+
+1. The code shohuld yield the same output as other version.
 
 2. The sum of even Fibonacci numbers below 4000000 should be 4613732. [Adapted from Project Euler.net](https://projecteuler.net/problem=2)
