@@ -54,6 +54,6 @@ printf("%d\n", memo_fib(7));
 13
 13
 ```
-2. The code shohuld yield the same output as other version.
+2. The code should yield the same output as other version.
 
 3. The sum of even Fibonacci numbers below 4000000 should be 4613732. [Adapted from Project Euler.net](https://projecteuler.net/problem=2)
