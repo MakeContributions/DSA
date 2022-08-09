@@ -1,10 +1,5 @@
-/**
- * fib(n) takes nonnegative number n
- * return n-th term fibonacci number.
- * The prefix highlights its algorithm used
- */
-
-#include <math.h> // sqrt, pow are used in binet_fib
+#include"fib.h"
+#include<math.h> // sqrt, pow are used in binet_fib
 
 int recur_fib(int n){
 	if(n == 0 || n == 1)
@@ -26,9 +21,6 @@ int iter_fib(int n){
 	return res;
 }
 
-#define MAXSIZE 30
-int memomized_fib[MAXSIZE];
-
 // it should be called before using  the function memo_fib()
 void memomizing_fib(){ 
 	memomized_fib[0] = 0;
@@ -46,7 +38,7 @@ int memo_fib(int n){
 }
 /**
  *  fibonacci based linear transformation (linear algebra)
- * 	reference: https://rybczak.net/2015/11/01/calculation-of-fibonacci-numbers-in-logarithmic-number-of-steps/
+ *  reference: https://rybczak.net/2015/11/01/calculation-of-fibonacci-numbers-in-logarithmic-number-of-steps/
 */
 int iter_log_fib(int n){
 	int a = 0;
