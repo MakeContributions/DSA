@@ -48,7 +48,7 @@
 - [Go](../../../algorithms/Go/sorting/quicksort.go)
 - [C++](../../../algorithms/CPlusPlus/Sorting/quick-sort.cpp)
 - [Python](../../../algorithms/Python/sorting/quicksort.py)
-
+- [C](../../../algorithms/C/sorting/quick-sort.c)
 ## URL del video
 
 [Video de Youtube sobre Quick Sort](https://www.youtube.com/watch?v=DYmTpUfcyT8)
