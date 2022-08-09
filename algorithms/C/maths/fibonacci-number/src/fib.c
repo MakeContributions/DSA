@@ -4,7 +4,7 @@
  * The prefix highlights its algorithm used
  */
 
-#include <math.h> // sqrt, pow used in binet_fib
+#include <math.h> // sqrt, pow are used in binet_fib
 
 int recur_fib(int n){
 	if(n == 0 || n == 1)
@@ -29,20 +29,25 @@ int iter_fib(int n){
 #define MAXSIZE 30
 int memomized_fib[MAXSIZE];
 
-void memomizing_fib(){
+// it should be called before using  the function memo_fib()
+void memomizing_fib(){ 
 	memomized_fib[0] = 0;
 	memomized_fib[1] = 1;
 	for(int i = 2; i < MAXSIZE; ++i)
 		memomized_fib[i] = memomized_fib[i-1]+memomized_fib[i-2];
 }
 
-int memo_fib(int n){ // return memomized value if exists, or else compute it as usual
+// return memomized value if exists, or else compute it as usual
+int memo_fib(int n){ 
 	if(n < MAXSIZE && n >= 0)
 		return memomized_fib[n];
 	else
 		return memo_fib(n-1) + memo_fib(n-2);
 }
-
+/**
+ *  fibonacci based linear transformation (linear algebra)
+ * 	reference: https://rybczak.net/2015/11/01/calculation-of-fibonacci-numbers-in-logarithmic-number-of-steps/
+*/
 int iter_log_fib(int n){
 	int a = 0;
 	int b = 1;
@@ -67,6 +72,10 @@ int iter_log_fib(int n){
 	return a;
 }
 
+/**
+ *  fibonacci based linear transformation (linear algebra)
+ * 	reference: https://rybczak.net/2015/11/01/calculation-of-fibonacci-numbers-in-logarithmic-number-of-steps/
+*/
 int log_fib_helper(int n, int a, int b, int p, int q){
 	if(n == 0)
 		return a;
@@ -79,8 +88,11 @@ int log_fib_helper(int n, int a, int b, int p, int q){
 int log_fib(int n){
 	return log_fib_helper(n,0,1,0,1);
 }
-
-int binet_fib(int n){ // closed form formula
+/**
+ * Closed form formula
+ * reference: https://mathworld.wolfram.com/BinetsFibonacciNumberFormula.html
+*/
+int binet_fib(int n){ 
 	const double golden_ratio = (1+sqrt(5))/2;
 	const double conjugate_golden_ratio = 1-golden_ratio;
 	double res = (pow(golden_ratio,n) - pow(conjugate_golden_ratio, n))/sqrt(5);
