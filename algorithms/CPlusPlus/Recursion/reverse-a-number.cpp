@@ -3,8 +3,8 @@ Description: Program to reverse integer using recursion
 Time complexity: O(n) where n is the number of digits in the integer
 */
 
+#include <cmath>
 #include <iostream>
-#include <math.h>
 using namespace std;
 
 int Helper(int n ,int base , int ans)
