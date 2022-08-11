@@ -1,4 +1,4 @@
-#include"fib.h"
+#include"./fib.h" // NOLINT(build/include)
 #include<math.h> // sqrt, pow are used in binet_fib
 
 int recur_fib(int n){

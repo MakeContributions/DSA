@@ -1,5 +1,6 @@
-#ifndef FIB_H_INCLUDED
-#define FIB_H_INCLUDED
+
+#ifndef ALGORITHMS_C_MATHS_FIBONACCI_NUMBER_SRC_FIB_H_
+#define ALGORITHMS_C_MATHS_FIBONACCI_NUMBER_SRC_FIB_H_
 
 /**
  * fib(n) takes nonnegative number n
@@ -19,4 +20,4 @@ int iter_log_fib(int n);
 int log_fib(int n);
 int binet_fib(int n);
 
-#endif
+#endif  // ALGORITHMS_C_MATHS_FIBONACCI_NUMBER_SRC_FIB_H_"

@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"fib.h"
+#include"./fib.h" // NOLINT(build/include)
 
 int main(){
 	memomizing_fib(); // this is to initialize the memomized table
