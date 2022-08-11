@@ -12,7 +12,9 @@
 Data structure and Algorithm (DSA)
 
 ## Explanations
+
 - [English](./docs/en)
+- [Español](./docs/es)
 - [Português](./docs/pt)
 - [Turkish](./docs/tr)
 - [繁體中文](./docs/zh-tw)
@@ -117,14 +119,14 @@ The programming should keep the naming convention rule of each programming langu
 
 ## Reviewers
 
-| Programming Language | Users                                             |
-| -------------------- | ------------------------------------------------- |
-| C or C++             | @Arsenic-ATG, @UG-SEP, @aayushjain7, @Ashborn-SM  |
-| Java                 | @TawfikYasser, @aayushjain7                       |
-| C#                   | @ming-tsai, @Waqar-107                            |
-| Go                   |                                                   |
-| Python               | @Arsenic-ATG, @sridhar-5                          |
-| JavaScript           | @ming-tsai                                        |
+| Programming Language | Users                                            |
+| -------------------- | ------------------------------------------------ |
+| C or C++             | @Arsenic-ATG, @UG-SEP, @aayushjain7, @Ashborn-SM |
+| Java                 | @TawfikYasser, @aayushjain7                      |
+| C#                   | @ming-tsai, @Waqar-107                           |
+| Go                   |                                                  |
+| Python               | @Arsenic-ATG, @sridhar-5                         |
+| JavaScript           | @ming-tsai                                       |
 
 ## Contributors
 
