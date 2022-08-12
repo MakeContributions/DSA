@@ -76,7 +76,7 @@ Above is one iteration for cycle_stat = 0.
 
 Repeat above steps for cycle_start = 1, 2, ..n-2
 
-## Implmentation
+## Implementation
 
 - [C++](../../../algorithms/CPlusPlus/Sorting/cycle-sort.cpp)
 - [Java](../../../algorithms/Java/sorting/cyclic-sort.java)
