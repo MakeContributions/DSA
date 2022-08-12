@@ -18,7 +18,7 @@ namespace Algorithms.Sorts
         /// <param name="array">Array to be sorted.</param>
         /// <param name="low">Starting index.</param>
         /// <param name="high">Ending index.</param>
-        public static void Sort(int[] array, int low, int high)
+        public static int[] Sort(int[] array, int low, int high)
         {
             if (low < high)
             {
@@ -29,6 +29,8 @@ namespace Algorithms.Sorts
                 Sort(array, low, pivot - 1);
                 Sort(array, pivot + 1, high);
             }
+
+            return array;
         }
 
         /// <summary>
