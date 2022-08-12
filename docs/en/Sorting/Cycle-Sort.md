@@ -24,37 +24,56 @@ The above-illustrated process constitutes a cycle. Repeat this cycle for every e
 ## Example
 
 arr[] = {10, 5, 2, 3}
+
  index =  0   1   2   3
+
 cycle_start = 0 
+
 item = 10 = arr[0]
 
 Find position where we put the item  
+
 pos = cycle_start
+
 i=pos+1
+
 while(i < n)
-if (arr[i] < item)  
+
+if (arr[i] < item) 
+
     pos++;
 
 We put 10 at arr[3] and change item to 
 old value of arr[3].
+
 arr[] = {10, 5, 2, 10} 
+
 item = 3 
 
 Again rotate rest cycle that start with index '0' 
+
 Find position where we put the item = 3 
+
 we swap item with element at arr[1] now 
+
 arr[] = {10, 3, 2, 10} 
+
 item = 5
 
 Again rotate rest cycle that start with index '0' and item = 5 
+
 we swap item with element at arr[2].
+
 arr[] = {10, 3, 5, 10 } 
+
 item = 2
 
 Again rotate rest cycle that start with index '0' and item = 2
+
 arr[] = {2, 3,  5, 10}  
 
 Above is one iteration for cycle_stat = 0.
+
 Repeat above steps for cycle_start = 1, 2, ..n-2
 
 ## Implmentation
