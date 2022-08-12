@@ -78,9 +78,9 @@ Repeat above steps for cycle_start = 1, 2, ..n-2
 
 ## Implmentation
 
-- [C++](algorithms\CPlusPlus\Sorting\cycle-sort.cpp)
-- [Java](algorithms\Java\sorting\cyclic-sort.java)
-- [Python](algorithms\Python\sorting\count-sort.py)
+- [C++](../../../algorithms/CPlusPlus/Sorting/cycle-sort.cpp)
+- [Java](../../../algorithms/Java/sorting/cyclic-sort.java)
+- [Python](../../../algorithms/Python/sorting/count-sort.py)
 
 ## Video URL
 
