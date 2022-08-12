@@ -4,9 +4,9 @@ Cycle sort is a comparison sorting algorithm that forces array to be factored in
 It is an in-place and unstable sorting algorithm.
 
 Time Complexity : O(n^2) 
-Worst Case : O(n^2) 
-Average Case: O(n^2) 
-Best Case : O(n^2)
+- Worst Case : O(n^2) 
+- Average Case: O(n^2) 
+- Best Case : O(n^2)
 
 Space complexity :
 The space complexity is constant cause this algorithm is in place so it does not use any extra memory to sort.
@@ -59,9 +59,9 @@ Repeat above steps for cycle_start = 1, 2, ..n-2
 
 ## Implmentation
 
-[C++](algorithms\CPlusPlus\Sorting\cycle-sort.cpp)
-[Java](algorithms\Java\sorting\cyclic-sort.java)
-[Python](algorithms\Python\sorting\count-sort.py)
+- [C++](algorithms\CPlusPlus\Sorting\cycle-sort.cpp)
+- [Java](algorithms\Java\sorting\cyclic-sort.java)
+- [Python](algorithms\Python\sorting\count-sort.py)
 
 ## Video URL
 
