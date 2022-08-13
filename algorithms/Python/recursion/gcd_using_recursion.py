@@ -5,5 +5,5 @@ def gcd(a, b):
 	else:
 		return gcd(b, a%b)
 
-	#EUCLIDS ALGORITHMS 
-	#TIME COMPLEXITY - O(log(min(a, b)))
+#EUCLIDS ALGORITHMS 
+#TIME COMPLEXITY - O(log(min(a, b)))
