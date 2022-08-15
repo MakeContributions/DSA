@@ -1,16 +1,20 @@
 #TO CHECK WHETHER A NUMBER IS PRIME OR NOT
 
 
-N = int(input())
+def isPrime(N):
 
-PRIME = True
+        for i in range(2, int(N**0.5) + 1):
+                if N%i==0:
+                        return False
 
-for i in range(2, int(N**0.5+1)):
-	if N%i==0:
-		PRIME = False 
-		break 
+        return True
 
-if PRIME:
-	print(f"{N} is prime")
-else:
-	print(f"{N} is not prime")
+# TIME COMPLEXITY - O(sqrt(N))
+
+# EXAMPLES
+# print(isPrime(3)) -> True
+# print(isPrime(15)) -> False
+
+# We are just checking till sqrt(N) as if their is any factor of a number
+# greater than sqrt(N) then it's partner will be less than sqrt(N) as if a*b>N
+# and a>=sqrt(N) then b<=sqrt(N) as if b>sqrt(N) then a*b>N.
