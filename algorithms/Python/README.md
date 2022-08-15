@@ -83,3 +83,6 @@
 
 ## Queues
 - [First in First out Queue](queues/fifo-queue.py)
+
+## Number Theory 
+
