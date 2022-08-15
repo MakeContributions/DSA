@@ -83,3 +83,7 @@
 
 ## Queues
 - [First in First out Queue](queues/fifo-queue.py)
+
+
+##Number Theory 
+- [Prime Number Checker][number_theory/prime_number.py]
