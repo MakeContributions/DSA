@@ -165,6 +165,7 @@
 - [Power of two](Maths/power-of-two.cpp)
 - [Small numbers](Maths/small-numbers.cpp)
 - [Segmented Sieve](Maths/segmented-sieve-range.cpp)
+- [Binary Power](Maths/binary-power.cpp)
 
 # Recursion
 
