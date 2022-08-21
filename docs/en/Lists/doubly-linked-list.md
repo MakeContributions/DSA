@@ -6,17 +6,13 @@ Without a tail pointer, you cannot directly access the last element without havi
 ![doubly linked list](https://github.com/Ayebilla/project/blob/main/doubly-linked-list.PNG?raw=true)
 
 ## Steps to create a doubly linked list
-A doubly linked list can have one or more elements. start with a single node list and then add elements at the beginning to grow the list.
-create a new node. 
-
-If this is the first or the only node in the list,let:
-  - prev point to null
-  - next point to null
-  - head point to this new node
-If it is not the first, let:
-  - next point to first element (i.e head.next)
-  - prev point to null
-  - head point to this new node
+To create an empty list,
+- create head and tail nodes (nodes without data) first
+- let the **next pointer** of the head point to the tail node
+- let the **prev pointer** of the tail point to the head node
+For a non-empty list,
+- let the next pointer of the head point to the first real element of the sequence
+- let the prev pointer of the tail point to the last real element of the sequence
 
 ## Example
 
