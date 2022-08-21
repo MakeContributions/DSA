@@ -19,6 +19,35 @@ For a non-empty list,
 - Insertion (insert at the beginning, at the end or anywhere in the middle)
 - deletion (delete from beginning, end or anywhere in the middle)
 
+To add an element(node) at the beginning of the list, let the;
+- *next pointer* of the new element (node) point to the first element (the one the *head* currently points to)
+- *next pointer* of the *head* point to this new element you want to add
+- *prev pointer* of the element (node) you want to add point to *head*.
+
+To add an alement (node) to the end of the list, let the;
+- *prev pointer* of the new element you want to add point to the last element (the one before the *tail*)
+- *next pointer* of the last element (the one before the *tail*) point to the new element you want to add
+- *prev pointer* of the *tail* point to the new element.
+
+To delete an element from the beginning, let the;
+- *next pointer* of the *head* point to the second element in the list (node after the one *head* pointers to). 
+- *prev pointer* of the second element point to the *head*
+ 
+
+To delete from the end of the list, let the;
+- *prev pointer* of the *tail* point to the element before the last node
+- *next pointer* of the element before the last node point to the *tail*
+
+Note: If there is only one element in the list, deletion from both directions happens by pointing the *next pointer* of *head* to *tail* and *prev pointer* of *tail* to *head*. 
+
+Deletion anywhere in the middle happens by letting the *prev pointer* and the *next pointer* of the node after and before the one you want to delete point to each other respectively.
+
+To insert anywhere in the middle, let the;
+- *next pointer* of the element you want to insert point to the node at the position you want to insert it
+- *prev pointer* of the element you want to insert point to node before the position you want to insert it
+- *prev pointer* of the node at the position you want to insert point to the new element
+- *next pointer* of the node before the position you want to insert point to the new element.
+
 Deletion and insertion at the beginning or end of the list is a constant operation and has a O(1) runtime. Deletion or insertion anywhere in the middle however has a O(n) runtime. 
 
 
