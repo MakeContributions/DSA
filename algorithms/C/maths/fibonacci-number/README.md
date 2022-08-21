@@ -1,5 +1,5 @@
 # Fibonacci Number
-Fibonacci numbers form a Fibonacci sequence where given any number (excluding first 2 terms) is a sum of its two preceding numbers. Usually, the sequence is either start with 0 and 1 or 1 and 1. Below is a Fibonacci sequnce starting from 0 and 1:
+Fibonacci numbers form a Fibonacci sequence where given any number (excluding first 2 terms) is a sum of its two preceding numbers. Usually, the sequence is either start with 0 and 1 or 1 and 1. Below is a Fibonacci sequence starting from 0 and 1:
 
 $$
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, \dots

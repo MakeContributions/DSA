@@ -7,7 +7,7 @@ int binarySearch(int arr[], int l, int r, int x)
 {
     if (r >= l) {
         int mid = l + (r - l) / 2;
-        //We use (l + (r - l)) rather than using (l - r) to avoid arithmetic overflow. 
+        //We use (l + (r - l)) rather than using (l + r) to avoid arithmetic overflow. 
         //Arithmetic overflow is the situation when the value of a variable increases
         //beyond the maximum value of the memory location, and wraps around.
 
@@ -15,7 +15,7 @@ int binarySearch(int arr[], int l, int r, int x)
         if (arr[mid] == x)
             return mid;
 
-        // If element is smaller than mid, then it can only be present in left subarray
+        // If mid is greater than element, then it can only be present in left subarray
         if (arr[mid] > x)
             return binarySearch(arr, l, mid - 1, x);
 
