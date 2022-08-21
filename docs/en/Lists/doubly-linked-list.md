@@ -36,4 +36,4 @@ Deletion and insertion at the beginning or end of the list is a constant operati
 
 ## References
 
-Goodrich, T. M., Tamassia, R., Goldwasser, M.H.(2014)., *Data Structures & Algorithms in Java* (6th ed).Wiley
+Goodrich, T. M., Tamassia, R., Goldwasser, M.H.(2014). *Data Structures & Algorithms in Java* (6th ed.). Wiley
