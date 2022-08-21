@@ -9,7 +9,8 @@ Without a tail pointer, you cannot directly access the last element without havi
 To create an empty list,
 - create head and tail nodes (nodes without data) first
 - let the **next pointer** of the head point to the tail node
-- let the **prev pointer** of the tail point to the head node
+- let the **prev pointer** of the tail point to the head node.
+
 For a non-empty list,
 - let the next pointer of the head point to the first real element of the sequence
 - let the prev pointer of the tail point to the last real element of the sequence
