@@ -15,7 +15,11 @@ For a non-empty list,
 - let the next pointer of the head point to the first real element of the sequence
 - let the prev pointer of the tail point to the last real element of the sequence
 
-## Example
+## Key operations
+- Insertion (insert at the beginning, at the end or anywhere in the middle)
+- deletion (delete from beginning, end or anywhere in the middle)
+
+Deletion and insertion at the beginning or end of the list is a constant operation and has a O(1) runtime. Deletion or insertion anywhere in the middle however has a O(n) runtime. 
 
 
 ## Implementation
