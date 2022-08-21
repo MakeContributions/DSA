@@ -103,4 +103,7 @@ Soon after reviewing all your changes will be merged into the master branch of t
 
 ## Where to go from here?
 
+
 Congrats! You just completed the standard _fork -> clone -> edit -> pull request_ workflow that you'll encounter often as a contributor!
+
+This project is really amazing for gaining suitable skillsets!
