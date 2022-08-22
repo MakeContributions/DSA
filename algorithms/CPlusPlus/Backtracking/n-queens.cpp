@@ -8,9 +8,6 @@ Time Complexity: O(N!)
 '''
 
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
 using namespace std;
 
 int a[30], count = 0;
@@ -69,6 +66,6 @@ int main() {
     int i, n;
     cin >> n;
     queen(n);
-    // 	cout << "\nTotal solutions=" + count;
+    cout << "\nTotal solutions=" << count;
     return 0;
 }
