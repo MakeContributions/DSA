@@ -1,11 +1,11 @@
-/* Code contributed by Devang Shah to MakeContributions/DSA GitHub repository */
-'''
+/* Code contributed by Devang Shah to MakeContributions/DSA GitHub repository
+
 Below CPlusPlus code displays all possible solutions for a N-Queens problem. 
 Problem: Given a N x N chess board, arrange N queens in a way such that no two queens attack each other. Two queens are attacking each other if they are in same row, same column or diagonal
 Input: N
 Output: All solutions ( in grid format {Q - Queen, * - empty cell} ) of the N-queens problem
 Time Complexity: O(N!)
-'''
+*/
 
 #include <iostream>
 using namespace std;
