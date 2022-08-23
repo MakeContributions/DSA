@@ -63,7 +63,7 @@ void queen(int n) {
 }
 
 int main() {
-    int i, n;
+    int n;
     cin >> n;
     queen(n);
     cout << "\nTotal solutions=" << count;
