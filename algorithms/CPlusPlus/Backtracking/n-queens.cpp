@@ -42,6 +42,7 @@ void print_sol(int n) {
 void queen(int n) {
     int k = 1;
     a[k] = 0;
+    count = 0;
     while (k != 0)
     {
         a[k] = a[k] + 1;
