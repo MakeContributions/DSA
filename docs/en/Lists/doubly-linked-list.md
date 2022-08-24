@@ -1,9 +1,12 @@
 # Doubly Linked List
 
-A doubly linked list is a type of linked data structure that allows traversal in both directions (forward and backward directions). It differs from singly linked list in that, singly linked list does not support backward traversal. Every node in a doubly linked list contains a **data** part and two pointers; **next pointer** that points to the next node and the **prev pointer** that points to the previous node in the list. A doubly linked list also has two dummy nodes (head and tail) known as **sentinels** (guard nodes) that contains no data of the sequence. The first element of a doubly linked list has its prev pointer pointing to head and the last element has its next node pointing to tail. 
+A doubly linked list is a type of linked data structure that allows traversal in both directions (forward and backward directions). 
+It differs from singly linked list in that, singly linked list does not support backward traversal. 
+Every node in a doubly linked list contains a **data** part and two pointers; **next pointer** that points to the next node and the **prev pointer** that points to the previous node in the list. 
+A doubly linked list also has two dummy nodes (head and tail) known as **sentinels** (guard nodes) that contains no data of the sequence. 
+The first element of a doubly linked list has its prev pointer pointing to head and the last element has its next node pointing to tail. 
 
 Without a tail pointer, you cannot directly access the last element without having to first traverse the entire list all the way from the beginning. 
-![doubly linked list](https://github.com/Ayebilla/project/blob/main/doubly-linked-list.PNG?raw=true)
 
 ## Steps to create a doubly linked list
 To create an empty list,
