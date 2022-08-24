@@ -3,7 +3,8 @@ using namespace std;
 
 // using recursion to find exponentiation
 long power(long base ,long expo){
-  // if exponent is equal to 0 then return 0
+  // if exponent is equal to 0 then return 1
+  // as a^0 = 1 for all numbers
   if (expo==0) 
     return 1;
   
