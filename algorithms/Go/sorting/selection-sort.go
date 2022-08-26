@@ -1,3 +1,12 @@
+/*
+	Selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning.
+	The algorithm maintains two subarrays in a given array: 
+		The subarray which is already sorted. 
+		Remaining subarray which is unsorted.
+	Average Time Complexity: O(n^2)
+  
+*/
+
 package sorting
 
 import "fmt"
