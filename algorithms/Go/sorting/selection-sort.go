@@ -1,20 +1,27 @@
 /*
 	Selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning.
-	The algorithm maintains two subarrays in a given array: 
-		The subarray which is already sorted. 
+	The algorithm maintains two subarrays in a given array:
+		The subarray which is already sorted.
 		Remaining subarray which is unsorted.
 	Average Time Complexity: O(n^2)
-  
+
+	Link for reference: https://www.geeksforgeeks.org/selection-sort/
+
 */
 
 package sorting
 
 import "fmt"
 
-func main() {
+func RunSelectionSortRec() {
 	arr := []int{7, 4, 7, 3, 2}
 	selSortRec(arr, len(arr)-1) //using recursion
-	fmt.Println(arr)
+	fmt.Println(arr)            // 2, 3, 4, 7, 7
+}
+func RunSelectionSortIter() {
+	arr := []int{7, 4, 7, 3, 1}
+	selSort(arr)     //using iteration
+	fmt.Println(arr) // 1, 3, 4, 7, 7
 }
 
 //sort using iterative method
@@ -31,7 +38,6 @@ func selSort(arr []int) {
 		arr[minIndex], arr[arrIndex] = arr[arrIndex], arr[minIndex]
 	}
 }
-
 
 //sort using recursive method
 func selSortRec(arr []int, i int) {
