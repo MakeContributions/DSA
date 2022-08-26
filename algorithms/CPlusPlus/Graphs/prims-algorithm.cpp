@@ -1,5 +1,5 @@
 /*
-APPROACH: We will have 3 arrays(key, mst and parent). 
+APPROACH:- We will have 3 arrays(key, mst and parent). 
 
     Significance of all three arrays:-
     -> Key : This array holds the weight/ cost of the MST.
