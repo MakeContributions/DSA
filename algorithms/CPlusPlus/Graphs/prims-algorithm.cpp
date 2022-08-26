@@ -1,3 +1,24 @@
+/*
+APPROACH: We will have 3 arrays(key, mst and parent). 
+
+    Significance of all three arrays:-
+    -> Key : This array holds the weight/ cost of the MST.
+    -> MST : This is a boolean array which indicates whether a node is already a part of MST or not.
+    -> Parent :  This indicates the parent of a particular node in the MST(initialized to -1)
+
+STEPS:-
+    -> Assuming we start with node 0, the index 0 in the key array is initialized to zero(because it is the first node in the MST).
+       We find the index/node in the key array which has the minimum weight. We then find all its adjacent edges and pickup the the 
+       one with minimum weight. 
+
+    -> Also at the same time we mark this node as true(indicating that it is now a part of the MST) and also set it’s parent as node ‘0’. 
+
+    -> After this, we would continue to find the one with minimum weight in the key array that is not a part of the MST(Notice that 
+       this is where we ensure that we pickup the node with minimum weight and we do not choose an edge that might cause a cycle)
+
+    -> We continue this process until all nodes become a part of the MST
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
