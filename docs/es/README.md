@@ -1,7 +1,7 @@
 # Algoritmos
 
 ## Ordenamiento
-
+- [Merge Sort](./Ordenamiento/Merge-Sort.md)
 - [Quick Sort](./Ordenamiento/Quick-Sort.md)
 
 ## Otro
