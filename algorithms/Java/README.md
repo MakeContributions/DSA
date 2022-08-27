@@ -33,6 +33,7 @@
 - [Catalan Numbers](Maths/catalan-numbers.java)
 - [Nth Geek Onacci Number](Maths/nth-geek-onacci-number.java)
 - [Random Node in Linked List](Maths/algorithms_random_node.java)
+- [Square root using BinarySearcher](Maths/square-root.java)
 
 ## Queues
 
