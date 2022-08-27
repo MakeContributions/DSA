@@ -1,5 +1,9 @@
 # Algorithms
 
+## Lists
+- [Singly linked list](./Lists/singly-linked-list.md)
+- [Doubly linked list](./Lists/doubly-linked-list.md)
+
 ## Sorting
 
 - [Bubble Sort](./Sorting/Bubble-Sort.md)
