@@ -26,7 +26,7 @@ long power_recursion(long base ,long expo){
       Time Complexity -> O( log(N) )
 */
 long power_iterative( long base, long expo ){
-  long res = 1; // inititalise result with 1
+  long res = 1; // initialise result with 1
   while( expo!=0 ){ // run loop while exponent is not 0
 
     if( expo&1 ) // if least significant bit is 1 then update result 
