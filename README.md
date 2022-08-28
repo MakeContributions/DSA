@@ -124,7 +124,7 @@ The programming should keep the naming convention rule of each programming langu
 | C or C++             | @Arsenic-ATG, @UG-SEP, @aayushjain7, @Ashborn-SM |
 | Java                 | @TawfikYasser, @aayushjain7                      |
 | C#                   | @ming-tsai, @Waqar-107                           |
-| Go                   |                                                  |
+| Go                   | @ayo-ajayi                                       |
 | Python               | @Arsenic-ATG, @sridhar-5                         |
 | JavaScript           | @ming-tsai                                       |
 
