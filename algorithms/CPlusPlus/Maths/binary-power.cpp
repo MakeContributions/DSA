@@ -30,6 +30,23 @@ long binpow(long a, long b){
 	return ans;
 }
 
+// source: @angshudas
+long binpow_rec(long a, long b){
+	// a^0 = 1 [for any a]
+	if(b==0)
+		return 1;
+	// recursive call for a^(b/2)
+	long ans = binpow_rec(a, b/2);
+	// square the result
+	ans *= ans;
+	// if b is odd, times by a
+	// to cover for 
+	if(b&1)
+		ans *= a;
+	
+	return ans;
+}
+
 int main(){
 	long base, power;
 	cout<<"Enter the base and power: "<<endl;
