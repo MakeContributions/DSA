@@ -56,6 +56,7 @@ int primAlgorithm(){
     }
   }
 
+  graph.clear(); // clearing all values in graph
   return totalCost;
 }
 
