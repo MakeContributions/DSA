@@ -52,6 +52,7 @@
 - [Dijkstra's Algorithm](Graphs/dijkstra.cpp)
 - [Cycle Detection](Graphs/cycle-detection.cpp)
 - [Prim's Algorithm](Graphs/prim's_algorithm.cpp)
+- [Floyd Warshall](Graphs/floyd-warshall.cpp)
 
 ## Multiplication
 

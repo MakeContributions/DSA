@@ -19,7 +19,8 @@
 ## Sorting
 - [Bubble Sort](sorting/bubble-sort.go)
 - [Insertion Sort](sorting/insertion-sort.go)
-- [Quicksort](sorting/quicksort.go)
+- [Quick Sort](sorting/quicksort.go)
+- [Selection Sort](sorting/selection-sort.go)
 
 ## Recursion
 - [Fibonacci](recursion/fibonacci.go)

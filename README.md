@@ -119,14 +119,14 @@ The programming should keep the naming convention rule of each programming langu
 
 ## Reviewers
 
-| Programming Language | Users                                            |
-| -------------------- | ------------------------------------------------ |
-| C or C++             | @Arsenic-ATG, @UG-SEP, @aayushjain7, @Ashborn-SM |
-| Java                 | @TawfikYasser, @aayushjain7                      |
-| C#                   | @ming-tsai, @Waqar-107                           |
-| Go                   |                                                  |
-| Python               | @Arsenic-ATG, @sridhar-5                         |
-| JavaScript           | @ming-tsai                                       |
+| Programming Language | Users                                                       |
+| -------------------- | ----------------------------------------------------------- |
+| C or C++             | @Arsenic-ATG, @UG-SEP, @aayushjain7, @Ashborn-SM, @Ashad001 |
+| Java                 | @TawfikYasser, @aayushjain7                                 |
+| C#                   | @ming-tsai, @Waqar-107                                      |
+| Go                   | @ayo-ajayi                                                  |
+| Python               | @Arsenic-ATG, @sridhar-5                                    |
+| JavaScript           | @ming-tsai                                                  |
 
 ## Contributors
 
