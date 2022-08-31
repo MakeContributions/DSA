@@ -1,4 +1,4 @@
-# Bubble Sort
+# Ordenamiento de Burbuja
 
 Bubble Sort, también conocido como Sinking Sort, es el algoritmo de clasificación más simple. Intercambia los números si no están en el orden correcto. La complejidad del tiempo en el peor de los casos es O(n^2)
 
