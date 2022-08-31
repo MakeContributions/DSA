@@ -7,6 +7,7 @@
 - [Reverse an array](arrays/reverse-array.c)
 - [Maximum difference](arrays/maximum-difference.c)
 - [Largest Element](arrays/largestElement.c)
+- [Second Largest Element](arrays/secondLargestElement.c)
 - [Sieve of Eratosthenes](arrays/sieve-of-eratosthenes.c)
 
 ## Bit Manipulation

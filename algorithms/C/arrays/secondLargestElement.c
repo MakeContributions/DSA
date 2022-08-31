@@ -28,3 +28,11 @@ int main()
     second(arr,size);
     return 0;
 }
+
+/*
+----------------Sample Output----------------
+> 88 45
+
+Time Compexity: O(n)
+Space compexity: O(1)
+*/
