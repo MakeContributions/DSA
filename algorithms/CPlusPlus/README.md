@@ -30,6 +30,8 @@
 - [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
 - [Next permutation](Arrays/next-permutation.cpp)
 - [Maximum Minimum Average of numbers](Arrays/max-min-avg.cpp)
+- [Sparse Matrix](Arrays/sparse_matrix.cpp)
+
 
 ## Dynamic-Programming
 
