@@ -1,9 +1,9 @@
 # Algoritmos
 
 ## Ordenamiento
-- [Bubble Sort](./Ordenamiento/Bubble-Sort.md)
-- [Merge Sort](./Ordenamiento/Merge-Sort.md)
-- [Quick Sort](./Ordenamiento/Quick-Sort.md)
+- [Ordenamiento de burbuja](./Ordenamiento/Bubble-Sort.md)
+- [Ordenar por fusión](./Ordenamiento/Merge-Sort.md)
+- [Ordenación rápida](./Ordenamiento/Quick-Sort.md)
 
 ## Otro
 
