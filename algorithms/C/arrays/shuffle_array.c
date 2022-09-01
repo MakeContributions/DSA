@@ -1,5 +1,16 @@
 /*
+
 [PROBLEM]: Given an array, of size n, shuffle it.
+
+[TIME COMPLEXITY]: O(N)
+
+[SAMPLE OF OUTPUT]:
+
+Before shuffling:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+After shuffling:
+9 6 4 10 11 15 5 3 12 1 7 14 2 8 13 
+
 */
 
 #include <stdio.h>
@@ -16,7 +27,7 @@ void swap(int *a, int *b) // Swap values between *a and *b
 void shuffle(int *array, int size) // Randomly shuffles given array
 {
     for (int i = 0; i < size; i++) {
-        swap(array + i, array + (rand() % size));
+        swap(array + i, array + (rand() % size)); // Each element swaps with another random element
     }
 }
 
