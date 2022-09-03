@@ -30,6 +30,8 @@
 - [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
 - [Next permutation](Arrays/next-permutation.cpp)
 - [Maximum Minimum Average of numbers](Arrays/max-min-avg.cpp)
+- [Sparse Matrix](Arrays/sparse_matrix.cpp)
+
 
 ## Dynamic-Programming
 
@@ -51,6 +53,8 @@
 - [Connected Components](Graphs/total-connected-components.cpp)
 - [Dijkstra's Algorithm](Graphs/dijkstra.cpp)
 - [Cycle Detection](Graphs/cycle-detection.cpp)
+- [Prim's Algorithm](Graphs/prim's_algorithm.cpp)
+- [Floyd Warshall](Graphs/floyd-warshall.cpp)
 
 ## Multiplication
 
@@ -165,6 +169,7 @@
 - [Power of two](Maths/power-of-two.cpp)
 - [Small numbers](Maths/small-numbers.cpp)
 - [Segmented Sieve](Maths/segmented-sieve-range.cpp)
+- [Binary Power](Maths/binary-power.cpp)
 
 # Recursion
 
