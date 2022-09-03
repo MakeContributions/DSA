@@ -11,8 +11,15 @@
     Example 2 => Input: str1="aab", str2="xyz"
                  Output: 0
   */
-  import java.util.*;
-  public class main{
+/** 
+ * 
+ * Time Complexity: O(N)
+  Space Complexity: O(1)
+*/
+  
+  import java.util.Arrays;
+import java.util.Scanner;
+  public class isomorphic_strings{
     public static void main(String[] args){
         Scanner input=new Scanner(System.in);
         String str1=input.next();
