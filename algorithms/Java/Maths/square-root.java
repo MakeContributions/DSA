@@ -39,7 +39,7 @@ public class BinarySearchSQRT {
             incr /= 10; //here we increase the decimal point
         }
 
-        return root; //here we have root upto p decimal point
+        return root; //here we have root up to p decimal point
     }
 }
 
