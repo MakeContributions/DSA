@@ -5,6 +5,7 @@
 - [Even and Odd](arrays/even-and-odd.c)
 - [Unique Elements in an array](arrays/unique-elements-in-an-array.c)
 - [Reverse an array](arrays/reverse-array.c)
+- [Shuffle an array](arrays/shuffle_array.c)
 - [Maximum difference](arrays/maximum-difference.c)
 - [Largest Element](arrays/largestElement.c)
 - [Second Largest Element](arrays/secondLargestElement.c)
