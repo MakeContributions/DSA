@@ -88,6 +88,7 @@
 - [Boyer Moore Search](strings/Boyer_Moore.java)
 - [Reverse String](strings/reverse-string.java)
 - [First Non Repeating Character](strings/first-non-repeating-char.java)
+- [Isomorphic Strings](strings/isomorphic_strings.java)
 
 ## Trees
 
