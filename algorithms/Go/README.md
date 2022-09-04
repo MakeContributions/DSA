@@ -27,4 +27,5 @@
 
 ## String
 - [Palindrome Permutation](strings/palindrome-permutation.go)
+- [Anagram](strings/anagram.go)
 
