@@ -59,6 +59,7 @@
 - [Quick Sort](sorting/quick-sort.c)
 - [Shell Sort](sorting/shell-sort.c)
 - [Radix Sort](sorting/radix-sort.c)
+- [Bogo Sort](sorting/bogo-sort.c)
 
 ## Strings
 
