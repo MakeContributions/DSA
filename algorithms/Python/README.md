@@ -63,6 +63,7 @@
 - [Unique Character](strings/unique_character.py)
 - [Add String](strings/add_string.py)
 - [Rabin Karp algorithm](strings/rabin-karp-algorithm.py)
+- [Find all permutations](strings/find_all_permutations.py)
 
 ## Dynamic Programming
 - [Print Fibonacci Series Up To N-th Term](dynamic_programming/fibonacci_series.py)
