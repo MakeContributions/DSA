@@ -41,7 +41,7 @@ bool is_sorted(int *array, int size) // If array is sorted (by non-reduction) re
     return true;
 }
 
-void bogo_sort(int *array, int size) // Until array is sorted randobly shuffles an array.
+void bogo_sort(int *array, int size) // Until array is sorted randomly shuffles an array.
 {
     while (!is_sorted(array, size))
         shuffle(array, size);
