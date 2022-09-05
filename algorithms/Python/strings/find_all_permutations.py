@@ -1,9 +1,8 @@
 """
 Find all the permutations of a given string
-Sample inut: 'ABC'
+Sample input: 'ABC'
 Expected output: ['ABC', 'ACB', 'BAC', 'BCA', 'CAB', 'CBA']
-Desc: The algorithm is recursive. In each recursion, each element of the string (left) is removed and added to the beginning (head).
-      This process is repeated until left is empty.
+Description: The algorithm is recursive. In each recursion, each element of the string (left) is removed and added to the beginning (head). This process is repeated until left is empty.
 Time complexity: (n!)
 """
 
