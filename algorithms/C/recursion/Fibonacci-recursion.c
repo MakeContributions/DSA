@@ -20,3 +20,5 @@ int fibo(int x){
    }
    return fibo(x-1)+fibo(x-2);    //Recursive formula for printing the series
 }
+
+//Time Complexity of this program :-  (Golden Ratio)^n  i.e., (1.6180)^n  [Here n is the no. of terms]
