@@ -74,7 +74,6 @@
 - [Celebrity Problem](stacks/celebrity-problem.java)
 - [Sliding Window Maximum](stacks/sliding-window-maximum.java)
 - [Min Stack](stacks/Min-Stack.java)
-- [Next Greater Element](stacks/Next_Greater_Element.java)
 
 ## Strings
 
