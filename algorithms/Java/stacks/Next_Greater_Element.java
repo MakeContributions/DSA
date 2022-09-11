@@ -30,11 +30,24 @@ import java.util.Stack;
           for (int i=0;i<n;i++){
               arr[i]=input.nextLong();
           }
-          nextLargerElement(arr,n);
-      }
-      public static void nextLargerElement(long[] arr, int n)
+          long ans[]=nextLargerElement(arr,n);  // functions that print array for calculating next greater element
+          for (int i=0;i<ans.length;i++){
+            System.out.print(ans[i]+" ")
+          }
+    }
+      public static long[] nextLargerElement(long[] arr, int n)
       { 
           // Your code here
+
+        /****
+         * Approach: for element at index i,
+         * there were two posiibilities that there is greater element than this
+         * at right side of array or not.
+         * if there is no greater element in right side is indicated by Empty stack
+         * if there is greater ekement in right side is indicated by stack peek element.
+         */
+
+
           long ans[]=new long[n];
           ans[n-1]=-1;
           Stack<Long> st=new Stack<>();
@@ -60,9 +73,7 @@ import java.util.Stack;
                   st.push(arr[i]);
               }
           }
-          for (int i=0;i<n;i++){
-              System.out.print(arr[i]+" ");
-          }
+          return ans;
       } 
   }
   
