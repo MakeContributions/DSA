@@ -1,14 +1,25 @@
 package Trees.Left_Leaf_Sum;
 /*
- 				3
- 			 /	   \
- 			9       20
- 		            /    \
-                  15     8
+Input:-
+ 				 3
+ 			 /	 \
+ 			9     20
+ 		        /  \
+           15    8
                   
-       there are two left leaves(nodes which have no child) in the above tree and their sum is 24           
+Output:- 24
+
+Explanation:-there are two left leaves(nodes which have no child) in the above tree and their sum is 24
+
+Time Complexity:- O(N), where n is number of nodes in Binary Tree.
+
+
+Code Description:- A method isLeaf() is created to check if a node is leaf or not, is yes then add its
+left.data, if not then recursively go to its left and then its right.
+
 */
 
+//class to create Tree
 class TreeNode{
 	  int data;
 	  TreeNode left,right;
@@ -59,7 +70,6 @@ public class LeftLeafSum {
         }
         
         return leftLeavesSum;
-        
         
         
         
