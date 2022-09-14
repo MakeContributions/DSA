@@ -1,20 +1,19 @@
 package Trees.Left_Leaf_Sum;
 /*
 Input:-
- 				 3
- 			 /	 \
- 			9     20
- 		        /  \
-           15    8
-                  
+                    1
+		              /   \
+		            2      3
+		           / \    / \		
+              7   8  81  75  
 Output:- 24
 
-Explanation:-there are two left leaves(nodes which have no child) in the above tree and their sum is 24
+Explanation:-there are two left leaves(nodes which have no child) 7 and 81 respectively in the tree and their sum is 88
 
 Time Complexity:- O(N), where n is number of nodes in Binary Tree.
 
 
-Code Description:- A method isLeaf() is created to check if a node is leaf or not, is yes then add its
+Code Description:- A method isLeaf() which returns a boolean, is created to check if a node is leaf or not, is yes then add its
 left.data, if not then recursively go to its left and then its right.
 
 */
