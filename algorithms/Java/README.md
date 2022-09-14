@@ -100,7 +100,7 @@
 - [Zig-Zag Traversal of a Tree](trees/zig-zag-traversal.java)
 - [Min Heap](trees/MinHeap.java)
 - [Check Tree Traversal](trees/check-tree-traversal.java)
-- [Random Node of a binary tree](tree-random-node.java)
+- [Random Node of a binary tree](trees/tree-random-node.java)
 
 ## Backtracking
 
