@@ -101,6 +101,7 @@
 - [Min Heap](trees/MinHeap.java)
 - [Check Tree Traversal](trees/check-tree-traversal.java)
 - [Random Node of a binary tree](trees/tree-random-node.java)
+- [Left Leaf Sum of a Binary tree](trees/Left-Leaf-Sum.java)
 
 ## Backtracking
 
