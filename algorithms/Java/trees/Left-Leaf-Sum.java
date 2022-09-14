@@ -1,12 +1,12 @@
 package Trees.Left_Leaf_Sum;
 /*
 Input:-
-                    1
+                                1
 		              /   \
 		            2      3
 		           / \    / \		
-              7   8  81  75  
-Output:- 24
+                          7   8  81  75  
+Output:- 88
 
 Explanation:-there are two left leaves(nodes which have no child) 7 and 81 respectively in the tree and their sum is 88
 
