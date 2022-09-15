@@ -7,7 +7,7 @@
 // An example:
 // consider this max heap: [null, 47, 15, 35, 10, 3, 0, 25, 1].
 // The root node is the first element 47. its children are 15 and 35.
-// The general indxes formula for an element of index i are:
+// The general indexes formula for an element of index i are:
 // the parent is at: Math.floor(i / 2)
 // the left child is at:  i * 2
 // the right child is at:  i * 2  + 1
@@ -25,7 +25,7 @@ class MaxHeap {
   //  2. If the element is larger than its parent, switch them.
   //  3. Continue switching until the new element is either smaller than its parent or you reach the root of the tree.
 
-  insert = (value) => {
+  insert (value) {
     // add the new element to the end of the array
     this.heap.push(value);
     const place = (index) => {
@@ -55,7 +55,7 @@ class MaxHeap {
   // 2. If either child of the root is greater than it, swap the root with the child of greater value.
   // 3. Continue swapping until the parent is greater than both children or you reach the last level in the tree.
 
-  remove = () => {
+  remove () {
     //save the root value element because this method will return it
     const removed = this.heap[1];
     // the last element of the array is moved to the root position
@@ -94,7 +94,7 @@ class MaxHeap {
         place(newIndex);
       }
     };
-    // start tests from the begining of the array
+    // start tests from the beginning of the array
     place(1);
     return removed;
   };
@@ -102,7 +102,7 @@ class MaxHeap {
   // Sort an array using a max heap
   // the elements of the array to sort were previously added one by one to the heap using the insert method
   // the sorted array is the result of removing the heap's elements one by one using the remove method until it is empty
-  sort = () => {
+  sort ()  {
     let arr = [];
     while (this.heap.length > 1) {
       arr.push(this.remove());
@@ -110,7 +110,7 @@ class MaxHeap {
     return arr;
   };
   // Verify the heap property of a given max heap
-  verifyHeap = () => {
+  verifyHeap ()  {
     const explore = (index) => {
       if (index === this.heap.length - 1) return true;
       const child1Index = 2 * index;
