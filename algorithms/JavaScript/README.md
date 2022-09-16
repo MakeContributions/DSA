@@ -47,4 +47,4 @@
 
 ## Heaps
 
-- [Max Heap] (src/heaps/max-heap.js)
+- [Max Heap](src/heaps/max-heap.js)
