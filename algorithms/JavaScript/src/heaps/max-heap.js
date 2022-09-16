@@ -45,7 +45,7 @@ class MaxHeap {
   };
 
   // Print heap content method
-  print = () => {
+  print () {
     return this.heap;
   };
 
