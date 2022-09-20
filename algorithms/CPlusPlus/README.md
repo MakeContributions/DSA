@@ -38,6 +38,7 @@
 - [0/1-knapsack](Dynamic-Programming/01-knapsack.cpp)
 - [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
 - [Edit Distance](Dynamic-Programming/edit-distance.cpp)
+- [Rod Cutting](Dynamic-Programming/rod-cutting.cpp)
 
 ## Graphs
 
@@ -181,3 +182,7 @@
 - [Product of two numbers](Recursion\product-of-numbers.cpp)
 - [Product of digits in a number](Recursion\product-of-digits.cpp)
 - [Linear search using recursion](Recursion/linear-search.cpp)
+
+## Geometry
+- [Convex Hull](Geometry/convex-hull.cpp)
+
