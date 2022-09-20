@@ -1,7 +1,47 @@
 /** C implementation for
 	Red-Black Tree Insertion
 	This code is provided by
-	costheta_z **/
+	pyagnik1 **/
+
+/**
+ 
+ Time Complexity
+
+ Search O(log n)
+ Insert O(log n)
+ Delete O(log n)
+ 
+ **/
+
+/**
+ Description:
+
+    Most BST oprations take O(height) time.
+    The cost of thses oprations may become
+    O(n) for skewed BST. Red Black Tree makes
+    sure that the hight is always log n.
+
+
+ Rules of Red Black Tree:
+
+ 1. Every node has a color.
+
+ 2. The root of the tree is always black
+
+ 3. There are no two adjacent red nodes.
+    Meaning, A red node can not have red 
+    parent or red child.
+
+4.  Every path from any given node (including 
+    root) to NULL nodes must have same number
+    of black nodes.
+
+5. All leaf nodes are black nodes.
+ 
+
+ * */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
