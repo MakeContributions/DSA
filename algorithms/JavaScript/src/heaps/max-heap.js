@@ -1,8 +1,11 @@
 
-// A binary heap is a partially ordered binary tree which satisfies the heap property.
+// A binary heap is a partially ordered binary tree
+// that satisfies the heap property.
 // The heap property specifies a relationship between parent and child nodes.
-// In a max heap, all parent nodes are greater than or equal to their child nodes.
-// Heaps are reprensented using arrays because it is faster to determine elements position and it needs
+// In a max heap, all parent nodes are greater than
+// or equal to their child nodes.
+// Heaps are represented using arrays because
+// it is faster to determine elements position and it needs
 // less memory space as we don't need to maintain references to child nodes.
 // An example:
 // consider this max heap: [null, 47, 15, 35, 10, 3, 0, 25, 1].
@@ -23,16 +26,17 @@ class MaxHeap {
   // this is a recursive method, the algorithm is:
   //  1. Add the new element to the end of the array.
   //  2. If the element is larger than its parent, switch them.
-  //  3. Continue switching until the new element is either smaller than its parent or you reach the root of the tree.
+  //  3. Continue switching until the new element is either
+  // smaller than its parent or you reach the root of the tree.
 
-  insert (value) {
+  insert(value) {
     // add the new element to the end of the array
     this.heap.push(value);
     const place = (index) => {
       const parentIndex = Math.floor(index / 2);
       if (parentIndex <= 0) return;
       if (this.heap[index] > this.heap[parentIndex]) {
-        //the switch is made here
+        // the switch is made here
         [this.heap[parentIndex], this.heap[index]] = [
           this.heap[index],
           this.heap[parentIndex],
@@ -45,18 +49,21 @@ class MaxHeap {
   };
 
   // Print heap content method
-  print () {
+  print() {
     return this.heap;
   };
 
-  // Remove an the element of the heap
-  // it's also a recursive method, the algorithm will reestablish the heap property after removing the root:
+  // Remove an element from the heap
+  // it's also a recursive method, the algorithm will reestablish
+  // the heap property after removing the root:
   // 1. Move the last element in the heap into the root position.
-  // 2. If either child of the root is greater than it, swap the root with the child of greater value.
-  // 3. Continue swapping until the parent is greater than both children or you reach the last level in the tree.
+  // 2. If either child of the root is greater than it,
+  // swap the root with the child of greater value.
+  // 3. Continue swapping until the parent is greater than both
+  // children or you reach the last level in the tree.
 
-  remove () {
-    //save the root value element because this method will return it
+  remove() {
+    // save the root value element because this method will return it
     const removed = this.heap[1];
     // the last element of the array is moved to the root position
     this.heap[1] = this.heap[this.heap.length - 1];
@@ -70,7 +77,7 @@ class MaxHeap {
       const child1 = this.heap[child1Index];
       const child2 = this.heap[child2Index];
       let newIndex = index;
-      // if the parent is greater the its both children so the heap property is respected
+      // if the parent is greater than its two children then the heap property is respected
       if (
         (!isDefined(child1) || this.heap[newIndex] >= child1) &&
         (!isDefined(child2) || this.heap[newIndex] >= child2)
@@ -102,7 +109,7 @@ class MaxHeap {
   // Sort an array using a max heap
   // the elements of the array to sort were previously added one by one to the heap using the insert method
   // the sorted array is the result of removing the heap's elements one by one using the remove method until it is empty
-  sort ()  {
+  sort() {
     let arr = [];
     while (this.heap.length > 1) {
       arr.push(this.remove());
@@ -110,7 +117,7 @@ class MaxHeap {
     return arr;
   };
   // Verify the heap property of a given max heap
-  verifyHeap ()  {
+  verifyHeap() {
     const explore = (index) => {
       if (index === this.heap.length - 1) return true;
       const child1Index = 2 * index;
@@ -137,9 +144,9 @@ test.insert(35);
 test.insert(25);
 test.insert(47);
 test.insert(15);
-//display heap elements
+// display heap elements
 console.log(test.print());
-//verify heap property
+// verify heap property
 console.log(test.verifyHeap());
-//display the sorted array 
+// display the sorted array 
 console.log(test.sort());
