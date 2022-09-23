@@ -77,7 +77,8 @@ class MaxHeap {
       const child1 = this.heap[child1Index];
       const child2 = this.heap[child2Index];
       let newIndex = index;
-      // if the parent is greater than its two children then the heap property is respected
+      // if the parent is greater than its two children
+      // then the heap property is respected
       if (
         (!isDefined(child1) || this.heap[newIndex] >= child1) &&
         (!isDefined(child2) || this.heap[newIndex] >= child2)
@@ -107,10 +108,12 @@ class MaxHeap {
   };
 
   // Sort an array using a max heap
-  // the elements of the array to sort were previously added one by one to the heap using the insert method
-  // the sorted array is the result of removing the heap's elements one by one using the remove method until it is empty
+  // the elements of the array to sort were previously added one by one
+  // to the heap using the insert method
+  // the sorted array is the result of removing the heap's elements one by one
+  // using the remove method until it is empty
   sort() {
-    let arr = [];
+    const arr = [];
     while (this.heap.length > 1) {
       arr.push(this.remove());
     }
@@ -148,5 +151,5 @@ test.insert(15);
 console.log(test.print());
 // verify heap property
 console.log(test.verifyHeap());
-// display the sorted array 
+// display the sorted array
 console.log(test.sort());
