@@ -182,3 +182,7 @@
 - [Product of two numbers](Recursion\product-of-numbers.cpp)
 - [Product of digits in a number](Recursion\product-of-digits.cpp)
 - [Linear search using recursion](Recursion/linear-search.cpp)
+
+# Geometry
+
+- [Convex hull Problem](Geometry/convex-hull.cpp)
