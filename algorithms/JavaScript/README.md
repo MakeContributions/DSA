@@ -44,3 +44,7 @@
 ## Recursion
 
 - [Factorial](src/recursion/factorial.js)
+
+## Heaps
+
+- [Max Heap](src/heaps/max-heap.js)
