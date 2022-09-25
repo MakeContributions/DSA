@@ -34,6 +34,7 @@
 - [Nth Geek Onacci Number](Maths/nth-geek-onacci-number.java)
 - [Random Node in Linked List](Maths/algorithms_random_node.java)
 - [Square Root using BinarySearch](Maths/square-root.java)
+- [Roman Numerals Conversion](Maths/roman-numerals.java)
 
 ## Queues
 
