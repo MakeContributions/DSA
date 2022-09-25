@@ -4,6 +4,12 @@ require('./arrays/counting-inversions');
 // Linked Lists
 require('./linked-lists/singly');
 
+// Maths
+require('./maths/fibonacci-series');
+
+// Recursion
+require('./recursion/factorial');
+
 // Searching
 require('./searching/binary-search-recursive');
 require('./searching/binary-search');
@@ -22,7 +28,7 @@ require('./strings/sequence');
 
 // Stack
 require('./stacks/stack');
-require('./stacks/two-stack')
+require('./stacks/two-stack');
 
 // Queue
 require('./queues/queue');

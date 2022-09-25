@@ -5,11 +5,15 @@
 - [Majority Element](arrays/majority_element.py)
 - [Rotate Array](arrays/rotate_array.py)
 - [Missing Number](arrays/missing_number.py)
+- [Remove duplicate items](arrays/remove_duplicates_list.py)
+- [Dutch National Flag Algorithm](arrays/dutch_national_flag_algo.py)
 
 ## Linked Lists
 - [Doubly](linked_lists/doubly.py)
 - [Singly](linked_lists/singly.py)
 - [Reverse List](linked_lists/reverse-linkedlist.py)
+- [Middle Node](linked_lists/middle-node-linkedlist.py)
+
 
 ## Dictionaries
 - [Two Sum](dictionaries/two-sum.py)
@@ -21,6 +25,9 @@
 - [Factorial](recursion/factorial.py)
 - [n-th Fibonacci number](recursion/nth_fibonacci_number.py)
 - [Recursive Insertion Sort](recursion/recursive_insertion_sort.py)
+- [Recursive Sum of n numbers](recursion/recursive-sum-of-n-numbers.py)
+- [GCD by Euclid's Algorithm](recursion/gcd_using_recursion.py)
+
 
 ## Scheduling
 - [Interval Scheduling](scheduling/interval_scheduling.py)
@@ -31,6 +38,8 @@
 - [Linear Search](searching/linear_search.py)
 - [Ternary Search](searching/ternary_search.py)
 - [Interpolation Search](searching/interpolation_search.py)
+- [Uniform Cost Search](searching/uniform_cost_search.py)
+- [Breath First Search](searching/breadth-first-search.py)
 
 ## Sorting
 - [Bubble Sort](sorting/bubble_sort.py)
@@ -53,6 +62,8 @@
 - [Longest Common Subsequence](strings/longest_common_subsequence.py)
 - [Unique Character](strings/unique_character.py)
 - [Add String](strings/add_string.py)
+- [Rabin Karp algorithm](strings/rabin-karp-algorithm.py)
+- [Find all permutations](strings/find_all_permutations.py)
 
 ## Dynamic Programming
 - [Print Fibonacci Series Up To N-th Term](dynamic_programming/fibonacci_series.py)
@@ -60,11 +71,19 @@
 - [N-th Term Of Fibonacci Series](dynamic_programming/fibonacci_series_nth_term.py)
 - [Catalan Sequence](dynamic_programming/catalan_sequence.py)
 - [0/1 Knapsack Problem](dynamic_programming/knapsack.py)
+- [Levenshtein distance](dynamic_programming/levenshtein_distance.py)
 
 ## Graphs
 - [Simple Graph](graphs/graph.py)
+- [BFS SEQUENCE](graphs/bfs-sequence.py)
+- [Depth First Search](graphs/depth-first-search.py)
 
 ## Trees
 - [Binary Tree](trees/binary_tree.py)
 - [Binary Search Tree](trees/binary_search_tree.py)
 
+## Queues
+- [First in First out Queue](queues/fifo-queue.py)
+
+## Number Theory
+- [Prime Number Checker](number_theory/prime_number.py)

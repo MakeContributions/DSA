@@ -30,6 +30,8 @@
 - [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
 - [Next permutation](Arrays/next-permutation.cpp)
 - [Maximum Minimum Average of numbers](Arrays/max-min-avg.cpp)
+- [Sparse Matrix](Arrays/sparse_matrix.cpp)
+
 
 ## Dynamic-Programming
 
@@ -38,7 +40,7 @@
 - [0/1-knapsack](Dynamic-Programming/01-knapsack.cpp)
 - [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
 - [Edit Distance](Dynamic-Programming/edit-distance.cpp)
-- [Rod Cutting problem](Dynamic-Programming/rod-cutting.cpp)
+
 
 ## Graphs
 
@@ -50,6 +52,9 @@
 - [Dfs traversal with recursion](Graphs/dfs-traversal.cpp)
 - [Connected Components](Graphs/total-connected-components.cpp)
 - [Dijkstra's Algorithm](Graphs/dijkstra.cpp)
+- [Cycle Detection](Graphs/cycle-detection.cpp)
+- [Prim's Algorithm](Graphs/prim's_algorithm.cpp)
+- [Floyd Warshall](Graphs/floyd-warshall.cpp)
 
 ## Multiplication
 
@@ -89,6 +94,7 @@
 - [Stack using Array](Stacks/stack-using-array.cpp)
 - [Infix to postfix expression conversion](Stacks/infix-to-postfix.cpp)
 - [Stock Span Problem using Stacks](Stacks/stock-span-problem.cpp)
+- [Prefix to Postfix expression conversion](Stacks/prefix_to_postfix.cpp)
 
 ## Sorting
 
@@ -138,6 +144,8 @@
 - [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
 - [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
 - [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
+- [Print all nodes at level k](Trees/print-all-nodes-at-a-level.cpp)
+- [Sum of right leaves](Trees/sum-of-right-leaves.cpp)
 
 ## Trie
 
@@ -161,6 +169,7 @@
 - [Power of two](Maths/power-of-two.cpp)
 - [Small numbers](Maths/small-numbers.cpp)
 - [Segmented Sieve](Maths/segmented-sieve-range.cpp)
+- [Binary Power](Maths/binary-power.cpp)
 
 # Recursion
 
@@ -183,6 +192,11 @@
 - [Product of digits in a number](Recursion\product-of-digits.cpp)
 - [Linear search using recursion](Recursion/linear-search.cpp)
 
-# Geometry
+
+## Geometry
 
 - [Convex hull Problem](Geometry/convex-hull.cpp)
+
+
+
+
