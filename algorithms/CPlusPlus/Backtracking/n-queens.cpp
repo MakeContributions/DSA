@@ -71,7 +71,7 @@ void queen(int n)
 
 int main()
 {
-    int n;
+    unsigned int n;
     cin >> n;
     if (n < 15)
         queen(n);
