@@ -54,6 +54,7 @@
 - [Allocate minimum number of pages](searching/allocate-min-pages.java)
 - [Exponential Search](searching/Exponential-search.java)
 - [Interpolation Search](searching/interpolation-search.java)
+- [Ternery Search](searching/ternery-search.java)
 
 ## Sorting
 
