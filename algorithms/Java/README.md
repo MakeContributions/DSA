@@ -16,6 +16,8 @@
 ## Graphs
 
 - [Dijkstras](graphs/Dijkstras.java)
+- [BFS](graphs/breadth_first_search.java)
+- [DFS](graphs/depth_first_search.java)
 
 ## Linked Lists
 
