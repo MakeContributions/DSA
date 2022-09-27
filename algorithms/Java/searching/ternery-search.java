@@ -9,7 +9,7 @@ class main {
     // Time Complexity: O(log3n)
     // Auxiliary Space: O(log3n)
   
-    static int ternarySearch(int l, int r, int key, int ar[])
+    static int ternarySearchRecursive(int l, int r, int key, int ar[])
   
     {
         while (r >= l) {
@@ -57,7 +57,7 @@ class main {
      // Time Complexity: O(log3n), where n is the size of the array.
      // Auxiliary Space: O(1)
   
-    static int ternarySearch(int l, int r, int key, int ar[])
+    static int ternarySearchIterative(int l, int r, int key, int ar[])
   
     {
         while (r >= l) {
