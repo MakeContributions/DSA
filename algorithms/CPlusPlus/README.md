@@ -31,6 +31,7 @@
 - [Next permutation](Arrays/next-permutation.cpp)
 - [Maximum Minimum Average of numbers](Arrays/max-min-avg.cpp)
 - [Sparse Matrix](Arrays/sparse_matrix.cpp)
+- [Sliding Window](Arrays/sliding-window.cpp)
 
 
 ## Dynamic-Programming
