@@ -123,7 +123,7 @@ class main {
         key = 5;
   
         // Search the key using ternarySearch
-        p = ternarySearch(l, r, key, ar);
+        p = ternarySearchRecursive(l, r, key, ar);
   
         // Print the result
         System.out.println("Index of " + key + " is " + p);
@@ -134,7 +134,7 @@ class main {
         key = 50;
   
         // Search the key using ternarySearch
-        p = ternarySearch(l, r, key, ar);
+        p = ternarySearchIterative(l, r, key, ar);
   
         // Print the result
         System.out.println("Index of " + key + " is " + p);
