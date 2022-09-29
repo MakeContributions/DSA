@@ -206,3 +206,5 @@
 ## Backtracking
 
 - [N-Queens Problem](Backtracking/n-queens.cpp)
+- [Count N-Queens](Backtracking/count-n-queens.cpp)
+- [K-Knights Problem](Backtracking/k-knights.cpp)
