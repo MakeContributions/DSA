@@ -10,6 +10,7 @@
 - Input | Output
 - 12    | It is not a Prime number
 - 31    | It is a Prime number
+- Time Complexity -> O(n/2)
 */
 #include<stdio.h>
 int is_prime(int n){
