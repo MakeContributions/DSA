@@ -17,6 +17,7 @@ import java.util.HashMap;
  *
  * Description:
  *      There are seven basic different symbols to represent roman numerals: I, V, X, L, C, D and M.
+ *      Those being:
  *           Symbol       Value
  *           I             1
  *           V             5
