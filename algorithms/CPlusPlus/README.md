@@ -203,3 +203,6 @@
 - [Decimal To Octal](Number-system/decimal_to_octal.cpp)
 - [Octal To Decimal](Number-system/octal_to_decimal.cpp)
 
+## Backtracking
+
+- [N-Queens Problem](Backtracking/n-queens.cpp)
