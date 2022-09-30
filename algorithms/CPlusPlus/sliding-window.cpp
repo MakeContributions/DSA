@@ -14,8 +14,8 @@ Time complexity: O(n)
 using namespace std;
 
 void sliding(string s,string target){
-    int window_size=5;
-    
+    int window_size=target.size();
+    bool notfound=true;
     for(int i=0;i<s.size();i++){
         
         string value = s.substr(i,window_size);
@@ -24,11 +24,13 @@ void sliding(string s,string target){
             cout<<target<<" found at "<<i<<" and "<<i+window_size<<endl;
         }
     }
+    if(notfound)
+        cout<<"Target Not found";
 }
 
 void sliding_with_variable_length(string s,string target,int wins){
     int window_size=wins;
-    
+    bool notfound=true;
     for(int i=0;i<s.size();i++){
         
         string value = s.substr(i,window_size);
@@ -37,6 +39,8 @@ void sliding_with_variable_length(string s,string target,int wins){
             cout<<target<<" found at "<<i<<" and "<<i+window_size<<endl;
         }
     }
+    if(notfound)
+        cout<<"Target Not found";
 }
 
 
@@ -46,10 +50,9 @@ int main() {
     sliding(s,target);
     
     int wins;
-    cout<<"\nenter the size of window:";
-    cin>>wins;
     cout<<"\nenter the target string:";
     cin>>target;
+    wins = target.size();
     sliding_with_variable_length(s,target,wins);
     
     return 0;
