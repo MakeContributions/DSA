@@ -31,6 +31,7 @@
 
 ## Scheduling
 - [Interval Scheduling](scheduling/interval_scheduling.py)
+- [FCFS](scheduling/fcfs.py)
 
 ## Searching
 - [Binary Search](searching/binary_search.py)
