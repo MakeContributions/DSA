@@ -1,4 +1,15 @@
 // Algorithm to insert a new element in an array representation of a max heap
+// time complexity of this algorithm is O(log n)
+
+
+/*
+Description of the algorithm:
+    Visualise the heap as a complete binary tree
+    Add the new element at the end of the binary tree (first empty leaf)
+    This maintains the condition of a complete binary tree
+        but the heap is no longer a max heap
+    Push the new element upwards in the binary tree till it takes the form of a max heap
+*/
 
 #include <bits/stdc++.h>
 
