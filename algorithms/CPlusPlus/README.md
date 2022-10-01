@@ -156,7 +156,7 @@
 - [Kaprekar Number](Maths/Kaprekar-number.cpp)
 - [Prime Number](Maths/prime-check.cpp)
 - [Prime Sieve](Maths/prime-sieve.cpp)
-- [Fibonacci Series](Maths/fibonaccci-series.cpp)
+- [Fibonacci Series](Maths/fibonacci-series.cpp)
 - [Binomial Coefficient](Maths/binomial-coefficient.cpp)
 - [Armstrong Number](Maths/armstrong.cpp)
 - [Palindrome](Maths/palindrome.cpp)
