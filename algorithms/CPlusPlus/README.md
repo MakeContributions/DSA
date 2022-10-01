@@ -206,3 +206,7 @@
 ## Backtracking
 
 - [N-Queens Problem](Backtracking/n-queens.cpp)
+
+## Bit Manipulation
+
+- [Print all subsets of an array](Bit-Manipulation/print-all-subsets.cpp)
