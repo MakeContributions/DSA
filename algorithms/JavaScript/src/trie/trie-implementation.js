@@ -1,3 +1,25 @@
+/*
+A trie (pronounced as "try") or prefix tree is a tree data structure used to efficiently store and retrieve keys in a dataset of strings. 
+There are various applications of this data structure, such as autocomplete and spellchecker.
+
+
+
+OPERATION	AVERAGE CASE	WORST CASE	BEST CASE
+---------   ------------    ----------  ---------
+Insertion	O(N)	            O(N)	O(N)
+Deletion	O(N)	            O(N)	O(N)
+Searching	O(N)	            O(N)	O(1)
+
+Space complexity for creation of a trie: O(alphabet_size * average key length * N)
+*/
+
+
+/*
+Create a node that will have two properties — 
+one is the hash map for storing children.
+the other one is for keeping track of the end of the word.
+*/
+
 class Node {
     constructor() {
         this.children = {};
