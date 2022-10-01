@@ -31,7 +31,7 @@
 - [Next permutation](Arrays/next-permutation.cpp)
 - [Maximum Minimum Average of numbers](Arrays/max-min-avg.cpp)
 - [Sparse Matrix](Arrays/sparse_matrix.cpp)
-- [Sliding Window](Arrays/sliding-window.cpp)
+
 
 
 ## Dynamic-Programming
@@ -129,6 +129,7 @@
 - [Boyer Moore pattern search](Strings/Boyer_Moore.cpp)
 - [Longest common prefix](Strings/longest-common-prefix.cpp)
 - [First unique character in the string](Strings/first-unique-character.cpp)
+- [Sliding Window to match target string](Strings/sliding-window.cpp)
 
 ## Trees
 
