@@ -48,3 +48,7 @@
 ## Heaps
 
 - [Max Heap](src/heaps/max-heap.js)
+
+## Trie
+
+- [Trie Implementation](src/trie/trie-implementation.js)
