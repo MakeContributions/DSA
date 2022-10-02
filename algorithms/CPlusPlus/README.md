@@ -69,6 +69,7 @@
 - [Removing Elements of given value](Linked-Lists/remove-specific-elements.cpp)
 - [Reversing a linked lists](Linked-Lists/reverse.cpp)
 - [Merging two sorted linked lists](Linked-Lists/merge.cpp)
+- [Merge k sorted linked lists](Linked-Lists/merge-k-sorted-linked-lists.cpp)
 - [Reorder List](Linked-Lists/Reorder-List.cpp)
 - [Detecting cycle in a singly linked list](Linked-Lists/Cycle-Detection.cpp)
 - [Find Merge Point of two singly linked list](Linked-Lists/Find-Merge-Point.cpp)
