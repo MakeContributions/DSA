@@ -29,6 +29,9 @@ Then again traverse the substitute array starting from index 1 to N.
 If you find any index value greater than 1 that is repeating element A.
 If you find any index value = 0 then that is the missing element B.
 
+Time Complexity: O(N)
+Space Complexity: O(N)
+
 */
 
 #include <bits/stdc++.h>
