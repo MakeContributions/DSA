@@ -102,7 +102,7 @@ Now, let us create the three-nod linked list as an example. One way to create th
 ## Implementation
 
 - [C](../../../algorithms/C/linked-lists/Add-Element-at-Nth-Position-SinglyLinkedList.c)
-- <img width="600" alt="Screenshot 2022-10-02 at 5 35 23 PM" src="https://user-images.githubusercontent.com/71429098/193454974-2853b9ad-164c-4e3c-bad3-04a726c99cff.png">
+    <img width="600" alt="Screenshot 2022-10-02 at 5 35 23 PM" src="https://user-images.githubusercontent.com/71429098/193454974-2853b9ad-164c-4e3c-bad3-04a726c99cff.png">
 
 
 ## Video URL
