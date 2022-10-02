@@ -22,7 +22,7 @@ int main() {
     cin >> num; //Taking input from the user
     string result;
     result = isOddBin(num) ? "Odd" : "Even"; //Evaluating string based on result from isOdd function
-    cout << result; //Printing result
+    cout << result<<endl; //Printing result
     result = isOddN(num) ? "Odd" : "Even"; //Evaluating string based on result from isOdd function
     cout << result; //Printing result
     //Ex : num = 11 , result will print "Odd"
