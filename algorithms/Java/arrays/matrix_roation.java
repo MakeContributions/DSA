@@ -1,4 +1,5 @@
-/*
+/* TIme Complexity :O(n2)
+    Space Complexity:O(1) -inplace
  * clockwise rotate
  * first reverse up to down, then swap the symmetry 
  * 1 2 3     7 8 9     7 4 1
