@@ -38,34 +38,52 @@ The sum of lists[i].length will not exceed 104.
 
 */
 
+/* Algorithm Explained with Complexity
+During 1st iteration, we merge two lists(every list is N) into one, this will make K down to K / 2.
+
+During 2nd iteration, we merge two lists(every list is 2N) into one, this will make K / 2 down to k /4.
+
+During 3rd iteration, we merge two lists(every list is 4N) into one, this will make K / 4 down to k /8.
+
+And so forth...
+
+I think when we merge two lists, the complexity is O(list1.length) + O(list2.length).
+
+So the total complexity is:
+
+(2N) * (K / 2) + 
+(4N) * (K / 4) + 
+(8N) * (K / 8) + 
+.............. + 
+(2^logK*N) * (K / (2 ^logK)) 
+
+= logK*KN
+*/
 
 
 
-ListNode* mergeLists(ListNode* a, ListNode* b){
-        if(a == NULL)   return b;
-        if(b == NULL)   return a;
-        ListNode* temp = new ListNode(0);
-        ListNode* res = temp;
-        while(a!=NULL && b!=NULL){
-            if(a->val < b->val){
-                temp->next=a;
-                a=a->next;
-                temp=temp->next;
-            }
-            else{
-                temp->next=b;
-                b=b->next;
-                temp=temp->next;
-            }
+
+ListNode *mergeTwoLists(ListNode* l1, ListNode* l2) {
+        if (NULL == l1) return l2;
+        else if (NULL == l2) return l1;
+        if (l1->val <= l2->val) {
+            l1->next = mergeTwoLists(l1->next, l2);
+            return l1;
         }
-        if(a)   temp->next = a;
-        if(b)   temp->next = b;
-        return res->next;
+        else {
+            l2->next = mergeTwoLists(l1, l2->next);
+            return l2;
+        }
     }
-    ListNode* mergeKLists(vector<ListNode*>& lists) {
-        if(lists.size()==0) return NULL;
-        for(int i=lists.size()-1;i>0;i--){
-            lists[i-1] = mergeLists(lists[i-1],lists[i]);
+    ListNode *mergeKLists(vector<ListNode *> &lists) {
+        if (lists.empty()) return NULL;
+        int len = lists.size();
+        while (len > 1) {
+            for (int i = 0; i < len / 2; ++i) {
+                lists[i] = mergeTwoLists(lists[i], lists[len - 1 - i]);
+            }
+            len = (len + 1) / 2;
         }
-        return lists[0];
+        
+        return lists.front();
     }
