@@ -10,7 +10,7 @@ import java.util.HashMap;
  * ----------------------------------------------------------------------------------------------------------------
  *
  * Constraints:
- *      The input sting should contain only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
+ *      The input string should contain only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
  *      It is guaranteed that the input is a valid roman numeral in the range [1, 3999].
  *
  * ----------------------------------------------------------------------------------------------------------------
