@@ -44,7 +44,7 @@
 - [Fibonacci](Dynamic-Programming/fibonacci.cpp)
 
 ## Graphs
-
+- [A* Algoirthm](Graphs/a-star.cpp)
 - [Bellman Ford Algorithm](Graphs/bellman-ford.cpp)
 - [kruskal Algorithm](Graphs/kruskal-algorithm.cpp)
 - [Breadth First Search](Graphs/breadth-first-search.cpp)
