@@ -1,4 +1,4 @@
-// Matrix Chain Multiplicatin - Memorization-Approuch
+// Matrix Chain Multiplicatin - Memoization-Approach
 
 #include <bits/stdc++.h>
 using namespace std;
