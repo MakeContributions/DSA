@@ -1,4 +1,39 @@
 //This file will represent the a_star algorithm, using nodes and length of 1 for the edges
+/*
+------------- How It Works ------------------
+Starting at the end start node begin to create a path to the end node.
+This occurs by setting every nodes positon (x, y) on the graph in addition to if it's an obstacle
+After setting up all the nodes add the start node to a list of nodes that need to be checked making it visited.
+Then go through the list of nodes with a repeated process for each one, First sort the list of nodes by global value(I'll explain in one second)
+Next, check to see if it's neighbors have been visited. If it hasn't been visited and isn't an obstacle then add it to the list.
+
+After being added to the list we will determine two values, a local and global, the local is always the current node's local
+plus the distance between nodes in this format it is 1, if that local is less than the neighbor's local value then it will become the
+neighbor's local value. Additionally because the current node's local value is less than the neighbor's, the neighbor's parent node will
+become the current node. These details are important when finding the shortest path, this neighbor node then gets a global value equal to the heuristic.
+The heuristic is a guess from this neighbor node to the ending node, using the pythagorem theorm. 
+
+This process will then repeat until either the nodes to check list is empty or we find the end node, technically to find the maximum shortest path
+the user could ignore finding the end node, but this would then cost more time and slightly more resources.
+
+------------- How It Works ------------------
+
+-------------Inputs---------------------
+During this example the nodes lay on a 64 x 32 grid as it is the easiest way to use this algorithm, but each of the nodes have already been determined.
+Therefore, this algorithm requires two things, the end and start nodes, specifically their positions.
+As a bonus you can also add some obstacle nodes to change and observe the path
+-------------Inputs---------------------
+
+-------------Time and Space------------
+Where e = edges, v = vertices
+
+Time: O(e)
+Space: O(v)
+
+-------------Time and Space------------
+
+*/
+
 //List of Standard Libraries Needed
 #include <iostream>
 #include <utility>
