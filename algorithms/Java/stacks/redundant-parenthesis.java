@@ -1,4 +1,4 @@
-// Problem statement
+// PROBLEM STATEMENT
 
 /*
 Given a string of balanced expression, find if it contains a redundant parenthesis or not. 
@@ -14,7 +14,26 @@ brackets
 */
 
 
-// Solution
+// APPROACH
+
+/*
+We will use stack as a data structure to solve this problem.
+
+1. We iterate through the given expression and for each character in the expression, if the character is an open parenthesis ‘(‘ or any operators, we push it to the stack.
+2. If the character is close parenthesis ‘)’, then pop characters from the stack till matching open parenthesis ‘(‘ is found.
+   For any sub-expression of expression, if we are able to pick any sub-expression of expression surrounded by (), then we again left with () as part of string, we have redundant braces.
+   We iterate through the given expression and for each character in the expression, if the character is an open parenthesis ‘(‘ or any of the operators or operands, we push it to the stack. If the character is close parenthesis ‘)’, then pop characters from the stack till matching open parenthesis ‘(‘ is found.
+   Now for redundancy two condition will arise while popping-
+3. If immediate pop hits an open parenthesis ‘(‘, then we have found a duplicate parenthesis. For example, (((a+b))+c) has duplicate brackets around a+b. When we reach the second “)” after a+b, we have “((” in the stack. Since the top of stack is an opening bracket, we conclude that there are duplicate brackets.
+4. If immediate pop doesn’t hit any operand(‘*’, ‘+’, ‘/’, ‘-‘) then it indicates the presence of unwanted brackets surrounded by expression. For instance, (a)+b contain unwanted () around a thus it is redundant.
+
+*/
+
+// Time Complexity - O(N)
+// Space Complexity - O(N)
+
+
+// SOLUTION
 
 import java.util.Stack;
 
