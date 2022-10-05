@@ -33,6 +33,7 @@
 - [Sparse Matrix](Arrays/sparse_matrix.cpp)
 
 
+
 ## Dynamic-Programming
 
 - [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
@@ -128,6 +129,7 @@
 - [Boyer Moore pattern search](Strings/Boyer_Moore.cpp)
 - [Longest common prefix](Strings/longest-common-prefix.cpp)
 - [First unique character in the string](Strings/first-unique-character.cpp)
+- [Sliding Window to match target string](Strings/sliding-window.cpp)
 
 ## Trees
 
