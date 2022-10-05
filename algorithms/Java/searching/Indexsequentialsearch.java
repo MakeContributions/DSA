@@ -1,4 +1,3 @@
-@@ -0,0 +1,57 @@
 import java.util.*;
 public class Indexsequential  {
     public static void main(String[] args) {
