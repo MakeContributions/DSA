@@ -153,6 +153,10 @@
 
 - [Trie for searching](Trie/trie_search.cpp)
 
+## Segment Tree
+
+- [Segment Tree Implementation](Segment-Tree/Segment_Tree.cpp)
+
 # Maths
 
 - [Kaprekar Number](Maths/Kaprekar-number.cpp)
