@@ -1,3 +1,10 @@
+/**
+ * 
+one of the standard Brute force is O(n^2),but this is optimized version of this question
+time complexity of inserting all element in Trie of array is O(31*n).
+time complexity of finding Xor of each element in Trie of given array is O(31*n).
+so the complexity  is O(31*n);
+ */
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
@@ -143,3 +150,9 @@ int main()
     }
     cout << mx;
 }
+/**
+sample input 
+a = [1,2,3]
+output 
+3 (i.e. (2^1))
+*/
