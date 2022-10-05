@@ -1,0 +1,28 @@
+PROBLEM----
+Given the root of a binary tree and two integers val and depth, add a row of nodes with value val at the given depth depth.
+Note that the root node is at depth 1.
+
+Input: root = [4,2,6,3,1,5], val = 1, depth = 2
+Output: [4,1,1,2,null,null,6,3,1,5]
+
+ALGORITHM----
+
+The idea is to:
+In addition to use 1 to indicate attach to left node as required, we can also use 0 to indicate attach to right node;
+Compact C++
+
+class Solution {
+public:
+    TreeNode* addOneRow(TreeNode* root, int v, int d) {
+        if (d == 0 || d == 1) {
+            TreeNode* newroot = new TreeNode(v);
+            (d ? newroot->left : newroot->right) = root;
+            return newroot;
+        }
+        if (root && d >= 2) {
+            root->left  = addOneRow(root->left,  v, d > 2 ? d - 1 : 1);
+            root->right = addOneRow(root->right, v, d > 2 ? d - 1 : 0);
+        }
+        return root;
+    }
+};
