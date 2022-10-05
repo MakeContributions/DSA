@@ -155,7 +155,7 @@
 
 ## Segment Tree
 
-- [Segment Tree Implementation](Segment-Tree/Segment_Tree.cpp)
+- [Segment Tree Implementation](Segment-Tree/segment_tree.cpp)
 
 # Maths
 
