@@ -14,10 +14,11 @@ Auxiliary space: O(n)
 
 ## Steps
 
-Suppose there is an array **arr** with **n** distinct elements. Given an element **A**, we can find its index by counting the number of elements smaller than **A**.
+The bucket sort algorithm works as follows.
 
-1. If the element is at its correct position, simply leave it as it is.
-2. Else, we have to find the correct position of **A** by counting the number of elements smaller than it. Another element **B** is replaced to be moved to its correct position. This process continues until we get an element at the original position of **A**.
+1. Assume the input array is:
+2. 
+3. Else, we have to find the correct position of **A** by counting the number of elements smaller than it. Another element **B** is replaced to be moved to its correct position. This process continues until we get an element at the original position of **A**.
 
 The above-illustrated process constitutes a cycle. Repeat this cycle for every element of the list until the list is sorted.
 
