@@ -1,8 +1,13 @@
 /* 
-    TIME COMPLEXITY: O(n)
-    SPACE COMPLEXITY: o(n)
+Algorithm: 
+    (i) Traverse the list and push all of its nodes onto a stack.
+    (ii) Traverse the list from the head node again and pop a value 
+        from the stack top and connect them in reverse order.
+    
+    
+TIME COMPLEXITY: O(n), as we are traversing over the linked list of size N using a while loop.
+SPACE COMPLEXITY: o(n), as we are using stack of size N in worst case which is extra space.
 
-    Here n is the size of linked list.
  */
 
 
