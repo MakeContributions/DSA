@@ -99,6 +99,16 @@ bool Graph::isCyclic()
 // Driver code to test above
 int main()
 {
+	  /*
+  
+           0--->1--->2--->3--->3
+  
+           2<---->0
+  
+           total 6 edges
+  
+          */
+	
 	// Create a graph given in the above diagram
 	Graph g(4);
 	g.addEdge(0, 1);
