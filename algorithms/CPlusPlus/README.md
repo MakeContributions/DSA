@@ -55,6 +55,9 @@
 - [Cycle Detection](Graphs/cycle-detection.cpp)
 - [Prim's Algorithm](Graphs/prim's_algorithm.cpp)
 - [Floyd Warshall](Graphs/floyd-warshall.cpp)
+- [Detecting Cycle in Directed graph using three colors](Graphs/detecting-cycle-in-a-graph-using-three-color-mechanism.cpp)
+
+
 
 ## Multiplication
 
