@@ -1,37 +1,23 @@
+//Using Reminder-divident method via Recursion
+//Time Complexity : O(logn)
+//Space Complexity : O(logn) [Rcursive stack is counted]
 #include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 // function starts
-bool isPowerOfTwo(const int n)
-{
-    // declare a variable to know if n is a power of 2 or not
-    long i = 1;
-    // at every iteration it will calcalute power of 2 starting from 1
-    while (i < n)
-    {
-        i = i * 2;
+bool isPowerOfTwo(int n) {
+       if(n==0) return false;
+        return ((n==1) || (n%2==0 && isPowerOfTwo(n/2)));//using recursive approach to check power
     }
-    // if n is the power of 2, i and n value will be same
-    // if they are same, it will return true, else it will return false
-    return i == n;
-}
-
-// Binary Method to check number is in power of two or not.
-// Time Complexity of this method is O(1)
-bool ispoweroftwo(const int n)
-{
-    // if number is in power of two it will give 0, otherwise it will not zero.
-    return n != 0 && (n & (n - 1)) == 0;
-}
-
 // main starts
 int main()
 {
     int n;
     cin >> n;
-    cout << isPowerOfTwo(n) << endl;
-    // Check using Binary Method
-    cout << ispoweroftwo(n) << endl;
+    if(isPowerOfTwo(n)){
+        return 1;
+    }
     return 0;
 }
 
