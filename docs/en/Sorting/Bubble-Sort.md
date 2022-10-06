@@ -1,7 +1,9 @@
 # Bubble Sort
 
-Bubble Sort also known as Sinking Sort is the simplest sorting algorithm. It swaps the numbers if they are not in correct order. The Worst Case Time Complexity is O(n^2)
-
+Bubble Sort also known as Sinking Sort is the simplest sorting algorithm. It swaps the numbers if they are not in correct order.
+The Worst Case -
+Time Complexity : O(n^2)
+Space Compldxity : O(1) i.e it use constant space.
 ## Steps
 
 1. Compares the first element with the next element.

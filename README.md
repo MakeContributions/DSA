@@ -45,7 +45,7 @@ The file should conform to the `problem` specification, and the extension (**Eg.
 
 #### Project/Folder-based Contributions
 
-The project and folder-based contributions have a bit more stricter contribution contribution specifications.
+The project and folder-based contributions have a bit more stricter contribution specifications.
 
 The folder should conform to the `problem` specification, along with the following specifications
 
