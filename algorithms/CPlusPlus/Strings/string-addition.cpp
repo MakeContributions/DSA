@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
+//This program adds two big positive integer numbers represented as strings.
+//Ex-"999"+"111"="1110"
 
+//The time complexity of the algorithm is O(m+n) where m and n are the size of the input strings
 string findSum(string X, string Y) {
     string ans="";
        int n=X.size();
@@ -56,7 +59,7 @@ string findSum(string X, string Y) {
 
     int main()
     {
-        string a="111";
-        string b="999";
-        cout<<findSum(a,b);
+        string a="111";//sample input a
+        string b="999";//sample output b
+        cout<<findSum(a,b);//sample output is 1110
     }
