@@ -47,7 +47,7 @@ g.addEdge(5, 3);
 g.addEdge(6, 3);
 
 depthFirstSearch(g, 6, visited);
-//for the given graph the output is as follow;
+//for the given graph when we explore it from vertex 6 the output is as follow;
 // output 6 3 1 2 4 5
 
 //TIME COMPLEXITY OF THE PROGRAM
