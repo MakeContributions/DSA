@@ -75,7 +75,7 @@
 - [Find Merge Point of two singly linked list](Linked-Lists/Find-Merge-Point.cpp)
 - [Segregate Even Odd Nodes of linked list](Linked-Lists/segregate-even-odd-nodes-of-linked-list.cpp)
 - [Remove Duplicate in Sorted linked list](Linked-Lists/remove-duplicates-in-sorted-linked-list.cpp)
-
+- [Reverse the linked list using stack](Linked-Lists/ReverseTheListUsingStack.cpp)
 ## Searching
 
 - [Linear Search](Searching/linear-search.cpp)
