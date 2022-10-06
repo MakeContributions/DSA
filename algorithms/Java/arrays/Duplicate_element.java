@@ -1,4 +1,5 @@
-import java.util.*;
+// Time Complexity : O(n)
+//import java.util.*;
 public class Duplicate_element {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
