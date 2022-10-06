@@ -35,4 +35,4 @@ require('./queues/queue');
 
 //Graphs
 require('./graph/breadth-first-search');
-require('./graph/dfs-traversal');
+require('./graph/depth-first-search');

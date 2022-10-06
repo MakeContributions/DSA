@@ -53,4 +53,4 @@
 ## Graphs
 
 - [Breadth First Search](src/graph/breadth-first-search.js)
-- [Dfs traversal with recursion](src/graph/dfs-traversal.js)
+- [Depth First Search](src/graph/depth-first-search.js)
