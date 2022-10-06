@@ -45,3 +45,14 @@ public class Redundant_Parenthesis {
         }
     }
 }
+
+
+// Input :
+// For example:
+// 1. ((a+b)) 
+// 2. (a+b*(c-d)) 
+
+// Output:
+// 1. True, ((a+b)) can reduced to (a+b), this is Redundant
+// 2. False, (a+b*(c-d)) doesn't have any redundant or multiple
+// brackets
