@@ -28,3 +28,24 @@ void anti_rotate(vector<vector<int> > &matrix) {
             swap(matrix[i][j], matrix[j][i]);
     }
 }
+class solution{
+public static void main(String args[]){
+int arr[]={{1,2,3},
+           {4,5,6},
+           {7,8,9}}
+rotate(arr);
+    for(int i=0;i<arr.length;i++){
+    for(int j=0;j<arr.lrngth;j++){
+    System.out.print(arr[i]+" ");
+    }
+        System.out.println();
+        }
+anti_rotate(arr);
+    for(int i=0;i<arr.length;i++){
+    for(int j=0;j<arr.lrngth;j++){
+    System.out.print(arr[i]+" ");
+    }
+        System.out.println();
+        }
+}
+}
