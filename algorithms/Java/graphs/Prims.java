@@ -6,6 +6,14 @@ At every step, it considers all the edges that connect the two sets and picks th
 After picking the edge, it moves the other endpoint of the edge to the set containing MST. 
 */
 
+/* 
+Time complexity -
+Time Complexity: O(V^2)
+If the input graph is represented using an adjacency list, then the time complexity of Prim’s algorithm can be reduced to O(E log V) with the help of a binary heap.  
+In this implementation, we are always considering the spanning tree to start from the root of the graph.
+
+Auxiliary Space: O(V)
+*/
 
 import java.util.Scanner;
 public class Prims{
@@ -22,7 +30,7 @@ public class Prims{
 				w[i][j]=sc.nextInt();
 		System.out.println("Enter the source vertex");
 		int s=sc.nextInt();
-		for(int i=1;i<=n;i++) // Intialise the solution matrix with 0
+		for(int i=1;i<=n;i++) // Initialise the solution matrix with 0
 			sol[i]=0;
 		sol[s]=1; // mark the source vertex
 		int count=1;
@@ -31,7 +39,7 @@ public class Prims{
 			min=99; // If there is no edger between any two vertex its cost is assumed to be 99
 			for(int i=1;i<=n;i++)
 				for(int j=1;j<=n;j++)
-					if(sol[i]==1&&sol[j]==0) //this will chech the edge if not already traversed will be considered
+					if(sol[i]==1&&sol[j]==0) //this will check the edge if not already traversed will be considered
 						if(i!=j && w[i][j]<min)
 						{
 							min=w[i][j]; //cost of the edge
