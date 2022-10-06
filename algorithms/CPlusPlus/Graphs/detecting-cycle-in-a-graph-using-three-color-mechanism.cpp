@@ -26,7 +26,7 @@ public:
 
   // Function to add an edge to graph
 	void addEdge(int v, int w);
- // Function to check wheather graph is cyclic or not
+ // Function to check whether graph is cyclic or not
 	bool isCyclic();
 };
 
