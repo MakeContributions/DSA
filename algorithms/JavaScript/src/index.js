@@ -32,3 +32,7 @@ require('./stacks/two-stack');
 
 // Queue
 require('./queues/queue');
+
+//Graphs
+require('./graph/breadth-first-search');
+require('./graph/dfs-traversal');

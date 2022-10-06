@@ -49,3 +49,8 @@
 
 - [Max Heap](src/heaps/max-heap.js)
 - [Min Heap](src/heaps/min-heap.js)
+
+## Graphs
+
+- [Breadth First Search](src/graph/breadth-first-search.js)
+- [Dfs traversal with recursion](src/graph/dfs-traversal.js)
