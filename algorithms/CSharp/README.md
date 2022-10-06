@@ -40,6 +40,7 @@ To run the `.cs` file, kindly use [.Net Finddle](https://dotnetfiddle.net/)
 ## Maths
 
 - [Abundant Number](src/Maths/abundant-number.cs)
+- [Fibonacci Checker](src/Maths/fibonacci-checker.cs)
 - [Naismith's Rule](src/Maths/naismith-rule.cs)
 
 ## Queues
