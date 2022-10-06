@@ -54,3 +54,6 @@
 
 - [Breadth First Search](src/graph/breadth-first-search.js)
 - [Dfs traversal with recursion](src/graph/dfs-traversal.js)
+## Trie
+
+- [Trie Implementation](src/trie/trie-implementation.js)
