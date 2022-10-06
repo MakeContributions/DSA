@@ -127,7 +127,7 @@ Third number is 4
 
 {2}
 
-k = k - (index from pervious) * (n - 3)! = k - 1 * (4 - 3)! = 1 - 1 = 0;
+k = k - (index from previous) * (n - 3)! = k - 1 * (4 - 3)! = 1 - 1 = 0;
 
 third number's index = k / (n - 4)! = 0 / (4-4)! = 0/ 1 = 0... from {2}, index 0 has 2
 
