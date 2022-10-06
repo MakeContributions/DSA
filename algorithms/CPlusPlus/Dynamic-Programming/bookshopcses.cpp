@@ -1,5 +1,6 @@
 //problem link
 //https://cses.fi/problemset/task/1158/
+//time complexity:O(n^2)
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -45,3 +46,9 @@ int main()
         cout<<"\n";
     }
 }
+//sample input
+// 4 10
+// 4 8 5 3
+// 5 12 8 1
+//sample output
+//13
