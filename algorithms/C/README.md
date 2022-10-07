@@ -39,6 +39,7 @@
 - [Fibonacci Series](maths/fibonacci-series.c)
 - [Odd or Even Number](maths/odd-or-even-number.c)
 - [Fibonacci Number](maths/fibonacci-number/README.md)
+- [Pascals Triangle](maths/pascals-triangle.c)
 
 ## Queues
 
