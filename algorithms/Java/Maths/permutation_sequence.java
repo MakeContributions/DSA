@@ -118,7 +118,7 @@ so the numbers we have so far is 3, 1... and then repeating without explanations
 
 {2, 4}
 
-k = k - (index from pervious) * (n-2)! = k - 0 * (n - 2)! = 1 - 0 = 1;
+k = k - (index from previous) * (n-2)! = k - 0 * (n - 2)! = 1 - 0 = 1;
 
 third number's index = k / (n - 3)! = 1 / (4-3)! = 1/ 1! = 1... from {2, 4}, index 1 has 4
 
@@ -127,7 +127,7 @@ Third number is 4
 
 {2}
 
-k = k - (index from pervious) * (n - 3)! = k - 1 * (4 - 3)! = 1 - 1 = 0;
+k = k - (index from previous) * (n - 3)! = k - 1 * (4 - 3)! = 1 - 1 = 0;
 
 third number's index = k / (n - 4)! = 0 / (4-4)! = 0/ 1 = 0... from {2}, index 0 has 2
 
