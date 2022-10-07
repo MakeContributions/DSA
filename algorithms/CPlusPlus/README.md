@@ -42,6 +42,7 @@
 - [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
 - [Edit Distance](Dynamic-Programming/edit-distance.cpp)
 - [Fibonacci](Dynamic-Programming/fibonacci.cpp)
+- [Minimum Number of Jumps to Reach End](Dynamic-Programming/min-jumps-to-reach-end.cpp)
 
 ## Graphs
 
