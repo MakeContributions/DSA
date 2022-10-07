@@ -14,68 +14,38 @@ Auxiliary space: O(n)
 
 ## Steps
 
-The bucket sort algorithm works as follows.
+Bucket Sort for numbers having integer part:
+Algorithm : 
+1.Find maximum element and minimum of the array
+2.Calculate the range of each bucket
 
-1. Assume the input array is:
-2. 
-3. Else, we have to find the correct position of **A** by counting the number of elements smaller than it. Another element **B** is replaced to be moved to its correct position. This process continues until we get an element at the original position of **A**.
+range = (max - min) / n
+n is the number of buckets
 
-The above-illustrated process constitutes a cycle. Repeat this cycle for every element of the list until the list is sorted.
+3.Create n buckets of calculated range
+4.Scatter the array elements to these buckets
+
+BucketIndex = ( arr[i] - min ) / range
+
+5.Now sort each bucket individually
+6.Gather the sorted elements from buckets to original array
 
 ## Example
 
-arr[] = {10, 5, 2, 3}
+Input :    
+Unsorted array:  [ 9.8 , 0.6 , 10.1 , 1.9 , 3.07 , 3.04 , 5.0 , 8.0 , 4.8 , 7.68 ]
+No of buckets :  5
 
- index =  0   1   2   3
+Output :  
+Sorted array:   [ 0.6 , 1.9 , 3.04 , 3.07 , 4.8 , 5.0 , 7.68 , 8.0 , 9.8 , 10.1 ]
 
-cycle_start = 0 
+![image](https://user-images.githubusercontent.com/98322627/194531206-9414d713-51df-44db-b51c-09b2b8307d78.png)
+ Input :    
+Unsorted array:  [0.49 , 5.9 , 3.4 , 1.11 , 4.5 , 6.6 , 2.0]
+No of buckets: 3
 
-item = 10 = arr[0]
-
-Find position where we put the item  
-
-pos = cycle_start
-
-i=pos+1
-
-while(i < n)
-
-if (arr[i] < item) 
-
-    pos++;
-
-We put 10 at arr[3] and change item to 
-old value of arr[3].
-
-arr[] = {10, 5, 2, 10} 
-
-item = 3 
-
-Again rotate rest cycle that start with index '0' 
-
-Find position where we put the item = 3 
-
-we swap item with element at arr[1] now 
-
-arr[] = {10, 3, 2, 10} 
-
-item = 5
-
-Again rotate rest cycle that start with index '0' and item = 5 
-
-we swap item with element at arr[2].
-
-arr[] = {10, 3, 5, 10 } 
-
-item = 2
-
-Again rotate rest cycle that start with index '0' and item = 2
-
-arr[] = {2, 3,  5, 10}  
-
-Above is one iteration for cycle_stat = 0.
-
-Repeat above steps for cycle_start = 1, 2, ..n-2
+Output :  
+Sorted array:   [0.49 , 1.11 , 2.0 , 3.4 , 4.5 , 5.9 , 6.6]
 
 ## Implementation
 
