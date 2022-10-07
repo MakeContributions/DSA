@@ -1,5 +1,5 @@
-// Program to print BFS traversal from a given source vertex s. 
-// breadthFirstSearch(graph, source) traverses vertices reachable from source. 
+// Program to print BFS traversal from a given source vertex s.
+// breadthFirstSearch(graph, source) traverses vertices reachable from source.
 // for the implementation we need the queue data structure;
 
 // Queue class
@@ -20,11 +20,11 @@ class Queue {
   // on empty queue
   dequeue() {
     if (this.isEmpty()) {
-      return "Underflow";
+      return 'Underflow';
     }
     return this.items.shift();
   }
-    // isEmpty function
+  // isEmpty function
   isEmpty() {
     // return true if the queue is empty.
     return this.items.length == 0;
@@ -49,31 +49,31 @@ class Graph {
     this.AdjList.get(w).push(v);
   }
 }
-let breadthFirstSearch = (g, source) => {
-  let visited = {};
-  let q = new Queue();
+const breadthFirstSearch = (g, source) => {
+  const visited = {};
+  const q = new Queue();
   visited[source] = true;
   q.enqueue(source);
 
   while (!q.isEmpty()) {
     // Dequeue a vertex from queue and print it
-    let getQueueElement = q.dequeue();
+    const getQueueElement = q.dequeue();
     console.log(getQueueElement);
-    let getList = g.AdjList.get(getQueueElement);
+    const getList = g.AdjList.get(getQueueElement);
     // Get all adjacent vertices of the dequeued
     // vertex s. If a adjacent has not been visited,
     // then mark it visited and enqueue it
-    for (let i in getList) {
-      let neigh = getList[i];
+    for (let i = 0; i < getList.length; i++) {
+      const neigh = getList[i];
       if (!visited[neigh]) {
         visited[neigh] = true;
         q.enqueue(neigh);
       }
     }
   }
-}
+};
 
-let g = new Graph(6);
+const g = new Graph(6);
 // adding vertices
 for (let i = 1; i <= 6; i++) {
   g.addVertex(i);

@@ -19,24 +19,24 @@ class Graph {
 // Recursive function which process and explore
 // all the adjacent vertex of the vertex with which it is called
 
-var depthFirstSearch = (g, currVertex, visited) => {
+const depthFirstSearch = (g, currVertex, visited) => {
   visited[currVertex] = true;
   console.log(currVertex);
 
-  let getNeighbours = g.AdjList.get(currVertex);
+  const getNeighbours = g.AdjList.get(currVertex);
   // Recursive call for the non visited vertex
-  for (var i in getNeighbours) {
-    var getElement = getNeighbours[i];
-    if (!visited[getElement]){
+  for (let i = 0; i < getNeighbours.length; i++) {
+    const getElement = getNeighbours[i];
+    if (!visited[getElement]) {
       depthFirstSearch(g, getElement, visited);
     }
   }
-}
+};
 
-let g = new Graph(6);
-let visited = {};
+const g = new Graph(6);
+const visited = {};
 // adding vertices
-for (var i = 1; i <= 6; i++) {
+for (let i = 1; i <= 6; i++) {
   g.addVertex(i);
 }
 g.addEdge(1, 2);
