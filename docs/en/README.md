@@ -23,6 +23,13 @@
 - [Binary Search](./Searching/Binary-Search.MD)
 - [Linear Search](./Searching/Linear-Search.md)
 
+## Backtracking
+
+- [n-queens](./Backtracking/N-Queens.md)
+- [sudoku-Solver](./Backtracking/sudokuSolver.cpp)
+
+
+
 ## Others
 
 [How to add new algorithm documentation?](./CONTRIBUTING.md)
