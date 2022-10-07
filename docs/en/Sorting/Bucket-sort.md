@@ -28,6 +28,7 @@ n is the number of buckets
 BucketIndex = ( arr[i] - min ) / range
 
 5.Now sort each bucket individually
+
 6.Gather the sorted elements from buckets to original array
 
 ## Example
