@@ -99,6 +99,7 @@
 - [Infix to postfix expression conversion](Stacks/infix-to-postfix.cpp)
 - [Stock Span Problem using Stacks](Stacks/stock-span-problem.cpp)
 - [Prefix to Postfix expression conversion](Stacks/prefix_to_postfix.cpp)
+- [Redundant Parenthesis](Stacks/redundant-parenthesis.cpp)
 
 ## Sorting
 
