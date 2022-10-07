@@ -20,6 +20,7 @@ Algorithm :
 2.Calculate the range of each bucket
 
 range = (max - min) / n
+
 n is the number of buckets
 
 3.Create n buckets of calculated range
