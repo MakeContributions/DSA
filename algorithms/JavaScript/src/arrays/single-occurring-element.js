@@ -1,4 +1,4 @@
-// Problem: Given an array of integers, 
+// Problem: Given an array of integers,
 // every element appears twice except for one. Find that single one.
 // Space Complexity: O(1)
 // Time Complexity: O(n)
@@ -6,7 +6,7 @@
 function singleOccurringElement(arr) {
   let result = 0;
   for (const el of arr) {
-      result ^= el;
+    result ^= el;
   }
   return result;
 }
