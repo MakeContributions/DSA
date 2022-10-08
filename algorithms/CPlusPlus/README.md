@@ -42,6 +42,7 @@
 - [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
 - [Edit Distance](Dynamic-Programming/edit-distance.cpp)
 - [Fibonacci](Dynamic-Programming/fibonacci.cpp)
+- [Rod Cutting](Dynamic-Programming/rod-cutting.cpp)
 
 ## Graphs
 
