@@ -56,6 +56,7 @@
 - [Exponential Search](searching/Exponential-search.java)
 - [Interpolation Search](searching/interpolation-search.java)
 - [Ternery Search](searching/ternery-search.java)
+- [binary_search_in_a_2D_matrix](searching/binary_search_in_a_2D_matrix.java)
 
 ## Sorting
 

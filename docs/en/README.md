@@ -24,6 +24,8 @@
 
 - [Binary Search](./Searching/Binary-Search.MD)
 - [Linear Search](./Searching/Linear-Search.md)
+- [Binary Search in a 2D Matrix](./Searching/binary_search_in_a_2D_matrix.MD)
+
 
 ## Others
 
