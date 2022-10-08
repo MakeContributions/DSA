@@ -1,5 +1,9 @@
 # Algorithms
 
+## Lists
+- [Singly linked list](./Lists/singly-linked-list.md)
+- [Doubly linked list](./Lists/doubly-linked-list.md)
+
 ## Sorting
 
 - [Bubble Sort](./Sorting/Bubble-Sort.md)
@@ -8,6 +12,7 @@
 - [Insertion Sort](./Sorting/Insertion-Sort.md)
 - [Heap Sort](./Sorting/Heap-Sort.md)
 - [Quick Sort](./Sorting/Quick-Sort.md)
+- [Cycle Sort](./Sorting/Cycle-Sort.md)
 
 ## Strings
 

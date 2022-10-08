@@ -44,3 +44,12 @@
 ## Recursion
 
 - [Factorial](src/recursion/factorial.js)
+
+## Heaps
+
+- [Max Heap](src/heaps/max-heap.js)
+- [Min Heap](src/heaps/min-heap.js)
+
+## Trie
+
+- [Trie Implementation](src/trie/trie-implementation.js)

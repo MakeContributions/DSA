@@ -30,6 +30,9 @@
 - [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
 - [Next permutation](Arrays/next-permutation.cpp)
 - [Maximum Minimum Average of numbers](Arrays/max-min-avg.cpp)
+- [Sparse Matrix](Arrays/sparse_matrix.cpp)
+
+
 
 ## Dynamic-Programming
 
@@ -51,6 +54,11 @@
 - [Connected Components](Graphs/total-connected-components.cpp)
 - [Dijkstra's Algorithm](Graphs/dijkstra.cpp)
 - [Cycle Detection](Graphs/cycle-detection.cpp)
+- [Prim's Algorithm](Graphs/prim's_algorithm.cpp)
+- [Floyd Warshall](Graphs/floyd-warshall.cpp)
+- [Detecting Cycle in Directed graph using three colors](Graphs/detecting-cycle-in-a-graph-using-three-color-mechanism.cpp)
+
+
 
 ## Multiplication
 
@@ -70,7 +78,7 @@
 - [Find Merge Point of two singly linked list](Linked-Lists/Find-Merge-Point.cpp)
 - [Segregate Even Odd Nodes of linked list](Linked-Lists/segregate-even-odd-nodes-of-linked-list.cpp)
 - [Remove Duplicate in Sorted linked list](Linked-Lists/remove-duplicates-in-sorted-linked-list.cpp)
-
+- [Reverse the linked list using stack](Linked-Lists/reverse-the-list-using-stack.cpp)
 ## Searching
 
 - [Linear Search](Searching/linear-search.cpp)
@@ -91,6 +99,7 @@
 - [Infix to postfix expression conversion](Stacks/infix-to-postfix.cpp)
 - [Stock Span Problem using Stacks](Stacks/stock-span-problem.cpp)
 - [Prefix to Postfix expression conversion](Stacks/prefix_to_postfix.cpp)
+- [Redundant Parenthesis](Stacks/redundant-parenthesis.cpp)
 
 ## Sorting
 
@@ -124,6 +133,7 @@
 - [Boyer Moore pattern search](Strings/Boyer_Moore.cpp)
 - [Longest common prefix](Strings/longest-common-prefix.cpp)
 - [First unique character in the string](Strings/first-unique-character.cpp)
+- [Sliding Window to match target string](Strings/sliding-window.cpp)
 
 ## Trees
 
@@ -165,6 +175,7 @@
 - [Power of two](Maths/power-of-two.cpp)
 - [Small numbers](Maths/small-numbers.cpp)
 - [Segmented Sieve](Maths/segmented-sieve-range.cpp)
+- [Binary Power](Maths/binary-power.cpp)
 
 # Recursion
 
@@ -186,6 +197,7 @@
 - [Product of two numbers](Recursion\product-of-numbers.cpp)
 - [Product of digits in a number](Recursion\product-of-digits.cpp)
 - [Linear search using recursion](Recursion/linear-search.cpp)
+- [Reverse a number using recursion](Recursion/reverse-a-number.cpp)
 
 ## Number System
 
@@ -197,3 +209,6 @@
 - [Decimal To Octal](Number-system/decimal_to_octal.cpp)
 - [Octal To Decimal](Number-system/octal_to_decimal.cpp)
 
+## Backtracking
+
+- [N-Queens Problem](Backtracking/n-queens.cpp)
