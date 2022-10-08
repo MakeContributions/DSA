@@ -77,6 +77,7 @@
 - [Simple Graph](graphs/graph.py)
 - [BFS SEQUENCE](graphs/bfs-sequence.py)
 - [Depth First Search](graphs/depth-first-search.py)
+- [Dijkstra's Algorithm](graphs/dijkstra.py)
 
 ## Trees
 - [Binary Tree](trees/binary_tree.py)
