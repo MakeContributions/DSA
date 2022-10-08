@@ -16,7 +16,7 @@ using namespace std;
 
 // Main Template
 /**
- * @brief Defination of SGT class
+ * @brief Definition of SGT class
  */
 class SGT {
     // Data members of SGT class.
@@ -205,5 +205,5 @@ int main() {
  * O(n log n) [for n query in range]
  * 
  * Space Complexity: 
- * O(n) [for builing up the Segment Tree]
+ * O(n) [for building up the Segment Tree]
  */
