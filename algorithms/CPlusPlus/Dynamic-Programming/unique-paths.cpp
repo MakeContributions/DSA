@@ -44,3 +44,7 @@ int main() {
   
   cout<<countWays(m,n);
 }
+// Time Complexity: O(M*N)
+// Space Complexity: O(M*N)
+// example : M=3,N=2
+// Unique paths = 3

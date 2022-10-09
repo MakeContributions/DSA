@@ -35,3 +35,7 @@ int main() {
   
   cout<<minSumPath(n,m,matrix);
 }
+// Time Complexity: O(N*M)
+// Space Complexity: O((M-1)+(N-1)) + O(N*M)
+// example : N=2,M=3
+// Min pathsum = 5+9+6+2 =21
