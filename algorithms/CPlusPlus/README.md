@@ -156,6 +156,7 @@
 ## Trie
 
 - [Trie for searching](Trie/trie_search.cpp)
+- [Trie for insert search and prefix_search](Trie/trie_insert_search_startWith.cpp)
 
 # Maths
 
