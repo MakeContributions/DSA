@@ -157,6 +157,7 @@
 
 - [Trie for searching](Trie/trie_search.cpp)
 - [Trie for insert search and prefix_search](Trie/trie_insert_search_startWith.cpp)
+- [Trie for delete](Trie/trie_delete.cpp)
 
 # Maths
 
