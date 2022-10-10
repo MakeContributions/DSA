@@ -13,3 +13,6 @@ function singleOccurringElement(arr) {
 
 const arr = [2, 5, 7, 3, 1, 8, 8, 9, 4, 2, 7, 1, 4, 9, 5];
 console.log(singleOccurringElement(arr));
+
+// Input: [2, 5, 7, 3, 1, 8, 8, 9, 4, 2, 7, 1, 4, 9, 5]
+// Output: 3
