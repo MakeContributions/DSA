@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 public class generatebinary {
-    public static void genrating(int n,Queue <String> sb)
+    public static void generating(int n,Queue <String> sb)
     {
           sb.add("1");
           
@@ -18,6 +18,6 @@ public class generatebinary {
     public static void main(String[] args) {
         int n=5;
         Queue <String> sb=new LinkedList<String>();
-       genrating(n,sb);
+       generating(n,sb);
     }
 }
