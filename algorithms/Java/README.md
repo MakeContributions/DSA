@@ -18,6 +18,8 @@
 - [Dijkstras](graphs/Dijkstras.java)
 - [BFS](graphs/breadth_first_search.java)
 - [DFS](graphs/depth_first_search.java)
+- [Prims](graphs/Prims.java)
+
 
 ## Linked Lists
 
@@ -37,6 +39,8 @@
 - [Nth Geek Onacci Number](Maths/nth-geek-onacci-number.java)
 - [Random Node in Linked List](Maths/algorithms_random_node.java)
 - [Square Root using BinarySearch](Maths/square-root.java)
+- [Roman Numerals Conversion](Maths/roman-numerals.java)
+- [Permutation Sequence](Maths/permutation_sequence.java)
 
 ## Queues
 
@@ -57,6 +61,7 @@
 - [Allocate minimum number of pages](searching/allocate-min-pages.java)
 - [Exponential Search](searching/Exponential-search.java)
 - [Interpolation Search](searching/interpolation-search.java)
+- [Ternery Search](searching/ternery-search.java)
 
 ## Sorting
 

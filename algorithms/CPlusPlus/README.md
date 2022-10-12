@@ -33,6 +33,7 @@
 - [Sparse Matrix](Arrays/sparse_matrix.cpp)
 
 
+
 ## Dynamic-Programming
 
 - [Longest Common Subsequence](Dynamic-Programming/longest-common-subsequence.cpp)
@@ -55,6 +56,9 @@
 - [Cycle Detection](Graphs/cycle-detection.cpp)
 - [Prim's Algorithm](Graphs/prim's_algorithm.cpp)
 - [Floyd Warshall](Graphs/floyd-warshall.cpp)
+- [Detecting Cycle in Directed graph using three colors](Graphs/detecting-cycle-in-a-graph-using-three-color-mechanism.cpp)
+
+
 
 ## Multiplication
 
@@ -74,7 +78,7 @@
 - [Find Merge Point of two singly linked list](Linked-Lists/Find-Merge-Point.cpp)
 - [Segregate Even Odd Nodes of linked list](Linked-Lists/segregate-even-odd-nodes-of-linked-list.cpp)
 - [Remove Duplicate in Sorted linked list](Linked-Lists/remove-duplicates-in-sorted-linked-list.cpp)
-
+- [Reverse the linked list using stack](Linked-Lists/reverse-the-list-using-stack.cpp)
 ## Searching
 
 - [Linear Search](Searching/linear-search.cpp)
@@ -95,6 +99,7 @@
 - [Infix to postfix expression conversion](Stacks/infix-to-postfix.cpp)
 - [Stock Span Problem using Stacks](Stacks/stock-span-problem.cpp)
 - [Prefix to Postfix expression conversion](Stacks/prefix_to_postfix.cpp)
+- [Redundant Parenthesis](Stacks/redundant-parenthesis.cpp)
 
 ## Sorting
 
@@ -128,6 +133,7 @@
 - [Boyer Moore pattern search](Strings/Boyer_Moore.cpp)
 - [Longest common prefix](Strings/longest-common-prefix.cpp)
 - [First unique character in the string](Strings/first-unique-character.cpp)
+- [Sliding Window to match target string](Strings/sliding-window.cpp)
 
 ## Trees
 
@@ -203,3 +209,6 @@
 - [Decimal To Octal](Number-system/decimal_to_octal.cpp)
 - [Octal To Decimal](Number-system/octal_to_decimal.cpp)
 
+## Backtracking
+
+- [N-Queens Problem](Backtracking/n-queens.cpp)
