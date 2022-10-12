@@ -89,10 +89,7 @@ public class circularll {
             ll.search(4);
             ll.reverse();
             ll.display();
-
-        }
-    }
-    
+                
 /*
    
 OUTPUT:
@@ -105,4 +102,8 @@ Target Not Found
 The Linkedlist is 2 1 7 8 5 9 
 
 */
+        }
+    }
+    
+
 
