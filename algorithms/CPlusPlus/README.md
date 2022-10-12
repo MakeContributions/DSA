@@ -31,7 +31,7 @@
 - [Next permutation](Arrays/next-permutation.cpp)
 - [Maximum Minimum Average of numbers](Arrays/max-min-avg.cpp)
 - [Sparse Matrix](Arrays/sparse_matrix.cpp)
-
+- [Balanced Parenthesis](Arrays/balanced-parenthesis.cpp)
 
 
 ## Dynamic-Programming
