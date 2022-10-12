@@ -19,6 +19,7 @@ for implementation of the linked list, but less important (if at all) from the u
 - The number(data) is assigned to the info member of this node.
 - null is assigned to next member of this node.
 - The new node is included in the list by making the next member of the first node a pointer to the new node.
+- Apart from this we can add the new node in the list as specified by the user.
 
 
 ## Example
@@ -72,16 +73,40 @@ Now, let us create the three-nod linked list as an example. One way to create th
 
   pointer->next->next->next : null
 
+- suppose we want to add 6 between 5 and 2 so that the linked list looks like 8->5->6->2 instead of 8->5->2
+
+  We pass the position as 3 and value as 6
+
+  6 is added at position 3 and the linked list now looks like 8->5->6->2
+
+  pointer : pointer to first node. 	
+
+  pointer->info : 8	
+
+  pointer->next : pointer to next node.
+
+  Pointer->next->info : 5
+
+  pointer->next->next : pointer to next node.
+
+  pointer->next->next->info : 6
+
+  pointer->next->next->next : pointer to next node.
+
+  pointer->next->next->info : 2
+
+  pointer->next->next->next : pointer to next node.
+
+
+
 ## Implementation
 
-- [C++](../../../algorithms/CPlusPlus/Linked-Lists/singly.cpp)
-- [Java](../../../algorithms/Java/linked-lists/singly.java)
-- [JavaScript](../../../algorithms/JavaScript/src/linked-lists/singly.js)
-- [Python](../../../algorithms/Python/linked_lists/singly.py)
+- [C](../../../algorithms/C/linked-lists/Add-Element-at-Nth-Position-SinglyLinkedList.c)
+
 
 ## Video URL
 
-[Watch Linear Search Implementation](https://www.youtube.com/watch?v=HB7TcYklBHY)
+[Watch How it Works?](https://www.youtube.com/watch?v=0hGxILnKvJk)
 
 
 ## References
