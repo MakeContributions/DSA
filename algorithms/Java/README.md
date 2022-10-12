@@ -16,14 +16,12 @@
 ## Graphs
 
 - [Dijkstras](graphs/Dijkstras.java)
-- [BFS](graphs/breadth_first_search.java)
-- [DFS](graphs/depth_first_search.java)
 - [Prims](graphs/Prims.java)
 
 
 ## Linked Lists
 
-- [Circular Singly Linked List](linked-lists/circularll.java)
+- [Circular Singly Linked List](linked-lists/circular-singly-linkedlist.java)
 - [Circular](linked-lists/circular.java)
 - [Clone Linked List](linked-lists/clone-linkedlist.java)
 - [Doubly](linked-lists/doubly.java)
