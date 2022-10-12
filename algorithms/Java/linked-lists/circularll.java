@@ -92,4 +92,17 @@ public class circularll {
 
         }
     }
+    
+/*
+   
+OUTPUT:
+LinkedList
+
+The Linkedlist is 5 8 7 1 2 
+The Linkedlist is 9 5 8 7 1 2 
+Target is found
+Target Not Found
+The Linkedlist is 2 1 7 8 5 9 
+
+*/
 
