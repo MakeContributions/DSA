@@ -1,5 +1,6 @@
 // Arrays
 require('./arrays/counting-inversions');
+require('./arrays/single-occurring-element');
 
 // Linked Lists
 require('./linked-lists/singly');
@@ -32,3 +33,7 @@ require('./stacks/two-stack');
 
 // Queue
 require('./queues/queue');
+
+//Graphs
+require('./graph/breadth-first-search');
+require('./graph/depth-first-search');

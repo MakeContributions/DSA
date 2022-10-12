@@ -3,6 +3,7 @@
 ## Arrays
 
 - [Counting Inversions](src/arrays/counting-inversions.js)
+- [Single Occurring Element](src/arrays/single-occurring-element.js)
 
 ## Linked Lists
 
@@ -49,3 +50,12 @@
 
 - [Max Heap](src/heaps/max-heap.js)
 - [Min Heap](src/heaps/min-heap.js)
+
+## Graphs
+
+- [Breadth First Search](src/graph/breadth-first-search.js)
+- [Depth First Search](src/graph/depth-first-search.js)
+
+## Trie
+
+- [Trie Implementation](src/trie/trie-implementation.js)
