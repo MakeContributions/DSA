@@ -58,13 +58,22 @@ public class breadth_first_search{
 
     }
 }
+
 /*
-graph a = new graph(4);
- a.add(0, 1);
- a.add(0, 2);
- a.add(1, 2);
- a.add(2, 0);
- a.add(2, 3);
- a.add(3, 3);
- a.bfs(0);
+Breadth First Search
+Enter the number of Vertices 
+4
+Enter the number of Edges
+6
+Enter Source and Destination of edges 
+0 1
+0 2
+1 2
+2 0
+2 3
+3 3
+Enter Start Point 
+0
+Path
+0-->1-->2-->3-->
 */
