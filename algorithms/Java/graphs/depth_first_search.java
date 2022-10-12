@@ -27,3 +27,17 @@ public class depth_first_search {
         dfs(1,graph,visited);
     }
 }
+/*
+Depth First Search
+Enter The number of Vertices
+5
+Enter the Adjacency Matrix of n X n : 
+0 1 0 0 1
+1 0 1 1 1 
+0 1 0 1 0
+0 1 1 0 1
+1 1 0 1 0
+1 --> 0 --> 4 --> 3 --> 2 --> 
+
+Here source is 1
+*/
