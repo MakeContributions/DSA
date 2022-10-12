@@ -3,6 +3,7 @@
 ## Arrays
 
 - [Counting Inversions](src/arrays/counting-inversions.js)
+- [Single Occurring Element](src/arrays/single-occurring-element.js)
 
 ## Linked Lists
 
