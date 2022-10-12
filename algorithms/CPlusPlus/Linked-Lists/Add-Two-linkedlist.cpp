@@ -125,7 +125,7 @@ Node *Sum(Node *head1, Node *head2)
 
         carry = sum / 10;
     }
-    return (ans->next);
+    return reverse(ans->next);
 }
 
 int main()
