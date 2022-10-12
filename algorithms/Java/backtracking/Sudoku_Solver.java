@@ -79,7 +79,7 @@ public class Sudoku_Solver {
         }
 
         // grid check
-      // here we find the start row and start cols of the grid using the formula, then travesing in the grid(3x3), we check for the digits
+      // here we find the start row and start cols of the grid using the formula, then traversing in the grid(3x3), we check for the digits
       
         int sr = (row/3)*3;
         int sc = (col/3)*3;
