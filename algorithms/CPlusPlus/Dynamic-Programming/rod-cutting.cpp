@@ -7,6 +7,8 @@
 //     The following bottom-up approach computes dp[i], which stores maximum profit achieved from the rod of length i from 1 to len. 
 //     It uses the value of smaller values i already computed.
 
+// Space complexity: O(n)
+// Time complexity: O(n^n)
 
 
 // Solution
