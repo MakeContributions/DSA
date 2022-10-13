@@ -1,106 +1,123 @@
+// C++ Program for Floyd Warshall Algorithm
 #include <bits/stdc++.h>
-
 using namespace std;
-const int N = 500, OO = 1e9;
 
-int dist[N][N];
+// Number of vertices in the graph
+#define V 4
 
-//Initialize the distance matrix with infinities to indicate that there is no edge between nodes
-void initialize_dist(int n) {
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            dist[i][j] = OO;
-            if (i == j) {
-                dist[i][j] = 0;
-            }
-        }
-    }
+/* Define Infinite as a large enough
+value.This value will be used for
+vertices not connected to each other */
+#define INF 99999
+
+// A function to print the solution matrix
+void printSolution(int dist[][V]);
+
+// Solves the all-pairs shortest path
+// problem using Floyd Warshall algorithm
+void floydWarshall(int graph[][V])
+{
+	/* dist[][] will be the output matrix
+	that will finally have the shortest
+	distances between every pair of vertices */
+	int dist[V][V], i, j, k;
+
+	/* Initialize the solution matrix same
+	as input graph matrix. Or we can say
+	the initial values of shortest distances
+	are based on shortest paths considering
+	no intermediate vertex. */
+	for (i = 0; i < V; i++)
+		for (j = 0; j < V; j++)
+			dist[i][j] = graph[i][j];
+
+	/* Add all vertices one by one to
+	the set of intermediate vertices.
+	---> Before start of an iteration,
+	we have shortest distances between all
+	pairs of vertices such that the
+	shortest distances consider only the
+	vertices in set {0, 1, 2, .. k-1} as
+	intermediate vertices.
+	----> After the end of an iteration,
+	vertex no. k is added to the set of
+	intermediate vertices and the set becomes {0, 1, 2, ..
+	k} */
+	for (k = 0; k < V; k++) {
+		// Pick all vertices as source one by one
+		for (i = 0; i < V; i++) {
+			// Pick all vertices as destination for the
+			// above picked source
+			for (j = 0; j < V; j++) {
+				// If vertex k is on the shortest path from
+				// i to j, then update the value of
+				// dist[i][j]
+				if (dist[i][j] > (dist[i][k] + dist[k][j])
+					&& (dist[k][j] != INF
+						&& dist[i][k] != INF))
+					dist[i][j] = dist[i][k] + dist[k][j];
+			}
+		}
+	}
+
+	// Print the shortest distance matrix
+	printSolution(dist);
 }
 
-//Take Edge input and update the distance matrix
-void input(int m) {
-    for (int i = 0; i < m; i++) {
-        int a, b, c;
-        cin >> a >> b >> c;
-        dist[a][b] = c;
-        dist[b][a] = c;
-    }
+/* A utility function to print solution */
+void printSolution(int dist[][V])
+{
+	cout << "The following matrix shows the shortest "
+			"distances"
+			" between every pair of vertices \n";
+	for (int i = 0; i < V; i++) {
+		for (int j = 0; j < V; j++) {
+			if (dist[i][j] == INF)
+				cout << "INF"
+					<< "	 ";
+			else
+				cout << dist[i][j] << "	 ";
+		}
+		cout << endl;
+	}
 }
 
-//Perform Floyd-Warshall algorithm to calculate all shortest paths
-int floyd(int n) {
-    for (int k = 0; k < n; k++) {
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (dist[i][j] > dist[i][k] + dist[k][j]) {
-                    dist[i][j] = dist[i][k] + dist[k][j];
-                }
-            }
-        }
-    }
+// Driver's code
+int main()
+{
+	/* Let us create the following weighted graph
+			10
+	(0)------->(3)
+		|	 /|\
+	5 |	 |
+		|	 | 1
+	\|/	 |
+	(1)------->(2)
+			3	 */
+	int graph[V][V] = { { 0, 5, INF, 10 },
+						{ INF, 0, 3, INF },
+						{ INF, INF, 0, 1 },
+						{ INF, INF, INF, 0 } };
+
+	// Function call
+	floydWarshall(graph);
+	return 0;
 }
 
-//Take queries and output the shortest distance for each query
-void output(int q) {
-    for (int i = 0; i < q; i++) {
-        int x, y;
-        cin >> x >> y;
-        cout << dist[x][y] << endl;
-    }
-}
+// This code is contributed by Amarjeet Singh
 
-int main() {
-    int n, m, q;
-    cin >> n; // Number of nodes
-    initialize_dist(n);
-    cin >> m; // Number of edges
-    input(m);
-    floyd(n);
-    cin >> q; // Number of queries
-    output(q);
-    return 0;
-}
 
 /*
 Time Complexity: O(n^3)
-Memory Complexity: O(n^2)
-*/
+Memory Complexity: O(v^2)
 
-/*
-Example:
-    5 // Number of nodes
-    10 // Number of edges
-    0 1 5 // Edge from Node 0 to Node 1 with Weight 5
-    0 2 3
-    0 3 4
-    0 4 1
-    1 2 4
-    1 3 1
-    1 4 1
-    2 3 1
-    2 4 2
-    3 4 4
-    10 // Number of Queries
-    0 1 // Print Minimum Path between Nodes 0 and 1
-    0 2
-    0 3
-    0 4
-    1 2
-    1 3
-    1 4
-    2 3
-    2 4
-    3 4
 
 Output:
-    2 //Minimum path from 0 to 1
-    3 //Minimum path from 0 to 2
-    3 //Minimum path from 0 to 3
-    1 //Minimum path from 0 to 4
-    2 //Minimum path from 1 to 2
-    1 //Minimum path from 1 to 3
-    1 //Minimum path from 1 to 4
-    1 //Minimum path from 2 to 3
-    2 //Minimum path from 2 to 4
-    2 //Minimum path from 3 to 4
+
+The following matrix shows the shortest distances between every pair of vertices 
+      0      5      8      9
+    INF      0      3      4
+    INF    INF      0      1
+    INF    INF    INF      0
+
  */
