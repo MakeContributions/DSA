@@ -1,7 +1,7 @@
   /* In this algorithm two linked list is given in which we have to add both the linked list and store the output in another linked list.
 
  Time Complexity: O(m+n) where m and n are the sizes of given two linked lists.
- Space Complexity: O(m+n) where m and n are the size of the given two linked list.*/
+ Space Complexity: O(m) if (m>n) and O(n) if (n>m) ,where m and n are the size of the given two linked list.*/
 
 
 
