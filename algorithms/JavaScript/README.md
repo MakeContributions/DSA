@@ -3,6 +3,7 @@
 ## Arrays
 
 - [Counting Inversions](src/arrays/counting-inversions.js)
+- [Two Sum](src/arrays/two-sum.js)
 
 ## Linked Lists
 
