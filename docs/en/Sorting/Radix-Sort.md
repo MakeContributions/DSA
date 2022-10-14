@@ -64,6 +64,7 @@ After third pass array looks like..
 
 - [C](algorithms/C/sorting/radix-sort.c)
 - [C++](algorithms/CPlusPlus/Sorting/radix-sort.cpp)
+- [Java](algorithms/Java/sorting/radix-sort.java)
 - [Python](algorithms/Python/sorting/radix_sort.py)
 
 ## Video URL
