@@ -1,3 +1,10 @@
+  /* In this algorithm two linked list is given in which we have to add both the linked list and store the output in another linked list.
+
+ Time Complexity: O(m+n) where m and n are the sizes of given two linked lists.
+ Space Complexity: O(m+n) where m and n are the size of the given two linked list.*/
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 class Node
@@ -162,3 +169,20 @@ int main()
 
     return 0;
 }
+
+
+ /*output:
+ The first Linked List
+9-> 9-> 3-> 4-> 5-> 6-> NULL
+The second Linked List
+5-> 6-> 4-> 8-> NULL
+The sum of the given two linked list
+9-> 9-> 9-> 1-> 0-> 4-> NULL   */
+
+
+
+ 
+
+
+
+
