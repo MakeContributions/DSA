@@ -80,6 +80,7 @@
 - [Sliding Window Maximum](stacks/sliding-window-maximum.java)
 - [Min Stack](stacks/Min-Stack.java)
 - [Next Greater Element](stacks/Next_Greater_Element.java)
+- [Dynamic Stack](stack/DynamicStack.java)
 
 ## Strings
 
