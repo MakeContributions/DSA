@@ -31,7 +31,7 @@
 - [Next permutation](Arrays/next-permutation.cpp)
 - [Maximum Minimum Average of numbers](Arrays/max-min-avg.cpp)
 - [Sparse Matrix](Arrays/sparse_matrix.cpp)
-
+- [Balanced Parenthesis](Arrays/balanced-parenthesis.cpp)
 
 
 ## Dynamic-Programming
@@ -42,6 +42,7 @@
 - [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
 - [Edit Distance](Dynamic-Programming/edit-distance.cpp)
 - [Fibonacci](Dynamic-Programming/fibonacci.cpp)
+- [Rod Cutting](Dynamic-Programming/rod-cutting.cpp)
 
 ## Graphs
 
@@ -156,7 +157,7 @@
 ## Trie
 
 - [Trie for searching](Trie/trie_search.cpp)
-- [Trie for insert search and prefix_search](Trie/trie_startWith.cpp)
+- [Trie for prefix_search](Trie/trie_startWith.cpp)
 - [Trie for delete](Trie/trie_delete.cpp)
 
 # Maths

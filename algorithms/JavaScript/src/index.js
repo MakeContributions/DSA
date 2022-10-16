@@ -1,5 +1,6 @@
 // Arrays
 require('./arrays/counting-inversions');
+require('./arrays/single-occurring-element');
 
 // Linked Lists
 require('./linked-lists/singly');
