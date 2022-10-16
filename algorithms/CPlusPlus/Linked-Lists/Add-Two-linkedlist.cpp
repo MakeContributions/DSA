@@ -1,7 +1,7 @@
   /* In this algorithm two linked list is given in which we have to add both the linked list and store the output in another linked list.
-
- Time Complexity: O(m+n) where m and n are the sizes of given two linked lists.
- Space Complexity: O(m) if (m>n) and O(n) if (n>m) ,where m and n are the size of the given two linked list.*/
+  Time Complexity: O(m+n) where m and n are the sizes of given two linked lists.
+  Space Complexity: O(m+n) where m and n are the size of the given two linked list.
+  Space Complexity: O(m) if (m>n) and O(n) if (n>m) ,where m and n are the size of the given two linked list.*/
 
 
 
@@ -12,13 +12,11 @@ class Node
 public:
     int data;
     Node *next;
-
     Node(int val)
     {
         this->data = val;
         this->next = NULL;
     }
-
     ~Node()
     {
         int value = this->data;
@@ -30,7 +28,6 @@ public:
         cout << "Memory is free for the node with data" << value << endl;
     }
 };
-
 void insertAtHead(Node *&head, int data)
 {
     Node *temp = head;
@@ -42,10 +39,9 @@ void insertAtHead(Node *&head, int data)
     newNode->next = head;
     head = newNode;
 }
-
 void insertAtTail(Node *&head, int d)
 {
-    // new node create
+     
     if (head == NULL)
     {
         insertAtHead(head, d);
@@ -54,7 +50,6 @@ void insertAtTail(Node *&head, int d)
     head->next = temp;
     head = temp;
 }
-
 void display(Node *&head)
 {
     if (head == NULL)
@@ -70,7 +65,6 @@ void display(Node *&head)
     }
     cout << "NULL" << endl;
 }
-
 Node *reverse(Node *head)
 {
     Node *curr = head;
@@ -85,7 +79,6 @@ Node *reverse(Node *head)
     }
     return prev;
 }
-
 Node *Sum(Node *head1, Node *head2)
 {
     head1 = reverse(head1);
@@ -104,7 +97,6 @@ Node *Sum(Node *head1, Node *head2)
         head1 = head1->next;
         head2 = head2->next;
     }
-
     while (head1 != NULL)
     {
         int sum = head1->data + carry;
@@ -129,30 +121,23 @@ Node *Sum(Node *head1, Node *head2)
         int digit = sum % 10;
         temp->next = new Node(digit);
         temp = temp->next;
-
         carry = sum / 10;
     }
     return reverse(ans->next);
 }
-
 int main()
 {
-
     Node *node1 = new Node(9);
     Node *head = node1;
-
     Node *tail = node1;
     insertAtTail(tail, 9);
-
     insertAtTail(tail, 3);
     insertAtTail(tail, 4);
     insertAtTail(tail, 5);
     insertAtTail(tail, 6);
     cout << "The first Linked List" << endl;
     display(head);
-
     cout << endl;
-
     Node *node2 = new Node(5);
     Node *head1 = node2;
     Node *tail1 = node2;
@@ -161,28 +146,17 @@ int main()
     insertAtTail(tail1, 8);
     cout << "The second Linked List" << endl;
     display(head1);
-
     Node *temp = Sum(head, head1);
     cout << "The sum of the given two linked list" << endl;
-
     display(temp);
-
     return 0;
 }
 
 
- /*output:
+     /*output:
  The first Linked List
 9-> 9-> 3-> 4-> 5-> 6-> NULL
 The second Linked List
 5-> 6-> 4-> 8-> NULL
 The sum of the given two linked list
 9-> 9-> 9-> 1-> 0-> 4-> NULL   */
-
-
-
- 
-
-
-
-
