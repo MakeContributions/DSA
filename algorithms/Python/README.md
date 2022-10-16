@@ -7,6 +7,7 @@
 - [Missing Number](arrays/missing_number.py)
 - [Remove duplicate items](arrays/remove_duplicates_list.py)
 - [Dutch National Flag Algorithm](arrays/dutch_national_flag_algo.py)
+- [Max Sub Array Sum](arrays/max_sub_array_sum.py)
 
 ## Linked Lists
 - [Doubly](linked_lists/doubly.py)
