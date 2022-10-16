@@ -18,8 +18,10 @@
 - [Dijkstras](graphs/Dijkstras.java)
 - [Prims](graphs/Prims.java)
 
+
 ## Linked Lists
 
+- [Circular Singly Linked List](linked-lists/circular-singly-linkedlist.java)
 - [Circular](linked-lists/circular.java)
 - [Clone Linked List](linked-lists/clone-linkedlist.java)
 - [Doubly](linked-lists/doubly.java)
