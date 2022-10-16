@@ -116,4 +116,4 @@ The Linkedlist is 2 1 7 8 5 9
 
 */
 
-// Here intial linkedlist was 9 5 8 7 1 2 and after using reverse function the linkedlist become 2 1 7 8 5 9
+// Here initial linkedlist was 9 5 8 7 1 2 and after using reverse function the linkedlist become 2 1 7 8 5 9
