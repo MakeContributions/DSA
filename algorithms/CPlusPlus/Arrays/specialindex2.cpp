@@ -53,3 +53,12 @@ int main(){
     cout<<"\n total special index: "<<count;   //displaying
     return 0;
 }
+/* ----INPUT-----
+enter length 6
+4 3 2 7 6 -2
+----- OUTPUT------
+special index found at: 0
+special index found at: 2
+total special index:2
+*/
+//time complexity:o(n^2)
