@@ -13,6 +13,7 @@
 - [Singly](linked_lists/singly.py)
 - [Reverse List](linked_lists/reverse-linkedlist.py)
 - [Middle Node](linked_lists/middle-node-linkedlist.py)
+- [Cycle Detection and Removal](linked_lists/cycle-detection-and-removal-linkedlist.py)
 
 
 ## Dictionaries
