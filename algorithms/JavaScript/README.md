@@ -3,6 +3,7 @@
 ## Arrays
 
 - [Counting Inversions](src/arrays/counting-inversions.js)
+- [Two Sum](src/arrays/two-sum.js)
 - [Single Occurring Element](src/arrays/single-occurring-element.js)
 
 ## Linked Lists
