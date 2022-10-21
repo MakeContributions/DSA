@@ -32,7 +32,7 @@
 - [Maximum Minimum Average of numbers](Arrays/max-min-avg.cpp)
 - [Sparse Matrix](Arrays/sparse_matrix.cpp)
 - [Balanced Parenthesis](Arrays/balanced-parenthesis.cpp)
-
+- [Spiral Matrix](Arrays/Spiral_Matrix.cpp)
 
 ## Dynamic-Programming
 
