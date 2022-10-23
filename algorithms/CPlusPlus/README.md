@@ -135,6 +135,7 @@
 - [Longest common prefix](Strings/longest-common-prefix.cpp)
 - [First unique character in the string](Strings/first-unique-character.cpp)
 - [Sliding Window to match target string](Strings/sliding-window.cpp)
+- [Addition of two large integers represented as a string](Strings\addition_of_integers_as_strings.cpp)
 
 ## Trees
 
