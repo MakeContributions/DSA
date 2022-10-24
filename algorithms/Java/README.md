@@ -12,6 +12,7 @@
 - [Trapping Rain Water](arrays/trapping-rain-water.java)
 - [Ugly Number](arrays/ugly-number.java)
 - [Merge Without Extra Space](arrays/merge-without-extra-space.java)
+- [Knapsack Greedy Algorithm](arrays/Knapsack-Greedy.java)
 
 ## Graphs
 
