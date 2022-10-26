@@ -82,7 +82,7 @@ void getExampleMatrix(int*& matrix_out, size_t& size_out);
 
 int main()
 {
-    //I highly recomend to create matrix class
+    //I highly recommend to create matrix class
 
     size_t size;
     std::cout << "Graph Size: ";
