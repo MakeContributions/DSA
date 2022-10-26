@@ -1,7 +1,7 @@
 #include <cstddef>
 #include <limits>
 
-//I highly recomend to create matrix class
+//I highly recommend to create matrix class
 template <typename T>
 inline T& getMatrixElement( T* matrix, size_t size, 
                             size_t row, size_t column)
