@@ -32,6 +32,7 @@
 - [Maximum Minimum Average of numbers](Arrays/max-min-avg.cpp)
 - [Sparse Matrix](Arrays/sparse_matrix.cpp)
 - [Balanced Parenthesis](Arrays/balanced-parenthesis.cpp)
+- [Find special index](Arrays/specialindex2.cpp)
 
 
 ## Dynamic-Programming
