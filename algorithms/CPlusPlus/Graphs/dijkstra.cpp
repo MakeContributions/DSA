@@ -1,99 +1,177 @@
-//Dijkstra's algorithm
-//implemented in the context of a directed graph
-#include <bits/stdc++.h>
-using namespace std;
+#include <cstddef>
+#include <limits>
 
-int dijkstra(vector<vector<pair<int,int>>>& graph, int start, int end){
-    //return value(-1 if endpoint is unreachable)
-    int ret=-1;
+//I highly recommend to create matrix class
+template <typename T>
+inline T& getMatrixElement( T* matrix, size_t size, 
+                            size_t row, size_t column)
+{
+    return *(matrix + row * size + column);
+}
 
-    //storing cost(distance) of each vertex, set initial value as -1
-    vector<int> dist(graph.size(),-1);
+template <typename T>
+inline void setMatrixElement ( T* matrix, size_t size,
+                               size_t row, size_t column, T element)
+{
+    *(matrix + row * size + column) = element;
+}
 
-    //priority queue to store traversing vertices and cost values
-    //data will be stored in the format of: {cost, current vertex}
-    //entry with minimum cost will always be on top
-    priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> pq;
-    pq.push({0,start});
+template <typename T>
+size_t minDistance(T* vector, bool* states, size_t size)
+{
+    size_t index;
+    T min = std::numeric_limits<T>::max();
 
-    while(!pq.empty()){
-        int cVertex, cCost;
-        tie(cCost,cVertex) = pq.top();
-        pq.pop();
-
-        //vertex already visited with lower cost -> continue
-        if(dist[cVertex]!=-1&&dist[cVertex]<=cCost)continue;
-        //otherwise we update our current cost(distance)
-        dist[cVertex]=cCost;
-
-        if(cVertex==end){
-            ret=cCost;
-            break;
+    for(size_t i = 0; i < size; i++)
+    {
+        if (states[i] == false && vector[i] <= min)
+        {
+            min = vector[i];
+            index = i;
         }
+    }
 
-        for(pair<int,int> nPair : graph[cVertex]){
-            int nVertex, nCost;
-            tie(nVertex,nCost) = nPair;
-            if(dist[nVertex]!=-1&&dist[nVertex]<=cCost+nCost){
-                //the next vertex has already been traversed with lower cost
-                continue;
+    return index;
+}
+
+template <typename T>
+T* dijkstra (T* matrix, size_t matrix_size, size_t start_pos)
+{
+    T* result = new T [matrix_size];
+    // I recoment use dynamic bitset from boost library
+    bool* states = new bool[matrix_size];
+
+    //Set All elements to max value and all state to False
+    for(size_t i = 0; i < matrix_size; i++)
+    {
+        result[i] = std::numeric_limits<T>::max();
+        states[i] = false;
+    }
+    
+    result[0] = 0;
+
+    for(size_t i = 0; i < matrix_size; i++)
+    {
+        size_t index = minDistance(result, states, matrix_size);
+        states[index] = true;
+
+        for(size_t j = 0; j < matrix_size; j++)
+        {
+            if (
+                !states[j] &&
+                getMatrixElement(matrix, matrix_size, index, j) &&
+                result[index] +  getMatrixElement(matrix, matrix_size, index, j) < result[j]
+                //result.get(index) != std::numeric_limits<T>::max()
+                )
+            {
+                T new_val = result[index] + getMatrixElement(matrix, matrix_size, index, j);
+                result[j] = new_val;
             }
-            //otherwise we add a new entry to the priority queue
-            pq.push({nCost+cCost,nVertex});
         }
     }
-    return ret;
+
+    return result;
 }
 
-int main(){
-    //number of vertices(V) and edges(E)
-    int V, E;
-    cout << "Enter the number of vertices: ";
-    cin >> V;
-    cout << "Enter the number of edges: ";
-    cin >> E;
-    cout << "Enter each edge information in the format of: \n";
-    cout << "(Source vertex number) (Destination vertex number) (cost)\n";
-    //Adjacency list
-    //data will be stored in the format of: {destination,cost}
-    //with the first index as the source
-    vector<vector<pair<int,int>>> graph(V+1,vector<pair<int,int>>());
-    while(E--){
-        int source, dest, cost;
-        cin >> source >> dest >> cost;
-        graph[source].push_back({dest,cost});
+#include <iostream>
+
+
+//function declaration below
+//Generate and std::cout << matrix
+void getExampleMatrix(int*& matrix_out, size_t& size_out);
+
+int main()
+{
+    //I highly recommend to create matrix class
+
+    size_t size;
+    std::cout << "Graph Size: ";
+    std::cin >> size; 
+
+    int* user_graph_matrix = new int [size*size];
+
+    for(size_t i = 0; i < size; i++)    
+    {
+        for(size_t j = 0; j < size; j++)    
+        {
+            int temp;
+            std::cout << "(" << j << ", " << i << ") = ";
+            std::cin >> temp;
+
+            setMatrixElement(user_graph_matrix, size, i, j, temp);
+        }
     }
-    //starting point(start), ending point(end)
-    int start, end;
-    cout << "Enter the starting point: ";
-    cin >> start;
-    cout << "Enter the ending point: ";
-    cin >> end;
-    int answer = dijkstra(graph,start,end);
-    if(answer==-1){
-        cout << "Shortest path from " << start << " to " << end << " does not exist." << endl;
+
+
+    size_t start_element = std::numeric_limits<size_t>::max();
+    while (true)
+    {
+        std::cout << "Choose First Element: ";
+        std::cin >> start_element;
+
+        if(start_element < size)
+            break;
+        
+        std::cout << "[Warning] Number of element is greater that matrix size\n";
     }
-    else
-        cout << "The minimum cost for the shortest path is: " << answer << endl;
+
+    auto ex_result = dijkstra(user_graph_matrix, size, start_element);
+    for(size_t i = 0; i < size; i++)
+    {
+        std::cout << ex_result[i] << " ";
+    }
+    std::cout << "\n";
+
+    // !!! Unkoment for example matrix
+
+    // size_t ex_size;
+    // int* ex_matrix;
+    
+    // getExampleMatrix(ex_matrix, ex_size);
+
+    // auto ex_result = dijkstra(ex_matrix, ex_size, 0);
+    // for(size_t i = 0; i < ex_size; i++)
+    // {
+    //     std::cout << ex_result[i] << " ";
+    // }
+    // std::cout << "\n";
 }
-//Time complexity: O(ElogV)
-//Space complexity: O(V+E)
 
-/*
-Sample Input
-5
-8
-1 2 2
-1 3 3
-1 4 1
-1 5 10
-2 4 2
-3 4 1
-3 5 1
-4 5 3
-1
-5
+void getExampleMatrix(int*& matrix_out, size_t& size_out)
+{
+    size_t size = 4;
+    int* graph_matrix = new int[size*size];
 
-Output(minimum cost)
-4
-*/
+    setMatrixElement(graph_matrix, size, 0, 0, 0);
+    setMatrixElement(graph_matrix, size, 0, 1, 0);
+    setMatrixElement(graph_matrix, size, 0, 2, 3);
+    setMatrixElement(graph_matrix, size, 0, 3, 1);
+
+    setMatrixElement(graph_matrix, size, 1, 0, 0);
+    setMatrixElement(graph_matrix, size, 1, 1, 0);
+    setMatrixElement(graph_matrix, size, 1, 2, 0);
+    setMatrixElement(graph_matrix, size, 1, 3, 5);
+
+    setMatrixElement(graph_matrix, size, 2, 0, 3);
+    setMatrixElement(graph_matrix, size, 2, 1, 0);
+    setMatrixElement(graph_matrix, size, 2, 2, 0);
+    setMatrixElement(graph_matrix, size, 2, 3, 1);
+
+    setMatrixElement(graph_matrix, size, 3, 0, 1);
+    setMatrixElement(graph_matrix, size, 3, 1, 5);
+    setMatrixElement(graph_matrix, size, 3, 2, 1);
+    setMatrixElement(graph_matrix, size, 3, 3, 0);
+
+    for(size_t i = 0; i < size; i++)
+    {
+        for (size_t j = 0; j < size; j++)
+        {
+            std::cout << getMatrixElement(graph_matrix, size, i, j) << " ";
+        }
+        std::cout << "\n";
+    }
+    std::cout << "\n";
+
+    size_out = size;
+    matrix_out = graph_matrix;
+}
