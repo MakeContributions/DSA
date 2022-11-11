@@ -12,7 +12,7 @@ def is_valid_roman_string(roman_number: str) -> bool:
     return set(roman_number).issubset(equivalence.keys())
 
 
-def convertion(roman_number: str) -> int:
+def conversion(roman_number: str) -> int:
     """Traverses a given roman number and returns its decimal equivalent"""
     digits = len(roman_number)
     result = 0
@@ -31,7 +31,7 @@ def roman_to_int(roman_number: str) -> int | ValueError:
     if not is_valid_roman_string(roman_number):
         raise ValueError(f'The string must contain only valid roman numbers: {equivalence.keys()}')
 
-    return convertion(roman_number)
+    return conversion(roman_number)
 
 
 if __name__ == '__main__':
