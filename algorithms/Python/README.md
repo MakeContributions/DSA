@@ -66,6 +66,7 @@
 - [Add String](strings/add_string.py)
 - [Rabin Karp algorithm](strings/rabin-karp-algorithm.py)
 - [Find all permutations](strings/find_all_permutations.py)
+- [Roman to Int](strings/roman-to-int.py)
 
 ## Dynamic Programming
 - [Print Fibonacci Series Up To N-th Term](dynamic_programming/fibonacci_series.py)
