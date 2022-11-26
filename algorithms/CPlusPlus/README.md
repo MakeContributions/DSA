@@ -216,3 +216,4 @@
 ## Backtracking
 
 - [N-Queens Problem](Backtracking/n-queens.cpp)
+- [Rat in a maze problem](Backtracking/rat-in-a-maze-problem.cpp)
