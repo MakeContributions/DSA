@@ -29,6 +29,8 @@
 
 - [Palindrome](src/strings/palindrome.js)
 - [Sequence](src/strings/sequence.js)
+- [Left Rotation](src/strings/left-rotation.js)
+- [Right Rotation](src/strings/right-rotation.js)
 
 ## Stacks
 
