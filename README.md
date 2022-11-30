@@ -105,7 +105,7 @@ It can be any of the following ones
 
 #### Source Code File
 
-The source code files, should either be in `src/` folder (**Eg.** `src/main.cpp` or `src/main.js`) or the root folder (**Eg.** `palindrome.go` or `App.java`) where `ext` is the file extension for the specific programming language.
+The source code files should either be in `src/` folder (**Eg.** `src/main.cpp` or `src/main.js`) or the root folder (**Eg.** `palindrome.go` or `App.java`) where `ext` is the file extension for the specific programming language.
 
 Again, the source codes must conform to a valid file structure convention that the programming language enforces.
 
