@@ -19,7 +19,7 @@ public class RemoveDuplicateLL {
 
     }
 
-    /* To sort remove the duplicates from the linkedlist it would be better to sort it in O(n logn)*/
+    /* Sort  the list using merge sort it O(n logn)*/
     Node sortedMerge(Node first, Node second) {
         Node result;
         if (first == null)
