@@ -1,4 +1,5 @@
 // function of reverse a linkedlist in groups of size K 
+// Time Complexity = O(N) and Space Complexity = O(N)
 
 Node* kReverse(Node* head, int k) {
   
