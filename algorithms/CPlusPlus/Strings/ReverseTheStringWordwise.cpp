@@ -34,3 +34,11 @@ string Solution::solve(string s) {
         str+=v[0];
         return str;
 }
+
+int main()
+{
+    string s;
+    cin>>s;
+    cout<<solve(s);
+    return 0;
+}
