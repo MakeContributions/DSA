@@ -11,7 +11,11 @@
 
 
 // Time Complexity = O(N), Space Complexity = O(N)
-string Solution::solve(string s) {
+
+#include<bits/stdc++.h>
+using namespace std;
+
+string solve(string s) {
    vector<string>v;
         string str="";
         for(int i=0;i<s.length();i++){
@@ -38,7 +42,7 @@ string Solution::solve(string s) {
 int main()
 {
     string s;
-    cin>>s;
+    getline(cin, s);
     cout<<solve(s);
     return 0;
 }
