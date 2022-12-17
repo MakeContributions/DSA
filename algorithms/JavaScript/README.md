@@ -6,6 +6,10 @@
 - [Two Sum](src/arrays/two-sum.js)
 - [Single Occurring Element](src/arrays/single-occurring-element.js)
 
+## Backtracking
+
+- [Sequence](src/strings/sequence.js)
+
 ## Linked Lists
 
 - [Singly](src/linked-lists/singly.js)
@@ -28,7 +32,6 @@
 ## Strings
 
 - [Palindrome](src/strings/palindrome.js)
-- [Sequence](src/strings/sequence.js)
 
 ## Stacks
 
