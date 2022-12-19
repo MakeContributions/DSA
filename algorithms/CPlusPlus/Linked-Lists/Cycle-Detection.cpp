@@ -30,7 +30,7 @@ bool detectLoop(struct Node* h)
     {
         // If this node is already present
         // in hashmap it means there is a cycle
-        // (Because you we encountering the
+        // (Because here we are encountering the
         // node for the second time).
         if (s.find(h) != s.end())
             return true;
