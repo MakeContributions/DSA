@@ -33,7 +33,7 @@
 - [Sparse Matrix](Arrays/sparse_matrix.cpp)
 - [Balanced Parenthesis](Arrays/balanced-parenthesis.cpp)
 - [Find special index](Arrays/specialindex2.cpp)
-
+- [Largest and smallest number in an array](Arrays/Largest-and-smallest-number-in-an-array.cpp)
 
 ## Dynamic-Programming
 

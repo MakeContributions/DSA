@@ -1,10 +1,10 @@
 #include <iostream>
-#include<bits/stdc++.h>
+#include <algorithm>
 using namespace std;
 
 //simple approach:
 //sort the array in ascending order.
-//the first element would be the smallest and the last elemnet would be the largest
+//the first element would be the smallest and the last element would be the largest
 
 int main()
 {
