@@ -35,23 +35,23 @@ SAMPLE INPUT AND OUTPUT
 			<Vertices> <Edges>
 			5 6
 			<start node>
-            0
+      0
 			<src node> <des node> <weight>
 			4 0 1
-            0 1 2
-            0 2 3
-            1 2 4
-            1 3 5
-            2 3 6
+      0 1 2
+      0 2 3
+      1 2 4
+      1 3 5
+      2 3 6
 			
 			Output:
 			___________
 			Distances from start node 0
 			0
-            2
-            3
-            7
-            INF
+      2
+      3
+      7
+      INF
 """
 
 for i in dist:
