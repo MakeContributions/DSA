@@ -74,5 +74,6 @@ int main(){
   push(head,8);
   printList(head);
   head = kReverse(head,3);
+  cout<<endl;
   printList(head);
 }
