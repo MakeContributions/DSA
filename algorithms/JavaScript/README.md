@@ -6,6 +6,11 @@
 - [Two Sum](src/arrays/two-sum.js)
 - [Single Occurring Element](src/arrays/single-occurring-element.js)
 
+## Backtracking
+
+- [Sequence](src/strings/sequence.js)
+- [Permutations](src/backtracking/permutation.js)
+
 ## Linked Lists
 
 - [Singly](src/linked-lists/singly.js)
