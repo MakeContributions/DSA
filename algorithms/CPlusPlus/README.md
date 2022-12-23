@@ -188,6 +188,7 @@
 
 - [Tower of Hanoi](Recursion/towerofHanoi.cpp)
 - [Factorial](Recursion/factorial.cpp)
+- [Fibonacci](Recursion/fibonacci.cpp)
 - [Permutation](Recursion/permutation.cpp)
 - [GCD/HCF of two numbers](Recursion/GCD-of-two-numbers.cpp)
 - [Sum of all elements of an array](Recursion/Sum-of-all-elements-in-an-array.cpp)
