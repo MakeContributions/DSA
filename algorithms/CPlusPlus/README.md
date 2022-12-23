@@ -33,7 +33,7 @@
 - [Sparse Matrix](Arrays/sparse_matrix.cpp)
 - [Balanced Parenthesis](Arrays/balanced-parenthesis.cpp)
 - [Find special index](Arrays/specialindex2.cpp)
-
+- [Largest and smallest number in an array](Arrays/Largest-smallest.cpp)
 
 ## Dynamic-Programming
 
@@ -81,6 +81,7 @@
 - [Segregate Even Odd Nodes of linked list](Linked-Lists/segregate-even-odd-nodes-of-linked-list.cpp)
 - [Remove Duplicate in Sorted linked list](Linked-Lists/remove-duplicates-in-sorted-linked-list.cpp)
 - [Reverse the linked list using stack](Linked-Lists/reverse-the-list-using-stack.cpp)
+- [Reverse the linked list in groups of K](Linked-Lists/reverse-the-list-in-groups-of-k.cpp)
 ## Searching
 
 - [Linear Search](Searching/linear-search.cpp)
