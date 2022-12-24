@@ -44,3 +44,9 @@ public class Sieve_of_Eratosthenes {
         }
     }
 }
+
+
+/* Time Complexity: O(n*log(log(n)))
+   Auxiliary Space: O(n)
+   Constraint: n = 10,000,000
+ */
