@@ -1,4 +1,5 @@
 //Order Agnostic Binary Search implementation in JAVA
+//Time complexity: O(N)
 
 public class OrderAgnosticBinarySearch {
 
