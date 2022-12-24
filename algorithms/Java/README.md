@@ -39,6 +39,7 @@
 - [Square Root using BinarySearch](Maths/square-root.java)
 - [Roman Numerals Conversion](Maths/roman-numerals.java)
 - [Permutation Sequence](Maths/permutation_sequence.java)
+- [Sieve of Eratosthenes](Maths/Sieve_of_Eratosthenes.java)
 
 ## Queues
 
