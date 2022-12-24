@@ -8,7 +8,7 @@
     2. Start with a smallest prime number, ie p = 2p=2.
     3. Mark all the multiples of pp which are less than nn as composite. To do this, mark the value of the numbers (multiples of pp) in the generated list as 0. Do not mark pp itself as composite.
     4. Assign the value of p to the next prime. The next prime is the next non-zero number in the list which is greater than p.
-    5. Repeat the process until p is less than or equal to square root of n p\le \sqrt { n }p≤ n
+    5. Repeat the process until p is less than or equal to square root of n.
 
 
  */
