@@ -44,6 +44,7 @@
 - [Edit Distance](Dynamic-Programming/edit-distance.cpp)
 - [Fibonacci](Dynamic-Programming/fibonacci.cpp)
 - [Rod Cutting](Dynamic-Programming/rod-cutting.cpp)
+- [Longest Increasing Subsequence](Dynamic-Programming/longest-increasing-subsequence.cpp)
 
 ## Graphs
 
