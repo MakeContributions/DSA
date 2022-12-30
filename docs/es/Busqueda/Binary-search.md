@@ -16,42 +16,41 @@ Existen distintas variaciones en la implementación de este algoritmo, por ejemp
 8. En caso de no encontrarse el elemento deseado, se retornará “-1”.
 
 ## Ejemplo
-
--            (0  1  2  3   4   5   6   7   8   9)
-- Arreglo: **(2, 5, 8, 12, 16, 23, 38, 56, 72, 91)**
+           
+- Arreglo: [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]
 - Encontrar la posición del número 23.
 
 
 - Se definen los límites del intervalo, inicialmente serán: 0 y 9, siendo 0 la posición inicial y 9 la posición final del arreglo.
-  
--    (0                                9)
--    (2, 5, 8, 12, 16, 23, 38, 56, 72, 91)
-
+```
+     0                                9
+    [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]
+```
 - Se obtiene el índice y el elemento que se encuentra en la mitad del arreglo, en este caso 4 y 16 respectivamente.
-  
--    (0            4                   9)
--    (2, 5, 8, 12, 16, 23, 38, 56, 72, 91)
-
+```
+     0            4                   9
+    [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]
+```
 - 16 es menor al elemento deseado, entonces cambiamos nuestro límite inferior de nuestro rango a 4+1 (ya que 4 era la posición del valor de la mitad).
-
--                      (5               9)
--    (2, 5, 8, 12, 16, 23, 38, 56, 72, 91)
-
+```
+                      5               9
+    [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]
+```
 - Se obtiene el índice y el elemento que se encuentra en la mitad del rango arreglo, en este caso 7 y 56 respectivamente.
-
--                      (5       7       9)
--    (2, 5, 8, 12, 16, 23, 38, 56, 72, 91)
-
+```
+                      5       7       9
+    [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]
+```
 - 56 es mayor a 23, se cambia el límite superior del intervalo 7-1(ya que 7 era la posición del valor de la mitad).
-
--                      (5   6)           
--    (2, 5, 8, 12, 16, 23, 38, 56, 72, 91)
-
+```
+                      5   6           
+    [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]
+```
 - Se obtiene la posición y valor de la mitad del rango, siendo este entre 5 y 6, obteniendo la posición 5 y el número 23, ya que este es el número buscado, se termina el algoritmo.
-
--                      (5)               
--    (2, 5, 8, 12, 16, 23, 38, 56, 72, 91)
-
+```
+                      5            
+    [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]
+```
 
 ## Implementación
 
