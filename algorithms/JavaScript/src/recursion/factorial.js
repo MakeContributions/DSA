@@ -15,3 +15,4 @@ function factorial(n) {
 
 console.log(factorial(5));
 // output: 120
+// 
