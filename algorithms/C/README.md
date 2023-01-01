@@ -32,6 +32,7 @@
 - [Reverse a Linked List](linked-lists/reverse-linkedlists.c)
 - [Doubly Linked List](linked-lists/doubly-linked-list.c)
 - [Glued-Linked-List](linked-lists/gl-threads.c)
+- [Circular Doubly Linked list](linked-lists/circular-doubly-linked-list.c)
 
 ## Maths
 

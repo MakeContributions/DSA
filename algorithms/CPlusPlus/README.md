@@ -205,6 +205,7 @@
 - [Product of digits in a number](Recursion\product-of-digits.cpp)
 - [Linear search using recursion](Recursion/linear-search.cpp)
 - [Reverse a number using recursion](Recursion/reverse-a-number.cpp)
+- [Longest Common Substring](Recursion/Longest-common-substring.cpp)
 
 ## Number System
 
