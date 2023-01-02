@@ -1,3 +1,7 @@
+import java.util.Scanner;
+/* The RemoveDuplicateLL removes the duplicate elements from a singly linkedlist. In order to remove the duplicates
+ we first sort the list using the merge sort. The time Complexity for the merge sort is O(n*log n) and
+  space complexity is O(log n); from the sorted list to remove the duplicate elements the time complexity is O(n). */
 public class RemoveDuplicateLL {
     private Node head = null;
     class Node {
@@ -19,14 +23,13 @@ public class RemoveDuplicateLL {
 
     }
 
-    /* Sort  the list using merge sort it O(n logn)*/
+    /* To sort remove the duplicates from the linkedlist it would be better to sort it in O(n logn)*/
     Node sortedMerge(Node first, Node second) {
         Node result;
         if (first == null)
             return second;
         if (second == null)
             return first;
-
         /* Choose the list which contains smaller elements */
         if (first.data <= second.data) {
             result = first;
@@ -66,12 +69,11 @@ public class RemoveDuplicateLL {
         return slow;
     }
 
-    /* To sort remove the duplicates in O(n)*/
-    public Node removeDuplicates(Node head) {
+    /* To remove the duplicates in O(n)*/
+    public Node removeDuplicates() {
         if(head == null) {
             return null;
         }
-
         Node ptr = head;
         while (ptr.next != null) {
             if(ptr.data == ptr.next.data) {
@@ -89,7 +91,7 @@ public class RemoveDuplicateLL {
         if(head == null) return;
         System.out.print("[ ");
         while(pointer != null) {
-            System.out.print(pointer.data + " ");
+            System.out.print(" "+pointer.data + " ");
             pointer = pointer.next;
         }
         System.out.println("]");
@@ -97,30 +99,25 @@ public class RemoveDuplicateLL {
 
     public static void main(String [] args) {
         RemoveDuplicateLL list = new RemoveDuplicateLL();
-        list.addNode(9);
-        list.addNode(2);
-        list.addNode(7);
-        list.addNode(1);
-        list.addNode(8);
-        list.addNode(3);
-        list.addNode(7);
-        list.addNode(5);
-        list.addNode(4);
-        list.addNode(8);
-        list.addNode(1);
+        System.out.print("Enter the length of list : ");
+        Scanner sc=new Scanner(System.in);
+        int length = sc.nextInt();
+        for(int i=0; i<length; i++) {
+            list.addNode( sc.nextInt());
+        }
 
         System.out.print("input : ");
         list.print();
         System.out.print("sorted : ");
-        list.mergeSortList(list.head);
+        list.head= list.mergeSortList(list.head);
         list.print();
         System.out.print("remove duplicates : ");
-        list.removeDuplicates(list.head);
+        list.removeDuplicates();
         list.print();
     }
     /* Output
-    input : [ 1 8 4 5 7 3 8 1 7 2 9 ]
-    sorted : [ 1 1 2 3 4 5 7 7 8 8 9 ]
-    remove dupliactes : [ 1 2 3 4 5 7 8 9 ]
+   input : [  2  1  0  3  1  9  0  0  9 ]
+   sorted : [  0  0  0  1  1  2  3  9  9 ]
+   remove duplicates : [  0  1  2  3  9 ]
      */
 }
