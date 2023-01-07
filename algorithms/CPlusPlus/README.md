@@ -33,7 +33,7 @@
 - [Sparse Matrix](Arrays/sparse_matrix.cpp)
 - [Balanced Parenthesis](Arrays/balanced-parenthesis.cpp)
 - [Find special index](Arrays/specialindex2.cpp)
-
+- [Largest and smallest number in an array](Arrays/Largest-smallest.cpp)
 
 ## Dynamic-Programming
 
@@ -81,6 +81,7 @@
 - [Segregate Even Odd Nodes of linked list](Linked-Lists/segregate-even-odd-nodes-of-linked-list.cpp)
 - [Remove Duplicate in Sorted linked list](Linked-Lists/remove-duplicates-in-sorted-linked-list.cpp)
 - [Reverse the linked list using stack](Linked-Lists/reverse-the-list-using-stack.cpp)
+- [Reverse the linked list in groups of K](Linked-Lists/reverse-the-list-in-groups-of-k.cpp)
 ## Searching
 
 - [Linear Search](Searching/linear-search.cpp)
@@ -136,6 +137,7 @@
 - [Longest common prefix](Strings/longest-common-prefix.cpp)
 - [First unique character in the string](Strings/first-unique-character.cpp)
 - [Sliding Window to match target string](Strings/sliding-window.cpp)
+- [Reverse String Wordwise](Strings/ReverseTheStringWordwise.cpp)
 
 ## Trees
 
@@ -160,6 +162,7 @@
 - [Trie for searching](Trie/trie_search.cpp)
 - [Trie for insert search and prefix_search](Trie/trie_insert_search_startWith.cpp)
 - [Trie for delete](Trie/trie_delete.cpp)
+- [Find Words Matching Pattern Dictionary](Trie/find_all_words_matching_pattern_in_given_dictionary.cpp)
 
 # Maths
 
@@ -216,3 +219,4 @@
 ## Backtracking
 
 - [N-Queens Problem](Backtracking/n-queens.cpp)
+- [Rat In A Maze Problem](Backtracking/rat-in-a-maze-problem.cpp)
