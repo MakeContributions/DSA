@@ -52,7 +52,7 @@ public class Prims{
 			System.out.println(u+"->"+v+"="+min);
 		}
 
-		for(i=1;i<=n;i++)
+		for(int i=1;i<=n;i++)
 			if(sol[i]==0)
 				flag=1;
 		if(flag==1)
