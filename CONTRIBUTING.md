@@ -2,7 +2,7 @@
 
 This documentation aims to simplify and guide the way beginners make their first contribution. If you are looking to make your first contribution, follow the steps below.
 
-_If you're not comfortable with command line, [here are tutorials using GUI tools.](#tutorials-using-other-tools)_
+_If you're not comfortable with the command line, [here are tutorials using GUI tools.](#tutorials-using-other-tools)_
 
 <img align="right" width="300" src="https://user-images.githubusercontent.com/68538660/106238740-67a62b80-61cf-11eb-9892-6a0877a80fbf.png" alt="fork this repository" />
 
@@ -61,7 +61,7 @@ git checkout -b add-new-file
 
 ## Make necessary changes and commit those changes
 
-Now open add or edit file in a text editor. Add code for any existing algorithm in other language or add some new algorithms. Make sure to update correspond README.md file if needed. Now, save the file.
+Now open add or edit file in a text editor. Add code for any existing algorithm in other language or add some new algorithms. Make sure to update the corresponding README.md file if needed. Now, save the file.
 
 <img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
 
