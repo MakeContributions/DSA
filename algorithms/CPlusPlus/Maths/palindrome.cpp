@@ -12,9 +12,8 @@ int main() {
   // Taking input from user
   std::cin >> user_input;
 
-  // This will hold the reverse of the input
-  // We make sure it is as long as the input string and fill it with zero-bytes
-  // for now
+  // This will hold the reverse of the input.  We make sure it is as long as the
+  // input string and fill it with zero-bytes for now
   std::string rev(user_input.length(), '\0');
   // Copying the reverse of the string
   std::reverse_copy(user_input.begin(), user_input.end(), rev.begin());
