@@ -12,7 +12,9 @@
 Data structure and Algorithm (DSA)
 
 ## Explanations
+
 - [English](./docs/en)
+- [Español](./docs/es)
 - [Português](./docs/pt)
 - [Turkish](./docs/tr)
 - [繁體中文](./docs/zh-tw)
@@ -43,7 +45,7 @@ The file should conform to the `problem` specification, and the extension (**Eg.
 
 #### Project/Folder-based Contributions
 
-The project and folder-based contributions have a bit more stricter contribution contribution specifications.
+The project and folder-based contributions have a bit more stricter contribution specifications.
 
 The folder should conform to the `problem` specification, along with the following specifications
 
@@ -103,7 +105,7 @@ It can be any of the following ones
 
 #### Source Code File
 
-The source code files, should either be in `src/` folder (**Eg.** `src/main.cpp` or `src/main.js`) or the root folder (**Eg.** `palindrome.go` or `App.java`) where `ext` is the file extension for the specific programming language.
+The source code files should either be in `src/` folder (**Eg.** `src/main.cpp` or `src/main.js`) or the root folder (**Eg.** `palindrome.go` or `App.java`) where `ext` is the file extension for the specific programming language.
 
 Again, the source codes must conform to a valid file structure convention that the programming language enforces.
 
@@ -117,14 +119,14 @@ The programming should keep the naming convention rule of each programming langu
 
 ## Reviewers
 
-| Programming Language | Users                                             |
-| -------------------- | ------------------------------------------------- |
-| C or C++             | @Arsenic-ATG, @UG-SEP, @aayushjain7, @Ashborn-SM  |
-| Java                 | @TawfikYasser, @aayushjain7                       |
-| C#                   | @ming-tsai, @Waqar-107                            |
-| Go                   |                                                   |
-| Python               | @Arsenic-ATG, @sridhar-5                          |
-| JavaScript           | @ming-tsai                                        |
+| Programming Language | Users                                                       |
+| -------------------- | ----------------------------------------------------------- |
+| C or C++             | @Arsenic-ATG, @UG-SEP, @aayushjain7, @Ashborn-SM, @Ashad001 |
+| Java                 | @TawfikYasser, @aayushjain7, @mohitchakraverty              |
+| C#                   | @ming-tsai, @Waqar-107                                      |
+| Go                   | @ayo-ajayi                                                  |
+| Python               | @Arsenic-ATG, @sridhar-5                                    |
+| JavaScript           | @ming-tsai                                                  |
 
 ## Contributors
 

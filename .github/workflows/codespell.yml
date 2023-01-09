@@ -8,7 +8,9 @@ jobs:
   codespell:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
       - run: pip install codespell
-      - run: codespell --ignore-words-list="ans,nnumber,nin,Hel" --quiet-level=2  --skip="**/**/package-lock.json,./docs/pt,./.github,./algorithms/CSharp/test"
+      - run: codespell --ignore-words-list="ans,nnumber,nin,Hel" --quiet-level=2  --skip="**/**/package-lock.json,./docs/pt,./docs/es,./docs/tr,./.github,./algorithms/CSharp/test"

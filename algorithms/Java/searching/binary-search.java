@@ -1,50 +1,64 @@
-// Java implementation of recursive Binary Search 
-class BinarySearch { 
-    // Returns index of x if it is present in arr[l..r], 
-    //  else return -1 
-    int binarySearch(int arr[], int l, int r, int x) 
-    { 
-        if (r >= l) { 
-            int mid = l + (r - l) / 2;  
-            //We use (l + (r - l)) rather than using (l - r) to avoid arithmetic overflow. 
-            //Arithmetic overflow is the situation when the value of a variable increases
-            //beyond the maximum value of the memory location, and wraps around.
-  
-            // If the element is present at the 
-            // middle itself 
-            if (arr[mid] == x) 
-                return mid; 
-  
-            // If element is smaller than mid, then 
-            // it can only be present in left subarray 
-            if (arr[mid] > x) 
-                return binarySearch(arr, l, mid - 1, x); 
-  
-            // Else the element can only be present 
-            // in right subarray 
-            return binarySearch(arr, mid + 1, r, x); 
-        } 
-  
-        // We reach here when element is not present 
-        // in array 
-        return -1; 
-    } 
-  
-    // Driver method to test above 
-    public static void main(String args[]) 
-    { 
-        BinarySearch ob = new BinarySearch(); 
-        int arr[] = { 2, 3, 4, 10, 40 }; 
-        int n = arr.length; 
-        int x = 10; 
-        int result = ob.binarySearch(arr, 0, n - 1, x); 
-        if (result == -1) 
-            System.out.println("Element not present"); 
-        else
-            System.out.println("Element found at index " + result); 
-    } 
-} 
+// Algorithm BinarySearch Iterative method
+/*binarySearch(arr, x, low, high)
+        repeat till low = high
+               mid = (low + high)/2
+                   if (x == arr[mid])
+                   return mid
+   
+                   else if (x > arr[mid]) // x is on the right side
+                       low = mid + 1
+   
+                   else                  // x is on the left side
+                       high = mid - 1
+ */
+// Time Complexity : O(log(n)) 
 
-// For running in terminal rename this file to BinarySearch.java
-//then run the commands <javac BinarySearch.java> followed by <java BinarySearch>
-//It will generate and a BinarySearch.class file which is a file containing java bytecode that is executed by JVM.
+public class BinarySearch {
+
+    static int binarySearch(int arr[], int key) 
+    {
+        int start = 0;
+        int end = arr.length - 1;
+        
+        while (start <= end) {
+            // We use (start + (end - start)/2) rather than using (start + end)/2 to avoid
+            // arithmetic overflow.
+            // Arithmetic overflow is the situation when the value of a variable increases
+            // beyond the maximum value of the memory location, and wraps around.
+            int mid = start + (end - start) / 2; // optimised way
+
+            if (arr[mid] == key)// key element is found at the middle of the array
+                return mid;
+
+            else if (arr[mid] < key) {// so the key lies in the right hand side of array
+                start = mid + 1;
+            }
+
+            else {// so the key lies in the left subarray
+                end = mid - 1;
+            }
+        }
+        // we reach here when the key element is not present
+        return -1;
+    }
+
+    public static void main(String[] args) 
+    {
+
+        int arr[] = { 1, 3, 4, 5, 6 };
+
+        /*
+         * List<ArrayList<Integer>> arr = new ArrayList<>();
+         * arr.add(new ArrayList<Integer>(Arrays.asList( 1, 3, 4, 5, 6 )));
+         */
+        int key = 4; // element to search
+        int index = binarySearch(arr, key);
+        if (index == -1) {
+            System.out.println("key element not found");
+        }
+        else {
+            System.out.println("key element found at index :" + index);
+        }
+
+    }
+}

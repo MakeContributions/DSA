@@ -20,7 +20,7 @@ int maxSubArrSum_A(int a[],int n){
     return maxSum;
 }
 
-// Appraoch B - Cumulative Sum Approach O(n^2)
+// Approach B - Cumulative Sum Approach O(n^2)
 int maxSubArrSum_B(int a[],int n){
     int currSum[n+1]; currSum[0] = 0;
     for(int i=1;i<=n;++i){

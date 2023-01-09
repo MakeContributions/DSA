@@ -7,12 +7,14 @@
 - [Missing Number](arrays/missing_number.py)
 - [Remove duplicate items](arrays/remove_duplicates_list.py)
 - [Dutch National Flag Algorithm](arrays/dutch_national_flag_algo.py)
+- [Max Sub Array Sum](arrays/max_sub_array_sum.py)
 
 ## Linked Lists
 - [Doubly](linked_lists/doubly.py)
 - [Singly](linked_lists/singly.py)
 - [Reverse List](linked_lists/reverse-linkedlist.py)
 - [Middle Node](linked_lists/middle-node-linkedlist.py)
+- [Cycle Detection and Removal](linked_lists/cycle-detection-and-removal-linkedlist.py)
 
 
 ## Dictionaries
@@ -26,6 +28,7 @@
 - [n-th Fibonacci number](recursion/nth_fibonacci_number.py)
 - [Recursive Insertion Sort](recursion/recursive_insertion_sort.py)
 - [Recursive Sum of n numbers](recursion/recursive-sum-of-n-numbers.py)
+- [GCD by Euclid's Algorithm](recursion/gcd_using_recursion.py)
 
 
 ## Scheduling
@@ -62,6 +65,8 @@
 - [Unique Character](strings/unique_character.py)
 - [Add String](strings/add_string.py)
 - [Rabin Karp algorithm](strings/rabin-karp-algorithm.py)
+- [Find all permutations](strings/find_all_permutations.py)
+- [Roman to Int](strings/roman-to-int.py)
 
 ## Dynamic Programming
 - [Print Fibonacci Series Up To N-th Term](dynamic_programming/fibonacci_series.py)
@@ -82,3 +87,6 @@
 
 ## Queues
 - [First in First out Queue](queues/fifo-queue.py)
+
+## Number Theory
+- [Prime Number Checker](number_theory/prime_number.py)
