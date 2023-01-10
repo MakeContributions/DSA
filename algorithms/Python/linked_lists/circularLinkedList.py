@@ -72,7 +72,7 @@ class CircularLinkedList:
                 self.tail.next = self.head
             else:
                 self.head = self.tail = newNode
-                newNode.next = newNode
+                self.head.next = newNode
 
         # Insertion at the end of the circular linked list.
         elif location == -1:
