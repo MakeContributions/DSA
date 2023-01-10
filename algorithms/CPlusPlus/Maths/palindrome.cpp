@@ -1,5 +1,6 @@
 #include <algorithm>
 #include <iostream>
+#include <locale>
 #include <string>
 
 int main() {
@@ -8,24 +9,41 @@ int main() {
                "obobo, nancyiycnan etc.\n";
 
   // Define a buffer variable
-  std::string user_input;
+  std::string input;
   // Taking input from user
-  std::cin >> user_input;
+  std::getline(std::cin, input);
 
-  // This will hold the reverse of the input.  We make sure it is as long as the
-  // input string and fill it with zero-bytes for now
-  std::string rev(user_input.length(), '\0');
+  // Remove all non-alphanumeric characters.  Filtering is done according to the
+  // users locale using `std::locale("")`.  This uses the erase-remove idiom:
+  // https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom
+  std::locale user_locale("");
+  input.erase(std::remove_if(
+                  input.begin(), input.end(),
+                  [&](const auto &c) { return !std::isalnum(c, user_locale); }),
+              input.cend());
+  // Convert to lowercase
+  std::transform(input.cbegin(), input.cend(), input.begin(),
+                 [&](const auto &c) { return std::tolower(c, user_locale); });
+
+  // Print filtered string
+  std::cout << "Checking the string: " << input << '\n';
+
+  // This will hold the reverse of the input.  We make sure it is as long as
+  // the input string and fill it with zero-bytes for now
+  std::string rev(input.length(), '\0');
   // Copying the reverse of the string
-  std::reverse_copy(user_input.begin(), user_input.end(), rev.begin());
+  std::reverse_copy(input.begin(), input.end(), rev.begin());
 
   // Compare and output
-  std::cout << (user_input == rev ? "Palindrome\n" : "Non-palindrome\n");
+  std::cout << (input == rev ? "Palindrome\n" : "Non-palindrome\n");
 
   // Exit with success
   return 0;
-
-  // Complexity, with n = the length of the input:
-  //   Constructing rev is O(n)
-  //   std::reverse_copy is O(n)
-  //   Total: O(n)
 }
+
+// Complexity, with n being the length of the input:
+//   std::remove_if are O(n)
+//   std::vector<T>::erase is worst-case O(n)
+//   Constructing rev is O(n)
+//   std::reverse_copy is O(n)
+//   Total: O(n)
