@@ -104,7 +104,7 @@ class CircularLinkedList:
         """
         if not self.isEmpty():
             trackNode = self.head
-            previousNode:Optional[Node] = None
+            previousNode = Node
             while trackNode.value != value:
                 previousNode = trackNode
                 trackNode = trackNode.next
