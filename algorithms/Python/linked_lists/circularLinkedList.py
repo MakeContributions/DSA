@@ -15,7 +15,7 @@ class Node:
 
     def __init__(self, value: int):
         self.value = value
-        self.next = None
+        self.next:Optional[Node] = None
 
 
 class CircularLinkedList:
@@ -72,7 +72,7 @@ class CircularLinkedList:
                 self.tail.next = self.head
             else:
                 self.head = self.tail = newNode
-                self.head.next = newNode
+                newNode.next = newNode
 
         # Insertion at the end of the circular linked list.
         elif location == -1:
@@ -103,7 +103,7 @@ class CircularLinkedList:
         """
         if not self.isEmpty():
             trackNode = self.head
-            previousNode = None
+            previousNode:Optional[Node] = None
             while trackNode.value != value:
                 previousNode = trackNode
                 trackNode = trackNode.next
