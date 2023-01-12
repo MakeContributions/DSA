@@ -3,7 +3,7 @@ Data Structure : Circular Linked List.
 Time Complexity : O(1) for all operations.
 Space Complexity : O(n) Where, 'n' is the number of nodes in the linked list.
 """
-
+from typing import Optional
 
 class Node:
     """
