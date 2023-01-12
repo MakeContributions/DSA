@@ -5,6 +5,7 @@ Space Complexity : O(n) Where, 'n' is the number of nodes in the linked list.
 """
 from typing import Optional
 
+
 class Node:
     """
     Class to represent a Node.
