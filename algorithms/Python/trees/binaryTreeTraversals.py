@@ -29,7 +29,7 @@ class BinaryTree:
         - root (BinaryTreeNode) : The root of the Binary Tree.
     """
     def __init__(self):
-        self.root: Optional[BinaryTreeNode] = None
+        self.root = None
 
     def insert(self, value: int) -> str:
         """
@@ -46,7 +46,7 @@ class BinaryTree:
             self.root = BinaryTreeNode(value)
         else:
             # Creating the FIFO (Queue) for level order traversal
-            auxQueue = Queue()
+            auxQueue: Queue = Queue()
             auxQueue.put(self.root)
 
             while not auxQueue.empty():
@@ -70,9 +70,9 @@ class BinaryTree:
 
 class RecursiveTraversal:
     """Class to represent Recursive Traversals of the Binary Tree."""
-    def preOrder(self, root: BinaryTreeNode, result: list) -> Union[None, list]:
+    def preOrder(self, root, result: list) -> Union[None, list]:
         if not root:
-            return
+            return None
         else:
             result.append(root.data)
             self.preOrder(root.leftChild, result)
@@ -80,9 +80,9 @@ class RecursiveTraversal:
 
         return result
 
-    def inOrder(self, root: BinaryTreeNode, result: list) -> Union[None, list]:
+    def inOrder(self, root, result: list) -> Union[None, list]:
         if not root:
-            return
+            return None
         else:
             self.inOrder(root.leftChild, result)
             result.append(root.data)
@@ -90,9 +90,9 @@ class RecursiveTraversal:
 
         return result
 
-    def postOrder(self, root: BinaryTreeNode, result: list) -> Union[None, list]:
+    def postOrder(self, root, result: list) -> Union[None, list]:
         if not root:
-            return
+            return None
         else:
             self.postOrder(root.leftChild, result)
             self.postOrder(root.rightChild, result)
@@ -110,7 +110,7 @@ class IterativeTraversal(BinaryTree):
         if not self.root:
             return "The Binary Tree is Empty."
         else:
-            auxStack = LifoQueue()
+            auxStack: LifoQueue = LifoQueue()
             auxStack.put(self.root)
 
             while not auxStack.empty():
@@ -132,7 +132,7 @@ class IterativeTraversal(BinaryTree):
         if not self.root:
             return "The Binary Tree is Empty."
         else:
-            auxStack = LifoQueue()
+            auxStack: LifoQueue = LifoQueue()
             currentNode = self.root
 
             while currentNode or not auxStack.empty():
@@ -154,8 +154,8 @@ class IterativeTraversal(BinaryTree):
         if not self.root:
             return "The Binary Tree is Empty."
         else:
-            auxStack = []
-            previous: Optional[BinaryTreeNode] = None
+            auxStack: list = []
+            previous: BinaryTreeNode
             currentNode = self.root
 
             while currentNode or auxStack:
