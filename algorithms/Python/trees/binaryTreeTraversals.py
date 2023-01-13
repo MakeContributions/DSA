@@ -31,7 +31,7 @@ class BinaryTree:
     def __init__(self):
         self.root = None
 
-    def insert(self, value: int) -> str:
+    def insert(self, data: int) -> str:
         """
         Create a `BinaryTreeNode` with the `value` and insert the node at the
         vacant place in the Binary Tree.
@@ -39,11 +39,11 @@ class BinaryTree:
         NOTE : The vacant place can be found using level order traversal.
         Also, we need queue for level order traversal.
 
-        :param value: The value of the `BinaryTreeNode`.
+        :param data: The value of the `BinaryTreeNode`.
         :return: A meaningful message to the user of the program.
         """
         if not self.root:
-            self.root = BinaryTreeNode(value)
+            self.root = BinaryTreeNode(data)
         else:
             # Creating the FIFO (Queue) for level order traversal
             auxQueue: Queue = Queue()
@@ -54,13 +54,13 @@ class BinaryTree:
 
                 # Check if current node has vacant place.
                 if currentNode.leftChild is None:
-                    currentNode.leftChild = BinaryTreeNode(value)
+                    currentNode.leftChild = BinaryTreeNode(data)
                     break
                 else:
                     auxQueue.put(currentNode.leftChild)
 
                 if currentNode.rightChild is None:
-                    currentNode.rightChild = BinaryTreeNode(value)
+                    currentNode.rightChild = BinaryTreeNode(data)
                     break
                 else:
                     auxQueue.put(currentNode.rightChild)
@@ -155,7 +155,7 @@ class IterativeTraversal(BinaryTree):
             return "The Binary Tree is Empty."
         else:
             auxStack: list = []
-            previous: BinaryTreeNode
+            previous = BinaryTreeNode
             currentNode = self.root
 
             while currentNode or auxStack:
