@@ -182,8 +182,9 @@ if __name__ == "__main__":
 
     bTree = IterativeTraversal()
     # Create Binary Tree with random values
-    for _ in range(15):
-        bTree.insert(randint(0, 1000))
+    testValues = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    for value in testValues:
+        bTree.insert(value)
 
     print("Iterative Outputs")
     print(bTree.preOrder())
