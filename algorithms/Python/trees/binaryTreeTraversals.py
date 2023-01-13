@@ -6,7 +6,6 @@ Space Complexity: O(n) (Auxiliary space)
 """
 from typing import Optional, Union
 from queue import Queue, LifoQueue
-from random import randint
 
 
 class BinaryTreeNode:
