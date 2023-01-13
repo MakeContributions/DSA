@@ -1,3 +1,10 @@
+/*
+Given a string s, return true if we can have a palindrome from the permutation of the input
+A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward, such as madam or racecar.
+
+	Time: O(n)
+	Space: O(n)
+*/
 package strings
 
 import( 
@@ -5,12 +12,7 @@ import(
 	"fmt"
 )
 
-/*
-Given a string s, return true if we can have a palindrome from the permutation of the input
 
-	Time: O(n)
-	Space: O(n)
-*/
 func canPermutePalindrome(s string) bool {
     a := strings.Split(s,"")
     dictionary := make(map[string] int)
@@ -29,7 +31,7 @@ func canPermutePalindrome(s string) bool {
 
 
 //You are welcome to play around with the test cases
-func runPermutationCheck(){
+func RunPermutationCheck(){
 	input1 := "carerac"
 
 	fmt.Printf("%t for input %s \n", canPermutePalindrome(input1), input1)	//should print true

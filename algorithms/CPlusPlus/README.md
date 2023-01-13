@@ -30,6 +30,10 @@
 - [All unique triplet that sum up to given value](Arrays/three-sum.cpp)
 - [Next permutation](Arrays/next-permutation.cpp)
 - [Maximum Minimum Average of numbers](Arrays/max-min-avg.cpp)
+- [Sparse Matrix](Arrays/sparse_matrix.cpp)
+- [Balanced Parenthesis](Arrays/balanced-parenthesis.cpp)
+- [Find special index](Arrays/specialindex2.cpp)
+- [Largest and smallest number in an array](Arrays/Largest-smallest.cpp)
 
 ## Dynamic-Programming
 
@@ -39,6 +43,7 @@
 - [Matrix chain Multiplication](Dynamic-Programming/matrix-chain-multiplication.cpp)
 - [Edit Distance](Dynamic-Programming/edit-distance.cpp)
 - [Fibonacci](Dynamic-Programming/fibonacci.cpp)
+- [Rod Cutting](Dynamic-Programming/rod-cutting.cpp)
 
 ## Graphs
 
@@ -51,6 +56,11 @@
 - [Connected Components](Graphs/total-connected-components.cpp)
 - [Dijkstra's Algorithm](Graphs/dijkstra.cpp)
 - [Cycle Detection](Graphs/cycle-detection.cpp)
+- [Prim's Algorithm](Graphs/prim's_algorithm.cpp)
+- [Floyd Warshall](Graphs/floyd-warshall.cpp)
+- [Detecting Cycle in Directed graph using three colors](Graphs/detecting-cycle-in-a-graph-using-three-color-mechanism.cpp)
+
+
 
 ## Multiplication
 
@@ -70,7 +80,8 @@
 - [Find Merge Point of two singly linked list](Linked-Lists/Find-Merge-Point.cpp)
 - [Segregate Even Odd Nodes of linked list](Linked-Lists/segregate-even-odd-nodes-of-linked-list.cpp)
 - [Remove Duplicate in Sorted linked list](Linked-Lists/remove-duplicates-in-sorted-linked-list.cpp)
-
+- [Reverse the linked list using stack](Linked-Lists/reverse-the-list-using-stack.cpp)
+- [Reverse the linked list in groups of K](Linked-Lists/reverse-the-list-in-groups-of-k.cpp)
 ## Searching
 
 - [Linear Search](Searching/linear-search.cpp)
@@ -91,6 +102,7 @@
 - [Infix to postfix expression conversion](Stacks/infix-to-postfix.cpp)
 - [Stock Span Problem using Stacks](Stacks/stock-span-problem.cpp)
 - [Prefix to Postfix expression conversion](Stacks/prefix_to_postfix.cpp)
+- [Redundant Parenthesis](Stacks/redundant-parenthesis.cpp)
 
 ## Sorting
 
@@ -124,6 +136,8 @@
 - [Boyer Moore pattern search](Strings/Boyer_Moore.cpp)
 - [Longest common prefix](Strings/longest-common-prefix.cpp)
 - [First unique character in the string](Strings/first-unique-character.cpp)
+- [Sliding Window to match target string](Strings/sliding-window.cpp)
+- [Reverse String Wordwise](Strings/ReverseTheStringWordwise.cpp)
 
 ## Trees
 
@@ -140,11 +154,15 @@
 - [Finding the elements of a tree visible from top view](Trees/Top-View-Of-A-Tree.cpp)
 - [Binary Tree Implementation](Trees/binary-tree-implementation.cpp)
 - [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
+- [Print all nodes at level k](Trees/print-all-nodes-at-a-level.cpp)
 - [Sum of right leaves](Trees/sum-of-right-leaves.cpp)
 
 ## Trie
 
 - [Trie for searching](Trie/trie_search.cpp)
+- [Trie for insert search and prefix_search](Trie/trie_insert_search_startWith.cpp)
+- [Trie for delete](Trie/trie_delete.cpp)
+- [Find Words Matching Pattern Dictionary](Trie/find_all_words_matching_pattern_in_given_dictionary.cpp)
 
 # Maths
 
@@ -164,6 +182,7 @@
 - [Power of two](Maths/power-of-two.cpp)
 - [Small numbers](Maths/small-numbers.cpp)
 - [Segmented Sieve](Maths/segmented-sieve-range.cpp)
+- [Binary Power](Maths/binary-power.cpp)
 
 # Recursion
 
@@ -185,3 +204,19 @@
 - [Product of two numbers](Recursion\product-of-numbers.cpp)
 - [Product of digits in a number](Recursion\product-of-digits.cpp)
 - [Linear search using recursion](Recursion/linear-search.cpp)
+- [Reverse a number using recursion](Recursion/reverse-a-number.cpp)
+
+## Number System
+
+- [Binary Addition](Number-system/binary_addition.cpp)
+- [Binary to Decimal](Number-system/binary_to_decimal.cpp)
+- [Decimal To Binary](Number-system/decimal_to_binary.cpp)
+- [Decimal To Hexa-Decimal](Number-system/decimal_to_hexa.cpp)
+- [Hexa-Decimal To Decimal](Number-system/hexa_to_decimal.cpp)
+- [Decimal To Octal](Number-system/decimal_to_octal.cpp)
+- [Octal To Decimal](Number-system/octal_to_decimal.cpp)
+
+## Backtracking
+
+- [N-Queens Problem](Backtracking/n-queens.cpp)
+- [Rat In A Maze Problem](Backtracking/rat-in-a-maze-problem.cpp)

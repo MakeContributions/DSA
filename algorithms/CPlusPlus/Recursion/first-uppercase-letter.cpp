@@ -1,7 +1,7 @@
 /*
 Description: Program to print the first uppercase letter in a string
 
-Approach: Use a varialbe to iterate over the string
+Approach: Use a variable to iterate over the string
 Increment the iterator by 1 at every recursive call
 If the value of iterator reaches till the length of the string, return '\0
 

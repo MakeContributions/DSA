@@ -16,9 +16,12 @@
 ## Graphs
 
 - [Dijkstras](graphs/Dijkstras.java)
+- [Prims](graphs/Prims.java)
+
 
 ## Linked Lists
 
+- [Circular Singly Linked List](linked-lists/circular-singly-linkedlist.java)
 - [Circular](linked-lists/circular.java)
 - [Clone Linked List](linked-lists/clone-linkedlist.java)
 - [Doubly](linked-lists/doubly.java)
@@ -33,6 +36,9 @@
 - [Catalan Numbers](Maths/catalan-numbers.java)
 - [Nth Geek Onacci Number](Maths/nth-geek-onacci-number.java)
 - [Random Node in Linked List](Maths/algorithms_random_node.java)
+- [Square Root using BinarySearch](Maths/square-root.java)
+- [Roman Numerals Conversion](Maths/roman-numerals.java)
+- [Permutation Sequence](Maths/permutation_sequence.java)
 
 ## Queues
 
@@ -53,6 +59,7 @@
 - [Allocate minimum number of pages](searching/allocate-min-pages.java)
 - [Exponential Search](searching/Exponential-search.java)
 - [Interpolation Search](searching/interpolation-search.java)
+- [Ternery Search](searching/ternery-search.java)
 
 ## Sorting
 
@@ -74,6 +81,7 @@
 - [Celebrity Problem](stacks/celebrity-problem.java)
 - [Sliding Window Maximum](stacks/sliding-window-maximum.java)
 - [Min Stack](stacks/Min-Stack.java)
+- [Next Greater Element](stacks/Next_Greater_Element.java)
 
 ## Strings
 
@@ -88,6 +96,7 @@
 - [Boyer Moore Search](strings/Boyer_Moore.java)
 - [Reverse String](strings/reverse-string.java)
 - [First Non Repeating Character](strings/first-non-repeating-char.java)
+- [Isomorphic Strings](strings/isomorphic_strings.java)
 
 ## Trees
 
@@ -97,7 +106,8 @@
 - [Zig-Zag Traversal of a Tree](trees/zig-zag-traversal.java)
 - [Min Heap](trees/MinHeap.java)
 - [Check Tree Traversal](trees/check-tree-traversal.java)
-- [Random Node of a binary tree](tree-random-node.java)
+- [Random Node of a binary tree](trees/tree-random-node.java)
+- [Left Leaf Sum of a Binary tree](trees/Left-Leaf-Sum.java)
 
 ## Backtracking
 
