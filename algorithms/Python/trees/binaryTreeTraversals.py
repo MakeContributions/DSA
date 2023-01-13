@@ -4,8 +4,8 @@ Algorithm : Binary Tree Traversals (Pre-Order, In-Order, Post-Order)
 Time Complexity : O(n)
 Space Complexity: O(n) (Auxiliary space)
 """
+from queue import LifoQueue, Queue
 from typing import Optional, Union
-from queue import Queue, LifoQueue
 
 
 class BinaryTreeNode:
