@@ -33,7 +33,7 @@ public class Sieve_of_Eratosthenes {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the maximum number upto which prime numbers are required: ");
+        System.out.print("Enter the maximum number up to which prime numbers are required: ");
         int n = sc.nextInt();
         boolean[] isPrime = sieveOfEratosthenes(n);
         System.out.print("Following are the prime numbers: ");
