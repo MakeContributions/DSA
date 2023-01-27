@@ -5,13 +5,14 @@
 using namespace std;
 
 int maximumDifference(int a[], int n) {
-	int minVal = a[0];							//Initialized minimum value with the first element of the array.
-	int maxDiff = a[1] - a[0];					//Initialized maximum difference with the difference between first and second value
-	for (int j = 1; j < n; ++j) {
-		maxDiff = max(maxDiff, a[j] - minVal);  
-		minVal = min(minVal, a[j]);
+	int minVal = INT_MAX;							//Initialized minimum value with the max no
+	int ans = INT_MIN;					//Initialized maximum difference with min value
+	for (int j = 0; j < n; ++j) {
+		//maxDiff = max(maxDiff, a[j] - minVal);  
+		minVal = min(minVal, a[j]); // extracting the min value upto index j
+		ans = max(ans , a[j] - minVal); // max difference with each passing index
 	}
-	return maxDiff;
+	return ans;
 }	
 
 int main() {
