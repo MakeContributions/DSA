@@ -1,5 +1,5 @@
 /*
-  Order Agnostic Binary Search is a method of finding the sorting in either ascending or descending order.
+  Order Agnostic Binary Search is a method of finding the sorted array in either ascending or descending order.
 */
 
 public class OrderAgnosticBS {
