@@ -8,7 +8,7 @@ An AVL tree is a self-balancing binary search tree that maintains a height-balan
 
 ## Basic Components of an AVL Tree
 
-An AVL tree consists of nodes, each containing a value and pointers to its left and right child nodes. The height of a node is defined as the number of edges from the node to its deepest leaf. The height difference between the left and right subtrees of a node is called the balance factor, and it must be at most 1 for every node in the tree.
+An AVL tree consists of nodes, each containing a value and pointers to its left and right child nodes. The height of a node is defined as the number of edges from the node to its deepest leaf. The height difference between the left and right subtrees of a node is called the balance factor, and it must be at most 1 for every node in the tree. 
 
 ## Implementation 
 - [C](../../../algorithms/C/tree/avl.c)
