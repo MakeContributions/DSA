@@ -3,6 +3,7 @@
 ## Arrays
 
 - [Even and Odd](arrays/even-and-odd.c)
+- [Kadane's Algorithm](arrays/kadanes-algorithm.c)
 - [Unique Elements in an array](arrays/unique-elements-in-an-array.c)
 - [Reverse an array](arrays/reverse-array.c)
 - [Shuffle an array](arrays/shuffle_array.c)
