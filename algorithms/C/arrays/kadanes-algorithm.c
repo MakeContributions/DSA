@@ -17,16 +17,16 @@ Time Complexity: O(N)
 #include<stdlib.h>
 
 
-int maxSubArraySum(int *array,int size)
+int max_sub_array_sum(int *array,int size)
 {
-    int bestSum=0,sum=0;
+    int best_sum=0,sum=0;
 
     for(int i=0;i<size;i++)
     {
         sum=array[i]>sum+array[i]?array[i]:sum+array[i];
-        bestSum=bestSum>sum?bestSum:sum;
+        best_sum=best_sum>sum?best_sum:sum;
     }
-    return bestSum;
+    return best_sum;
 }
 
 int main()
@@ -43,7 +43,7 @@ int main()
     for(int i=0;i<size;++i)
         scanf("%d",&array[i]);
 
-    printf("Maximum contiguous sum is %d",maxSubArraySum(array,size));
+    printf("Maximum contiguous sum is %d",max_sub_array_sum(array,size));
 
     return 0;
 }
