@@ -1,10 +1,12 @@
 
 # Circular Linked List
+
 A linked list in which the last node points to the first node is called a circular linked list. Each node in circular linked list includes data(value that a node holds) and next(address of next node). 
 
 ## How to create a Circular Linked List?
-- Create a node, store a value in it and points it to next address.
--  If there is only one node in list, then it points to itself as the next node is itself. If more than one, then each node stores address of next node.
+1. Create a node, store a value in it and points it to next address.
+2. If there is only one node in list, then it points to itself as the next node is itself. If more than one, then each node stores address of next node.
+The below mentioned code shows implementation of circular linked list. The traversal function is used to display the values of circular linked list.
 
 ## Operations
 The operations on circular linked list are:
@@ -35,8 +37,11 @@ Deletion in circular linked list can be done at four positions in the list:
 -   Deletion of a node with specific value
 
 ## Implementation
+
 -  [C++](../../../algorithms/CPlusPlus/Linked-Lists/circular.cpp)
 
 
 ## Reference
+
+
 ["D.S. Malik", "Data Structures using C++", "Second Edition".](https://www.amazon.com/Data-Structures-Using-D-Malik/dp/0324782012)
