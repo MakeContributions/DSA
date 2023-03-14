@@ -32,3 +32,6 @@ public:
     int diameterOfBinaryTree(TreeNode* root) {
         int diameter = 0;
         height(root, diameter);
+        return diameter;
+    }
+};
