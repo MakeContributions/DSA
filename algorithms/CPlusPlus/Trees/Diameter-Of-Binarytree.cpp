@@ -35,3 +35,17 @@ public:
         return diameter;
     }
 };
+
+/*
+Example Iteration : 
+
+                  1
+                /   \
+               /     \
+              2       3
+            /   \
+           /     \
+          4       5
+
+        So, In the Above Example shown the longest path 3 obtains when we traverse from  [4,2,1,3] or [5,2,1,3]
+*/
