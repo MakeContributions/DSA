@@ -1,0 +1,52 @@
+There are only two patterns which are covering Linked-List problems in interview are:
+1) In place reversal
+2) slow-fast pointer method
+
+code:
+1)	In place traversal
+ 
+
+class Solution {
+    public ListNode reverseList(ListNode head) {
+        if(head == null){
+            return head;
+        }
+        ListNode previous = null;
+        ListNode present = head;
+        ListNode next = present.next;
+
+        while(present != null){
+            present.next = previous;
+            previous = present;
+            present = next;
+            if(next != null){
+                next = next.next;
+            }
+        }
+        return previous;//beacuse the header is previous
+
+    }
+}
+
+2)	Slow – fast pointer method
+
+ 
+public class Solution {
+    public boolean hasCycle(ListNode head) {
+        ListNode fast = head;
+        ListNode slow = head;
+
+        while(fast!=null && fast.next!=null){
+            fast = fast.next.next;
+            slow = slow.next;
+            if(fast == slow){
+                return true;
+            }
+        }
+        return false;
+    }
+}
+
+
+These two can solve more than half of the linked list problems by some manipulations
+You can try problems on Leetcode.
