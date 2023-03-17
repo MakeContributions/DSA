@@ -43,6 +43,8 @@
 
 - [Fibonacci Series](src/maths/fibonacci-series.js)
 
+-[Dynamic Fibonacci Series](src/maths/dynamic-fibonacci-series.js)
+
 ## Recursion
 
 - [Factorial](src/recursion/factorial.js)
