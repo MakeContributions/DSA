@@ -4,28 +4,52 @@ namespace Algorithms.Sorts
 {
     public class BubbleSort
     {
-        public static void Main()
+        public void Main()
         {
-            int[] arr = { 800, 11, 50, 771, 649, 770, 240, 9 };
-            Sort(arr);
-            var result = string.Join(" ", arr);
+            int[] unsortedArray = GenerateRandomUnsortedArray();
+            int[] sortedArray = Sort(unsortedArray);
+            var result = string.Join(" ", sortedArray);
             Console.WriteLine(result);
         }
 
-        public static void Sort(int[] source)
+        public int[] GenerateRandomUnsortedArray(int arrayLength = 200, int maxValue = 12345, int minValue = -12345)
         {
-            for (int write = 0; write < source.Length; write++)
+            int[] unsortedArray = new int[arrayLength];
+            var rand = new Random();
+            for (int i = 0; i < unsortedArray.Length; i++)
             {
-                for (int sort = 0; sort < source.Length - 1; sort++)
+                unsortedArray[i] = rand.Next(minValue, maxValue + 1);
+            }
+
+            return unsortedArray;
+        }
+
+        public int[] Sort(int[] inputArray)
+        {
+            int[] sortedArray = new int[inputArray.Length];
+            Array.Copy(inputArray, sortedArray, inputArray.Length);
+            bool isSwapRequired;
+            for (int i = 0; i < sortedArray.Length; i++)
+            {
+                isSwapRequired = false;
+                for (int sortIdx = 0; sortIdx < sortedArray.Length - 1; sortIdx++)
                 {
-                    if (source[sort] > source[sort + 1])
+                    if (sortedArray[sortIdx] > sortedArray[sortIdx + 1])
                     {
-                        var temp = source[sort + 1];
-                        source[sort + 1] = source[sort];
-                        source[sort] = temp;
+                        var temp = sortedArray[sortIdx + 1];
+                        sortedArray[sortIdx + 1] = sortedArray[sortIdx];
+                        sortedArray[sortIdx] = temp;
+                        isSwapRequired = true;
                     }
                 }
+
+                if (!isSwapRequired)
+                {
+                    break;
+                }
             }
+
+            return sortedArray;
         }
     }
 }
