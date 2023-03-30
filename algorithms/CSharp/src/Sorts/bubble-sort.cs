@@ -4,7 +4,7 @@ namespace Algorithms.Sorts
 {
     public class BubbleSort
     {
-        public void Main()
+        public static void Main()
         {
             int[] unsortedArray = GenerateRandomUnsortedArray();
             int[] sortedArray = Sort(unsortedArray);
@@ -12,7 +12,7 @@ namespace Algorithms.Sorts
             Console.WriteLine(result);
         }
 
-        public int[] GenerateRandomUnsortedArray(int arrayLength = 200, int maxValue = 12345, int minValue = -12345)
+        public static int[] GenerateRandomUnsortedArray(int arrayLength = 200, int maxValue = 12345, int minValue = -12345)
         {
             int[] unsortedArray = new int[arrayLength];
             var rand = new Random();
@@ -24,7 +24,7 @@ namespace Algorithms.Sorts
             return unsortedArray;
         }
 
-        public int[] Sort(int[] inputArray)
+        public static int[] Sort(int[] inputArray)
         {
             int[] sortedArray = new int[inputArray.Length];
             Array.Copy(inputArray, sortedArray, inputArray.Length);

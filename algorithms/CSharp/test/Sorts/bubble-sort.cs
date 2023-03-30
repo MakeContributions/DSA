@@ -7,7 +7,6 @@ namespace algorithms.CSharp.Test.Sorts
     [TestFixture]
     internal class BubbleSortTests
     {
-        private BubbleSort _sut = new BubbleSort();
         private int[] _unsortedArray;
 
         [SetUp]
@@ -26,7 +25,7 @@ namespace algorithms.CSharp.Test.Sorts
         [Test]
         public void Sort_UnorderedIntArray_ReturnsOrderedArray()
         {
-            int[] sortedArray = _sut.Sort(_unsortedArray);
+            int[] sortedArray = BubbleSort.Sort(_unsortedArray);
             for (int i = 0; i < sortedArray.Length-1; i++)
             {
                 Assert.That(sortedArray[i], Is.AtMost(sortedArray[i + 1]));
@@ -36,7 +35,7 @@ namespace algorithms.CSharp.Test.Sorts
         [Test]
         public void Sort_OutputArray_IsEqualLengthToInputArray()
         {
-            int[] sortedArray = _sut.Sort(_unsortedArray);
+            int[] sortedArray = BubbleSort.Sort(_unsortedArray);
             Assert.That(sortedArray.Length, Is.EqualTo(_unsortedArray.Length));
         }
     }
