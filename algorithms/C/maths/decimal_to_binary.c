@@ -10,27 +10,29 @@
 #include <stdio.h>
 void decimal_to_binary(int number)
 {
-	int i = 0;
-	int binary[32];
+        int i = 0;
+        int binary[32];
 
-	while(number > 0)
-	{
-		binary[i] = number % 2;
-		number = number / 2;
-		i++;
-	}
+        while(number > 0)
+        {
+                binary[i] = number % 2;
+                number = number / 2;
+                i++;
+        }
 
-	for(int j = i - 1; j >= 0; j--)
-	{
-		printf("%d ",binary[j]);
-	}
+        for(int j = i - 1; j >= 0; j--)
+        {
+                printf("%d ",binary[j]);
+        }
 }
 
 int main()
 {
-	int number;
-	printf("enter a number : ");
-	scanf("%d",&number);
-	printf("enter a number : ");
-	decimal_to_binary(number);
+        int number;
+        printf("enter a number : ");
+        scanf("%d",&number);
+        printf("binary equivalent : ");
+        decimal_to_binary(number);
+
+        return 0;
 }
