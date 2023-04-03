@@ -8,7 +8,12 @@ using namespace std;
 
 int main()
 {
-    int arr[]={1,2,3,4,5};
+    int a;
+    int arr[20];
+    cin>> a;
+    for (i=0;i<a;i++){
+        cin>>arr[i];
+    }
     int n=sizeof(arr)/sizeof(arr[0]);
     cout<<n<<endl;
     sort(arr,arr+n);//sorting the array
