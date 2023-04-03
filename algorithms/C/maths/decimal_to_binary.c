@@ -1,6 +1,10 @@
 /* This program is used to convert decimal numbers to their binary equivalent
    Time Complexity : O(logn)
    Auxiliary Space: O(1)
+   
+   example:
+   	enter a number : 42
+  	binary equivalent : 101010
 */
 
 #include <stdio.h>
@@ -25,6 +29,8 @@ void decimal_to_binary(int number)
 int main()
 {
 	int number;
+	printf("enter a number : ");
 	scanf("%d",&number);
+	printf("enter a number : ");
 	decimal_to_binary(number);
 }
