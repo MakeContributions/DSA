@@ -29,6 +29,7 @@
 - [Recursive Insertion Sort](recursion/recursive_insertion_sort.py)
 - [Recursive Sum of n numbers](recursion/recursive-sum-of-n-numbers.py)
 - [GCD by Euclid's Algorithm](recursion/gcd_using_recursion.py)
+- [Recursive Is-Palindrome](recursion/recursive_palindrome.py)
 
 
 ## Scheduling
