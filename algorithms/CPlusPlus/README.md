@@ -156,6 +156,7 @@
 - [Iterative Segment Tree](Trees/IterativeSegmentTree.cpp)
 - [Print all nodes at level k](Trees/print-all-nodes-at-a-level.cpp)
 - [Sum of right leaves](Trees/sum-of-right-leaves.cpp)
+- [Binary Tree Right Side View](Trees/binary-tree-right-side-view.cpp)
 
 ## Trie
 
