@@ -6,9 +6,7 @@ package arrays
 
 import ("fmt")
 
-func TestReverseArray() {
-	// create an array of integers
-    arr := []int{1, 2, 3, 4, 5}
+func ReverseArray(arr int[]) {
     // get the length of the array
     n := len(arr)
     // iterate over half of the array and swap corresponding elements
