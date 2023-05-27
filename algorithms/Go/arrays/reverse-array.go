@@ -6,7 +6,7 @@ package arrays
 
 import ("fmt")
 
-func ReverseArray(arr int[]) {
+func ReverseArray(arr []int) {
     // get the length of the array
     n := len(arr)
     // iterate over half of the array and swap corresponding elements
