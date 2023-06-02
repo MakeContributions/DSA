@@ -28,7 +28,7 @@ void LinearSieve(int n) {
 int main() {
     int n;
     cin >> n;
-    LinearSieve(n); //Call the function
-    return 0;     //Time complexity : O(n*log(log(n))), Auxiliary Space: O(1)
-    //Example : n=10 , Output: 2 3 5 7   
+    LinearSieve(n); 
+    return 0;    
+ 
 }
