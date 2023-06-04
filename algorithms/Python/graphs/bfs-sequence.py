@@ -33,7 +33,7 @@ def Display_BFS(curr:int ,Adj_Dict: dict[int, list[int]]) -> None: # displays BF
                queue.append(i)
                visited.append(i)
                rear+=1            
-   queue[front]=-1 # all nodes adjecent to curr are visited
+   queue[front]=-1 # all nodes adjacent to curr are visited
    front+=1
    if front==rear: # no new node to visit
        return
