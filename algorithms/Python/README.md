@@ -15,7 +15,7 @@
 - [Reverse List](linked_lists/reverse-linkedlist.py)
 - [Middle Node](linked_lists/middle-node-linkedlist.py)
 - [Cycle Detection and Removal](linked_lists/cycle-detection-and-removal-linkedlist.py)
-
+- [Circular Linked List](linked_lists/circularLinkedList.py)
 
 ## Dictionaries
 - [Two Sum](dictionaries/two-sum.py)
