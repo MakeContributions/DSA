@@ -50,6 +50,7 @@ To run the `.cs` file, kindly use [.Net Finddle](https://dotnetfiddle.net/)
 ## Recursion
 
 - [Factorial](src/Recursion/factorial.cs)
+- [Sum of Digits of a Number](src/Recursion/sum-of-digits-of-a-number.cs)
 
 ## Graph
 
