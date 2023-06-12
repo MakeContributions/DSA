@@ -112,6 +112,7 @@
 ## Backtracking
 
 - [N Queen Problem](backtracking/nqueen.java)
+- [Rat in a maze](backtracking/rat-in-maze.java)
 
 ## Bit Manipulation
 
