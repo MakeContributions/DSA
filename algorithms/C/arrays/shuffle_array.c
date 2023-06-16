@@ -33,8 +33,9 @@ void shuffle(int *array, int size) // Randomly shuffles given array
 
 void print_array(int *array, int size) // Printing array
 {
-    for (int i = 0; i < size; i++) {
-        printf("%d ", array[i]);
+    //PERF: Since you are using the array pointer, just increment it in the loop.
+    for (int i = 0; i < size; i++, array++) {
+        printf("%d ", *array);
     }
     putchar('\n');
 }
