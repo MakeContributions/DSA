@@ -201,6 +201,24 @@ class Node:
         if self.right:
             self.right.display()  # display tree(right)
 
+    def find_parent(self, data):
+        # Find the parent node of given node
+        parent = self
+        if data < self.data:
+            if data == self.left.data:
+                return parent
+            else:
+                return self.left.find_parent(data)
+        elif data > self.data:
+            if data == self.right.data:
+                return parent
+            else:
+                return self.right.find_parent(data)
+            
+        return "Root node data"
+
+        
+
 
 def build_tree(elements):
     """ constructor """
@@ -233,6 +251,9 @@ if __name__ == '__main__':
     print(list_tree.search(4))  # False
     list_tree.delete(20)
     print("Deleted element: ", list_tree.in_order_traversal())
+
+    parent = list_tree.find_parent(7)
+    print("Parent of 7 is ",parent.data)
 
     # String BST
     country = ["India", "Australia", "France", "Japan", "Sweden"]
