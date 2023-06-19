@@ -60,8 +60,6 @@
 - [Floyd Warshall](Graphs/floyd-warshall.cpp)
 - [Detecting Cycle in Directed graph using three colors](Graphs/detecting-cycle-in-a-graph-using-three-color-mechanism.cpp)
 
-
-
 ## Multiplication
 
 - [Karatsuba](Multiplication/karatsuba.cpp)
@@ -82,6 +80,7 @@
 - [Remove Duplicate in Sorted linked list](Linked-Lists/remove-duplicates-in-sorted-linked-list.cpp)
 - [Reverse the linked list using stack](Linked-Lists/reverse-the-list-using-stack.cpp)
 - [Reverse the linked list in groups of K](Linked-Lists/reverse-the-list-in-groups-of-k.cpp)
+
 ## Searching
 
 - [Linear Search](Searching/linear-search.cpp)
@@ -183,6 +182,7 @@
 - [Small numbers](Maths/small-numbers.cpp)
 - [Segmented Sieve](Maths/segmented-sieve-range.cpp)
 - [Binary Power](Maths/binary-power.cpp)
+- [Roman To Integer](Maths/roman-integer.cpp)
 
 # Recursion
 
