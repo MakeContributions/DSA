@@ -3,7 +3,7 @@
      * 
      * Odd numbers are whole numbers that cannot be divided exactly by 2. If the number is not divisible by 2 entirely, 
      * it'll leave a remainder 1.
-     * Even numbers are whole numbers that can be divided exactly by 2. If we divide the number by 2, it'll leave a remander 0.
+     * Even numbers are whole numbers that can be divided exactly by 2. If we divide the number by 2, it'll leave a remainder 0.
      * 
      * Complexity -> O(1)
      *    _______________________________
