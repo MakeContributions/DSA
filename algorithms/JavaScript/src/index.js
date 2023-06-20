@@ -7,6 +7,8 @@ require('./linked-lists/singly');
 
 // Maths
 require('./maths/fibonacci-series');
+require('./maths/dynamic-fibonacci-series');
+
 
 // Recursion
 require('./recursion/factorial');
