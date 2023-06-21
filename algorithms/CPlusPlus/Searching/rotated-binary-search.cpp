@@ -14,24 +14,25 @@
 
 
 // C++ program to implement binary search on an array of integers, rotated an unknown number of times.
+//Time complexity - O(log n).
 #include <iostream>
 using namespace std;
-//Binary search function. It returns the smallest element in the rotated array.
+
 int findSmallestElement(int nums[], int n) {
-    int low = 0;
-    int high = n - 1;
-    
-    while (low < high) {
-        int mid = low + (high - low) / 2;
+    int low = 0;                    // Initialize the low pointer to the start of the array
+    int high = n - 1;               // Initialize the high pointer to the end of the array
+
+    while (low < high) {            // Perform binary search until low becomes equal to high
+        int mid = low + (high - low) / 2;   // Calculate the middle index
         
-        if (nums[mid] > nums[high]) {
-            low = mid + 1;
+        if (nums[mid] > nums[high]) {       // If the element at mid is greater than the element at high
+            low = mid + 1;                  // Update low to mid + 1, as the smallest element is to the right of mid
         } else {
-            high = mid;
+            high = mid;                     // Otherwise, update high to mid, as the smallest element is at mid or to the left
         }
     }
     
-    return nums[low];
+    return nums[low];               // Return the element at low, which is the smallest element in the rotated array
 }
 
 int main() {
@@ -41,3 +42,4 @@ int main() {
     cout << "The smallest element in the rotated array is: " << smallest << endl;
     return 0;
 }
+
