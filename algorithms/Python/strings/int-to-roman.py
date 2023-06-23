@@ -1,7 +1,7 @@
 '''
 Output the correct Roman numerals for a given number.
 
-This will only give accurate roman numerals up to 3,999. Anything higher starts to combine the addition method along with the traditional method.
+This will only give accurate roman numerals up to 3,999. Anything higher starts to combine the addition method along with the traditional method of writing roman numerals.
 Numbers higher than 3,999 need to show a line above a roman numeral to say that it is 1,000 times that number. ie: V(with the line above) would be 5,000. 
 
 Input: 1994
@@ -29,3 +29,6 @@ if __name__ == "__main__":
   
   print(int_to_roman(3999))
   # MMMDXLIX
+
+  print(int_to_roman(19))
+  # XIX
