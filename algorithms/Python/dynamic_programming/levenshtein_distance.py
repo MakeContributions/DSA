@@ -1,41 +1,27 @@
-# The Levenshtein distance (Edit distance) Problem
 
-# Informally, the Levenshtein distance between two words is
-# the minimum number of single-character edits (insertions, deletions or substitutions)
-# required to change one word into the other.
+def edit_distance(w1, w2):
+    """
+    Find edit distance (minimum number of changes) required to convert string w1 to string w2. 
+    """
 
-# For example, the Levenshtein distance between kitten and sitting is 3.
-# The minimal edit script that transforms the former into the latter is:
+    m = [[0 if x != 0 else y if y != 0 else x for x in range(len(w2) + 1)] for y in range(len(w1) + 1)]
 
-# kitten —> sitten (substitution of s for k)
-# sitten —> sittin (substitution of i for e)
-# sittin —> sitting (insertion of g at the end)
+    for i in range(1,len(w1) + 1):
+        m[i][0] = i 
+    for j in range(1, len(w2) + 1):
+        m[0][j] = j 
+    
+    for i in range(1, len(w1) + 1):
+        for j in range(1, len(w2) + 1):
+            m[i][j] = min(
+                m[i-1][j-1] + int(w1[i-1] != w2[j-1]),
+                m[i-1][j] + 1,
+                m[i][j-1] + 1
+            )
+    
+    return m
 
-def levenshtein_distance(word_1, chars_1, word_2, chars_2):
-    # base case if the strings are empty
-    if chars_1 == 0:
-        return chars_2
-    if chars_2 == 0:
-        return chars_1
 
-    # if last characters of the string match, the cost of
-    # operations is 0, i.e. no changes are made
-    if word_1[chars_1 - 1] == word_2[chars_2 - 1]:
-        cost = 0
-    else:
-        cost = 1
+if __name__ == "__main__":
+    print(edit_distance("sitting", "kitten"))
 
-    # calculating the numbers of operations recursively
-    deletion =  levenshtein_distance(word_1, chars_1 - 1, word_2, chars_2) + 1
-    insertion = levenshtein_distance(word_1, chars_1, word_2, chars_2 - 1) + 1
-    substitution = levenshtein_distance(word_1, chars_1 - 1, word_2, chars_2 - 1) + cost
-
-    return min(deletion, insertion, substitution)
-
-# driving script
-if __name__ == '__main__':
-    word_1 = 'plain'
-    word_2 = 'plane'
-
-    print('The Levenshtein distance is:')
-    print(levenshtein_distance(word_1, len(word_1), word_2, len(word_2)))
