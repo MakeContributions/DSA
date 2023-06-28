@@ -6,6 +6,7 @@ Space Complexity : O(1)
 
 import math
 
+# find the insertion position of an element in a sorted list
 def sortedIndex(a: list, item):
   start = 0
   end = len(a)
