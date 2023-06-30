@@ -30,6 +30,7 @@ To run the `.cs` file, kindly use [.Net Finddle](https://dotnetfiddle.net/)
 - [Palindrome](src/Strings/palindrome.cs)
 - [Trie](src/Strings/trie.cs)
 - [Character Limit](src/Strings/character-limit.cs)
+- [Reverse Words in String](src/Strings/reverse-words-in-string.cs)
 
 ## Search
 

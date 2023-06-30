@@ -1,8 +1,6 @@
 using System;
 
-//Reverse the order of the words in a given string
-//Example: "Hello World" becomes "World Hello"
-
+//Time Complexity: O(n)
 namespace Algorithms.Strings
 {
     public class ReverseWordsInString
@@ -15,6 +13,8 @@ namespace Algorithms.Strings
             Console.WriteLine(ReverseWords(originalString));
         }
 
+        //Reverse the order of the words in a given string
+        //Example: "Hello World" becomes "World Hello"
         public static string ReverseWords(string input)
         {
             string[] words = input.Split(' ');
