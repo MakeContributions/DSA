@@ -1,0 +1,16 @@
+require:
+  - rubocop-rspec
+
+Bundler/OrderedGems:
+  Exclude:
+    - 'Gemfile'
+
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  TargetRubyVersion: 3.2.2
+  NewCops: enable
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - 'Gemfile'
