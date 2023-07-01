@@ -5,6 +5,7 @@
 [![Python](https://github.com/MakeContributions/DSA/actions/workflows/python.yml/badge.svg)](https://github.com/MakeContributions/DSA/actions/workflows/python.yml)
 [![codespell](https://github.com/MakeContributions/DSA/actions/workflows/codespell.yml/badge.svg)](https://github.com/MakeContributions/DSA/actions/workflows/codespell.yml)
 [![CodeQL](https://github.com/MakeContributions/DSA/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/MakeContributions/DSA/actions/workflows/codeql-analysis.yml)
+[![Ruby](https://github.com/MakeContributions/DSA/actions/workflows/ruby.yml/badge.svg)](https://github.com/MakeContributions/DSA/actions/workflows/ruby.yml)
 [![Discord](https://img.shields.io/discord/863049619734790185?color=7389D8&logo=discord&logoColor=ffffff&label=&labelColor=6A7EC2)](https://discord.gg/ydWxdqbTyK)
 
 # Data Structures and Algorithm
@@ -102,6 +103,7 @@ It can be any of the following ones
 - **JavaScript**: `package.json` and `package-lock.json`
 - **Rust**: `Cargo.toml` and `Cargo.lock`
 - **Go**: `go.mod`
+- **Ruby**: `Gemfile`
 
 #### Source Code File
 
@@ -127,6 +129,7 @@ The programming should keep the naming convention rule of each programming langu
 | Go                   | @ayo-ajayi                                                  |
 | Python               | @Arsenic-ATG, @sridhar-5                                    |
 | JavaScript           | @ming-tsai                                                  |
+| Ruby                 | @oliveiramarcio                                             |
 
 ## Contributors
 

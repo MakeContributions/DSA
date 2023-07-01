@@ -26,3 +26,5 @@ JavaScript:
 C#:
   - '**/*.cs'
   
+Ruby:
+  - '**/*.rb'
