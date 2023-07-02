@@ -201,7 +201,6 @@ class Node:
         if self.right:
             self.right.display()  # display tree(right)
 
-
 def build_tree(elements):
     """ constructor """
     root = Node(elements[0])
@@ -209,6 +208,31 @@ def build_tree(elements):
     for i in range(1, len(elements)):
         root.add_child(elements[i])
     return root
+
+
+"""
+To validate if a tree is a binary search tree (BST) or not, we need to check if each node's data satisfies the conditions below:
+
+Conditions:
+
+1. For a node in the left subtree: -infinity < node.data < parent_node.data.
+2. For a node in the right subtree: parent_node.data < node.data < infinity.
+
+These conditions ensure that nodes in the left subtree are less than the parent node, 
+while nodes in the right subtree are greater than the parent node, which is a requirement of a binary search tree.
+"""
+import math
+def valid_bst(root: Node) -> bool:
+    def helper(node,min_val,max_val):
+        if not node: # reaching the end of the tree.
+            return True
+        if not (min_val < node.data < max_val): # if the node value not in the range which is invalid node.
+            return False
+        return helper(node.left,min_val,node.data) and helper(node.right,node.data,max_val) # in-order traversal
+
+    if not root:
+        return True
+    return helper(root,-math.inf,math.inf)
 
 # If build_tree() is not used
 # root = Node(4)
@@ -240,3 +264,6 @@ if __name__ == '__main__':
     print(country_tree.in_order_traversal())  # return list in sorted order
     print(country_tree.search("UK"))  # False
     print(country_tree.search("Japan"))  # True
+    
+    # Valid BST
+    print(valid_bst(list_tree))
