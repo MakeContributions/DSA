@@ -57,11 +57,11 @@ class GFG {
 		System.out.println(LCSubStr(X.toCharArray(), Y.toCharArray(), m, n));
 		
 		// Test 2:
-		String X = "abcdefgh";
-		String Y = "abaabcfg";
-		int m = X.length();
-		int n = Y.length();
-		System.out.println(LCSubStr(X.toCharArray(), Y.toCharArray(), m, n));
+		String X2 = "abcdefgh";
+		String Y2 = "abaabcfg";
+		int m2 = X.length();
+		int n2 = Y.length();
+		System.out.println(LCSubStr(X2.toCharArray(), Y2.toCharArray(), m2, n2));
 	}
 }
 // Time Complexity -> O(m*n)
