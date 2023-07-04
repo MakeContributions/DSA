@@ -1,7 +1,7 @@
 //Linear Sieve
 //Finding primes in linear time
 
-//Every composite q must have atleast 1 prime factor
+//Every composite q must have at least 1 prime factor
 //Let the smallest prime factor be p
 //We can say q = p*(i)
 
