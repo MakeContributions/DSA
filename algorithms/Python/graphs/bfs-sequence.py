@@ -1,7 +1,7 @@
 """
-BFS graph using Adjecency List
+BFS graph using Adjacency List
 -----------------------------------------------------------------------------------------
--In Breadth First Search Sequence of any graph all children of a parent node 
+-In Breadth-First Search Sequence of any graph all children of a parent node 
  is visited first and the children are stored in the QUEUE array and 
  VISITED array.
 -Children of nodes in QUEUE are visited one by one and stored in the QUEUE and 
@@ -33,7 +33,7 @@ def Display_BFS(curr:int ,Adj_Dict: dict[int, list[int]]) -> None: # displays BF
                queue.append(i)
                visited.append(i)
                rear+=1            
-   queue[front]=-1 # all nodes adjecent to curr are visited
+   queue[front]=-1 # all nodes adjacent to curr are visited
    front+=1
    if front==rear: # no new node to visit
        return
