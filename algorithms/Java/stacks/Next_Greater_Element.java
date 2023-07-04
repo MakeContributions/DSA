@@ -32,7 +32,7 @@ import java.util.Stack;
           }
           long ans[]=nextLargerElement(arr,n);  // functions that print array for calculating next greater element
           for (int i=0;i<ans.length;i++){
-            System.out.print(ans[i]+" ")
+            System.out.print(ans[i]+" ");
           }
     }
       public static long[] nextLargerElement(long[] arr, int n)
