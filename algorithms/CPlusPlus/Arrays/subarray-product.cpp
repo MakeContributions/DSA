@@ -16,14 +16,14 @@ Idea - Use Sliding Window Algorithm
 Procedure -
 
 Go in a loop ( j=0 to n) and create a sliding window each time starting from current element and increase its size (in second loop)
-till both of these  conditions are true  ( product of all eleemnts in the window < k and iterator < last_index )
+till both of these  conditions are true  ( product of all elemnts in the window < k and iterator < last_index )
 
 Proof -
  If at any instance , the product of all elements in the current window (subarray) exceeds k , then all further windows's product>k
  and hence we shift to the element to immediate right and do the same process .
 */
 
-// TIme Complexity of Code - O (n ^2 )  since outer loop -> n times and inner loop (worst case ) -> n times so TC = n * n 
+// Time Complexity of Code - O (n ^2 )  since outer loop -> n times and inner loop (worst case ) -> n times so TC = n * n 
 // Space Complexity of Code - O (1)  since does not use any auxillary space 
 
 // Implementation
