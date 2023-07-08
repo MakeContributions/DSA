@@ -23,6 +23,9 @@ Proof -
  and hence we shift to the element to immediate right and do the same process .
 */
 
+// TIme Complexity of Code - O (n ^2 )  since outer loop -> n times and inner loop (worst case ) -> n times so TC = n * n 
+// Space Complexity of Code - O (1)  since does not use any auxillary space 
+
 // Implementation
 
 #include <bits/stdc++.h>
