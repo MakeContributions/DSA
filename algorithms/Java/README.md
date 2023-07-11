@@ -112,6 +112,7 @@
 ## Backtracking
 
 - [N Queen Problem](backtracking/nqueen.java)
+- [Sudoku Solver](backtracking/Sudoku_Solver.java)
 
 ## Bit Manipulation
 
