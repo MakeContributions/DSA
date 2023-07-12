@@ -13,7 +13,7 @@ A C++ (CPP) code to find how many subarrays ( contiguous part of an array) are p
 
 Idea - Use Sliding Window Algorithm
 
-Procedure -
+Procedure 
 
 Go in a loop ( j=0 to n) and create a sliding window each time starting from current element and increase its size (in second loop)
 till both of these  conditions are true  ( product of all elemnts in the window < k and iterator < last_index )
