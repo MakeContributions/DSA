@@ -30,7 +30,7 @@ int main() {
   cin>>n;
   cout<<"factorial is: "<<factorial(n);
   return 0;
-}
+
 
 /*
 Input: 
@@ -40,3 +40,16 @@ Enter a number:
 Output:
 factorial is: 6
 */
+
+// factorial is solved using the while loop
+int m;
+ cout << "Enter a number: ";
+cin>>m;
+  int factorial = 1;
+  int j = 1;
+  while (j <= m) {
+    factorial = factorial * j;
+    j++;
+  }
+  cout << "factorial of the given number is :" <<factorial;}
+
