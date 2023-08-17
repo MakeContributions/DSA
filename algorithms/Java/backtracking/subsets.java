@@ -5,7 +5,7 @@ class Subsets {
     // Given an integer array nums of unique elements, return all possible 
     // subsets (the power set).
     // The solution set must not contain duplicate subsets. Return the solution in any order.
-    
+
     static void dfs(
             List<Integer> subset,          
             List<List<Integer>> subsets,   
@@ -44,5 +44,7 @@ class Subsets {
         // Example usage
         System.out.println(subsets(new int[]{1, 2, 3}));
         System.out.println(subsets(new int[]{0}));
+
+        // time complexity is : O(2^n) where n is the size of input array
     }
 }
