@@ -22,11 +22,11 @@ def has_cycle(graph):
     def dfs(vertex):
         visited.add(vertex)
         path.add(vertex)
-        for neighbor in graph[vertex]:
+        for neighbor in graph[vertex]:  # graph[vertex] is a list of all the neighbors of vertex
             if neighbor in path:
                 return True
             if neighbor not in visited:
-                if dfs(neighbor):
+                if dfs(neighbor):  # if dfs(neighbor) returns True then return True
                     return True
         path.remove(vertex)
         return False
@@ -39,8 +39,7 @@ def has_cycle(graph):
     return False
 
 
-# Test
-
+# Test cases for the function
 # This graph has no cycles
 graph = {
     'a': ['b', 'c'],
@@ -58,6 +57,6 @@ graph2 = {
     'e': ['a']
 }
 
-# calling the function
+# calling the functions
 print(has_cycle(graph))
 print(has_cycle(graph2))
