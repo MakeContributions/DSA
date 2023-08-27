@@ -1,0 +1,45 @@
+###########################################################
+# Time complexity: O(V + E)
+# Space complexity: O(V)
+def has_cycle(graph):
+    # Here I have used set because it is faster than list for checking if an element is present in it.
+    visited = set()
+    path = set()
+
+    # Here I have used a nested function dfs() to perform the actual depth-first search.
+    # Nested function is necessary because we need to keep track of the visited nodes and the path.
+    # If we use a global variable, then the visited nodes and the path will be overwritten for each call of dfs().
+    # If we use a local variable, then the visited nodes and the path will not be accessible from the main function.
+    def dfs(vertex):
+        visited.add(vertex)
+        path.add(vertex)
+        for neighbor in graph[vertex]:
+            if neighbor in path:
+                return True  # Cycle found
+
+            if neighbor not in visited:
+                if dfs(neighbor):
+                    return True  # Cycle found
+        # If we have reached here, then there is no cycle in the path from vertex to any of its descendants.
+        path.remove(vertex)
+        return False
+
+    # The dfs function is called for each vertex in the graph.
+    # If any of the dfs function calls returns True, then there is a cycle in the graph.
+    # If none of the dfs function calls returns True, then there is no cycle in the graph.
+    for vertex in graph:
+        if vertex not in visited:
+            if dfs(vertex):
+                return True  # Cycle found
+
+    return False  # No cycle found
+
+
+###########################################################
+graph1 = {0: [], 1: [2, 3], 2: [3], 3: [4, 5], 4: [5, 2], 5: []}  # Has cycle
+graph2 = {0: [], 1: [2, 6], 2: [3, 7], 3: [4, 5], 4: [5], 5: [8, 9], 6: [], 7: [], 8: [9], 9: []}  # Has no cycle
+###########################################################
+
+print(has_cycle(graph1))
+print(has_cycle(graph2))
+
