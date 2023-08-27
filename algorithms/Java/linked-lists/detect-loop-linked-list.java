@@ -76,4 +76,42 @@ public class DetectLoopSLL
     }
     return null;
   }// End of startingNodeOfLoop()
+  public static void main(String[] args)
+  {
+            DetectLoopSLL linkedList = new DetectLoopSLL();
+            DetectLoopSLL.ListNode<Integer> node1 = linkedList.new ListNode<>(1);
+            DetectLoopSLL.ListNode<Integer> node2 = linkedList.new ListNode<>(2);
+            DetectLoopSLL.ListNode<Integer> node3 = linkedList.new ListNode<>(3);
+            DetectLoopSLL.ListNode<Integer> node4 = linkedList.new ListNode<>(4);
+            DetectLoopSLL.ListNode<Integer> node5 = linkedList.new ListNode<>(5);
+            linkedList.head = node1;
+            node1.next = node2;
+            node2.next = node3;
+            node3.next = node4;
+            node4.next = node5;
+            node5.next = node2; // Creating a loop by pointing the last node to the second node
+            // Detect loop and display result
+            if (linkedList.detectLoop()) {
+            System.out.println("Loop detected");
+            } else {
+            System.out.println("No loop detected");
+            }
+            DetectLoopSLL.ListNode<Integer> loopNode = linkedList.startingNodeOfLoop()
+            System.out.println("Node from where the loop starts: " + loopNode.data);
+            }
 }
+
+
+/*
+Input: 
+1 --> 2 --> 3 
+      ^     |
+      |     |
+      |     v
+      5  <--4
+
+
+Output:
+Loop Detected
+Node from where the loop starts: 2
+*/
