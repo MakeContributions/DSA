@@ -63,26 +63,38 @@ problem-name\
 #### `README.md` Specification / Template
 
 ````markdown
-# <Title of the Problem>
+# Remove duplicates from array
 
-< description of the problem >
+Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. 
+The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
 
-## Prerequisites
-
-- prerequisite library or package
-- [prerequisite library](https://www.example.com/link-to-official-library)
 
 ## Instructions
 
 - instructions to run the project
-- < Simple and reproducible commands to execute the project >
   ```bash
-   make # or 'cargo run', or 'dotnet run' or 'mvn exec:java' etc.
+   dotnet test
   ```
 
-## Test Cases & Output < if exists>
+## Test Cases & Output
+```
+Example 1:
 
-< If you can provide test cases, describe it here, else remove this section >
+Input: nums = [1,1,2]
+Output: 2, nums = [1,2,_]
+Explanation: The function should return i = 2, with the first two elements of nums being 1 and 2 respectively.
+It does not matter what you leave beyond the returned i (hence they are underscores).
+```
+
+```
+Example 2:
+
+Input: nums = [0,0,1,1,1,2,2,3,3,4]
+Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
+Explanation: The function should return i = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
+It does not matter what you leave beyond the returned i (hence they are underscores).
+```
+
 ````
 
 #### `.gitignore` File
