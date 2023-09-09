@@ -50,6 +50,7 @@ To run the `.cs` file, kindly use [.Net Finddle](https://dotnetfiddle.net/)
 ## Recursion
 
 - [Factorial](src/Recursion/factorial.cs)
+- [Array Sum](src/Recursion/array-sum.cs)
 
 ## Graph
 
