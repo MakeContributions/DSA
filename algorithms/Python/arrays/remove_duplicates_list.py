@@ -1,7 +1,7 @@
 """
 Algorithm Type : Array Traversal
-Time Complexity : O(n)
-Space Complexity : O(1)
+Time Complexity : O(n)  -> previously O(n^2)
+Space Complexity : O(n) -> previously O(1)
 """
 
 sample_case = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
@@ -17,15 +17,18 @@ def make_distinct(values: list) -> list:
     Note : Wrapped with * are sample.
     """
     # *length = 10*
-    length = len(values)
-    for index in range(len(values)):
-        # *index_position = 0 - 10*
-        # *index_position = -10*
-        index_position = index - length
-        if values[index_position] in values[0:index_position]:
-            values.remove(values[index_position])
+    seen = []
+    index = 0
+    l = len(values)
+    while(index < l):
+        
+        if (values[index] not in seen):
 
-    return values
+            seen.append(values[index])
+        
+        index += 1
+
+    return seen
 
 
 if __name__ == "__main__":
