@@ -1,3 +1,18 @@
+"""
+Binary Exponentiation:
+a ^ n = (a ^ (n/2) ) ^ 2            |   if n is even
+a ^ n = (a ^ ((n-1) / 2) ) ^ 2 * a  |   if n is odd
+
+Now we can make recursive calls to the function, until the exponent, n, becomes 1
+And we return, on the basis of the conditions specified above.
+
+Refer to this article to understand more:
+https://cp-algorithms.com/algebra/binary-exp.html#algorithm
+
+[+] Time Complexity: logn 
+[+] Space Complexity: Constant
+"""
+
 def pow(base: float, exponent: int):
     """
     Raises a base 'x' to the given exponent 'z' using binary exponentiation.
