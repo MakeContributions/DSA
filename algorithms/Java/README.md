@@ -17,6 +17,7 @@
 
 - [Dijkstras](graphs/Dijkstras.java)
 - [Prims](graphs/Prims.java)
+- [BFS](graphs/bfs.java)
 
 
 ## Linked Lists
