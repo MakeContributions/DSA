@@ -2,6 +2,7 @@
 
 ## Backtracking
 - [N-Queens](./Backtracking/N-Queens.md)
+- [Sudoku Solver](./Backtracking/sudoku-solver.md)
 
 ## Lists
 - [Singly linked list](./Lists/singly-linked-list.md)
