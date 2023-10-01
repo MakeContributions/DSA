@@ -1,6 +1,6 @@
 # C#
 
-To run the `.cs` file, kindly use [.Net Finddle](https://dotnetfiddle.net/)
+To run the `.cs` file, kindly use [.Net Fiddle](https://dotnetfiddle.net/)
 
 ## Arrays
 
