@@ -60,8 +60,6 @@
 - [Floyd Warshall](Graphs/floyd-warshall.cpp)
 - [Detecting Cycle in Directed graph using three colors](Graphs/detecting-cycle-in-a-graph-using-three-color-mechanism.cpp)
 
-
-
 ## Multiplication
 
 - [Karatsuba](Multiplication/karatsuba.cpp)
@@ -82,6 +80,7 @@
 - [Remove Duplicate in Sorted linked list](Linked-Lists/remove-duplicates-in-sorted-linked-list.cpp)
 - [Reverse the linked list using stack](Linked-Lists/reverse-the-list-using-stack.cpp)
 - [Reverse the linked list in groups of K](Linked-Lists/reverse-the-list-in-groups-of-k.cpp)
+
 ## Searching
 
 - [Linear Search](Searching/linear-search.cpp)
@@ -103,6 +102,7 @@
 - [Stock Span Problem using Stacks](Stacks/stock-span-problem.cpp)
 - [Prefix to Postfix expression conversion](Stacks/prefix_to_postfix.cpp)
 - [Redundant Parenthesis](Stacks/redundant-parenthesis.cpp)
+- [Next Greater Element](Stacks/next-greater-element.cpp)
 
 ## Sorting
 
