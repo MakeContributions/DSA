@@ -10,25 +10,27 @@ using namespace std;
    3. While arr[i] > arr[top of the stack], assign arr[i] to nextGreater[top of the stack].
    4. Then push i to the stack.
    This way, you've created a nextGreater array.
+
   */
+  //  Time Complexity : O(n) 
 int main() {
-    int n; cin>>n;
+    int n; cin >> n;
     int arr[n];
-    for(int i=0;i<n;i++)
-        cin>>arr[i];
+    for (int i = 0;i < n;i++)
+        cin >> arr[i];
     stack<int> st;
     int nextGreater[n];
 
-    for(int i=0;i<n;i++){
-        nextGreater[i]=arr[i];
-        while(!st.empty() and arr[i]>arr[st.top()]){
-            nextGreater[st.top()]=arr[i];
+    for (int i = 0;i < n;i++) {
+        nextGreater[i] = arr[i];
+        while (!st.empty() and arr[i] > arr[st.top()]) {
+            nextGreater[st.top()] = arr[i];
             st.pop();
         }
         st.push(i);
     }
-    for(int i=0;i<n;i++)
-        cout<<nextGreater[i]<<" ";
+    for (int i = 0;i < n;i++)
+        cout << nextGreater[i] << " ";
     return 0;
 }
 /*
