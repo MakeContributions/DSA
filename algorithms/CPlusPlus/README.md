@@ -164,6 +164,10 @@
 - [Trie for delete](Trie/trie_delete.cpp)
 - [Find Words Matching Pattern Dictionary](Trie/find_all_words_matching_pattern_in_given_dictionary.cpp)
 
+## Segment Tree
+
+- [Segment Tree Implementation](Segment-Tree/segment_tree.cpp)
+
 # Maths
 
 - [Kaprekar Number](Maths/Kaprekar-number.cpp)
