@@ -30,7 +30,6 @@
 - [Recursive Sum of n numbers](recursion/recursive-sum-of-n-numbers.py)
 - [GCD by Euclid's Algorithm](recursion/gcd_using_recursion.py)
 
-
 ## Scheduling
 - [Interval Scheduling](scheduling/interval_scheduling.py)
 
