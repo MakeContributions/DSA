@@ -76,6 +76,7 @@
 - [Avl Tree](tree/avl-tree.c)
 - [Min Heap](tree/min-heap.c)
 - [Max Heap](tree/max-heap.c)
+- [Red Black Tree](tree/red-black-tree.c)
 
 ## Searching
 
