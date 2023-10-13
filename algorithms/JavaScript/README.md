@@ -60,3 +60,7 @@
 ## Trie
 
 - [Trie Implementation](src/trie/trie-implementation.js)
+
+## Dynamic Programming
+
+- [Pascal's Triangle](src/dynamic-programming/pascal's-triangle.js)
