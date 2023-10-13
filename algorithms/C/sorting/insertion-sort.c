@@ -11,12 +11,12 @@ void insertion_sort(int a[],int size)
 {
      int round,i,shift=0;
      // assign 1 to round until the round is less than size run the loop and increment round by 1
-     for(round=1;round<=size-1;round++)
+     for(round=1;round<=size-1;++round)
      {
          // take a[round] value in shift
          shift=a[round];
          // now assign round to i and until i is greater than 0 run the loop
-         for(i=round;i>=1;i--)
+         for(i=round;i>=1;--i)
          {
              // check whether the a[i-1] is less than the shift variable value if yes then break
              if(a[i-1]<shift)
@@ -32,7 +32,7 @@ void insertion_sort(int a[],int size)
      }
           // Print the sorted array
           printf("After Insertion sorting: ");
-          for(i=0;i<size;i++)
+          for(i=0;i<size;++i)
           printf("%d ",a[i]);
           printf("\n");
 }
@@ -47,7 +47,7 @@ int main()
     arr=(int*)malloc(sizeof(int)*size);
     printf("Enter %d numbers: ",size);
     // until i is less than size run the loop
-    for(i=0;i<size;i++)
+    for(i=0;i<size;++i)
     // taking arr[i]th index value
     scanf("%d",&arr[i]);
     //calling insertion sort to sort the array
