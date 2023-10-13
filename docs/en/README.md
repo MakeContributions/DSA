@@ -6,6 +6,8 @@
 ## Lists
 - [Singly linked list](./Lists/singly-linked-list.md)
 - [Doubly linked list](./Lists/doubly-linked-list.md)
+- [Add element at any position in a singly linked list](./Lists/add-element-at-any-position-in-a-singly-linked-list.md)
+
 
 ## Searching
 - [Binary Search](./Searching/Binary-Search.MD)
