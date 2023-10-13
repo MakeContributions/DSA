@@ -60,6 +60,7 @@
 - [Shell Sort](sorting/shell-sort.c)
 - [Radix Sort](sorting/radix-sort.c)
 - [Bogo Sort](sorting/bogo-sort.c)
+- [Tree Sort](sorting/tree-sort.c)
 
 ## Strings
 
