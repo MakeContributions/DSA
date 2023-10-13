@@ -33,6 +33,7 @@ require('./stacks/two-stack');
 
 // Queue
 require('./queues/queue');
+require('./queues/priority-queue.js');
 
 //Graphs
 require('./graph/breadth-first-search');

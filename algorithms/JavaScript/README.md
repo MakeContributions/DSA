@@ -38,6 +38,7 @@
 ## Queues
 
 - [Queue](src/queues/queue.js)
+- [Priority Queue](src/queues/priority-queue.js)
 
 ## Maths
 
