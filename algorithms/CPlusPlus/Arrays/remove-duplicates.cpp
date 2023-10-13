@@ -52,12 +52,14 @@ int max=-2147483647;
    for(int i=0;i<size;i++){
    	cin>>arr[i];
    	// checking if input array is sorted or not
-   	if(arr[i]<max){
+   	if(i!=0){
+		if(arr[i]<arr[i-1]){
    		cout<<"Array not sorted";
    		return 0;
 	   }else{
 	   	max=arr[i];
 	   }
+	}
    }
     removeDuplicates(arr,size);
 
