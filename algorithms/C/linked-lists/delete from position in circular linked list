@@ -1,0 +1,58 @@
+#include<stdio.h>
+#include<stdlib.h>
+struct node
+{
+    int data;
+    struct node *next;
+};
+int main()
+{
+    struct node *newnode,*current,*nextnode,*tail;
+    int choice,i=1,length=0,position;
+    tail=0;
+    while(choice)(
+    newnode=(struct node*)malloc(sizeof(struct node));
+    printf("Enter the data: ");
+    scanf("%d",&newnode->data);
+    newnode->next=0;
+    if(tail==0)
+    {
+        tail=newnode;
+        tail->next=newnode;
+    }
+    else
+    {
+        newnode->next=tail->next;
+        tail->next=newnode;
+        tail=newnode;
+    }
+    length++;
+    printf("Do you want to continue(0,1): ");
+    scanf("%d",&choice);
+    }
+
+    current=tail->next;
+    printf("Enter the position from where you want to delete the elements: ");
+    scanf("%d",&position);
+    if(position<0 && position>length)
+    {
+        printf("Invalid Position");
+    }
+    else
+    {
+        while(i<position-1)
+        {
+            current=current->next;
+            i++;
+        }
+        nextnode=current->next;
+        current->next=nextnode->next;
+        free(nextnode);
+    }
+    printf("After deleting the element from %d position the resultant element in th list are: ",position);
+    current=tail->next;
+    do
+    {
+        printf("%d",current->data);
+        current=current->next;
+    }while(current!=tail->next);
