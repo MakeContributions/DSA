@@ -82,10 +82,11 @@ Repeat above steps for cycle_start = 1, 2, ..n-2
 - [Java](../../../algorithms/Java/sorting/cyclic-sort.java)
 - [Python](../../../algorithms/Python/sorting/count-sort.py)
 
+
 ## Video URL
 
 [Youtube Video about Cycle Sort](https://youtu.be/gZNOM_yMdSQ)
 
 ## Other
-
+[GeeksForGeeks](https://www.google.com/amp/s/www.geeksforgeeks.org/cycle-sort/amp/)
 [Wikipedia](https://en.wikipedia.org/wiki/Cycle_sort)
