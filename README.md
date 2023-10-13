@@ -11,6 +11,28 @@
 
 Data structure and Algorithm (DSA)
 
+## Table of Contents
+
+- [Summary] (https://github.com/UnwashedPine851/DSA#summary)
+- [Explanations] (https://github.com/UnwashedPine851/DSA#explanations)
+- [Contribution Guidelines] (https://github.com/UnwashedPine851/DSA#contribution-guidelines)
+- [Reviewers] (https://github.com/UnwashedPine851/DSA#reviewers)
+- [Contributors] (https://github.com/UnwashedPine851/DSA#contributors)
+
+## Summary
+
+This project is a collection of information on data structures and algorithms. The Explanations section goes in-depth into how specific data structures and algorithms work. The algorithms folder contains multiple languages folders, which each contain multiple folders for different algorithm-based problems. Currently, the languages we support are:
+
+- C
+- C++
+- C#
+- Go
+- Haskell
+- Java
+- JavaScript
+- Python
+- Rust
+
 ## Explanations
 
 - [English](./docs/en)
