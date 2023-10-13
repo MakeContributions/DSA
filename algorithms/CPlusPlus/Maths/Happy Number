@@ -1,0 +1,21 @@
+class Solution{
+public:
+    int isHappy(int N){
+        
+       int sum=0,r;
+        while(N!=0)
+        {
+            r=N%10;
+            sum=sum+(r*r);
+            N=N/10;
+        }
+        
+        if(sum==1)
+        return 1;
+        else if(sum<10)
+        return 0;
+        else
+        return isHappy(sum);
+        
+    }   
+};
