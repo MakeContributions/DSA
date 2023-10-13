@@ -63,9 +63,16 @@ problem-name\
 #### `README.md` Specification / Template
 
 ````markdown
-# <Title of the Problem>
+# Delete the kth node from the end
 
-< description of the problem >
+Lets  K be the total nodes in the linked list.
+
+Observation : The Nth node from the end is (K-N+1)th node from the beginning.
+
+So the problem simplifies down to that we have to find  (K-N+1)th node from the beginning.
+
+One way of doing it is to find the length (K) of the linked list in one pass and then in the second pass move (K-N+1) step from the beginning to reach the Nth node from the end.
+To do it in one pass. Let’s take the first pointer and move N step from the beginning. Now the first pointer is (K-N+1) steps away from the last node, which is the same number of steps the second pointer require to move from the beginning to reach the Nth node from the end.
 
 ## Prerequisites
 
@@ -77,12 +84,16 @@ problem-name\
 - instructions to run the project
 - < Simple and reproducible commands to execute the project >
   ```bash
-   make # or 'cargo run', or 'dotnet run' or 'mvn exec:java' etc.
+    javac circular.java
+    java circular
   ```
 
 ## Test Cases & Output < if exists>
 
-< If you can provide test cases, describe it here, else remove this section >
+Test Case 1:
+Input- 3
+       1 2 3 4 5 6
+Output- 1>2>3>5>6      
 ````
 
 #### `.gitignore` File
@@ -132,6 +143,7 @@ The programming should keep the naming convention rule of each programming langu
 
 <a href="https://github.com/MakeContributions/DSA/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MakeContributions/DSA" />
+  
 </a>
 
 ## Open Graph
