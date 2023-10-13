@@ -54,6 +54,7 @@
 ## Searching
 
 - [Binary Search](searching/binary-search.java)
+- [Order agnostic binary search](searching/order-agnostic-binary-search.java)
 - [Jump Search](searching/jump-search.java)
 - [Linear Search](searching/linear-search.java)
 - [Allocate minimum number of pages](searching/allocate-min-pages.java)
