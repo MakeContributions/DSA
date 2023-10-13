@@ -13,4 +13,4 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install codespell
-      - run: codespell --ignore-words-list="ans,nnumber,nin,Hel" --quiet-level=2  --skip="**/**/package-lock.json,./docs/pt,./docs/es,./docs/tr,./.github,./algorithms/CSharp/test"
+      - run: codespell --ignore-words-list="ans,nnumber,nin,Hel" --quiet-level=2  --skip="**/**/package-lock.json,./docs/pt,./docs/es,./docs/tr,./docs/bn,./.github,./algorithms/CSharp/test"

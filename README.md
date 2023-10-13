@@ -19,6 +19,7 @@ Data structure and Algorithm (DSA)
 - [Turkish](./docs/tr)
 - [繁體中文](./docs/zh-tw)
 - [日本語](./docs/ja)
+- [বাংলা](./docs/bn)
 
 ## Contribution Guidelines
 
