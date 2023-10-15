@@ -1,7 +1,7 @@
 ﻿/*
 
+Time of complexity: O(n^2)
 */
-
 
 namespace Algorithms.Maths
 {
