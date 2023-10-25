@@ -34,6 +34,7 @@
 - [Balanced Parenthesis](Arrays/balanced-parenthesis.cpp)
 - [Find special index](Arrays/specialindex2.cpp)
 - [Largest and smallest number in an array](Arrays/Largest-smallest.cpp)
+- [Merge two sorted arrays - Special Manner](Arrays/merge-sort-special.cpp)
 
 ## Dynamic-Programming
 
