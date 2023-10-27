@@ -1,0 +1,31 @@
+class Solution {
+    public String intToRoman(int num) {
+     
+        // Initialize arrays for integer values and corresponding Roman numeral symbols
+        int[] values = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+        String[] romanNumerals = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+
+        // Create a StringBuilder object to store the result string
+        StringBuilder sb = new StringBuilder();
+
+        // Initialize index variable
+        int i = 0;
+    
+        // Iterate until the given number becomes zero
+        while (num > 0) {
+            // Check if the current value can be subtracted from the given number
+            if (num >= values[i]) {
+                // Append the corresponding Roman numeral symbol to the result string
+                sb.append(romanNumerals[i]);
+                // Subtract the value from the number
+                num -= values[i];
+            } else {
+                // Move on to the next smaller value
+                i++;
+            }
+        }
+
+        // Return the result string
+        return sb.toString();
+    }
+}
