@@ -21,6 +21,9 @@ String can be segmented as "i like"
 
 TOPICS: Dynamic Programing; Matrix Chain Multiplication Algo. 
 
+Time Complexity: O(n^3) (where n is size of string A)
+Space Complexity : O(n^2)
+
 */
 
 
