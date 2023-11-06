@@ -44,6 +44,7 @@
 - [Edit Distance](Dynamic-Programming/edit-distance.cpp)
 - [Fibonacci](Dynamic-Programming/fibonacci.cpp)
 - [Rod Cutting](Dynamic-Programming/rod-cutting.cpp)
+- [Word Break](Dynamic-Programming/word-break.cpp)
 
 ## Graphs
 
@@ -59,8 +60,6 @@
 - [Prim's Algorithm](Graphs/prim's_algorithm.cpp)
 - [Floyd Warshall](Graphs/floyd-warshall.cpp)
 - [Detecting Cycle in Directed graph using three colors](Graphs/detecting-cycle-in-a-graph-using-three-color-mechanism.cpp)
-
-
 
 ## Multiplication
 
@@ -82,6 +81,7 @@
 - [Remove Duplicate in Sorted linked list](Linked-Lists/remove-duplicates-in-sorted-linked-list.cpp)
 - [Reverse the linked list using stack](Linked-Lists/reverse-the-list-using-stack.cpp)
 - [Reverse the linked list in groups of K](Linked-Lists/reverse-the-list-in-groups-of-k.cpp)
+
 ## Searching
 
 - [Linear Search](Searching/linear-search.cpp)
