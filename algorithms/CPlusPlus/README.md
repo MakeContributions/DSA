@@ -4,6 +4,7 @@
 
 - [Counting Inversions](Arrays/counting-inversions.cpp)
 - [Dutch Flag Algorithm](Arrays/dutch-flag-algo.cpp)
+- [Longest Increasing Subsequence](Arrays/longest-increasing-subsequence.cpp)
 - [Left Rotation](Arrays/left-rotation.cpp)
 - [Max Subarray Sum](Arrays/max-subarray-sum.cpp)
 - [Shift Negatives](Arrays/shift-negatives.cpp)
