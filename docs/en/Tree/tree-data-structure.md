@@ -25,10 +25,8 @@ Top most node of the tree is called root and all the nodes below root is called 
 
 - **Descendant:** Any successor node on the path from the leaf node to that node. {E,I} are the descendants of the node {B}.
 
-- **Descendant:** Descendant are the set of nodes which can be reached from a particular nodes. {D, E, H, I, K, L, M, N} are descendant of node {B}.
-
 - **Internal node:** A node with at least one child is called Internal Node.
 
 - **Leaf Node or External Node:** The nodes which do not have any child nodes are called leaf nodes. {K, L, M, N, O, P, G} are the leaf nodes of the tree.
 
-
+- **Internal node:** A node with at least one child is called Internal Node.
