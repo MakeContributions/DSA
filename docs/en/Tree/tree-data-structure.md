@@ -37,9 +37,18 @@ Top most node of the tree is called root and all the nodes below root is called 
 A tree of degree two is called Binary Tree. Degree two means every node in tree can have upto two children not more than two children. Node can have less than two children but not more than two children. Node can have {0,1,2} children.
 
 <br>
+
 <p align="center">
-  ![binary-tree-labeled](https://github.com/1711naveen/DSA/assets/139497591/e5b1cf45-3863-4239-840f-fa264a3815bc)
+  <img width="460" height="300" src="https://github.com/1711naveen/DSA/assets/139497591/e5b1cf45-3863-4239-840f-fa264a3815bc">
 </p>
-<!-- <div align="center"> ![binary-tree-labeled](https://github.com/1711naveen/DSA/assets/139497591/e5b1cf45-3863-4239-840f-fa264a3815bc) </div> -->
+
+<div align="center"> Binary Tree </div>
+
+<br>
+
+<p align="center">
+  <img width="500" height="360" src="https://github.com/1711naveen/DSA/assets/139497591/3471e3cf-9dc2-4dc9-92e3-67f52b2d45df">
+</p>
+<div align="center"> Skiwed Binary Tree </div>
 
 
