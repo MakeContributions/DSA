@@ -17,4 +17,18 @@ Top most node of the tree is called root and all the nodes below root is called 
 
 - **Root Node:** The top most node of the tree is called root node. Root node does not have any parent. In the above image {A} is the root of the tree.
 
+- **Parent Node:** The node which is a predecessor of a node is called the parent node of that node. {B} is the parent node of {D, E} in the above image.
+
+- **Child Node:** The node which is the immediate successor of a node is called the child node of that node. Examples: {D, E} are the child nodes of {B} in the image.
+
+- **Siblings:** Nodes which have the same parent are called siblings. In the above image {D,E} are called siblings.
+
+- **Descendant:** Any successor node on the path from the leaf node to that node. {E,I} are the descendants of the node {B}.
+
+- **Descendant:** Descendant are the set of nodes which can be reached from a particular nodes. {D, E, H, I, K, L, M, N} are descendant of node {B}.
+
+- **Internal node:** A node with at least one child is called Internal Node.
+
+- **Leaf Node or External Node:** The nodes which do not have any child nodes are called leaf nodes. {K, L, M, N, O, P, G} are the leaf nodes of the tree.
+
 
