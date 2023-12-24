@@ -9,9 +9,11 @@
 Top most node of the tree is called root and all the nodes below root is called child notes. All the nodes wich does not have any child is called leave nodes.
 
 ![Treedatastructure](https://github.com/1711naveen/DSA/assets/139497591/808f7a04-4a02-4908-9319-09f7a664499a)
-<center> Tree Data Stucture </center>
+<p align="center">Tree Data Structure.</p>
 
 # Basic terminology in Tree Data Structure:
+
+
 
 - **Root Node:** The top most node of the tree is called root node. Root node does not have any parent. In the above image {A} is the root of the tree.
 
