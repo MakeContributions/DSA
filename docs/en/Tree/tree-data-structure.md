@@ -8,8 +8,11 @@
 
 Top most node of the tree is called root and all the nodes below root is called child notes. All the nodes wich does not have any child is called leave nodes.
 
+<br>
+
 ![Treedatastructure](https://github.com/1711naveen/DSA/assets/139497591/808f7a04-4a02-4908-9319-09f7a664499a)
 <p align="center">Tree Data Structure.</p>
+
 
 # Basic terminology in Tree Data Structure:
 
@@ -29,4 +32,14 @@ Top most node of the tree is called root and all the nodes below root is called 
 
 - **Leaf Node or External Node:** The nodes which do not have any child nodes are called leaf nodes. {K, L, M, N, O, P, G} are the leaf nodes of the tree.
 
-- **Internal node:** A node with at least one child is called Internal Node.
+
+# Binary Tree:
+A tree of degree two is called Binary Tree. Degree two means every node in tree can have upto two children not more than two children. Node can have less than two children but not more than two children. Node can have {0,1,2} children.
+
+<br>
+<p align="center">
+  ![binary-tree-labeled](https://github.com/1711naveen/DSA/assets/139497591/e5b1cf45-3863-4239-840f-fa264a3815bc)
+</p>
+<!-- <div align="center"> ![binary-tree-labeled](https://github.com/1711naveen/DSA/assets/139497591/e5b1cf45-3863-4239-840f-fa264a3815bc) </div> -->
+
+
