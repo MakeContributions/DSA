@@ -19,3 +19,42 @@ Nodes/Vertices in Graph is also of two type.
     * Distance
     * Cost… etc
 - **Unweighted Graph** – An unweighted graph in a graph is an edge that has no numerical value associated with it. So, it means there is no cost in moving from one node to another. In unweighted graph, sometimes the weight of each edge is taken 1 so sake of simplicity in calculation.
+
+# Representations of graphs
+
+Representations of graph is the stroing of graph data structure in physical memory (RAM) to use it.
+
+## Graph Representation Methods
+
+- **Adjacency List:** 
+- **Adjacency Matrix:**
+- **Edge List:**
+
+# Graph Representation using Adjacency List
+
+class Graph{
+    private:
+    int v;
+    list<int> *l;
+
+    public:
+    Graph(int v){
+        this.v = v;
+        l = new list<int>[this.v];
+    }
+
+    void addEdge(int x, int y){
+        l[x].push_back(y);
+        l[y].push_back(x);
+    }
+
+    void printAdjacencyList{
+        for(int i=0;i<v;i++){
+            cout<<i<<"-->";
+            for(auto nbr:l[i]){
+                cout<<nbr<<",";
+            }
+        }
+    }
+}
+
