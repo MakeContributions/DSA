@@ -40,9 +40,9 @@ public class Prims {
 
 			for (Node n : adjList.get(curr.vertex)) {
 				if (!inMST[n.vertex] && key[n.vertex] > n.key) {
+					parent[n.vertex] = curr.vertex;
 					key[n.vertex] = n.key;
 					pq.add(new Node(n.vertex, n.key));
-					parent[n.vertex] = curr.vertex;
 				}
 			}
 		}
@@ -107,9 +107,9 @@ public class Prims {
 		 Prims prims = new Prims();
 		 int[] parent = prims.prims(adjList);
 
-		 System.out.println("Minimum Spanning Tree: ");
+		 System.out.println("Minimum Spanning Tree: " + parent.length);
 		 for (int i = 1; i < N; i++) {
-			System.out.println("Edge: " + parent[i] + " - " + i + ", Weight: " + adjList.get(i).get(parent[i]).key);
+			System.out.println("Edge: " + parent[i] + " - " + i + ", Weight: " + adjList.get(i-1).get(parent[i]).key);
 		 }
 	}
 }
