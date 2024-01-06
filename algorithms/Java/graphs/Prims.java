@@ -21,28 +21,7 @@ Auxiliary Space: O(V + V + V + V) = O(V)
 
 import java.util.*;
 
-class Node {
-	int vertex;
-	int key;
-
-	Node(int vertex, int key) {
-		this.vertex = vertex;
-		this.key = key;
-	}
-}
-
-class NodeComparator implements Comparator<Node> {
-	@Override
-	public int compare (Node node1, Node node2) {
-		if (node1.key < node2.key)
-			return -1;
-		if (node1.key > node2.key)
-			return 1;
-		return 0;
-	}
-}
-
-class Prims {
+public class Prims {
 	public int[] prims(List<List<Node>> adjList) {
 		int[] parent = new int[adjList.size()];
 		int[] key = new int[adjList.size()];
@@ -134,3 +113,25 @@ class Prims {
 		 }
 	}
 }
+
+class Node {
+	int vertex;
+	int key;
+
+	Node(int vertex, int key) {
+		this.vertex = vertex;
+		this.key = key;
+	}
+}
+
+class NodeComparator implements Comparator<Node> {
+	@Override
+	public int compare (Node node1, Node node2) {
+		if (node1.key < node2.key)
+			return -1;
+		if (node1.key > node2.key)
+			return 1;
+		return 0;
+	}
+}
+
