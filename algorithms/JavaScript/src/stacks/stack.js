@@ -3,19 +3,23 @@ class Stack {
     this.items = [];
   }
 
+//creating push method
   push(element) {
     this.items.push(element);
   }
 
+//creating pop method
   pop() {
     return this.items.pop();
   }
 
+  //creating printStack method
   printStack() {
     console.log(this.items);
   }
 }
 
+//creating Stack object
 const stack = new Stack();
 stack.push(1);
 stack.push(2);
