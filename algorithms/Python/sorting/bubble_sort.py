@@ -1,6 +1,7 @@
 arr = [23, 34, 25, 12, 54, 11, 90]
 
-
+# time complexity: O(n^2)
+# space complexity: O(1)
 def bubbleSort(arr):
     """
     >>> bubbleSort(arr)
