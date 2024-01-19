@@ -1,7 +1,8 @@
 """
 https://en.wikipedia.org/wiki/Karatsuba_algorithm
 """
-
+# time complexity: O(n^1.59)
+# space complexity: O(n)
 
 def equalize_strings(x_value, y_value):
     """
@@ -40,7 +41,6 @@ def add_function(x_value, y_value):
         dgt3 = (dgt1 + dgt2 + carry) % 10
         result = str(dgt3) + result
         carry = int((dgt1 + dgt2 + carry) / 10)
-        # print(dgt1, dgt2, dgt3, result, carry)
 
     if carry:
         result = '1' + result
@@ -61,9 +61,6 @@ def absolute_difference(x_value, y_value):
     for i in range(size):
         if y_value[i] <= x_value[i]:
             break
-        #tmp = x_value
-        #x_value = y_value
-        #y_value = tmp
         x_value, y_value = y_value, x_value
         break
 
@@ -78,7 +75,6 @@ def absolute_difference(x_value, y_value):
         else:
             carry = 0
         result = str(dgt3) + result
-
     return result
 
 
