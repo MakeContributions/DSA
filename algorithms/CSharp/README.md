@@ -36,6 +36,7 @@ To run the `.cs` file, kindly use [.Net Finddle](https://dotnetfiddle.net/)
 - [Binary Search](src/Search/binary-search.cs)
 - [Linear Search](src/Search/linear-search.cs)
 - [Minima Maxima](src/Search/minima-maxima.cs)
+- [Interpolation Search](src/Search/interpolation-search.cs)
 
 ## Maths
 
