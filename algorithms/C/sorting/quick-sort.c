@@ -58,4 +58,8 @@ int main()
 /*
 Output:
 1 2 3 4 5 6
+
+Complexity:
+Worst case time complexity = O(n^2)
+Average case time complexity = O(n log n) = Best case time complexity
 */
