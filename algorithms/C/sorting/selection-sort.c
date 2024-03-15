@@ -1,13 +1,15 @@
 
 #include <stdio.h>
- 
+
+// Function to swap two elements
 void swap(int *x, int *y)
 {
     int t = *x;
     *x = *y;
     *y = t;
 }
- 
+
+// Function to perform selection sort
 void selectionSort(int a[], int n)
 {
    int i, j;
@@ -19,7 +21,8 @@ void selectionSort(int a[], int n)
        }
    }    
 }
- 
+
+// Function to print an array
 void printArray(int a[], int size)
 {
     int i;
@@ -28,6 +31,7 @@ void printArray(int a[], int size)
     }
 }
 
+// Main function
 int main()
 {
     int a[] = {64, 25, 25, 12, 22, 11, 90};
@@ -39,3 +43,14 @@ int main()
     printArray(a, n);
     return 0;
 }
+
+/*
+Output:
+Initial array:
+64 25 25 12 22 11 90
+Sorted array:
+11 12 22 25 25 64 90
+
+Complexity:
+Worst case time complexity = Best case time complexity = Average case time complexity = O(n^2)
+*/
