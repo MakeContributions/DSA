@@ -86,3 +86,5 @@ void mergeSort(int a[], int l, int r)
         merging(a, l, m, r);
     }
 }
+
+// Time Complexity: O(n log n)
