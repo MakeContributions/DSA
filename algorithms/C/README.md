@@ -16,6 +16,7 @@
 - [Add and Subtract](bit-manipulation/add-and-sub-bitwise.c)
 - [Multiply](bit-manipulation/multiply-bitwise.c)
 - [Divide bitwise](bit-manipulation/divide-bitwise.c)
+- [Bit Array] (bit-manipulation/bit-array.c)
 
 ## Graphs
 
